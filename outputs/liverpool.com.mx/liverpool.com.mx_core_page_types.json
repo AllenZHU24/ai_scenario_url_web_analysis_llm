@@ -1,0 +1,366 @@
+{
+  "generation_time": "2025-07-01 02:53:22",
+  "company_url": "liverpool.com.mx",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/tienda/store/*",
+          "/tiendas",
+          "/localizador-de-tiendas"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Information",
+        "typical_url_patterns": [
+          "/acerca-de-liverpool/*",
+          "/institucional/*",
+          "/corporativo"
+        ]
+      },
+      {
+        "type_name": "Blog / Magazine / Lookbook",
+        "typical_url_patterns": [
+          "/magazine/*",
+          "/blog/*",
+          "/lookbook/*"
+        ]
+      },
+      {
+        "type_name": "Brand Directory",
+        "typical_url_patterns": [
+          "/marcas",
+          "/tienda/brand/*"
+        ]
+      },
+      {
+        "type_name": "Seasonal Campaign Landing Page",
+        "typical_url_patterns": [
+          "/hot-sale",
+          "/buen-fin",
+          "/venta-nocturna",
+          "/navidad"
+        ]
+      },
+      {
+        "type_name": "Financial Services Hub (Credit Card)",
+        "typical_url_patterns": [
+          "/tienda/credito/*",
+          "/servicios-financieros/*",
+          "/tarjetas"
+        ]
+      },
+      {
+        "type_name": "Travel Services Hub",
+        "typical_url_patterns": [
+          "/viajes/*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Department Landing Page",
+        "typical_url_patterns": [
+          "/tienda/home/*",
+          "/tienda/departamentos/*"
+        ]
+      },
+      {
+        "type_name": "Main Category Page (PLP)",
+        "typical_url_patterns": [
+          "/tienda/ropa/*",
+          "/tienda/muebles/*",
+          "/tienda/celulares/*"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (PLP)",
+        "typical_url_patterns": [
+          "/tienda/ropa/dama/*",
+          "/tienda/muebles/salas/*",
+          "/tienda/browse/*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/tienda/search*",
+          "/busqueda*",
+          "*Ntt=*",
+          "*Ntk=*"
+        ]
+      },
+      {
+        "type_name": "Promotions & Offers Hub",
+        "typical_url_patterns": [
+          "/promociones",
+          "/ofertas",
+          "/descuentos"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/lo-nuevo",
+          "/novedades"
+        ]
+      },
+      {
+        "type_name": "Clearance / Outlet Page",
+        "typical_url_patterns": [
+          "/liquidaciones",
+          "/outlet"
+        ]
+      },
+      {
+        "type_name": "Gift Ideas / Finder Page",
+        "typical_url_patterns": [
+          "/regalos/*",
+          "/buscador-de-regalos"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/tienda/pdp/*",
+          "/app/pdp/*",
+          "/producto/*",
+          "/detalle/*",
+          "*skuId=*"
+        ]
+      },
+      {
+        "type_name": "Product Reviews Page/Section",
+        "typical_url_patterns": [
+          "*/reviews",
+          "*/opiniones",
+          "#reviews"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/tienda/comparator/*",
+          "/comparar"
+        ]
+      },
+      {
+        "type_name": "Buying Guides / Size Charts",
+        "typical_url_patterns": [
+          "/guias-de-compra/*",
+          "/guia-de-tallas"
+        ]
+      },
+      {
+        "type_name": "Gift Registry Hub",
+        "typical_url_patterns": [
+          "/mesa-de-regalos/*"
+        ]
+      },
+      {
+        "type_name": "Gift Registry Search/Find",
+        "typical_url_patterns": [
+          "/mesa-de-regalos/buscar",
+          "/mesa-de-regalos/encuentra"
+        ]
+      },
+      {
+        "type_name": "Gift Registry Create/Manage",
+        "typical_url_patterns": [
+          "/mesa-de-regalos/crear",
+          "/mesa-de-regalos/administrar"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/tienda/cart",
+          "/checkout/cart/*",
+          "/mi-bolsa"
+        ]
+      },
+      {
+        "type_name": "Checkout - Start / Login",
+        "typical_url_patterns": [
+          "/checkout/onepage",
+          "/checkout/login",
+          "/comprar/inicio"
+        ]
+      },
+      {
+        "type_name": "Checkout - Shipping",
+        "typical_url_patterns": [
+          "/checkout/shipping",
+          "/comprar/direccion-de-envio"
+        ]
+      },
+      {
+        "type_name": "Checkout - Payment",
+        "typical_url_patterns": [
+          "/checkout/payment",
+          "/comprar/pago"
+        ]
+      },
+      {
+        "type_name": "Checkout - Order Review",
+        "typical_url_patterns": [
+          "/checkout/review",
+          "/comprar/resumen-de-compra"
+        ]
+      },
+      {
+        "type_name": "Checkout - Gift Options",
+        "typical_url_patterns": [
+          "/checkout/giftoptions/*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You Page",
+        "typical_url_patterns": [
+          "/checkout/onepage/success",
+          "/orden/confirmacion",
+          "/gracias-por-tu-compra"
+        ]
+      },
+      {
+        "type_name": "Order History List",
+        "typical_url_patterns": [
+          "/sales/order/history",
+          "/customer/account/orders",
+          "/mi-cuenta/pedidos"
+        ]
+      },
+      {
+        "type_name": "Specific Order Details",
+        "typical_url_patterns": [
+          "/sales/order/view/*",
+          "/mi-cuenta/pedidos/detalle/*"
+        ]
+      },
+      {
+        "type_name": "Order Tracking Page",
+        "typical_url_patterns": [
+          "/seguimiento-de-pedido",
+          "/rastrea-tu-pedido"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/ayuda/devoluciones",
+          "/politicas/devoluciones-y-cambios"
+        ]
+      },
+      {
+        "type_name": "Electronic Invoicing (Facturación)",
+        "typical_url_patterns": [
+          "/facturacion/*",
+          "/facturacion-electronica"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/",
+          "/mi-cuenta"
+        ]
+      },
+      {
+        "type_name": "Account - Personal Information",
+        "typical_url_patterns": [
+          "/customer/account/edit",
+          "/mi-cuenta/datos-personales"
+        ]
+      },
+      {
+        "type_name": "Account - Address Book",
+        "typical_url_patterns": [
+          "/customer/address",
+          "/mi-cuenta/direcciones"
+        ]
+      },
+      {
+        "type_name": "Account - Payment Methods",
+        "typical_url_patterns": [
+          "/customer/account/cards",
+          "/mi-cuenta/metodos-pago"
+        ]
+      },
+      {
+        "type_name": "Account - Wishlist",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/mi-cuenta/wishlist"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Information",
+        "typical_url_patterns": [
+          "/monedero-electronico",
+          "/programa-lealtad"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase / Balance Check",
+        "typical_url_patterns": [
+          "/tarjetas-de-regalo",
+          "/giftcard/"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Help Center",
+        "typical_url_patterns": [
+          "/ayuda",
+          "/centro-de-ayuda",
+          "/contactanos"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/ayuda/preguntas-frecuentes",
+          "/faq"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page/Portal",
+        "typical_url_patterns": [
+          "/newsletter/subscribe",
+          "/boletin"
+        ]
+      },
+      {
+        "type_name": "Careers / Jobs",
+        "typical_url_patterns": [
+          "/bolsa-de-trabajo",
+          "/unete-al-equipo",
+          "/carreras"
+        ]
+      },
+      {
+        "type_name": "Legal / Privacy Policy / T&C",
+        "typical_url_patterns": [
+          "/terminos-y-condiciones",
+          "/aviso-de-privacidad",
+          "/legal"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

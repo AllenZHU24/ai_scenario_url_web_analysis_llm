@@ -1,0 +1,337 @@
+{
+  "generation_time": "2025-06-28 22:58:48",
+  "company_url": "avery.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Ideas & Inspiration Hub",
+        "typical_url_patterns": [
+          "/ideas/"
+        ]
+      },
+      {
+        "type_name": "Inspiration Gallery",
+        "typical_url_patterns": [
+          "/ideas/galleries",
+          "/ideas/galleries/{theme}"
+        ]
+      },
+      {
+        "type_name": "Marketing Campaign Landing Page",
+        "typical_url_patterns": [
+          "/campaign/{campaign-name}"
+        ]
+      },
+      {
+        "type_name": "About Us / Company Information",
+        "typical_url_patterns": [
+          "/about-us",
+          "/company"
+        ]
+      },
+      {
+        "type_name": "Press / Newsroom",
+        "typical_url_patterns": [
+          "/press",
+          "/news"
+        ]
+      },
+      {
+        "type_name": "Corporate Responsibility / Sustainability",
+        "typical_url_patterns": [
+          "/sustainability",
+          "/corporate-responsibility"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "All Products Landing Page",
+        "typical_url_patterns": [
+          "/category/products/",
+          "/products/"
+        ]
+      },
+      {
+        "type_name": "Blank Labels Landing Page",
+        "typical_url_patterns": [
+          "/blank",
+          "/blank/"
+        ]
+      },
+      {
+        "type_name": "Custom Printing Service Hub",
+        "typical_url_patterns": [
+          "/custom-printing",
+          "/weprint/landing.shtml"
+        ]
+      },
+      {
+        "type_name": "Software & Design Tools Hub",
+        "typical_url_patterns": [
+          "/software/",
+          "/software/design-and-print/"
+        ]
+      },
+      {
+        "type_name": "Templates Hub",
+        "typical_url_patterns": [
+          "/templates"
+        ]
+      },
+      {
+        "type_name": "Product Line Category (e.g., Binders, Dividers)",
+        "typical_url_patterns": [
+          "/products/binders",
+          "/products/dividers",
+          "/products/tabs"
+        ]
+      },
+      {
+        "type_name": "Labels Main Category",
+        "typical_url_patterns": [
+          "/products/labels"
+        ]
+      },
+      {
+        "type_name": "Cards Main Category",
+        "typical_url_patterns": [
+          "/products/cards/",
+          "/custom-printing/cards/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Listing Page (PLP) - by Material",
+        "typical_url_patterns": [
+          "/category/material/{material-name}/"
+        ]
+      },
+      {
+        "type_name": "Product Listing Page (PLP) - by Shape",
+        "typical_url_patterns": [
+          "/category/shape/{shape-name}/"
+        ]
+      },
+      {
+        "type_name": "Product Listing Page (PLP) - by Usage",
+        "typical_url_patterns": [
+          "/category/usage/{usage-name}/",
+          "/products/labels/usage/{usage-name}"
+        ]
+      },
+      {
+        "type_name": "Product Listing Page (PLP) - All Attributes",
+        "typical_url_patterns": [
+          "/category/{attribute}/all-{attribute}-{type}/"
+        ]
+      },
+      {
+        "type_name": "Custom Printing Product Sub-Category",
+        "typical_url_patterns": [
+          "/custom-printing/{product-type}/"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-id}",
+          "/p/{product-sku}"
+        ]
+      },
+      {
+        "type_name": "Custom Product Configurator / Calculator",
+        "typical_url_patterns": [
+          "/custom-printing/{...}/calculator/{...}"
+        ]
+      },
+      {
+        "type_name": "Template Detail Page",
+        "typical_url_patterns": [
+          "/templates/{template-id}"
+        ]
+      },
+      {
+        "type_name": "Help / FAQ Center",
+        "typical_url_patterns": [
+          "/help",
+          "/faq",
+          "/support"
+        ]
+      },
+      {
+        "type_name": "Free Samples Page",
+        "typical_url_patterns": [
+          "/samples",
+          "/free-samples"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare",
+          "/products/compare"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/s?q={query}",
+          "/search?k={query}"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/shopping-cart",
+          "/basket"
+        ]
+      },
+      {
+        "type_name": "Checkout Funnel",
+        "typical_url_patterns": [
+          "/checkout/",
+          "/checkout/{step}"
+        ]
+      },
+      {
+        "type_name": "Login / Registration Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/register"
+        ]
+      },
+      {
+        "type_name": "Promotions / Coupons Page",
+        "typical_url_patterns": [
+          "/deals",
+          "/coupons",
+          "/offers"
+        ]
+      },
+      {
+        "type_name": "Store Locator / Where to Buy",
+        "typical_url_patterns": [
+          "/stores",
+          "/where-to-buy"
+        ]
+      },
+      {
+        "type_name": "Quote Request Page",
+        "typical_url_patterns": [
+          "/quote",
+          "/request-quote"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You Page",
+        "typical_url_patterns": [
+          "/checkout/success",
+          "/order/confirmation"
+        ]
+      },
+      {
+        "type_name": "Account - Order History",
+        "typical_url_patterns": [
+          "/account/orders"
+        ]
+      },
+      {
+        "type_name": "Account - Order Details",
+        "typical_url_patterns": [
+          "/account/orders/{order-id}"
+        ]
+      },
+      {
+        "type_name": "Track Order Page",
+        "typical_url_patterns": [
+          "/track-order",
+          "/order-status"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/shipping",
+          "/delivery-info"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy Page",
+        "typical_url_patterns": [
+          "/returns",
+          "/return-policy"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/my-account"
+        ]
+      },
+      {
+        "type_name": "Account - Saved Projects / Designs",
+        "typical_url_patterns": [
+          "/account/projects",
+          "/my-designs"
+        ]
+      },
+      {
+        "type_name": "Account - Reorder Function",
+        "typical_url_patterns": [
+          "/account/reorder"
+        ]
+      },
+      {
+        "type_name": "Account - Profile / Address Book",
+        "typical_url_patterns": [
+          "/account/profile",
+          "/account/addresses"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Landing Page",
+        "typical_url_patterns": [
+          "/newsletter",
+          "/subscribe"
+        ]
+      },
+      {
+        "type_name": "Loyalty / Rewards Program",
+        "typical_url_patterns": [
+          "/rewards",
+          "/loyalty"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact",
+          "/contact-us"
+        ]
+      },
+      {
+        "type_name": "Write a Review Page",
+        "typical_url_patterns": [
+          "/review/write/{product-id}"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

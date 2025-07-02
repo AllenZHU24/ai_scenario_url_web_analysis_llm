@@ -1,0 +1,373 @@
+{
+  "generation_time": "2025-06-30 20:29:05",
+  "company_url": "hsn.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Live TV Stream",
+        "typical_url_patterns": [
+          "/watch/live",
+          "/watch-hsn-live_xh.aspx"
+        ]
+      },
+      {
+        "type_name": "Program Guide",
+        "typical_url_patterns": [
+          "/watch/program-guide",
+          "/program-guide_xh.aspx"
+        ]
+      },
+      {
+        "type_name": "Brand Story & Content Hubs",
+        "typical_url_patterns": [
+          "/content/{story-name}/{id}",
+          "/content/SocialHub/{id}"
+        ]
+      },
+      {
+        "type_name": "Show Host Information",
+        "typical_url_patterns": [
+          "/content/SH0WH0STS/{id}",
+          "/show-hosts_at-{id}_xa.aspx"
+        ]
+      },
+      {
+        "type_name": "Channel Finder",
+        "typical_url_patterns": [
+          "/watch/channel-finder",
+          "/content/ChannelFinder/{id}",
+          "/cnt/channelfinder/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Corporate Information",
+        "typical_url_patterns": [
+          "/Article/become-an-affiliate/{id}",
+          "/become-a-hsn-vendor_at-{id}_xa.aspx",
+          "/careers_at-{id}_xa.aspx"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/shop/{category-name}/{category-id}",
+          "/{category-name}/_c-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/shop/{sub-category-name}/{sub-category-id}",
+          "/{category-name}/{sub-category-name}_c-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/shop/{brand-name}/{id}",
+          "/{brand-name}/{brand-name}_c-{category-id}_a-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "All Brands Directory",
+        "typical_url_patterns": [
+          "/brands",
+          "/brands/by-category/{category-id}",
+          "/{path}/brand-directory_c-{id}_d-1_xd.aspx"
+        ]
+      },
+      {
+        "type_name": "Today's Special / Daily Deal",
+        "typical_url_patterns": [
+          "/todays-special",
+          "/todays-special_xh.aspx",
+          "/this-day-only_xh.aspx"
+        ]
+      },
+      {
+        "type_name": "Clearance & Sale Hub",
+        "typical_url_patterns": [
+          "/shop/clearance/{id}",
+          "/shop/sale/{id}",
+          "/sale_b-{id}_xb.aspx"
+        ]
+      },
+      {
+        "type_name": "Clearance Category Page",
+        "typical_url_patterns": [
+          "/shop/clearance-{category-name}/{category-id}-{clearance-id}",
+          "/{category-name}/clearance_c-{id}_a-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Hub",
+        "typical_url_patterns": [
+          "/shop/new/{id}",
+          "/new-arrivals/_c-na_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Category Page",
+        "typical_url_patterns": [
+          "/shop/new-{category-name}/{category-id}-{new-id}",
+          "/{category-name}/new-arrivals_c-{id}_a-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "Themed & Curated Shop",
+        "typical_url_patterns": [
+          "/shop/{theme-name}/{theme-id}",
+          "/content/{theme-name}/{theme-id}"
+        ]
+      },
+      {
+        "type_name": "Items Recently Aired",
+        "typical_url_patterns": [
+          "/watch/items-recently-aired",
+          "/items-recently-aired_xh.aspx"
+        ]
+      },
+      {
+        "type_name": "Gift Guide / Store",
+        "typical_url_patterns": [
+          "/shop/gift-store/{id}",
+          "/shop/gifts/{id}",
+          "/hsn-gift-store/_c-hg_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "Customer Picks Category",
+        "typical_url_patterns": [
+          "/shop/customer-picks-{category-name}/{category-id}-{picks-id}",
+          "/customer-picks_b-{id}_xb.aspx"
+        ]
+      },
+      {
+        "type_name": "FlexPay Filtered Category",
+        "typical_url_patterns": [
+          "/shop/{category-name}-flexpay/{category-id}-{flexpay-id}",
+          "/flex_a-{id}-{id}_xc.aspx"
+        ]
+      },
+      {
+        "type_name": "Free Shipping Filtered Category",
+        "typical_url_patterns": [
+          "/shop/{category-name}-free-shipping/{category-id}-{shipping-id}",
+          "/free-shipping_b-{id}_xb.aspx"
+        ]
+      },
+      {
+        "type_name": "Sitemap / Store Directory",
+        "typical_url_patterns": [
+          "/store-directory",
+          "/article/site-map/{id}",
+          "/hsn-com-site-map_at-{id}_xa.aspx"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-name}/{product-id}",
+          "/{product-name}_p-{id}_xp.aspx",
+          "/{product-name}_pf-{id}_xp.aspx"
+        ]
+      },
+      {
+        "type_name": "Buying Guide",
+        "typical_url_patterns": [
+          "/content/{topic}BuyingGuide/{id}",
+          "/content/{topic}-Guide/{id}"
+        ]
+      },
+      {
+        "type_name": "Editorial & Blog Content",
+        "typical_url_patterns": [
+          "/article/{article-name}/{id}",
+          "/content/{content-name}/{id}",
+          "/hsn-community-blogs-forums-stories_xx.aspx"
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/gift-cards/{card-name}_p-{id}_xp.aspx"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Bag / Cart",
+        "typical_url_patterns": [
+          "/checkout/bag",
+          "/shoppingbag",
+          "/cmr/shopping_cart/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Sign In",
+        "typical_url_patterns": [
+          "/signin"
+        ]
+      },
+      {
+        "type_name": "Create Account",
+        "typical_url_patterns": [
+          "/account/create"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/checkout/{step}"
+        ]
+      },
+      {
+        "type_name": "Gift Card Hub",
+        "typical_url_patterns": [
+          "/shop/gift-cards/{id}",
+          "/content/GiftCards/{id}"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status",
+        "typical_url_patterns": [
+          "/myaccount/order-status",
+          "/cs/orderstatus/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Single Order Details",
+        "typical_url_patterns": [
+          "/myaccount/single-order"
+        ]
+      },
+      {
+        "type_name": "Returns Information",
+        "typical_url_patterns": [
+          "/myaccount/orders/trackeasyreturns"
+        ]
+      },
+      {
+        "type_name": "General FAQ / Help",
+        "typical_url_patterns": [
+          "/faqs",
+          "/cs/faqs/default.aspx",
+          "/cs/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Specific FAQ / Contact",
+        "typical_url_patterns": [
+          "/faqs?faqId={id}",
+          "/faqs?slug=contactus",
+          "/Article/how-to-contact-hsn/{id}"
+        ]
+      },
+      {
+        "type_name": "Policy Pages (Privacy, T&C, etc.)",
+        "typical_url_patterns": [
+          "/article/{policy-name}/{id}",
+          "/content/PrivacyPolicy/{id}",
+          "/cs/privacy_policy/default.aspx",
+          "/article/terms-and-conditions/{id}"
+        ]
+      },
+      {
+        "type_name": "Product Recall Information",
+        "typical_url_patterns": [
+          "/Article/recall-information/{id}",
+          "/product-safety-information_at-{id}_xa.aspx"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Hub",
+        "typical_url_patterns": [
+          "/myaccount",
+          "/profile",
+          "/myaccount/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Account Management (Profile/Payment)",
+        "typical_url_patterns": [
+          "/myaccount/update",
+          "/myaccount/update/payment"
+        ]
+      },
+      {
+        "type_name": "Wish List",
+        "typical_url_patterns": [
+          "/wish-list_xh.aspx"
+        ]
+      },
+      {
+        "type_name": "Alerts & Communication Preferences",
+        "typical_url_patterns": [
+          "/myaccount/alerts",
+          "/myaccount/communicationpreferences",
+          "/cust/emailalerts/default.aspx"
+        ]
+      },
+      {
+        "type_name": "Auto-Ship Manager",
+        "typical_url_patterns": [
+          "/myaccount/autoship"
+        ]
+      },
+      {
+        "type_name": "Auto-Ship Category Page",
+        "typical_url_patterns": [
+          "/shop/auto-ship-{category-name}/{category-id}-{autoship-id}",
+          "/autoship_b-{id}_xb.aspx"
+        ]
+      },
+      {
+        "type_name": "FlexPay Manager",
+        "typical_url_patterns": [
+          "/myaccount/flexpay-manager"
+        ]
+      },
+      {
+        "type_name": "Spendable Ka$h (Loyalty)",
+        "typical_url_patterns": [
+          "/myaccount/spendablekash"
+        ]
+      },
+      {
+        "type_name": "HSN Credit Card Information",
+        "typical_url_patterns": [
+          "/content/HSNCards/{id}",
+          "/content/Pay_Your_Bill/{id}",
+          "/myaccount/creditcard/PC"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend Program",
+        "typical_url_patterns": [
+          "/content/Refer-a-Friend/{id}"
+        ]
+      },
+      {
+        "type_name": "Mobile App Information",
+        "typical_url_patterns": [
+          "/content/MobileApp_Information_Page/{id}"
+        ]
+      }
+    ]
+  },
+  "total_types": 50
+}

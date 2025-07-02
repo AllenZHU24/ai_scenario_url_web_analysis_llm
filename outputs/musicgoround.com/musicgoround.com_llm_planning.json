@@ -1,0 +1,3323 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "musicgoround.com",
+  "export_time": "2025-07-01 10:52:47",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-01 05:25:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 37,
+      "valid_content_urls_count": 37,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/about-us.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/locations.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/new-gear.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/used-guitars.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/reviews.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/return_policy.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/cash-for-gear.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/make-a-trade.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/shipping.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/contact_us.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/privacy_policy.aspx",
+        "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/my-music-go-round.aspx"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/about-us.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page helps build trust and connection with customers by sharing the brand's story."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/locations.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Customers can find nearby locations, enhancing their interest in visiting a store."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/new-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "This page showcases new and used gear, attracting customers looking to explore products."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/used-guitars.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "A specific category page that targets customers interested in used guitars."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/reviews.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Customer reviews help potential buyers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/return_policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are crucial for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/cash-for-gear.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "This page facilitates the decision-making process for customers looking to sell or trade-in gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/make-a-trade.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Another option for customers to engage in trade-ins, reinforcing decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Shipping policies are vital for customers to understand delivery options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/contact_us.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "A contact page is essential for customer support and retention efforts."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/privacy_policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Privacy policies are important for building trust and retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/my-music-go-round.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "A customer account dashboard enhances user experience and retention by providing personalized access."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/privacy_policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/investment-requirements.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/most-wanted.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Wanted Gear List"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/cash-for-gear.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/make-a-trade.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/own-a-music-go-round.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/all-locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/new-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/franchise-support.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/used-guitars.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/reviews.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/the-brand.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/site_map.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/contact_us.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/conditions_of_use.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/gear-grabber.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gear Alerts (\"Gear Grabber\")"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/my-music-go-round.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/how-we-buy-used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com:80/about-us.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20090901210230/http://www.musicgoround.com/return_policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-01 05:26:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 37,
+      "valid_content_urls_count": 37,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/about-us.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/franchise-information.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/most-wanted.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/gear-grabber.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/new-gear.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/shipping.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/return_policy.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/reviews.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/cash-for-gear.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/make-a-trade.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/my-music-go-round.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/contact_us.aspx",
+        "https://web.archive.org/web/20101220205946/http://musicgoround.com/privacy_policy.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/about-us.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page helps build brand trust and awareness by sharing the company's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/franchise-information.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Franchise Information",
+            "selection_reason": "Provides potential franchisees with crucial information, enhancing brand expansion."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/most-wanted.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Most Wanted Gear List",
+            "selection_reason": "Engages customers by showcasing popular items, driving interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/gear-grabber.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gear Alerts (\"Gear Grabber\")",
+            "selection_reason": "Encourages customer engagement by notifying them of desired gear availability."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/new-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "Highlights new and used gear, attracting customers looking for specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/return_policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clarifies return procedures, helping customers feel secure in their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/reviews.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Provides social proof through customer feedback, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/cash-for-gear.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Facilitates customer decisions by providing options for selling or trading gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/make-a-trade.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Encourages customers to finalize their decision by offering a straightforward trading process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/my-music-go-round.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Enhances customer retention by providing a personalized account experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/contact_us.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support and communication, crucial for retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/privacy_policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/all-locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/contact_us.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/most-wanted.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Wanted Gear List"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/conditions_of_use.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/investment-requirements.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/gear-grabber.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gear Alerts (\"Gear Grabber\")"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/site_map.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/about-us.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/new-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/my-music-go-round.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://www.musicgoround.com/franchisee_testimonials.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Testimonials"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/franchise-support.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/how-we-buy-used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/cash-for-gear.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/used-guitars.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/own-a-music-go-round.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/make-a-trade.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/return_policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/the-brand.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/reviews.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20101220205946/http://musicgoround.com/privacy_policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-01 05:26:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 44,
+      "valid_content_urls_count": 44,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/about-us.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-guitars.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-gear.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/make-a-trade.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com/shipping.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com/return_policy.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com/contact_us.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/my-music-go-round.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com/privacy_policy.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/locations.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/reviews.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/gear-grabber.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/how-we-buy-used-gear.aspx",
+        "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/careers.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/about-us.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page helps customers understand the brand's mission and values, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-guitars.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "This category showcases a key product offering, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "This page provides a comprehensive view of available products, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/make-a-trade.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "This page is crucial for customers looking to trade in their gear, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Clear shipping policies are essential for customer confidence during the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/return_policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "A transparent return policy is vital for customer assurance and decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/contact_us.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "This page facilitates customer support and engagement, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/my-music-go-round.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "This dashboard enhances customer experience by providing personalized account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/privacy_policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy builds trust and is essential for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/locations.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "This page helps customers find physical locations, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/reviews.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Customer reviews provide social proof, influencing potential buyers' decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/gear-grabber.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gear Alerts (\"Gear Grabber\")",
+            "selection_reason": "This feature keeps customers informed about new gear, maintaining their interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/how-we-buy-used-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "How It Works / Buying Process",
+            "selection_reason": "This page educates customers on the buying process, enhancing their understanding and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/careers.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "This page attracts potential employees, contributing to the brand's growth and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-guitars.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/franchise_faqs.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/news.aspx?id=Rock-and-Roll-Hall-of-Fame-announces-2012-inductees",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/contact_us.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/site_map.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/all-locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/make-a-trade.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/my-music-go-round.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/conditions_of_use.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/the-brand.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/privacy_policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/franchise-support.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://www.musicgoround.com/franchisee_testimonials.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Testimonials"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/investment-requirements.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/gear-grabber.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gear Alerts (\"Gear Grabber\")"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/own-a-music-go-round.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/news.aspx?id=Park-named-after-guitar-legend-to-open-in-Seattle",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/franchisee_testimonials.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Testimonials"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/news.aspx?id=Beatles-used-guitar-amp-to-be-auctioned-off",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/reviews.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/most-wanted.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Wanted Gear List"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/how-we-buy-used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com/return_policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/new-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/about-us.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219041047/http://musicgoround.com:80/cash-for-gear.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-01 05:27:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 43,
+      "valid_content_urls_count": 43,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/about-us.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/how-we-buy-used-gear.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/used-gear.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/make-a-trade.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/shipping.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/return_policy.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/contact_us.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/privacy_policy.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/reviews.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/locations.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/most-wanted.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/franchisee_testimonials.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/careers.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/gear-grabber.aspx",
+        "https://web.archive.org/web/20121206193152/http://musicgoround.com/my-music-go-round.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/about-us.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "Provides essential information about the brand, fostering initial customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/how-we-buy-used-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "How It Works / Buying Process",
+            "selection_reason": "Explains the buying process, engaging customers who are interested in selling or trading gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/used-gear.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "Showcases available products, attracting customers looking to purchase used gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/make-a-trade.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Facilitates the decision-making process for customers looking to trade in their gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, aiding in their consideration of purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/return_policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clarifies return policies, which is crucial for customers evaluating their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/contact_us.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing customer support and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/privacy_policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining how their data is handled."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/reviews.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Offers social proof through customer reviews, influencing potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/locations.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find nearby stores, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/most-wanted.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Most Wanted Gear List",
+            "selection_reason": "Highlights popular items, attracting interest from potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/franchisee_testimonials.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Franchise Testimonials",
+            "selection_reason": "Provides testimonials that can attract potential franchisees and enhance brand credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/careers.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Engages potential employees, contributing to brand awareness and company growth."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/gear-grabber.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gear Alerts (\"Gear Grabber\")",
+            "selection_reason": "Encourages customer engagement by allowing them to sign up for alerts on desired gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/my-music-go-round.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Enhances customer retention by providing a personalized account experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/about-us.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/conditions_of_use.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/how-we-buy-used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/news.aspx?id=Want-to-help-your-favorite-artist-get-inducted-into-the-Rock-and-Roll-Hall-of-Fame",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/investment-requirements.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/all-locations.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/own-a-music-go-round.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/contact_us.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/franchise_faqs.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/used-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/most-wanted.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Wanted Gear List"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/franchisee_testimonials.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Testimonials"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/new-gear.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/franchise-support.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/site_map.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/news.aspx?id=Paul-Simon-auctions-private-guitar-lesson",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/make-a-trade.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/gear-grabber.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gear Alerts (\"Gear Grabber\")"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/privacy_policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/the-brand.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/used-guitars.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/reviews.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/my-music-go-round.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/return_policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/cash-for-gear.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://musicgoround.com/news.aspx?id=Can-a-video-game-teach-you-how-to-play-a-guitar",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121206193152/http://www.musicgoround.com/franchisee_testimonials.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Testimonials"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 05:27:25",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 158,
+      "valid_content_urls_count": 158,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Own",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/19/guitars",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/66/cymbals",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/51/electric-guitars",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/how-it-works",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/shipping-policy",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/return-policy",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/login",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/register",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/cart",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/contact-us",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/privacy-policy",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/conditions-of-use",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Locations",
+        "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/sell-us-your-gear"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 16,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Own",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Franchise Opportunity Hub",
+            "selection_reason": "Highlights business opportunities, attracting potential franchisees and increasing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/19/guitars",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "Provides a broad category of products, essential for customers exploring guitar options."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/66/cymbals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sub-Category",
+            "selection_reason": "Focuses on a specific product category, helping customers narrow down their interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/51/electric-guitars",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sub-Category",
+            "selection_reason": "Targets customers specifically interested in electric guitars, enhancing product discovery."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/how-it-works",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "How It Works / Buying Process",
+            "selection_reason": "Educates customers on the buying process, increasing confidence and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/shipping-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping details, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/return-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clarifies return options, which can influence purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login",
+            "selection_reason": "Facilitates customer access to their accounts, essential for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration",
+            "selection_reason": "Encourages new customers to create accounts, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with support options, enhancing customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/conditions-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms of service, important for customer trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Locations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations, enhancing local engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/sell-us-your-gear",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Encourages customers to trade in gear, promoting additional sales opportunities."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/how-it-works?autoplay=True",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/66/cymbals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/return-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/19/guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/conditions-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Own",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/c/51/electric-guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/how-it-works",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/shipping-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/Locations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226063334/http://www.musicgoround.com/sell-us-your-gear",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 05:27:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141221134942/http://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141221134942/http://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141221134942/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-01 05:27:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 174,
+      "valid_content_urls_count": 174,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Home/AboutUs",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Locations",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/how-it-works",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/19/guitars",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/66/cymbals",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/sell-us-your-gear",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/cart",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/login",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/register",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/return-policy",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/shipping-policy",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/privacy-policy",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/contact-us",
+        "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/conditions-of-use"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Home/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "Provides valuable information about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Locations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/how-it-works",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "How It Works / Buying Process",
+            "selection_reason": "Educates customers on the purchasing process, increasing confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/19/guitars",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "Directs customers to a major product category, facilitating exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/66/cymbals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sub-Category",
+            "selection_reason": "Allows customers to delve into specific product sub-categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/sell-us-your-gear",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Encourages customers to engage in selling or trading gear."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login",
+            "selection_reason": "Facilitates access to customer accounts for a personalized experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration",
+            "selection_reason": "Encourages new customers to create accounts for better service."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/return-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about return options, reducing purchase anxiety."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/shipping-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Clarifies shipping details, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a channel for customer support and feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/conditions-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Informs customers about the terms governing their use of the site."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Locations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Home/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/Own",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/sell-us-your-gear",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/return-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/how-it-works?autoplay=True",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/conditions-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/OriginalandUnsigned",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Community Content"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/shipping-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/66/cymbals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/how-it-works",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/19/guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/c/51/electric-guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928070553/http://www.musicgoround.com/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-01 05:27:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 4,
+      "valid_content_urls_count": 4,
+      "recommended_crawl_pages": [
+        "http://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "http://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202232050/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-01 05:28:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 215,
+      "valid_content_urls_count": 215,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/about-us",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/faq",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/return-policy",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/shipping-policy",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/19/guitars",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/66/cymbals",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/Locations",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/how-it-works",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/sell-us-your-gear",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/cart",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/customer/info",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/privacy-policy",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/conditions-of-use",
+        "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/contact-us"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page helps build brand trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/faq",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "The FAQ page addresses common customer inquiries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/return-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are crucial for customer confidence and can influence purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/shipping-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Shipping information is vital for customers to understand delivery times and costs before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/19/guitars",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "This category page helps customers explore a major product line, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/66/cymbals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sub-Category",
+            "selection_reason": "Sub-category pages allow customers to narrow down their interests and find specific products more easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/Locations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "The store locator is essential for customers looking to visit physical locations, enhancing local engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/how-it-works",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "How It Works / Buying Process",
+            "selection_reason": "This page educates customers on the purchasing process, making it easier for them to engage with the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/sell-us-your-gear",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "This page is crucial for customers looking to sell or trade in their gear, influencing their decision to engage with the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is a critical component of the purchasing process, where customers finalize their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/customer/info",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "This page allows customers to track their orders, which is essential for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy builds trust with customers by informing them about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/conditions-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Terms of use are important for legal clarity and customer understanding of their rights and responsibilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "The contact page is vital for customer support and engagement, allowing customers to reach out with inquiries."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/return-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/Own",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/Locations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/66/cymbals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/conditions-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/customer/info",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/51/electric-guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/http://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/sell-us-your-gear",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/how-it-works",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "How It Works / Buying Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/c/19/guitars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/faq",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/shipping-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171105183051/https://www.musicgoround.com/logout",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Logout"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-01 05:28:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181226201153/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181226201153/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181226201153/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-01 05:28:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191211164918/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191211164918/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191211164918/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-01 05:28:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201224204551/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201224204551/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201224204551/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-01 05:28:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211207123727/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211207123727/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211207123727/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-01 05:28:21",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221206073102/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221206073102/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221206073102/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-01 05:28:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231202013529/https://www.musicgoround.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231202013529/https://www.musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings, which is essential for creating initial awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231202013529/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 05:28:43",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 101,
+      "valid_content_urls_count": 101,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/about",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/shop-all-products",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/compare",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/cart.php",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/sell-to-us",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/internet-sale-shipping",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/online-ordering",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/contact-us",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/privacy-policy",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/return-policy",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/locations",
+        "https://web.archive.org/web/20241228020658/https://musicgoround.com/jobs"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page informs customers about the brand's mission and values, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/shop-all-products",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "This page showcases all products, attracting customers' interest in various categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/compare",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Comparison",
+            "selection_reason": "This page allows customers to compare products, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/cart.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/sell-to-us",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "This page provides information on selling or trading in items, which is a key decision point for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/internet-sale-shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Internet Sale Shipping Info",
+            "selection_reason": "Shipping information is essential for customers to understand delivery timelines and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/online-ordering",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Online Ordering Information",
+            "selection_reason": "This page provides details on how to order online, facilitating the fulfillment process."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "A contact page is vital for customer support and retention, allowing customers to reach out with inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "This page informs customers about data protection practices, enhancing trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/return-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are crucial for customers when considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/locations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "This page helps customers find physical store locations, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/jobs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "The careers page showcases job opportunities, enhancing brand awareness and attracting potential employees."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 95,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-pro-sound/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/guitar-speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/sell-to-us",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/effects/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/cymbals/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/recording-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/shop-all-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/keyboard-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/bell-kits/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/internet-sale-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Internet Sale Shipping Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/bass-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/online-ordering",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Online Ordering Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/cornets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/login.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/lighting-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/brass-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/trombones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/snare-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/franchise-disclaimer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility & Disclaimers"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/cellos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/keyboards-midi-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/electric-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/violas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/microphones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/computer-interfaces/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/compare",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Comparison"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-keyboards-midi/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-percussion/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/partnerships/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Initiatives"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/percussion-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/music-books-and-videos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/violins/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/clarinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/solid-state-guitar-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/tenor-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/french-horns/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/single-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/jobs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-drum-heads/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/mixers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/bass-speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-guitar-strings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/conditions-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/bass-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/drum-machines/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-reeds/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/guitar-effects/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/power-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/flutes/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/sustainability/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Initiatives"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/tubas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/pro-sound-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/snare-kits-student/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/keyboards/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/california-privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/band-instruments-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/accordians-and-concertinas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/tube-guitar-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/world-percussion/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/woodwinds-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/return-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/shop-all-products/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-drumsticks-and-mallets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/acoustic-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility & Disclaimers"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/locations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/soprano-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/software/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/synthesizers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/controllers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/pro-sound/dj-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/orchestra-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/shop-in-store",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/drum-hardware/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/guitars/other-stringed-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/electronic-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/percussion/drum-kits/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/trumpets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/accessories/accessories-band-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/band-instruments/alto-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/keyboard-midi/digital-pianos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/sell-to-us/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228020658/https://musicgoround.com/own-a-store",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-01 05:29:02",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 100,
+      "valid_content_urls_count": 100,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/about",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/sustainability/",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/locations",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/shop-all-products/",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/return-policy",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/cart.php",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/online-ordering",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/contact-us",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/privacy-policy",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/conditions-of-use",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/jobs",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/compare",
+        "https://web.archive.org/web/20250504071243/https://musicgoround.com/sell-to-us"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Brand Story",
+            "selection_reason": "This page informs customers about the brand's history and values, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/sustainability/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Initiatives",
+            "selection_reason": "Highlights the brand's commitment to sustainability, appealing to environmentally conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/locations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing local engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/shop-all-products/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products / Used Gear Landing",
+            "selection_reason": "Provides a comprehensive view of all products available, catering to various customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category",
+            "selection_reason": "Guitars are a core product category, attracting a significant customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/return-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customers evaluating purchase risks and return options."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/cart.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/online-ordering",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Online Ordering Information",
+            "selection_reason": "Provides necessary information for customers about online ordering processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support and engagement, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection, enhancing trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/conditions-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms of service, important for customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/jobs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Attracts potential employees, enhancing brand reputation and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/compare",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Comparison",
+            "selection_reason": "Helps customers compare products, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/sell-to-us",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Sell/Trade-In Page",
+            "selection_reason": "Encourages customer engagement through selling or trading in products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 94,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/percussion-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/controllers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-guitar-strings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/recording-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/alto-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/electric-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/locations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/jobs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/snare-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/computer-interfaces/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-keyboards-midi/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/music-books-and-videos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/power-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-drum-heads/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/tube-guitar-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/world-percussion/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/california-privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/brass-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/tubas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/bell-kits/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/synthesizers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/franchise-disclaimer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility & Disclaimers"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/sustainability/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Initiatives"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/internet-sale-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Internet Sale Shipping Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/violins/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/mixers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/digital-pianos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/single-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/guitar-speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/snare-kits-student/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/trumpets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/guitar-effects/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/online-ordering",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Online Ordering Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/drum-kits/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/keyboard-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/bass-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/keyboards-midi-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/microphones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/conditions-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-reeds/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/drum-machines/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/shop-in-store",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/drum-hardware/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/other-stringed-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://www.musicgoround.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/violas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/return-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/bass-speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/trombones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/sell-to-us",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/cymbals/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-percussion/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/bass-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility & Disclaimers"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/cornets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-drumsticks-and-mallets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/solid-state-guitar-amps/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/pro-sound-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/shop-all-products/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/lighting-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/login.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/band-instruments-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/own-a-store",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Franchise Opportunity Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-band-instruments/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/effects/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/shop-all-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products / Used Gear Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/guitars/acoustic-guitars/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/soprano-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/tenor-saxophones/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-pro-sound/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/compare",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Comparison"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/orchestra-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/dj-equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/partnerships/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Initiatives"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/french-horns/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/cellos/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/flutes/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/woodwinds-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/keyboards/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/accessories/accessories-other/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/percussion/electronic-drums/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/pro-sound/speaker-cabinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/sell-to-us/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Sell/Trade-In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/keyboard-midi/accordians-and-concertinas/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/band-instruments/clarinets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250504071243/https://musicgoround.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Brand Story"
+        }
+      ]
+    }
+  }
+}

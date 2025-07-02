@@ -1,0 +1,356 @@
+{
+  "generation_time": "2025-06-29 14:29:53",
+  "company_url": "bcbg.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/Home-Show"
+        ]
+      },
+      {
+        "type_name": "Blog / Magazine Hub",
+        "typical_url_patterns": [
+          "/blogs/the-bcbg-edit",
+          "/MAGAZINES/MAGAZINE,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Blog / Magazine Article",
+        "typical_url_patterns": [
+          "/blogs/the-bcbg-edit/*",
+          "/magazine-*,default,pg.html"
+        ]
+      },
+      {
+        "type_name": "Lookbook / Editorial",
+        "typical_url_patterns": [
+          "/pages/*lookbook",
+          "/Editorial-Page?cid=*"
+        ]
+      },
+      {
+        "type_name": "Brand Story / About Us",
+        "typical_url_patterns": [
+          "/pages/about-us"
+        ]
+      },
+      {
+        "type_name": "Runway Collection",
+        "typical_url_patterns": [
+          "/en/runway/",
+          "/RUNWAY/runway,default,sc.html",
+          "/collections/bcbgmaxazria-shop-the-runway"
+        ]
+      },
+      {
+        "type_name": "Social Media Landing",
+        "typical_url_patterns": [
+          "/pages/shop-our-instagram"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Product Category (PLP)",
+        "typical_url_patterns": [
+          "/collections/dresses",
+          "/en/clothing/",
+          "/CLOTHING/clothing,default,sc.html",
+          "/category/index.jsp?categoryId=*"
+        ]
+      },
+      {
+        "type_name": "Sub-Category (PLP)",
+        "typical_url_patterns": [
+          "/collections/bcbgmaxazria-cocktail-party-dresses",
+          "/en/clothing/tops/",
+          "/TOPS/clothing-by-category-tops,default,sc.html",
+          "/family/index.jsp?categoryId=*"
+        ]
+      },
+      {
+        "type_name": "\"New Arrivals\" Collection",
+        "typical_url_patterns": [
+          "/collections/new-arrivals",
+          "/en/what's-new/new-arrivals/",
+          "/NEW-ARRIVALS/whats-new-new-arrivals,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "\"Shop All\" Collection",
+        "typical_url_patterns": [
+          "/collections/all",
+          "/collections/*shop-all",
+          "/en/view-all-*"
+        ]
+      },
+      {
+        "type_name": "Themed / Occasion Collection",
+        "typical_url_patterns": [
+          "/collections/for-wedding-guest",
+          "/collections/the-holiday-shop",
+          "/en/bridal-boutique/",
+          "/BRIDAL/dresses-by-occasion-wedding-bride,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Trend-Based Collection",
+        "typical_url_patterns": [
+          "/collections/trend-*",
+          "/collections/*color-stories",
+          "/WHITES/trend-white,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "\"Best Sellers\" Collection",
+        "typical_url_patterns": [
+          "/collections/*best-sellers",
+          "/en/what's-new/top-sellers/",
+          "/TOP-SELLERS/whats-new-top-sellers,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Brand Sub-line Hub (e.g., BCBGeneration)",
+        "typical_url_patterns": [
+          "/pages/bcbgeneration",
+          "/pages/bcbggirls"
+        ]
+      },
+      {
+        "type_name": "Outlet / Factory Hub",
+        "typical_url_patterns": [
+          "/pages/outlet",
+          "/en/factory/",
+          "/en/LP-Factory.html"
+        ]
+      },
+      {
+        "type_name": "Outlet / Factory Category",
+        "typical_url_patterns": [
+          "/collections/bcbgmaxazria-outlet-*",
+          "/en/factory/dresses/"
+        ]
+      },
+      {
+        "type_name": "Gift Guide / Shop",
+        "typical_url_patterns": [
+          "/pages/gift-guide",
+          "/collections/*gifts",
+          "/en/shop-gifts/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/*",
+          "/*/*.html",
+          "/*?dwvar_*"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/pages/wishlist",
+          "/pages/swym-wishlist",
+          "/Wishlist-Show"
+        ]
+      },
+      {
+        "type_name": "Size Guide",
+        "typical_url_patterns": [
+          "/pages/size-chart"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search"
+        ]
+      },
+      {
+        "type_name": "Rental Program Information",
+        "typical_url_patterns": [
+          "/pages/borrow"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Sale Hub",
+        "typical_url_patterns": [
+          "/pages/sale",
+          "/en/sale/",
+          "/SALE/sale,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Sale Category",
+        "typical_url_patterns": [
+          "/collections/*-sale",
+          "/collections/sale-*",
+          "/en/sale/clothing/",
+          "/CLOTHING/sale-clothing,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Clearance / Final Sale",
+        "typical_url_patterns": [
+          "/collections/*last-chance",
+          "/en/sale/clearance/",
+          "/sale-final-cut,default,sc.html"
+        ]
+      },
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart/index.jsp"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/products/*gift-card",
+          "/collections/*gift-card"
+        ]
+      },
+      {
+        "type_name": "Payment Plan Information",
+        "typical_url_patterns": [
+          "/pages/afterpay",
+          "/pages/buy-now-pay-later-faq",
+          "/en/affirm/"
+        ]
+      },
+      {
+        "type_name": "Promotions & Disclaimers",
+        "typical_url_patterns": [
+          "/pages/promotion-disclaimers",
+          "/en/ticker-*.html"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation",
+        "typical_url_patterns": [
+          "/pages/order-confirmation"
+        ]
+      },
+      {
+        "type_name": "Order History & Tracking",
+        "typical_url_patterns": [
+          "/Order-History",
+          "/cs-order-tracking-gate.html"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/pages/shipping-policy",
+          "/policies/shipping-policy",
+          "/cs-shipping.html"
+        ]
+      },
+      {
+        "type_name": "Return & Refund Policy",
+        "typical_url_patterns": [
+          "/pages/return-policy",
+          "/policies/refund-policy",
+          "/cs-returns.html"
+        ]
+      },
+      {
+        "type_name": "Start a Return Process",
+        "typical_url_patterns": [
+          "/Returns-Start"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Login",
+        "typical_url_patterns": [
+          "/account/login"
+        ]
+      },
+      {
+        "type_name": "Account Registration",
+        "typical_url_patterns": [
+          "/account/register",
+          "/Account-StartRegister",
+          "/coreg/index.jsp*"
+        ]
+      },
+      {
+        "type_name": "Account Management (Dashboard, Profile, Addresses)",
+        "typical_url_patterns": [
+          "/account",
+          "/Account-Show",
+          "/en/profile/",
+          "/en/addressbook/"
+        ]
+      },
+      {
+        "type_name": "Rewards / Loyalty Program",
+        "typical_url_patterns": [
+          "/pages/rewards"
+        ]
+      },
+      {
+        "type_name": "Help & Contact Center",
+        "typical_url_patterns": [
+          "/pages/contact-us",
+          "/pages/frequently-asked-questions",
+          "/CustomerService-Show",
+          "/helpdesk/index.jsp"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/pages/locations",
+          "/Stores-Find"
+        ]
+      },
+      {
+        "type_name": "Legal & Compliance Pages (Privacy, Terms, etc.)",
+        "typical_url_patterns": [
+          "/pages/privacy",
+          "/pages/terms-of-use",
+          "/pages/accessibility",
+          "/pages/transparency-in-supply-chains-statement",
+          "/policies/*",
+          "/cs-privacy-policy.html",
+          "/terms.html"
+        ]
+      },
+      {
+        "type_name": "Catalog Request",
+        "typical_url_patterns": [
+          "/catalog-request,default,pg.html",
+          "/en/catalog-request.html"
+        ]
+      },
+      {
+        "type_name": "International / Language Selector",
+        "typical_url_patterns": [
+          "/International-SetDefaultLang*",
+          "/International-ChangeLangShipDialog"
+        ]
+      }
+    ]
+  },
+  "total_types": 45
+}

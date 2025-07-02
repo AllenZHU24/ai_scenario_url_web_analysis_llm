@@ -1,0 +1,725 @@
+2025-06-13 19:33:38,773 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-13 19:33:38,774 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-13 19:33:38,774 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-13 19:33:38,774 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-13 19:33:38,775 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-13 19:33:38,775 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-13 19:33:38,775 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/apple.com
+2025-06-13 19:33:38,775 - INFO - 🔍 No existing planning file found at outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json, starting fresh
+2025-06-13 19:33:38,776 - INFO - 🔄 Loaded links cache (17 years)
+2025-06-13 19:33:38,777 - INFO - 🔄 Loaded cached core page types (29) from disk
+2025-06-13 19:33:38,777 - INFO - 🔄 Starting new unified planning workflow (v0.4.1)...
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2009 (24 links)
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2010 (24 links)
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2011 (21 links)
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2012 (23 links)
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2013 (23 links)
+2025-06-13 19:33:38,777 - INFO - 🔄 [Links] Using cached links for 2014 (22 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2015 (49 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2016 (49 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2017 (51 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2018 (65 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2019 (69 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2020 (71 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2021 (80 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2022 (78 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2023 (82 links)
+2025-06-13 19:33:38,778 - INFO - 🔄 [Links] Using cached links for 2024 (89 links)
+2025-06-13 19:33:38,779 - INFO - 🔄 [Links] Using cached links for 2025 (89 links)
+2025-06-13 19:33:38,779 - INFO - ⏩ [Step B] Core page types already available, skipping LLM call
+2025-06-13 19:33:38,779 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-13 19:33:38,779 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:33:40,156 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:34:01,859 - INFO - ✅ LLM response received successfully
+2025-06-13 19:34:01,859 - INFO - 📊 Response length: 4964 characters
+2025-06-13 19:34:01,860 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-13 19:34:01,861 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:34:01,861 - INFO - 🤖 [Step C] Recommending core URLs for 2010
+2025-06-13 19:34:01,861 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:34:02,613 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:34:28,339 - INFO - ✅ LLM response received successfully
+2025-06-13 19:34:28,339 - INFO - 📊 Response length: 5058 characters
+2025-06-13 19:34:28,339 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:34:28,340 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:34:28,340 - INFO - 🤖 [Step C] Recommending core URLs for 2011
+2025-06-13 19:34:28,341 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:34:28,960 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:34:37,284 - INFO - ✅ LLM response received successfully
+2025-06-13 19:34:37,285 - INFO - 📊 Response length: 4709 characters
+2025-06-13 19:34:37,285 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-13 19:34:37,286 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:34:37,287 - INFO - 🤖 [Step C] Recommending core URLs for 2012
+2025-06-13 19:34:37,287 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:34:37,926 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:34:53,634 - INFO - ✅ LLM response received successfully
+2025-06-13 19:34:53,634 - INFO - 📊 Response length: 4681 characters
+2025-06-13 19:34:53,634 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:34:53,636 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:34:53,636 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-13 19:34:53,637 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:34:54,455 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:35:14,682 - INFO - ✅ LLM response received successfully
+2025-06-13 19:35:14,682 - INFO - 📊 Response length: 4989 characters
+2025-06-13 19:35:14,682 - INFO - ✅ URL recommendation finished: 15 recommended, 11 within valid pages (enforce=False)
+2025-06-13 19:35:14,684 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:35:14,684 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-13 19:35:14,684 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:35:15,384 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:35:41,745 - INFO - ✅ LLM response received successfully
+2025-06-13 19:35:41,746 - INFO - 📊 Response length: 5071 characters
+2025-06-13 19:35:41,746 - INFO - ✅ URL recommendation finished: 16 recommended, 16 within valid pages (enforce=False)
+2025-06-13 19:35:41,748 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:35:41,748 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-13 19:35:41,748 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:35:42,426 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:36:02,857 - INFO - ✅ LLM response received successfully
+2025-06-13 19:36:02,857 - INFO - 📊 Response length: 5591 characters
+2025-06-13 19:36:02,857 - INFO - ✅ URL recommendation finished: 15 recommended, 14 within valid pages (enforce=False)
+2025-06-13 19:36:02,860 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:36:02,860 - INFO - 🤖 [Step C] Recommending core URLs for 2016
+2025-06-13 19:36:02,860 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:36:03,609 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:36:23,834 - INFO - ✅ LLM response received successfully
+2025-06-13 19:36:23,834 - INFO - 📊 Response length: 5090 characters
+2025-06-13 19:36:23,834 - INFO - ✅ URL recommendation finished: 15 recommended, 11 within valid pages (enforce=False)
+2025-06-13 19:36:23,837 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:36:23,837 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-13 19:36:23,837 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:36:24,532 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:36:47,800 - INFO - ✅ LLM response received successfully
+2025-06-13 19:36:47,800 - INFO - 📊 Response length: 5759 characters
+2025-06-13 19:36:47,800 - INFO - ✅ URL recommendation finished: 15 recommended, 10 within valid pages (enforce=False)
+2025-06-13 19:36:47,804 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:36:47,804 - INFO - 🤖 [Step C] Recommending core URLs for 2018
+2025-06-13 19:36:47,804 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:36:48,439 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:37:14,806 - INFO - ✅ LLM response received successfully
+2025-06-13 19:37:14,806 - INFO - 📊 Response length: 5108 characters
+2025-06-13 19:37:14,806 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:37:14,809 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:37:14,810 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-13 19:37:14,810 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:37:15,540 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:37:33,710 - INFO - ✅ LLM response received successfully
+2025-06-13 19:37:33,711 - INFO - 📊 Response length: 4749 characters
+2025-06-13 19:37:33,711 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:37:33,714 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:37:33,715 - INFO - 🤖 [Step C] Recommending core URLs for 2020
+2025-06-13 19:37:33,715 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:37:35,555 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:37:56,272 - INFO - ✅ LLM response received successfully
+2025-06-13 19:37:56,272 - INFO - 📊 Response length: 5391 characters
+2025-06-13 19:37:56,272 - INFO - ✅ URL recommendation finished: 15 recommended, 12 within valid pages (enforce=False)
+2025-06-13 19:37:56,279 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:37:56,280 - INFO - 🤖 [Step C] Recommending core URLs for 2021
+2025-06-13 19:37:56,281 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:37:56,964 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:38:16,322 - INFO - ✅ LLM response received successfully
+2025-06-13 19:38:16,322 - INFO - 📊 Response length: 4758 characters
+2025-06-13 19:38:16,322 - INFO - ✅ URL recommendation finished: 15 recommended, 12 within valid pages (enforce=False)
+2025-06-13 19:38:16,326 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:38:16,326 - INFO - 🤖 [Step C] Recommending core URLs for 2022
+2025-06-13 19:38:16,326 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:38:17,007 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:38:36,239 - INFO - ✅ LLM response received successfully
+2025-06-13 19:38:36,239 - INFO - 📊 Response length: 5007 characters
+2025-06-13 19:38:36,239 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:38:36,247 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:38:36,247 - INFO - 🤖 [Step C] Recommending core URLs for 2023
+2025-06-13 19:38:36,247 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:38:36,954 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:38:56,606 - INFO - ✅ LLM response received successfully
+2025-06-13 19:38:56,606 - INFO - 📊 Response length: 5609 characters
+2025-06-13 19:38:56,606 - INFO - ✅ URL recommendation finished: 15 recommended, 12 within valid pages (enforce=False)
+2025-06-13 19:38:56,614 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:38:56,614 - INFO - 🤖 [Step C] Recommending core URLs for 2024
+2025-06-13 19:38:56,615 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:38:57,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:39:17,523 - INFO - ✅ LLM response received successfully
+2025-06-13 19:39:17,523 - INFO - 📊 Response length: 5049 characters
+2025-06-13 19:39:17,523 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:39:17,529 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:39:17,529 - INFO - 🤖 [Step C] Recommending core URLs for 2025
+2025-06-13 19:39:17,529 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-13 19:39:18,342 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 19:39:39,983 - INFO - ✅ LLM response received successfully
+2025-06-13 19:39:39,983 - INFO - 📊 Response length: 5479 characters
+2025-06-13 19:39:39,983 - INFO - ✅ URL recommendation finished: 15 recommended, 13 within valid pages (enforce=False)
+2025-06-13 19:39:39,989 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.1_result.json
+2025-06-13 19:39:39,989 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-13 19:39:39,989 - INFO - 📄 [2009] Analyzing page 1/15
+2025-06-13 19:39:42,775 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193942.txt
+2025-06-13 19:39:43,776 - INFO - 📄 [2009] Analyzing page 2/15
+2025-06-13 19:39:46,242 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193946.txt
+2025-06-13 19:39:48,099 - INFO - 📄 [2009] Analyzing page 3/15
+2025-06-13 19:39:50,471 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193950.txt
+2025-06-13 19:39:51,472 - INFO - 📄 [2009] Analyzing page 4/15
+2025-06-13 19:39:51,905 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193951.txt
+2025-06-13 19:39:52,906 - INFO - 📄 [2009] Analyzing page 5/15
+2025-06-13 19:39:54,855 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193954.txt
+2025-06-13 19:39:55,857 - INFO - 📄 [2009] Analyzing page 6/15
+2025-06-13 19:39:59,535 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_193959.txt
+2025-06-13 19:40:00,537 - INFO - 📄 [2009] Analyzing page 7/15
+2025-06-13 19:40:01,450 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194001.txt
+2025-06-13 19:40:02,451 - INFO - 📄 [2009] Analyzing page 8/15
+2025-06-13 19:40:04,718 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194004.txt
+2025-06-13 19:40:05,719 - INFO - 📄 [2009] Analyzing page 9/15
+2025-06-13 19:40:10,726 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194010.txt
+2025-06-13 19:40:11,727 - INFO - 📄 [2009] Analyzing page 10/15
+2025-06-13 19:40:15,653 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194015.txt
+2025-06-13 19:40:16,655 - INFO - 📄 [2009] Analyzing page 11/15
+2025-06-13 19:40:18,800 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194018.txt
+2025-06-13 19:40:19,800 - INFO - 📄 [2009] Analyzing page 12/15
+2025-06-13 19:40:22,078 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194022.txt
+2025-06-13 19:40:23,079 - INFO - 📄 [2009] Analyzing page 13/15
+2025-06-13 19:40:24,056 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194024.txt
+2025-06-13 19:40:25,057 - INFO - 📄 [2009] Analyzing page 14/15
+2025-06-13 19:40:26,184 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194026.txt
+2025-06-13 19:40:27,185 - INFO - 📄 [2009] Analyzing page 15/15
+2025-06-13 19:40:28,684 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250613_194028.txt
+2025-06-13 19:40:29,685 - INFO - ✅ Year 2009 scenario identification completed: 11 scenarios
+2025-06-13 19:40:29,686 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:40:29,686 - INFO - 🔍 Identifying scenarios for year 2010 ...
+2025-06-13 19:40:29,686 - INFO - 📄 [2010] Analyzing page 1/15
+2025-06-13 19:40:32,094 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194032.txt
+2025-06-13 19:40:33,094 - INFO - 📄 [2010] Analyzing page 2/15
+2025-06-13 19:40:35,826 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194035.txt
+2025-06-13 19:40:36,827 - INFO - 📄 [2010] Analyzing page 3/15
+2025-06-13 19:40:39,275 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194039.txt
+2025-06-13 19:40:40,276 - INFO - 📄 [2010] Analyzing page 4/15
+2025-06-13 19:40:42,521 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194042.txt
+2025-06-13 19:40:43,522 - INFO - 📄 [2010] Analyzing page 5/15
+2025-06-13 19:40:45,207 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194045.txt
+2025-06-13 19:40:46,208 - INFO - 📄 [2010] Analyzing page 6/15
+2025-06-13 19:40:50,994 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194050.txt
+2025-06-13 19:40:51,995 - INFO - 📄 [2010] Analyzing page 7/15
+2025-06-13 19:40:58,476 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194058.txt
+2025-06-13 19:40:59,477 - INFO - 📄 [2010] Analyzing page 8/15
+2025-06-13 19:41:02,432 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194102.txt
+2025-06-13 19:41:03,433 - INFO - 📄 [2010] Analyzing page 9/15
+2025-06-13 19:41:05,671 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194105.txt
+2025-06-13 19:41:06,672 - INFO - 📄 [2010] Analyzing page 10/15
+2025-06-13 19:41:09,187 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194109.txt
+2025-06-13 19:41:10,188 - INFO - 📄 [2010] Analyzing page 11/15
+2025-06-13 19:41:11,582 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194111.txt
+2025-06-13 19:41:12,583 - INFO - 📄 [2010] Analyzing page 12/15
+2025-06-13 19:41:14,284 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194114.txt
+2025-06-13 19:41:15,285 - INFO - 📄 [2010] Analyzing page 13/15
+2025-06-13 19:41:17,402 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194117.txt
+2025-06-13 19:41:18,402 - INFO - 📄 [2010] Analyzing page 14/15
+2025-06-13 19:41:19,583 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194119.txt
+2025-06-13 19:41:20,584 - INFO - 📄 [2010] Analyzing page 15/15
+2025-06-13 19:41:22,155 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250613_194122.txt
+2025-06-13 19:41:23,156 - INFO - ✅ Year 2010 scenario identification completed: 9 scenarios
+2025-06-13 19:41:23,157 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:41:23,157 - INFO - 🔍 Identifying scenarios for year 2011 ...
+2025-06-13 19:41:23,157 - INFO - 📄 [2011] Analyzing page 1/15
+2025-06-13 19:41:28,263 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194128.txt
+2025-06-13 19:41:29,264 - INFO - 📄 [2011] Analyzing page 2/15
+2025-06-13 19:41:32,038 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194132.txt
+2025-06-13 19:41:33,039 - INFO - 📄 [2011] Analyzing page 3/15
+2025-06-13 19:41:35,530 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194135.txt
+2025-06-13 19:41:36,530 - INFO - 📄 [2011] Analyzing page 4/15
+2025-06-13 19:41:37,956 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194137.txt
+2025-06-13 19:41:38,958 - INFO - 📄 [2011] Analyzing page 5/15
+2025-06-13 19:41:43,433 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194143.txt
+2025-06-13 19:41:44,435 - INFO - 📄 [2011] Analyzing page 6/15
+2025-06-13 19:41:48,881 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194148.txt
+2025-06-13 19:41:49,881 - INFO - 📄 [2011] Analyzing page 7/15
+2025-06-13 19:41:52,494 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194152.txt
+2025-06-13 19:41:53,496 - INFO - 📄 [2011] Analyzing page 8/15
+2025-06-13 19:41:54,342 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194154.txt
+2025-06-13 19:41:55,343 - INFO - 📄 [2011] Analyzing page 9/15
+2025-06-13 19:41:56,474 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194156.txt
+2025-06-13 19:41:57,475 - INFO - 📄 [2011] Analyzing page 10/15
+2025-06-13 19:42:01,325 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194201.txt
+2025-06-13 19:42:02,326 - INFO - 📄 [2011] Analyzing page 11/15
+2025-06-13 19:42:04,539 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194204.txt
+2025-06-13 19:42:05,539 - INFO - 📄 [2011] Analyzing page 12/15
+2025-06-13 19:42:07,303 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194207.txt
+2025-06-13 19:42:08,307 - INFO - 📄 [2011] Analyzing page 13/15
+2025-06-13 19:42:11,252 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194211.txt
+2025-06-13 19:42:12,253 - INFO - 📄 [2011] Analyzing page 14/15
+2025-06-13 19:42:15,090 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194215.txt
+2025-06-13 19:42:16,091 - INFO - 📄 [2011] Analyzing page 15/15
+2025-06-13 19:42:19,841 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250613_194219.txt
+2025-06-13 19:42:20,842 - INFO - ✅ Year 2011 scenario identification completed: 10 scenarios
+2025-06-13 19:42:20,843 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:42:20,844 - INFO - 🔍 Identifying scenarios for year 2012 ...
+2025-06-13 19:42:20,844 - INFO - 📄 [2012] Analyzing page 1/15
+2025-06-13 19:42:23,023 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194223.txt
+2025-06-13 19:42:24,024 - INFO - 📄 [2012] Analyzing page 2/15
+2025-06-13 19:42:27,349 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194227.txt
+2025-06-13 19:42:28,350 - INFO - 📄 [2012] Analyzing page 3/15
+2025-06-13 19:42:31,689 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194231.txt
+2025-06-13 19:42:33,631 - INFO - 📄 [2012] Analyzing page 4/15
+2025-06-13 19:42:35,986 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194235.txt
+2025-06-13 19:42:36,987 - INFO - 📄 [2012] Analyzing page 5/15
+2025-06-13 19:42:37,860 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194237.txt
+2025-06-13 19:42:38,862 - INFO - 📄 [2012] Analyzing page 6/15
+2025-06-13 19:42:42,644 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194242.txt
+2025-06-13 19:42:43,645 - INFO - 📄 [2012] Analyzing page 7/15
+2025-06-13 19:42:44,503 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194244.txt
+2025-06-13 19:42:45,503 - INFO - 📄 [2012] Analyzing page 8/15
+2025-06-13 19:42:47,272 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194247.txt
+2025-06-13 19:42:48,273 - INFO - 📄 [2012] Analyzing page 9/15
+2025-06-13 19:42:56,579 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194256.txt
+2025-06-13 19:42:57,580 - INFO - 📄 [2012] Analyzing page 10/15
+2025-06-13 19:43:02,204 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194302.txt
+2025-06-13 19:43:03,205 - INFO - 📄 [2012] Analyzing page 11/15
+2025-06-13 19:43:07,355 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194307.txt
+2025-06-13 19:43:08,358 - INFO - 📄 [2012] Analyzing page 12/15
+2025-06-13 19:43:09,478 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194309.txt
+2025-06-13 19:43:10,479 - INFO - 📄 [2012] Analyzing page 13/15
+2025-06-13 19:43:11,425 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194311.txt
+2025-06-13 19:43:12,426 - INFO - 📄 [2012] Analyzing page 14/15
+2025-06-13 19:43:13,784 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194313.txt
+2025-06-13 19:43:14,785 - INFO - 📄 [2012] Analyzing page 15/15
+2025-06-13 19:43:16,935 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250613_194316.txt
+2025-06-13 19:43:17,936 - INFO - ✅ Year 2012 scenario identification completed: 13 scenarios
+2025-06-13 19:43:17,937 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:43:17,937 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-13 19:43:17,937 - INFO - 📄 [2013] Analyzing page 1/15
+2025-06-13 19:43:20,279 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194320.txt
+2025-06-13 19:43:21,279 - INFO - 📄 [2013] Analyzing page 2/15
+2025-06-13 19:43:25,117 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194325.txt
+2025-06-13 19:43:26,118 - INFO - 📄 [2013] Analyzing page 3/15
+2025-06-13 19:43:28,169 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194328.txt
+2025-06-13 19:43:29,170 - INFO - 📄 [2013] Analyzing page 4/15
+2025-06-13 19:43:31,341 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194331.txt
+2025-06-13 19:43:32,342 - INFO - 📄 [2013] Analyzing page 5/15
+2025-06-13 19:43:35,575 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194335.txt
+2025-06-13 19:43:36,575 - INFO - 📄 [2013] Analyzing page 6/15
+2025-06-13 19:43:40,115 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194340.txt
+2025-06-13 19:43:41,116 - INFO - 📄 [2013] Analyzing page 7/15
+2025-06-13 19:43:44,574 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194344.txt
+2025-06-13 19:43:45,576 - INFO - 📄 [2013] Analyzing page 8/15
+2025-06-13 19:43:48,515 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194348.txt
+2025-06-13 19:43:49,516 - INFO - 📄 [2013] Analyzing page 9/15
+2025-06-13 19:43:51,070 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194351.txt
+2025-06-13 19:43:52,072 - INFO - 📄 [2013] Analyzing page 10/15
+2025-06-13 19:43:53,859 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194353.txt
+2025-06-13 19:43:54,860 - INFO - 📄 [2013] Analyzing page 11/15
+2025-06-13 19:43:59,010 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194359.txt
+2025-06-13 19:44:00,010 - INFO - 📄 [2013] Analyzing page 12/15
+2025-06-13 19:44:00,909 - WARNING - 获取页面内容失败 https://web.archive.org/web/20131230125651/http://www.apple.com/cart/: 404 Client Error: Not Found for url: https://web.archive.org/web/20130403125454/http://www.apple.com/cart
+2025-06-13 19:44:01,909 - INFO - 📄 [2013] Analyzing page 13/15
+2025-06-13 19:44:05,642 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194405.txt
+2025-06-13 19:44:06,643 - INFO - 📄 [2013] Analyzing page 14/15
+2025-06-13 19:44:10,543 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194410.txt
+2025-06-13 19:44:11,544 - INFO - 📄 [2013] Analyzing page 15/15
+2025-06-13 19:44:14,987 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250613_194414.txt
+2025-06-13 19:44:15,988 - INFO - ✅ Year 2013 scenario identification completed: 10 scenarios
+2025-06-13 19:44:15,989 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:44:15,989 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-13 19:44:15,989 - INFO - 📄 [2014] Analyzing page 1/16
+2025-06-13 19:44:17,761 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194417.txt
+2025-06-13 19:44:18,762 - INFO - 📄 [2014] Analyzing page 2/16
+2025-06-13 19:44:21,422 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194421.txt
+2025-06-13 19:44:22,423 - INFO - 📄 [2014] Analyzing page 3/16
+2025-06-13 19:44:23,825 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194423.txt
+2025-06-13 19:44:24,826 - INFO - 📄 [2014] Analyzing page 4/16
+2025-06-13 19:44:26,692 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194426.txt
+2025-06-13 19:44:27,693 - INFO - 📄 [2014] Analyzing page 5/16
+2025-06-13 19:44:30,367 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194430.txt
+2025-06-13 19:44:31,368 - INFO - 📄 [2014] Analyzing page 6/16
+2025-06-13 19:44:33,368 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194433.txt
+2025-06-13 19:44:34,369 - INFO - 📄 [2014] Analyzing page 7/16
+2025-06-13 19:44:37,242 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194437.txt
+2025-06-13 19:44:38,243 - INFO - 📄 [2014] Analyzing page 8/16
+2025-06-13 19:44:39,098 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194439.txt
+2025-06-13 19:44:40,100 - INFO - 📄 [2014] Analyzing page 9/16
+2025-06-13 19:44:43,485 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194443.txt
+2025-06-13 19:44:44,486 - INFO - 📄 [2014] Analyzing page 10/16
+2025-06-13 19:44:48,131 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194448.txt
+2025-06-13 19:44:49,132 - INFO - 📄 [2014] Analyzing page 11/16
+2025-06-13 19:44:51,707 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194451.txt
+2025-06-13 19:44:52,710 - INFO - 📄 [2014] Analyzing page 12/16
+2025-06-13 19:44:55,301 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194455.txt
+2025-06-13 19:44:56,302 - INFO - 📄 [2014] Analyzing page 13/16
+2025-06-13 19:44:59,201 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194459.txt
+2025-06-13 19:45:00,202 - INFO - 📄 [2014] Analyzing page 14/16
+2025-06-13 19:45:02,007 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194502.txt
+2025-06-13 19:45:03,009 - INFO - 📄 [2014] Analyzing page 15/16
+2025-06-13 19:45:06,096 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194506.txt
+2025-06-13 19:45:07,097 - INFO - 📄 [2014] Analyzing page 16/16
+2025-06-13 19:45:08,735 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250613_194508.txt
+2025-06-13 19:45:09,736 - INFO - ✅ Year 2014 scenario identification completed: 9 scenarios
+2025-06-13 19:45:09,737 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:45:09,738 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-13 19:45:09,738 - INFO - 📄 [2015] Analyzing page 1/15
+2025-06-13 19:45:11,776 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194511.txt
+2025-06-13 19:45:12,777 - INFO - 📄 [2015] Analyzing page 2/15
+2025-06-13 19:45:16,039 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194516.txt
+2025-06-13 19:45:17,040 - INFO - 📄 [2015] Analyzing page 3/15
+2025-06-13 19:45:21,463 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194521.txt
+2025-06-13 19:45:22,464 - INFO - 📄 [2015] Analyzing page 4/15
+2025-06-13 19:45:23,737 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194523.txt
+2025-06-13 19:45:24,738 - INFO - 📄 [2015] Analyzing page 5/15
+2025-06-13 19:45:28,263 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194528.txt
+2025-06-13 19:45:29,265 - INFO - 📄 [2015] Analyzing page 6/15
+2025-06-13 19:45:31,273 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194531.txt
+2025-06-13 19:45:32,274 - INFO - 📄 [2015] Analyzing page 7/15
+2025-06-13 19:45:40,899 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194540.txt
+2025-06-13 19:45:41,899 - INFO - 📄 [2015] Analyzing page 8/15
+2025-06-13 19:45:54,294 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194554.txt
+2025-06-13 19:45:55,295 - INFO - 📄 [2015] Analyzing page 9/15
+2025-06-13 19:45:56,314 - WARNING - 获取页面内容失败 https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:45:57,315 - INFO - 📄 [2015] Analyzing page 10/15
+2025-06-13 19:45:59,667 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194559.txt
+2025-06-13 19:46:00,668 - INFO - 📄 [2015] Analyzing page 11/15
+2025-06-13 19:46:02,614 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194602.txt
+2025-06-13 19:46:03,614 - INFO - 📄 [2015] Analyzing page 12/15
+2025-06-13 19:46:12,931 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194612.txt
+2025-06-13 19:46:13,934 - INFO - 📄 [2015] Analyzing page 13/15
+2025-06-13 19:46:16,167 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194616.txt
+2025-06-13 19:46:17,168 - INFO - 📄 [2015] Analyzing page 14/15
+2025-06-13 19:46:19,306 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194619.txt
+2025-06-13 19:46:20,308 - INFO - 📄 [2015] Analyzing page 15/15
+2025-06-13 19:46:23,433 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250613_194623.txt
+2025-06-13 19:46:24,434 - INFO - ✅ Year 2015 scenario identification completed: 14 scenarios
+2025-06-13 19:46:24,435 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:46:24,435 - INFO - 🔍 Identifying scenarios for year 2016 ...
+2025-06-13 19:46:24,435 - INFO - 📄 [2016] Analyzing page 1/15
+2025-06-13 19:46:27,333 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194627.txt
+2025-06-13 19:46:28,334 - INFO - 📄 [2016] Analyzing page 2/15
+2025-06-13 19:46:30,681 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194630.txt
+2025-06-13 19:46:31,682 - INFO - 📄 [2016] Analyzing page 3/15
+2025-06-13 19:46:33,027 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194633.txt
+2025-06-13 19:46:34,031 - INFO - 📄 [2016] Analyzing page 4/15
+2025-06-13 19:46:35,740 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194635.txt
+2025-06-13 19:46:36,740 - INFO - 📄 [2016] Analyzing page 5/15
+2025-06-13 19:46:39,259 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194639.txt
+2025-06-13 19:46:40,261 - INFO - 📄 [2016] Analyzing page 6/15
+2025-06-13 19:46:42,118 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194642.txt
+2025-06-13 19:46:43,119 - INFO - 📄 [2016] Analyzing page 7/15
+2025-06-13 19:46:46,984 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194646.txt
+2025-06-13 19:46:47,985 - INFO - 📄 [2016] Analyzing page 8/15
+2025-06-13 19:46:55,904 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194655.txt
+2025-06-13 19:46:56,905 - INFO - 📄 [2016] Analyzing page 9/15
+2025-06-13 19:46:57,400 - WARNING - 获取页面内容失败 https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:46:59,352 - INFO - 📄 [2016] Analyzing page 10/15
+2025-06-13 19:47:09,096 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194709.txt
+2025-06-13 19:47:10,098 - INFO - 📄 [2016] Analyzing page 11/15
+2025-06-13 19:47:12,418 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194712.txt
+2025-06-13 19:47:13,419 - INFO - 📄 [2016] Analyzing page 12/15
+2025-06-13 19:47:15,928 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194715.txt
+2025-06-13 19:47:16,931 - INFO - 📄 [2016] Analyzing page 13/15
+2025-06-13 19:47:18,608 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194718.txt
+2025-06-13 19:47:19,610 - INFO - 📄 [2016] Analyzing page 14/15
+2025-06-13 19:47:25,018 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194725.txt
+2025-06-13 19:47:26,020 - INFO - 📄 [2016] Analyzing page 15/15
+2025-06-13 19:47:30,388 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250613_194730.txt
+2025-06-13 19:47:32,335 - INFO - ✅ Year 2016 scenario identification completed: 13 scenarios
+2025-06-13 19:47:32,337 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:47:32,337 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-13 19:47:32,337 - INFO - 📄 [2017] Analyzing page 1/15
+2025-06-13 19:47:34,405 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194734.txt
+2025-06-13 19:47:35,406 - INFO - 📄 [2017] Analyzing page 2/15
+2025-06-13 19:47:39,002 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194739.txt
+2025-06-13 19:47:40,003 - INFO - 📄 [2017] Analyzing page 3/15
+2025-06-13 19:47:41,397 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194741.txt
+2025-06-13 19:47:42,400 - INFO - 📄 [2017] Analyzing page 4/15
+2025-06-13 19:47:48,423 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194748.txt
+2025-06-13 19:47:49,425 - INFO - 📄 [2017] Analyzing page 5/15
+2025-06-13 19:47:51,912 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194751.txt
+2025-06-13 19:47:52,914 - INFO - 📄 [2017] Analyzing page 6/15
+2025-06-13 19:47:54,805 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194754.txt
+2025-06-13 19:47:55,806 - INFO - 📄 [2017] Analyzing page 7/15
+2025-06-13 19:47:58,932 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194758.txt
+2025-06-13 19:47:59,935 - INFO - 📄 [2017] Analyzing page 8/15
+2025-06-13 19:48:09,532 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194809.txt
+2025-06-13 19:48:10,533 - INFO - 📄 [2017] Analyzing page 9/15
+2025-06-13 19:48:11,146 - WARNING - 获取页面内容失败 https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:48:12,147 - INFO - 📄 [2017] Analyzing page 10/15
+2025-06-13 19:48:14,724 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194814.txt
+2025-06-13 19:48:15,732 - INFO - 📄 [2017] Analyzing page 11/15
+2025-06-13 19:48:18,565 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194818.txt
+2025-06-13 19:48:19,566 - INFO - 📄 [2017] Analyzing page 12/15
+2025-06-13 19:48:35,063 - WARNING - 获取页面内容失败 https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/help/sales_refunds: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-13 19:48:36,064 - INFO - 📄 [2017] Analyzing page 13/15
+2025-06-13 19:48:42,745 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194842.txt
+2025-06-13 19:48:43,746 - INFO - 📄 [2017] Analyzing page 14/15
+2025-06-13 19:48:49,454 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194849.txt
+2025-06-13 19:48:50,455 - INFO - 📄 [2017] Analyzing page 15/15
+2025-06-13 19:48:52,306 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250613_194852.txt
+2025-06-13 19:48:53,307 - INFO - ✅ Year 2017 scenario identification completed: 10 scenarios
+2025-06-13 19:48:53,309 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:48:53,309 - INFO - 🔍 Identifying scenarios for year 2018 ...
+2025-06-13 19:48:53,309 - INFO - 📄 [2018] Analyzing page 1/15
+2025-06-13 19:48:54,863 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194854.txt
+2025-06-13 19:48:55,865 - INFO - 📄 [2018] Analyzing page 2/15
+2025-06-13 19:48:59,404 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194859.txt
+2025-06-13 19:49:00,406 - INFO - 📄 [2018] Analyzing page 3/15
+2025-06-13 19:49:02,903 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194902.txt
+2025-06-13 19:49:03,905 - INFO - 📄 [2018] Analyzing page 4/15
+2025-06-13 19:49:06,288 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194906.txt
+2025-06-13 19:49:07,292 - INFO - 📄 [2018] Analyzing page 5/15
+2025-06-13 19:49:13,514 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194913.txt
+2025-06-13 19:49:14,516 - INFO - 📄 [2018] Analyzing page 6/15
+2025-06-13 19:49:15,053 - WARNING - 获取页面内容失败 https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:49:16,053 - INFO - 📄 [2018] Analyzing page 7/15
+2025-06-13 19:49:20,923 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194920.txt
+2025-06-13 19:49:21,924 - INFO - 📄 [2018] Analyzing page 8/15
+2025-06-13 19:49:24,774 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194924.txt
+2025-06-13 19:49:25,775 - INFO - 📄 [2018] Analyzing page 9/15
+2025-06-13 19:49:29,089 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194929.txt
+2025-06-13 19:49:30,091 - INFO - 📄 [2018] Analyzing page 10/15
+2025-06-13 19:49:32,448 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194932.txt
+2025-06-13 19:49:33,450 - INFO - 📄 [2018] Analyzing page 11/15
+2025-06-13 19:49:35,983 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194935.txt
+2025-06-13 19:49:36,984 - INFO - 📄 [2018] Analyzing page 12/15
+2025-06-13 19:49:41,855 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194941.txt
+2025-06-13 19:49:42,858 - INFO - 📄 [2018] Analyzing page 13/15
+2025-06-13 19:49:47,506 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194947.txt
+2025-06-13 19:49:48,510 - INFO - 📄 [2018] Analyzing page 14/15
+2025-06-13 19:49:53,655 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194953.txt
+2025-06-13 19:49:54,692 - INFO - 📄 [2018] Analyzing page 15/15
+2025-06-13 19:49:56,851 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250613_194956.txt
+2025-06-13 19:49:57,852 - INFO - ✅ Year 2018 scenario identification completed: 13 scenarios
+2025-06-13 19:49:57,853 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:49:57,853 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-13 19:49:57,854 - INFO - 📄 [2019] Analyzing page 1/15
+2025-06-13 19:50:00,033 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195000.txt
+2025-06-13 19:50:01,034 - INFO - 📄 [2019] Analyzing page 2/15
+2025-06-13 19:50:03,981 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195003.txt
+2025-06-13 19:50:04,984 - INFO - 📄 [2019] Analyzing page 3/15
+2025-06-13 19:50:07,616 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195007.txt
+2025-06-13 19:50:08,620 - INFO - 📄 [2019] Analyzing page 4/15
+2025-06-13 19:50:16,433 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195016.txt
+2025-06-13 19:50:18,214 - INFO - 📄 [2019] Analyzing page 5/15
+2025-06-13 19:50:21,072 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195021.txt
+2025-06-13 19:50:22,074 - INFO - 📄 [2019] Analyzing page 6/15
+2025-06-13 19:50:23,897 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195023.txt
+2025-06-13 19:50:24,898 - INFO - 📄 [2019] Analyzing page 7/15
+2025-06-13 19:50:27,283 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195027.txt
+2025-06-13 19:50:28,284 - INFO - 📄 [2019] Analyzing page 8/15
+2025-06-13 19:50:30,852 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195030.txt
+2025-06-13 19:50:31,856 - INFO - 📄 [2019] Analyzing page 9/15
+2025-06-13 19:50:38,678 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195038.txt
+2025-06-13 19:50:39,679 - INFO - 📄 [2019] Analyzing page 10/15
+2025-06-13 19:50:40,169 - WARNING - 获取页面内容失败 https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:50:41,169 - INFO - 📄 [2019] Analyzing page 11/15
+2025-06-13 19:50:43,889 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195043.txt
+2025-06-13 19:50:44,890 - INFO - 📄 [2019] Analyzing page 12/15
+2025-06-13 19:50:47,141 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195047.txt
+2025-06-13 19:50:48,142 - INFO - 📄 [2019] Analyzing page 13/15
+2025-06-13 19:50:55,215 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195055.txt
+2025-06-13 19:50:56,217 - INFO - 📄 [2019] Analyzing page 14/15
+2025-06-13 19:50:59,000 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195058.txt
+2025-06-13 19:51:00,001 - INFO - 📄 [2019] Analyzing page 15/15
+2025-06-13 19:51:05,781 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250613_195105.txt
+2025-06-13 19:51:06,784 - INFO - ✅ Year 2019 scenario identification completed: 14 scenarios
+2025-06-13 19:51:06,785 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:51:06,785 - INFO - 🔍 Identifying scenarios for year 2020 ...
+2025-06-13 19:51:06,785 - INFO - 📄 [2020] Analyzing page 1/15
+2025-06-13 19:51:09,167 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195109.txt
+2025-06-13 19:51:10,168 - INFO - 📄 [2020] Analyzing page 2/15
+2025-06-13 19:51:13,223 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195113.txt
+2025-06-13 19:51:14,226 - INFO - 📄 [2020] Analyzing page 3/15
+2025-06-13 19:51:15,260 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195115.txt
+2025-06-13 19:51:16,265 - INFO - 📄 [2020] Analyzing page 4/15
+2025-06-13 19:51:22,935 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195122.txt
+2025-06-13 19:51:24,780 - INFO - 📄 [2020] Analyzing page 5/15
+2025-06-13 19:51:28,076 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195128.txt
+2025-06-13 19:51:29,078 - INFO - 📄 [2020] Analyzing page 6/15
+2025-06-13 19:51:31,677 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195131.txt
+2025-06-13 19:51:32,678 - INFO - 📄 [2020] Analyzing page 7/15
+2025-06-13 19:51:37,494 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195137.txt
+2025-06-13 19:51:38,499 - INFO - 📄 [2020] Analyzing page 8/15
+2025-06-13 19:51:39,056 - WARNING - 获取页面内容失败 https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:51:40,057 - INFO - 📄 [2020] Analyzing page 9/15
+2025-06-13 19:51:45,774 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195145.txt
+2025-06-13 19:51:46,775 - INFO - 📄 [2020] Analyzing page 10/15
+2025-06-13 19:51:48,297 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195148.txt
+2025-06-13 19:51:49,299 - INFO - 📄 [2020] Analyzing page 11/15
+2025-06-13 19:51:51,196 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195151.txt
+2025-06-13 19:51:52,197 - INFO - 📄 [2020] Analyzing page 12/15
+2025-06-13 19:51:54,140 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195154.txt
+2025-06-13 19:51:55,142 - INFO - 📄 [2020] Analyzing page 13/15
+2025-06-13 19:51:58,986 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195158.txt
+2025-06-13 19:51:59,988 - INFO - 📄 [2020] Analyzing page 14/15
+2025-06-13 19:52:07,513 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195207.txt
+2025-06-13 19:52:08,515 - INFO - 📄 [2020] Analyzing page 15/15
+2025-06-13 19:52:10,619 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250613_195210.txt
+2025-06-13 19:52:11,621 - INFO - ✅ Year 2020 scenario identification completed: 15 scenarios
+2025-06-13 19:52:11,623 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:52:11,623 - INFO - 🔍 Identifying scenarios for year 2021 ...
+2025-06-13 19:52:11,623 - INFO - 📄 [2021] Analyzing page 1/15
+2025-06-13 19:52:17,332 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195217.txt
+2025-06-13 19:52:18,333 - INFO - 📄 [2021] Analyzing page 2/15
+2025-06-13 19:52:20,903 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195220.txt
+2025-06-13 19:52:21,907 - INFO - 📄 [2021] Analyzing page 3/15
+2025-06-13 19:52:23,142 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195223.txt
+2025-06-13 19:52:24,147 - INFO - 📄 [2021] Analyzing page 4/15
+2025-06-13 19:52:29,671 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195229.txt
+2025-06-13 19:52:30,673 - INFO - 📄 [2021] Analyzing page 5/15
+2025-06-13 19:52:32,477 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195232.txt
+2025-06-13 19:52:33,478 - INFO - 📄 [2021] Analyzing page 6/15
+2025-06-13 19:52:37,210 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195237.txt
+2025-06-13 19:52:38,211 - INFO - 📄 [2021] Analyzing page 7/15
+2025-06-13 19:52:41,172 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195241.txt
+2025-06-13 19:52:42,172 - INFO - 📄 [2021] Analyzing page 8/15
+2025-06-13 19:52:49,308 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195249.txt
+2025-06-13 19:52:50,314 - INFO - 📄 [2021] Analyzing page 9/15
+2025-06-13 19:52:58,808 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195258.txt
+2025-06-13 19:52:59,809 - INFO - 📄 [2021] Analyzing page 10/15
+2025-06-13 19:53:02,045 - WARNING - 获取页面内容失败 https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:53:03,045 - INFO - 📄 [2021] Analyzing page 11/15
+2025-06-13 19:53:08,454 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195308.txt
+2025-06-13 19:53:09,455 - INFO - 📄 [2021] Analyzing page 12/15
+2025-06-13 19:53:11,161 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195311.txt
+2025-06-13 19:53:12,162 - INFO - 📄 [2021] Analyzing page 13/15
+2025-06-13 19:53:19,743 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195319.txt
+2025-06-13 19:53:20,746 - INFO - 📄 [2021] Analyzing page 14/15
+2025-06-13 19:53:23,599 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195323.txt
+2025-06-13 19:53:24,602 - INFO - 📄 [2021] Analyzing page 15/15
+2025-06-13 19:53:26,386 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250613_195326.txt
+2025-06-13 19:53:27,390 - INFO - ✅ Year 2021 scenario identification completed: 13 scenarios
+2025-06-13 19:53:27,392 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:53:27,392 - INFO - 🔍 Identifying scenarios for year 2022 ...
+2025-06-13 19:53:27,392 - INFO - 📄 [2022] Analyzing page 1/15
+2025-06-13 19:53:29,513 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195329.txt
+2025-06-13 19:53:30,514 - INFO - 📄 [2022] Analyzing page 2/15
+2025-06-13 19:53:32,842 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195332.txt
+2025-06-13 19:53:33,847 - INFO - 📄 [2022] Analyzing page 3/15
+2025-06-13 19:53:35,380 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195335.txt
+2025-06-13 19:53:36,385 - INFO - 📄 [2022] Analyzing page 4/15
+2025-06-13 19:53:41,318 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195341.txt
+2025-06-13 19:53:42,320 - INFO - 📄 [2022] Analyzing page 5/15
+2025-06-13 19:53:44,591 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195344.txt
+2025-06-13 19:53:45,593 - INFO - 📄 [2022] Analyzing page 6/15
+2025-06-13 19:53:49,109 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195349.txt
+2025-06-13 19:53:50,115 - INFO - 📄 [2022] Analyzing page 7/15
+2025-06-13 19:53:56,751 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195356.txt
+2025-06-13 19:53:57,752 - INFO - 📄 [2022] Analyzing page 8/15
+2025-06-13 19:53:58,965 - WARNING - 获取页面内容失败 https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:53:59,966 - INFO - 📄 [2022] Analyzing page 9/15
+2025-06-13 19:54:03,069 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195403.txt
+2025-06-13 19:54:04,070 - INFO - 📄 [2022] Analyzing page 10/15
+2025-06-13 19:54:07,712 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195407.txt
+2025-06-13 19:54:08,713 - INFO - 📄 [2022] Analyzing page 11/15
+2025-06-13 19:54:14,951 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195414.txt
+2025-06-13 19:54:15,954 - INFO - 📄 [2022] Analyzing page 12/15
+2025-06-13 19:54:18,170 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195418.txt
+2025-06-13 19:54:19,173 - INFO - 📄 [2022] Analyzing page 13/15
+2025-06-13 19:54:21,505 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195421.txt
+2025-06-13 19:54:22,507 - INFO - 📄 [2022] Analyzing page 14/15
+2025-06-13 19:54:29,156 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195429.txt
+2025-06-13 19:54:30,159 - INFO - 📄 [2022] Analyzing page 15/15
+2025-06-13 19:54:33,818 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250613_195433.txt
+2025-06-13 19:54:34,820 - INFO - ✅ Year 2022 scenario identification completed: 15 scenarios
+2025-06-13 19:54:34,821 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:54:34,821 - INFO - 🔍 Identifying scenarios for year 2023 ...
+2025-06-13 19:54:34,822 - INFO - 📄 [2023] Analyzing page 1/15
+2025-06-13 19:54:36,906 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195436.txt
+2025-06-13 19:54:37,907 - INFO - 📄 [2023] Analyzing page 2/15
+2025-06-13 19:54:39,465 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195439.txt
+2025-06-13 19:54:40,469 - INFO - 📄 [2023] Analyzing page 3/15
+2025-06-13 19:54:43,799 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195443.txt
+2025-06-13 19:54:44,805 - INFO - 📄 [2023] Analyzing page 4/15
+2025-06-13 19:54:50,676 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195450.txt
+2025-06-13 19:54:51,677 - INFO - 📄 [2023] Analyzing page 5/15
+2025-06-13 19:54:53,718 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195453.txt
+2025-06-13 19:54:54,723 - INFO - 📄 [2023] Analyzing page 6/15
+2025-06-13 19:54:58,764 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195458.txt
+2025-06-13 19:54:59,765 - INFO - 📄 [2023] Analyzing page 7/15
+2025-06-13 19:55:04,607 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195504.txt
+2025-06-13 19:55:05,613 - INFO - 📄 [2023] Analyzing page 8/15
+2025-06-13 19:55:14,506 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195514.txt
+2025-06-13 19:55:15,507 - INFO - 📄 [2023] Analyzing page 9/15
+2025-06-13 19:55:16,066 - WARNING - 获取页面内容失败 https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:55:17,066 - INFO - 📄 [2023] Analyzing page 10/15
+2025-06-13 19:55:21,072 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195521.txt
+2025-06-13 19:55:22,073 - INFO - 📄 [2023] Analyzing page 11/15
+2025-06-13 19:55:24,381 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195524.txt
+2025-06-13 19:55:25,382 - INFO - 📄 [2023] Analyzing page 12/15
+2025-06-13 19:55:33,659 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195533.txt
+2025-06-13 19:55:34,662 - INFO - 📄 [2023] Analyzing page 13/15
+2025-06-13 19:55:37,469 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195537.txt
+2025-06-13 19:55:38,472 - INFO - 📄 [2023] Analyzing page 14/15
+2025-06-13 19:55:41,607 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195541.txt
+2025-06-13 19:55:42,609 - INFO - 📄 [2023] Analyzing page 15/15
+2025-06-13 19:55:44,512 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250613_195544.txt
+2025-06-13 19:55:45,517 - INFO - ✅ Year 2023 scenario identification completed: 18 scenarios
+2025-06-13 19:55:45,518 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:55:45,518 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-13 19:55:45,519 - INFO - 📄 [2024] Analyzing page 1/15
+2025-06-13 19:55:48,610 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195548.txt
+2025-06-13 19:55:49,612 - INFO - 📄 [2024] Analyzing page 2/15
+2025-06-13 19:55:52,039 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195552.txt
+2025-06-13 19:55:53,045 - INFO - 📄 [2024] Analyzing page 3/15
+2025-06-13 19:55:54,717 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195554.txt
+2025-06-13 19:55:55,732 - INFO - 📄 [2024] Analyzing page 4/15
+2025-06-13 19:56:00,644 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195600.txt
+2025-06-13 19:56:01,646 - INFO - 📄 [2024] Analyzing page 5/15
+2025-06-13 19:56:04,691 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195604.txt
+2025-06-13 19:56:05,693 - INFO - 📄 [2024] Analyzing page 6/15
+2025-06-13 19:56:08,082 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195608.txt
+2025-06-13 19:56:09,083 - INFO - 📄 [2024] Analyzing page 7/15
+2025-06-13 19:56:11,536 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195611.txt
+2025-06-13 19:56:12,543 - INFO - 📄 [2024] Analyzing page 8/15
+2025-06-13 19:56:18,499 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195618.txt
+2025-06-13 19:56:19,500 - INFO - 📄 [2024] Analyzing page 9/15
+2025-06-13 19:56:20,196 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:56:21,197 - INFO - 📄 [2024] Analyzing page 10/15
+2025-06-13 19:56:23,783 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195623.txt
+2025-06-13 19:56:24,785 - INFO - 📄 [2024] Analyzing page 11/15
+2025-06-13 19:56:26,358 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195626.txt
+2025-06-13 19:56:27,359 - INFO - 📄 [2024] Analyzing page 12/15
+2025-06-13 19:56:33,861 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195633.txt
+2025-06-13 19:56:34,864 - INFO - 📄 [2024] Analyzing page 13/15
+2025-06-13 19:56:37,968 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195637.txt
+2025-06-13 19:56:38,971 - INFO - 📄 [2024] Analyzing page 14/15
+2025-06-13 19:56:42,046 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195642.txt
+2025-06-13 19:56:43,048 - INFO - 📄 [2024] Analyzing page 15/15
+2025-06-13 19:56:47,578 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250613_195647.txt
+2025-06-13 19:56:48,581 - INFO - ✅ Year 2024 scenario identification completed: 16 scenarios
+2025-06-13 19:56:48,583 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:56:48,583 - INFO - 🔍 Identifying scenarios for year 2025 ...
+2025-06-13 19:56:48,584 - INFO - 📄 [2025] Analyzing page 1/15
+2025-06-13 19:56:50,570 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195650.txt
+2025-06-13 19:56:51,572 - INFO - 📄 [2025] Analyzing page 2/15
+2025-06-13 19:56:55,102 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195655.txt
+2025-06-13 19:56:56,110 - INFO - 📄 [2025] Analyzing page 3/15
+2025-06-13 19:56:58,513 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195658.txt
+2025-06-13 19:56:59,515 - INFO - 📄 [2025] Analyzing page 4/15
+2025-06-13 19:57:01,329 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195701.txt
+2025-06-13 19:57:02,334 - INFO - 📄 [2025] Analyzing page 5/15
+2025-06-13 19:57:05,424 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195705.txt
+2025-06-13 19:57:06,427 - INFO - 📄 [2025] Analyzing page 6/15
+2025-06-13 19:57:08,321 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195708.txt
+2025-06-13 19:57:09,323 - INFO - 📄 [2025] Analyzing page 7/15
+2025-06-13 19:57:15,981 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195715.txt
+2025-06-13 19:57:16,985 - INFO - 📄 [2025] Analyzing page 8/15
+2025-06-13 19:57:22,740 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195722.txt
+2025-06-13 19:57:23,741 - INFO - 📄 [2025] Analyzing page 9/15
+2025-06-13 19:57:24,326 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/checkout
+2025-06-13 19:57:25,326 - INFO - 📄 [2025] Analyzing page 10/15
+2025-06-13 19:57:30,745 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195730.txt
+2025-06-13 19:57:31,747 - INFO - 📄 [2025] Analyzing page 11/15
+2025-06-13 19:57:38,173 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195738.txt
+2025-06-13 19:57:39,174 - INFO - 📄 [2025] Analyzing page 12/15
+2025-06-13 19:57:41,447 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195741.txt
+2025-06-13 19:57:42,450 - INFO - 📄 [2025] Analyzing page 13/15
+2025-06-13 19:57:46,128 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195746.txt
+2025-06-13 19:57:47,138 - INFO - 📄 [2025] Analyzing page 14/15
+2025-06-13 19:57:53,888 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195753.txt
+2025-06-13 19:57:54,893 - INFO - 📄 [2025] Analyzing page 15/15
+2025-06-13 19:58:00,603 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250613_195800.txt
+2025-06-13 19:58:01,606 - INFO - ✅ Year 2025 scenario identification completed: 15 scenarios
+2025-06-13 19:58:01,608 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:58:01,619 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.1_result.json
+2025-06-13 19:58:01,619 - INFO - ✅ Unified analysis workflow completed!
+2025-06-13 19:58:01,619 - INFO - 💡 Analysis completed! Output files:
+2025-06-13 19:58:01,619 - INFO -    - ./outputs/apple.com/apple.com_llm_planning_v0.4_result.json
+2025-06-13 19:58:01,620 - INFO -    - ./outputs/apple.com/apple.com_scenario_v0.4_result.json
+2025-06-13 19:58:02,542 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-13 19:58:02,544 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

@@ -1,0 +1,3134 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "lootcrate.com",
+  "export_time": "2025-07-01 10:52:30",
+  "yearly_analysis_results": {
+    "2012": {
+      "analysis_time": "2025-07-01 02:55:23",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 8,
+      "valid_content_urls_count": 8,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/about_us/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/how_it_works/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/subscriptions/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/contact/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/faq/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/terms_conditions/index",
+        "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/privacy_policy/index"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/about_us/index",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "This page helps build brand trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/how_it_works/index",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "This page educates potential customers on the subscription model and what to expect, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/subscriptions/index",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "This page is crucial for converting interested visitors into subscribers by providing registration options."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/contact/index",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Providing support and contact options is vital for customer retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/faq/index",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "An FAQ page addresses common customer queries, aiding in retention by providing quick answers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/terms_conditions/index",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clear terms of service are essential for transparency and trust, contributing to customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/privacy_policy/index",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy reassures customers about data security, which is crucial for retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/contact/index",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/terms_conditions/index",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/faq/index",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/privacy_policy/index",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/subscriptions/index",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/how_it_works/index",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121221181436/http://www.lootcrate.com/about_us/index",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 02:55:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/how_it_works",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/about_us",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/community",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/past_crates",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=CA",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/login",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/faq",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/contact",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/privacy_policy",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/terms_conditions",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=GB",
+        "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=AU"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/how_it_works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "This page educates potential customers on the subscription model, enhancing understanding and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/about_us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Provides insight into the brand's values and mission, fostering a connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Encourages customer engagement and builds a community around the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/past_crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Past Crates Gallery",
+            "selection_reason": "Showcases previous offerings, helping potential customers visualize the value of the subscription."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=CA",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Facilitates the sign-up process, crucial for converting interested customers into subscribers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Essential for returning customers to access their accounts and manage subscriptions."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides customers with support options, crucial for maintaining satisfaction and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/privacy_policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection practices, fostering trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/terms_conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the terms of use, essential for legal transparency and customer assurance."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Critical for user account management, ensuring customers can regain access when needed."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Another pathway for new users to register, enhancing accessibility to the subscription service."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=GB",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Localized registration option for UK customers, improving user experience and conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=AU",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Localized registration option for Australian customers, enhancing global accessibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/privacy_policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/past_crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Past Crates Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/how_it_works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/about_us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=CA",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=GB",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/users/sign_up",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/terms_conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20131227111920/http://www.lootcrate.com/join?country=AU",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 02:55:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 27,
+      "valid_content_urls_count": 27,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/about_us",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/how_it_works",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/community",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/past_crates",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/login",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/terms_conditions",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/privacy_policy",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contact",
+        "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contest_winners"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/about_us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Provides insight into the brand's values and mission, fostering customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/how_it_works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the service model, crucial for customer understanding."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Encourages customer engagement and community building."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/past_crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Past Crates Gallery",
+            "selection_reason": "Showcases previous offerings to stimulate interest in subscriptions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Primary action point for customers to subscribe."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Critical for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Important for user account management and security."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/terms_conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Essential for legal transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/privacy_policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reassures customers about data protection and privacy."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and fosters customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contest_winners",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contest Winners",
+            "selection_reason": "Engages customers and showcases community involvement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 24,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/past_crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Past Crates Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=SE",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/terms_conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contest_winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=DE",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=GB",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/about_us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/how_it_works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=CA",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/privacy_policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=IE",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=NO",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/users/sign_up",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=DK",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=NL",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=US",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231005125/http://www.lootcrate.com/join?country=AU",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-01 02:56:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 26,
+      "valid_content_urls_count": 26,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/about_us",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/how_it_works",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/community",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/lootcrate",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/anime",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/pets",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/past_crates",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/join",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/auth/facebook",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/share",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/contact",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/privacy_policy",
+        "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/terms_conditions"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/about_us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "This page establishes brand identity and values, crucial for customer trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/how_it_works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the service model, helping potential customers understand the value proposition."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Engages customers by fostering a sense of community, enhancing brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/lootcrate",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Showcases the main product offering, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/anime",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Targets a specific interest area, appealing to niche customer segments."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/pets",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Addresses a popular category, increasing the likelihood of customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/past_crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Past Crates Gallery",
+            "selection_reason": "Provides social proof and showcases previous offerings, aiding in customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/join",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Registration / Join",
+            "selection_reason": "Critical for converting interested customers into subscribers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/auth/facebook",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Social Authentication",
+            "selection_reason": "Facilitates an easy sign-up process, reducing barriers to entry."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Essential for user account management, ensuring customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/share",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Referral Program / Share Page",
+            "selection_reason": "Encourages existing customers to refer new customers, enhancing retention and growth."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and builds trust, crucial for customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/privacy_policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection, fostering trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/terms_conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the rules of engagement, essential for customer trust and legal compliance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/join",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Registration / Join"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/share",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Referral Program / Share Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/pets/plans",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/anime",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/lootcrate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/terms_conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/contest_winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/how_it_works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/auth/facebook",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/past_crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Past Crates Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/call-of-duty",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Franchise-Specific Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/about_us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/star-wars",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Franchise-Specific Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/pets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/privacy_policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151230064008/https://www.lootcrate.com/crates/anime/plans",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-01 02:56:12",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 41,
+      "valid_content_urls_count": 41,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/how-it-works",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/community",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/past-crates",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates?filter=partner",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/gift",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/international",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/auth/facebook",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/user_accounts/subscriptions",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/share",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/contact",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/terms-conditions",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/about-us",
+        "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/affiliates"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Educates potential customers on the service, crucial for building interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Engages customers and builds a sense of community around the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/past-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Past Crates Gallery",
+            "selection_reason": "Showcases previous offerings to entice potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates?filter=partner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Provides a comprehensive view of available products, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/gift",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gifting Landing Page",
+            "selection_reason": "Targets customers looking for gift options, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "International Shipping Information",
+            "selection_reason": "Addresses potential concerns regarding shipping, crucial for international customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Essential for user account management, facilitating the decision to purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/auth/facebook",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Social Authentication",
+            "selection_reason": "Streamlines the login process, enhancing user experience during the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/user_accounts/subscriptions",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Subscription Management",
+            "selection_reason": "Allows users to manage their subscriptions, critical for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/share",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Referral Program / Share Page",
+            "selection_reason": "Encourages existing customers to refer others, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and assistance, crucial for retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/terms-conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Informs customers of their rights and obligations, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Builds brand identity and connects with customers on a personal level."
+          },
+          {
+            "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/affiliates",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Promotes partnerships that can drive traffic and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/contest-winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/user_accounts/subscriptions",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Subscription Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/auth/facebook",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/past-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Past Crates Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "International Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/wear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates?filter=partner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/gift",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gifting Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/users/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/share",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Referral Program / Share Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/terms-conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/gifts",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gifting Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates?filter=monthly",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/crates?filter=limited",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/wear/bundles/riskybiz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/privacy_policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161225172110/https://www.lootcrate.com/user_accounts/store_credits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Credits Balance"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-01 02:56:28",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 60,
+      "valid_content_urls_count": 60,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/about-us",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/how-it-works",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/dx",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/digital-comics",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/gift",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/contact",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/logout",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/privacy-policy",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/terms-conditions",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/community",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/share",
+        "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/international"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Provides insight into the brand's values and mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the subscription model and product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Central hub for customers to view all available products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/dx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Highlights a specific crate offering that may attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/digital-comics",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Digital Content Page",
+            "selection_reason": "Offers additional value through digital content."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/gift",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gifting Landing Page",
+            "selection_reason": "Encourages gifting options, expanding customer reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Essential for user account management and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Critical for customer support and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/logout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Logout",
+            "selection_reason": "Important for user account security and management."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/terms-conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Essential for legal transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Engages customers and builds a community around the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/share",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Referral Program / Share Page",
+            "selection_reason": "Encourages customer referrals and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "International Shipping Information",
+            "selection_reason": "Important for customers considering international purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 52,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/halo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/socks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Sub-Category (e.g., Tees, Socks)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/dx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/user_accounts/subscriptions",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Subscription Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/destiny2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/marvel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/terms-conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/underwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Sub-Category (e.g., Tees, Socks)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/wwe-slam",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/bundles/riskybiz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/share",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Referral Program / Share Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/digital-comics",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Digital Content Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/wizarding-world",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "International Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/fallout",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/community/daily-crate/?utm_source=lootcrate-nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/firefly",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/sanrio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/minechest",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/gaming",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/call-of-duty-wwii",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/community/daily-crate/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/star-trek",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/keys",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Digital Content Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/t-shirts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Sub-Category (e.g., Tees, Socks)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/wearables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Sub-Category (e.g., Tees, Socks)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates?filter=gaming-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/users/auth/facebook",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates?filter=pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/anime",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/oven-mitt-recall",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/bundles/socks-wearables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/stranger-things",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates?filter=film-tv-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates/lootcrate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/crates?filter=apparel-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/wear/accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Sub-Category (e.g., Tees, Socks)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/user_accounts/referral_credits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Referral Credits Balance"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/gift",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gifting Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230044132/https://www.lootcrate.com/contest-winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-01 02:56:31",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 3,
+      "valid_content_urls_count": 3,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/",
+        "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/auth/facebook",
+        "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/password/new"
+      ],
+      "recommended_pages_count": 3,
+      "recommended_in_valid_overlap": 3,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings, crucial for attracting new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/auth/facebook",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Social Authentication",
+            "selection_reason": "Facilitates user login through social media, enhancing user experience and encouraging account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Essential for user retention, allowing customers to regain access to their accounts easily."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 3,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/auth/facebook",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231080903/https://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-01 02:56:37",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 6,
+      "valid_content_urls_count": 6,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/",
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/google_oauth2",
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/terms-conditions",
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/privacy-policy",
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/password/new",
+        "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/facebook"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and offerings to potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/google_oauth2",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Social Authentication",
+            "selection_reason": "Facilitates user login through Google, enhancing user experience and conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/terms-conditions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Essential for customer trust and legal compliance, impacting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Critical for transparency and customer trust, influencing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/password/new",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Password Reset",
+            "selection_reason": "Important for user account management, aiding in customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/facebook",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Social Authentication",
+            "selection_reason": "Allows users to log in via Facebook, improving accessibility and user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/google_oauth2",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/terms-conditions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/password/new",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231140443/https://www.lootcrate.com/users/auth/facebook",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Social Authentication"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-01 02:56:50",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 62,
+      "valid_content_urls_count": 62,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/gaming-crates",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/limited-edition-crates",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-wearables",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/account",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/my-deals",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/terms-of-service",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20201224010436/https://lootcrate.com/blogs/news/contest-winners"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "This page educates potential customers about the service, enhancing understanding and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/gaming-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Themed categories attract customers' interests and help them explore specific product lines."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/limited-edition-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Limited Edition Crates Category",
+            "selection_reason": "Limited edition offerings create urgency and exclusivity, driving customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-wearables",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Product detail pages are crucial for customers to evaluate specific items before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for customers to review their selections before finalizing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Login functionality is critical for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "The account dashboard allows customers to manage their orders and personal information, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/my-deals",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Exclusive Deals Page",
+            "selection_reason": "Exclusive deals encourage repeat purchases and customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Providing customer support options is vital for retention and addressing customer inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clear terms of service build trust and inform customers about their rights and responsibilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy reassures customers about the safety of their personal information, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/blogs/news/contest-winners",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contest Winners",
+            "selection_reason": "Highlighting contest winners engages customers and promotes community involvement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-wearables",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/limited-edition-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Limited Edition Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/sweepstakes",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Giveaways Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/fallout-capsule-collection",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Capsule/Collection Product PDP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/gaming-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-underwear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/new-crates/products/pixar",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/products/loot-socks",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/new-crates/products/crunchyroll-crate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/film-tv-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/new-crates/products/destiny",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/new-crates/products/britney-spears-limited-edition-fashion-doll-series",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/blogs/news/contest-winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/loot-wear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/my-deals",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Exclusive Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/animation",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/collections/all-crates-filters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20201224010436/https://lootcrate.com/pages/geekmas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional Campaign Landing Page"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-01 02:57:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 70,
+      "valid_content_urls_count": 70,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/our-mission",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/all",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/dragon-prince",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-socks",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/account",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/terms-of-service",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/rewards-arc",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/loot-crate-contests-and-giveaways",
+        "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/gaming-crates"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "This page educates potential customers about the service, enhancing understanding and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/our-mission",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Provides insight into the brand's values and mission, fostering a connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "This page showcases the entire product range, crucial for generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/dragon-prince",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Crates Category",
+            "selection_reason": "Highlights new offerings, attracting customers looking for the latest products."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-socks",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Detailed product pages are essential for customers evaluating specific items."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is critical for finalizing purchases, making it a key decision stage URL."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Login page is vital for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "This page allows customers to manage their orders and account settings, essential for fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Transparency about data usage is crucial for building trust and retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clear terms of service are important for customer confidence and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Providing support options is essential for customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/rewards-arc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty & Rewards Program",
+            "selection_reason": "A rewards program encourages repeat purchases and enhances customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/loot-crate-contests-and-giveaways",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contests & Giveaways Hub",
+            "selection_reason": "Engagement through contests and giveaways helps retain customer interest and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/gaming-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Themed categories attract niche audiences and enhance customer engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/blogs/news/contest-winners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contest Winners"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-socks",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/dragon-prince",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-wearables",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/film-tv-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/gundam-capsule",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Capsule/Collection Product PDP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/gaming-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/hello-kitty",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/loot-crate-contests-and-giveaways",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Giveaways Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/avatar",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/featured-artist-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Artist Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/limited-edition-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Limited Edition Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/new-crates/products/tiny-tina",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/animation",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/rewards-arc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty & Rewards Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/sweepstakes",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Giveaways Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20211216200429/https://lootcrate.com/products/loot-underwear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-01 02:57:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 40,
+      "valid_content_urls_count": 40,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/community",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/all",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/tiny-tina",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/products/loot-tees",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/account",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/terms-of-service",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/limited-edition-crates",
+        "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/gaming-crates"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Educates potential customers about the subscription model and product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community Hub",
+            "selection_reason": "Engages customers by showcasing community involvement and user-generated content."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Provides a comprehensive view of all available products, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/tiny-tina",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Crates Category",
+            "selection_reason": "Highlights new and trending products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/products/loot-tees",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Provides detailed information on specific products, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Allows customers to manage their subscriptions and orders effectively."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and assistance, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the rules and guidelines for using the service, important for customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/limited-edition-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Limited Edition Crates Category",
+            "selection_reason": "Attracts collectors and enthusiasts, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/gaming-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Targets specific customer interests in gaming, increasing relevance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/gaming-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/featured-artist-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Artist Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/tiny-tina",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/loot-anime-fury",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/gundam",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/film-tv-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/new-crates/products/avatar",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/products/loot-socks",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/limited-edition-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Limited Edition Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/collections/animation",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20221230123424/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-01 02:57:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 24,
+      "valid_content_urls_count": 24,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/our-mission",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all-products",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all-apparel",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/pop-culture-crates",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-tees",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-socks",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/account",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/logout",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/terms-of-service"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/our-mission",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Provides insight into the brand's values and mission, fostering customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the service model, helping customers understand the offering."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all-products",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "A comprehensive listing that showcases all available products, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all-apparel",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Apparel Main Category",
+            "selection_reason": "Highlights the apparel offerings, appealing to fashion-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/pop-culture-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Attracts fans of specific genres, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-tees",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Detailed product pages are essential for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-socks",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Another key product page that aids in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Facilitates account access for returning customers, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Essential for customers to manage their orders and account settings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/logout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Logout",
+            "selection_reason": "Important for user session management and security."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides customer support, crucial for retention and customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the legal framework of the service, important for customer confidence."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/partner-subscription-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Partner Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/products/loot-socks",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231153557/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 02:57:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 23,
+      "valid_content_urls_count": 23,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/our-mission",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all-apparel",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/pop-culture-crates",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-socks",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-tees",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/account",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/terms-of-service"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/our-mission",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "This page helps customers understand the brand's values and mission, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the subscription model and service, crucial for new customers to understand the offering."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "A comprehensive listing of products that captures customer interest and encourages exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all-apparel",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Apparel Main Category",
+            "selection_reason": "Highlights a specific product category, appealing to customers interested in apparel."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/pop-culture-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Attracts customers interested in themed products, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-socks",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Provides detailed information about a specific product, aiding customers in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-tees",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Another product detail page that showcases offerings, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selections before purchase, facilitating the decision process."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Allows returning customers to access their accounts, critical for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Enables customers to manage their subscriptions and orders, essential for fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and assistance, crucial for customer retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling practices, fostering trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the terms under which services are provided, important for customer trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/partner-subscription-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Partner Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-socks",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241228015006/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-01 02:58:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 22,
+      "valid_content_urls_count": 22,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/our-mission",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/how-it-works",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/all",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/pop-culture-crates",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/partner-subscription-crates",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/products/loot-tees",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/cart",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/login",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/logout",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/account",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/contact-us",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/privacy-policy",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/terms-of-service",
+        "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/accessibility"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/our-mission",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Mission",
+            "selection_reason": "Informs customers about the brand's values and mission, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/how-it-works",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How It Works",
+            "selection_reason": "Explains the subscription model, helping customers understand the service."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products/Crates Listing",
+            "selection_reason": "Provides a comprehensive view of all products, catering to customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/pop-culture-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+            "selection_reason": "Targets specific interests, enhancing the shopping experience for niche audiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/partner-subscription-crates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Partner Crates Category",
+            "selection_reason": "Highlights collaborative offerings, attracting fans of partner brands."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/products/loot-tees",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Apparel Product Detail Page (PDP)",
+            "selection_reason": "Allows customers to evaluate specific products, aiding in purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Login",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/logout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "User Logout",
+            "selection_reason": "Provides a clear exit option for users, ensuring security and user control."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Enables customers to manage their subscriptions and orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Center / Contact Us",
+            "selection_reason": "Provides support and assistance, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/terms-of-service",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the rules and agreements, ensuring transparency and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/accessibility",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Accessibility Statement",
+            "selection_reason": "Demonstrates commitment to inclusivity, enhancing brand reputation."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/pop-culture-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Category (e.g., Gaming, Film & TV)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/loot-wear-hub",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Loot Wear Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/logout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/our-mission",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "User Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/terms-of-service",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/products/loot-tees",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Apparel Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/account",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Center / Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/partner-subscription-crates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Partner Crates Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/pages/how-it-works",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How It Works"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/all-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250511175441/https://lootcrate.com/collections/all/products/loot-crate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products/Crates Listing"
+        }
+      ]
+    }
+  }
+}

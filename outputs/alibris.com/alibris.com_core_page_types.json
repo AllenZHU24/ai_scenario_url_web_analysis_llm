@@ -1,0 +1,347 @@
+{
+  "generation_time": "2025-06-28 02:21:38",
+  "company_url": "alibris.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/*/*"
+        ]
+      },
+      {
+        "type_name": "Blog Category/Tag Page",
+        "typical_url_patterns": [
+          "/blog/tag/*",
+          "/blog/category/*"
+        ]
+      },
+      {
+        "type_name": "Content Article",
+        "typical_url_patterns": [
+          "/article/*"
+        ]
+      },
+      {
+        "type_name": "Gift Guides Hub",
+        "typical_url_patterns": [
+          "/gift-ideas",
+          "/book-gifts-and-more"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliates/home"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Hub - Books",
+        "typical_url_patterns": [
+          "/books"
+        ]
+      },
+      {
+        "type_name": "Main Category Hub - Movies",
+        "typical_url_patterns": [
+          "/movies"
+        ]
+      },
+      {
+        "type_name": "Main Category Hub - Music",
+        "typical_url_patterns": [
+          "/music"
+        ]
+      },
+      {
+        "type_name": "Textbook Hub",
+        "typical_url_patterns": [
+          "/books/textbooks",
+          "/textbook-subjects",
+          "/back-to-school"
+        ]
+      },
+      {
+        "type_name": "Rare & Collectible Hub",
+        "typical_url_patterns": [
+          "/books/rare-collectible",
+          "/books/antiquarian-books"
+        ]
+      },
+      {
+        "type_name": "Special Editions Hub",
+        "typical_url_patterns": [
+          "/books/first-edition-books",
+          "/books/signed-books"
+        ]
+      },
+      {
+        "type_name": "Sales & Deals Hub",
+        "typical_url_patterns": [
+          "/books/books-on-sale",
+          "/discount-books",
+          "/music/music-bargains"
+        ]
+      },
+      {
+        "type_name": "All Subjects/Genres List",
+        "typical_url_patterns": [
+          "/subjects",
+          "/subjects/all-subjects",
+          "*/movies-all-genres"
+        ]
+      },
+      {
+        "type_name": "Browse by Creator Hub",
+        "typical_url_patterns": [
+          "/books/search-by-author",
+          "/movies/search-by-actor-or-director",
+          "/music/search-by-artist"
+        ]
+      },
+      {
+        "type_name": "Kids & Teens Hub",
+        "typical_url_patterns": [
+          "/books/kids-and-teens",
+          "/books/kids-and-teens/*"
+        ]
+      },
+      {
+        "type_name": "Author Personalities Quiz",
+        "typical_url_patterns": [
+          "/author-personalities"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (Book)",
+        "typical_url_patterns": [
+          "/*/*book/*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Movie)",
+        "typical_url_patterns": [
+          "/*/*movie/*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Music)",
+        "typical_url_patterns": [
+          "/*/*music/*"
+        ]
+      },
+      {
+        "type_name": "General Search Results",
+        "typical_url_patterns": [
+          "/booksearch*",
+          "/moviesearch*",
+          "/musicsearch*"
+        ]
+      },
+      {
+        "type_name": "Search Results - Book Subject",
+        "typical_url_patterns": [
+          "/search/books/subject/*"
+        ]
+      },
+      {
+        "type_name": "Search Results - Movie Genre",
+        "typical_url_patterns": [
+          "/search/movies/genre/*"
+        ]
+      },
+      {
+        "type_name": "Search Results - Music Genre",
+        "typical_url_patterns": [
+          "/search/music/genre/*",
+          "/search/classical/genre/*"
+        ]
+      },
+      {
+        "type_name": "Search Results by Creator",
+        "typical_url_patterns": [
+          "/search/books/author/*",
+          "/search/music/artist/*",
+          "/search/movies/actor/*",
+          "/search/movies/director/*"
+        ]
+      },
+      {
+        "type_name": "Search Results by Award",
+        "typical_url_patterns": [
+          "/search/movies/award/*"
+        ]
+      },
+      {
+        "type_name": "Search Results with Filters",
+        "typical_url_patterns": [
+          "*textbook=1",
+          "*discount=1",
+          "*qpricehi=0.99",
+          "*/ebook",
+          "*/new-releases"
+        ]
+      },
+      {
+        "type_name": "Seller Directory",
+        "typical_url_patterns": [
+          "/sellers",
+          "/find-a-seller"
+        ]
+      },
+      {
+        "type_name": "Seller Storefront",
+        "typical_url_patterns": [
+          "/stores/*"
+        ]
+      },
+      {
+        "type_name": "Book Condition Guide",
+        "typical_url_patterns": [
+          "/article/book-condition-grading",
+          "/article/*determining-conditions*"
+        ]
+      },
+      {
+        "type_name": "Bookfetch (Item Finder)",
+        "typical_url_patterns": [
+          "/bookfetch"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist"
+        ]
+      },
+      {
+        "type_name": "Coupons & Promotions",
+        "typical_url_patterns": [
+          "/coupons",
+          "/promotions/intro"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "*login=true*",
+          "/portals/alibrisPortal.portal*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Help Center Home",
+        "typical_url_patterns": [
+          "/help/home",
+          "/contact/contact-home"
+        ]
+      },
+      {
+        "type_name": "Help Article (Shipping)",
+        "typical_url_patterns": [
+          "/help/shipping",
+          "/help/free-shipping",
+          "/help/super-value-shipping"
+        ]
+      },
+      {
+        "type_name": "Help Article (Returns)",
+        "typical_url_patterns": [
+          "/policies/returns"
+        ]
+      },
+      {
+        "type_name": "Help Article (Account & General FAQ)",
+        "typical_url_patterns": [
+          "/help/creating",
+          "/help/accessibility",
+          "/help/ebook-faq",
+          "/help/rent-textbooks-etc"
+        ]
+      },
+      {
+        "type_name": "Account Dashboard / Order History",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Policy Page (Terms & Privacy)",
+        "typical_url_patterns": [
+          "/policies/terms",
+          "/policies/privacy",
+          "/policies/copyright",
+          "/policies/shopping"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Community Home",
+        "typical_url_patterns": [
+          "/community",
+          "/community/home"
+        ]
+      },
+      {
+        "type_name": "Community Content Feed",
+        "typical_url_patterns": [
+          "/community/latest/*"
+        ]
+      },
+      {
+        "type_name": "Community Discussion Thread",
+        "typical_url_patterns": [
+          "/community/discussion/*"
+        ]
+      },
+      {
+        "type_name": "Community User Profile",
+        "typical_url_patterns": [
+          "/community/profile/*"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup",
+        "typical_url_patterns": [
+          "/newsletter-signup"
+        ]
+      },
+      {
+        "type_name": "About Us / Company Story",
+        "typical_url_patterns": [
+          "/about",
+          "/about/story",
+          "/about/aboutus",
+          "/about/alibris-cares"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

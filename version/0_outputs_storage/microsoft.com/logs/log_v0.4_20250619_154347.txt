@@ -1,0 +1,304 @@
+2025-06-19 15:43:47,977 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-19 15:43:47,977 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-19 15:43:47,978 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-19 15:43:47,978 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-19 15:43:47,979 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-19 15:43:47,979 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-19 15:43:47,979 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/microsoft.com
+2025-06-19 15:43:47,979 - INFO - 🔍 No existing planning file found at outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json, starting fresh
+2025-06-19 15:43:47,980 - INFO - 🔄 Starting new unified planning workflow (v0.4.2)...
+2025-06-19 15:43:47,980 - INFO - 🌐 [Links] Discovering internal links for 2013
+2025-06-19 15:43:47,980 - INFO - 开始发现URL: https://web.archive.org/web/20131111134429/http://www.microsoft.com/
+2025-06-19 15:43:51,273 - INFO - 发现 2 个内部链接
+2025-06-19 15:43:54,377 - INFO - URL filtering completed: 2/2 links passed (structure + reachability)
+2025-06-19 15:43:54,377 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:43:54,378 - INFO - 🌐 [Links] Discovering internal links for 2014
+2025-06-19 15:43:54,378 - INFO - 开始发现URL: https://web.archive.org/web/20140410181505/http://www.microsoft.com/
+2025-06-19 15:43:56,348 - INFO - 发现 2 个内部链接
+2025-06-19 15:43:59,353 - INFO - URL filtering completed: 2/2 links passed (structure + reachability)
+2025-06-19 15:43:59,353 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:43:59,354 - INFO - 🌐 [Links] Discovering internal links for 2015
+2025-06-19 15:43:59,354 - INFO - 开始发现URL: https://web.archive.org/web/20151002093351/http://www.microsoft.com/
+2025-06-19 15:44:03,111 - INFO - 发现 1 个内部链接
+2025-06-19 15:44:03,487 - INFO - URL filtering completed: 1/1 links passed (structure + reachability)
+2025-06-19 15:44:03,488 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:44:03,488 - INFO - 🌐 [Links] Discovering internal links for 2017
+2025-06-19 15:44:03,488 - INFO - 开始发现URL: https://web.archive.org/web/20171120040131/http://www.microsoft.com/
+2025-06-19 15:44:05,797 - INFO - 发现 2 个内部链接
+2025-06-19 15:44:13,477 - INFO - URL filtering completed: 2/2 links passed (structure + reachability)
+2025-06-19 15:44:13,478 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:44:13,478 - INFO - 🌐 [Links] Discovering internal links for 2019
+2025-06-19 15:44:13,478 - INFO - 开始发现URL: https://web.archive.org/web/20190425043737/https://www.microsoft.com/
+2025-06-19 15:44:16,296 - INFO - 发现 100 个内部链接
+2025-06-19 15:51:42,155 - INFO - URL filtering completed: 90/100 links passed (structure + reachability)
+2025-06-19 15:51:42,156 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:51:42,156 - INFO - 🌐 [Links] Discovering internal links for 2022
+2025-06-19 15:51:42,156 - INFO - 开始发现URL: https://web.archive.org/web/20220506032946/http://www.microsoft.com/
+2025-06-19 15:51:44,073 - INFO - 发现 2 个内部链接
+2025-06-19 15:51:48,399 - INFO - URL filtering completed: 2/2 links passed (structure + reachability)
+2025-06-19 15:51:48,400 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:51:48,400 - INFO - 🌐 [Links] Discovering internal links for 2025
+2025-06-19 15:51:48,400 - INFO - 开始发现URL: https://web.archive.org/web/20250407041512/https://www.microsoft.com/
+2025-06-19 15:51:50,417 - INFO - 发现 97 个内部链接
+2025-06-19 15:59:49,072 - INFO - URL filtering completed: 88/97 links passed (structure + reachability)
+2025-06-19 15:59:49,074 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:59:49,074 - INFO - 🌐 [Links] Discovering internal links for 2009
+2025-06-19 15:59:49,075 - INFO - 开始发现URL: https://web.archive.org/web/20090628232459/http://www.microsoft.com:80/
+2025-06-19 15:59:52,015 - INFO - 发现 1 个内部链接
+2025-06-19 15:59:52,397 - INFO - URL filtering completed: 1/1 links passed (structure + reachability)
+2025-06-19 15:59:52,398 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 15:59:52,398 - INFO - 🌐 [Links] Discovering internal links for 2024
+2025-06-19 15:59:52,399 - INFO - 开始发现URL: https://web.archive.org/web/20241231082124/https://www.microsoft.com/
+2025-06-19 15:59:54,728 - INFO - 发现 97 个内部链接
+2025-06-19 16:06:48,622 - INFO - URL filtering completed: 88/97 links passed (structure + reachability)
+2025-06-19 16:06:48,623 - INFO - 💾 [Links] Consolidated cache updated (outputs/microsoft.com/microsoft.com_filtered_links_v0.4.2_result.json)
+2025-06-19 16:06:48,624 - INFO - 🧠 [Step B] Identifying core page types via LLM…
+2025-06-19 16:06:48,624 - INFO - 🤖 Calling LLM model [Step B CoreType]: openai/gpt-4o
+2025-06-19 16:06:52,146 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:01,425 - INFO - ✅ LLM response received successfully [Step B CoreType]
+2025-06-19 16:07:01,425 - INFO - 📊 Response length: 2561 characters
+2025-06-19 16:07:01,426 - INFO - ✅ Identified 20 core page types
+2025-06-19 16:07:01,437 - INFO - 💾 Core page types exported to outputs/microsoft.com/microsoft.com_core_page_types_v0.4.2_result.json
+2025-06-19 16:07:01,437 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-19 16:07:01,438 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:02,225 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:02,919 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:02,919 - INFO - 📊 Response length: 399 characters
+2025-06-19 16:07:02,919 - INFO - 🔄 Classified 2 URLs for year 2013
+2025-06-19 16:07:02,919 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20131111134429/http://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20131111134429/http://www.microsoft.com/en/us/default.aspx?redir=true', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:07:02,920 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:04,213 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:06,691 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:06,691 - INFO - 📊 Response length: 554 characters
+2025-06-19 16:07:06,692 - INFO - ✅ URL recommendation finished: 2 recommended, 2 within valid pages (enforce=False)
+2025-06-19 16:07:06,693 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:06,693 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-19 16:07:06,693 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:07,337 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:08,129 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:08,130 - INFO - 📊 Response length: 399 characters
+2025-06-19 16:07:08,130 - INFO - 🔄 Classified 2 URLs for year 2014
+2025-06-19 16:07:08,130 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20140410181505/http://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20140410181505/http://www.microsoft.com/en/us/default.aspx?redir=true', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:07:08,130 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:08,880 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:12,143 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:12,143 - INFO - 📊 Response length: 554 characters
+2025-06-19 16:07:12,144 - INFO - ✅ URL recommendation finished: 2 recommended, 2 within valid pages (enforce=False)
+2025-06-19 16:07:12,144 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:12,145 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-19 16:07:12,145 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:14,020 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:14,343 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:14,343 - INFO - 📊 Response length: 192 characters
+2025-06-19 16:07:14,343 - INFO - 🔄 Classified 1 URLs for year 2015
+2025-06-19 16:07:14,343 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20151002093351/http://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:07:14,343 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:15,049 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:16,370 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:16,370 - INFO - 📊 Response length: 407 characters
+2025-06-19 16:07:16,370 - INFO - ✅ URL recommendation finished: 1 recommended, 1 within valid pages (enforce=False)
+2025-06-19 16:07:16,372 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:16,373 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-19 16:07:16,373 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:17,364 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:18,721 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:18,721 - INFO - 📊 Response length: 399 characters
+2025-06-19 16:07:18,722 - INFO - 🔄 Classified 2 URLs for year 2017
+2025-06-19 16:07:18,722 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20171120040131/http://www.microsoft.com/en/us/default.aspx?redir=true', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20171120040131/http://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:07:18,723 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:19,432 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:22,011 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:22,012 - INFO - 📊 Response length: 554 characters
+2025-06-19 16:07:22,012 - INFO - ✅ URL recommendation finished: 2 recommended, 2 within valid pages (enforce=False)
+2025-06-19 16:07:22,013 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:22,013 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-19 16:07:22,013 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:22,962 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:35,482 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:35,483 - INFO - 📊 Response length: 3111 characters
+2025-06-19 16:07:35,483 - INFO - 🔄 Classified 14 URLs for year 2019
+2025-06-19 16:07:35,483 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education/products/office/default.aspx', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Education'}, {'url': 'https://web.archive.org/web/20190425043737/https://news.microsoft.com/features/local-venues-major-festivals-surface-powered-kit-takes-electronic-artist-alison-wonderlands-live-act-new-level/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'News and Features'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/about', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About Us'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/surface', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20190425043737/https://news.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'News and Features'}, {'url': 'https://web.archive.org/web/20190425043737/https://support.microsoft.com/en-us', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Enterprise Solutions'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-go/8v9dp4lnknsz', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20190425043737/https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&WT.mc_id=oan_mscom_hp_o365febrefresh', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Compare Products'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise/finance/banking-capital-markets', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Enterprise Solutions'}, {'url': 'https://web.archive.org/web/20190425043737/https://account.microsoft.com/orders', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Order History'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/microsoft-365', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-19 16:07:35,483 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:36,317 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:48,735 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:48,735 - INFO - 📊 Response length: 2915 characters
+2025-06-19 16:07:48,735 - INFO - ✅ URL recommendation finished: 12 recommended, 11 within valid pages (enforce=False)
+2025-06-19 16:07:48,737 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:48,737 - INFO - 🤖 [Step C] Recommending core URLs for 2022
+2025-06-19 16:07:48,737 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:49,573 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:50,787 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:07:50,787 - INFO - 📊 Response length: 399 characters
+2025-06-19 16:07:50,787 - INFO - 🔄 Classified 2 URLs for year 2022
+2025-06-19 16:07:50,787 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20220506032946/http://www.microsoft.com/en/us/default.aspx?redir=true', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20220506032946/http://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:07:50,787 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:07:51,525 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:07:53,294 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:07:53,294 - INFO - 📊 Response length: 554 characters
+2025-06-19 16:07:53,295 - INFO - ✅ URL recommendation finished: 2 recommended, 2 within valid pages (enforce=False)
+2025-06-19 16:07:53,296 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:07:53,296 - INFO - 🤖 [Step C] Recommending core URLs for 2025
+2025-06-19 16:07:53,297 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:07:54,274 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:04,331 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:08:04,331 - INFO - 📊 Response length: 2332 characters
+2025-06-19 16:08:04,332 - INFO - 🔄 Classified 11 URLs for year 2025
+2025-06-19 16:08:04,332 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20250407041512/https://support.microsoft.com/en-us', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20250407041512/https://account.microsoft.com/orders', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Order History'}, {'url': 'https://web.archive.org/web/20250407041512/https://news.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'News and Features'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/returns', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Education'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/enterprise', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Enterprise Solutions'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/about', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About Us'}, {'url': 'https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/windows/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-19 16:08:04,332 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:08:05,217 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:18,120 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:08:18,121 - INFO - 📊 Response length: 2350 characters
+2025-06-19 16:08:18,121 - INFO - ✅ URL recommendation finished: 10 recommended, 10 within valid pages (enforce=False)
+2025-06-19 16:08:18,123 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:08:18,123 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-19 16:08:18,123 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:08:19,348 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:19,989 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:08:19,989 - INFO - 📊 Response length: 195 characters
+2025-06-19 16:08:19,990 - INFO - 🔄 Classified 1 URLs for year 2009
+2025-06-19 16:08:19,990 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20090628232459/http://www.microsoft.com:80/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-19 16:08:19,990 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:08:21,037 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:22,989 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:08:22,989 - INFO - 📊 Response length: 410 characters
+2025-06-19 16:08:22,990 - INFO - ✅ URL recommendation finished: 1 recommended, 1 within valid pages (enforce=False)
+2025-06-19 16:08:22,991 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:08:22,991 - INFO - 🤖 [Step C] Recommending core URLs for 2024
+2025-06-19 16:08:22,992 - INFO - 🤖 Calling LLM model [Step C.1 Classify]: openai/gpt-4o
+2025-06-19 16:08:24,432 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:31,192 - INFO - ✅ LLM response received successfully [Step C.1 Classify]
+2025-06-19 16:08:31,193 - INFO - 📊 Response length: 2548 characters
+2025-06-19 16:08:31,193 - INFO - 🔄 Classified 12 URLs for year 2024
+2025-06-19 16:08:31,193 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/rewards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Rewards Program'}, {'url': 'https://web.archive.org/web/20241231082124/http://www.microsoft.com/en/us/default.aspx?redir=true', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20241231082124/https://account.microsoft.com/orders', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Order History'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/surface', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/enterprise', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Enterprise Solutions'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20241231082124/https://news.microsoft.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'News and Features'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/returns', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20241231082124/https://support.microsoft.com/en-us', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/about', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About Us'}]
+2025-06-19 16:08:31,193 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-19 16:08:32,304 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-19 16:08:48,323 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-19 16:08:48,323 - INFO - 📊 Response length: 2615 characters
+2025-06-19 16:08:48,323 - INFO - ✅ URL recommendation finished: 11 recommended, 11 within valid pages (enforce=False)
+2025-06-19 16:08:48,325 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4.2_result.json
+2025-06-19 16:08:48,326 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-19 16:08:48,326 - INFO - 📄 [2013] Analyzing page 1/2
+2025-06-19 16:08:51,786 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2013_20250619_160851.txt
+2025-06-19 16:08:52,791 - INFO - 📄 [2013] Analyzing page 2/2
+2025-06-19 16:08:55,193 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2013_20250619_160855.txt
+2025-06-19 16:08:56,196 - INFO - ✅ Year 2013 scenario identification completed: 3 scenarios
+2025-06-19 16:08:56,197 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:08:56,197 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-19 16:08:56,197 - INFO - 📄 [2014] Analyzing page 1/2
+2025-06-19 16:08:58,539 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2014_20250619_160858.txt
+2025-06-19 16:08:59,540 - INFO - 📄 [2014] Analyzing page 2/2
+2025-06-19 16:09:02,521 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2014_20250619_160902.txt
+2025-06-19 16:09:03,524 - INFO - ✅ Year 2014 scenario identification completed: 2 scenarios
+2025-06-19 16:09:03,525 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:09:03,525 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-19 16:09:03,525 - INFO - 📄 [2015] Analyzing page 1/1
+2025-06-19 16:09:06,152 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2015_20250619_160906.txt
+2025-06-19 16:09:07,152 - INFO - ✅ Year 2015 scenario identification completed: 0 scenarios
+2025-06-19 16:09:07,154 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:09:07,154 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-19 16:09:07,155 - INFO - 📄 [2017] Analyzing page 1/2
+2025-06-19 16:09:13,820 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2017_20250619_160913.txt
+2025-06-19 16:09:14,824 - INFO - 📄 [2017] Analyzing page 2/2
+2025-06-19 16:09:16,763 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2017_20250619_160916.txt
+2025-06-19 16:09:17,765 - INFO - ✅ Year 2017 scenario identification completed: 0 scenarios
+2025-06-19 16:09:17,766 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:09:17,767 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-19 16:09:17,767 - INFO - 📄 [2019] Analyzing page 1/12
+2025-06-19 16:09:21,080 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160921.txt
+2025-06-19 16:09:22,083 - INFO - 📄 [2019] Analyzing page 2/12
+2025-06-19 16:09:23,997 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160923.txt
+2025-06-19 16:09:25,002 - INFO - 📄 [2019] Analyzing page 3/12
+2025-06-19 16:09:27,795 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160927.txt
+2025-06-19 16:09:28,801 - INFO - 📄 [2019] Analyzing page 4/12
+2025-06-19 16:09:31,248 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160931.txt
+2025-06-19 16:09:32,254 - INFO - 📄 [2019] Analyzing page 5/12
+2025-06-19 16:09:36,493 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160936.txt
+2025-06-19 16:09:37,496 - INFO - 📄 [2019] Analyzing page 6/12
+2025-06-19 16:09:42,799 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160942.txt
+2025-06-19 16:09:43,815 - INFO - 📄 [2019] Analyzing page 7/12
+2025-06-19 16:09:46,404 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160946.txt
+2025-06-19 16:09:47,411 - INFO - 📄 [2019] Analyzing page 8/12
+2025-06-19 16:09:54,247 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160954.txt
+2025-06-19 16:09:55,249 - INFO - 📄 [2019] Analyzing page 9/12
+2025-06-19 16:09:57,957 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_160957.txt
+2025-06-19 16:09:58,959 - INFO - 📄 [2019] Analyzing page 10/12
+2025-06-19 16:10:02,800 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_161002.txt
+2025-06-19 16:10:03,803 - INFO - 📄 [2019] Analyzing page 11/12
+2025-06-19 16:10:06,795 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2019_20250619_161006.txt
+2025-06-19 16:10:07,808 - INFO - 📄 [2019] Analyzing page 12/12
+2025-06-19 16:10:22,466 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise/finance/banking-capital-markets: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-19 16:10:23,468 - INFO - ✅ Year 2019 scenario identification completed: 14 scenarios
+2025-06-19 16:10:23,469 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:10:23,470 - INFO - 🔍 Identifying scenarios for year 2022 ...
+2025-06-19 16:10:23,470 - INFO - 📄 [2022] Analyzing page 1/2
+2025-06-19 16:10:27,936 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2022_20250619_161027.txt
+2025-06-19 16:10:28,940 - INFO - 📄 [2022] Analyzing page 2/2
+2025-06-19 16:10:32,455 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2022_20250619_161032.txt
+2025-06-19 16:10:33,457 - INFO - ✅ Year 2022 scenario identification completed: 3 scenarios
+2025-06-19 16:10:33,458 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:10:33,459 - INFO - 🔍 Identifying scenarios for year 2025 ...
+2025-06-19 16:10:33,459 - INFO - 📄 [2025] Analyzing page 1/10
+2025-06-19 16:10:36,162 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161036.txt
+2025-06-19 16:10:37,164 - INFO - 📄 [2025] Analyzing page 2/10
+2025-06-19 16:10:43,309 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161043.txt
+2025-06-19 16:10:44,313 - INFO - 📄 [2025] Analyzing page 3/10
+2025-06-19 16:10:47,628 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161047.txt
+2025-06-19 16:10:48,632 - INFO - 📄 [2025] Analyzing page 4/10
+2025-06-19 16:10:52,204 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161052.txt
+2025-06-19 16:10:53,210 - INFO - 📄 [2025] Analyzing page 5/10
+2025-06-19 16:10:56,781 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161056.txt
+2025-06-19 16:10:57,785 - INFO - 📄 [2025] Analyzing page 6/10
+2025-06-19 16:11:01,912 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161101.txt
+2025-06-19 16:11:02,919 - INFO - 📄 [2025] Analyzing page 7/10
+2025-06-19 16:11:05,576 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161105.txt
+2025-06-19 16:11:06,587 - INFO - 📄 [2025] Analyzing page 8/10
+2025-06-19 16:11:09,994 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161109.txt
+2025-06-19 16:11:11,005 - INFO - 📄 [2025] Analyzing page 9/10
+2025-06-19 16:11:18,770 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161118.txt
+2025-06-19 16:11:19,774 - INFO - 📄 [2025] Analyzing page 10/10
+2025-06-19 16:11:23,321 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2025_20250619_161123.txt
+2025-06-19 16:11:24,331 - INFO - ✅ Year 2025 scenario identification completed: 14 scenarios
+2025-06-19 16:11:24,332 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:11:24,332 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-19 16:11:24,332 - INFO - 📄 [2009] Analyzing page 1/1
+2025-06-19 16:11:27,748 - INFO - ✅ Year 2009 scenario identification completed: 0 scenarios
+2025-06-19 16:11:27,749 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:11:27,749 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-19 16:11:27,749 - INFO - 📄 [2024] Analyzing page 1/11
+2025-06-19 16:11:31,097 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161131.txt
+2025-06-19 16:11:32,103 - INFO - 📄 [2024] Analyzing page 2/11
+2025-06-19 16:11:35,683 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161135.txt
+2025-06-19 16:11:36,685 - INFO - 📄 [2024] Analyzing page 3/11
+2025-06-19 16:11:42,433 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161142.txt
+2025-06-19 16:11:43,440 - INFO - 📄 [2024] Analyzing page 4/11
+2025-06-19 16:11:47,474 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161147.txt
+2025-06-19 16:11:48,477 - INFO - 📄 [2024] Analyzing page 5/11
+2025-06-19 16:11:51,957 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161151.txt
+2025-06-19 16:11:52,963 - INFO - 📄 [2024] Analyzing page 6/11
+2025-06-19 16:11:55,372 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161155.txt
+2025-06-19 16:11:56,379 - INFO - 📄 [2024] Analyzing page 7/11
+2025-06-19 16:12:01,247 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161201.txt
+2025-06-19 16:12:02,255 - INFO - 📄 [2024] Analyzing page 8/11
+2025-06-19 16:12:09,344 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161209.txt
+2025-06-19 16:12:10,346 - INFO - 📄 [2024] Analyzing page 9/11
+2025-06-19 16:12:14,165 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161214.txt
+2025-06-19 16:12:15,170 - INFO - 📄 [2024] Analyzing page 10/11
+2025-06-19 16:12:18,964 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161218.txt
+2025-06-19 16:12:19,969 - INFO - 📄 [2024] Analyzing page 11/11
+2025-06-19 16:12:30,864 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250619_161230.txt
+2025-06-19 16:12:31,869 - INFO - ✅ Year 2024 scenario identification completed: 15 scenarios
+2025-06-19 16:12:31,871 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:12:31,876 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4.2_result.json
+2025-06-19 16:12:31,876 - INFO - ✅ Unified analysis workflow completed!
+2025-06-19 16:12:31,876 - INFO - 💡 Analysis completed! Output files:
+2025-06-19 16:12:31,876 - INFO -    - ./outputs/microsoft.com/microsoft.com_llm_planning_v0.4_result.json
+2025-06-19 16:12:31,876 - INFO -    - ./outputs/microsoft.com/microsoft.com_scenario_v0.4_result.json
+2025-06-19 16:12:33,787 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-19 16:12:33,790 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

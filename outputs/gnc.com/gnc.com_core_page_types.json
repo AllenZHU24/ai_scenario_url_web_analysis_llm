@@ -1,0 +1,362 @@
+{
+  "generation_time": "2025-06-30 16:45:12",
+  "company_url": "gnc.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/home/index.jsp",
+          "/?utm_source="
+        ]
+      },
+      {
+        "type_name": "Top-Level Department Hub",
+        "typical_url_patterns": [
+          "/department/",
+          "/shop/index.jsp?categoryId="
+        ]
+      },
+      {
+        "type_name": "Content Hub / Blog",
+        "typical_url_patterns": [
+          "/learn",
+          "/live-well/",
+          "/health-articles-tips.html",
+          "/learning-center/"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Info",
+        "typical_url_patterns": [
+          "/about-us.html",
+          "/about-gnc/",
+          "/science-and-innovation.html",
+          "/live-well-foundation.html"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/stores",
+          "/corp/index.jsp?page=storeLocator"
+        ]
+      },
+      {
+        "type_name": "International Portals",
+        "typical_url_patterns": [
+          "/around-the-world.html"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Product Category Page (PLP)",
+        "typical_url_patterns": [
+          "/[category-name]/[subcategory-name]/",
+          "/category/index.jsp?categoryId=",
+          "/family/index.jsp?categoryId=",
+          "/[category-name]/view-all-[category-name]/"
+        ]
+      },
+      {
+        "type_name": "Goal-Based Category Page",
+        "typical_url_patterns": [
+          "/shop-goal-condition/",
+          "/by-concern/",
+          "/by-goal-protein/"
+        ]
+      },
+      {
+        "type_name": "Brand Hub",
+        "typical_url_patterns": [
+          "/brands/",
+          "/department/shop-by-brand/"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Page",
+        "typical_url_patterns": [
+          "/brands/[brand-name]/",
+          "/shop-by-brand-[type]/[brand-name]/"
+        ]
+      },
+      {
+        "type_name": "Sales & Offers Hub",
+        "typical_url_patterns": [
+          "/sale/",
+          "/clearance/",
+          "/going-going-gone/"
+        ]
+      },
+      {
+        "type_name": "Specific Offer Page (BOGO, etc.)",
+        "typical_url_patterns": [
+          "/buy-2-get-1-free/",
+          "/buy-one-get-one-half-off/",
+          "/january-bogo/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/department/new-and-buzzworthy/",
+          "/new-arrivals-shop-all/"
+        ]
+      },
+      {
+        "type_name": "Best Sellers Page",
+        "typical_url_patterns": [
+          "/department/best-sellers/",
+          "/best-sellers"
+        ]
+      },
+      {
+        "type_name": "Article / Guide",
+        "typical_url_patterns": [
+          "/learn/[topic]/[article-name].html",
+          "/wellness/[article-name].html",
+          "/fitness/[article-name].html"
+        ]
+      },
+      {
+        "type_name": "Recipe Page",
+        "typical_url_patterns": [
+          "/live-well/recipes.html",
+          "/health-articles-tips/recipes/",
+          "/recipes/[recipe-name].html"
+        ]
+      },
+      {
+        "type_name": "Routines & Bundles Page",
+        "typical_url_patterns": [
+          "/gnc-routines.html",
+          "/expert-built-routines.html",
+          "/starter-packs",
+          "/shop-gnc-routines/"
+        ]
+      },
+      {
+        "type_name": "Specialty Diet Page",
+        "typical_url_patterns": [
+          "/ketogenic/",
+          "/specialty-diet-weight-management/",
+          "/food-drink-specialty-diet/"
+        ]
+      },
+      {
+        "type_name": "Quiz / Solution Finder",
+        "typical_url_patterns": [
+          "/solution-center.html",
+          "/gnc4u.html",
+          "/find-your-flavor"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/[category]/[product-id].html",
+          "/product/index.jsp?productId=",
+          "/[category]/[product-slug].html"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search?q="
+        ]
+      },
+      {
+        "type_name": "Wishlist / My List",
+        "typical_url_patterns": [
+          "/my-list"
+        ]
+      },
+      {
+        "type_name": "Gift With Purchase (GWP) Page",
+        "typical_url_patterns": [
+          "/gwp/[product-id].html"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart/index.jsp"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/buy/pt/index"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/Login-OAuthLoginForm"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/register",
+          "/coreg/index.jsp"
+        ]
+      },
+      {
+        "type_name": "Gift Card Page",
+        "typical_url_patterns": [
+          "/gift-cards.html"
+        ]
+      },
+      {
+        "type_name": "Financing Information (Klarna)",
+        "typical_url_patterns": [
+          "/klarna.html"
+        ]
+      },
+      {
+        "type_name": "Price Match Guarantee",
+        "typical_url_patterns": [
+          "/price-match-guarantee.html"
+        ]
+      },
+      {
+        "type_name": "30-Day Guarantee",
+        "typical_url_patterns": [
+          "/30-day-guarantee.html",
+          "/customer-service/returns/30-day-guarantee.html"
+        ]
+      },
+      {
+        "type_name": "Offer Details",
+        "typical_url_patterns": [
+          "/offer-details.html"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You",
+        "typical_url_patterns": [
+          "/checkout/confirmation",
+          "/order-confirmation"
+        ]
+      },
+      {
+        "type_name": "Order Status Lookup",
+        "typical_url_patterns": [
+          "/check-order",
+          "/on/demandware.store/[...]/CheckOrder-Show"
+        ]
+      },
+      {
+        "type_name": "Order History (in Account)",
+        "typical_url_patterns": [
+          "/orders"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/help-shipping.html"
+        ]
+      },
+      {
+        "type_name": "Returns Information",
+        "typical_url_patterns": [
+          "/help-returns.html"
+        ]
+      },
+      {
+        "type_name": "BOPIS / Delivery Information",
+        "typical_url_patterns": [
+          "/buy-online-pick-up-in-store.html",
+          "/landing-pages/pickup-and-delivery.html"
+        ]
+      },
+      {
+        "type_name": "Product Recall Notice",
+        "typical_url_patterns": [
+          "/recall-notice.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/profile"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Hub",
+        "typical_url_patterns": [
+          "/mygnc-rewards.html",
+          "/my-rewards/"
+        ]
+      },
+      {
+        "type_name": "Premium Membership (Pro Access)",
+        "typical_url_patterns": [
+          "/pro-access.html",
+          "/proaccess"
+        ]
+      },
+      {
+        "type_name": "Subscription (Auto-Delivery) Info",
+        "typical_url_patterns": [
+          "/autodeliver-and-save.html"
+        ]
+      },
+      {
+        "type_name": "Refer-a-Friend",
+        "typical_url_patterns": [
+          "/Give-10-Get-10.html"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/help/",
+          "/helpinformation",
+          "/help-center.html"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/help/contact-us.html"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy Hub",
+        "typical_url_patterns": [
+          "/help/safety-security-privacy.html",
+          "/privacy-policy.html",
+          "/terms.html"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/help/accessibility-statement.html"
+        ]
+      },
+      {
+        "type_name": "Mobile App Promotion",
+        "typical_url_patterns": [
+          "/gnc-app.html"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

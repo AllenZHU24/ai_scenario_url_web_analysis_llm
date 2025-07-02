@@ -1,0 +1,84 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "adidas.com",
+  "export_time": "2025-06-29 23:18:47",
+  "yearly_analysis_results": {
+    "2015": {
+      "analysis_time": "2025-06-27 20:07:50",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151023194947/http://www.adidas.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151023194947/http://www.adidas.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Global Home",
+            "selection_reason": "This URL serves as the main entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151023194947/http://www.adidas.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Global Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-27 20:07:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250503070651/https://www.adidas.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250503070651/https://www.adidas.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Global Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and showcasing the latest products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250503070651/https://www.adidas.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Global Home"
+        }
+      ]
+    }
+  }
+}

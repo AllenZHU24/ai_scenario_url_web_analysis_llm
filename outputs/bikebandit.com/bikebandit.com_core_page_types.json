@@ -1,0 +1,331 @@
+{
+  "generation_time": "2025-06-29 19:49:23",
+  "company_url": "bikebandit.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/homepage.aspx"
+        ]
+      },
+      {
+        "type_name": "Blog & Articles Hub",
+        "typical_url_patterns": [
+          "/community/articles",
+          "/blog",
+          "/articles/"
+        ]
+      },
+      {
+        "type_name": "Blog Post / Article",
+        "typical_url_patterns": [
+          "/community/articles/*",
+          "/blog/*"
+        ]
+      },
+      {
+        "type_name": "Community Hub",
+        "typical_url_patterns": [
+          "/community/home"
+        ]
+      },
+      {
+        "type_name": "General Content Page",
+        "typical_url_patterns": [
+          "/social",
+          "/forums"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us",
+          "/partsbandit/aboutus.asp"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category - Parts",
+        "typical_url_patterns": [
+          "/parts",
+          "/aftermarket-parts",
+          "/oem-parts"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category - Gear & Accessories",
+        "typical_url_patterns": [
+          "/riding-gear-and-accessories",
+          "/accessories",
+          "/apparel-accessories",
+          "/*-gear"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category - Tires & Wheels",
+        "typical_url_patterns": [
+          "/tires-tubes",
+          "/tires/c/*"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category - Manuals & Tools",
+        "typical_url_patterns": [
+          "/manuals-tools"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (L2)",
+        "typical_url_patterns": [
+          "/aftermarket-parts/motorcycle-engine-and-exhaust/",
+          "/riding-gear-and-accessories/helmets-headwear/",
+          "/motorcycle-exhaust",
+          "/motorcycle-brakes"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (L3+)",
+        "typical_url_patterns": [
+          "/aftermarket-parts/electrical/batteries/p37",
+          "/riding-gear-and-accessories/jackets-vests/jackets/ae1",
+          "/motorcycle-helmets/c/*",
+          "/motorcycle-jackets/c/*"
+        ]
+      },
+      {
+        "type_name": "Faceted/Filtered Listing Page",
+        "typical_url_patterns": [
+          "/tires-tubes/160-70-17-tires/t114tq8d",
+          "/riding-gear-and-accessories/jackets-vests/alpinestars-motorcycle-jackets/ae1tu5x",
+          "*/n{id}*"
+        ]
+      },
+      {
+        "type_name": "Brand Hub",
+        "typical_url_patterns": [
+          "/brands"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Listing Page",
+        "typical_url_patterns": [
+          "/brand/{brand-name}",
+          "/{brand-name}/{id}",
+          "/alpinestars/n*"
+        ]
+      },
+      {
+        "type_name": "OEM Parts Hub",
+        "typical_url_patterns": [
+          "/oem-parts",
+          "/oem-parts-select"
+        ]
+      },
+      {
+        "type_name": "OEM Manufacturer Landing Page",
+        "typical_url_patterns": [
+          "/{manufacturer}-motorcycle-parts",
+          "/oem-parts/{manufacturer}-parts/s/{id}"
+        ]
+      },
+      {
+        "type_name": "OEM Vehicle Type Landing Page",
+        "typical_url_patterns": [
+          "/oem-parts/honda-dirt-bike-parts/s/m6c4",
+          "/oem-parts/yamaha-atv-parts/s/m14c2"
+        ]
+      },
+      {
+        "type_name": "Internal Search Results",
+        "typical_url_patterns": [
+          "/sem/site-search/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP) - Aftermarket",
+        "typical_url_patterns": [
+          "/aftermarket-parts/control-brakes/levers-shifters/magura-hymec-hydraulic-clutch-conversion-kit/p/52952",
+          "/tires-tubes/motorcycle-tires/michelin-commander-ii-motorcycle-tire/p/36090"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP) - Gear",
+        "typical_url_patterns": [
+          "/riding-gear-and-accessories/helmets-headwear/motorcycle-helmets/icon-airflite-battlescar-2-helmet/p/61875"
+        ]
+      },
+      {
+        "type_name": "OEM Vehicle Model Page",
+        "typical_url_patterns": [
+          "/oem-parts/1986-honda-fourtrax-250-trx250r/o/m151680",
+          "/2007-triumph-thruxton/o/m147307"
+        ]
+      },
+      {
+        "type_name": "OEM Parts Schematic/Diagram Page",
+        "typical_url_patterns": [
+          "/oem-parts/2001-honda-fourtrax-rancher-350-4x4-es-trx350fe-carburetor/o/m151341sch44466"
+        ]
+      },
+      {
+        "type_name": "Sales & Promotions Hub",
+        "typical_url_patterns": [
+          "/specials",
+          "/closeouts",
+          "/blowouts",
+          "/daily-deals",
+          "/holiday-insanity",
+          "/promotion/sale-closeouts"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/deals/holiday-gift-guide",
+          "/promotion/holiday-gift-guides"
+        ]
+      },
+      {
+        "type_name": "How-To & Project Guides",
+        "typical_url_patterns": [
+          "/community/guides",
+          "/community/guides/how-to-*"
+        ]
+      },
+      {
+        "type_name": "Repair Manuals Category",
+        "typical_url_patterns": [
+          "/motorcycle-repair-manual/cm/*",
+          "/motorcycle-manuals"
+        ]
+      },
+      {
+        "type_name": "Financing Information",
+        "typical_url_patterns": [
+          "/affirm",
+          "/bpgintro"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/bikebandit-gift-cards"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/partsbandit/basket.asp"
+        ]
+      },
+      {
+        "type_name": "Login/Registration Page",
+        "typical_url_patterns": [
+          "/login",
+          "/login-new",
+          "/logout"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/Checkout/*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "My Orders / Order History",
+        "typical_url_patterns": [
+          "/my-orders"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/help/shippingoptions",
+          "/help/shipping_policy",
+          "/partsbandit/shipping_policy.asp"
+        ]
+      },
+      {
+        "type_name": "Return Policy",
+        "typical_url_patterns": [
+          "/help/returnpolicy"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/help",
+          "/help/faqmain"
+        ]
+      },
+      {
+        "type_name": "Legal, Privacy & Security",
+        "typical_url_patterns": [
+          "/help/legal",
+          "/help/security",
+          "/privacy"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/my-account"
+        ]
+      },
+      {
+        "type_name": "My Garage / My Machines",
+        "typical_url_patterns": [
+          "/my-garage",
+          "/my-machines"
+        ]
+      },
+      {
+        "type_name": "Wishlist / My Lists",
+        "typical_url_patterns": [
+          "/my-lists"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program (Bandit Bucks)",
+        "typical_url_patterns": [
+          "/bandit-bucks"
+        ]
+      },
+      {
+        "type_name": "Gift Card Balance Check",
+        "typical_url_patterns": [
+          "/Checkout/GiftCardBalance.aspx",
+          "/gift-card-balance"
+        ]
+      },
+      {
+        "type_name": "Dealer / Affiliate Programs",
+        "typical_url_patterns": [
+          "/dealers",
+          "/affiliates",
+          "/partnership/*"
+        ]
+      },
+      {
+        "type_name": "Ride Rental Service",
+        "typical_url_patterns": [
+          "/rent-a-ride"
+        ]
+      }
+    ]
+  },
+  "total_types": 44
+}

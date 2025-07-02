@@ -1,0 +1,825 @@
+{
+  "agent_version": "Real_LLM_Planning_Agent_v0.4",
+  "company_url": "microsoft.com",
+  "export_time": "2025-06-13 09:55:51",
+  "yearly_analysis_results": {
+    "2024": {
+      "analysis_time": "2025-06-13 03:36:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o",
+      "year": "2024",
+      "discovered_links_count": 70,
+      "valid_content_urls_count": 70,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/business",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/returns",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/dynamics365/home",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/security",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/education",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-copilot",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/enterprise",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/accessibility",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/about",
+        "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/surface"
+      ],
+      "recommended_pages_count": 20,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/business",
+            "page_type": "Business Solutions and Products",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "This page offers a comprehensive view of business solutions, covering browsing, decision-making, and purchase scenarios, making it a key hub for business users."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/returns",
+            "page_type": "After-Sales Service",
+            "expected_scenarios": [
+              "After-Sales Stage"
+            ],
+            "selection_reason": "Focused on return policies and processes, this page is crucial for after-sales scenarios, ensuring customer satisfaction and service."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/",
+            "page_type": "Product Information and Features",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Provides detailed information on Windows products, supporting browsing and decision-making scenarios with rich content on features and comparisons."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox",
+            "page_type": "Gaming Products and Services",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Covers a wide range of gaming products, facilitating browsing and purchase scenarios for gaming enthusiasts."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education",
+            "page_type": "Educational Products and Solutions",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Dedicated to educational tools and solutions, this page supports browsing and decision-making for educational institutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/dynamics365/home",
+            "page_type": "Business Applications",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Offers insights into business applications, supporting browsing and decision-making for enterprise users."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/security",
+            "page_type": "Security Solutions",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Focuses on security solutions, crucial for decision-making scenarios in cybersecurity."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/education",
+            "page_type": "Educational Discounts and Deals",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Highlights educational discounts and deals, supporting browsing and purchase scenarios for students and educators."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-copilot",
+            "page_type": "AI and Personal Assistant",
+            "expected_scenarios": [
+              "Personalization Stage"
+            ],
+            "selection_reason": "Showcases AI capabilities and personal assistant features, enhancing personalization scenarios."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+            "page_type": "Accessories and Gadgets",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Covers a variety of accessories, supporting browsing and purchase scenarios for tech gadgets."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab",
+            "page_type": "Product Purchase Page",
+            "expected_scenarios": [
+              "Purchase Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Dedicated to a specific product, this page supports detailed decision-making and purchase scenarios."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/enterprise",
+            "page_type": "Enterprise Solutions",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Provides comprehensive information on enterprise solutions, supporting browsing and decision-making for large organizations."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+            "page_type": "Virtual Reality Products",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Focuses on VR products, supporting browsing and purchase scenarios for immersive technology."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+            "page_type": "Payment and Financing",
+            "expected_scenarios": [
+              "Purchase Stage"
+            ],
+            "selection_reason": "Essential for purchase scenarios, offering information on payment and financing options."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+            "page_type": "Refurbished Products",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Highlights certified refurbished products, supporting browsing and purchase scenarios with a focus on sustainability."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/accessibility",
+            "page_type": "Accessibility Solutions",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Dedicated to accessibility solutions, supporting browsing and decision-making for inclusive technology."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020",
+            "page_type": "Store Benefits and Policies",
+            "expected_scenarios": [
+              "Service Stage",
+              "Personalization Stage"
+            ],
+            "selection_reason": "Provides insights into store benefits and policies, supporting service and personalization scenarios."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv",
+            "page_type": "Entertainment Content",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Purchase Stage"
+            ],
+            "selection_reason": "Focuses on movies and TV content, supporting browsing and purchase scenarios for entertainment."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/about",
+            "page_type": "Company Information",
+            "expected_scenarios": [
+              "Browse Stage"
+            ],
+            "selection_reason": "Offers comprehensive company information, supporting browsing scenarios for users interested in corporate details."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/surface",
+            "page_type": "Surface Products Overview",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "Provides an overview of Surface products, supporting browsing and decision-making scenarios with detailed product information."
+          }
+        ],
+        "total_recommendations": 20,
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      }
+    },
+    "2013": {
+      "analysis_time": "2025-06-13 09:36:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131111134429/http://www.microsoft.com/en/us/default.aspx?redir=true"
+      ],
+      "recommended_pages_count": 1,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131111134429/http://www.microsoft.com/en/us/default.aspx?redir=true",
+            "page_type": "Homepage",
+            "expected_scenarios": [
+              "Recommended Products Browse",
+              "Trending Hot Products Browse",
+              "Main Category Navigation Browse"
+            ],
+            "selection_reason": "The homepage serves as the entry point for users, showcasing various product categories and promotional content."
+          }
+        ],
+        "total_recommendations": "1",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      }
+    },
+    "2014": {
+      "analysis_time": "2025-06-13 09:37:05",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20140410181505/http://www.microsoft.com/en/us/default.aspx?redir=true"
+      ],
+      "recommended_pages_count": 1,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20140410181505/http://www.microsoft.com/en/us/default.aspx?redir=true",
+            "page_type": "Homepage",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Search Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "The homepage serves as the main entry point for users, showcasing various products and services, facilitating browsing and search functionalities."
+          }
+        ],
+        "total_recommendations": "1",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision"
+        ]
+      }
+    },
+    "2015": {
+      "analysis_time": "2025-06-13 09:37:12",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 0,
+      "valid_content_urls_count": 0,
+      "recommended_crawl_pages": [],
+      "recommended_pages_count": 0,
+      "core_url_details": {
+        "recommended_url_list": [],
+        "total_recommendations": 0,
+        "coverage_scenario_types": []
+      }
+    },
+    "2017": {
+      "analysis_time": "2025-06-13 09:37:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171120040131/http://www.microsoft.com/en/us/default.aspx?redir=true"
+      ],
+      "recommended_pages_count": 1,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171120040131/http://www.microsoft.com/en/us/default.aspx?redir=true",
+            "page_type": "Homepage",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Search Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "The homepage serves as the entry point for users, showcasing various categories and products, allowing for browsing and initial search interactions."
+          }
+        ],
+        "total_recommendations": "1",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision"
+        ]
+      }
+    },
+    "2019": {
+      "analysis_time": "2025-06-13 09:46:06",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 86,
+      "valid_content_urls_count": 86,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-pro-6/8ZCNC665SLQ5",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/xbox-one-x-1tb-console/8NQ33JVV1S9V?WT.mc_id=XB1X_PO_092017",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/gift-cards",
+        "https://web.archive.org/web/20190425043737/https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&WT.mc_id=oan_mscom_hp_o365febrefresh",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education/products/office/default.aspx",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/home",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/surface-laptop/90FC23DV6SNZ",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/education?icid=CNavfooter_Studentsandeducation",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/security/default.aspx",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/about",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/garage/",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/windows-10-apps",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/collections/XboxOneSBundleDeals",
+        "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/books"
+      ],
+      "recommended_pages_count": 19,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-pro-6/8ZCNC665SLQ5",
+            "page_type": "Product Detail Page",
+            "expected_scenarios": [
+              "3.1 Image and Text Details Browse",
+              "3.2 Product Parameters Viewing",
+              "3.3 SKU/Color Switching Viewing"
+            ],
+            "selection_reason": "This page provides detailed product information and options for user interaction, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/xbox-one-x-1tb-console/8NQ33JVV1S9V?WT.mc_id=XB1X_PO_092017",
+            "page_type": "Product Purchase Page",
+            "expected_scenarios": [
+              "4.1 Adding Product to Cart",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "This page allows users to purchase a product directly, showcasing the purchase execution process."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS",
+            "page_type": "Store Locator Page",
+            "expected_scenarios": [
+              "5.1 Order Page Viewing",
+              "5.2 Return Application Process"
+            ],
+            "selection_reason": "This page helps users find physical store locations, enhancing the after-sales service experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/gift-cards",
+            "page_type": "Gift Card Purchase Page",
+            "expected_scenarios": [
+              "4.1 Adding Product to Cart",
+              "4.5 Digital Product Purchase"
+            ],
+            "selection_reason": "This page facilitates the purchase of gift cards, a common e-commerce transaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&WT.mc_id=oan_mscom_hp_o365febrefresh",
+            "page_type": "Product Comparison Page",
+            "expected_scenarios": [
+              "3.6 Adding Products for Horizontal Comparison",
+              "3.9 Frequently Bought Together Products Browse"
+            ],
+            "selection_reason": "This page allows users to compare multiple products, supporting informed decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education/products/office/default.aspx",
+            "page_type": "Education Products Page",
+            "expected_scenarios": [
+              "1.4 New Arrivals Recommendation Browse",
+              "2.1 Direct Keyword Search"
+            ],
+            "selection_reason": "This page targets educational products, appealing to a specific user segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv",
+            "page_type": "Media Purchase Page",
+            "expected_scenarios": [
+              "4.1 Adding Product to Cart",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "This page showcases media products, enhancing the diversity of purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/home",
+            "page_type": "Homepage",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "1.2 Trending Hot Products Browse"
+            ],
+            "selection_reason": "The homepage serves as the entry point for users, showcasing featured products."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/surface-laptop/90FC23DV6SNZ",
+            "page_type": "Product Detail Page",
+            "expected_scenarios": [
+              "3.1 Image and Text Details Browse",
+              "3.2 Product Parameters Viewing"
+            ],
+            "selection_reason": "This page provides detailed information about a popular product, enhancing the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage",
+            "page_type": "Sales Page",
+            "expected_scenarios": [
+              "1.12 Holiday Promotion Page Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "This page highlights ongoing sales, encouraging users to make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/education?icid=CNavfooter_Studentsandeducation",
+            "page_type": "Education Store Page",
+            "expected_scenarios": [
+              "1.3 Category Recommendation Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "This page targets educational products, appealing to students and educators."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise",
+            "page_type": "Enterprise Solutions Page",
+            "expected_scenarios": [
+              "1.4 New Arrivals Recommendation Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "This page showcases enterprise solutions, targeting business users."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/security/default.aspx",
+            "page_type": "Security Products Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "This page highlights security products, important for business and personal users."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/about",
+            "page_type": "About Page",
+            "expected_scenarios": [
+              "7.1 Continue Browse Recommendation Module"
+            ],
+            "selection_reason": "This page provides information about Microsoft, enhancing brand trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/garage/",
+            "page_type": "Innovation Projects Page",
+            "expected_scenarios": [
+              "1.11 Platform Theme Activity Page Browse"
+            ],
+            "selection_reason": "This page showcases innovative projects, appealing to tech-savvy users."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education",
+            "page_type": "Education Page",
+            "expected_scenarios": [
+              "1.4 New Arrivals Recommendation Browse",
+              "5.1 Order Page Viewing"
+            ],
+            "selection_reason": "This page targets educational products and services, appealing to a specific user segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/windows-10-apps",
+            "page_type": "Windows Apps Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "This page showcases apps for Windows 10, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/collections/XboxOneSBundleDeals",
+            "page_type": "Bundle Deals Page",
+            "expected_scenarios": [
+              "4.1 Adding Product to Cart",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "This page highlights bundle deals, encouraging users to purchase multiple products."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/buy-online-pick-up-in-store?icid=uhf_footer_bopuis",
+            "page_type": "Buy Online, Pick Up In Store Page",
+            "expected_scenarios": [
+              "4.1 Adding Product to Cart",
+              "5.1 Order Page Viewing"
+            ],
+            "selection_reason": "This page facilitates a hybrid shopping experience, enhancing user convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/books",
+            "page_type": "Books Store Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "This page showcases books available for purchase, diversifying the product range."
+          }
+        ],
+        "total_recommendations": "20",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      }
+    },
+    "2022": {
+      "analysis_time": "2025-06-13 09:47:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20220506032946/http://www.microsoft.com/en/us/default.aspx?redir=true"
+      ],
+      "recommended_pages_count": 1,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20220506032946/http://www.microsoft.com/en/us/default.aspx?redir=true",
+            "page_type": "Homepage",
+            "expected_scenarios": [
+              "Browse Stage",
+              "Search Stage",
+              "Decision-Making Stage"
+            ],
+            "selection_reason": "The homepage serves as the entry point for users, showcasing various product categories and promotional content, allowing for browsing and initial search functionalities."
+          }
+        ],
+        "total_recommendations": "1",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision"
+        ]
+      }
+    },
+    "2025": {
+      "analysis_time": "2025-06-13 09:55:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 79,
+      "valid_content_urls_count": 79,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education/products/teams",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/download",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/surface",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/power-platform",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/enterprise",
+        "https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/sql-server/"
+      ],
+      "recommended_pages_count": 10,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+            "page_type": "Product Category Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "1.3 Category Recommendation Browse"
+            ],
+            "selection_reason": "This page showcases various accessories, allowing users to browse and discover related products."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+            "page_type": "Product Category Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "1.2 Trending Hot Products Browse"
+            ],
+            "selection_reason": "Focuses on PCs, providing a wide range of options for users to explore."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox",
+            "page_type": "Product Category Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "1.2 Trending Hot Products Browse"
+            ],
+            "selection_reason": "Highlights Xbox products, appealing to gamers and providing a dedicated browsing experience."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate",
+            "page_type": "Product Detail Page",
+            "expected_scenarios": [
+              "3.1 Image and Text Details Browse",
+              "3.2 Product Parameters Viewing"
+            ],
+            "selection_reason": "Offers detailed information about a specific product, enhancing decision-making."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
+            "page_type": "Payment Options Page",
+            "expected_scenarios": [
+              "4.4 Subscription Setting",
+              "4.5 Digital Product Purchase"
+            ],
+            "selection_reason": "Provides essential information on payment and financing, crucial for purchase decisions."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/returns",
+            "page_type": "Return Policy Page",
+            "expected_scenarios": [
+              "5.1 Order Page Viewing",
+              "5.2 Return Application Process"
+            ],
+            "selection_reason": "Critical for after-sales support, detailing return policies and processes."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/education/products/microsoft-365",
+            "page_type": "Educational Product Page",
+            "expected_scenarios": [
+              "1.4 New Arrivals Recommendation Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Targets educational users, showcasing relevant products and services."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1",
+            "page_type": "AI Features Page",
+            "expected_scenarios": [
+              "3.1 Image and Text Details Browse",
+              "3.9 Frequently Bought Together Products Browse"
+            ],
+            "selection_reason": "Highlights AI features, appealing to tech-savvy users and enhancing product understanding."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage",
+            "page_type": "Sales Promotions Page",
+            "expected_scenarios": [
+              "1.2 Trending Hot Products Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "Promotes sales and discounts, encouraging purchases through attractive offers."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv",
+            "page_type": "Media Category Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "1.3 Category Recommendation Browse"
+            ],
+            "selection_reason": "Focuses on media products, providing a unique browsing experience for entertainment."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/education",
+            "page_type": "Education Store Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Targets educational institutions, showcasing relevant products and services."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/dynamics365/home",
+            "page_type": "Business Solutions Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Highlights business applications, appealing to enterprise customers."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/education/devices/overview",
+            "page_type": "Devices for Education Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Focuses on devices suitable for educational purposes, enhancing user decision-making."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/business",
+            "page_type": "Business Solutions Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Targets small businesses, showcasing relevant products and services."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/microsoft-365/business/copilot-for-microsoft-365",
+            "page_type": "Business Productivity Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Highlights Microsoft 365 for business, appealing to productivity-focused users."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/microsoft-365",
+            "page_type": "Microsoft 365 Overview Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Showcases Microsoft 365, a key product suite for various user types."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
+            "page_type": "Refurbished Products Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "4.1 Adding Product to Cart"
+            ],
+            "selection_reason": "Promotes refurbished products, appealing to budget-conscious users."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations",
+            "page_type": "Store Locator Page",
+            "expected_scenarios": [
+              "5.1 Order Page Viewing",
+              "5.2 Return Application Process"
+            ],
+            "selection_reason": "Facilitates finding physical store locations for customer convenience."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/security",
+            "page_type": "Security Solutions Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Highlights security products, appealing to users concerned about cybersecurity."
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/download/default.aspx",
+            "page_type": "Download Center Page",
+            "expected_scenarios": [
+              "1.1 Recommended Products Browse",
+              "3.10 Cross-Category Matching Recommendations Browse"
+            ],
+            "selection_reason": "Provides access to downloads, enhancing user engagement with software products."
+          }
+        ],
+        "total_recommendations": 20,
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      }
+    },
+    "2009": {
+      "analysis_time": "2025-06-13 09:55:51",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 0,
+      "valid_content_urls_count": 0,
+      "recommended_crawl_pages": [],
+      "recommended_pages_count": 0,
+      "core_url_details": {
+        "recommended_url_list": [],
+        "total_recommendations": 0,
+        "coverage_scenario_types": []
+      }
+    }
+  }
+}

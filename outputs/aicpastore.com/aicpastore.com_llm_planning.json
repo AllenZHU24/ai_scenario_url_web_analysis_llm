@@ -1,0 +1,849 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "aicpastore.com",
+  "export_time": "2025-06-29 23:19:00",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-27 21:07:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 55,
+      "valid_content_urls_count": 55,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091116095552/http://www.aicpastore.com:80/",
+        "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/index.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+        "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/search/classifiedad_results.jsp",
+        "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/myonlinesubscription.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+        "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/order_history.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+        "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/default.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/index.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key home page URL that provides visibility into the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/search/classifiedad_results.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Classifieds Listing",
+            "selection_reason": "This URL allows customers to explore various classified ads, generating interest in products and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/myonlinesubscription.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Subscriptions Management",
+            "selection_reason": "This URL is crucial for customer retention, allowing users to manage their subscriptions effectively."
+          },
+          {
+            "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/order_history.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "This URL provides customers access to their order history, essential for fulfillment and tracking."
+          },
+          {
+            "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/default.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "This dashboard is vital for users to manage their accounts and access various services."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/search/classifiedad_results.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Classifieds Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/myonlinesubscription.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Subscriptions Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/order_history.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20091116095552/http://www.aicpastore.com/index.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091116095552/https://www.aicpastore.com/myaccount/default.jsp;jsessionid=LBhFrFDS35FmrhmM4k00RCk6KPyGxv02bwJcCbnbw9CtJw1GwqmF!-1283489180!14960550?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=1258365349845",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-27 21:07:48",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 167,
+      "valid_content_urls_count": 167,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgq",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgp",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/order_history.jsp",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+        "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lyIfvgn%2F158b8c5221f&bmUID=lyIfvgo&bmHash=9e27ba5457042157d570a2070e377b9c7d54b714"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgq",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as a primary entry point for customers, providing essential information about the offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage that enhances visibility and awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main homepage URL that provides a comprehensive overview of the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers in the decision-making phase, allowing them to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Essential for customers to manage their accounts and access purchased content."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/order_history.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "Allows customers to track their previous purchases, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Learning Access",
+            "selection_reason": "Provides access to online learning resources, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Publications Access",
+            "selection_reason": "Enables customers to access publications, fostering ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Web Events Access",
+            "selection_reason": "Keeps customers informed about web events, enhancing retention through engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lyIfvgn%2F158b8c5221f&bmUID=lyIfvgo&bmHash=9e27ba5457042157d570a2070e377b9c7d54b714",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another homepage variant that increases customer awareness and access to information."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgq",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lyIfvgp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Learning Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Publications Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/order_history.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Web Events Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20161201050436/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lyIfvgn%2F158b8c5221f&bmUID=lyIfvgo&bmHash=9e27ba5457042157d570a2070e377b9c7d54b714",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-27 21:08:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 175,
+      "valid_content_urls_count": 175,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lXbTbQS%2F15ed3e903b4&bmUID=lXbTbQT&bmHash=613d9905e0fdf39750fcf8c9af342a88fc4dba3c",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com:80/",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQV",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/order_history.jsp",
+        "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQU"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lXbTbQS%2F15ed3e903b4&bmUID=lXbTbQT&bmHash=613d9905e0fdf39750fcf8c9af342a88fc4dba3c",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Primary homepage for brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Learning Access",
+            "selection_reason": "Encourages customer retention through learning resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Publications Access",
+            "selection_reason": "Supports customer retention by providing access to publications."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQV",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another entry point for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Web Events Access",
+            "selection_reason": "Enhances retention through event participation."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Essential for managing customer accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/order_history.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "Important for customers to track their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQU",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another variant of the homepage for awareness."
+          }
+        ],
+        "total_recommendations": 10,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Retention",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmForm=form_signout&bmFormID=lXbTbQS%2F15ed3e903b4&bmUID=lXbTbQT&bmHash=613d9905e0fdf39750fcf8c9af342a88fc4dba3c",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Learning Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Publications Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQV",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/checkout/shopping_cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Web Events Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/default.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/myaccount/order_history.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930175017/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=lXbTbQU",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-27 21:08:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 41,
+      "valid_content_urls_count": 41,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.M",
+        "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/browse/newsletters_landing.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.Q",
+        "https://web.archive.org/web/20180808030516/https://www.aicpastore.com/"
+      ],
+      "recommended_pages_count": 3,
+      "recommended_in_valid_overlap": 3,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.M",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/browse/newsletters_landing.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.Q",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Newsletter Landing",
+            "selection_reason": "This URL engages customers by offering newsletters, which can help in building awareness and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20180808030516/https://www.aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another core home page that provides a comprehensive overview of the offerings, crucial for customer awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 3,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.M",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20180808030516/http://www.aicpastore.com/browse/newsletters_landing.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mjSho.Q",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Newsletter Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20180808030516/https://www.aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-27 21:08:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 217,
+      "valid_content_urls_count": 217,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaZ",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/order_history.jsp",
+        "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+        "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaY"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaZ",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to discover the site and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Essential for customers to manage their accounts and access services."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Publications Access",
+            "selection_reason": "Important for retaining customers by providing access to valuable content."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Crucial for customers to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key entry point for customers to explore the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Learning Access",
+            "selection_reason": "Enhances customer retention by providing educational resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/order_history.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "Allows customers to track their purchases, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Web Events Access",
+            "selection_reason": "Keeps customers engaged with upcoming events and webinars."
+          },
+          {
+            "url": "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaY",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another vital entry point for customer engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaZ",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Publications Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Learning Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/order_history.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Web Events Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20191220112503/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=mX.dMaY",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-27 21:08:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 203,
+      "valid_content_urls_count": 203,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/",
+        "https://web.archive.org/web/20200817074036/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=nfEnp6A",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/order_history.jsp",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+        "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=nfEnp6A",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page that may contain different promotional content, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "This URL allows customers to manage their accounts, crucial for fulfilling their needs post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/order_history.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "Enables customers to view their past orders, enhancing their experience and trust in the service."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the decision-making process, allowing customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Web Events Access",
+            "selection_reason": "Encourages customer retention by providing access to events and updates."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Publications Access",
+            "selection_reason": "Offers valuable resources that can keep customers engaged and returning."
+          },
+          {
+            "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Online Learning Access",
+            "selection_reason": "Provides educational content that can enhance customer loyalty and satisfaction."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/order_history.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=WEB_EVENTS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Web Events Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=nfEnp6z",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/checkout/shopping_cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_PUBLICATIONS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Publications Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp?tabName=ONLINE_LEARNING",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Online Learning Access"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/http://www.aicpastore.com/index.jsp?FOLDER%3C%3Efolder_id=1408474395181057&bmUID=nfEnp6A",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200817074036/https://www.aicpastore.com/myaccount/default.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-27 21:08:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221216063705/https://aicpastore.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221216063705/https://aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings, thus raising awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221216063705/https://aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-27 21:08:45",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230602073600/https://aicpastore.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230602073600/https://aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230602073600/https://aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-27 21:08:48",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20240512040030/https://www.aicpastore.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20240512040030/https://www.aicpastore.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20240512040030/https://www.aicpastore.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

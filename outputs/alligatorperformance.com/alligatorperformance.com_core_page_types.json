@@ -1,0 +1,383 @@
+{
+  "generation_time": "2025-06-28 03:29:31",
+  "company_url": "alligatorperformance.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.php",
+          "/home"
+        ]
+      },
+      {
+        "type_name": "Blog Index",
+        "typical_url_patterns": [
+          "/info/blog",
+          "/blogs/news",
+          "/news.php"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blogs/news/*",
+          "/info/blog/post/*",
+          "/news.php?news_id=*"
+        ]
+      },
+      {
+        "type_name": "Expert Guide (GatorGuru)",
+        "typical_url_patterns": [
+          "/GatorGuru/",
+          "/GatorGuru/*"
+        ]
+      },
+      {
+        "type_name": "Vehicle Info Guide",
+        "typical_url_patterns": [
+          "/info/{vehicle-engine-slug}",
+          "/diesel-performance-resources-a/*.htm"
+        ]
+      },
+      {
+        "type_name": "Customer Builds & Gallery",
+        "typical_url_patterns": [
+          "/gallery.php",
+          "/submit-your-build/",
+          "/sponsored_trucks.php"
+        ]
+      },
+      {
+        "type_name": "Sponsorships Page",
+        "typical_url_patterns": [
+          "/sponsorships/",
+          "/info/company/sponsorships"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category",
+        "typical_url_patterns": [
+          "/performance/",
+          "/exterior/",
+          "/interior/",
+          "/wheels-tires/",
+          "/*-s/*.htm",
+          "/*-c-*.html"
+        ]
+      },
+      {
+        "type_name": "Sub-Category / Product Listing Page",
+        "typical_url_patterns": [
+          "/performance/*/*/",
+          "/exterior/*/*/",
+          "/*-parts-accessories",
+          "/*-upgrades.html"
+        ]
+      },
+      {
+        "type_name": "Faceted Collection Page",
+        "typical_url_patterns": [
+          "/collections/*"
+        ]
+      },
+      {
+        "type_name": "Vehicle/Engine Landing Page",
+        "typical_url_patterns": [
+          "/search-by-diesel/",
+          "/search-by-vehicle/",
+          "/*-k-*.html",
+          "/pages/duramax",
+          "/pages/ram-cummins-2500-3500"
+        ]
+      },
+      {
+        "type_name": "Vehicle/Engine Specific Category",
+        "typical_url_patterns": [
+          "/search-by-diesel/*/*/",
+          "/search-by-vehicle/*/*/",
+          "/-a/261.htm?*"
+        ]
+      },
+      {
+        "type_name": "All Brands Page",
+        "typical_url_patterns": [
+          "/brands/",
+          "/brands.php",
+          "/manufacturers-s/*.htm",
+          "/shop-by-brand"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Page",
+        "typical_url_patterns": [
+          "/brands/*/",
+          "/manufacturer-*",
+          "/*-m-*.html",
+          "/{brand-name}.html"
+        ]
+      },
+      {
+        "type_name": "Deals & Sales Page",
+        "typical_url_patterns": [
+          "/alligator-deals",
+          "/specials.php",
+          "/current-promotions",
+          "/clearance-rack-c-*.html",
+          "/pages/alligator-performance-deals-discounts"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/products_new.php"
+        ]
+      },
+      {
+        "type_name": "Top Products Page",
+        "typical_url_patterns": [
+          "/top-products/*"
+        ]
+      },
+      {
+        "type_name": "Apparel & Merchandise Category",
+        "typical_url_patterns": [
+          "/apparel/",
+          "/apparel/*",
+          "/clothing-gifts/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*-p-*.html",
+          "/{product-slug}.html",
+          "/{product-slug}"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search.php*",
+          "/search.asp*",
+          "/search?query=*"
+        ]
+      },
+      {
+        "type_name": "Advanced Search Page",
+        "typical_url_patterns": [
+          "/catalogsearch/advanced/*"
+        ]
+      },
+      {
+        "type_name": "Package Deals Page",
+        "typical_url_patterns": [
+          "/package_deal.php",
+          "/performance/power-packages/"
+        ]
+      },
+      {
+        "type_name": "Testimonials Page",
+        "typical_url_patterns": [
+          "/testimonials.php"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/faq/",
+          "/info/customer-service/faq"
+        ]
+      },
+      {
+        "type_name": "Warranty Information",
+        "typical_url_patterns": [
+          "/will-i-void-my-warranty*",
+          "/warranty.php"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/about-us/",
+          "/about_us.php",
+          "/pages/about-alligator"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contact-us/",
+          "/contact_us.php",
+          "/contacts/",
+          "/pages/contact"
+        ]
+      },
+      {
+        "type_name": "Financing Information Page",
+        "typical_url_patterns": [
+          "/pages/affirm",
+          "/about-alligator-pay",
+          "/affirm.html"
+        ]
+      },
+      {
+        "type_name": "Partners Page",
+        "typical_url_patterns": [
+          "/info/company/partners"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/checkout/cart",
+          "/cart.php",
+          "/shoppingcart.asp"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout_shipping.php"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/wishlist.php",
+          "/wishlist/index/add/*"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Page",
+        "typical_url_patterns": [
+          "/giftcertificates.php",
+          "/apparel/gift-certificates"
+        ]
+      },
+      {
+        "type_name": "Price Match Policy",
+        "typical_url_patterns": [
+          "/price_match.php"
+        ]
+      },
+      {
+        "type_name": "Brand Promise Page",
+        "typical_url_patterns": [
+          "/pages/the-alligator-promise",
+          "/the-alligator-promise/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/track_order.php",
+          "/sales/guest/form/",
+          "/returns_track.php"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/shipping-rates-policies/",
+          "/shipping.php",
+          "/pages/shipping"
+        ]
+      },
+      {
+        "type_name": "Returns & RMA Policy",
+        "typical_url_patterns": [
+          "/returns",
+          "/orders-returns/",
+          "/rma/guest/*",
+          "/return_procedures.php"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/terms.asp",
+          "/pages/terms-conditions",
+          "/conditions.php"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy.php",
+          "/pages/privacy-policy"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/",
+          "/myaccount.asp",
+          "/account.php"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/sales/order/history"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/customer/account/login/",
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "Account Creation Page",
+        "typical_url_patterns": [
+          "/customer/account/create/",
+          "/login.php?action=create_account"
+        ]
+      },
+      {
+        "type_name": "Rewards & Loyalty Program",
+        "typical_url_patterns": [
+          "/pages/rewards",
+          "/gator-bucks-program/",
+          "/reward-points"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/newsletter.php",
+          "/newsletter/manage"
+        ]
+      },
+      {
+        "type_name": "Submit Build/Article",
+        "typical_url_patterns": [
+          "/submit-your-build/",
+          "/submit-a-tech-article/"
+        ]
+      },
+      {
+        "type_name": "Dealer Inquiry",
+        "typical_url_patterns": [
+          "/dealer-inquiry/",
+          "/login_dealer.php"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

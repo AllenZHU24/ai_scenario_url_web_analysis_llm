@@ -1,0 +1,2580 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "a1poolparts.com",
+  "export_time": "2025-07-01 10:49:51",
+  "yearly_analysis_results": {
+    "2015": {
+      "analysis_time": "2025-06-27 18:04:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 148,
+      "valid_content_urls_count": 148,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/about-us",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment.html",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts.html",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/customer/account/create/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/wishlist/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/sales/order/history/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/lighting.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and credibility by informing customers about the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Equipment",
+            "selection_reason": "This category page showcases a wide range of products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Parts",
+            "selection_reason": "Essential for customers looking for specific parts, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Critical for converting interest into sales, guiding customers through the purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/customer/account/create/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customer Registration",
+            "selection_reason": "Facilitates account creation, essential for personalized shopping experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about return procedures, crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Provides essential information about shipping, impacting customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Encourages customer retention by providing easy access to account details."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to view past purchases, enhancing loyalty and repeat business."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / FAQ",
+            "selection_reason": "Provides assistance and answers to common questions, improving customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Form",
+            "selection_reason": "Enhances the shopping experience by allowing customers to find specific products easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/lighting.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sub-Category: Lighting",
+            "selection_reason": "Targets a specific product category that may attract customers' interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 56,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/https://www.a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/https://www.a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/https://www.a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215155103/http://www.a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-27 18:05:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 148,
+      "valid_content_urls_count": 148,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/about-us",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa.html",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts.html",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/shop-by-mfg.html",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/checkout/cart/",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/wishlist",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/sales/order/history/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to discover the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Pool & Spa",
+            "selection_reason": "Key category that showcases a significant portion of the product range."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Parts",
+            "selection_reason": "Essential category for customers looking for specific pool parts."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/shop-by-mfg.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Allows customers to explore products by manufacturer, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Critical step in the purchasing process where customers finalize their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Important for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Enables customers to save items for future consideration, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Form",
+            "selection_reason": "Facilitates easier navigation and product discovery for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential information that reassures customers about their purchase security."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Critical for customers to understand shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Allows customers to manage their orders and account information, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Enables customers to track their past purchases, enhancing user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 57,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161124034719/https://www.a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/https://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/https://www.a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/https://www.a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161124034719/http://www.a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-27 18:05:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 145,
+      "valid_content_urls_count": 145,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/about-us",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/brands.html",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment.html",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/create/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/wishlist",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/sales/order/history/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/cart/",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/legal-statement",
+        "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/brands.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "This page showcases various brands, helping customers explore options."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Equipment",
+            "selection_reason": "This is a key category that customers are likely to explore."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "This page is crucial for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/create/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customer Registration",
+            "selection_reason": "This page facilitates account creation, essential for customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "This feature allows customers to save items for future consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "This page provides important information on returns, enhancing customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "This page informs customers about shipping details, crucial for fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "This page allows customers to manage their accounts, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "This feature allows customers to view past orders, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "This page is essential for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/legal-statement",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Legal Statement",
+            "selection_reason": "This page provides important legal information, building trust with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Pool & Spa",
+            "selection_reason": "This category is vital for customers interested in pool and spa products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 55,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20170930133712/https://www.a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-27 18:05:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 145,
+      "valid_content_urls_count": 145,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/about-us",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals.html",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa.html",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/cart/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/sales/order/history/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/wishlist",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/legal-statement"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces customers to the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the company, building trust and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Chemicals",
+            "selection_reason": "A key category that attracts customers interested in pool maintenance products."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Pool & Spa",
+            "selection_reason": "Another major category that is crucial for customers looking for pool and spa products."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Critical for customers ready to make a purchase, ensuring a smooth transaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selected items before finalizing their purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Provides important information regarding shipping, which is crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customer confidence in making purchases, knowing they can return items if necessary."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Allows customers to manage their orders and personal information, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Enables customers to view past purchases, fostering repeat business."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Helps customers save items for future purchases, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Form",
+            "selection_reason": "Facilitates easier navigation and product discovery for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/legal-statement",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Legal Statement",
+            "selection_reason": "Informs customers of their rights and the company's legal obligations, enhancing transparency."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 55,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20180826154859/https://www.a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-27 18:05:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 149,
+      "valid_content_urls_count": 149,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/legal-statement",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/privacy-policy",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa.html",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment.html",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/create/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/wishlist/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/sales/order/history/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/brands.html",
+        "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/products-of-the-month.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the primary entry point for customers, providing an overview of the offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/legal-statement",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Legal Statement",
+            "selection_reason": "Important for establishing trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/privacy-policy",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for customer trust regarding data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Pool & Spa",
+            "selection_reason": "Key category that showcases a major product line, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Equipment",
+            "selection_reason": "Another major category that is crucial for customer exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Critical for converting interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/create/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customer Registration",
+            "selection_reason": "Facilitates customer engagement and order tracking."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping details, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customer reassurance regarding their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Enables customers to manage their orders and preferences, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to track their purchases, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Form",
+            "selection_reason": "Helps customers find specific products, improving the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/brands.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Showcases various brands, appealing to brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/products-of-the-month.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Promotional: Products of the Month",
+            "selection_reason": "Highlights special offers, attracting customer interest and engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 58,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/https://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com:80/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214104309/http://www.a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-27 18:06:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 148,
+      "valid_content_urls_count": 148,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/about-us",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/shop-by-mfg.html",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa.html",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/create/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/wishlist/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/return-policy",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/shipping-policy",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/sales/order/history/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/cart/",
+        "https://web.archive.org/web/20201203142837/https://a1poolparts.com/brands.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/shop-by-mfg.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "This page allows customers to explore products by brand, enhancing their interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Primary Category: Pool & Spa",
+            "selection_reason": "This primary category page showcases a wide range of products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "This page is crucial for completing purchases, making it essential in the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/create/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customer Registration",
+            "selection_reason": "This page facilitates new customer sign-ups, important for conversions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "This feature allows customers to save products for later, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/return-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are essential for customer satisfaction and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/shipping-policy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Shipping information is critical for customer decision-making and fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "This page allows customers to manage their accounts, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/sales/order/history/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Access to order history is important for customer retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / FAQ",
+            "selection_reason": "A help center is vital for addressing customer inquiries and improving their experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is a key component of the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/brands.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "This page allows customers to explore various brands, increasing engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 58,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/chemicals/test-kits.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/automatic-cleaner.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/valve.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/skimmer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/heater.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/shop-by-mfg.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/plumbing.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Plumbing & Valves"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/diving-boards.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/filters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://www.a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/automation-system.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/terms-of-service",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Equipment"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/products-of-the-month.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Products of the Month"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/automatic-cleaners.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Cleaners"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Pool & Spa"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/the-boneyard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Clearance / Boneyard"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/chemicals/algae-control.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Parts"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/alternative-sanitizers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/chlorinators.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/chemicals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/legal-statement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Legal Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/rebate-items.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Promotional: Rebate Items"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/waterfalls.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/heaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Heaters & Heat Pumps"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/slides.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pool & Spa Features"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/return-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/chlorinator.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chlorinators & Sanitizers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/pump.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://www.a1poolparts.com/help/privacy-policy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/chemicals/shock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Chemicals"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/return-Policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://www.a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/brands.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/energy-savers.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Primary Category: Energy Savers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/pumps-motors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Pumps & Motors"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/sales/order/history/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/lighting.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Lighting"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/parts/filter.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Filters"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/help/shipping-policy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/pool-spa/drains.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Skimmers & Drains"
+        },
+        {
+          "url": "https://web.archive.org/web/20201203142837/https://a1poolparts.com/equipment/automation-systems.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Automation & Timers"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-27 18:06:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20210223013109/http://a1poolparts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20210223013109/http://a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about pool parts, making it essential for the awareness stage."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20210223013109/http://a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-27 18:06:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230603183918/http://a1poolparts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230603183918/http://a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230603183918/http://a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-27 18:06:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241009010937/http://a1poolparts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241009010937/http://a1poolparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241009010937/http://a1poolparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

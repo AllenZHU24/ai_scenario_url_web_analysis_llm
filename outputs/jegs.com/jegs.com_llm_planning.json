@@ -1,0 +1,3481 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "jegs.com",
+  "export_time": "2025-07-01 10:52:02",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-30 22:19:43",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 91,
+      "valid_content_urls_count": 91,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com:80/",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/customercare.html",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/SportCompact",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+        "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Provides information about brands, essential for generating customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights new offerings, attracting interest from returning and new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Promotes current deals, which is key for engaging customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides customer support information, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers additional customer care resources, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Further assists customers in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides essential support information for customers evaluating options."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/customercare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Centralizes customer care information, enhancing the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages repeat engagement by allowing customers to request catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Incentivizes customer retention through rebate offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/SportCompact",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection",
+            "selection_reason": "Targets specific customer interests, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides additional support options for customers in the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Promotes the company's charitable efforts, enhancing brand image and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/customercare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/SportCompact",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091201083157/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-06-30 22:20:07",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 97,
+      "valid_content_urls_count": 97,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/SportCompact",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/QuickOrder",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/foundation.html",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/customercare.html",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+        "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers essential information that helps customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Provides customers with information about various brands, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers with promotions and discounts, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Showcases the latest offerings, keeping customers informed and interested."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/SportCompact",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection",
+            "selection_reason": "Targets specific customer interests, enhancing product discovery."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/QuickOrder",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Quick Order Form",
+            "selection_reason": "Facilitates the purchasing process, crucial for converting interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases by providing information on rebates."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Engages customers post-purchase by offering additional resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Builds brand reputation and customer loyalty through community involvement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/customercare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides comprehensive customer support information, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Addresses specific customer inquiries, enhancing trust and confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Further assists customers in understanding services and policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides additional resources for customer inquiries, enhancing the support experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers detailed FAQs and support options, crucial for informed decision-making."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/QuickOrder",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/customercare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/SportCompact",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20101227232914/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-06-30 22:20:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 102,
+      "valid_content_urls_count": 102,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/QuickOrder",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/customercare.html",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/pricematch.html",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/SportCompact",
+        "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall awareness of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides essential customer support information, aiding in the consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Engages customers by showcasing various brands, increasing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/QuickOrder",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Quick Order Form",
+            "selection_reason": "Facilitates quick purchasing decisions, essential for converting interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages repeat engagement by allowing customers to request product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/customercare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers comprehensive customer care resources, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Provides information on rebates, incentivizing customer retention and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/pricematch.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Price Match Policy",
+            "selection_reason": "Informs customers about price matching, enhancing trust and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Attracts customers by showcasing new products, stimulating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Engages customers with promotions and deals, increasing interest in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides additional customer support resources, critical for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Further enhances customer support options, aiding in the consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Central resource for customer inquiries, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/SportCompact",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection",
+            "selection_reason": "Engages niche audiences, increasing interest in specific product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights the company's charitable efforts, enhancing brand awareness and reputation."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/customercare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/QuickOrder",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/AskATech",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Ask A Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/SportCompact",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/pricematch.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012174738/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-06-30 22:20:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 102,
+      "valid_content_urls_count": 102,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/Pricematch.html",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/foundation.html",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/SportCompact",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+        "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces customers to the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "This page attracts customers by showcasing current promotions and deals."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights the latest products, generating interest among returning and new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Provides customers with information about various brands available, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/Pricematch.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Price Match Policy",
+            "selection_reason": "Informs customers about price matching, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Essential for addressing customer inquiries and concerns, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases by informing customers about available rebates."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Allows customers to request a catalog, fostering ongoing engagement with the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights the company's charitable efforts, enhancing brand image and customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/SportCompact",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection",
+            "selection_reason": "Attracts niche audiences by showcasing themed products, increasing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Provides specific customer care information that can influence purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers additional customer support resources, aiding in the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Further enhances customer support options, critical for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Completes the customer care offerings, ensuring comprehensive support."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/Pricematch.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=3",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/customercare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/pricematch.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/SportCompact",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html?tab=4",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20121225125958/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-30 22:21:07",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 95,
+      "valid_content_urls_count": 95,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Essential for customers evaluating support options and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Highlights various brands, attracting customers' interest in specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Showcases the latest offerings, keeping customers engaged with fresh content."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for promotions and discounts, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases by providing information on available rebates."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Facilitates customer retention by allowing users to request product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Builds brand awareness through community involvement and charity initiatives."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/CustomerCare.html?tab=6",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20131214000314/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-06-30 22:21:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 100,
+      "valid_content_urls_count": 100,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/retail/store.html",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/giftideas",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/returns.html",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/AskATech",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/retail/store.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand visibility and accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/giftideas",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Ideas",
+            "selection_reason": "Engages customers by providing curated gift suggestions, fostering interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Showcases the latest offerings, attracting customers looking for new and innovative products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Increases customer interest through promotions and discounts, driving potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Allows customers to explore various brands, enhancing product consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/returns.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Provides critical information on returns, influencing customer purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/AskATech",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Ask A Tech",
+            "selection_reason": "Offers expert advice, helping customers make informed decisions about products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Addresses customer inquiries and concerns, enhancing trust and confidence in the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases by informing customers about available rebates."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Facilitates ongoing engagement with customers through catalog distribution."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights corporate social responsibility, enhancing brand image and customer loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/retail/store.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/AskATech",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Ask A Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/giftideas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Ideas"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/returns.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230171047/http://www.jegs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-06-30 22:21:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 74,
+      "valid_content_urls_count": 74,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/shipping.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/instructions.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/returns.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/CustomerCare.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/retail/store.html",
+        "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages customer retention by allowing users to subscribe for updates and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/shipping.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Provides critical information regarding shipping and returns, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Showcases various brands, helping customers explore options and build interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Highlights current promotions and discounts, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Informs customers about the latest offerings, keeping them engaged and interested."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/instructions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Provides essential product usage information, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/returns.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Reiterates important return policies, which are crucial for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/CustomerCare.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Care Section",
+            "selection_reason": "Offers support and answers to customer inquiries, enhancing trust and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages ongoing engagement by allowing customers to request product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Provides information on rebates, incentivizing repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/retail/store.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights the company's charitable efforts, improving brand image and customer connection."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/shipping.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/CustomerCare.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/CustomerCare.html?tab=5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Care Section"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/customercare/returns.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228075839/http://www.jegs.com/s/retail/store.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-30 22:22:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 92,
+      "valid_content_urls_count": 92,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/Specials",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/help",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/instructions.html",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/Specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers with promotions and discounts, increasing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights the latest offerings, keeping customers engaged and informed."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Provides information about various brands, catering to customer preferences and interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/help",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Essential for customers seeking assistance, influencing their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/instructions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Provides vital information on product usage, aiding customers in their consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases through financial incentives, enhancing customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Keeps customers engaged by allowing them to request product catalogs, fostering ongoing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Builds a customer database for future marketing and retention efforts."
+          },
+          {
+            "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Enhances brand image and awareness through community involvement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/help",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20161224013608/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-30 22:22:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 381,
+      "valid_content_urls_count": 381,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/roadkill",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/Deals",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/Brands",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/help",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/ShippingAndReturns",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/instructions.html",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/rebates.html",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20171231190655/http://www.jegs.com/CatalogRequest"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/roadkill",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional Campaign",
+            "selection_reason": "Engages customers with current promotions and campaigns."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for discounts and special offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights the latest offerings to pique customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Showcases various brands available, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/help",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides assistance to customers considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/ShippingAndReturns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Essential information for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/instructions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers understand product usage before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Encourages customers to engage with instant savings opportunities."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/rebates.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Hub",
+            "selection_reason": "Encourages repeat purchases through rebate offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Builds a customer database for future marketing and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages customer engagement and retention through catalog requests."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/rebates.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/help",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/roadkill",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/ShippingAndReturns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/dealoftheweek",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/ContinuedSavings",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/Specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231190655/http://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-30 22:22:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 552,
+      "valid_content_urls_count": 552,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/careers",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/Holiday",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/digitalcatalogs",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/Jeep-JL",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/ShippingAndReturns",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/s/customercare/instructions.html",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20181225155656/https://www.jegs.com/PromoExclusions"
+      ],
+      "recommended_pages_count": 17,
+      "recommended_in_valid_overlap": 17,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Engages potential employees and enhances brand reputation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Holiday",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional Campaign",
+            "selection_reason": "Highlights seasonal promotions, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/digitalcatalogs",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Digital Catalog",
+            "selection_reason": "Provides customers with a comprehensive view of products, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for discounts and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Jeep-JL",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection",
+            "selection_reason": "Targets specific customer interests, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Facilitates exploration of various brands, catering to customer preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Keeps customers informed about the latest offerings, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Provides a flexible purchasing option for customers, aiding decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Essential for customer inquiries and support, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/ShippingAndReturns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Critical information that affects customer confidence and purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Provides necessary compliance details, enhancing trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/s/customercare/instructions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers understand product usage, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages ongoing customer engagement and retention through newsletters."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Facilitates continued customer engagement through product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Informs customers about promotional limitations, enhancing transparency."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/ShippingAndReturns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/digitalcatalogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Digital Catalog"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Holiday",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Jeep-JL",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/help",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181225155656/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-30 22:22:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 602,
+      "valid_content_urls_count": 602,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/careers",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/help",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/ShippingAndReturns",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20191214102042/https://www.jegs.com/PromoExclusions"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build brand trust and awareness by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Showcases the company culture and job opportunities, enhancing brand image and attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers by highlighting current promotions and discounts, increasing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Provides customers with information on deals, enhancing their interest and likelihood of purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Keeps customers informed about the latest offerings, maintaining their interest in the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Allows customers to explore various brands, enhancing their interest and engagement with the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/help",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides essential support information, helping customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/ShippingAndReturns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Critical for customers to understand shipping and return policies, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Informs customers about compliance, which is essential for their confidence in purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Offers a purchasing option that appeals to customers looking for gifts, facilitating decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages repeat engagement by allowing customers to request product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Facilitates ongoing communication with customers, enhancing retention through newsletters and updates."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Provides transparency regarding promotions, which is important for customer trust and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/help",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/ShippingAndReturns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214102042/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-30 22:23:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 716,
+      "valid_content_urls_count": 716,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/careers",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/ShippingAndReturns",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/instructions.html",
+        "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/foundation.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page, crucial for initial customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, fostering customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights company culture and values, attracting potential customers and employees."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Engages customers by showcasing current promotions and discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Attracts customers interested in the latest offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Another key area for customers looking for deals, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Important for customers evaluating product safety and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Essential for customer inquiries and support, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/ShippingAndReturns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Critical information that influences purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Facilitates purchases and gifting options, enhancing customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Important for existing customers to understand limitations on promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages repeat engagement with the brand through catalog requests."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "A key tool for retaining customers and keeping them informed."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/instructions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers understand product usage, aiding in their purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/foundation.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Enhances brand image and customer connection through community involvement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/ShippingAndReturns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/NewProducts?N=4+900555&Tab=SKU&storeId=10001&catalogId=10002&langId=-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/help",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/instructions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215215911/https://www.jegs.com/s/customercare/foundation.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-30 22:23:41",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 702,
+      "valid_content_urls_count": 702,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/AffiliateMarketing",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/Instructions",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/Foundation",
+        "https://web.archive.org/web/20211217110817/https://www.jegs.com/TechArticles"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and brand identity, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/AffiliateMarketing",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Promotes brand awareness through partnerships, attracting new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Engages customers by showcasing the latest offerings, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for promotions, enhancing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Allows customers to explore various brands, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides essential support and information, aiding customers in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Instructions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers understand product usage, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Addresses customer concerns regarding product compliance, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Offers a flexible purchasing option, appealing to customers in the decision phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages ongoing engagement and retention through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Facilitates continued interest and engagement with the brand's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Informs customers about promotions, enhancing transparency and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Foundation",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights the brand's commitment to social responsibility, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/TechArticles",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Technical Content Hub",
+            "selection_reason": "Provides valuable information, engaging customers and establishing authority."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/AffiliateMarketing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Instructions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/NewProducts?N=4+900555&Tab=SKU&storeId=10001&catalogId=10002&langId=-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/TechArticles",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Technical Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211217110817/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-30 22:24:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 686,
+      "valid_content_urls_count": 686,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/TechArticles",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/Instructions",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/AffiliateMarketing",
+        "https://web.archive.org/web/20221212182521/https://www.jegs.com/Foundation"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with brand background and values, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Showcases various brands, helping customers explore options."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights the latest offerings, attracting returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Encourages purchases through promotions and discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/TechArticles",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Technical Content Hub",
+            "selection_reason": "Provides valuable information, enhancing customer knowledge and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Instructions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Assists customers in understanding product use, aiding decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Ensures customers are informed about product compliance, building confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides support and answers to customer inquiries, facilitating purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Offers a flexible purchasing option for customers, enhancing decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages ongoing engagement and communication with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Keeps customers engaged with the brand through physical or digital catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Informs customers about promotional limitations, enhancing transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/AffiliateMarketing",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Promotes brand awareness through partnerships and affiliate marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Foundation",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights corporate social responsibility, enhancing brand image."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/AffiliateMarketing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Instructions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/TechArticles",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Technical Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221212182521/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-30 22:24:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 720,
+      "valid_content_urls_count": 720,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/careers",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/Instructions",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20231211213112/https://www.jegs.com/TechArticles"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Essential for building brand trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights company culture and job opportunities, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for promotions and discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Provides insights into various brands available, aiding customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Encourages purchases through instant rebate offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Facilitates customer decision-making for gift purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides essential support and contact information for potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Important for customers to understand compliance and safety standards."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Instructions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers in evaluating product usability and installation."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Keeps existing customers informed about promotions and exclusions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages repeat engagement by allowing customers to request catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Facilitates ongoing communication and customer retention through newsletters."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Keeps customers informed about the latest offerings, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/TechArticles",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Technical Content Hub",
+            "selection_reason": "Provides valuable content that engages customers and builds authority."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/AffiliateMarketing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/Instructions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/TechArticles",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Technical Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211213112/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-30 22:24:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 682,
+      "valid_content_urls_count": 682,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/Instructions",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/Foundation",
+        "https://web.archive.org/web/20241231164203/https://www.jegs.com/careers"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Offers customers incentives to engage with the brand, increasing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Provides information on current promotions, attracting potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Highlights the latest offerings, keeping customers informed and engaged."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Allows customers to explore various brands, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Facilitates purchase decisions by offering gift card options."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Provides important compliance details that can influence customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Instructions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Helps customers understand product usage, aiding in their purchase consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides customers with support options, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Encourages ongoing engagement by allowing customers to request product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Informs customers about promotional limitations, fostering transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages customers to stay connected and receive updates, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Foundation",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Foundation / Charity",
+            "selection_reason": "Highlights the company's charitable efforts, enhancing brand image and customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Demonstrates company culture and values, appealing to potential customers and employees."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Instructions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/AffiliateMarketing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231164203/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-30 22:25:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 103,
+      "valid_content_urls_count": 103,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/AboutUs",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/careers",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/Brands",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/NewProducts",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/Deals",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/InstantRebates",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/contactus",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/Instructions",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/compliance",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/GiftCards",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/EmailSignUp",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/CatalogRequest",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/PromoExclusions",
+        "https://web.archive.org/web/20250424152247/https://www.jegs.com/AffiliateMarketing"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/AboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and credibility by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights the company's culture and job opportunities, which can enhance brand perception."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Hub",
+            "selection_reason": "Showcases various brands available, attracting customers interested in specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/NewProducts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products",
+            "selection_reason": "Keeps customers informed about the latest offerings, driving interest and potential purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for discounts and promotions, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/InstantRebates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Encourages customers to make purchases by highlighting instant savings opportunities."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & Contact Center",
+            "selection_reason": "Provides essential support and information, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Instructions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Instructions",
+            "selection_reason": "Offers guidance on product usage, helping customers feel more confident in their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/compliance",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Compliance Information",
+            "selection_reason": "Informs customers about product compliance, which is crucial for informed purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/GiftCards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Certificate",
+            "selection_reason": "Provides an easy purchasing option for customers looking to give gifts, enhancing sales opportunities."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/EmailSignUp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Email Sign-up",
+            "selection_reason": "Encourages customers to subscribe for updates, fostering ongoing engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/CatalogRequest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request",
+            "selection_reason": "Allows customers to request catalogs, enhancing their connection with the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/PromoExclusions",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Promo Exclusions",
+            "selection_reason": "Informs customers about promotional terms, which is important for transparency and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/AffiliateMarketing",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Promotes the affiliate program, expanding brand reach and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/NewProducts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/GiftCards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Certificate"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/InstantRebates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/PromoExclusions",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Promo Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/AboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & Contact Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Instructions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Instructions"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/EmailSignUp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email Sign-up"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/AffiliateMarketing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/CatalogRequest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Foundation / Charity"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/compliance",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Compliance Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250424152247/https://www.jegs.com/Brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Hub"
+        }
+      ]
+    }
+  }
+}

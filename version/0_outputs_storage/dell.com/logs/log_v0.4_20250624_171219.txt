@@ -1,0 +1,579 @@
+2025-06-24 17:12:19,412 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-24 17:12:19,412 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-24 17:12:19,413 - INFO - ✅ Successfully loaded scenario reference with 70 scenarios
+2025-06-24 17:12:19,413 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (70 scenarios total):
+Awareness Stage (1.1-1.5): Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, Hot Search Keyword Clicking, Social Media Ad Entry
+Interest Stage (2.1-2.13): Direct Keyword Search, Fuzzy Category Keyword Search, Image Search Entry Usage, Voice Search Entry Usage, Autocomplete Options Browse, Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Main Category Navigation Browse, Brand Aggregation Page Browse, Livestream Shopping & Content Discovery, Guided Selling / Quiz Engagement
+Consideration Stage (3.1-3.19): Subcategory Filtering Browse, Filter Adjustment Browse, Post-Search Intent Category Entry, Recently Viewed Products Continuation, History-Driven Recommendation Browse, Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Wishlist/Saved for Later Price Alert, AR Virtual Try-On, Viewing Customer-Submitted Media, Back-in-Stock Alert Signup, Saving a Product Configuration
+Decision Stage (4.1-4.9): Viewing Return Policy, Discount Package Combination Browse, Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase, Buy Now, Pay Later (BNPL) Selection, Coupon/Promo Code Application
+Fulfillment Stage (5.1-5.7): Order Page Viewing, Return Application Process, Transaction Complaint Submission, Online Bot Interaction, BOPIS/Click & Collect Selection, Visual Real-Time Order Tracking, Post-Purchase Delivery Management
+Retention Stage (6.1-6.17): Continue Browse Recommendation Module, Repurchase Recommendation Module, Exclusive Offer for Repeat Customers, Product Review Submission, Brand Homepage Entry Access, Platform Message Center Browse, Loyalty Program Engagement, Membership Level Display, Points Display Section, Referral Program Usage, Community Forum/Discussion Participation, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Trade-in Program Engagement, Accessing Member-Exclusive Content
+
+2025-06-24 17:12:19,414 - INFO - ✅ Successfully loaded 70 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions_v0.3.json
+2025-06-24 17:12:19,414 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-24 17:12:19,414 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/dell.com
+2025-06-24 17:12:19,414 - INFO - 🔍 No existing planning file found at outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json, starting fresh
+2025-06-24 17:12:19,419 - INFO - 🔄 Loaded links cache (15 years)
+2025-06-24 17:12:19,419 - INFO - 🔄 Starting new unified planning workflow (v0.4.4)...
+2025-06-24 17:12:19,419 - INFO - 🔄 [Links] Using cached links for 2012 (116 links)
+2025-06-24 17:12:19,419 - INFO - 🔄 [Links] Using cached links for 2015 (283 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2014 (104 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2009 (94 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2010 (107 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2021 (173 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2020 (170 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2013 (105 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2024 (166 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2018 (141 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2011 (113 links)
+2025-06-24 17:12:19,420 - INFO - 🔄 [Links] Using cached links for 2016 (288 links)
+2025-06-24 17:12:19,421 - INFO - 🔄 [Links] Using cached links for 2017 (336 links)
+2025-06-24 17:12:19,421 - INFO - 🔄 [Links] Using cached links for 2019 (138 links)
+2025-06-24 17:12:19,421 - INFO - 🔄 [Links] Using cached links for 2025 (187 links)
+2025-06-24 17:12:19,421 - INFO - 🧠 [Step B] Identifying core page types via LLM…
+2025-06-24 17:12:19,425 - INFO - 🤖 Calling LLM model [Step B CoreType]: google/gemini-2.5-pro
+2025-06-24 17:12:28,371 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:13:14,526 - INFO - ✅ LLM response received successfully [Step B CoreType]
+2025-06-24 17:13:14,527 - INFO - 📊 Response length: 9703 characters
+2025-06-24 17:13:14,527 - INFO - ✅ Identified 50 core page types
+2025-06-24 17:13:14,529 - INFO - 💾 Core page types exported to outputs/dell.com/dell.com_core_page_types_v0.4.4_result.json
+2025-06-24 17:13:14,529 - INFO - 🤖 [Step C] Recommending core URLs for 2012
+2025-06-24 17:13:14,542 - INFO - 🔄 Classified 14 URLs for year 2012
+2025-06-24 17:13:14,542 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:13:15,397 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:13:35,511 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:13:35,511 - INFO - 📊 Response length: 4314 characters
+2025-06-24 17:13:35,511 - INFO - ✅ URL recommendation finished: 12 recommended, 12 within valid pages (enforce=False)
+2025-06-24 17:13:35,513 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:13:35,513 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-24 17:13:35,523 - INFO - 🔄 Classified 49 URLs for year 2015
+2025-06-24 17:13:35,524 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:13:36,248 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:13:56,785 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:13:56,786 - INFO - 📊 Response length: 4840 characters
+2025-06-24 17:13:56,786 - INFO - ✅ URL recommendation finished: 13 recommended, 12 within valid pages (enforce=False)
+2025-06-24 17:13:56,787 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:13:56,788 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-24 17:13:56,790 - INFO - 🔄 Classified 26 URLs for year 2014
+2025-06-24 17:13:56,790 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:13:57,625 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:14:18,341 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:14:18,341 - INFO - 📊 Response length: 4916 characters
+2025-06-24 17:14:18,341 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-24 17:14:18,343 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:14:18,343 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-24 17:14:18,345 - INFO - 🔄 Classified 1 URLs for year 2009
+2025-06-24 17:14:18,345 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:14:18,933 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:14:21,267 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:14:21,268 - INFO - 📊 Response length: 535 characters
+2025-06-24 17:14:21,268 - INFO - ✅ URL recommendation finished: 1 recommended, 1 within valid pages (enforce=False)
+2025-06-24 17:14:21,271 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:14:21,271 - INFO - 🤖 [Step C] Recommending core URLs for 2010
+2025-06-24 17:14:21,274 - INFO - 🔄 Classified 17 URLs for year 2010
+2025-06-24 17:14:21,275 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:14:21,851 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:14:39,974 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:14:39,974 - INFO - 📊 Response length: 3827 characters
+2025-06-24 17:14:39,975 - INFO - ✅ URL recommendation finished: 12 recommended, 12 within valid pages (enforce=False)
+2025-06-24 17:14:39,977 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:14:39,977 - INFO - 🤖 [Step C] Recommending core URLs for 2021
+2025-06-24 17:14:39,983 - INFO - 🔄 Classified 20 URLs for year 2021
+2025-06-24 17:14:39,983 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:14:40,560 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:15:09,195 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:15:09,195 - INFO - 📊 Response length: 5806 characters
+2025-06-24 17:15:09,196 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-24 17:15:09,199 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:15:09,200 - INFO - 🤖 [Step C] Recommending core URLs for 2020
+2025-06-24 17:15:09,206 - INFO - 🔄 Classified 25 URLs for year 2020
+2025-06-24 17:15:09,206 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:15:10,218 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:15:33,340 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:15:33,340 - INFO - 📊 Response length: 5264 characters
+2025-06-24 17:15:33,340 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-24 17:15:33,344 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:15:33,345 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-24 17:15:33,347 - INFO - 🔄 Classified 25 URLs for year 2013
+2025-06-24 17:15:33,347 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:15:33,951 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:15:56,403 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:15:56,404 - INFO - 📊 Response length: 5411 characters
+2025-06-24 17:15:56,404 - INFO - ✅ URL recommendation finished: 15 recommended, 14 within valid pages (enforce=False)
+2025-06-24 17:15:56,408 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:15:56,408 - INFO - 🤖 [Step C] Recommending core URLs for 2024
+2025-06-24 17:15:56,419 - INFO - 🔄 Classified 18 URLs for year 2024
+2025-06-24 17:15:56,419 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:15:57,827 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:16:16,762 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:16:16,762 - INFO - 📊 Response length: 4624 characters
+2025-06-24 17:16:16,763 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-24 17:16:16,767 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:16:16,768 - INFO - 🤖 [Step C] Recommending core URLs for 2018
+2025-06-24 17:16:16,775 - INFO - 🔄 Classified 27 URLs for year 2018
+2025-06-24 17:16:16,776 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:16:17,454 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:16:37,800 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:16:37,801 - INFO - 📊 Response length: 5509 characters
+2025-06-24 17:16:37,801 - INFO - ✅ URL recommendation finished: 14 recommended, 13 within valid pages (enforce=False)
+2025-06-24 17:16:37,806 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:16:37,806 - INFO - 🤖 [Step C] Recommending core URLs for 2011
+2025-06-24 17:16:37,807 - INFO - 🔄 Classified 1 URLs for year 2011
+2025-06-24 17:16:37,807 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:16:38,536 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:16:40,121 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:16:40,121 - INFO - 📊 Response length: 499 characters
+2025-06-24 17:16:40,121 - INFO - ✅ URL recommendation finished: 1 recommended, 1 within valid pages (enforce=False)
+2025-06-24 17:16:40,127 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:16:40,127 - INFO - 🤖 [Step C] Recommending core URLs for 2016
+2025-06-24 17:16:40,143 - INFO - 🔄 Classified 55 URLs for year 2016
+2025-06-24 17:16:40,144 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:16:40,805 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:17:00,167 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:17:00,167 - INFO - 📊 Response length: 5026 characters
+2025-06-24 17:17:00,168 - INFO - ✅ URL recommendation finished: 14 recommended, 13 within valid pages (enforce=False)
+2025-06-24 17:17:00,173 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:17:00,174 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-24 17:17:00,194 - INFO - 🔄 Classified 41 URLs for year 2017
+2025-06-24 17:17:00,194 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:17:00,860 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:17:25,035 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:17:25,035 - INFO - 📊 Response length: 5164 characters
+2025-06-24 17:17:25,035 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-24 17:17:25,043 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:17:25,043 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-24 17:17:25,048 - INFO - 🔄 Classified 20 URLs for year 2019
+2025-06-24 17:17:25,050 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:17:25,721 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:17:44,609 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:17:44,610 - INFO - 📊 Response length: 5976 characters
+2025-06-24 17:17:44,610 - INFO - ✅ URL recommendation finished: 16 recommended, 16 within valid pages (enforce=False)
+2025-06-24 17:17:44,618 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:17:44,619 - INFO - 🤖 [Step C] Recommending core URLs for 2025
+2025-06-24 17:17:44,631 - INFO - 🔄 Classified 20 URLs for year 2025
+2025-06-24 17:17:44,631 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-24 17:17:45,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-24 17:18:08,672 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-24 17:18:08,672 - INFO - 📊 Response length: 5320 characters
+2025-06-24 17:18:08,673 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-24 17:18:08,681 - INFO - Analysis results exported to: outputs/dell.com/dell.com_llm_planning_v0.4.4_result.json
+2025-06-24 17:18:08,681 - INFO - 🔍 Identifying scenarios for year 2012 ...
+2025-06-24 17:18:08,682 - INFO - 📄 [2012] Analyzing page 1/12
+2025-06-24 17:18:12,048 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171812.txt
+2025-06-24 17:18:13,050 - INFO - 📄 [2012] Analyzing page 2/12
+2025-06-24 17:18:15,206 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171815.txt
+2025-06-24 17:18:16,208 - INFO - 📄 [2012] Analyzing page 3/12
+2025-06-24 17:18:19,022 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171819.txt
+2025-06-24 17:18:20,024 - INFO - 📄 [2012] Analyzing page 4/12
+2025-06-24 17:18:27,409 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171827.txt
+2025-06-24 17:18:28,411 - INFO - 📄 [2012] Analyzing page 5/12
+2025-06-24 17:18:30,303 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171830.txt
+2025-06-24 17:18:31,305 - INFO - 📄 [2012] Analyzing page 6/12
+2025-06-24 17:18:33,392 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171833.txt
+2025-06-24 17:18:34,393 - INFO - 📄 [2012] Analyzing page 7/12
+2025-06-24 17:18:37,060 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171837.txt
+2025-06-24 17:18:38,061 - INFO - 📄 [2012] Analyzing page 8/12
+2025-06-24 17:18:40,747 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171840.txt
+2025-06-24 17:18:41,749 - INFO - 📄 [2012] Analyzing page 9/12
+2025-06-24 17:18:45,398 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171845.txt
+2025-06-24 17:18:46,399 - INFO - 📄 [2012] Analyzing page 10/12
+2025-06-24 17:18:52,107 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171852.txt
+2025-06-24 17:18:53,108 - INFO - 📄 [2012] Analyzing page 11/12
+2025-06-24 17:18:59,882 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171859.txt
+2025-06-24 17:19:00,883 - INFO - 📄 [2012] Analyzing page 12/12
+2025-06-24 17:19:04,013 - INFO - 💾 Content saved to: outputs/dell.com/websites/2012_20250624_171904.txt
+2025-06-24 17:19:05,015 - INFO - ✅ Year 2012 scenario identification completed: 7 scenarios
+2025-06-24 17:19:05,016 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:19:05,017 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-24 17:19:05,017 - INFO - 📄 [2015] Analyzing page 1/13
+2025-06-24 17:19:07,212 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171907.txt
+2025-06-24 17:19:08,215 - INFO - 📄 [2015] Analyzing page 2/13
+2025-06-24 17:19:10,333 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171910.txt
+2025-06-24 17:19:11,335 - INFO - 📄 [2015] Analyzing page 3/13
+2025-06-24 17:19:13,054 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171913.txt
+2025-06-24 17:19:14,061 - INFO - 📄 [2015] Analyzing page 4/13
+2025-06-24 17:19:18,381 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171918.txt
+2025-06-24 17:19:19,387 - INFO - 📄 [2015] Analyzing page 5/13
+2025-06-24 17:19:29,050 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171929.txt
+2025-06-24 17:19:30,051 - INFO - 📄 [2015] Analyzing page 6/13
+2025-06-24 17:19:33,256 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171933.txt
+2025-06-24 17:19:34,258 - INFO - 📄 [2015] Analyzing page 7/13
+2025-06-24 17:19:40,190 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171940.txt
+2025-06-24 17:19:41,192 - INFO - 📄 [2015] Analyzing page 8/13
+2025-06-24 17:19:44,666 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171944.txt
+2025-06-24 17:19:45,667 - INFO - 📄 [2015] Analyzing page 9/13
+2025-06-24 17:19:47,995 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171947.txt
+2025-06-24 17:19:48,997 - INFO - 📄 [2015] Analyzing page 10/13
+2025-06-24 17:19:51,035 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171951.txt
+2025-06-24 17:19:52,040 - INFO - 📄 [2015] Analyzing page 11/13
+2025-06-24 17:19:54,476 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171954.txt
+2025-06-24 17:19:55,480 - INFO - 📄 [2015] Analyzing page 12/13
+2025-06-24 17:19:57,223 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_171957.txt
+2025-06-24 17:19:58,225 - INFO - 📄 [2015] Analyzing page 13/13
+2025-06-24 17:20:01,549 - INFO - 💾 Content saved to: outputs/dell.com/websites/2015_20250624_172001.txt
+2025-06-24 17:20:02,551 - INFO - ✅ Year 2015 scenario identification completed: 11 scenarios
+2025-06-24 17:20:02,552 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:20:02,552 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-24 17:20:02,553 - INFO - 📄 [2014] Analyzing page 1/14
+2025-06-24 17:20:04,927 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172004.txt
+2025-06-24 17:20:05,928 - INFO - 📄 [2014] Analyzing page 2/14
+2025-06-24 17:20:10,098 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172010.txt
+2025-06-24 17:20:11,099 - INFO - 📄 [2014] Analyzing page 3/14
+2025-06-24 17:20:12,719 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172012.txt
+2025-06-24 17:20:13,722 - INFO - 📄 [2014] Analyzing page 4/14
+2025-06-24 17:20:17,114 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172017.txt
+2025-06-24 17:20:18,116 - INFO - 📄 [2014] Analyzing page 5/14
+2025-06-24 17:20:31,237 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172031.txt
+2025-06-24 17:20:32,239 - INFO - 📄 [2014] Analyzing page 6/14
+2025-06-24 17:20:34,554 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172034.txt
+2025-06-24 17:20:35,555 - INFO - 📄 [2014] Analyzing page 7/14
+2025-06-24 17:20:37,072 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172037.txt
+2025-06-24 17:20:38,073 - INFO - 📄 [2014] Analyzing page 8/14
+2025-06-24 17:20:39,554 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172039.txt
+2025-06-24 17:20:40,567 - INFO - 📄 [2014] Analyzing page 9/14
+2025-06-24 17:20:44,985 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172044.txt
+2025-06-24 17:20:45,987 - INFO - 📄 [2014] Analyzing page 10/14
+2025-06-24 17:20:50,030 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172050.txt
+2025-06-24 17:20:51,031 - INFO - 📄 [2014] Analyzing page 11/14
+2025-06-24 17:20:55,128 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172055.txt
+2025-06-24 17:20:56,130 - INFO - 📄 [2014] Analyzing page 12/14
+2025-06-24 17:20:57,748 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172057.txt
+2025-06-24 17:20:58,750 - INFO - 📄 [2014] Analyzing page 13/14
+2025-06-24 17:21:00,311 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172100.txt
+2025-06-24 17:21:01,313 - INFO - 📄 [2014] Analyzing page 14/14
+2025-06-24 17:21:02,998 - INFO - 💾 Content saved to: outputs/dell.com/websites/2014_20250624_172102.txt
+2025-06-24 17:21:04,000 - INFO - ✅ Year 2014 scenario identification completed: 4 scenarios
+2025-06-24 17:21:04,001 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:21:04,001 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-24 17:21:04,001 - INFO - 📄 [2009] Analyzing page 1/1
+2025-06-24 17:21:06,266 - INFO - 💾 Content saved to: outputs/dell.com/websites/2009_20250624_172106.txt
+2025-06-24 17:21:07,267 - INFO - ✅ Year 2009 scenario identification completed: 1 scenarios
+2025-06-24 17:21:07,268 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:21:07,268 - INFO - 🔍 Identifying scenarios for year 2010 ...
+2025-06-24 17:21:07,268 - INFO - 📄 [2010] Analyzing page 1/12
+2025-06-24 17:21:09,998 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172109.txt
+2025-06-24 17:21:10,999 - INFO - 📄 [2010] Analyzing page 2/12
+2025-06-24 17:21:13,794 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172113.txt
+2025-06-24 17:21:14,796 - INFO - 📄 [2010] Analyzing page 3/12
+2025-06-24 17:21:19,292 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172119.txt
+2025-06-24 17:21:20,294 - INFO - 📄 [2010] Analyzing page 4/12
+2025-06-24 17:21:22,651 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172122.txt
+2025-06-24 17:21:23,654 - INFO - 📄 [2010] Analyzing page 5/12
+2025-06-24 17:21:32,667 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172132.txt
+2025-06-24 17:21:33,669 - INFO - 📄 [2010] Analyzing page 6/12
+2025-06-24 17:21:36,828 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172136.txt
+2025-06-24 17:21:37,830 - INFO - 📄 [2010] Analyzing page 7/12
+2025-06-24 17:21:40,975 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172140.txt
+2025-06-24 17:21:41,977 - INFO - 📄 [2010] Analyzing page 8/12
+2025-06-24 17:21:45,065 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172145.txt
+2025-06-24 17:21:46,067 - INFO - 📄 [2010] Analyzing page 9/12
+2025-06-24 17:21:50,667 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172150.txt
+2025-06-24 17:21:51,668 - INFO - 📄 [2010] Analyzing page 10/12
+2025-06-24 17:21:58,422 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172158.txt
+2025-06-24 17:21:59,424 - INFO - 📄 [2010] Analyzing page 11/12
+2025-06-24 17:22:01,077 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172201.txt
+2025-06-24 17:22:02,079 - INFO - 📄 [2010] Analyzing page 12/12
+2025-06-24 17:22:04,262 - INFO - 💾 Content saved to: outputs/dell.com/websites/2010_20250624_172204.txt
+2025-06-24 17:22:05,264 - INFO - ✅ Year 2010 scenario identification completed: 6 scenarios
+2025-06-24 17:22:05,265 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:22:05,265 - INFO - 🔍 Identifying scenarios for year 2021 ...
+2025-06-24 17:22:05,265 - INFO - 📄 [2021] Analyzing page 1/15
+2025-06-24 17:22:08,177 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172208.txt
+2025-06-24 17:22:09,191 - INFO - 📄 [2021] Analyzing page 2/15
+2025-06-24 17:22:10,888 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172210.txt
+2025-06-24 17:22:11,890 - INFO - 📄 [2021] Analyzing page 3/15
+2025-06-24 17:22:13,364 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172213.txt
+2025-06-24 17:22:14,365 - INFO - 📄 [2021] Analyzing page 4/15
+2025-06-24 17:22:18,381 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172218.txt
+2025-06-24 17:22:19,382 - INFO - 📄 [2021] Analyzing page 5/15
+2025-06-24 17:22:25,705 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172225.txt
+2025-06-24 17:22:26,706 - INFO - 📄 [2021] Analyzing page 6/15
+2025-06-24 17:22:29,180 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172229.txt
+2025-06-24 17:22:30,182 - INFO - 📄 [2021] Analyzing page 7/15
+2025-06-24 17:22:31,776 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172231.txt
+2025-06-24 17:22:32,778 - INFO - 📄 [2021] Analyzing page 8/15
+2025-06-24 17:22:34,590 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172234.txt
+2025-06-24 17:22:35,599 - INFO - 📄 [2021] Analyzing page 9/15
+2025-06-24 17:22:37,071 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172237.txt
+2025-06-24 17:22:38,072 - INFO - 📄 [2021] Analyzing page 10/15
+2025-06-24 17:22:40,350 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172240.txt
+2025-06-24 17:22:41,353 - INFO - 📄 [2021] Analyzing page 11/15
+2025-06-24 17:22:45,236 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172245.txt
+2025-06-24 17:22:46,238 - INFO - 📄 [2021] Analyzing page 12/15
+2025-06-24 17:22:50,448 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172250.txt
+2025-06-24 17:22:51,454 - INFO - 📄 [2021] Analyzing page 13/15
+2025-06-24 17:22:53,137 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172253.txt
+2025-06-24 17:22:54,138 - INFO - 📄 [2021] Analyzing page 14/15
+2025-06-24 17:22:56,364 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172256.txt
+2025-06-24 17:22:57,366 - INFO - 📄 [2021] Analyzing page 15/15
+2025-06-24 17:23:00,218 - INFO - 💾 Content saved to: outputs/dell.com/websites/2021_20250624_172300.txt
+2025-06-24 17:23:01,219 - INFO - ✅ Year 2021 scenario identification completed: 7 scenarios
+2025-06-24 17:23:01,220 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:23:01,221 - INFO - 🔍 Identifying scenarios for year 2020 ...
+2025-06-24 17:23:01,221 - INFO - 📄 [2020] Analyzing page 1/14
+2025-06-24 17:23:03,637 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172303.txt
+2025-06-24 17:23:04,640 - INFO - 📄 [2020] Analyzing page 2/14
+2025-06-24 17:23:08,816 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172308.txt
+2025-06-24 17:23:09,818 - INFO - 📄 [2020] Analyzing page 3/14
+2025-06-24 17:23:15,611 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172315.txt
+2025-06-24 17:23:16,614 - INFO - 📄 [2020] Analyzing page 4/14
+2025-06-24 17:23:19,801 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172319.txt
+2025-06-24 17:23:20,802 - INFO - 📄 [2020] Analyzing page 5/14
+2025-06-24 17:23:26,957 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172326.txt
+2025-06-24 17:23:27,958 - INFO - 📄 [2020] Analyzing page 6/14
+2025-06-24 17:23:29,146 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172329.txt
+2025-06-24 17:23:30,147 - INFO - 📄 [2020] Analyzing page 7/14
+2025-06-24 17:23:31,334 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172331.txt
+2025-06-24 17:23:32,336 - INFO - 📄 [2020] Analyzing page 8/14
+2025-06-24 17:23:35,188 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172335.txt
+2025-06-24 17:23:36,189 - INFO - 📄 [2020] Analyzing page 9/14
+2025-06-24 17:23:37,673 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172337.txt
+2025-06-24 17:23:38,674 - INFO - 📄 [2020] Analyzing page 10/14
+2025-06-24 17:23:40,623 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172340.txt
+2025-06-24 17:23:41,628 - INFO - 📄 [2020] Analyzing page 11/14
+2025-06-24 17:23:52,754 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172352.txt
+2025-06-24 17:23:53,755 - INFO - 📄 [2020] Analyzing page 12/14
+2025-06-24 17:23:56,357 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172356.txt
+2025-06-24 17:23:57,363 - INFO - 📄 [2020] Analyzing page 13/14
+2025-06-24 17:23:58,716 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172358.txt
+2025-06-24 17:23:59,717 - INFO - 📄 [2020] Analyzing page 14/14
+2025-06-24 17:24:10,615 - INFO - 💾 Content saved to: outputs/dell.com/websites/2020_20250624_172410.txt
+2025-06-24 17:24:11,617 - INFO - ✅ Year 2020 scenario identification completed: 7 scenarios
+2025-06-24 17:24:11,618 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:24:11,618 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-24 17:24:11,618 - INFO - 📄 [2013] Analyzing page 1/15
+2025-06-24 17:24:13,883 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172413.txt
+2025-06-24 17:24:14,884 - INFO - 📄 [2013] Analyzing page 2/15
+2025-06-24 17:24:17,169 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172417.txt
+2025-06-24 17:24:18,171 - INFO - 📄 [2013] Analyzing page 3/15
+2025-06-24 17:24:19,870 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172419.txt
+2025-06-24 17:24:20,871 - INFO - 📄 [2013] Analyzing page 4/15
+2025-06-24 17:24:37,221 - WARNING - 获取页面内容失败 https://web.archive.org/web/20131231220731/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-24 17:24:38,223 - INFO - 📄 [2013] Analyzing page 5/15
+2025-06-24 17:24:50,608 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172450.txt
+2025-06-24 17:24:51,610 - INFO - 📄 [2013] Analyzing page 6/15
+2025-06-24 17:24:56,574 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172456.txt
+2025-06-24 17:24:57,585 - INFO - 📄 [2013] Analyzing page 7/15
+2025-06-24 17:24:59,222 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172459.txt
+2025-06-24 17:25:00,223 - INFO - 📄 [2013] Analyzing page 8/15
+2025-06-24 17:25:11,421 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172511.txt
+2025-06-24 17:25:12,422 - INFO - 📄 [2013] Analyzing page 9/15
+2025-06-24 17:25:17,245 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172517.txt
+2025-06-24 17:25:18,246 - INFO - 📄 [2013] Analyzing page 10/15
+2025-06-24 17:25:24,938 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172524.txt
+2025-06-24 17:25:25,939 - INFO - 📄 [2013] Analyzing page 11/15
+2025-06-24 17:25:34,972 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172534.txt
+2025-06-24 17:25:35,972 - INFO - 📄 [2013] Analyzing page 12/15
+2025-06-24 17:25:39,026 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172539.txt
+2025-06-24 17:25:40,028 - INFO - 📄 [2013] Analyzing page 13/15
+2025-06-24 17:25:46,892 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172546.txt
+2025-06-24 17:25:47,892 - INFO - 📄 [2013] Analyzing page 14/15
+2025-06-24 17:25:53,308 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172553.txt
+2025-06-24 17:25:54,308 - INFO - 📄 [2013] Analyzing page 15/15
+2025-06-24 17:25:59,971 - INFO - 💾 Content saved to: outputs/dell.com/websites/2013_20250624_172559.txt
+2025-06-24 17:26:00,972 - INFO - ✅ Year 2013 scenario identification completed: 2 scenarios
+2025-06-24 17:26:00,974 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:26:00,974 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-24 17:26:00,974 - INFO - 📄 [2024] Analyzing page 1/14
+2025-06-24 17:26:03,801 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172603.txt
+2025-06-24 17:26:04,802 - INFO - 📄 [2024] Analyzing page 2/14
+2025-06-24 17:26:08,170 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172608.txt
+2025-06-24 17:26:09,171 - INFO - 📄 [2024] Analyzing page 3/14
+2025-06-24 17:26:11,146 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172611.txt
+2025-06-24 17:26:12,147 - INFO - 📄 [2024] Analyzing page 4/14
+2025-06-24 17:26:15,161 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172615.txt
+2025-06-24 17:26:16,162 - INFO - 📄 [2024] Analyzing page 5/14
+2025-06-24 17:26:18,204 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172618.txt
+2025-06-24 17:26:19,205 - INFO - 📄 [2024] Analyzing page 6/14
+2025-06-24 17:26:25,326 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172625.txt
+2025-06-24 17:26:26,328 - INFO - 📄 [2024] Analyzing page 7/14
+2025-06-24 17:26:29,495 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172629.txt
+2025-06-24 17:26:30,497 - INFO - 📄 [2024] Analyzing page 8/14
+2025-06-24 17:26:32,254 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172632.txt
+2025-06-24 17:26:33,255 - INFO - 📄 [2024] Analyzing page 9/14
+2025-06-24 17:26:35,878 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172635.txt
+2025-06-24 17:26:36,879 - INFO - 📄 [2024] Analyzing page 10/14
+2025-06-24 17:26:39,371 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172639.txt
+2025-06-24 17:26:40,373 - INFO - 📄 [2024] Analyzing page 11/14
+2025-06-24 17:26:42,049 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172642.txt
+2025-06-24 17:26:43,050 - INFO - 📄 [2024] Analyzing page 12/14
+2025-06-24 17:26:52,422 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172652.txt
+2025-06-24 17:26:53,423 - INFO - 📄 [2024] Analyzing page 13/14
+2025-06-24 17:26:58,341 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172658.txt
+2025-06-24 17:26:59,342 - INFO - 📄 [2024] Analyzing page 14/14
+2025-06-24 17:27:11,052 - INFO - 💾 Content saved to: outputs/dell.com/websites/2024_20250624_172711.txt
+2025-06-24 17:27:12,053 - INFO - ✅ Year 2024 scenario identification completed: 1 scenarios
+2025-06-24 17:27:12,055 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:27:12,055 - INFO - 🔍 Identifying scenarios for year 2018 ...
+2025-06-24 17:27:12,055 - INFO - 📄 [2018] Analyzing page 1/14
+2025-06-24 17:27:14,382 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172714.txt
+2025-06-24 17:27:15,385 - INFO - 📄 [2018] Analyzing page 2/14
+2025-06-24 17:27:17,991 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172717.txt
+2025-06-24 17:27:18,993 - INFO - 📄 [2018] Analyzing page 3/14
+2025-06-24 17:27:21,015 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172721.txt
+2025-06-24 17:27:22,018 - INFO - 📄 [2018] Analyzing page 4/14
+2025-06-24 17:27:29,385 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172729.txt
+2025-06-24 17:27:30,390 - INFO - 📄 [2018] Analyzing page 5/14
+2025-06-24 17:27:37,791 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172737.txt
+2025-06-24 17:27:38,796 - INFO - 📄 [2018] Analyzing page 6/14
+2025-06-24 17:27:43,964 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172743.txt
+2025-06-24 17:27:44,965 - INFO - 📄 [2018] Analyzing page 7/14
+2025-06-24 17:27:47,901 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172747.txt
+2025-06-24 17:27:48,902 - INFO - 📄 [2018] Analyzing page 8/14
+2025-06-24 17:27:58,229 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172758.txt
+2025-06-24 17:27:59,230 - INFO - 📄 [2018] Analyzing page 9/14
+2025-06-24 17:28:03,591 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172803.txt
+2025-06-24 17:28:04,591 - INFO - 📄 [2018] Analyzing page 10/14
+2025-06-24 17:28:10,514 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172810.txt
+2025-06-24 17:28:11,515 - INFO - 📄 [2018] Analyzing page 11/14
+2025-06-24 17:28:14,682 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172814.txt
+2025-06-24 17:28:15,684 - INFO - 📄 [2018] Analyzing page 12/14
+2025-06-24 17:28:20,776 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172820.txt
+2025-06-24 17:28:21,777 - INFO - 📄 [2018] Analyzing page 13/14
+2025-06-24 17:28:29,890 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172829.txt
+2025-06-24 17:28:30,890 - INFO - 📄 [2018] Analyzing page 14/14
+2025-06-24 17:28:35,780 - INFO - 💾 Content saved to: outputs/dell.com/websites/2018_20250624_172835.txt
+2025-06-24 17:28:36,781 - INFO - ✅ Year 2018 scenario identification completed: 7 scenarios
+2025-06-24 17:28:36,782 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:28:36,782 - INFO - 🔍 Identifying scenarios for year 2011 ...
+2025-06-24 17:28:36,782 - INFO - 📄 [2011] Analyzing page 1/1
+2025-06-24 17:28:39,687 - INFO - 💾 Content saved to: outputs/dell.com/websites/2011_20250624_172839.txt
+2025-06-24 17:28:40,689 - INFO - ✅ Year 2011 scenario identification completed: 1 scenarios
+2025-06-24 17:28:40,690 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:28:40,691 - INFO - 🔍 Identifying scenarios for year 2016 ...
+2025-06-24 17:28:40,691 - INFO - 📄 [2016] Analyzing page 1/14
+2025-06-24 17:28:45,533 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172845.txt
+2025-06-24 17:28:46,537 - INFO - 📄 [2016] Analyzing page 2/14
+2025-06-24 17:28:49,591 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172849.txt
+2025-06-24 17:28:50,596 - INFO - 📄 [2016] Analyzing page 3/14
+2025-06-24 17:28:52,701 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172852.txt
+2025-06-24 17:28:53,704 - INFO - 📄 [2016] Analyzing page 4/14
+2025-06-24 17:28:55,230 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172855.txt
+2025-06-24 17:28:56,231 - INFO - 📄 [2016] Analyzing page 5/14
+2025-06-24 17:28:58,054 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172858.txt
+2025-06-24 17:28:59,055 - INFO - 📄 [2016] Analyzing page 6/14
+2025-06-24 17:29:20,541 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172920.txt
+2025-06-24 17:29:21,542 - INFO - 📄 [2016] Analyzing page 7/14
+2025-06-24 17:29:28,073 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172928.txt
+2025-06-24 17:29:29,075 - INFO - 📄 [2016] Analyzing page 8/14
+2025-06-24 17:29:33,717 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172933.txt
+2025-06-24 17:29:34,718 - INFO - 📄 [2016] Analyzing page 9/14
+2025-06-24 17:29:37,848 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172937.txt
+2025-06-24 17:29:38,854 - INFO - 📄 [2016] Analyzing page 10/14
+2025-06-24 17:29:40,714 - WARNING - 获取页面内容失败 https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/popular-laptop-deals: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/popular-laptop-deals
+2025-06-24 17:29:41,715 - INFO - 📄 [2016] Analyzing page 11/14
+2025-06-24 17:29:58,846 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_172958.txt
+2025-06-24 17:29:59,849 - INFO - 📄 [2016] Analyzing page 12/14
+2025-06-24 17:30:14,866 - WARNING - 获取页面内容失败 https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/networking-products?stp_redir=false: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-24 17:30:15,867 - INFO - 📄 [2016] Analyzing page 13/14
+2025-06-24 17:30:20,228 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_173020.txt
+2025-06-24 17:30:21,232 - INFO - 📄 [2016] Analyzing page 14/14
+2025-06-24 17:30:36,777 - INFO - 💾 Content saved to: outputs/dell.com/websites/2016_20250624_173036.txt
+2025-06-24 17:30:37,779 - INFO - ✅ Year 2016 scenario identification completed: 5 scenarios
+2025-06-24 17:30:37,780 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:30:37,780 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-24 17:30:37,781 - INFO - 📄 [2017] Analyzing page 1/14
+2025-06-24 17:30:42,475 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173042.txt
+2025-06-24 17:30:43,488 - INFO - 📄 [2017] Analyzing page 2/14
+2025-06-24 17:30:47,213 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173047.txt
+2025-06-24 17:30:48,217 - INFO - 📄 [2017] Analyzing page 3/14
+2025-06-24 17:31:03,568 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173103.txt
+2025-06-24 17:31:04,573 - INFO - 📄 [2017] Analyzing page 4/14
+2025-06-24 17:31:10,579 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173110.txt
+2025-06-24 17:31:11,582 - INFO - 📄 [2017] Analyzing page 5/14
+2025-06-24 17:31:17,193 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173117.txt
+2025-06-24 17:31:18,194 - INFO - 📄 [2017] Analyzing page 6/14
+2025-06-24 17:31:22,942 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173122.txt
+2025-06-24 17:31:23,944 - INFO - 📄 [2017] Analyzing page 7/14
+2025-06-24 17:31:34,981 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173134.txt
+2025-06-24 17:31:35,987 - INFO - 📄 [2017] Analyzing page 8/14
+2025-06-24 17:31:40,179 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173140.txt
+2025-06-24 17:31:41,180 - INFO - 📄 [2017] Analyzing page 9/14
+2025-06-24 17:31:48,233 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173148.txt
+2025-06-24 17:31:49,238 - INFO - 📄 [2017] Analyzing page 10/14
+2025-06-24 17:31:52,928 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173152.txt
+2025-06-24 17:31:53,929 - INFO - 📄 [2017] Analyzing page 11/14
+2025-06-24 17:31:57,719 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173157.txt
+2025-06-24 17:31:58,724 - INFO - 📄 [2017] Analyzing page 12/14
+2025-06-24 17:32:04,634 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173204.txt
+2025-06-24 17:32:05,639 - INFO - 📄 [2017] Analyzing page 13/14
+2025-06-24 17:32:07,131 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173207.txt
+2025-06-24 17:32:08,132 - INFO - 📄 [2017] Analyzing page 14/14
+2025-06-24 17:32:13,921 - INFO - 💾 Content saved to: outputs/dell.com/websites/2017_20250624_173213.txt
+2025-06-24 17:32:14,926 - INFO - ✅ Year 2017 scenario identification completed: 6 scenarios
+2025-06-24 17:32:14,927 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:32:14,927 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-24 17:32:14,927 - INFO - 📄 [2019] Analyzing page 1/16
+2025-06-24 17:32:17,583 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173217.txt
+2025-06-24 17:32:18,585 - INFO - 📄 [2019] Analyzing page 2/16
+2025-06-24 17:32:20,760 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173220.txt
+2025-06-24 17:32:21,769 - INFO - 📄 [2019] Analyzing page 3/16
+2025-06-24 17:32:29,054 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173229.txt
+2025-06-24 17:32:30,056 - INFO - 📄 [2019] Analyzing page 4/16
+2025-06-24 17:32:33,644 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173233.txt
+2025-06-24 17:32:34,648 - INFO - 📄 [2019] Analyzing page 5/16
+2025-06-24 17:32:38,779 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173238.txt
+2025-06-24 17:32:39,780 - INFO - 📄 [2019] Analyzing page 6/16
+2025-06-24 17:32:41,377 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173241.txt
+2025-06-24 17:32:42,378 - INFO - 📄 [2019] Analyzing page 7/16
+2025-06-24 17:32:45,867 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173245.txt
+2025-06-24 17:32:46,869 - INFO - 📄 [2019] Analyzing page 8/16
+2025-06-24 17:32:51,049 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173251.txt
+2025-06-24 17:32:52,051 - INFO - 📄 [2019] Analyzing page 9/16
+2025-06-24 17:32:54,595 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173254.txt
+2025-06-24 17:32:55,596 - INFO - 📄 [2019] Analyzing page 10/16
+2025-06-24 17:33:13,317 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173313.txt
+2025-06-24 17:33:14,319 - INFO - 📄 [2019] Analyzing page 11/16
+2025-06-24 17:33:17,649 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173317.txt
+2025-06-24 17:33:18,650 - INFO - 📄 [2019] Analyzing page 12/16
+2025-06-24 17:33:20,942 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173320.txt
+2025-06-24 17:33:21,943 - INFO - 📄 [2019] Analyzing page 13/16
+2025-06-24 17:33:29,282 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173329.txt
+2025-06-24 17:33:30,284 - INFO - 📄 [2019] Analyzing page 14/16
+2025-06-24 17:33:32,635 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173332.txt
+2025-06-24 17:33:33,637 - INFO - 📄 [2019] Analyzing page 15/16
+2025-06-24 17:33:35,913 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173335.txt
+2025-06-24 17:33:36,919 - INFO - 📄 [2019] Analyzing page 16/16
+2025-06-24 17:33:40,892 - INFO - 💾 Content saved to: outputs/dell.com/websites/2019_20250624_173340.txt
+2025-06-24 17:33:41,893 - INFO - ✅ Year 2019 scenario identification completed: 9 scenarios
+2025-06-24 17:33:41,895 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:33:41,895 - INFO - 🔍 Identifying scenarios for year 2025 ...
+2025-06-24 17:33:41,896 - INFO - 📄 [2025] Analyzing page 1/15
+2025-06-24 17:33:46,176 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173346.txt
+2025-06-24 17:33:47,178 - INFO - 📄 [2025] Analyzing page 2/15
+2025-06-24 17:33:49,324 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173349.txt
+2025-06-24 17:33:50,326 - INFO - 📄 [2025] Analyzing page 3/15
+2025-06-24 17:33:52,154 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173352.txt
+2025-06-24 17:33:53,155 - INFO - 📄 [2025] Analyzing page 4/15
+2025-06-24 17:33:54,965 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173354.txt
+2025-06-24 17:33:55,967 - INFO - 📄 [2025] Analyzing page 5/15
+2025-06-24 17:33:58,007 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173358.txt
+2025-06-24 17:33:59,009 - INFO - 📄 [2025] Analyzing page 6/15
+2025-06-24 17:34:01,872 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173401.txt
+2025-06-24 17:34:02,882 - INFO - 📄 [2025] Analyzing page 7/15
+2025-06-24 17:34:12,666 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173412.txt
+2025-06-24 17:34:13,667 - INFO - 📄 [2025] Analyzing page 8/15
+2025-06-24 17:34:16,861 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173416.txt
+2025-06-24 17:34:17,862 - INFO - 📄 [2025] Analyzing page 9/15
+2025-06-24 17:34:19,362 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173419.txt
+2025-06-24 17:34:20,363 - INFO - 📄 [2025] Analyzing page 10/15
+2025-06-24 17:34:22,997 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173422.txt
+2025-06-24 17:34:24,008 - INFO - 📄 [2025] Analyzing page 11/15
+2025-06-24 17:34:27,682 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173427.txt
+2025-06-24 17:34:28,684 - INFO - 📄 [2025] Analyzing page 12/15
+2025-06-24 17:34:30,898 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173430.txt
+2025-06-24 17:34:31,899 - INFO - 📄 [2025] Analyzing page 13/15
+2025-06-24 17:34:33,640 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173433.txt
+2025-06-24 17:34:34,642 - INFO - 📄 [2025] Analyzing page 14/15
+2025-06-24 17:34:36,199 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173436.txt
+2025-06-24 17:34:37,201 - INFO - 📄 [2025] Analyzing page 15/15
+2025-06-24 17:34:38,879 - INFO - 💾 Content saved to: outputs/dell.com/websites/2025_20250624_173438.txt
+2025-06-24 17:34:39,890 - INFO - ✅ Year 2025 scenario identification completed: 5 scenarios
+2025-06-24 17:34:39,892 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:34:39,897 - INFO - Scenario analysis results exported to: outputs/dell.com/dell.com_scenario_v0.4.4_result.json
+2025-06-24 17:34:39,897 - INFO - ✅ Unified analysis workflow completed!
+2025-06-24 17:34:39,897 - INFO - 💡 Analysis completed! Output files:
+2025-06-24 17:34:39,898 - INFO -    - ./outputs/dell.com/dell.com_llm_planning_v0.4_result.json
+2025-06-24 17:34:39,898 - INFO -    - ./outputs/dell.com/dell.com_scenario_v0.4_result.json
+2025-06-24 17:34:40,765 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-24 17:34:40,766 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

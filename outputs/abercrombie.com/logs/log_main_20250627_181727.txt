@@ -1,0 +1,50 @@
+2025-06-27 18:17:27,071 - INFO - 📋 日志系统已初始化: outputs/abercrombie.com/logs/log_main_20250627_181727.txt
+2025-06-27 18:17:27,071 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-27 18:17:27,071 - INFO - 📊 公司: abercrombie.com
+2025-06-27 18:17:27,072 - INFO - ✅ 成功读取 1 个历史URLs from ./inputs/abercrombie.com.txt
+2025-06-27 18:17:27,072 - INFO - 🌐 开始URL处理...
+2025-06-27 18:17:27,073 - INFO - 🌐 开始处理公司URLs: abercrombie.com
+2025-06-27 18:17:27,073 - INFO - 🔄 发现已存在的链接文件: outputs/abercrombie.com/abercrombie.com_filtered_links.json，已加载 1 年的数据，将进行增量处理
+2025-06-27 18:17:27,074 - INFO - ⏭️ 跳过 2009 年，已有 2 个链接
+2025-06-27 18:17:27,074 - INFO - 💾 链接处理完成，共 2 个链接已保存到: outputs/abercrombie.com/abercrombie.com_filtered_links.json
+2025-06-27 18:17:27,074 - INFO - ✅ 成功加载 1 年的链接数据
+2025-06-27 18:17:27,074 - INFO - ✅ URL处理完成，共处理 1 年的数据
+2025-06-27 18:17:27,074 - INFO - 🧠 开始LLM规划...
+2025-06-27 18:17:27,266 - INFO - 🚀 LLM规划器已初始化
+2025-06-27 18:17:27,266 - INFO - 🧠 开始识别核心页面类型...
+2025-06-27 18:17:27,267 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-27 18:17:32,862 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-27 18:18:18,249 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-06-27 18:18:18,250 - INFO - ✅ 核心页面类型识别完成，共 48 个类型已保存到: outputs/abercrombie.com/abercrombie.com_core_page_types.json
+2025-06-27 18:18:18,250 - INFO - ✅ 核心页面类型已生成: outputs/abercrombie.com/abercrombie.com_core_page_types.json
+2025-06-27 18:18:18,250 - INFO - 🤖 开始生成LLM规划...
+2025-06-27 18:18:18,254 - INFO - 🔍 处理 2009 年的规划...
+2025-06-27 18:18:18,255 - INFO - ✅ URL正则匹配完成，共过滤出2/2个classified_urls
+2025-06-27 18:18:18,255 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-27 18:18:18,858 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-27 18:18:19,498 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-27 18:18:19,498 - WARNING - LLM推荐URLs不在有效列表中，使用前 2 个有效URLs
+2025-06-27 18:18:19,498 - INFO - ✅ URL推荐完成: 2 个推荐，0 个在有效页面内
+2025-06-27 18:18:19,498 - INFO - ✅ 2009 年规划完成: 推荐 2 个核心URL
+2025-06-27 18:18:19,499 - INFO - 💾 LLM规划全部年份处理完成，共 2 个推荐URL已保存到: outputs/abercrombie.com/abercrombie.com_llm_planning.json
+2025-06-27 18:18:19,499 - INFO - ✅ 成功加载 1 年的规划数据
+2025-06-27 18:18:19,499 - INFO - ✅ LLM规划完成: outputs/abercrombie.com/abercrombie.com_llm_planning.json
+2025-06-27 18:18:19,499 - INFO - 🔍 开始场景分析...
+2025-06-27 18:18:19,500 - INFO - ✅ 成功加载 70 个微场景
+2025-06-27 18:18:19,500 - INFO - 🔍 场景分析器已初始化
+2025-06-27 18:18:19,500 - INFO - 🔍 开始分析场景: abercrombie.com
+2025-06-27 18:18:19,501 - INFO - 🔍 分析 2009 年的场景...
+2025-06-27 18:18:19,501 - INFO - 📄 [2009] 分析页面 1/2
+2025-06-27 18:18:21,599 - INFO - 💾 内容已保存到: outputs/abercrombie.com/websites/2009_20250627_181821.txt
+2025-06-27 18:18:22,600 - INFO - 📄 [2009] 分析页面 2/2
+2025-06-27 18:18:25,091 - INFO - 💾 内容已保存到: outputs/abercrombie.com/websites/2009_20250627_181825.txt
+2025-06-27 18:18:26,101 - INFO - ✅ 2009 年场景分析完成: 0 个场景
+2025-06-27 18:18:26,102 - INFO - ✅ 场景分析结果已导出到: outputs/abercrombie.com/abercrombie.com_scenarios.json
+2025-06-27 18:18:26,103 - INFO - ✅ 场景分析结果已导出到: outputs/abercrombie.com/abercrombie.com_scenarios.json
+2025-06-27 18:18:26,103 - INFO - ✅ 场景分析完成: outputs/abercrombie.com/abercrombie.com_scenarios.json
+2025-06-27 18:18:26,103 - INFO - 🎉 分析流程完成!
+2025-06-27 18:18:26,103 - INFO - 📁 输出文件:
+2025-06-27 18:18:26,103 - INFO -    - 过滤链接: outputs/abercrombie.com/abercrombie.com_filtered_links.json
+2025-06-27 18:18:26,103 - INFO -    - 核心页面类型: outputs/abercrombie.com/abercrombie.com_core_page_types.json
+2025-06-27 18:18:26,103 - INFO -    - LLM规划: outputs/abercrombie.com/abercrombie.com_llm_planning.json
+2025-06-27 18:18:26,103 - INFO -    - 场景分析: outputs/abercrombie.com/abercrombie.com_scenarios.json

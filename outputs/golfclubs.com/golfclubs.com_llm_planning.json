@@ -1,0 +1,3879 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "golfclubs.com",
+  "export_time": "2025-07-01 10:51:35",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-30 16:59:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090122064111/http://golfclubs.com/khxc/index.php",
+        "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/main.pl",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=drivers1",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Woods&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Putters&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Complete+Sets&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=iron&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Wedge&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=bags&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Hybrids&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=traing&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+        "https://web.archive.org/web/20090122064111/http://golfclubs.com:80/",
+        "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=contact&sid=s80vgq9h9096974490t7682y3zm3j1m3",
+        "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/mail/davemlm.cgi"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/khxc/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/main.pl",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key entry point that helps in creating brand awareness and directing customers to various offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=drivers1",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "This URL focuses on a specific product category, aiding in customer retention by showcasing relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Woods&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Highlights a popular product category, encouraging repeat visits and purchases from existing customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Putters&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Focuses on a specific product line, enhancing customer engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Complete+Sets&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Encourages customers to consider complete sets, fostering upselling and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=iron&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Targets a specific product category, enhancing customer loyalty through focused offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Wedge&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Promotes a niche product category, appealing to specific customer interests and enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=bags&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Showcases another essential product category, encouraging repeat visits and purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Hybrids&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Focuses on hybrid clubs, appealing to a specific segment of golfers and enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=traing&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Targets training equipment, appealing to customers interested in improving their game."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another home page that helps in brand awareness and directs customers to various offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=contact&sid=s80vgq9h9096974490t7682y3zm3j1m3",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Provides contact information, essential for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/mail/davemlm.cgi",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legacy CGI/PHP Pages",
+            "selection_reason": "Facilitates customer engagement through email communication, enhancing retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Headcovers&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Hybrids&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Woods&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=iron&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/khxc/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Putters&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=drivers1",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=traing&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=bags&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/mail/davemlm.cgi",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com/cgi-bin/main.pl",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Wedge&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=catshow&ref=Complete+Sets&sid=1dc2411e9001t72n7jix6dxagmk8052m",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legacy CGI/PHP Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://golfclubs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090122064111/http://www.golfclubs.com/khxc/index.php?app=ccp0&ns=contact&sid=s80vgq9h9096974490t7682y3zm3j1m3",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-06-30 16:59:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 45,
+      "valid_content_urls_count": 45,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/",
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/callaway",
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/taylormade",
+        "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/gift_codes"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Highlights popular products, generating customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Attracts customers looking for the latest products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/callaway",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Targets customers interested in a specific brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/taylormade",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Another brand-specific page that caters to customer preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/gift_codes",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Code Page",
+            "selection_reason": "Facilitates decision-making by offering gift options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/callaway",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/taylormade",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/gift_codes",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Code Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212202952/http://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-06-30 16:59:54",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 48,
+      "valid_content_urls_count": 48,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/callaway",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/taylormade",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/nike-sq-machspeed-combo-iron-graphite-set---mens",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/sun-mountain-four-5-carry-bag---2011",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/cart/discount/HOLIDAY10",
+        "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/gift-certificates"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Highlights the latest products, attracting customers' interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Showcases popular items, helping customers in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/callaway",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Focuses on a specific brand, catering to brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/taylormade",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Another brand-specific page that attracts customers interested in TaylorMade products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/nike-sq-machspeed-combo-iron-graphite-set---mens",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Page",
+            "selection_reason": "Offers discounted products, appealing to bargain hunters."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/sun-mountain-four-5-carry-bag---2011",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Page",
+            "selection_reason": "Another closeout page that provides value to price-sensitive customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/cart/discount/HOLIDAY10",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers ready to make a purchase, facilitating the checkout process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/gift-certificates",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card / Code Page",
+            "selection_reason": "Provides an option for customers looking to purchase gifts, enhancing decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Reinforces customer interest by showcasing top-selling products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/nike-sq-machspeed-combo-iron-graphite-set---mens",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/callaway",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/closeouts/sun-mountain-four-5-carry-bag---2011",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/cart/discount/HOLIDAY10",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/gift-certificates",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card / Code Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111220002732/http://www.golfclubs.com/taylormade",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-06-30 17:00:06",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 54,
+      "valid_content_urls_count": 54,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=price+drops&ref=banner",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/callaway",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/taylormade",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/cart/discount/DEC2012",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=%246.99+air&ref=banner",
+        "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/new_arrivals"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, crucial for brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=price+drops&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Engages customers looking for deals, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Highlights popular products, increasing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/callaway",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Attracts customers interested in a specific brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/taylormade",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Engages customers looking for TaylorMade products."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/cart/discount/DEC2012",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=%246.99+air&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Targets customers searching for specific low-priced items."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Keeps customers informed about the latest products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=price+drops&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/callaway",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/taylormade",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/cart/discount/DEC2012",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/search?q=%246.99+air&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227081456/http://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-30 17:00:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=sldr&psearch_sort=popularity-desc&ref=banner",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/callaway",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/taylormade",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/cart/discount/NEWYEARS",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?q=cleveland+588+rtx+wedge&psearch_sort=popularity-desc&ref=banner",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=Callaway+Apex&psearch_sort=popularity-desc&ref=banner",
+        "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=New+Adams+Idea+Cut-Thru&ref=banner"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Highlights the latest products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Showcases popular items, enhancing customer interest and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=sldr&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Facilitates product discovery, crucial for customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/callaway",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Focuses on a specific brand, catering to brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/taylormade",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Listing Page",
+            "selection_reason": "Another brand-specific page that attracts customers interested in TaylorMade products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/cart/discount/NEWYEARS",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for conversion, allowing customers to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?q=cleveland+588+rtx+wedge&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Specific product search that aids in customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=Callaway+Apex&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Another search result page that helps customers find specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=New+Adams+Idea+Cut-Thru&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Facilitates product discovery for a specific item, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=sldr&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Provides a platform for customers to explore popular products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=New+Adams+Idea+Cut-Thru&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Another search result page that helps customers find specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?q=cleveland+588+rtx+wedge&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Specific product search that aids in customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=Callaway+Apex&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Another search result page that helps customers find specific products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=sldr&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/callaway",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?q=cleveland+588+rtx+wedge&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/taylormade",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=Callaway+Apex&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/search?sq=New+Adams+Idea+Cut-Thru&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220820/http://www.golfclubs.com/cart/discount/NEWYEARS",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-06-30 17:01:05",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 125,
+      "valid_content_urls_count": 125,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/irons-steel-shaft",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/mens-golf-balls",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/drivers",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/headwear",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/great-holiday-gifts/gifts-for-beginners",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/luggage",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/hybrids",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/umbrellas",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/grips",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/wedges",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/tees",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/ball-markers",
+        "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/fairway-woods"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/irons-steel-shaft",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "This category is essential for customers interested in purchasing golf clubs, specifically irons."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/mens-golf-balls",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "A key product category that attracts male golfers looking for golf balls."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/drivers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Drivers are a crucial product for golfers, making this category highly relevant."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/headwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Headwear is an important accessory for golfers, enhancing their experience on the course."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/great-holiday-gifts/gifts-for-beginners",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide Page",
+            "selection_reason": "This page targets new golfers, providing gift ideas that can drive sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Showcasing new products keeps customers engaged and encourages repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/luggage",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Luggage is essential for golfers traveling to courses, making it a valuable category."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/hybrids",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Hybrid clubs are popular among golfers, making this category significant."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/umbrellas",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Umbrellas are practical accessories for golfers, enhancing their experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/grips",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Grips are essential for club performance, making this category important."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/wedges",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Wedges are crucial for short game performance, appealing to serious golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/tees",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Tees are a fundamental accessory for golfers, making this category relevant."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/ball-markers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Ball markers are essential for golfers, enhancing their game experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/fairway-woods",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Fairway woods are important clubs for golfers, making this category significant."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 72,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/taylormade?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/irons-steel-shaft",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/womens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/bags/nike-performance-cart-ii-venom?ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/hybrid-iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/headwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/putters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/color-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/wedges",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/senior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/luggage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/mens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/accessories/callaway-tour-hat-gift-set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/bags/womens-golf-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/towels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/electronics-and-cart-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/great-holiday-gifts/gifts-for-beginners",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/bag-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/junior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/hybrids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/mens-shirts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/nike?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/mens-pants",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/grips",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/ball-markers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/mens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/callaway?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/accessories/nike-tour-microfiber-towel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/electronics/handheld-gps",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/clubs/tour-edge-ht-max-j-junior-girls-set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/electronics/training-electronics",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/ball-value-packs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/search?sq=cobra+bio+cell&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/bluetooth-speakers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/gift-packages",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/batteries-and-power-adapters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/search?sq=callaway+strata+savings&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/gifts/holiday-best-sellers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/womens-pants",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/drivers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/balls/mens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/practice",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/taylormade?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/womens-tops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/clubs/callaway-big-bertha-iron-set-graphite",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/club-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/accessories/nike-swoosh-starter-pack",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/irons-graphite-shaft",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/search?sq=bushnell+instant&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/bags/travel-covers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/umbrellas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/headcovers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/products/search?sq=garmin+rebate&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/electronics/gps-watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/womens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/raingear-outerwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/tees",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/accessories/callaway-8-quad-hitting-net",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/bags/nike-performance-cart-ii-venom",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/https://www.golfclubs.com/callaway?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/mens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/fairway-woods",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/bags/carry-and-stand-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/bags/cart-and-staff-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/clubs/womens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/accessories/novelty-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/apparel/womens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229025554/http://www.golfclubs.com/electronics/rangefinders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-06-30 17:01:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 132,
+      "valid_content_urls_count": 132,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/gifts/holiday-best-sellers",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/search?sq=callaway+xr&psearch_sort=popularity-desc&ref=banner",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/drivers",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/putters",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/gps-watches",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/hybrid-iron-sets",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/tees",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/fairway-woods",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/gift-packages",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/wedges",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/umbrellas",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/adams-idea-complete-12-pc-set",
+        "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/rangefinders"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 16,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall awareness of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Highlights popular products, attracting customer interest and encouraging exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Showcases the latest products, keeping customers engaged and informed about new offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/gifts/holiday-best-sellers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "Targets seasonal shopping, appealing to customers looking for popular gift options."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/search?sq=callaway+xr&psearch_sort=popularity-desc&ref=banner",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Facilitates product discovery based on specific customer queries, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/drivers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "A core product category that attracts significant customer interest in golf equipment."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/putters",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Another essential product category that is critical for golfers, driving interest and sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/gps-watches",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Represents a growing segment in golf technology, appealing to tech-savvy customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/hybrid-iron-sets",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Popular among golfers looking for versatile clubs, enhancing customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/tees",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Essential accessories that every golfer needs, driving repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/fairway-woods",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Key product category that attracts golfers looking to improve their game."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/gift-packages",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Appeals to customers looking for convenient gifting options, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/wedges",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Critical for short game performance, attracting serious golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/umbrellas",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Useful accessory that enhances the overall golfing experience, promoting customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/adams-idea-complete-12-pc-set",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Complete sets appeal to beginners and casual golfers, driving initial purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/rangefinders",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Popular among golfers for improving game accuracy, enhancing customer interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 73,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/womens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/gps-watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/nike?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/hybrid-iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/fairway-woods",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/ball-markers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/odyssey-works-tank-cruiser-putter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/electronics-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/gift-packages",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/bushnell-neo-ghost?ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/balls/mens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/grips",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/balls/color-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/carry-and-stand-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/callaway?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/mens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/putters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/hybrids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/rangefinders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/outerwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/precision-pro-v400-rangefinder?ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/bag-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/training-electronics",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/wedges",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/womens-golf-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/mens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/socks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/adams-idea-complete-12-pc-set?ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/mens-pants",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/travel-covers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/wilson-profile-xls-complete-set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/senior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/tees",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/umbrellas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/balls/ball-value-packs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/womens-pants",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/taylormade?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/sunday-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/gifts/holiday-best-sellers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/novelty-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/skycaddie-touch-gps?ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/headwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/cart-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/search?sq=callaway+xr&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/practice",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/bag-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/batteries-and-power-adapters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/womens-tops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/cart-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/junior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/taylormade?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/gifts/stocking-stuffers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/bluetooth-speakers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/adams-idea-complete-12-pc-set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/womens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/towels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/womens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/raingear-outerwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/bags/callaway-org-14-cart-bag-2015",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/balls/womens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/electronics/handheld-gps",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/search?sq=TaylorMade+R15&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/luggage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/callaway?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/mens-shirts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/apparel/mens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/clubs/drivers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/products/search?sq=nike+vapor&psearch_sort=popularity-desc&ref=banner",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151122051244/https://www.golfclubs.com/accessories/club-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-30 17:01:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 120,
+      "valid_content_urls_count": 120,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/featured",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/new_arrivals",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/hybrids",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/drivers",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/putters",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/rangefinders",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/cart-accessories",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-golf-shoes",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/wedges",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/carry-and-stand-bags",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/mens-full-sets",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/tees",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/fairway-woods",
+        "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/headcovers"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/featured",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured / Best Sellers Page",
+            "selection_reason": "This page highlights popular products, attracting customer interest and encouraging exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/new_arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Showcasing new products keeps customers engaged and encourages repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/hybrids",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Hybrids are a popular category, appealing to a wide range of golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/drivers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Drivers are essential for golfers, making this category critical for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/putters",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Putters are a key component of a golfer's equipment, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/rangefinders",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Rangefinders enhance gameplay, making them a valuable product for tech-savvy golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/cart-accessories",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Cart accessories are important for golfers who use carts, adding convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-golf-shoes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Golf shoes are essential for performance, making this category significant."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/wedges",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Wedges are crucial for short game performance, appealing to serious golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/carry-and-stand-bags",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Bags are essential for carrying equipment, making them a necessary purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/mens-full-sets",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Full sets are a major investment for golfers, making this category critical for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/tees",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Tees are a basic necessity for golfers, ensuring frequent purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/fairway-woods",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Fairway woods are popular among golfers, making them an important category."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/headcovers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Headcovers protect valuable clubs, appealing to customers looking for care products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 69,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/hybrids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/senior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/bushnell-tour-v4-jolt-patriot-pack",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/cart-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/grips",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/mens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/taylormade-m2-iron-set-steel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/umbrellas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/juniors",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/taylormade?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/rangefinders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/electronics-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/bag-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/belts-and-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/batteries-and-power-adapters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/taylormade-psi-tour-iron-set-steel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/bag-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/water-bottles-and-cups",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/taylormade?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/wedges",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-shirts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/gps-watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/socks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/fairway-woods",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/mizuno-jpx-900-driver",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/headcovers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/bluetooth-speakers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/taylormade-daddy-long-legs-plus-putter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/training-electronics",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/luggage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/travel-covers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/womens-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/womens-pants",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/putters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/featured",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured / Best Sellers Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/outerwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/nike?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/balls/womens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/ogio-shredder-stand-bag-2017",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/handheld-gps",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/tees",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/club-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/balls/color-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/sunday-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/raingear-outerwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/callaway?ref=footer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/ball-markers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/junior-full-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/towels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/callaway?ref=logo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Listing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/womens-golf-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/hybrid-iron-sets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/womens-sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/womens-tops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/practice",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/products/new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/accessories/headwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/balls/mens-golf-balls",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/clubs/drivers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/balls/ball-value-packs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/mens-pants-and-shorts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/apparel/womens-golf-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/electronics/skycaddie-sw2-gps-watch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/carry-and-stand-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229123620/https://www.golfclubs.com/bags/cart-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-30 17:02:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 60,
+      "valid_content_urls_count": 60,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/default.aspx?a=1",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/About/Default.aspx",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/Contact/Default.aspx",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/articles/golf-tee-times",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/product/custom-assembled-rh-lh",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart?c=wishlist",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/FAQ/Default.aspx",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/ReturnPolicy/Default.aspx",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/privacypolicy",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/dashboard",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/returnpolicy",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/terms",
+        "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/PrivacyPolicy/Default.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/default.aspx?a=1",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/About/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/Contact/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Allows customers to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/articles/golf-tee-times",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles Hub",
+            "selection_reason": "Engages customers with informative content related to golf."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected products before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/product/custom-assembled-rh-lh",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Custom Product Page",
+            "selection_reason": "Allows customers to explore personalized product options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart?c=wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Enables customers to save products for future consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/FAQ/Default.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/ReturnPolicy/Default.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential for customers to understand return processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/privacypolicy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection and privacy practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/dashboard",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their accounts and orders, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/returnpolicy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Reinforces understanding of return policies for customer assurance."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/terms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal framework governing the use of the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/PrivacyPolicy/Default.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reiterates the importance of customer data privacy."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/terms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/default.aspx?a=1",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/privacypolicy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/ReturnPolicy/Default.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/product/custom-assembled-rh-lh",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Custom Product Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/dashboard",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/FAQ/Default.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/PrivacyPolicy/Default.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart?c=wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/returnpolicy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/About/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/secure/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/Contact/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171228062316/https://www.golfclubs.com/articles/golf-tee-times",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles Hub"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-30 17:02:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 77,
+      "valid_content_urls_count": 77,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/about-us/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/contact-us/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/golf-etiquette/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/hot-golf-deals/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/returns/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/terms-of-use/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/my-account/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/become-a-vendor/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/discounted-golf-tee-times/",
+        "https://web.archive.org/web/20181128012316/https://golfclubs.com/most-broken-rules-in-golf/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and credibility by sharing the brand's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/contact-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Providing contact information is crucial for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/golf-etiquette/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Rules & Etiquette",
+            "selection_reason": "Educational content enhances customer understanding and engagement with the sport."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Guides help customers make informed decisions, increasing the likelihood of purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "This category showcases a wide range of products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/hot-golf-deals/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Page",
+            "selection_reason": "Discounted products can drive immediate customer interest and sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Golf club sets are essential products that attract customers looking to purchase multiple items."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Clear return policies are vital for customer confidence and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/terms-of-use/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Providing terms of use ensures transparency and legal compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/my-account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "An account dashboard enhances user experience and encourages repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/become-a-vendor/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Application",
+            "selection_reason": "This page fosters partnerships and expands the business network."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/discounted-golf-tee-times/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tee Times & Outings",
+            "selection_reason": "Offering tee times can attract customers looking for golf experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/most-broken-rules-in-golf/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Post",
+            "selection_reason": "Engaging blog content can drive traffic and enhance brand visibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/golf-etiquette/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/hot-golf-deals/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/become-a-vendor/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/terms-of-use/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-putters/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/site-map/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/contact-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/most-broken-rules-in-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/fairway-woods/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/discounted-golf-tee-times/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/learn-how-to-grip-a-golf-club/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-drivers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Club Type Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/left-handed-golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-bags-and-golf-carts/golf-stand-bags/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bag & Cart Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/kids-golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "User Segment Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/womens-golf-sets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/golf-guru/golf-flexibility-exercises/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/womens-golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/custom-vs-brand-name-equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/complete-junior-golf-sets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/golf-terminology/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-irons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/how-to-choose-a-golf-club-shaft/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/my-account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/hybrid-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-wedges/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181128012316/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/mens-complete-golf-club-sets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-30 17:03:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 64,
+      "valid_content_urls_count": 64,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/about-us/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-drivers/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-irons/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/checkout/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/cart/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/returns/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/terms-of-use/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-terminology/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-guru/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/lost-password/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/contact-us/",
+        "https://web.archive.org/web/20191226233155/https://golfclubs.com/expert-buying-guide-for-golf-clubs/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for users, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "A key category page that showcases the main product offerings, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-drivers/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Club Type Sub-Category",
+            "selection_reason": "Specific product category that targets customers looking for golf drivers, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-irons/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Another important product category that appeals to a significant segment of golfers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical for conversion, this page is where customers finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for the purchasing process, allowing customers to review their selected items."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Important for customer assurance, detailing the return process and policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/terms-of-use/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Provides legal information that is crucial for customer understanding and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-terminology/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Rules & Etiquette",
+            "selection_reason": "Educational content that enhances customer knowledge and engagement with the sport."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-guru/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Guru / Educational Hub",
+            "selection_reason": "A resource hub that provides valuable information, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/lost-password/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Lost Password Recovery",
+            "selection_reason": "Critical for user retention, allowing customers to regain access to their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/contact-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer inquiries and support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Provides expert advice that aids customers in making informed purchasing decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 30,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/fairway-woods/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/discounted-golf-tee-times/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-drivers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Club Type Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/terms-of-use/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-irons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-club-sets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-terminology/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-club-wedges/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-guru/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/learn-how-to-grip-a-golf-club/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/custom-vs-brand-name-equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/tee-times-and-outings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/how-to-choose-a-golf-club-shaft/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/golf-putters/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/product-category/golf-clubs/hybrid-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/lost-password/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Lost Password Recovery"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/site-map/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-guru/golf-flexibility-exercises/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/golf-etiquette/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/most-broken-rules-in-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/contact-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226233155/https://golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-30 17:03:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 85,
+      "valid_content_urls_count": 85,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/blog-posts/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/product-category/golf-clubs/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/about-us/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/checkout/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/returns/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/cart/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-terminology/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/contact-us/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/lost-password/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/terms-of-use/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/tee-times-and-outings/",
+        "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-guru/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for users to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/blog-posts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles Hub",
+            "selection_reason": "Provides valuable content to engage users and increase awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/product-category/golf-clubs/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Product Category",
+            "selection_reason": "Key area for users to explore products of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds trust and provides background about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential information for customer satisfaction post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Important for users to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Helps users make informed decisions about purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-terminology/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Rules & Etiquette",
+            "selection_reason": "Educates users and enhances their understanding of the sport."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/contact-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates communication and support for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/lost-password/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Lost Password Recovery",
+            "selection_reason": "Important for user account management and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/terms-of-use/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Provides legal information and builds trust with users."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/tee-times-and-outings/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tee Times & Outings",
+            "selection_reason": "Engages users with additional services related to golf."
+          },
+          {
+            "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-guru/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Guru / Educational Hub",
+            "selection_reason": "Offers educational resources to enhance user knowledge."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/blog-posts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/product-category/golf-clubs/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/custom-vs-brand-name-equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-etiquette/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/discounted-golf-tee-times/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/most-broken-rules-in-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Club Type Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-terminology/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-guru/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/learn-how-to-grip-a-golf-club/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/terms-of-use/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/tee-times-and-outings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/lost-password/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Lost Password Recovery"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/site-map/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/golf-guru/golf-flexibility-exercises/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/contact-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201215193653/https://golfclubs.com/how-to-choose-a-golf-club-shaft/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-30 17:03:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20210304163844/https://www.golfclubs.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20210304163844/https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and products."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20210304163844/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-30 17:03:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 69,
+      "valid_content_urls_count": 69,
+      "recommended_crawl_pages": [
+        "https://www.golfclubs.com/",
+        "https://www.golfclubs.com/golf-guru/",
+        "https://www.golfclubs.com/basic-rules-of-golf/",
+        "https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/",
+        "https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+        "https://www.golfclubs.com/tee-times-and-outings/",
+        "https://www.golfclubs.com/cart/",
+        "https://www.golfclubs.com/returns/",
+        "https://www.golfclubs.com/my-account/",
+        "https://www.golfclubs.com/contact-us/",
+        "https://www.golfclubs.com/about-us/",
+        "https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+        "https://www.golfclubs.com/golf-event-organizer/",
+        "https://www.golfclubs.com/terms-of-use/",
+        "https://www.golfclubs.com/my-account/lost-password/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 0,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://www.golfclubs.com/golf-guru/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Guru / Educational Hub",
+            "selection_reason": "Provides valuable educational content to attract potential customers."
+          },
+          {
+            "url": "https://www.golfclubs.com/basic-rules-of-golf/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Rules & Etiquette",
+            "selection_reason": "Educates users on fundamental golf rules, enhancing user engagement."
+          },
+          {
+            "url": "https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Guides customers in making informed purchasing decisions."
+          },
+          {
+            "url": "https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Club Type Sub-Category",
+            "selection_reason": "Directs customers to specific product categories, facilitating exploration."
+          },
+          {
+            "url": "https://www.golfclubs.com/tee-times-and-outings/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tee Times & Outings",
+            "selection_reason": "Offers information on events, increasing customer interest."
+          },
+          {
+            "url": "https://www.golfclubs.com/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers ready to make a purchase."
+          },
+          {
+            "url": "https://www.golfclubs.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential information for customers regarding post-purchase processes."
+          },
+          {
+            "url": "https://www.golfclubs.com/my-account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Encourages customer retention through account management features."
+          },
+          {
+            "url": "https://www.golfclubs.com/contact-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for inquiries, enhancing trust."
+          },
+          {
+            "url": "https://www.golfclubs.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds brand credibility and connects with customers."
+          },
+          {
+            "url": "https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Offers expert advice, aiding customers in their purchasing journey."
+          },
+          {
+            "url": "https://www.golfclubs.com/golf-event-organizer/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tee Times & Outings",
+            "selection_reason": "Engages customers looking for golf events, enhancing interest."
+          },
+          {
+            "url": "https://www.golfclubs.com/terms-of-use/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Important legal information for customers, ensuring transparency."
+          },
+          {
+            "url": "https://www.golfclubs.com/my-account/lost-password/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Lost Password Recovery",
+            "selection_reason": "Facilitates account access, crucial for customer retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/golf-guru/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/site-map/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/golf-event-organizer/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Club Type Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/golf-etiquette/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/classifieds/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Classifieds / Community Board"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/tee-times-and-outings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/discounted-golf-tee-times/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/my-account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/learn-how-to-grip-a-golf-club/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/classifieds/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Classifieds / Community Board"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/golf-guru/golf-flexibility-exercises/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/golf-guru/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/my-account/lost-password/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Lost Password Recovery"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/blog-posts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/contact-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/golf-terminology/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/blog-posts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/golf-event-organizer/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/most-broken-rules-in-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/terms-of-use/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20220922020448/https://www.golfclubs.com/custom-vs-brand-name-equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-30 17:04:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 78,
+      "valid_content_urls_count": 78,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/about-us/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/contact-us/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-guru/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/tee-times-and-outings/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/cart/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/returns/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/terms-of-use/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/lost-password/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/classifieds/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-terminology/",
+        "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for users, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust by informing customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/contact-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with a way to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Offers valuable information to help customers make informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-guru/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Guru / Educational Hub",
+            "selection_reason": "Educational content that raises awareness and interest in golf-related topics."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/tee-times-and-outings/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tee Times & Outings",
+            "selection_reason": "Engages customers by providing information on golf events and outings."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Club Type Sub-Category",
+            "selection_reason": "Directs customers to specific product categories, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential information for customers regarding post-purchase processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/terms-of-use/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Legal information that customers need to understand their rights and responsibilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their accounts, enhancing user retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/lost-password/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Lost Password Recovery",
+            "selection_reason": "Facilitates account access recovery, improving customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/classifieds/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Classifieds / Community Board",
+            "selection_reason": "Encourages community engagement and repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-terminology/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Golf Rules & Etiquette",
+            "selection_reason": "Educates customers about golf terminology, enhancing their understanding of the sport."
+          },
+          {
+            "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying & How-To Guides",
+            "selection_reason": "Provides guidance on a specific aspect of purchasing golf equipment."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/terms-of-use/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/most-broken-rules-in-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-guru/golf-flexibility-exercises/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/expert-buying-guide-for-golf-clubs/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/lost-password/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Lost Password Recovery"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/classifieds/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Classifieds / Community Board"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/site-map/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/tee-times-and-outings/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/product-category/golf-clubs-for-sale/golf-irons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Club Type Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/contact-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/discounted-golf-tee-times/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-guru/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Guru / Educational Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-terminology/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-event-organizer/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tee Times & Outings"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/basic-rules-of-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/golf-etiquette/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Golf Rules & Etiquette"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/custom-vs-brand-name-equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/page/2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Paginated Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/my-account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/how-to-choose-a-golf-club-shaft/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/robin-williams-on-golf/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Post"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/blog-posts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230312163451/https://www.golfclubs.com/learn-how-to-grip-a-golf-club/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying & How-To Guides"
+        }
+      ]
+    }
+  }
+}

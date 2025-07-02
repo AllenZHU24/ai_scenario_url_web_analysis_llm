@@ -1,0 +1,359 @@
+{
+  "generation_time": "2025-06-24 18:12:08",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/[a-z]{2}/",
+          "/[a-z]{2}-[a-z]{2}/"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Information",
+        "typical_url_patterns": [
+          "/learn/us/en/uscorp1/about-dell",
+          "/dt/corporate/who-we-are",
+          "/content/dell.com/about-dell.aspx"
+        ]
+      },
+      {
+        "type_name": "Newsroom & Press Releases",
+        "typical_url_patterns": [
+          "/dt/corporate/newsroom.htm",
+          "/content/dell.com/us/en/corp/d/press-releases/"
+        ]
+      },
+      {
+        "type_name": "Blog & Articles (Perspectives)",
+        "typical_url_patterns": [
+          "/blog/",
+          "/perspectives/",
+          "/en.community.dell.com/dell-blogs/"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "jobs.dell.com",
+          "chinajobs.dell.com",
+          "/learn/us/en/uscorp1/careers"
+        ]
+      },
+      {
+        "type_name": "Social & Environmental Impact",
+        "typical_url_patterns": [
+          "/dt/corporate/social-impact",
+          "/learn/us/en/uscorp1/cr"
+        ]
+      },
+      {
+        "type_name": "Industry Solutions Hub",
+        "typical_url_patterns": [
+          "/dt/industry/",
+          "/learn/large-enterprise-solutions/by-industry-*"
+        ]
+      },
+      {
+        "type_name": "Technology & Business Solutions Hub",
+        "typical_url_patterns": [
+          "/dt/solutions/",
+          "/learn/large-enterprise-solutions/"
+        ]
+      },
+      {
+        "type_name": "Events & Webinars",
+        "typical_url_patterns": [
+          "events.dell.com",
+          "/dt/events/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Shop Page",
+        "typical_url_patterns": [
+          "/shop/",
+          "/us/p/",
+          "/us/business/p/"
+        ]
+      },
+      {
+        "type_name": "Product Category Page (PLP)",
+        "typical_url_patterns": [
+          "/shop/scc/sc/",
+          "/shop/ac/",
+          "/us/p/laptops",
+          "/us/business/p/servers"
+        ]
+      },
+      {
+        "type_name": "Product Series Page (e.g., XPS, Alienware)",
+        "typical_url_patterns": [
+          "/shop/scc/sr/",
+          "/shop/sfc/sf/",
+          "/shop/dell-laptops/sf/"
+        ]
+      },
+      {
+        "type_name": "Gaming Hub",
+        "typical_url_patterns": [
+          "/gaming/alienware",
+          "/shop/gaming-and-games/",
+          "alienware.com"
+        ]
+      },
+      {
+        "type_name": "Services Hub",
+        "typical_url_patterns": [
+          "/services/",
+          "/dt/services/"
+        ]
+      },
+      {
+        "type_name": "Resource Library & Case Studies",
+        "typical_url_patterns": [
+          "/dt/resource-library.htm",
+          "/dt/case-studies-customer-stories/"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search",
+          "/search1"
+        ]
+      },
+      {
+        "type_name": "Campaign Landing Page",
+        "typical_url_patterns": [
+          "/lp/",
+          "/campaigns/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/shop/cty/pdp/spd/",
+          "/shop/cty/pd/spd/",
+          "/us/p/[a-z0-9-]+/[a-z0-9-]+",
+          "/apd/"
+        ]
+      },
+      {
+        "type_name": "Product Comparison",
+        "typical_url_patterns": [
+          "/shop/compare"
+        ]
+      },
+      {
+        "type_name": "Deals Hub",
+        "typical_url_patterns": [
+          "deals.dell.com",
+          "/shop/deals/"
+        ]
+      },
+      {
+        "type_name": "Coupon Codes Page",
+        "typical_url_patterns": [
+          "/lp/dell-coupons-codes",
+          "/campaigns/dell-coupon-codes"
+        ]
+      },
+      {
+        "type_name": "Outlet / Refurbished Store",
+        "typical_url_patterns": [
+          "/outlet/",
+          "/dfh/shop/dell-refurbished/"
+        ]
+      },
+      {
+        "type_name": "Financing & Leasing Information",
+        "typical_url_patterns": [
+          "/learn/finance-and-rewards/financing-details",
+          "/dt/payment-solutions/",
+          "dfs.dell.com"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews",
+        "typical_url_patterns": [
+          "/content/topics/segtopic.aspx/ratings_reviews",
+          "reviews.dell.com"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart/"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/identity/global/login",
+          "/dci/idp/dwa/authorize"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/identity/global/register",
+          "/dci/idp/dwa/register"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/lp/reseller_store_locator",
+          "/cp/reseller_store_locator"
+        ]
+      },
+      {
+        "type_name": "Contact Sales / Live Chat",
+        "typical_url_patterns": [
+          "/lp/contact-us",
+          "/cp/chat-live-with-product-expert",
+          "channels.us.dell.com/netagent/"
+        ]
+      },
+      {
+        "type_name": "International Site Selector",
+        "typical_url_patterns": [
+          "/content/public/choosecountry.aspx",
+          "/content/segmenter.aspx"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status & History",
+        "typical_url_patterns": [
+          "/support/orderstatus",
+          "/support/orders",
+          "/myaccount/en-us/orders"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/learn/us/en/19/campaigns/free-shipping-easy-returns"
+        ]
+      },
+      {
+        "type_name": "Return Policy",
+        "typical_url_patterns": [
+          "/lp/return-policy"
+        ]
+      },
+      {
+        "type_name": "Legal - Terms of Sale",
+        "typical_url_patterns": [
+          "/learn/us/en/uscorp1/terms-of-sale"
+        ]
+      },
+      {
+        "type_name": "Legal - Privacy & Terms of Use",
+        "typical_url_patterns": [
+          "/learn/us/en/uscorp1/policies-privacy",
+          "/lp/privacy-center"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Support Home",
+        "typical_url_patterns": [
+          "support.dell.com",
+          "/support/home/"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/myaccount/"
+        ]
+      },
+      {
+        "type_name": "Drivers & Downloads",
+        "typical_url_patterns": [
+          "/support/home/en-us?app=drivers",
+          "/support/downloads/"
+        ]
+      },
+      {
+        "type_name": "Manuals & Documentation",
+        "typical_url_patterns": [
+          "/support/home/en-us?app=manuals"
+        ]
+      },
+      {
+        "type_name": "Knowledge Base / Self-Help",
+        "typical_url_patterns": [
+          "/support/contents/category/Product-Support/Self-support-Knowledgebase"
+        ]
+      },
+      {
+        "type_name": "Warranty & Service Contracts",
+        "typical_url_patterns": [
+          "/support/contractservices/",
+          "/support/home?app=warranty"
+        ]
+      },
+      {
+        "type_name": "Contact Support / Service Request",
+        "typical_url_patterns": [
+          "/support/incidents-online/",
+          "/support/dellcare/contact_us"
+        ]
+      },
+      {
+        "type_name": "Community Forum",
+        "typical_url_patterns": [
+          "/community/",
+          "en.community.dell.com"
+        ]
+      },
+      {
+        "type_name": "Rewards & Member Programs",
+        "typical_url_patterns": [
+          "/lp/dell-rewards",
+          "/member/lp/dell-member-purchase-program"
+        ]
+      },
+      {
+        "type_name": "Recycling Program",
+        "typical_url_patterns": [
+          "/lp/dt/recovery-recycling-services",
+          "/social-impact/advancing-sustainability/electronics-recycling/"
+        ]
+      },
+      {
+        "type_name": "Partner Portal",
+        "typical_url_patterns": [
+          "partnerdirect.dell.com",
+          "/partner/"
+        ]
+      },
+      {
+        "type_name": "Training & Certification",
+        "typical_url_patterns": [
+          "/lp/dt/training-and-certification",
+          "education.dellemc.com"
+        ]
+      },
+      {
+        "type_name": "Premier Portal (B2B)",
+        "typical_url_patterns": [
+          "/premier/home",
+          "/learn/premier"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "generation_time": "2025-07-01 02:55:15",
+  "company_url": "lootcrate.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "How It Works",
+        "typical_url_patterns": [
+          "/pages/how-it-works",
+          "/how-it-works",
+          "/how_it_works",
+          "/how_it_works/index"
+        ]
+      },
+      {
+        "type_name": "About Us / Mission",
+        "typical_url_patterns": [
+          "/pages/our-mission",
+          "/about-us",
+          "/about_us",
+          "/about_us/index"
+        ]
+      },
+      {
+        "type_name": "Community Hub",
+        "typical_url_patterns": [
+          "/pages/community",
+          "/community",
+          "/community/daily-crate/"
+        ]
+      },
+      {
+        "type_name": "Blog / News",
+        "typical_url_patterns": [
+          "/blogs/news/*"
+        ]
+      },
+      {
+        "type_name": "Contest Winners",
+        "typical_url_patterns": [
+          "/contest-winners",
+          "/blogs/news/contest-winners",
+          "/contest_winners"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliates"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "All Products/Crates Listing",
+        "typical_url_patterns": [
+          "/collections/all",
+          "/crates",
+          "/collections/all-crates-filters"
+        ]
+      },
+      {
+        "type_name": "Themed Category (e.g., Gaming, Film & TV)",
+        "typical_url_patterns": [
+          "/collections/gaming-crates",
+          "/collections/film-tv-crates",
+          "/collections/pop-culture-crates",
+          "/collections/animation",
+          "/crates?filter=*"
+        ]
+      },
+      {
+        "type_name": "Apparel Main Category",
+        "typical_url_patterns": [
+          "/collections/all-apparel",
+          "/collections/loot-wear",
+          "/wear"
+        ]
+      },
+      {
+        "type_name": "Apparel Sub-Category (e.g., Tees, Socks)",
+        "typical_url_patterns": [
+          "/wear/t-shirts",
+          "/wear/socks",
+          "/wear/wearables",
+          "/wear/underwear",
+          "/wear/accessories"
+        ]
+      },
+      {
+        "type_name": "Limited Edition Crates Category",
+        "typical_url_patterns": [
+          "/collections/limited-edition-crates"
+        ]
+      },
+      {
+        "type_name": "New Crates Category",
+        "typical_url_patterns": [
+          "/collections/new-crates"
+        ]
+      },
+      {
+        "type_name": "Partner Crates Category",
+        "typical_url_patterns": [
+          "/collections/partner-subscription-crates"
+        ]
+      },
+      {
+        "type_name": "Featured Artist Crates Category",
+        "typical_url_patterns": [
+          "/collections/featured-artist-crates"
+        ]
+      },
+      {
+        "type_name": "Franchise-Specific Landing Page",
+        "typical_url_patterns": [
+          "/star-wars",
+          "/call-of-duty"
+        ]
+      },
+      {
+        "type_name": "Loot Wear Hub",
+        "typical_url_patterns": [
+          "/pages/loot-wear-hub"
+        ]
+      },
+      {
+        "type_name": "Past Crates Gallery",
+        "typical_url_patterns": [
+          "/past-crates",
+          "/past_crates"
+        ]
+      },
+      {
+        "type_name": "Promotional Campaign Landing Page",
+        "typical_url_patterns": [
+          "/specials/*",
+          "/pages/geekmas"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Crate Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{crate-name}",
+          "/crates/{crate-name}",
+          "/crate/{crate-name}",
+          "/subscription-crates/{crate-name}",
+          "/specialty_crates/{crate-name}"
+        ]
+      },
+      {
+        "type_name": "Apparel Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/loot-tees",
+          "/products/loot-socks",
+          "/products/loot-wearables",
+          "/products/loot-underwear"
+        ]
+      },
+      {
+        "type_name": "Capsule/Collection Product PDP",
+        "typical_url_patterns": [
+          "/products/fallout-capsule-collection",
+          "/products/gundam-capsule"
+        ]
+      },
+      {
+        "type_name": "Bundle Product Page",
+        "typical_url_patterns": [
+          "/wear/bundles/*"
+        ]
+      },
+      {
+        "type_name": "Subscription Plan Selection",
+        "typical_url_patterns": [
+          "/crates/{name}/plans",
+          "/subscriptions/new?plan=*"
+        ]
+      },
+      {
+        "type_name": "Gifting Landing Page",
+        "typical_url_patterns": [
+          "/gift",
+          "/gifts"
+        ]
+      },
+      {
+        "type_name": "International Shipping Information",
+        "typical_url_patterns": [
+          "/international"
+        ]
+      },
+      {
+        "type_name": "Digital Content Page",
+        "typical_url_patterns": [
+          "/digital-comics",
+          "/keys"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "User Login",
+        "typical_url_patterns": [
+          "/account/login",
+          "/users/login"
+        ]
+      },
+      {
+        "type_name": "User Registration / Join",
+        "typical_url_patterns": [
+          "/join",
+          "/users/sign_up",
+          "/subscriptions/index"
+        ]
+      },
+      {
+        "type_name": "Social Authentication",
+        "typical_url_patterns": [
+          "/users/auth/facebook",
+          "/users/auth/google_oauth2"
+        ]
+      },
+      {
+        "type_name": "Password Reset",
+        "typical_url_patterns": [
+          "/users/password/new"
+        ]
+      },
+      {
+        "type_name": "User Logout",
+        "typical_url_patterns": [
+          "/account/logout",
+          "/users/logout"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Customer Account Dashboard",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Subscription Management",
+        "typical_url_patterns": [
+          "/account/subscriptions",
+          "/user_accounts/subscriptions"
+        ]
+      },
+      {
+        "type_name": "Product Recall Notice",
+        "typical_url_patterns": [
+          "/oven-mitt-recall"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Referral Program / Share Page",
+        "typical_url_patterns": [
+          "/share"
+        ]
+      },
+      {
+        "type_name": "Referral Credits Balance",
+        "typical_url_patterns": [
+          "/user_accounts/referral_credits"
+        ]
+      },
+      {
+        "type_name": "Store Credits Balance",
+        "typical_url_patterns": [
+          "/user_accounts/store_credits"
+        ]
+      },
+      {
+        "type_name": "Loyalty & Rewards Program",
+        "typical_url_patterns": [
+          "/pages/rewards-arc"
+        ]
+      },
+      {
+        "type_name": "Exclusive Deals Page",
+        "typical_url_patterns": [
+          "/pages/my-deals"
+        ]
+      },
+      {
+        "type_name": "Contests & Giveaways Hub",
+        "typical_url_patterns": [
+          "/pages/sweepstakes",
+          "/pages/loot-crate-contests-and-giveaways"
+        ]
+      },
+      {
+        "type_name": "Help Center / Contact Us",
+        "typical_url_patterns": [
+          "/pages/contact-us",
+          "/contact",
+          "/help",
+          "/contact/index"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/faq",
+          "/faq/index"
+        ]
+      },
+      {
+        "type_name": "Terms of Service",
+        "typical_url_patterns": [
+          "/pages/terms-of-service",
+          "/terms-conditions",
+          "/terms_conditions"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/pages/privacy-policy",
+          "/privacy-policy",
+          "/privacy_policy"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/pages/accessibility"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

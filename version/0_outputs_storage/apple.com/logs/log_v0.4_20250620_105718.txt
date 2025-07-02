@@ -1,0 +1,669 @@
+2025-06-20 10:57:18,716 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-20 10:57:18,716 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-20 10:57:18,717 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-20 10:57:18,717 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-20 10:57:18,718 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-20 10:57:18,718 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-20 10:57:18,718 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/apple.com
+2025-06-20 10:57:18,718 - INFO - 🔍 No existing planning file found at outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json, starting fresh
+2025-06-20 10:57:18,719 - INFO - 🔄 Loaded links cache (17 years)
+2025-06-20 10:57:18,719 - INFO - 🔄 Loaded cached core page types (29) from disk
+2025-06-20 10:57:18,720 - INFO - 🔄 Starting new unified planning workflow (v0.4.3)...
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2009 (24 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2010 (24 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2011 (21 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2012 (23 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2013 (23 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2014 (22 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2015 (49 links)
+2025-06-20 10:57:18,720 - INFO - 🔄 [Links] Using cached links for 2016 (49 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2017 (51 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2018 (65 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2019 (69 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2020 (71 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2021 (80 links)
+2025-06-20 10:57:18,722 - INFO - 🔄 [Links] Using cached links for 2022 (78 links)
+2025-06-20 10:57:18,723 - INFO - 🔄 [Links] Using cached links for 2023 (82 links)
+2025-06-20 10:57:18,723 - INFO - 🔄 [Links] Using cached links for 2024 (89 links)
+2025-06-20 10:57:18,723 - INFO - 🔄 [Links] Using cached links for 2025 (89 links)
+2025-06-20 10:57:18,723 - INFO - ⏩ [Step B] Core page types already available, skipping LLM call
+2025-06-20 10:57:18,723 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-20 10:57:18,727 - INFO - 🔄 Classified 5 URLs for year 2009
+2025-06-20 10:57:18,727 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20091225172142/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20091225172142/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20091225172142/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20091225172142/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20091225172142/http://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}]
+2025-06-20 10:57:18,727 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:20,336 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:57:24,960 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:57:24,960 - INFO - 📊 Response length: 1130 characters
+2025-06-20 10:57:24,960 - INFO - ✅ URL recommendation finished: 5 recommended, 5 within valid pages (enforce=False)
+2025-06-20 10:57:24,961 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:57:24,961 - INFO - 🤖 [Step C] Recommending core URLs for 2010
+2025-06-20 10:57:24,971 - INFO - 🔄 Classified 8 URLs for year 2010
+2025-06-20 10:57:24,971 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/iphone/gallery/ads.html', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Gallery'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20101224184245/http://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:57:24,972 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:25,572 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:57:31,321 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:57:31,322 - INFO - 📊 Response length: 1749 characters
+2025-06-20 10:57:31,322 - INFO - ✅ URL recommendation finished: 8 recommended, 8 within valid pages (enforce=False)
+2025-06-20 10:57:31,323 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:57:31,323 - INFO - 🤖 [Step C] Recommending core URLs for 2011
+2025-06-20 10:57:31,324 - INFO - 🔄 Classified 8 URLs for year 2011
+2025-06-20 10:57:31,324 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/iphone/videos/', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Videos'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20111226211313/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-20 10:57:31,324 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:31,968 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:57:37,753 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:57:37,753 - INFO - 📊 Response length: 1739 characters
+2025-06-20 10:57:37,753 - INFO - ✅ URL recommendation finished: 8 recommended, 8 within valid pages (enforce=False)
+2025-06-20 10:57:37,754 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:57:37,754 - INFO - 🤖 [Step C] Recommending core URLs for 2012
+2025-06-20 10:57:37,755 - INFO - 🔄 Classified 9 URLs for year 2012
+2025-06-20 10:57:37,756 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/ipad/overview/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/ipad/videos/', 'customer_journey_stage': 'Decision-Making Stage', 'type_name': 'Product Videos'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20121222002034/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}]
+2025-06-20 10:57:37,756 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:38,410 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:57:43,485 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:57:43,485 - INFO - 📊 Response length: 1751 characters
+2025-06-20 10:57:43,485 - INFO - ✅ URL recommendation finished: 8 recommended, 8 within valid pages (enforce=False)
+2025-06-20 10:57:43,486 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:57:43,487 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-20 10:57:43,487 - INFO - 🔄 Classified 8 URLs for year 2013
+2025-06-20 10:57:43,488 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/ipad-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20131230125651/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:57:43,488 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:44,146 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:57:53,556 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:57:53,556 - INFO - 📊 Response length: 1718 characters
+2025-06-20 10:57:53,557 - INFO - ✅ URL recommendation finished: 8 recommended, 8 within valid pages (enforce=False)
+2025-06-20 10:57:53,558 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:57:53,558 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-20 10:57:53,559 - INFO - 🔄 Classified 9 URLs for year 2014
+2025-06-20 10:57:53,559 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/search/', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/about/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20141231230305/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}]
+2025-06-20 10:57:53,560 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:57:54,223 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:58:01,330 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:58:01,331 - INFO - 📊 Response length: 1916 characters
+2025-06-20 10:58:01,331 - INFO - ✅ URL recommendation finished: 9 recommended, 9 within valid pages (enforce=False)
+2025-06-20 10:58:01,333 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:58:01,333 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-20 10:58:01,334 - INFO - 🔄 Classified 21 URLs for year 2015
+2025-06-20 10:58:01,334 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/iphone/business/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/support/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/ipad/business/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/about/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20151231051131/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:58:01,335 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:58:02,126 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:58:19,640 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:58:19,640 - INFO - 📊 Response length: 3250 characters
+2025-06-20 10:58:19,640 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:58:19,642 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:58:19,643 - INFO - 🤖 [Step C] Recommending core URLs for 2016
+2025-06-20 10:58:19,644 - INFO - 🔄 Classified 20 URLs for year 2016
+2025-06-20 10:58:19,644 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/about/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20161231170415/http://www.apple.com/ipod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:58:19,644 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:58:20,367 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:58:37,319 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:58:37,319 - INFO - 📊 Response length: 3165 characters
+2025-06-20 10:58:37,320 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:58:37,324 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:58:37,324 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-20 10:58:37,326 - INFO - 🔄 Classified 19 URLs for year 2017
+2025-06-20 10:58:37,327 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/homepod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20171228215634/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}]
+2025-06-20 10:58:37,327 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:58:38,454 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:58:50,960 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:58:50,960 - INFO - 📊 Response length: 3235 characters
+2025-06-20 10:58:50,961 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:58:50,963 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:58:50,963 - INFO - 🤖 [Step C] Recommending core URLs for 2018
+2025-06-20 10:58:50,964 - INFO - 🔄 Classified 25 URLs for year 2018
+2025-06-20 10:58:50,965 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/homepod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/buy_iphone/iphone_xs', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/macbook-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/buy_iphone/iphone_xr', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/us/shop/goto/trade_in/iphone_offer', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20181231071106/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:58:50,965 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:58:51,716 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:59:11,457 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:59:11,457 - INFO - 📊 Response length: 3345 characters
+2025-06-20 10:59:11,457 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:59:11,461 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:59:11,461 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-20 10:59:11,462 - INFO - 🔄 Classified 29 URLs for year 2019
+2025-06-20 10:59:11,462 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/buy_iphone/iphone_11_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/homepod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/airpods-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/buy_iphone/iphone_11', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/us/shop/goto/buy_ipad/ipad_10_2', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20191231205543/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:59:11,463 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:59:12,099 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:59:34,748 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:59:34,748 - INFO - 📊 Response length: 3350 characters
+2025-06-20 10:59:34,748 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:59:34,752 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:59:34,752 - INFO - 🤖 [Step C] Recommending core URLs for 2020
+2025-06-20 10:59:34,754 - INFO - 🔄 Classified 30 URLs for year 2020
+2025-06-20 10:59:34,754 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/buy_ipad/ipad_air', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/homepod/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/buy_iphone/iphone_12', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/ipad-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20201231235524/https://www.apple.com/us/shop/goto/buy_iphone/iphone_12_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}]
+2025-06-20 10:59:34,755 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:59:35,469 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 10:59:48,416 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 10:59:48,417 - INFO - 📊 Response length: 3333 characters
+2025-06-20 10:59:48,417 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 10:59:48,422 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 10:59:48,422 - INFO - 🤖 [Step C] Recommending core URLs for 2021
+2025-06-20 10:59:48,426 - INFO - 🔄 Classified 31 URLs for year 2021
+2025-06-20 10:59:48,426 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/compliance/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/buy_mac/macbook_pro_14', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/store', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/buy_iphone/iphone_13_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/buy_iphone/iphone_13', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20211231223259/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 10:59:48,427 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 10:59:49,367 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 11:00:05,375 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 11:00:05,375 - INFO - 📊 Response length: 3344 characters
+2025-06-20 11:00:05,375 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 11:00:05,381 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 11:00:05,381 - INFO - 🤖 [Step C] Recommending core URLs for 2022
+2025-06-20 11:00:05,383 - INFO - 🔄 Classified 34 URLs for year 2022
+2025-06-20 11:00:05,383 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/airpods-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/buy_ipad/ipad', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-watch-ultra/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/store', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/buy_iphone/iphone_14', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/buy_iphone/iphone_14_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/compliance/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/buy_mac/macbook_air_m2', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20221231235643/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}]
+2025-06-20 11:00:05,385 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 11:00:06,113 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 11:00:28,832 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 11:00:28,833 - INFO - 📊 Response length: 3370 characters
+2025-06-20 11:00:28,833 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 11:00:28,838 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 11:00:28,839 - INFO - 🤖 [Step C] Recommending core URLs for 2023
+2025-06-20 11:00:28,841 - INFO - 🔄 Classified 37 URLs for year 2023
+2025-06-20 11:00:28,841 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/compliance/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/buy_iphone/iphone_15_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-vision-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/supplier-responsibility/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/buy_ipad/ipad', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-watch-series-9/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/iphone-15-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/buy_iphone/iphone_15', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/buy_mac/macbook_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/airpods-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/store', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20231231234045/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}]
+2025-06-20 11:00:28,842 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 11:00:29,547 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 11:00:48,791 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 11:00:48,792 - INFO - 📊 Response length: 3409 characters
+2025-06-20 11:00:48,792 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 11:00:48,797 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 11:00:48,797 - INFO - 🤖 [Step C] Recommending core URLs for 2024
+2025-06-20 11:00:48,800 - INFO - 🔄 Classified 35 URLs for year 2024
+2025-06-20 11:00:48,800 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/compliance/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/buy_ipad/ipad_air', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/airpods-pro/hearing-health/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/store', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-vision-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/buy_iphone/iphone_16', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/buy_mac/macbook_air', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/ipad-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/macbook-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20241231234159/https://www.apple.com/us/shop/goto/buy_iphone/iphone_16_pro', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}]
+2025-06-20 11:00:48,801 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 11:00:49,486 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 11:01:04,375 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 11:01:04,375 - INFO - 📊 Response length: 3372 characters
+2025-06-20 11:01:04,375 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 11:01:04,381 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 11:01:04,382 - INFO - 🤖 [Step C] Recommending core URLs for 2025
+2025-06-20 11:01:04,384 - INFO - 🔄 Classified 34 URLs for year 2025
+2025-06-20 11:01:04,385 - INFO - 🔄 Classified URLs: [{'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-events/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Apple Events'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/airpods/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/newsroom/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Newsroom'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-arcade/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Arcade'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/buy_mac/macbook_air', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-one/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple One'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/giftcards', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Gift Cards'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/environment/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-fitness-plus/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Fitness+'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/bag', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Cart'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/payment_plan', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Payment Options'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-music/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Music'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/help/sales_refunds', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Returns and Refunds'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/mac/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-card/', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Apple Card'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/trade_in', 'customer_journey_stage': 'Customer Retention Stage', 'type_name': 'Trade-In Program'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/ipad-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/buy_ipad/ipad_air', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/macbook-air/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/retail/geniusbar/', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Genius Bar'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/airpods-pro/hearing-health/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Details'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/iphone/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-tv-plus/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/search', 'customer_journey_stage': 'Search Stage', 'type_name': 'Search'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/watch/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Home'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/store', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/ipad/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/leadership/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Leadership'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/apple-vision-pro/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'Product Overview'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/compliance/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers', 'customer_journey_stage': 'Purchase Stage', 'type_name': 'Online Store'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/us/shop/goto/help', 'customer_journey_stage': 'After-Sales Stage', 'type_name': 'Support'}, {'url': 'https://web.archive.org/web/20250522083432/https://www.apple.com/diversity/', 'customer_journey_stage': 'Browse Stage', 'type_name': 'About'}]
+2025-06-20 11:01:04,385 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-20 11:01:05,237 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-20 11:01:23,017 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-20 11:01:23,017 - INFO - 📊 Response length: 3323 characters
+2025-06-20 11:01:23,018 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-20 11:01:23,027 - INFO - Analysis results exported to: outputs/apple.com/apple.com_llm_planning_v0.4.3_result.json
+2025-06-20 11:01:23,027 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-20 11:01:23,028 - INFO - 📄 [2009] Analyzing page 1/5
+2025-06-20 11:01:26,659 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250620_110126.txt
+2025-06-20 11:01:27,661 - INFO - 📄 [2009] Analyzing page 2/5
+2025-06-20 11:01:30,767 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250620_110130.txt
+2025-06-20 11:01:31,768 - INFO - 📄 [2009] Analyzing page 3/5
+2025-06-20 11:01:34,228 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250620_110134.txt
+2025-06-20 11:01:35,229 - INFO - 📄 [2009] Analyzing page 4/5
+2025-06-20 11:01:37,852 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250620_110137.txt
+2025-06-20 11:01:38,853 - INFO - 📄 [2009] Analyzing page 5/5
+2025-06-20 11:01:41,908 - INFO - 💾 Content saved to: outputs/apple.com/websites/2009_20250620_110141.txt
+2025-06-20 11:01:42,910 - INFO - ✅ Year 2009 scenario identification completed: 5 scenarios
+2025-06-20 11:01:42,910 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:01:42,911 - INFO - 🔍 Identifying scenarios for year 2010 ...
+2025-06-20 11:01:42,911 - INFO - 📄 [2010] Analyzing page 1/8
+2025-06-20 11:01:45,304 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110145.txt
+2025-06-20 11:01:46,307 - INFO - 📄 [2010] Analyzing page 2/8
+2025-06-20 11:01:48,906 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110148.txt
+2025-06-20 11:01:49,907 - INFO - 📄 [2010] Analyzing page 3/8
+2025-06-20 11:01:55,218 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110155.txt
+2025-06-20 11:01:56,219 - INFO - 📄 [2010] Analyzing page 4/8
+2025-06-20 11:02:00,306 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110200.txt
+2025-06-20 11:02:01,307 - INFO - 📄 [2010] Analyzing page 5/8
+2025-06-20 11:02:05,080 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110205.txt
+2025-06-20 11:02:06,082 - INFO - 📄 [2010] Analyzing page 6/8
+2025-06-20 11:02:08,645 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110208.txt
+2025-06-20 11:02:09,646 - INFO - 📄 [2010] Analyzing page 7/8
+2025-06-20 11:02:19,085 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110219.txt
+2025-06-20 11:02:20,086 - INFO - 📄 [2010] Analyzing page 8/8
+2025-06-20 11:02:23,003 - INFO - 💾 Content saved to: outputs/apple.com/websites/2010_20250620_110223.txt
+2025-06-20 11:02:24,004 - INFO - ✅ Year 2010 scenario identification completed: 7 scenarios
+2025-06-20 11:02:24,005 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:02:24,005 - INFO - 🔍 Identifying scenarios for year 2011 ...
+2025-06-20 11:02:24,006 - INFO - 📄 [2011] Analyzing page 1/8
+2025-06-20 11:02:28,294 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110228.txt
+2025-06-20 11:02:29,296 - INFO - 📄 [2011] Analyzing page 2/8
+2025-06-20 11:02:34,896 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110234.txt
+2025-06-20 11:02:35,897 - INFO - 📄 [2011] Analyzing page 3/8
+2025-06-20 11:02:37,260 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110237.txt
+2025-06-20 11:02:38,261 - INFO - 📄 [2011] Analyzing page 4/8
+2025-06-20 11:02:44,008 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110244.txt
+2025-06-20 11:02:45,009 - INFO - 📄 [2011] Analyzing page 5/8
+2025-06-20 11:02:47,245 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110247.txt
+2025-06-20 11:02:48,250 - INFO - 📄 [2011] Analyzing page 6/8
+2025-06-20 11:02:52,027 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110252.txt
+2025-06-20 11:02:53,028 - INFO - 📄 [2011] Analyzing page 7/8
+2025-06-20 11:02:56,860 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110256.txt
+2025-06-20 11:02:57,861 - INFO - 📄 [2011] Analyzing page 8/8
+2025-06-20 11:03:02,597 - INFO - 💾 Content saved to: outputs/apple.com/websites/2011_20250620_110302.txt
+2025-06-20 11:03:03,598 - INFO - ✅ Year 2011 scenario identification completed: 6 scenarios
+2025-06-20 11:03:03,599 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:03:03,600 - INFO - 🔍 Identifying scenarios for year 2012 ...
+2025-06-20 11:03:03,600 - INFO - 📄 [2012] Analyzing page 1/8
+2025-06-20 11:03:05,411 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110305.txt
+2025-06-20 11:03:06,412 - INFO - 📄 [2012] Analyzing page 2/8
+2025-06-20 11:03:10,664 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110310.txt
+2025-06-20 11:03:11,666 - INFO - 📄 [2012] Analyzing page 3/8
+2025-06-20 11:03:14,550 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110314.txt
+2025-06-20 11:03:15,551 - INFO - 📄 [2012] Analyzing page 4/8
+2025-06-20 11:03:22,876 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110322.txt
+2025-06-20 11:03:23,877 - INFO - 📄 [2012] Analyzing page 5/8
+2025-06-20 11:03:29,071 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110329.txt
+2025-06-20 11:03:30,073 - INFO - 📄 [2012] Analyzing page 6/8
+2025-06-20 11:03:34,208 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110334.txt
+2025-06-20 11:03:35,210 - INFO - 📄 [2012] Analyzing page 7/8
+2025-06-20 11:03:37,378 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110337.txt
+2025-06-20 11:03:38,379 - INFO - 📄 [2012] Analyzing page 8/8
+2025-06-20 11:03:45,070 - INFO - 💾 Content saved to: outputs/apple.com/websites/2012_20250620_110345.txt
+2025-06-20 11:03:46,071 - INFO - ✅ Year 2012 scenario identification completed: 6 scenarios
+2025-06-20 11:03:46,072 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:03:46,072 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-20 11:03:46,073 - INFO - 📄 [2013] Analyzing page 1/8
+2025-06-20 11:03:48,171 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110348.txt
+2025-06-20 11:03:49,172 - INFO - 📄 [2013] Analyzing page 2/8
+2025-06-20 11:03:52,802 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110352.txt
+2025-06-20 11:03:53,804 - INFO - 📄 [2013] Analyzing page 3/8
+2025-06-20 11:03:56,073 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110356.txt
+2025-06-20 11:03:57,075 - INFO - 📄 [2013] Analyzing page 4/8
+2025-06-20 11:03:59,276 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110359.txt
+2025-06-20 11:04:00,277 - INFO - 📄 [2013] Analyzing page 5/8
+2025-06-20 11:04:04,302 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110404.txt
+2025-06-20 11:04:05,303 - INFO - 📄 [2013] Analyzing page 6/8
+2025-06-20 11:04:07,687 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110407.txt
+2025-06-20 11:04:08,687 - INFO - 📄 [2013] Analyzing page 7/8
+2025-06-20 11:04:14,288 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110414.txt
+2025-06-20 11:04:15,289 - INFO - 📄 [2013] Analyzing page 8/8
+2025-06-20 11:04:21,340 - INFO - 💾 Content saved to: outputs/apple.com/websites/2013_20250620_110421.txt
+2025-06-20 11:04:22,341 - INFO - ✅ Year 2013 scenario identification completed: 7 scenarios
+2025-06-20 11:04:22,342 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:04:22,342 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-20 11:04:22,343 - INFO - 📄 [2014] Analyzing page 1/9
+2025-06-20 11:04:26,112 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110426.txt
+2025-06-20 11:04:27,113 - INFO - 📄 [2014] Analyzing page 2/9
+2025-06-20 11:04:29,218 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110429.txt
+2025-06-20 11:04:30,219 - INFO - 📄 [2014] Analyzing page 3/9
+2025-06-20 11:04:33,622 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110433.txt
+2025-06-20 11:04:34,623 - INFO - 📄 [2014] Analyzing page 4/9
+2025-06-20 11:04:38,982 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110438.txt
+2025-06-20 11:04:39,983 - INFO - 📄 [2014] Analyzing page 5/9
+2025-06-20 11:04:42,273 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110442.txt
+2025-06-20 11:04:43,275 - INFO - 📄 [2014] Analyzing page 6/9
+2025-06-20 11:04:46,085 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110446.txt
+2025-06-20 11:04:47,086 - INFO - 📄 [2014] Analyzing page 7/9
+2025-06-20 11:04:49,199 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110449.txt
+2025-06-20 11:04:50,201 - INFO - 📄 [2014] Analyzing page 8/9
+2025-06-20 11:04:53,056 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110453.txt
+2025-06-20 11:04:54,057 - INFO - 📄 [2014] Analyzing page 9/9
+2025-06-20 11:04:56,599 - INFO - 💾 Content saved to: outputs/apple.com/websites/2014_20250620_110456.txt
+2025-06-20 11:04:57,600 - INFO - ✅ Year 2014 scenario identification completed: 6 scenarios
+2025-06-20 11:04:57,602 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:04:57,602 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-20 11:04:57,602 - INFO - 📄 [2015] Analyzing page 1/15
+2025-06-20 11:05:00,333 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110500.txt
+2025-06-20 11:05:01,335 - INFO - 📄 [2015] Analyzing page 2/15
+2025-06-20 11:05:04,306 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110504.txt
+2025-06-20 11:05:05,307 - INFO - 📄 [2015] Analyzing page 3/15
+2025-06-20 11:05:08,101 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110508.txt
+2025-06-20 11:05:09,103 - INFO - 📄 [2015] Analyzing page 4/15
+2025-06-20 11:05:11,823 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110511.txt
+2025-06-20 11:05:12,825 - INFO - 📄 [2015] Analyzing page 5/15
+2025-06-20 11:05:17,865 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110517.txt
+2025-06-20 11:05:18,871 - INFO - 📄 [2015] Analyzing page 6/15
+2025-06-20 11:05:22,593 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110522.txt
+2025-06-20 11:05:23,594 - INFO - 📄 [2015] Analyzing page 7/15
+2025-06-20 11:05:36,786 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110536.txt
+2025-06-20 11:05:37,787 - INFO - 📄 [2015] Analyzing page 8/15
+2025-06-20 11:05:45,398 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110545.txt
+2025-06-20 11:05:46,400 - INFO - 📄 [2015] Analyzing page 9/15
+2025-06-20 11:05:48,787 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110548.txt
+2025-06-20 11:05:49,789 - INFO - 📄 [2015] Analyzing page 10/15
+2025-06-20 11:05:52,730 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110552.txt
+2025-06-20 11:05:53,731 - INFO - 📄 [2015] Analyzing page 11/15
+2025-06-20 11:06:01,864 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110601.txt
+2025-06-20 11:06:02,867 - INFO - 📄 [2015] Analyzing page 12/15
+2025-06-20 11:06:09,204 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110609.txt
+2025-06-20 11:06:10,206 - INFO - 📄 [2015] Analyzing page 13/15
+2025-06-20 11:06:14,352 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110614.txt
+2025-06-20 11:06:15,353 - INFO - 📄 [2015] Analyzing page 14/15
+2025-06-20 11:06:19,778 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110619.txt
+2025-06-20 11:06:20,781 - INFO - 📄 [2015] Analyzing page 15/15
+2025-06-20 11:06:23,448 - INFO - 💾 Content saved to: outputs/apple.com/websites/2015_20250620_110623.txt
+2025-06-20 11:06:24,450 - INFO - ✅ Year 2015 scenario identification completed: 11 scenarios
+2025-06-20 11:06:24,451 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:06:24,451 - INFO - 🔍 Identifying scenarios for year 2016 ...
+2025-06-20 11:06:24,451 - INFO - 📄 [2016] Analyzing page 1/15
+2025-06-20 11:06:26,448 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110626.txt
+2025-06-20 11:06:27,450 - INFO - 📄 [2016] Analyzing page 2/15
+2025-06-20 11:06:30,042 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110630.txt
+2025-06-20 11:06:31,043 - INFO - 📄 [2016] Analyzing page 3/15
+2025-06-20 11:06:46,060 - WARNING - 获取页面内容失败 https://web.archive.org/web/20161231170415/http://www.apple.com/us/search: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-20 11:06:47,061 - INFO - 📄 [2016] Analyzing page 4/15
+2025-06-20 11:06:58,082 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110658.txt
+2025-06-20 11:06:59,084 - INFO - 📄 [2016] Analyzing page 5/15
+2025-06-20 11:07:08,943 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110708.txt
+2025-06-20 11:07:09,945 - INFO - 📄 [2016] Analyzing page 6/15
+2025-06-20 11:07:19,793 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110719.txt
+2025-06-20 11:07:20,797 - INFO - 📄 [2016] Analyzing page 7/15
+2025-06-20 11:07:27,265 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110727.txt
+2025-06-20 11:07:28,266 - INFO - 📄 [2016] Analyzing page 8/15
+2025-06-20 11:07:30,336 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110730.txt
+2025-06-20 11:07:31,338 - INFO - 📄 [2016] Analyzing page 9/15
+2025-06-20 11:07:34,779 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110734.txt
+2025-06-20 11:07:35,781 - INFO - 📄 [2016] Analyzing page 10/15
+2025-06-20 11:07:39,679 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110739.txt
+2025-06-20 11:07:40,681 - INFO - 📄 [2016] Analyzing page 11/15
+2025-06-20 11:07:42,640 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110742.txt
+2025-06-20 11:07:43,641 - INFO - 📄 [2016] Analyzing page 12/15
+2025-06-20 11:07:47,572 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110747.txt
+2025-06-20 11:07:48,574 - INFO - 📄 [2016] Analyzing page 13/15
+2025-06-20 11:07:51,619 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110751.txt
+2025-06-20 11:07:52,621 - INFO - 📄 [2016] Analyzing page 14/15
+2025-06-20 11:07:55,243 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110755.txt
+2025-06-20 11:07:56,245 - INFO - 📄 [2016] Analyzing page 15/15
+2025-06-20 11:07:58,742 - INFO - 💾 Content saved to: outputs/apple.com/websites/2016_20250620_110758.txt
+2025-06-20 11:07:59,746 - INFO - ✅ Year 2016 scenario identification completed: 10 scenarios
+2025-06-20 11:07:59,747 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:07:59,747 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-20 11:07:59,747 - INFO - 📄 [2017] Analyzing page 1/15
+2025-06-20 11:08:02,715 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110802.txt
+2025-06-20 11:08:03,716 - INFO - 📄 [2017] Analyzing page 2/15
+2025-06-20 11:08:06,523 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110806.txt
+2025-06-20 11:08:07,524 - INFO - 📄 [2017] Analyzing page 3/15
+2025-06-20 11:08:11,310 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110811.txt
+2025-06-20 11:08:12,312 - INFO - 📄 [2017] Analyzing page 4/15
+2025-06-20 11:08:15,462 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110815.txt
+2025-06-20 11:08:16,464 - INFO - 📄 [2017] Analyzing page 5/15
+2025-06-20 11:08:21,805 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110821.txt
+2025-06-20 11:08:22,807 - INFO - 📄 [2017] Analyzing page 6/15
+2025-06-20 11:08:25,706 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110825.txt
+2025-06-20 11:08:26,707 - INFO - 📄 [2017] Analyzing page 7/15
+2025-06-20 11:08:41,961 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110841.txt
+2025-06-20 11:08:42,962 - INFO - 📄 [2017] Analyzing page 8/15
+2025-06-20 11:08:49,217 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110849.txt
+2025-06-20 11:08:50,219 - INFO - 📄 [2017] Analyzing page 9/15
+2025-06-20 11:08:54,535 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110854.txt
+2025-06-20 11:08:55,537 - INFO - 📄 [2017] Analyzing page 10/15
+2025-06-20 11:09:01,298 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110901.txt
+2025-06-20 11:09:02,300 - INFO - 📄 [2017] Analyzing page 11/15
+2025-06-20 11:09:13,016 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110913.txt
+2025-06-20 11:09:14,019 - INFO - 📄 [2017] Analyzing page 12/15
+2025-06-20 11:09:20,284 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110920.txt
+2025-06-20 11:09:21,286 - INFO - 📄 [2017] Analyzing page 13/15
+2025-06-20 11:09:24,236 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110924.txt
+2025-06-20 11:09:25,239 - INFO - 📄 [2017] Analyzing page 14/15
+2025-06-20 11:09:28,049 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110928.txt
+2025-06-20 11:09:29,053 - INFO - 📄 [2017] Analyzing page 15/15
+2025-06-20 11:09:32,405 - INFO - 💾 Content saved to: outputs/apple.com/websites/2017_20250620_110932.txt
+2025-06-20 11:09:33,407 - INFO - ✅ Year 2017 scenario identification completed: 13 scenarios
+2025-06-20 11:09:33,408 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:09:33,408 - INFO - 🔍 Identifying scenarios for year 2018 ...
+2025-06-20 11:09:33,408 - INFO - 📄 [2018] Analyzing page 1/15
+2025-06-20 11:09:37,012 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_110937.txt
+2025-06-20 11:09:38,014 - INFO - 📄 [2018] Analyzing page 2/15
+2025-06-20 11:09:40,571 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_110940.txt
+2025-06-20 11:09:41,574 - INFO - 📄 [2018] Analyzing page 3/15
+2025-06-20 11:09:44,292 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_110944.txt
+2025-06-20 11:09:45,296 - INFO - 📄 [2018] Analyzing page 4/15
+2025-06-20 11:09:48,270 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_110948.txt
+2025-06-20 11:09:49,281 - INFO - 📄 [2018] Analyzing page 5/15
+2025-06-20 11:09:53,657 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_110953.txt
+2025-06-20 11:09:54,659 - INFO - 📄 [2018] Analyzing page 6/15
+2025-06-20 11:10:02,190 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111002.txt
+2025-06-20 11:10:03,196 - INFO - 📄 [2018] Analyzing page 7/15
+2025-06-20 11:10:06,633 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111006.txt
+2025-06-20 11:10:07,638 - INFO - 📄 [2018] Analyzing page 8/15
+2025-06-20 11:10:11,425 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111011.txt
+2025-06-20 11:10:12,427 - INFO - 📄 [2018] Analyzing page 9/15
+2025-06-20 11:10:24,251 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111024.txt
+2025-06-20 11:10:25,252 - INFO - 📄 [2018] Analyzing page 10/15
+2025-06-20 11:10:30,429 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111030.txt
+2025-06-20 11:10:31,431 - INFO - 📄 [2018] Analyzing page 11/15
+2025-06-20 11:10:41,653 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111041.txt
+2025-06-20 11:10:42,656 - INFO - 📄 [2018] Analyzing page 12/15
+2025-06-20 11:10:47,009 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111047.txt
+2025-06-20 11:10:48,012 - INFO - 📄 [2018] Analyzing page 13/15
+2025-06-20 11:10:52,350 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111052.txt
+2025-06-20 11:10:53,352 - INFO - 📄 [2018] Analyzing page 14/15
+2025-06-20 11:10:56,768 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111056.txt
+2025-06-20 11:10:57,769 - INFO - 📄 [2018] Analyzing page 15/15
+2025-06-20 11:11:09,798 - INFO - 💾 Content saved to: outputs/apple.com/websites/2018_20250620_111109.txt
+2025-06-20 11:11:10,800 - INFO - ✅ Year 2018 scenario identification completed: 16 scenarios
+2025-06-20 11:11:10,801 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:11:10,801 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-20 11:11:10,801 - INFO - 📄 [2019] Analyzing page 1/15
+2025-06-20 11:11:15,783 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111115.txt
+2025-06-20 11:11:16,787 - INFO - 📄 [2019] Analyzing page 2/15
+2025-06-20 11:11:19,810 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111119.txt
+2025-06-20 11:11:20,816 - INFO - 📄 [2019] Analyzing page 3/15
+2025-06-20 11:11:23,940 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111123.txt
+2025-06-20 11:11:24,941 - INFO - 📄 [2019] Analyzing page 4/15
+2025-06-20 11:11:29,198 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111129.txt
+2025-06-20 11:11:30,201 - INFO - 📄 [2019] Analyzing page 5/15
+2025-06-20 11:11:35,528 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111135.txt
+2025-06-20 11:11:36,534 - INFO - 📄 [2019] Analyzing page 6/15
+2025-06-20 11:11:41,028 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111141.txt
+2025-06-20 11:11:42,029 - INFO - 📄 [2019] Analyzing page 7/15
+2025-06-20 11:11:50,199 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111150.txt
+2025-06-20 11:11:51,202 - INFO - 📄 [2019] Analyzing page 8/15
+2025-06-20 11:11:55,030 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111155.txt
+2025-06-20 11:11:56,033 - INFO - 📄 [2019] Analyzing page 9/15
+2025-06-20 11:12:03,507 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111203.txt
+2025-06-20 11:12:04,509 - INFO - 📄 [2019] Analyzing page 10/15
+2025-06-20 11:12:08,873 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111208.txt
+2025-06-20 11:12:09,877 - INFO - 📄 [2019] Analyzing page 11/15
+2025-06-20 11:12:12,446 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111212.txt
+2025-06-20 11:12:13,449 - INFO - 📄 [2019] Analyzing page 12/15
+2025-06-20 11:12:16,803 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111216.txt
+2025-06-20 11:12:17,806 - INFO - 📄 [2019] Analyzing page 13/15
+2025-06-20 11:12:24,981 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111224.txt
+2025-06-20 11:12:25,982 - INFO - 📄 [2019] Analyzing page 14/15
+2025-06-20 11:12:28,244 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111228.txt
+2025-06-20 11:12:29,255 - INFO - 📄 [2019] Analyzing page 15/15
+2025-06-20 11:12:32,431 - INFO - 💾 Content saved to: outputs/apple.com/websites/2019_20250620_111232.txt
+2025-06-20 11:12:33,433 - INFO - ✅ Year 2019 scenario identification completed: 14 scenarios
+2025-06-20 11:12:33,435 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:12:33,435 - INFO - 🔍 Identifying scenarios for year 2020 ...
+2025-06-20 11:12:33,435 - INFO - 📄 [2020] Analyzing page 1/15
+2025-06-20 11:12:37,248 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111237.txt
+2025-06-20 11:12:38,252 - INFO - 📄 [2020] Analyzing page 2/15
+2025-06-20 11:12:40,746 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111240.txt
+2025-06-20 11:12:41,751 - INFO - 📄 [2020] Analyzing page 3/15
+2025-06-20 11:12:44,781 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111244.txt
+2025-06-20 11:12:45,782 - INFO - 📄 [2020] Analyzing page 4/15
+2025-06-20 11:12:51,355 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111251.txt
+2025-06-20 11:12:52,358 - INFO - 📄 [2020] Analyzing page 5/15
+2025-06-20 11:13:01,292 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111301.txt
+2025-06-20 11:13:02,299 - INFO - 📄 [2020] Analyzing page 6/15
+2025-06-20 11:13:11,891 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111311.txt
+2025-06-20 11:13:12,894 - INFO - 📄 [2020] Analyzing page 7/15
+2025-06-20 11:13:22,235 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111322.txt
+2025-06-20 11:13:23,237 - INFO - 📄 [2020] Analyzing page 8/15
+2025-06-20 11:13:25,623 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111325.txt
+2025-06-20 11:13:26,625 - INFO - 📄 [2020] Analyzing page 9/15
+2025-06-20 11:13:29,312 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111329.txt
+2025-06-20 11:13:30,315 - INFO - 📄 [2020] Analyzing page 10/15
+2025-06-20 11:13:32,392 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111332.txt
+2025-06-20 11:13:33,403 - INFO - 📄 [2020] Analyzing page 11/15
+2025-06-20 11:13:37,743 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111337.txt
+2025-06-20 11:13:38,744 - INFO - 📄 [2020] Analyzing page 12/15
+2025-06-20 11:13:45,645 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111345.txt
+2025-06-20 11:13:46,647 - INFO - 📄 [2020] Analyzing page 13/15
+2025-06-20 11:13:49,032 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111349.txt
+2025-06-20 11:13:50,036 - INFO - 📄 [2020] Analyzing page 14/15
+2025-06-20 11:13:59,411 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111359.txt
+2025-06-20 11:14:00,414 - INFO - 📄 [2020] Analyzing page 15/15
+2025-06-20 11:14:03,332 - INFO - 💾 Content saved to: outputs/apple.com/websites/2020_20250620_111403.txt
+2025-06-20 11:14:04,334 - INFO - ✅ Year 2020 scenario identification completed: 17 scenarios
+2025-06-20 11:14:04,336 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:14:04,336 - INFO - 🔍 Identifying scenarios for year 2021 ...
+2025-06-20 11:14:04,336 - INFO - 📄 [2021] Analyzing page 1/15
+2025-06-20 11:14:24,889 - WARNING - 获取页面内容失败 https://web.archive.org/web/20211231223259/https://www.apple.com/us/shop/goto/help/sales_refunds: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-20 11:14:25,890 - INFO - 📄 [2021] Analyzing page 2/15
+2025-06-20 11:14:44,506 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111444.txt
+2025-06-20 11:14:45,508 - INFO - 📄 [2021] Analyzing page 3/15
+2025-06-20 11:14:48,916 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111448.txt
+2025-06-20 11:14:49,917 - INFO - 📄 [2021] Analyzing page 4/15
+2025-06-20 11:14:53,840 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111453.txt
+2025-06-20 11:14:54,842 - INFO - 📄 [2021] Analyzing page 5/15
+2025-06-20 11:14:59,320 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111459.txt
+2025-06-20 11:15:00,321 - INFO - 📄 [2021] Analyzing page 6/15
+2025-06-20 11:15:05,618 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111505.txt
+2025-06-20 11:15:06,622 - INFO - 📄 [2021] Analyzing page 7/15
+2025-06-20 11:15:13,349 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111513.txt
+2025-06-20 11:15:14,353 - INFO - 📄 [2021] Analyzing page 8/15
+2025-06-20 11:15:20,438 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111520.txt
+2025-06-20 11:15:21,447 - INFO - 📄 [2021] Analyzing page 9/15
+2025-06-20 11:15:24,029 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111524.txt
+2025-06-20 11:15:25,035 - INFO - 📄 [2021] Analyzing page 10/15
+2025-06-20 11:15:26,915 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111526.txt
+2025-06-20 11:15:27,918 - INFO - 📄 [2021] Analyzing page 11/15
+2025-06-20 11:15:30,636 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111530.txt
+2025-06-20 11:15:31,640 - INFO - 📄 [2021] Analyzing page 12/15
+2025-06-20 11:15:35,504 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111535.txt
+2025-06-20 11:15:36,508 - INFO - 📄 [2021] Analyzing page 13/15
+2025-06-20 11:15:40,486 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111540.txt
+2025-06-20 11:15:41,489 - INFO - 📄 [2021] Analyzing page 14/15
+2025-06-20 11:15:44,448 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111544.txt
+2025-06-20 11:15:45,451 - INFO - 📄 [2021] Analyzing page 15/15
+2025-06-20 11:15:52,056 - INFO - 💾 Content saved to: outputs/apple.com/websites/2021_20250620_111552.txt
+2025-06-20 11:15:53,057 - INFO - ✅ Year 2021 scenario identification completed: 18 scenarios
+2025-06-20 11:15:53,059 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:15:53,059 - INFO - 🔍 Identifying scenarios for year 2022 ...
+2025-06-20 11:15:53,059 - INFO - 📄 [2022] Analyzing page 1/15
+2025-06-20 11:15:55,051 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111555.txt
+2025-06-20 11:15:56,055 - INFO - 📄 [2022] Analyzing page 2/15
+2025-06-20 11:16:03,414 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111603.txt
+2025-06-20 11:16:04,441 - INFO - 📄 [2022] Analyzing page 3/15
+2025-06-20 11:16:08,141 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111608.txt
+2025-06-20 11:16:09,144 - INFO - 📄 [2022] Analyzing page 4/15
+2025-06-20 11:16:12,763 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111612.txt
+2025-06-20 11:16:13,767 - INFO - 📄 [2022] Analyzing page 5/15
+2025-06-20 11:16:16,365 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111616.txt
+2025-06-20 11:16:17,367 - INFO - 📄 [2022] Analyzing page 6/15
+2025-06-20 11:16:21,743 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111621.txt
+2025-06-20 11:16:22,747 - INFO - 📄 [2022] Analyzing page 7/15
+2025-06-20 11:16:27,600 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111627.txt
+2025-06-20 11:16:28,607 - INFO - 📄 [2022] Analyzing page 8/15
+2025-06-20 11:16:33,399 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111633.txt
+2025-06-20 11:16:34,406 - INFO - 📄 [2022] Analyzing page 9/15
+2025-06-20 11:16:39,661 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111639.txt
+2025-06-20 11:16:40,663 - INFO - 📄 [2022] Analyzing page 10/15
+2025-06-20 11:16:48,705 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111648.txt
+2025-06-20 11:16:49,710 - INFO - 📄 [2022] Analyzing page 11/15
+2025-06-20 11:16:53,158 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111653.txt
+2025-06-20 11:16:54,161 - INFO - 📄 [2022] Analyzing page 12/15
+2025-06-20 11:16:56,597 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111656.txt
+2025-06-20 11:16:57,600 - INFO - 📄 [2022] Analyzing page 13/15
+2025-06-20 11:17:00,010 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111700.txt
+2025-06-20 11:17:01,015 - INFO - 📄 [2022] Analyzing page 14/15
+2025-06-20 11:17:06,238 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111706.txt
+2025-06-20 11:17:07,248 - INFO - 📄 [2022] Analyzing page 15/15
+2025-06-20 11:17:14,014 - INFO - 💾 Content saved to: outputs/apple.com/websites/2022_20250620_111714.txt
+2025-06-20 11:17:15,017 - INFO - ✅ Year 2022 scenario identification completed: 16 scenarios
+2025-06-20 11:17:15,019 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:17:15,019 - INFO - 🔍 Identifying scenarios for year 2023 ...
+2025-06-20 11:17:15,019 - INFO - 📄 [2023] Analyzing page 1/15
+2025-06-20 11:17:18,348 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111718.txt
+2025-06-20 11:17:19,349 - INFO - 📄 [2023] Analyzing page 2/15
+2025-06-20 11:17:22,077 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111722.txt
+2025-06-20 11:17:23,082 - INFO - 📄 [2023] Analyzing page 3/15
+2025-06-20 11:17:26,214 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111726.txt
+2025-06-20 11:17:27,215 - INFO - 📄 [2023] Analyzing page 4/15
+2025-06-20 11:17:32,110 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111732.txt
+2025-06-20 11:17:33,116 - INFO - 📄 [2023] Analyzing page 5/15
+2025-06-20 11:17:39,305 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111739.txt
+2025-06-20 11:17:40,310 - INFO - 📄 [2023] Analyzing page 6/15
+2025-06-20 11:17:47,298 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111747.txt
+2025-06-20 11:17:48,301 - INFO - 📄 [2023] Analyzing page 7/15
+2025-06-20 11:17:50,648 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111750.txt
+2025-06-20 11:17:51,650 - INFO - 📄 [2023] Analyzing page 8/15
+2025-06-20 11:18:00,520 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111800.txt
+2025-06-20 11:18:01,524 - INFO - 📄 [2023] Analyzing page 9/15
+2025-06-20 11:18:05,696 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111805.txt
+2025-06-20 11:18:06,707 - INFO - 📄 [2023] Analyzing page 10/15
+2025-06-20 11:18:10,771 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111810.txt
+2025-06-20 11:18:11,784 - INFO - 📄 [2023] Analyzing page 11/15
+2025-06-20 11:18:18,777 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111818.txt
+2025-06-20 11:18:19,781 - INFO - 📄 [2023] Analyzing page 12/15
+2025-06-20 11:18:24,127 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111824.txt
+2025-06-20 11:18:25,132 - INFO - 📄 [2023] Analyzing page 13/15
+2025-06-20 11:18:31,298 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111831.txt
+2025-06-20 11:18:32,300 - INFO - 📄 [2023] Analyzing page 14/15
+2025-06-20 11:18:43,103 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111843.txt
+2025-06-20 11:18:44,108 - INFO - 📄 [2023] Analyzing page 15/15
+2025-06-20 11:18:47,895 - INFO - 💾 Content saved to: outputs/apple.com/websites/2023_20250620_111847.txt
+2025-06-20 11:18:48,898 - INFO - ✅ Year 2023 scenario identification completed: 13 scenarios
+2025-06-20 11:18:48,900 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:18:48,900 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-20 11:18:48,901 - INFO - 📄 [2024] Analyzing page 1/15
+2025-06-20 11:18:53,495 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111853.txt
+2025-06-20 11:18:54,501 - INFO - 📄 [2024] Analyzing page 2/15
+2025-06-20 11:18:58,036 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111858.txt
+2025-06-20 11:18:59,045 - INFO - 📄 [2024] Analyzing page 3/15
+2025-06-20 11:19:02,282 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111902.txt
+2025-06-20 11:19:03,283 - INFO - 📄 [2024] Analyzing page 4/15
+2025-06-20 11:19:08,331 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111908.txt
+2025-06-20 11:19:09,345 - INFO - 📄 [2024] Analyzing page 5/15
+2025-06-20 11:19:14,864 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111914.txt
+2025-06-20 11:19:15,870 - INFO - 📄 [2024] Analyzing page 6/15
+2025-06-20 11:19:20,023 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111920.txt
+2025-06-20 11:19:21,024 - INFO - 📄 [2024] Analyzing page 7/15
+2025-06-20 11:19:29,671 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111929.txt
+2025-06-20 11:19:30,673 - INFO - 📄 [2024] Analyzing page 8/15
+2025-06-20 11:19:33,252 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111933.txt
+2025-06-20 11:19:34,257 - INFO - 📄 [2024] Analyzing page 9/15
+2025-06-20 11:19:44,836 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111944.txt
+2025-06-20 11:19:45,840 - INFO - 📄 [2024] Analyzing page 10/15
+2025-06-20 11:19:51,788 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111951.txt
+2025-06-20 11:19:52,789 - INFO - 📄 [2024] Analyzing page 11/15
+2025-06-20 11:19:57,602 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_111957.txt
+2025-06-20 11:19:58,605 - INFO - 📄 [2024] Analyzing page 12/15
+2025-06-20 11:20:02,021 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_112002.txt
+2025-06-20 11:20:03,022 - INFO - 📄 [2024] Analyzing page 13/15
+2025-06-20 11:20:07,054 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_112007.txt
+2025-06-20 11:20:08,062 - INFO - 📄 [2024] Analyzing page 14/15
+2025-06-20 11:20:10,573 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_112010.txt
+2025-06-20 11:20:11,575 - INFO - 📄 [2024] Analyzing page 15/15
+2025-06-20 11:20:16,418 - INFO - 💾 Content saved to: outputs/apple.com/websites/2024_20250620_112016.txt
+2025-06-20 11:20:17,422 - INFO - ✅ Year 2024 scenario identification completed: 16 scenarios
+2025-06-20 11:20:17,425 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:20:17,425 - INFO - 🔍 Identifying scenarios for year 2025 ...
+2025-06-20 11:20:17,425 - INFO - 📄 [2025] Analyzing page 1/15
+2025-06-20 11:20:19,908 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112019.txt
+2025-06-20 11:20:20,910 - INFO - 📄 [2025] Analyzing page 2/15
+2025-06-20 11:20:23,891 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112023.txt
+2025-06-20 11:20:24,894 - INFO - 📄 [2025] Analyzing page 3/15
+2025-06-20 11:20:28,090 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112028.txt
+2025-06-20 11:20:29,091 - INFO - 📄 [2025] Analyzing page 4/15
+2025-06-20 11:20:32,688 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112032.txt
+2025-06-20 11:20:33,694 - INFO - 📄 [2025] Analyzing page 5/15
+2025-06-20 11:20:41,263 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112041.txt
+2025-06-20 11:20:42,268 - INFO - 📄 [2025] Analyzing page 6/15
+2025-06-20 11:20:50,166 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112050.txt
+2025-06-20 11:20:51,180 - INFO - 📄 [2025] Analyzing page 7/15
+2025-06-20 11:21:00,046 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112100.txt
+2025-06-20 11:21:01,049 - INFO - 📄 [2025] Analyzing page 8/15
+2025-06-20 11:21:03,108 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112103.txt
+2025-06-20 11:21:04,109 - INFO - 📄 [2025] Analyzing page 9/15
+2025-06-20 11:21:07,102 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112107.txt
+2025-06-20 11:21:08,105 - INFO - 📄 [2025] Analyzing page 10/15
+2025-06-20 11:21:11,402 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112111.txt
+2025-06-20 11:21:12,407 - INFO - 📄 [2025] Analyzing page 11/15
+2025-06-20 11:21:14,353 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112114.txt
+2025-06-20 11:21:15,356 - INFO - 📄 [2025] Analyzing page 12/15
+2025-06-20 11:21:21,676 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112121.txt
+2025-06-20 11:21:22,680 - INFO - 📄 [2025] Analyzing page 13/15
+2025-06-20 11:21:27,668 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112127.txt
+2025-06-20 11:21:28,670 - INFO - 📄 [2025] Analyzing page 14/15
+2025-06-20 11:21:34,244 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112134.txt
+2025-06-20 11:21:35,250 - INFO - 📄 [2025] Analyzing page 15/15
+2025-06-20 11:21:41,136 - INFO - 💾 Content saved to: outputs/apple.com/websites/2025_20250620_112141.txt
+2025-06-20 11:21:42,146 - INFO - ✅ Year 2025 scenario identification completed: 17 scenarios
+2025-06-20 11:21:42,148 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:21:42,160 - INFO - Scenario analysis results exported to: outputs/apple.com/apple.com_scenario_v0.4.3_result.json
+2025-06-20 11:21:42,160 - INFO - ✅ Unified analysis workflow completed!
+2025-06-20 11:21:42,161 - INFO - 💡 Analysis completed! Output files:
+2025-06-20 11:21:42,161 - INFO -    - ./outputs/apple.com/apple.com_llm_planning_v0.4_result.json
+2025-06-20 11:21:42,162 - INFO -    - ./outputs/apple.com/apple.com_scenario_v0.4_result.json
+2025-06-20 11:21:43,967 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-20 11:21:43,969 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

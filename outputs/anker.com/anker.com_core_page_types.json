@@ -1,0 +1,372 @@
+{
+  "generation_time": "2025-06-28 17:04:06",
+  "company_url": "anker.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.php"
+        ]
+      },
+      {
+        "type_name": "International/Locale Selector",
+        "typical_url_patterns": [
+          "/[a-z]{2}",
+          "/[a-z]{2}-[a-z]{2}"
+        ]
+      },
+      {
+        "type_name": "Blog Index",
+        "typical_url_patterns": [
+          "/blogs"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blogs/*/*"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about",
+          "/about-us"
+        ]
+      },
+      {
+        "type_name": "Press & Media Coverage",
+        "typical_url_patterns": [
+          "/media-coverage",
+          "/press-release"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers"
+        ]
+      },
+      {
+        "type_name": "Social & Environmental Responsibility",
+        "typical_url_patterns": [
+          "/campaigns/environmental-responsibility",
+          "/rechargethefuture",
+          "/weee"
+        ]
+      },
+      {
+        "type_name": "Event & Campaign Landing Page",
+        "typical_url_patterns": [
+          "/events/*",
+          "/*-sale",
+          "/deals/*",
+          "/campaigns/*"
+        ]
+      },
+      {
+        "type_name": "Technology Showcase",
+        "typical_url_patterns": [
+          "/technology",
+          "/anker-prime",
+          "/series*",
+          "/magsafe-101"
+        ]
+      },
+      {
+        "type_name": "Livestream",
+        "typical_url_patterns": [
+          "/livestream"
+        ]
+      },
+      {
+        "type_name": "Legacy Informational Page",
+        "typical_url_patterns": [
+          "/info.php",
+          "/gg1.php"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/collections/*",
+          "/products/taxons/*",
+          "/products/[id]/[name-plural]"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/products/[id]/[id]/[name-plural]"
+        ]
+      },
+      {
+        "type_name": "Themed Collection Page",
+        "typical_url_patterns": [
+          "/collections/travel-essentials",
+          "/collections/apple-accessories",
+          "/collections/workspace-power"
+        ]
+      },
+      {
+        "type_name": "All Products Page",
+        "typical_url_patterns": [
+          "/collections/all",
+          "/collections/all-products-*",
+          "/store"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/products/newrelease"
+        ]
+      },
+      {
+        "type_name": "Bestsellers Page",
+        "typical_url_patterns": [
+          "/products/bestsellers"
+        ]
+      },
+      {
+        "type_name": "Deals & Sales Hub",
+        "typical_url_patterns": [
+          "/hot-deals",
+          "/deals"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/gift-guide"
+        ]
+      },
+      {
+        "type_name": "Refurbished Products Page",
+        "typical_url_patterns": [
+          "/certified-refurbished-anker-products",
+          "/deals/refurbished"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/variant/*",
+          "/products/a*",
+          "/store/*/*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search",
+          "/us/search"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews Page",
+        "typical_url_patterns": [
+          "/reviews"
+        ]
+      },
+      {
+        "type_name": "Store Locator / Where to Buy",
+        "typical_url_patterns": [
+          "/wheretobuy"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/register"
+        ]
+      },
+      {
+        "type_name": "Discount Program Page",
+        "typical_url_patterns": [
+          "/govx-id-military-discount"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History / Account Dashboard",
+        "typical_url_patterns": [
+          "/orders"
+        ]
+      },
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/orders/track",
+          "/apps/order_tracker"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/shipping",
+          "/policies/shipping-policy"
+        ]
+      },
+      {
+        "type_name": "Refund & Exchange Policy",
+        "typical_url_patterns": [
+          "/refund-exchange",
+          "/policies/refund-policy",
+          "/exchange"
+        ]
+      },
+      {
+        "type_name": "General Terms of Service",
+        "typical_url_patterns": [
+          "/terms",
+          "/policies/terms-of-service",
+          "/policies/terms"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Warranty Information",
+        "typical_url_patterns": [
+          "/warranty"
+        ]
+      },
+      {
+        "type_name": "Extended Warranty",
+        "typical_url_patterns": [
+          "/extend-warranty"
+        ]
+      },
+      {
+        "type_name": "Connected Equipment Warranty",
+        "typical_url_patterns": [
+          "/connected-equipment-warranty"
+        ]
+      },
+      {
+        "type_name": "Support & Download Hub",
+        "typical_url_patterns": [
+          "/download"
+        ]
+      },
+      {
+        "type_name": "Firmware Update Page",
+        "typical_url_patterns": [
+          "/update-firmware"
+        ]
+      },
+      {
+        "type_name": "Software Download Page",
+        "typical_url_patterns": [
+          "/dockmanager-download"
+        ]
+      },
+      {
+        "type_name": "Product Verification",
+        "typical_url_patterns": [
+          "/verify"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact",
+          "/kontakt.php"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program (AnkerCredits)",
+        "typical_url_patterns": [
+          "/ankercredits",
+          "/ankercredit"
+        ]
+      },
+      {
+        "type_name": "Referral Program",
+        "typical_url_patterns": [
+          "/referral"
+        ]
+      },
+      {
+        "type_name": "Influencer / Power User Program",
+        "typical_url_patterns": [
+          "/poweruser*",
+          "/influencers"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/become-an-affiliate"
+        ]
+      },
+      {
+        "type_name": "Content Creator Program",
+        "typical_url_patterns": [
+          "/content-creator"
+        ]
+      },
+      {
+        "type_name": "Corporate / B2B Sales",
+        "typical_url_patterns": [
+          "/corporate-purchase"
+        ]
+      },
+      {
+        "type_name": "Partner Program (Legacy)",
+        "typical_url_patterns": [
+          "/partner.php"
+        ]
+      },
+      {
+        "type_name": "Product Recall Notice",
+        "typical_url_patterns": [
+          "/*-recall",
+          "/product-recalls"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy-policy",
+          "/policies/privacy-policy"
+        ]
+      },
+      {
+        "type_name": "Accessibility Policy",
+        "typical_url_patterns": [
+          "/accessibility"
+        ]
+      },
+      {
+        "type_name": "Legal Info (Impressum)",
+        "typical_url_patterns": [
+          "/impressum.php"
+        ]
+      }
+    ]
+  },
+  "total_types": 53
+}

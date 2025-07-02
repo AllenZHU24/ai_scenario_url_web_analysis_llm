@@ -1,0 +1,357 @@
+{
+  "generation_time": "2025-06-27 17:42:51",
+  "company_url": "80stees.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Homepage",
+        "typical_url_patterns": [
+          "/",
+          "/?q=*",
+          "/index.html"
+        ]
+      },
+      {
+        "type_name": "About Us / Brand Story",
+        "typical_url_patterns": [
+          "/pages/about",
+          "/pages/origin-story",
+          "/pages/about-80stees.asp"
+        ]
+      },
+      {
+        "type_name": "Blog Hub",
+        "typical_url_patterns": [
+          "/pages/blog",
+          "/blogs/1980s-pop-culture-trivia-lists"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blogs/1980s-pop-culture-trivia-lists/{post-slug}"
+        ]
+      },
+      {
+        "type_name": "Press / Media Page",
+        "typical_url_patterns": [
+          "/pages/media-news.asp",
+          "/pages/press"
+        ]
+      },
+      {
+        "type_name": "Brand Promise / Authenticity",
+        "typical_url_patterns": [
+          "/pages/genuine-80stees",
+          "/pages/80stees-promise"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Themed Collection (by IP)",
+        "typical_url_patterns": [
+          "/collections/{theme-name}",
+          "/pages/t-shirts/{category}/{theme-name}.asp",
+          "/pages/t-shirts/{theme-name}-t-shirts.asp"
+        ]
+      },
+      {
+        "type_name": "Broad Genre Collection",
+        "typical_url_patterns": [
+          "/collections/80s-movies",
+          "/collections/music",
+          "/collections/video-games",
+          "/categories/{genre-name}",
+          "/pages/t-shirts/{genre-name}-t-shirts.asp"
+        ]
+      },
+      {
+        "type_name": "Decade-Based Collection",
+        "typical_url_patterns": [
+          "/collections/70s-movies-tv-shows",
+          "/collections/90s-movies",
+          "/collections/2000s-tv"
+        ]
+      },
+      {
+        "type_name": "Product Type Collection",
+        "typical_url_patterns": [
+          "/collections/costume-hoodie",
+          "/collections/geeky-socks",
+          "/collections/mugs",
+          "/T-Shirts/Bathrobes.asp"
+        ]
+      },
+      {
+        "type_name": "Demographic Collection",
+        "typical_url_patterns": [
+          "/collections/mens",
+          "/collections/ladies",
+          "/collections/all/Junior%2FLadies",
+          "/categories/kids-toys-books"
+        ]
+      },
+      {
+        "type_name": "Character-Specific Collection",
+        "typical_url_patterns": [
+          "/collections/darth-vader",
+          "/collections/macho-man-randy-savage",
+          "/collections/ric-flair"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Collection",
+        "typical_url_patterns": [
+          "/collections/new-arrivals",
+          "/categories/new-products"
+        ]
+      },
+      {
+        "type_name": "Top Sellers Collection",
+        "typical_url_patterns": [
+          "/collections/top-sellers",
+          "/categories/top-sellers"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Collection",
+        "typical_url_patterns": [
+          "/collections/clearance",
+          "/collections/10-dollar-tees-and-gifts",
+          "/categories/clearance"
+        ]
+      },
+      {
+        "type_name": "Curated Collection",
+        "typical_url_patterns": [
+          "/collections/founders-picks-kevin-steckos-favorite-80s-t-shirts-and-products",
+          "/collections/exclusives"
+        ]
+      },
+      {
+        "type_name": "Holiday & Seasonal Collection",
+        "typical_url_patterns": [
+          "/collections/christmas-shirt",
+          "/collections/valentines-day",
+          "/collections/fathers-day-shirts",
+          "/Holiday-t-shirts.asp"
+        ]
+      },
+      {
+        "type_name": "Holiday Sub-Collection",
+        "typical_url_patterns": [
+          "/collections/star-wars-christmas-shirts",
+          "/collections/ugly-christmas-sweaters-sweatshirts",
+          "/Holiday-t-shirts/Christmas-t-shirts/Stocking-Stuffers.asp"
+        ]
+      },
+      {
+        "type_name": "Costume Collection",
+        "typical_url_patterns": [
+          "/collections/halloween-costume",
+          "/Halloween-costumes.asp"
+        ]
+      },
+      {
+        "type_name": "All Products Page",
+        "typical_url_patterns": [
+          "/collections/all",
+          "/collections/"
+        ]
+      },
+      {
+        "type_name": "All Themes / Sitemap Page",
+        "typical_url_patterns": [
+          "/pages/all-themes",
+          "/pages/80sTees_site_map.asp",
+          "/ShopByType.asp"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (Apparel)",
+        "typical_url_patterns": [
+          "/products/{t-shirt-name}",
+          "/products/{hoodie-name}"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Legacy)",
+        "typical_url_patterns": [
+          "/products/{product-name}.asp",
+          "/*-Shirt.asp",
+          "/*-Shirts.asp"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Accessory)",
+        "typical_url_patterns": [
+          "/products/{accessory-name}",
+          "/products/nintendo-controller-lapel-pin"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/a/search/all",
+          "/search"
+        ]
+      },
+      {
+        "type_name": "Faceted Search / Filtered Collection",
+        "typical_url_patterns": [
+          "/a/search/all?filter_*",
+          "/collections/all/{filter-value}",
+          "/collections/{collection-name}?sort_by=*"
+        ]
+      },
+      {
+        "type_name": "Shop By Size Page (Legacy)",
+        "typical_url_patterns": [
+          "/ShopBySize.asp"
+        ]
+      },
+      {
+        "type_name": "Sizing Guide",
+        "typical_url_patterns": [
+          "/pages/size-chart",
+          "/pages/t-shirt-sizing.asp"
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/products/gift-card",
+          "/products/Gift_Certificate.asp"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Cart Page",
+        "typical_url_patterns": [
+          "/cart",
+          "/order.asp"
+        ]
+      },
+      {
+        "type_name": "Checkout Page",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Wishlist Page",
+        "typical_url_patterns": [
+          "/wish_lists"
+        ]
+      },
+      {
+        "type_name": "Promotional Offer Landing Page",
+        "typical_url_patterns": [
+          "/collections/buy-3-get-3-free",
+          "/collections/free-shipping",
+          "/collections/free-item-with-50-purchase"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/pages/shipping-information",
+          "/pages/customer-service-shipping-us.asp"
+        ]
+      },
+      {
+        "type_name": "Return Policy Page",
+        "typical_url_patterns": [
+          "/pages/return-policy",
+          "/pages/returns-policy.asp"
+        ]
+      },
+      {
+        "type_name": "Order Status Page",
+        "typical_url_patterns": [
+          "/OrderLookup.asp",
+          "/orders/status"
+        ]
+      },
+      {
+        "type_name": "Help / FAQ Page",
+        "typical_url_patterns": [
+          "/pages/help-center",
+          "/pages/Help-Information.asp",
+          "/pages/catalog-faq"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/pages/contact",
+          "/pages/contact.asp"
+        ]
+      },
+      {
+        "type_name": "Terms of Service / Privacy Policy",
+        "typical_url_patterns": [
+          "/pages/terms-of-service",
+          "/pages/privacy-policy",
+          "/pages/privacy-policy.asp"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Hub",
+        "typical_url_patterns": [
+          "/account",
+          "/users/account"
+        ]
+      },
+      {
+        "type_name": "Account Login Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/login"
+        ]
+      },
+      {
+        "type_name": "Account Registration Page",
+        "typical_url_patterns": [
+          "/account/register"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/pages/join-our-email-newsletter",
+          "/pages/newsletter-join"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program Page",
+        "typical_url_patterns": [
+          "/pages/affiliate-program",
+          "/pages/Affiliate-program.asp"
+        ]
+      },
+      {
+        "type_name": "Wholesale Page",
+        "typical_url_patterns": [
+          "/pages/wholesale"
+        ]
+      },
+      {
+        "type_name": "Customer Testimonials Page",
+        "typical_url_patterns": [
+          "/pages/customer-reviews",
+          "/80sTees-Testimonials.asp"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

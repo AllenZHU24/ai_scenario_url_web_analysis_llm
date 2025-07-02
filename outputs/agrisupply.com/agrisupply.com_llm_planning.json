@@ -1,0 +1,3608 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "agrisupply.com",
+  "export_time": "2025-07-01 10:49:55",
+  "yearly_analysis_results": {
+    "2010": {
+      "analysis_time": "2025-06-27 20:46:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 133,
+      "valid_content_urls_count": 133,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/product.asp?pn=67920&eid=blind",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/cart.asp",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/quick_order.asp",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/recall-alert-notices/a/318/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/login.asp?login_type=order_history",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+        "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of offerings and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical store locations, enhancing accessibility and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Provides valuable content that engages customers and raises awareness about products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/product.asp?pn=67920&eid=blind",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Detail Page (PDP)",
+            "selection_reason": "Essential for customers evaluating specific products, offering detailed information."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/cart.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers in the decision-making process, facilitating purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/quick_order.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Quick Order Form",
+            "selection_reason": "Streamlines the purchasing process for returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides essential information about shipping, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/recall-alert-notices/a/318/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Product Recall Notice",
+            "selection_reason": "Important for customer safety and trust, ensuring they are informed about product recalls."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/login.asp?login_type=order_history",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Enhances customer retention by allowing users to track their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Archive",
+            "selection_reason": "Keeps customers engaged with past content and promotions, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Career Opportunities",
+            "selection_reason": "Engages customers by showcasing company culture and job openings, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Attracts customers looking for gifting options, expanding the customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Request a Quote Page",
+            "selection_reason": "Facilitates customer inquiries for bulk purchases, enhancing the buying experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 22,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/quick_order.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/recall-alert-notices/a/318/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/info.asp?ii=95&eid=dja",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-how-to-section-video-email-articles/i/75/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/article.asp?ai=165&eid=rti",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/login.asp?login_type=order_history",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/product.asp?pn=67920&eid=blind",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/info.asp?ii=75&eid=howto",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/default.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/cart.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-technical-information/a/83/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/advanced-newsletter-sign-up/i/38/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/article.asp?ai=200&eid=ofplist",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101204230817/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Request a Quote Page"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-06-27 20:47:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 133,
+      "valid_content_urls_count": 133,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/default.asp",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/info.asp?ii=75&eid=howto",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/product.asp?pn=70078&eid=r0411",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/cart.asp",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/quick_order.asp",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/login.asp?login_type=order_history",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/advanced-newsletter-sign-up/i/38/",
+        "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/terms-of-use/a/261/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/default.asp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/info.asp?ii=75&eid=howto",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "How-To & Technical Guides",
+            "selection_reason": "This page provides valuable resources that educate customers, enhancing brand awareness and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Blog articles help in building awareness and interest by providing informative content related to the products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "This page assists customers in finding physical locations, enhancing accessibility and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Career Opportunities",
+            "selection_reason": "This page reflects the company's values and culture, which can attract potential customers and employees."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Gift cards are a popular consideration for customers looking for gifting options."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/product.asp?pn=70078&eid=r0411",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Detail Page (PDP)",
+            "selection_reason": "Product detail pages are crucial for customers evaluating specific products before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Request a Quote Page",
+            "selection_reason": "This page allows customers to inquire about pricing, which is essential during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/cart.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is a critical component of the decision-making process for customers ready to purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/quick_order.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Quick Order Form",
+            "selection_reason": "This feature facilitates a faster checkout process, enhancing the customer experience during decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Shipping information is vital for customers to understand delivery options and timelines."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/login.asp?login_type=order_history",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Access to order history enhances customer retention by allowing users to track their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Archive",
+            "selection_reason": "The newsletter archive keeps customers engaged with ongoing updates and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/advanced-newsletter-sign-up/i/38/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Encouraging newsletter sign-ups is essential for ongoing customer engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Providing clear terms of use helps build trust and transparency with customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/product.asp?pn=70078&eid=r0411",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Detail Page (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/default.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/info.asp?ii=75&eid=howto",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/login.asp?login_type=order_history",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-newsletter-archive/i/35/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/advanced-newsletter-sign-up/i/38/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/article.asp?ai=177&eid=recipe10",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-technical-information/a/83/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/article.asp?ai=200&eid=ofplist",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-career-opportunities/i/54/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/quick_order.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-how-to-section-video-email-articles/i/75/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "How-To & Technical Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-shipping-information/a/5/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/cart.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111012030127/http://www.agrisupply.com/agri-supply-request-a-quote/a/253/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Request a Quote Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-06-27 20:47:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 468,
+      "valid_content_urls_count": 468,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/cart.aspx",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/contact-us/a4/17/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/signin.aspx",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/retail-store-locations/a/80/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/request-a-quote/a/253/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/email-privacy-policy/a/85/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/career-opportunities/a/1054/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+        "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/catalogrequestpopup.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the company, fostering trust and brand recognition."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Engages customers by showcasing the latest offerings, stimulating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a versatile purchasing option that can appeal to various customer needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Reassures customers about their purchase with clear return policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/contact-us/a4/17/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides customers with a way to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/signin.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Facilitates account access for returning customers, streamlining the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical locations, increasing foot traffic and sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/request-a-quote/a/253/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Request a Quote Page",
+            "selection_reason": "Allows customers to inquire about pricing, facilitating informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Encourages ongoing engagement with customers through updates and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/email-privacy-policy/a/85/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal framework of using the website, enhancing customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/career-opportunities/a/1054/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Career Opportunities",
+            "selection_reason": "Promotes company culture and attracts potential employees, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Parts Finder Tool",
+            "selection_reason": "Assists customers in locating specific products, improving the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/catalogrequestpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request Form",
+            "selection_reason": "Encourages customers to stay connected and informed about products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 22,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/quickorder.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com:80/catalogrequestpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/request-a-quote/a/253/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Request a Quote Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/contact-us/a4/17/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Parts Finder Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20121227080349/http://www.agrisupply.com/catalogrequestpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-27 20:47:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 477,
+      "valid_content_urls_count": 477,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/request-a-quote/a/253/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/signin.aspx",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/recall-notice/a/1017/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/contact-us/a4/17/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/editaccount.aspx",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/catalogrequestpopup.aspx",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+        "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/retail-store-locations/a/80/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer awareness and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with background information about the company, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Showcases new offerings, capturing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/request-a-quote/a/253/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Request a Quote Page",
+            "selection_reason": "Allows customers to inquire about pricing, facilitating decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/signin.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/recall-notice/a/1017/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Product Recall Notice",
+            "selection_reason": "Important for customer safety and product awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/contact-us/a4/17/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides customers with support and assistance options."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Encourages ongoing engagement with customers through updates."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Informs customers about their rights and responsibilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/editaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Details",
+            "selection_reason": "Allows customers to manage their account information."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/catalogrequestpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request Form",
+            "selection_reason": "Facilitates ongoing customer engagement through product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a flexible purchasing option for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical store locations, enhancing accessibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=16306",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=73538",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=32996",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/catalogrequestpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=16326",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=82358",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/request-a-quote/a/253/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Request a Quote Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/contact-us/a4/17/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=64638",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=84579",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/quickorder.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=33157",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=32548",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/newsletter-signup/a4/1038/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=48181",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/submitreview.aspx?p=22063",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Parts Finder Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20130817010825/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-06-27 20:48:23",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 564,
+      "valid_content_urls_count": 564,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/retail-store-locations/a/80/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/signin.aspx",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/request-a-quote/a/253/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=55261",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/recall-notice/a/1017/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/contact-us/a4/17/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/email-privacy-policy/a/85/",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/catalogrequestpopup.aspx",
+        "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/editaccount.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with information about the brand, enhancing trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical locations, increasing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/signin.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Critical for customers to access their accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/request-a-quote/a/253/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Request a Quote Page",
+            "selection_reason": "Allows customers to inquire about pricing, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Parts Finder Tool",
+            "selection_reason": "Helps customers find specific products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=55261",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Review Submission Form",
+            "selection_reason": "Encourages customer feedback, which is vital for product consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/recall-notice/a/1017/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Product Recall Notice",
+            "selection_reason": "Important for customer safety and trust in the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/contact-us/a4/17/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer support and inquiries post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Provides legal information that is crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/email-privacy-policy/a/85/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Increases customer trust and retention by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/catalogrequestpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request Form",
+            "selection_reason": "Encourages ongoing engagement with customers through product catalogs."
+          },
+          {
+            "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/editaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Details",
+            "selection_reason": "Allows customers to manage their accounts, enhancing user experience and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=55261",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/agri-supply-gift-cards/c/6000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=49684",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=36277",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=66666",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=61657",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/asc-gift-card/p/61657/formname/dmiformShoppingCartQuickAdd/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/find-your-mower-parts-listing/a4/200/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Parts Finder Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=73729",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/asc-gift-card/p/61657/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=79090",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/request-a-quote/a/253/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Request a Quote Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/catalogrequestpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/contact-us/a4/17/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/submitreview.aspx?p=44119",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Review Submission Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20141225195325/http://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-06-27 20:48:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 576,
+      "valid_content_urls_count": 576,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/retail-store-locations/a/80/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/account.aspx?myaccount=true",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/privacy-policy/a/7/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and credibility by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sponsorship & Community",
+            "selection_reason": "Highlights community involvement, enhancing brand image and customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical store locations, increasing accessibility and convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Engages customers by showcasing popular products, driving interest and exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Encourages customers to discover the latest offerings, fostering ongoing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Provides an option for gifting, appealing to customers looking for convenient gift solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the purchasing process, allowing customers to review and finalize their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Essential for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Informs customers about return policies, enhancing trust and reducing purchase anxiety."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides customers with support options, crucial for resolving issues and inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer queries, improving user experience and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/account.aspx?myaccount=true",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Encourages customer retention by allowing users to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal framework of the site, fostering trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust by informing customers about data protection practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/account.aspx?myaccount=true",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222213456/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-27 20:49:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 626,
+      "valid_content_urls_count": 626,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/career-opportunities/a/1054/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/great-gift-ideas/c/8000002/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/account.aspx?myaccount=true",
+        "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/privacy-policy/a/7/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Essential for building trust and brand identity among customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/career-opportunities/a/1054/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Career Opportunities",
+            "selection_reason": "Highlights the company's culture and values, attracting potential customers and employees."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sponsorship & Community",
+            "selection_reason": "Engages customers through community involvement and sponsorships."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Attracts customers looking for the latest offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Encourages exploration of popular items, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/great-gift-ideas/c/8000002/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Provides curated suggestions, aiding customers in their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a flexible gifting option, appealing to a wider audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Facilitates account access, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Informs customers about their rights and protections, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer support and inquiries, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer concerns, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/account.aspx?myaccount=true",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Encourages repeat visits and customer loyalty through account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/account.aspx?myaccount=true",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/great-gift-ideas/c/8000002/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/ForgotPassword.aspx?ai=13",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Password Reset"
+        },
+        {
+          "url": "https://web.archive.org/web/20161203003231/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-27 20:49:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 304,
+      "valid_content_urls_count": 304,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/asc-gift-card/p/61657/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/retail-store-locations/a/80/",
+        "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/blog/a/1010/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Highlights popular products, engaging customers' interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Showcases the latest offerings, attracting returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/asc-gift-card/p/61657/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Provides a gifting option, appealing to customers looking for presents."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Facilitates account access for returning customers, crucial for personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Informs customers about return policies, enhancing trust and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides a channel for customer inquiries, essential for support."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer concerns, improving the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds customer trust by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides insight into the brand's mission and values, fostering connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms governing the use of the site, important for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Helps customers find physical locations, enhancing accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Engages customers with informative content, driving traffic and interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/asc-gift-card/p/61657/ ",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/asc-gift-card/p/61657/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com:80/account.aspx?myaccount=true",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/closeouts/c/8000006/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com:80/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171219081333/http://www.agrisupply.com:80/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-27 20:49:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 296,
+      "valid_content_urls_count": 296,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/closeouts/c/8000006/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/recall-notice/a/1017/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/retail-store-locations/a/80/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Blogs enhance brand awareness and provide valuable content to engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "The About Us page builds trust and credibility by sharing the company's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/closeouts/c/8000006/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Category",
+            "selection_reason": "This category attracts customers looking for deals, increasing interest in the product range."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Highlighting top products helps customers discover popular items, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Gift cards are a popular option for customers, allowing them to consider gifting products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers to finalize their purchases, making it a key decision point."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "The login page is essential for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "FAQs help customers find answers quickly, enhancing their fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "The contact page is vital for customer support, allowing customers to reach out for assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Clear return policies build customer confidence and satisfaction post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/recall-notice/a/1017/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Product Recall Notice",
+            "selection_reason": "Product recall notices are critical for customer safety and trust in the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy is essential for building trust and ensuring customers feel secure about their data."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Terms of use provide important legal information that retains customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/retail-store-locations/a/80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator Hub",
+            "selection_reason": "Store locators help customers find physical locations, enhancing brand visibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/closeouts/c/8000006/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181210182045/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-27 20:50:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 292,
+      "valid_content_urls_count": 292,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/holiday-gift-guide/c/7191201",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/closeouts/c/8000006/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/asc-gift-card/p/61656/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/email-privacy-policy/a/85/",
+        "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/terms-of-use/a/261/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the company's values and mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Provides valuable content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sponsorship & Community",
+            "selection_reason": "Highlights community involvement, enhancing brand image and customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/holiday-gift-guide/c/7191201",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Encourages exploration of products during gift-giving seasons, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/closeouts/c/8000006/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Category",
+            "selection_reason": "Attracts price-sensitive customers looking for deals, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Showcases the latest offerings, keeping customers informed and engaged."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/asc-gift-card/p/61656/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Provides a flexible purchasing option for customers, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the purchasing process, allowing customers to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Informs customers about return policies, increasing confidence in their purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, aiding in post-purchase support."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides a direct line for customer support, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/email-privacy-policy/a/85/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms governing the use of the website, enhancing transparency."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 23,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/asc-gift-card/p/61656/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/holiday-gift-guide/c/7191201",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/closeouts/c/8000006/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/asc-gift-card/p/61656/ ",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191215192325/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-27 20:50:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 266,
+      "valid_content_urls_count": 266,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/great-gift-ideas/c/7000000",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/closeouts/c/8000006/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/signin.aspx?myaccount=true",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/guarantee/a/3/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/contact.aspx",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/email-privacy-policy/a/85/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sponsorship & Community",
+            "selection_reason": "Highlights community involvement, enhancing brand image and customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Provides valuable content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products Category",
+            "selection_reason": "Showcases the latest offerings, appealing to customers looking for new items."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/great-gift-ideas/c/7000000",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Helps customers find suitable gifts, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/closeouts/c/8000006/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Closeouts Category",
+            "selection_reason": "Attracts bargain hunters and encourages purchases through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a flexible purchasing option for customers, enhancing gift-giving opportunities."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the purchasing process, allowing customers to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/signin.aspx?myaccount=true",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Sign In Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/guarantee/a/3/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Guarantee & Returns Policy",
+            "selection_reason": "Informs customers about return policies, crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, improving customer support and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/contact.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing service and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal framework of the site, fostering trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/email-privacy-policy/a/85/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reassures customers about data protection, crucial for retention and trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/guarantee/a/3/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guarantee & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/frequently-asked-questions/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/new-products-at-agri-supply/c/8000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/nc-seafood-festival/a2/1067/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/great-gift-ideas/c/7000000",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/signin.aspx?myaccount=true",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Sign In Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/closeouts/c/8000006/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Closeouts Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/recall-notice/a/1017/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Product Recall Notice"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/joey-gase-racing/a2/1053/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sponsorship & Community"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/agri-supply-gift-cards/c/9000000/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/contact.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201218184119/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-27 20:51:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 179,
+      "valid_content_urls_count": 179,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/about-agri-supply/a/2/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/searchcenter.aspx?keyword=zero%20gravity%20chair",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/pay-with-affirm/a/1202/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/contactus.aspx",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/customer-service/a/1/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/faq/a/4/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/track-your-shipment/a/5/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/catalogrequest.aspx",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/newsletterpopup.aspx",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/terms-of-use/a/261/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/about-agri-supply/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and brand recognition by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "The blog provides valuable content that can attract and engage customers, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "This category showcases popular products, helping customers discover items of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/searchcenter.aspx?keyword=zero%20gravity%20chair",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Internal Search Results",
+            "selection_reason": "Internal search results allow customers to find specific products quickly, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/pay-with-affirm/a/1202/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Financing Information",
+            "selection_reason": "Providing financing options can influence customers' purchasing decisions positively."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/contactus.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "This page allows customers to reach out for support, enhancing their overall experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/customer-service/a/1/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "A dedicated customer service hub provides essential support and information for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/faq/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "The FAQ page addresses common customer queries, improving their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/track-your-shipment/a/5/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking",
+            "selection_reason": "Order tracking is essential for customer satisfaction, allowing them to monitor their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/catalogrequest.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request Form",
+            "selection_reason": "Offering a catalog request form helps retain customer interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/newsletterpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Newsletter signups are crucial for ongoing customer engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A clear privacy policy builds trust and reassures customers about their data security."
+          },
+          {
+            "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Providing terms of use is essential for transparency and customer trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/accessibility-statement/a/82/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/contactus.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/customer-service/a/1/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/catalogrequest.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/faq/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/track-your-shipment/a/5/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/about-agri-supply/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/pay-with-affirm/a/1202/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Financing Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/newsletterpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/searchcenter.aspx?keyword=zero%20gravity%20chair",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Internal Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20211218050006/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-27 20:51:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 184,
+      "valid_content_urls_count": 184,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/about-agri-supply/a/2/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/great-gift-ideas/c/7000000/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/track-your-shipment/a/5/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/customer-service/a/1/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/contactus.aspx",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/faq/a/4/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/newsletterpopup.aspx",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/editaccount.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/about-agri-supply/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with information about the company, enhancing trust and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Engages customers with informative content, driving interest and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/great-gift-ideas/c/7000000/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Attracts customers looking for gift ideas, enhancing product interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Showcases popular products, driving customer interest and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/track-your-shipment/a/5/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/customer-service/a/1/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Provides support and assistance, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/contactus.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Facilitates customer inquiries and support, enhancing the fulfillment process."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/faq/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer questions, improving the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/newsletterpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Encourages ongoing engagement and retention through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms of service, fostering trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/editaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Details",
+            "selection_reason": "Empowers customers to manage their accounts, enhancing retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/track-your-shipment/a/5/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/faq/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/accessibility-statement/a/82/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/about-agri-supply/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/customer-service/a/1/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/newsletterpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/catalogrequest.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/great-gift-ideas/c/7000000/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/contactus.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221210032245/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-27 20:51:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 192,
+      "valid_content_urls_count": 192,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/productslist.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/customer-service/a/1/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/track-your-shipment/a/5/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/contactus.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/faq/a/4/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/catalogrequest.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/newsletterpopup.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/editaccount.aspx",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/terms-of-use/a/261/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and brand recognition by sharing the company's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Blog content engages customers and provides valuable information, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/productslist.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Internal Search Results",
+            "selection_reason": "This page allows customers to explore product offerings, catering to their interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "This category helps customers discover popular products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers to review their selections before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/customer-service/a/1/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "This hub provides essential support and resources for customers during their purchase journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/track-your-shipment/a/5/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking",
+            "selection_reason": "Order tracking is vital for customers to monitor their purchases and enhance satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/contactus.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "This page provides customers with a way to reach out for assistance, improving customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/faq/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "The FAQ page addresses common customer inquiries, enhancing their experience and reducing support load."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/catalogrequest.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Catalog Request Form",
+            "selection_reason": "This form allows customers to request catalogs, fostering ongoing engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/newsletterpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Signing up for newsletters keeps customers informed and engaged with the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/editaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Details",
+            "selection_reason": "This page allows customers to manage their accounts, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "This page outlines the terms of service, ensuring customers understand their rights and responsibilities."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/catalogrequest.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/customer-service/a/1/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/track-your-shipment/a/5/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/accessibility-statement/a/82/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/newsletterpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/productslist.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Internal Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/about-agri-supply/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/contactus.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/faq/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211211748/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-27 20:52:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 192,
+      "valid_content_urls_count": 192,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/about-us/a/2/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/blog/a/1010/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/top-products/c/8000001/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productslist.aspx",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productmanualsearch.aspx",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/cart.aspx",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/faq/a/4/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/customer-service/a/1/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/contactus.aspx",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/accessibility-statement/a/82/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/terms-of-use/a/261/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/privacy-policy/a/7/",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/newsletterpopup.aspx",
+        "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/editaccount.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/about-us/a/2/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/blog/a/1010/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog / Articles",
+            "selection_reason": "Provides valuable content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/top-products/c/8000001/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Gift Guide Category",
+            "selection_reason": "Highlights popular products, sparking interest among potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productslist.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Internal Search Results",
+            "selection_reason": "Facilitates product discovery, allowing customers to explore offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productmanualsearch.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Manuals Page",
+            "selection_reason": "Provides essential information for customers considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/faq/a/4/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, aiding in post-purchase support."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/customer-service/a/1/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Essential for providing assistance and resolving customer issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/contactus.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Allows customers to reach out for support, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/accessibility-statement/a/82/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Accessibility Statement",
+            "selection_reason": "Demonstrates commitment to inclusivity, fostering customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/terms-of-use/a/261/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Important for legal transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/privacy-policy/a/7/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust by informing customers about data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/newsletterpopup.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup",
+            "selection_reason": "Encourages ongoing engagement and communication with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/editaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Details",
+            "selection_reason": "Empowers customers to manage their information, enhancing user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/accessibility-statement/a/82/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/top-products/c/8000001/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Gift Guide Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/terms-of-use/a/261/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/newsletterpopup.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productslist.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Internal Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/privacy-policy/a/7/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/faq/a/4/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/customer-service/a/1/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/editaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/about-us/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/career-opportunities/a/1054/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Career Opportunities"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/retail-store-locations/a/80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/productmanualsearch.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Manuals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/email-privacy-policy/a/85/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/blog/a/1010/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog / Articles"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/about-agri-supply/a/2/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/contactus.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241003180946/https://www.agrisupply.com/catalogrequest.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        }
+      ]
+    }
+  }
+}

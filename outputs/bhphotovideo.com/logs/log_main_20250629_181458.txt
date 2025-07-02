@@ -1,0 +1,688 @@
+2025-06-29 18:14:58,837 - INFO - 📋 日志系统已初始化: outputs/bhphotovideo.com/logs/log_main_20250629_181458.txt
+2025-06-29 18:14:58,838 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-29 18:14:58,838 - INFO - 📊 公司: bhphotovideo.com
+2025-06-29 18:14:58,839 - INFO - ✅ 成功读取 17 个历史URLs from ./inputs/bhphotovideo.com.txt
+2025-06-29 18:14:58,839 - INFO - 🌐 开始URL处理...
+2025-06-29 18:14:58,839 - INFO - 🌐 开始处理公司URLs: bhphotovideo.com
+2025-06-29 18:14:58,841 - INFO - 🔄 发现已存在的链接文件: outputs/bhphotovideo.com/bhphotovideo.com_filtered_links.json，已加载 17 年的数据，将进行增量处理
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2009 年，已有 138 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2010 年，已有 125 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2011 年，已有 125 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2012 年，已有 118 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2013 年，已有 131 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2014 年，已有 13 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2015 年，已有 128 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2016 年，已有 143 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2017 年，已有 144 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2018 年，已有 141 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2019 年，已有 144 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2020 年，已有 63 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2021 年，已有 57 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2022 年，已有 42 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2023 年，已有 43 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2024 年，已有 43 个链接
+2025-06-29 18:14:58,842 - INFO - ⏭️ 跳过 2025 年，已有 46 个链接
+2025-06-29 18:14:58,844 - INFO - 💾 链接处理完成，共 1644 个链接已保存到: outputs/bhphotovideo.com/bhphotovideo.com_filtered_links.json
+2025-06-29 18:14:58,845 - INFO - ✅ 成功加载 17 年的链接数据
+2025-06-29 18:14:58,845 - INFO - ✅ URL处理完成，共处理 17 年的数据
+2025-06-29 18:14:58,845 - INFO - 🧠 开始LLM规划...
+2025-06-29 18:14:59,085 - INFO - 🚀 LLM规划器已初始化
+2025-06-29 18:14:59,085 - INFO - 🧠 开始识别核心页面类型...
+2025-06-29 18:14:59,102 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-29 18:15:05,456 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:15:36,476 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-06-29 18:15:36,477 - INFO - ✅ 核心页面类型识别完成，共 52 个类型已保存到: outputs/bhphotovideo.com/bhphotovideo.com_core_page_types.json
+2025-06-29 18:15:36,477 - INFO - ✅ 核心页面类型已生成: outputs/bhphotovideo.com/bhphotovideo.com_core_page_types.json
+2025-06-29 18:15:36,477 - INFO - 🤖 开始生成LLM规划...
+2025-06-29 18:15:36,483 - INFO - 🔍 处理 2009 年的规划...
+2025-06-29 18:15:36,486 - INFO - ✅ URL正则匹配完成，共过滤出29/138个classified_urls
+2025-06-29 18:15:36,486 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:15:37,195 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:15:55,061 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:15:55,061 - INFO - ✅ URL推荐完成: 14 个推荐，13 个在有效页面内
+2025-06-29 18:15:55,061 - INFO - ✅ 2009 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:15:55,062 - INFO - 🔍 处理 2010 年的规划...
+2025-06-29 18:15:55,065 - INFO - ✅ URL正则匹配完成，共过滤出25/125个classified_urls
+2025-06-29 18:15:55,065 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:15:55,695 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:16:12,280 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:16:12,280 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-29 18:16:12,280 - INFO - ✅ 2010 年规划完成: 推荐 13 个核心URL
+2025-06-29 18:16:12,281 - INFO - 🔍 处理 2011 年的规划...
+2025-06-29 18:16:12,285 - INFO - ✅ URL正则匹配完成，共过滤出36/125个classified_urls
+2025-06-29 18:16:12,285 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:16:12,957 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:16:37,073 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:16:37,073 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:16:37,073 - INFO - ✅ 2011 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:16:37,075 - INFO - 🔍 处理 2012 年的规划...
+2025-06-29 18:16:37,078 - INFO - ✅ URL正则匹配完成，共过滤出33/118个classified_urls
+2025-06-29 18:16:37,078 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:16:37,871 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:16:51,061 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:16:51,061 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-29 18:16:51,061 - INFO - ✅ 2012 年规划完成: 推荐 13 个核心URL
+2025-06-29 18:16:51,064 - INFO - 🔍 处理 2013 年的规划...
+2025-06-29 18:16:51,067 - INFO - ✅ URL正则匹配完成，共过滤出41/131个classified_urls
+2025-06-29 18:16:51,067 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:16:51,771 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:17:12,940 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:17:12,940 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:17:12,940 - INFO - ✅ 2013 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:17:12,943 - INFO - 🔍 处理 2014 年的规划...
+2025-06-29 18:17:12,944 - INFO - ✅ URL正则匹配完成，共过滤出9/13个classified_urls
+2025-06-29 18:17:12,944 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:17:13,860 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:17:24,826 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:17:24,827 - INFO - ✅ URL推荐完成: 9 个推荐，9 个在有效页面内
+2025-06-29 18:17:24,827 - INFO - ✅ 2014 年规划完成: 推荐 9 个核心URL
+2025-06-29 18:17:24,830 - INFO - 🔍 处理 2015 年的规划...
+2025-06-29 18:17:24,833 - INFO - ✅ URL正则匹配完成，共过滤出44/128个classified_urls
+2025-06-29 18:17:24,833 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:17:25,469 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:17:41,068 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:17:41,069 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:17:41,069 - INFO - ✅ 2015 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:17:41,072 - INFO - 🔍 处理 2016 年的规划...
+2025-06-29 18:17:41,076 - INFO - ✅ URL正则匹配完成，共过滤出35/143个classified_urls
+2025-06-29 18:17:41,076 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:17:42,056 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:17:58,154 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:17:58,154 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-29 18:17:58,155 - INFO - ✅ 2016 年规划完成: 推荐 15 个核心URL
+2025-06-29 18:17:58,159 - INFO - 🔍 处理 2017 年的规划...
+2025-06-29 18:17:58,163 - INFO - ✅ URL正则匹配完成，共过滤出36/144个classified_urls
+2025-06-29 18:17:58,163 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:17:58,853 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:18:13,378 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:18:13,379 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-29 18:18:13,379 - INFO - ✅ 2017 年规划完成: 推荐 13 个核心URL
+2025-06-29 18:18:13,383 - INFO - 🔍 处理 2018 年的规划...
+2025-06-29 18:18:13,386 - INFO - ✅ URL正则匹配完成，共过滤出35/141个classified_urls
+2025-06-29 18:18:13,387 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:18:14,090 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:18:31,946 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:18:31,946 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-29 18:18:31,946 - INFO - ✅ 2018 年规划完成: 推荐 15 个核心URL
+2025-06-29 18:18:31,952 - INFO - 🔍 处理 2019 年的规划...
+2025-06-29 18:18:31,955 - INFO - ✅ URL正则匹配完成，共过滤出37/144个classified_urls
+2025-06-29 18:18:31,956 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:18:32,679 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:18:47,441 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:18:47,442 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-29 18:18:47,442 - INFO - ✅ 2019 年规划完成: 推荐 13 个核心URL
+2025-06-29 18:18:47,448 - INFO - 🔍 处理 2020 年的规划...
+2025-06-29 18:18:47,449 - INFO - ✅ URL正则匹配完成，共过滤出37/63个classified_urls
+2025-06-29 18:18:47,450 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:18:48,149 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:19:05,418 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:19:05,418 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-29 18:19:05,418 - INFO - ✅ 2020 年规划完成: 推荐 15 个核心URL
+2025-06-29 18:19:05,425 - INFO - 🔍 处理 2021 年的规划...
+2025-06-29 18:19:05,426 - INFO - ✅ URL正则匹配完成，共过滤出35/57个classified_urls
+2025-06-29 18:19:05,426 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:19:06,261 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:19:24,178 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:19:24,179 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:19:24,179 - INFO - ✅ 2021 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:19:24,191 - INFO - 🔍 处理 2022 年的规划...
+2025-06-29 18:19:24,193 - INFO - ✅ URL正则匹配完成，共过滤出26/42个classified_urls
+2025-06-29 18:19:24,194 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:19:24,860 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:19:44,510 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:19:44,510 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-29 18:19:44,510 - INFO - ✅ 2022 年规划完成: 推荐 15 个核心URL
+2025-06-29 18:19:44,517 - INFO - 🔍 处理 2023 年的规划...
+2025-06-29 18:19:44,519 - INFO - ✅ URL正则匹配完成，共过滤出26/43个classified_urls
+2025-06-29 18:19:44,519 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:19:45,262 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:19:59,615 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:19:59,615 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:19:59,615 - INFO - ✅ 2023 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:19:59,624 - INFO - 🔍 处理 2024 年的规划...
+2025-06-29 18:19:59,625 - INFO - ✅ URL正则匹配完成，共过滤出26/43个classified_urls
+2025-06-29 18:19:59,625 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:20:00,324 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:20:18,587 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:20:18,588 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-29 18:20:18,588 - INFO - ✅ 2024 年规划完成: 推荐 15 个核心URL
+2025-06-29 18:20:18,596 - INFO - 🔍 处理 2025 年的规划...
+2025-06-29 18:20:18,597 - INFO - ✅ URL正则匹配完成，共过滤出28/46个classified_urls
+2025-06-29 18:20:18,597 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-29 18:20:19,305 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-29 18:20:37,959 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-29 18:20:37,960 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-29 18:20:37,960 - INFO - ✅ 2025 年规划完成: 推荐 14 个核心URL
+2025-06-29 18:20:37,989 - INFO - 💾 LLM规划全部年份处理完成，共 234 个推荐URL已保存到: outputs/bhphotovideo.com/bhphotovideo.com_llm_planning.json
+2025-06-29 18:20:37,991 - INFO - ✅ 成功加载 17 年的规划数据
+2025-06-29 18:20:37,991 - INFO - ✅ LLM规划完成: outputs/bhphotovideo.com/bhphotovideo.com_llm_planning.json
+2025-06-29 18:20:37,991 - INFO - 🔍 开始场景分析...
+2025-06-29 18:20:37,992 - INFO - ✅ 成功加载 70 个微场景
+2025-06-29 18:20:37,992 - INFO - 🔍 场景分析器已初始化
+2025-06-29 18:20:37,992 - INFO - 🔍 开始分析场景: bhphotovideo.com
+2025-06-29 18:20:37,993 - INFO - 🔍 分析 2009 年的场景...
+2025-06-29 18:20:37,993 - INFO - 📄 [2009] 分析页面 1/14
+2025-06-29 18:20:41,409 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182041.txt
+2025-06-29 18:20:42,411 - INFO - 📄 [2009] 分析页面 2/14
+2025-06-29 18:20:44,702 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182044.txt
+2025-06-29 18:20:45,705 - INFO - 📄 [2009] 分析页面 3/14
+2025-06-29 18:20:47,984 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182047.txt
+2025-06-29 18:20:48,986 - INFO - 📄 [2009] 分析页面 4/14
+2025-06-29 18:20:52,572 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182052.txt
+2025-06-29 18:20:53,575 - INFO - 📄 [2009] 分析页面 5/14
+2025-06-29 18:20:55,414 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182055.txt
+2025-06-29 18:20:56,419 - INFO - 📄 [2009] 分析页面 6/14
+2025-06-29 18:20:58,091 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20091231011601/http://www.bhphotovideo.com/find/c/category/2870/Used_Equipment.html: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20091231011601/http://www.bhphotovideo.com/find/c/category/2870/Used_Equipment.html
+2025-06-29 18:20:59,092 - INFO - 📄 [2009] 分析页面 7/14
+2025-06-29 18:21:00,883 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182100.txt
+2025-06-29 18:21:01,887 - INFO - 📄 [2009] 分析页面 8/14
+2025-06-29 18:21:03,550 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182103.txt
+2025-06-29 18:21:04,551 - INFO - 📄 [2009] 分析页面 9/14
+2025-06-29 18:21:06,360 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182106.txt
+2025-06-29 18:21:07,362 - INFO - 📄 [2009] 分析页面 10/14
+2025-06-29 18:21:08,768 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182108.txt
+2025-06-29 18:21:09,770 - INFO - 📄 [2009] 分析页面 11/14
+2025-06-29 18:21:11,539 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182111.txt
+2025-06-29 18:21:12,551 - INFO - 📄 [2009] 分析页面 12/14
+2025-06-29 18:21:14,011 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182114.txt
+2025-06-29 18:21:15,012 - INFO - 📄 [2009] 分析页面 13/14
+2025-06-29 18:21:18,139 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182118.txt
+2025-06-29 18:21:19,141 - INFO - 📄 [2009] 分析页面 14/14
+2025-06-29 18:21:21,615 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2009_20250629_182121.txt
+2025-06-29 18:21:22,617 - INFO - ✅ 2009 年场景分析完成: 8 个场景
+2025-06-29 18:21:22,618 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:21:22,618 - INFO - 🔍 分析 2010 年的场景...
+2025-06-29 18:21:22,618 - INFO - 📄 [2010] 分析页面 1/13
+2025-06-29 18:21:24,408 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182124.txt
+2025-06-29 18:21:25,410 - INFO - 📄 [2010] 分析页面 2/13
+2025-06-29 18:21:26,839 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182126.txt
+2025-06-29 18:21:27,840 - INFO - 📄 [2010] 分析页面 3/13
+2025-06-29 18:21:31,503 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182131.txt
+2025-06-29 18:21:32,504 - INFO - 📄 [2010] 分析页面 4/13
+2025-06-29 18:21:34,933 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182134.txt
+2025-06-29 18:21:35,934 - INFO - 📄 [2010] 分析页面 5/13
+2025-06-29 18:21:37,484 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182137.txt
+2025-06-29 18:21:38,486 - INFO - 📄 [2010] 分析页面 6/13
+2025-06-29 18:21:41,808 - INFO - 📄 [2010] 分析页面 7/13
+2025-06-29 18:21:43,810 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182143.txt
+2025-06-29 18:21:44,814 - INFO - 📄 [2010] 分析页面 8/13
+2025-06-29 18:21:46,914 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182146.txt
+2025-06-29 18:21:47,916 - INFO - 📄 [2010] 分析页面 9/13
+2025-06-29 18:21:50,689 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182150.txt
+2025-06-29 18:21:51,690 - INFO - 📄 [2010] 分析页面 10/13
+2025-06-29 18:21:53,858 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182153.txt
+2025-06-29 18:21:54,859 - INFO - 📄 [2010] 分析页面 11/13
+2025-06-29 18:21:56,594 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182156.txt
+2025-06-29 18:21:57,598 - INFO - 📄 [2010] 分析页面 12/13
+2025-06-29 18:21:58,955 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182158.txt
+2025-06-29 18:21:59,965 - INFO - 📄 [2010] 分析页面 13/13
+2025-06-29 18:22:01,730 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2010_20250629_182201.txt
+2025-06-29 18:22:02,734 - INFO - ✅ 2010 年场景分析完成: 8 个场景
+2025-06-29 18:22:02,735 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:22:02,735 - INFO - 🔍 分析 2011 年的场景...
+2025-06-29 18:22:02,735 - INFO - 📄 [2011] 分析页面 1/14
+2025-06-29 18:22:07,758 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182207.txt
+2025-06-29 18:22:08,759 - INFO - 📄 [2011] 分析页面 2/14
+2025-06-29 18:22:10,897 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182210.txt
+2025-06-29 18:22:11,898 - INFO - 📄 [2011] 分析页面 3/14
+2025-06-29 18:22:14,580 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182214.txt
+2025-06-29 18:22:15,584 - INFO - 📄 [2011] 分析页面 4/14
+2025-06-29 18:22:17,661 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182217.txt
+2025-06-29 18:22:18,664 - INFO - 📄 [2011] 分析页面 5/14
+2025-06-29 18:22:21,099 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182221.txt
+2025-06-29 18:22:22,101 - INFO - 📄 [2011] 分析页面 6/14
+2025-06-29 18:22:24,213 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182224.txt
+2025-06-29 18:22:25,217 - INFO - 📄 [2011] 分析页面 7/14
+2025-06-29 18:22:27,073 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182227.txt
+2025-06-29 18:22:28,075 - INFO - 📄 [2011] 分析页面 8/14
+2025-06-29 18:22:30,146 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182230.txt
+2025-06-29 18:22:31,159 - INFO - 📄 [2011] 分析页面 9/14
+2025-06-29 18:22:33,465 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182233.txt
+2025-06-29 18:22:34,468 - INFO - 📄 [2011] 分析页面 10/14
+2025-06-29 18:22:36,477 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182236.txt
+2025-06-29 18:22:37,492 - INFO - 📄 [2011] 分析页面 11/14
+2025-06-29 18:22:40,184 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182240.txt
+2025-06-29 18:22:41,185 - INFO - 📄 [2011] 分析页面 12/14
+2025-06-29 18:22:43,323 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182243.txt
+2025-06-29 18:22:44,326 - INFO - 📄 [2011] 分析页面 13/14
+2025-06-29 18:22:46,606 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182246.txt
+2025-06-29 18:22:47,610 - INFO - 📄 [2011] 分析页面 14/14
+2025-06-29 18:22:49,482 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2011_20250629_182249.txt
+2025-06-29 18:22:50,483 - INFO - ✅ 2011 年场景分析完成: 11 个场景
+2025-06-29 18:22:50,484 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:22:50,484 - INFO - 🔍 分析 2012 年的场景...
+2025-06-29 18:22:50,485 - INFO - 📄 [2012] 分析页面 1/13
+2025-06-29 18:22:52,205 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182252.txt
+2025-06-29 18:22:53,208 - INFO - 📄 [2012] 分析页面 2/13
+2025-06-29 18:22:54,513 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182254.txt
+2025-06-29 18:22:55,514 - INFO - 📄 [2012] 分析页面 3/13
+2025-06-29 18:22:58,010 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182258.txt
+2025-06-29 18:22:59,016 - INFO - 📄 [2012] 分析页面 4/13
+2025-06-29 18:23:00,828 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182300.txt
+2025-06-29 18:23:01,828 - INFO - 📄 [2012] 分析页面 5/13
+2025-06-29 18:23:03,925 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182303.txt
+2025-06-29 18:23:04,926 - INFO - 📄 [2012] 分析页面 6/13
+2025-06-29 18:23:06,928 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182306.txt
+2025-06-29 18:23:07,932 - INFO - 📄 [2012] 分析页面 7/13
+2025-06-29 18:23:10,032 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182310.txt
+2025-06-29 18:23:11,035 - INFO - 📄 [2012] 分析页面 8/13
+2025-06-29 18:23:14,708 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182314.txt
+2025-06-29 18:23:15,711 - INFO - 📄 [2012] 分析页面 9/13
+2025-06-29 18:23:17,418 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182317.txt
+2025-06-29 18:23:18,421 - INFO - 📄 [2012] 分析页面 10/13
+2025-06-29 18:23:20,274 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182320.txt
+2025-06-29 18:23:21,285 - INFO - 📄 [2012] 分析页面 11/13
+2025-06-29 18:23:23,104 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182323.txt
+2025-06-29 18:23:24,106 - INFO - 📄 [2012] 分析页面 12/13
+2025-06-29 18:23:25,764 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182325.txt
+2025-06-29 18:23:26,767 - INFO - 📄 [2012] 分析页面 13/13
+2025-06-29 18:23:29,115 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2012_20250629_182329.txt
+2025-06-29 18:23:30,120 - INFO - ✅ 2012 年场景分析完成: 11 个场景
+2025-06-29 18:23:30,121 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:23:30,121 - INFO - 🔍 分析 2013 年的场景...
+2025-06-29 18:23:30,121 - INFO - 📄 [2013] 分析页面 1/14
+2025-06-29 18:23:32,407 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182332.txt
+2025-06-29 18:23:33,412 - INFO - 📄 [2013] 分析页面 2/14
+2025-06-29 18:23:34,900 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182334.txt
+2025-06-29 18:23:35,904 - INFO - 📄 [2013] 分析页面 3/14
+2025-06-29 18:23:37,855 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182337.txt
+2025-06-29 18:23:38,855 - INFO - 📄 [2013] 分析页面 4/14
+2025-06-29 18:23:40,847 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182340.txt
+2025-06-29 18:23:41,852 - INFO - 📄 [2013] 分析页面 5/14
+2025-06-29 18:23:44,531 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182344.txt
+2025-06-29 18:23:45,533 - INFO - 📄 [2013] 分析页面 6/14
+2025-06-29 18:23:47,743 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182347.txt
+2025-06-29 18:23:48,747 - INFO - 📄 [2013] 分析页面 7/14
+2025-06-29 18:23:52,179 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182352.txt
+2025-06-29 18:23:53,181 - INFO - 📄 [2013] 分析页面 8/14
+2025-06-29 18:23:54,672 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182354.txt
+2025-06-29 18:23:55,673 - INFO - 📄 [2013] 分析页面 9/14
+2025-06-29 18:23:57,466 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182357.txt
+2025-06-29 18:23:58,468 - INFO - 📄 [2013] 分析页面 10/14
+2025-06-29 18:24:01,294 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182401.txt
+2025-06-29 18:24:02,297 - INFO - 📄 [2013] 分析页面 11/14
+2025-06-29 18:24:04,528 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182404.txt
+2025-06-29 18:24:05,530 - INFO - 📄 [2013] 分析页面 12/14
+2025-06-29 18:24:09,507 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182409.txt
+2025-06-29 18:24:10,512 - INFO - 📄 [2013] 分析页面 13/14
+2025-06-29 18:24:12,154 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182412.txt
+2025-06-29 18:24:13,156 - INFO - 📄 [2013] 分析页面 14/14
+2025-06-29 18:24:14,900 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2013_20250629_182414.txt
+2025-06-29 18:24:15,903 - INFO - ✅ 2013 年场景分析完成: 10 个场景
+2025-06-29 18:24:15,904 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:24:15,904 - INFO - 🔍 分析 2014 年的场景...
+2025-06-29 18:24:15,905 - INFO - 📄 [2014] 分析页面 1/9
+2025-06-29 18:24:18,006 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182418.txt
+2025-06-29 18:24:19,007 - INFO - 📄 [2014] 分析页面 2/9
+2025-06-29 18:24:20,848 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182420.txt
+2025-06-29 18:24:21,856 - INFO - 📄 [2014] 分析页面 3/9
+2025-06-29 18:24:24,209 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182424.txt
+2025-06-29 18:24:25,214 - INFO - 📄 [2014] 分析页面 4/9
+2025-06-29 18:24:26,751 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182426.txt
+2025-06-29 18:24:27,753 - INFO - 📄 [2014] 分析页面 5/9
+2025-06-29 18:24:30,470 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182430.txt
+2025-06-29 18:24:31,472 - INFO - 📄 [2014] 分析页面 6/9
+2025-06-29 18:24:33,099 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182433.txt
+2025-06-29 18:24:34,102 - INFO - 📄 [2014] 分析页面 7/9
+2025-06-29 18:24:37,451 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182437.txt
+2025-06-29 18:24:38,456 - INFO - 📄 [2014] 分析页面 8/9
+2025-06-29 18:24:41,770 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182441.txt
+2025-06-29 18:24:42,772 - INFO - 📄 [2014] 分析页面 9/9
+2025-06-29 18:24:44,906 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2014_20250629_182444.txt
+2025-06-29 18:24:45,910 - INFO - ✅ 2014 年场景分析完成: 8 个场景
+2025-06-29 18:24:45,911 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:24:45,911 - INFO - 🔍 分析 2015 年的场景...
+2025-06-29 18:24:45,911 - INFO - 📄 [2015] 分析页面 1/14
+2025-06-29 18:24:48,361 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182448.txt
+2025-06-29 18:24:49,362 - INFO - 📄 [2015] 分析页面 2/14
+2025-06-29 18:24:52,219 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182452.txt
+2025-06-29 18:24:53,221 - INFO - 📄 [2015] 分析页面 3/14
+2025-06-29 18:24:55,635 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182455.txt
+2025-06-29 18:24:56,640 - INFO - 📄 [2015] 分析页面 4/14
+2025-06-29 18:24:58,234 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182458.txt
+2025-06-29 18:24:59,235 - INFO - 📄 [2015] 分析页面 5/14
+2025-06-29 18:25:01,030 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182501.txt
+2025-06-29 18:25:02,032 - INFO - 📄 [2015] 分析页面 6/14
+2025-06-29 18:25:03,690 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182503.txt
+2025-06-29 18:25:04,696 - INFO - 📄 [2015] 分析页面 7/14
+2025-06-29 18:25:07,663 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182507.txt
+2025-06-29 18:25:08,665 - INFO - 📄 [2015] 分析页面 8/14
+2025-06-29 18:25:10,544 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182510.txt
+2025-06-29 18:25:11,546 - INFO - 📄 [2015] 分析页面 9/14
+2025-06-29 18:25:13,337 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182513.txt
+2025-06-29 18:25:14,342 - INFO - 📄 [2015] 分析页面 10/14
+2025-06-29 18:25:16,761 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182516.txt
+2025-06-29 18:25:17,764 - INFO - 📄 [2015] 分析页面 11/14
+2025-06-29 18:25:19,433 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182519.txt
+2025-06-29 18:25:20,438 - INFO - 📄 [2015] 分析页面 12/14
+2025-06-29 18:25:23,141 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182523.txt
+2025-06-29 18:25:24,147 - INFO - 📄 [2015] 分析页面 13/14
+2025-06-29 18:25:25,379 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182525.txt
+2025-06-29 18:25:26,382 - INFO - 📄 [2015] 分析页面 14/14
+2025-06-29 18:25:28,056 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2015_20250629_182528.txt
+2025-06-29 18:25:29,057 - INFO - ✅ 2015 年场景分析完成: 9 个场景
+2025-06-29 18:25:29,058 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:25:29,058 - INFO - 🔍 分析 2016 年的场景...
+2025-06-29 18:25:29,058 - INFO - 📄 [2016] 分析页面 1/15
+2025-06-29 18:25:31,541 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182531.txt
+2025-06-29 18:25:32,543 - INFO - 📄 [2016] 分析页面 2/15
+2025-06-29 18:25:35,925 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182535.txt
+2025-06-29 18:25:36,927 - INFO - 📄 [2016] 分析页面 3/15
+2025-06-29 18:25:38,738 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182538.txt
+2025-06-29 18:25:39,740 - INFO - 📄 [2016] 分析页面 4/15
+2025-06-29 18:25:42,775 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182542.txt
+2025-06-29 18:25:43,781 - INFO - 📄 [2016] 分析页面 5/15
+2025-06-29 18:25:49,199 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182549.txt
+2025-06-29 18:25:50,207 - INFO - 📄 [2016] 分析页面 6/15
+2025-06-29 18:25:54,671 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182554.txt
+2025-06-29 18:25:55,671 - INFO - 📄 [2016] 分析页面 7/15
+2025-06-29 18:25:59,168 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182559.txt
+2025-06-29 18:26:00,170 - INFO - 📄 [2016] 分析页面 8/15
+2025-06-29 18:26:01,971 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182601.txt
+2025-06-29 18:26:02,975 - INFO - 📄 [2016] 分析页面 9/15
+2025-06-29 18:26:04,737 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182604.txt
+2025-06-29 18:26:05,739 - INFO - 📄 [2016] 分析页面 10/15
+2025-06-29 18:26:08,187 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182608.txt
+2025-06-29 18:26:09,189 - INFO - 📄 [2016] 分析页面 11/15
+2025-06-29 18:26:12,323 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182612.txt
+2025-06-29 18:26:12,858 - INFO - 📄 [2016] 分析页面 12/15
+2025-06-29 18:26:14,559 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182614.txt
+2025-06-29 18:26:15,563 - INFO - 📄 [2016] 分析页面 13/15
+2025-06-29 18:26:18,147 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182618.txt
+2025-06-29 18:26:19,158 - INFO - 📄 [2016] 分析页面 14/15
+2025-06-29 18:26:20,829 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182620.txt
+2025-06-29 18:26:21,833 - INFO - 📄 [2016] 分析页面 15/15
+2025-06-29 18:26:23,804 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2016_20250629_182623.txt
+2025-06-29 18:26:24,816 - INFO - ✅ 2016 年场景分析完成: 12 个场景
+2025-06-29 18:26:24,818 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:26:24,818 - INFO - 🔍 分析 2017 年的场景...
+2025-06-29 18:26:24,818 - INFO - 📄 [2017] 分析页面 1/13
+2025-06-29 18:26:29,336 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182629.txt
+2025-06-29 18:26:30,338 - INFO - 📄 [2017] 分析页面 2/13
+2025-06-29 18:26:33,130 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182633.txt
+2025-06-29 18:26:34,133 - INFO - 📄 [2017] 分析页面 3/13
+2025-06-29 18:26:35,941 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182635.txt
+2025-06-29 18:26:36,946 - INFO - 📄 [2017] 分析页面 4/13
+2025-06-29 18:26:38,914 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182638.txt
+2025-06-29 18:26:39,919 - INFO - 📄 [2017] 分析页面 5/13
+2025-06-29 18:26:42,977 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182642.txt
+2025-06-29 18:26:43,979 - INFO - 📄 [2017] 分析页面 6/13
+2025-06-29 18:26:45,684 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182645.txt
+2025-06-29 18:26:46,686 - INFO - 📄 [2017] 分析页面 7/13
+2025-06-29 18:26:49,288 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182649.txt
+2025-06-29 18:26:50,290 - INFO - 📄 [2017] 分析页面 8/13
+2025-06-29 18:26:54,697 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182654.txt
+2025-06-29 18:26:55,699 - INFO - 📄 [2017] 分析页面 9/13
+2025-06-29 18:26:58,478 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182658.txt
+2025-06-29 18:26:59,484 - INFO - 📄 [2017] 分析页面 10/13
+2025-06-29 18:27:01,215 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182701.txt
+2025-06-29 18:27:02,227 - INFO - 📄 [2017] 分析页面 11/13
+2025-06-29 18:27:05,043 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182705.txt
+2025-06-29 18:27:06,044 - INFO - 📄 [2017] 分析页面 12/13
+2025-06-29 18:27:07,854 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182707.txt
+2025-06-29 18:27:08,856 - INFO - 📄 [2017] 分析页面 13/13
+2025-06-29 18:27:10,791 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2017_20250629_182710.txt
+2025-06-29 18:27:11,793 - INFO - ✅ 2017 年场景分析完成: 12 个场景
+2025-06-29 18:27:11,803 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:27:11,803 - INFO - 🔍 分析 2018 年的场景...
+2025-06-29 18:27:11,804 - INFO - 📄 [2018] 分析页面 1/15
+2025-06-29 18:27:13,920 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182713.txt
+2025-06-29 18:27:14,922 - INFO - 📄 [2018] 分析页面 2/15
+2025-06-29 18:27:17,844 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182717.txt
+2025-06-29 18:27:18,850 - INFO - 📄 [2018] 分析页面 3/15
+2025-06-29 18:27:21,193 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182721.txt
+2025-06-29 18:27:22,195 - INFO - 📄 [2018] 分析页面 4/15
+2025-06-29 18:27:24,911 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182724.txt
+2025-06-29 18:27:25,914 - INFO - 📄 [2018] 分析页面 5/15
+2025-06-29 18:27:29,004 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182729.txt
+2025-06-29 18:27:30,007 - INFO - 📄 [2018] 分析页面 6/15
+2025-06-29 18:27:32,644 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182732.txt
+2025-06-29 18:27:33,644 - INFO - 📄 [2018] 分析页面 7/15
+2025-06-29 18:27:35,953 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182735.txt
+2025-06-29 18:27:36,956 - INFO - 📄 [2018] 分析页面 8/15
+2025-06-29 18:27:38,660 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182738.txt
+2025-06-29 18:27:39,664 - INFO - 📄 [2018] 分析页面 9/15
+2025-06-29 18:27:54,667 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20181231152135/https://www.bhphotovideo.com/find/HelpCenter/Policies.jsp: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 18:27:55,667 - INFO - 📄 [2018] 分析页面 10/15
+2025-06-29 18:27:59,620 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182759.txt
+2025-06-29 18:28:00,621 - INFO - 📄 [2018] 分析页面 11/15
+2025-06-29 18:28:02,969 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182802.txt
+2025-06-29 18:28:03,970 - INFO - 📄 [2018] 分析页面 12/15
+2025-06-29 18:28:05,846 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182805.txt
+2025-06-29 18:28:06,847 - INFO - 📄 [2018] 分析页面 13/15
+2025-06-29 18:28:08,558 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182808.txt
+2025-06-29 18:28:09,559 - INFO - 📄 [2018] 分析页面 14/15
+2025-06-29 18:28:11,194 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182811.txt
+2025-06-29 18:28:12,198 - INFO - 📄 [2018] 分析页面 15/15
+2025-06-29 18:28:14,879 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2018_20250629_182814.txt
+2025-06-29 18:28:15,882 - INFO - ✅ 2018 年场景分析完成: 10 个场景
+2025-06-29 18:28:15,883 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:28:15,883 - INFO - 🔍 分析 2019 年的场景...
+2025-06-29 18:28:15,883 - INFO - 📄 [2019] 分析页面 1/13
+2025-06-29 18:28:18,290 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182818.txt
+2025-06-29 18:28:19,292 - INFO - 📄 [2019] 分析页面 2/13
+2025-06-29 18:28:24,107 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182824.txt
+2025-06-29 18:28:25,108 - INFO - 📄 [2019] 分析页面 3/13
+2025-06-29 18:28:27,856 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182827.txt
+2025-06-29 18:28:28,864 - INFO - 📄 [2019] 分析页面 4/13
+2025-06-29 18:28:31,134 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182831.txt
+2025-06-29 18:28:32,139 - INFO - 📄 [2019] 分析页面 5/13
+2025-06-29 18:28:35,476 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182835.txt
+2025-06-29 18:28:36,487 - INFO - 📄 [2019] 分析页面 6/13
+2025-06-29 18:28:38,985 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182838.txt
+2025-06-29 18:28:39,986 - INFO - 📄 [2019] 分析页面 7/13
+2025-06-29 18:28:41,647 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182841.txt
+2025-06-29 18:28:42,652 - INFO - 📄 [2019] 分析页面 8/13
+2025-06-29 18:28:44,349 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182844.txt
+2025-06-29 18:28:45,353 - INFO - 📄 [2019] 分析页面 9/13
+2025-06-29 18:28:47,863 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182847.txt
+2025-06-29 18:28:48,867 - INFO - 📄 [2019] 分析页面 10/13
+2025-06-29 18:28:50,821 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182850.txt
+2025-06-29 18:28:51,822 - INFO - 📄 [2019] 分析页面 11/13
+2025-06-29 18:28:53,602 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182853.txt
+2025-06-29 18:28:54,605 - INFO - 📄 [2019] 分析页面 12/13
+2025-06-29 18:28:57,285 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182857.txt
+2025-06-29 18:28:58,287 - INFO - 📄 [2019] 分析页面 13/13
+2025-06-29 18:29:00,127 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2019_20250629_182900.txt
+2025-06-29 18:29:01,129 - INFO - ✅ 2019 年场景分析完成: 13 个场景
+2025-06-29 18:29:01,131 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:29:01,131 - INFO - 🔍 分析 2020 年的场景...
+2025-06-29 18:29:01,131 - INFO - 📄 [2020] 分析页面 1/15
+2025-06-29 18:29:03,881 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182903.txt
+2025-06-29 18:29:04,885 - INFO - 📄 [2020] 分析页面 2/15
+2025-06-29 18:29:07,011 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182907.txt
+2025-06-29 18:29:08,013 - INFO - 📄 [2020] 分析页面 3/15
+2025-06-29 18:29:11,375 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182911.txt
+2025-06-29 18:29:12,382 - INFO - 📄 [2020] 分析页面 4/15
+2025-06-29 18:29:14,833 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182914.txt
+2025-06-29 18:29:15,834 - INFO - 📄 [2020] 分析页面 5/15
+2025-06-29 18:29:19,423 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182919.txt
+2025-06-29 18:29:20,425 - INFO - 📄 [2020] 分析页面 6/15
+2025-06-29 18:29:23,415 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182923.txt
+2025-06-29 18:29:24,417 - INFO - 📄 [2020] 分析页面 7/15
+2025-06-29 18:29:26,313 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182926.txt
+2025-06-29 18:29:27,314 - INFO - 📄 [2020] 分析页面 8/15
+2025-06-29 18:29:29,342 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182929.txt
+2025-06-29 18:29:30,344 - INFO - 📄 [2020] 分析页面 9/15
+2025-06-29 18:29:32,710 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182932.txt
+2025-06-29 18:29:33,712 - INFO - 📄 [2020] 分析页面 10/15
+2025-06-29 18:29:35,663 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182935.txt
+2025-06-29 18:29:36,667 - INFO - 📄 [2020] 分析页面 11/15
+2025-06-29 18:29:38,370 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182938.txt
+2025-06-29 18:29:39,375 - INFO - 📄 [2020] 分析页面 12/15
+2025-06-29 18:29:42,695 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182942.txt
+2025-06-29 18:29:43,705 - INFO - 📄 [2020] 分析页面 13/15
+2025-06-29 18:29:45,981 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182945.txt
+2025-06-29 18:29:46,992 - INFO - 📄 [2020] 分析页面 14/15
+2025-06-29 18:29:48,841 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182948.txt
+2025-06-29 18:29:49,846 - INFO - 📄 [2020] 分析页面 15/15
+2025-06-29 18:29:53,557 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2020_20250629_182953.txt
+2025-06-29 18:29:54,563 - INFO - ✅ 2020 年场景分析完成: 11 个场景
+2025-06-29 18:29:54,564 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:29:54,564 - INFO - 🔍 分析 2021 年的场景...
+2025-06-29 18:29:54,565 - INFO - 📄 [2021] 分析页面 1/14
+2025-06-29 18:29:58,584 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_182958.txt
+2025-06-29 18:29:59,585 - INFO - 📄 [2021] 分析页面 2/14
+2025-06-29 18:30:01,568 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183001.txt
+2025-06-29 18:30:02,570 - INFO - 📄 [2021] 分析页面 3/14
+2025-06-29 18:30:04,333 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183004.txt
+2025-06-29 18:30:05,335 - INFO - 📄 [2021] 分析页面 4/14
+2025-06-29 18:30:08,465 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183008.txt
+2025-06-29 18:30:09,472 - INFO - 📄 [2021] 分析页面 5/14
+2025-06-29 18:30:15,075 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183015.txt
+2025-06-29 18:30:16,077 - INFO - 📄 [2021] 分析页面 6/14
+2025-06-29 18:30:17,654 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183017.txt
+2025-06-29 18:30:18,656 - INFO - 📄 [2021] 分析页面 7/14
+2025-06-29 18:30:21,899 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183021.txt
+2025-06-29 18:30:22,911 - INFO - 📄 [2021] 分析页面 8/14
+2025-06-29 18:30:26,763 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183026.txt
+2025-06-29 18:30:27,764 - INFO - 📄 [2021] 分析页面 9/14
+2025-06-29 18:30:30,080 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183030.txt
+2025-06-29 18:30:31,086 - INFO - 📄 [2021] 分析页面 10/14
+2025-06-29 18:30:33,356 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183033.txt
+2025-06-29 18:30:34,365 - INFO - 📄 [2021] 分析页面 11/14
+2025-06-29 18:30:38,208 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183038.txt
+2025-06-29 18:30:39,211 - INFO - 📄 [2021] 分析页面 12/14
+2025-06-29 18:30:41,066 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183041.txt
+2025-06-29 18:30:42,069 - INFO - 📄 [2021] 分析页面 13/14
+2025-06-29 18:30:43,900 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183043.txt
+2025-06-29 18:30:44,902 - INFO - 📄 [2021] 分析页面 14/14
+2025-06-29 18:30:46,564 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2021_20250629_183046.txt
+2025-06-29 18:30:47,566 - INFO - ✅ 2021 年场景分析完成: 12 个场景
+2025-06-29 18:30:47,567 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:30:47,567 - INFO - 🔍 分析 2022 年的场景...
+2025-06-29 18:30:47,567 - INFO - 📄 [2022] 分析页面 1/15
+2025-06-29 18:30:50,498 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183050.txt
+2025-06-29 18:30:51,499 - INFO - 📄 [2022] 分析页面 2/15
+2025-06-29 18:30:53,366 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/HelpCenter/AboutUs.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221220164057/https://www.bhphotovideo.com/find/HelpCenter/AboutUs.jsp
+2025-06-29 18:30:54,367 - INFO - 📄 [2022] 分析页面 3/15
+2025-06-29 18:30:57,163 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/shopByBrand.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221214203313/https://www.bhphotovideo.com/find/shopByBrand.jsp
+2025-06-29 18:30:58,164 - INFO - 📄 [2022] 分析页面 4/15
+2025-06-29 18:30:59,797 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/HelpCenter/Policies.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221220171117/https://www.bhphotovideo.com/find/HelpCenter/Policies.jsp
+2025-06-29 18:31:00,798 - INFO - 📄 [2022] 分析页面 5/15
+2025-06-29 18:31:02,362 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/giftCard.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20230129135113/https://www.bhphotovideo.com/find/giftCard.jsp
+2025-06-29 18:31:03,364 - INFO - 📄 [2022] 分析页面 6/15
+2025-06-29 18:31:06,897 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/cart.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221112102438/https://www.bhphotovideo.com/find/cart.jsp
+2025-06-29 18:31:07,898 - INFO - 📄 [2022] 分析页面 7/15
+2025-06-29 18:31:11,261 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183111.txt
+2025-06-29 18:31:12,264 - INFO - 📄 [2022] 分析页面 8/15
+2025-06-29 18:31:13,860 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/HelpCenter/Shipping.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221214203251/https://www.bhphotovideo.com/find/HelpCenter/Shipping.jsp
+2025-06-29 18:31:14,862 - INFO - 📄 [2022] 分析页面 9/15
+2025-06-29 18:31:17,012 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183117.txt
+2025-06-29 18:31:18,025 - INFO - 📄 [2022] 分析页面 10/15
+2025-06-29 18:31:19,401 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/HelpCenter/Payments.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221214203214/https://www.bhphotovideo.com/find/HelpCenter/Payments.jsp
+2025-06-29 18:31:20,402 - INFO - 📄 [2022] 分析页面 11/15
+2025-06-29 18:31:22,836 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183122.txt
+2025-06-29 18:31:23,838 - INFO - 📄 [2022] 分析页面 12/15
+2025-06-29 18:31:26,625 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183126.txt
+2025-06-29 18:31:27,626 - INFO - 📄 [2022] 分析页面 13/15
+2025-06-29 18:31:29,146 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/contactForm.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221214203156/https://www.bhphotovideo.com/find/contactForm.jsp
+2025-06-29 18:31:30,146 - INFO - 📄 [2022] 分析页面 14/15
+2025-06-29 18:31:31,874 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20221231154200/https://www.bhphotovideo.com/find/mobile-apps.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20221214203127/https://www.bhphotovideo.com/find/mobile-apps.jsp
+2025-06-29 18:31:32,875 - INFO - 📄 [2022] 分析页面 15/15
+2025-06-29 18:31:34,816 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2022_20250629_183134.txt
+2025-06-29 18:31:35,817 - INFO - ✅ 2022 年场景分析完成: 6 个场景
+2025-06-29 18:31:35,818 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:31:35,818 - INFO - 🔍 分析 2023 年的场景...
+2025-06-29 18:31:35,818 - INFO - 📄 [2023] 分析页面 1/14
+2025-06-29 18:31:37,286 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183137.txt
+2025-06-29 18:31:38,288 - INFO - 📄 [2023] 分析页面 2/14
+2025-06-29 18:31:40,162 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183140.txt
+2025-06-29 18:31:41,164 - INFO - 📄 [2023] 分析页面 3/14
+2025-06-29 18:31:45,070 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183145.txt
+2025-06-29 18:31:46,092 - INFO - 📄 [2023] 分析页面 4/14
+2025-06-29 18:31:49,356 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20231231181055/https://www.bhphotovideo.com/find/cart.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20231219102933/https://www.bhphotovideo.com/find/cart.jsp
+2025-06-29 18:31:50,357 - INFO - 📄 [2023] 分析页面 5/14
+2025-06-29 18:31:52,647 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183152.txt
+2025-06-29 18:31:53,651 - INFO - 📄 [2023] 分析页面 6/14
+2025-06-29 18:31:56,437 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183156.txt
+2025-06-29 18:31:57,440 - INFO - 📄 [2023] 分析页面 7/14
+2025-06-29 18:31:59,046 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20231231181055/https://www.bhphotovideo.com/credit-cards: 403 Client Error: Forbidden for url: https://web.archive.org/web/20240114220318/https://www.bhphotovideo.com/credit-cards
+2025-06-29 18:32:00,049 - INFO - 📄 [2023] 分析页面 8/14
+2025-06-29 18:32:02,055 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183202.txt
+2025-06-29 18:32:03,055 - INFO - 📄 [2023] 分析页面 9/14
+2025-06-29 18:32:04,687 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183204.txt
+2025-06-29 18:32:05,689 - INFO - 📄 [2023] 分析页面 10/14
+2025-06-29 18:32:09,360 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183209.txt
+2025-06-29 18:32:09,938 - INFO - 📄 [2023] 分析页面 11/14
+2025-06-29 18:32:13,409 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183213.txt
+2025-06-29 18:32:14,410 - INFO - 📄 [2023] 分析页面 12/14
+2025-06-29 18:32:17,090 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183217.txt
+2025-06-29 18:32:18,091 - INFO - 📄 [2023] 分析页面 13/14
+2025-06-29 18:32:20,091 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183220.txt
+2025-06-29 18:32:21,096 - INFO - 📄 [2023] 分析页面 14/14
+2025-06-29 18:32:23,266 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2023_20250629_183223.txt
+2025-06-29 18:32:24,267 - INFO - ✅ 2023 年场景分析完成: 15 个场景
+2025-06-29 18:32:24,268 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:32:24,269 - INFO - 🔍 分析 2024 年的场景...
+2025-06-29 18:32:24,269 - INFO - 📄 [2024] 分析页面 1/15
+2025-06-29 18:32:26,392 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183226.txt
+2025-06-29 18:32:27,393 - INFO - 📄 [2024] 分析页面 2/15
+2025-06-29 18:32:29,881 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/deals-promotions-coupons: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241229055415/https://www.bhphotovideo.com/deals-promotions-coupons
+2025-06-29 18:32:30,882 - INFO - 📄 [2024] 分析页面 3/15
+2025-06-29 18:32:32,369 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/HelpCenter/AboutUs.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241229055415/https://www.bhphotovideo.com/find/HelpCenter/AboutUs.jsp
+2025-06-29 18:32:33,370 - INFO - 📄 [2024] 分析页面 4/15
+2025-06-29 18:32:37,234 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183237.txt
+2025-06-29 18:32:38,247 - INFO - 📄 [2024] 分析页面 5/15
+2025-06-29 18:32:41,033 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/cart.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250109185629/https://www.bhphotovideo.com/find/cart.jsp
+2025-06-29 18:32:42,038 - INFO - 📄 [2024] 分析页面 6/15
+2025-06-29 18:32:43,821 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183243.txt
+2025-06-29 18:32:44,823 - INFO - 📄 [2024] 分析页面 7/15
+2025-06-29 18:32:46,930 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183246.txt
+2025-06-29 18:32:47,933 - INFO - 📄 [2024] 分析页面 8/15
+2025-06-29 18:32:50,775 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250105145532/https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp
+2025-06-29 18:32:51,775 - INFO - 📄 [2024] 分析页面 9/15
+2025-06-29 18:32:53,195 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/HelpCenter/Payments.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241226041940/https://www.bhphotovideo.com/find/HelpCenter/Payments.jsp
+2025-06-29 18:32:54,196 - INFO - 📄 [2024] 分析页面 10/15
+2025-06-29 18:32:55,567 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/newsletterSubscription.jsp/: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241216150126/https://www.bhphotovideo.com/find/newsletterSubscription.jsp/
+2025-06-29 18:32:56,569 - INFO - 📄 [2024] 分析页面 11/15
+2025-06-29 18:32:57,863 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/shared/affiliates.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250105141745/https://www.bhphotovideo.com/find/shared/affiliates.jsp
+2025-06-29 18:32:58,863 - INFO - 📄 [2024] 分析页面 12/15
+2025-06-29 18:33:02,650 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183302.txt
+2025-06-29 18:33:03,651 - INFO - 📄 [2024] 分析页面 13/15
+2025-06-29 18:33:05,769 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183305.txt
+2025-06-29 18:33:06,770 - INFO - 📄 [2024] 分析页面 14/15
+2025-06-29 18:33:11,167 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2024_20250629_183311.txt
+2025-06-29 18:33:12,168 - INFO - 📄 [2024] 分析页面 15/15
+2025-06-29 18:33:14,676 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20241231233433/https://www.bhphotovideo.com/find/giftCard.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241216051825/https://www.bhphotovideo.com/find/giftCard.jsp
+2025-06-29 18:33:15,677 - INFO - ✅ 2024 年场景分析完成: 10 个场景
+2025-06-29 18:33:15,679 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:33:15,679 - INFO - 🔍 分析 2025 年的场景...
+2025-06-29 18:33:15,679 - INFO - 📄 [2025] 分析页面 1/14
+2025-06-29 18:33:18,718 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183318.txt
+2025-06-29 18:33:19,719 - INFO - 📄 [2025] 分析页面 2/14
+2025-06-29 18:33:21,615 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250506171738/https://www.bhphotovideo.com/explora: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250506004621/https://www.bhphotovideo.com/explora
+2025-06-29 18:33:22,617 - INFO - 📄 [2025] 分析页面 3/14
+2025-06-29 18:33:24,824 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183324.txt
+2025-06-29 18:33:25,827 - INFO - 📄 [2025] 分析页面 4/14
+2025-06-29 18:33:28,868 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183328.txt
+2025-06-29 18:33:29,882 - INFO - 📄 [2025] 分析页面 5/14
+2025-06-29 18:33:34,382 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250506171738/https://www.bhphotovideo.com/find/cart.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250506004630/https://www.bhphotovideo.com/find/cart.jsp
+2025-06-29 18:33:35,382 - INFO - 📄 [2025] 分析页面 6/14
+2025-06-29 18:33:38,272 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183338.txt
+2025-06-29 18:33:39,274 - INFO - 📄 [2025] 分析页面 7/14
+2025-06-29 18:33:41,278 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250506171738/https://www.bhphotovideo.com/find/HelpCenter/Shipping.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250506004641/https://www.bhphotovideo.com/find/HelpCenter/Shipping.jsp
+2025-06-29 18:33:42,279 - INFO - 📄 [2025] 分析页面 8/14
+2025-06-29 18:33:44,976 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250506171738/https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250506004625/https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp
+2025-06-29 18:33:45,984 - INFO - 📄 [2025] 分析页面 9/14
+2025-06-29 18:33:47,970 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183347.txt
+2025-06-29 18:33:48,974 - INFO - 📄 [2025] 分析页面 10/14
+2025-06-29 18:33:51,381 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183351.txt
+2025-06-29 18:33:52,382 - INFO - 📄 [2025] 分析页面 11/14
+2025-06-29 18:33:54,043 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183354.txt
+2025-06-29 18:33:55,044 - INFO - 📄 [2025] 分析页面 12/14
+2025-06-29 18:33:56,314 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250506171738/https://www.bhphotovideo.com/find/shared/affiliates.jsp: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250506004544/https://www.bhphotovideo.com/find/shared/affiliates.jsp
+2025-06-29 18:33:57,315 - INFO - 📄 [2025] 分析页面 13/14
+2025-06-29 18:33:59,432 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183359.txt
+2025-06-29 18:34:00,433 - INFO - 📄 [2025] 分析页面 14/14
+2025-06-29 18:34:02,159 - INFO - 💾 内容已保存到: outputs/bhphotovideo.com/websites/2025_20250629_183402.txt
+2025-06-29 18:34:03,161 - INFO - ✅ 2025 年场景分析完成: 12 个场景
+2025-06-29 18:34:03,163 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:34:03,173 - INFO - ✅ 场景分析结果已导出到: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:34:03,173 - INFO - ✅ 场景分析完成: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json
+2025-06-29 18:34:03,173 - INFO - 🎉 分析流程完成!
+2025-06-29 18:34:03,174 - INFO - 📁 输出文件:
+2025-06-29 18:34:03,174 - INFO -    - 过滤链接: outputs/bhphotovideo.com/bhphotovideo.com_filtered_links.json
+2025-06-29 18:34:03,174 - INFO -    - 核心页面类型: outputs/bhphotovideo.com/bhphotovideo.com_core_page_types.json
+2025-06-29 18:34:03,174 - INFO -    - LLM规划: outputs/bhphotovideo.com/bhphotovideo.com_llm_planning.json
+2025-06-29 18:34:03,174 - INFO -    - 场景分析: outputs/bhphotovideo.com/bhphotovideo.com_scenarios.json

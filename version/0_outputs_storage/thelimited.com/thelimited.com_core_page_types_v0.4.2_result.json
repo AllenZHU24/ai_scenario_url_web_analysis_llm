@@ -1,0 +1,143 @@
+{
+  "generation_time": "2025-06-14 07:03:20",
+  "core_page_types": {
+    "Browse Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/home"
+        ]
+      },
+      {
+        "type_name": "Category",
+        "typical_url_patterns": [
+          "/category/*",
+          "/womens-clothing/*",
+          "/clothing/*"
+        ]
+      },
+      {
+        "type_name": "Product Listing",
+        "typical_url_patterns": [
+          "/new-arrivals/*",
+          "/sale/*",
+          "/features/*"
+        ]
+      },
+      {
+        "type_name": "Product Detail",
+        "typical_url_patterns": [
+          "/detail/index/item_desc/*"
+        ]
+      },
+      {
+        "type_name": "Special Collections",
+        "typical_url_patterns": [
+          "/features/*",
+          "/online-shops/*"
+        ]
+      }
+    ],
+    "Search Stage": [
+      {
+        "type_name": "Search",
+        "typical_url_patterns": [
+          "/search",
+          "/search/?q=*"
+        ]
+      }
+    ],
+    "Decision-Making Stage": [
+      {
+        "type_name": "Product Comparison",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/favorites"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews",
+        "typical_url_patterns": [
+          "/features/highest-rated-apparel-and-accessories"
+        ]
+      }
+    ],
+    "Purchase Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/shopping_bag",
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout",
+          "/account-order-history"
+        ]
+      },
+      {
+        "type_name": "Payment",
+        "typical_url_patterns": [
+          "/customer-service/limited-credit-cards/the-limited-credit-cards.html"
+        ]
+      }
+    ],
+    "After-Sales Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/customer-service/order/tracking"
+        ]
+      },
+      {
+        "type_name": "Returns and Exchanges",
+        "typical_url_patterns": [
+          "/customer-service/returns/returns-exchanges.html",
+          "/customer-service/returns-refunds/"
+        ]
+      },
+      {
+        "type_name": "Customer Support",
+        "typical_url_patterns": [
+          "/customer-service",
+          "/contactus"
+        ]
+      }
+    ],
+    "Customer Retention Stage": [
+      {
+        "type_name": "Account Management",
+        "typical_url_patterns": [
+          "/account",
+          "/account/signin",
+          "/register"
+        ]
+      },
+      {
+        "type_name": "Email Subscription",
+        "typical_url_patterns": [
+          "/email",
+          "/on/demandware.store/Sites-ltd-Site/default/EmailSubscription-Show"
+        ]
+      },
+      {
+        "type_name": "Loyalty Programs",
+        "typical_url_patterns": [
+          "/customer-service/programs/affiliate-program"
+        ]
+      },
+      {
+        "type_name": "Social Media",
+        "typical_url_patterns": [
+          "/facebook",
+          "/twitter",
+          "/instagram",
+          "/pinterest"
+        ]
+      }
+    ]
+  }
+}

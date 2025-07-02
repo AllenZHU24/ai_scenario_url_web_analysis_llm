@@ -1,0 +1,379 @@
+{
+  "generation_time": "2025-06-27 14:51:20",
+  "company_url": "1800gunsandammo.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Hub",
+        "typical_url_patterns": [
+          "/blogs/news",
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "Blog Post / Article",
+        "typical_url_patterns": [
+          "/blogs/news/{article-slug}",
+          "/news/{article-slug}"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/about-us/",
+          "/pages/about-us"
+        ]
+      },
+      {
+        "type_name": "How-To & Buying Guides",
+        "typical_url_patterns": [
+          "/how-to-buy-a-firearm/",
+          "/pages/how-to-buy-a-firearm",
+          "/how-to-buy-a-suppressor-online/"
+        ]
+      },
+      {
+        "type_name": "Store Information / Location",
+        "typical_url_patterns": [
+          "/our-store/",
+          "/about-the-range/"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate-program/",
+          "/pages/affiliate-program"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category Hub",
+        "typical_url_patterns": [
+          "/shooting/",
+          "/optics/",
+          "/gear/",
+          "/firearms/",
+          "/accessories/"
+        ]
+      },
+      {
+        "type_name": "PLP - Firearms (Rifles, Pistols, etc.)",
+        "typical_url_patterns": [
+          "/shooting/firearms/rifles/",
+          "/collections/pistols",
+          "/collections/shotguns"
+        ]
+      },
+      {
+        "type_name": "PLP - Ammunition",
+        "typical_url_patterns": [
+          "/shooting/ammunition/",
+          "/collections/ammunition",
+          "/collections/rifle-ammo",
+          "/collections/handgun-ammo"
+        ]
+      },
+      {
+        "type_name": "PLP - Scopes & Sport Optics",
+        "typical_url_patterns": [
+          "/optics/scopes/",
+          "/collections/scopes",
+          "/optics/sport-optics/binoculars/",
+          "/collections/binoculars"
+        ]
+      },
+      {
+        "type_name": "PLP - Sights (Red Dot, Iron, etc.)",
+        "typical_url_patterns": [
+          "/optics/sights/red-dot-sights/",
+          "/collections/red-dot-sights",
+          "/collections/iron-sights"
+        ]
+      },
+      {
+        "type_name": "PLP - Firearm Parts",
+        "typical_url_patterns": [
+          "/shooting/firearm-parts/",
+          "/collections/firearm-components",
+          "/collections/barrels",
+          "/collections/triggers"
+        ]
+      },
+      {
+        "type_name": "PLP - Firearm Accessories",
+        "typical_url_patterns": [
+          "/shooting/accessories/",
+          "/collections/firearm-accessories",
+          "/collections/magazines",
+          "/collections/gun-slings"
+        ]
+      },
+      {
+        "type_name": "PLP - Storage & Maintenance",
+        "typical_url_patterns": [
+          "/shooting/storage/gun-cases/",
+          "/collections/gun-cases",
+          "/shooting/firearm-maintenance/",
+          "/collections/safes"
+        ]
+      },
+      {
+        "type_name": "PLP - Tactical & Duty Gear",
+        "typical_url_patterns": [
+          "/gear/tactical-duty-gear/",
+          "/collections/tactical-duty-gear",
+          "/collections/holsters",
+          "/collections/plate-soft-armor-carriers"
+        ]
+      },
+      {
+        "type_name": "PLP - Hunting Gear",
+        "typical_url_patterns": [
+          "/gear/hunting/",
+          "/collections/hunting-gear",
+          "/collections/hunting-blinds",
+          "/collections/game-calls"
+        ]
+      },
+      {
+        "type_name": "PLP - Archery Gear",
+        "typical_url_patterns": [
+          "/gear/archery/",
+          "/collections/archery",
+          "/collections/bows",
+          "/collections/crossbows"
+        ]
+      },
+      {
+        "type_name": "PLP - Apparel & Footwear",
+        "typical_url_patterns": [
+          "/collections/clothing",
+          "/collections/jackets",
+          "/collections/pants",
+          "/collections/footwear"
+        ]
+      },
+      {
+        "type_name": "Brand Hub (All Brands)",
+        "typical_url_patterns": [
+          "/brands",
+          "/pages/shop-by-brand"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Page",
+        "typical_url_patterns": [
+          "/{brand-name}/",
+          "/brands/{Brand.name}.html"
+        ]
+      },
+      {
+        "type_name": "Sale & Deals Hub",
+        "typical_url_patterns": [
+          "/sale/",
+          "/deals/",
+          "/promo/",
+          "/collections/on-sale"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-slug}",
+          "/{product-slug-with-sku}"
+        ]
+      },
+      {
+        "type_name": "Product Comparison",
+        "typical_url_patterns": [
+          "/compare"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist.php"
+        ]
+      },
+      {
+        "type_name": "Rebate Center",
+        "typical_url_patterns": [
+          "/rebate-center/",
+          "/pages/rebate-center-2017"
+        ]
+      },
+      {
+        "type_name": "Product Finder / Configurator",
+        "typical_url_patterns": [
+          "/pages/leupold-mount-finder"
+        ]
+      },
+      {
+        "type_name": "NFA / Regulated Items Information",
+        "typical_url_patterns": [
+          "/collections/nfa-items"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart.php"
+        ]
+      },
+      {
+        "type_name": "Checkout Process",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate",
+        "typical_url_patterns": [
+          "/giftcertificates.php"
+        ]
+      },
+      {
+        "type_name": "Layaway / Payment Plan Info",
+        "typical_url_patterns": [
+          "/pages/layaway",
+          "/layaway-in-store-pickup-only/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You",
+        "typical_url_patterns": [
+          "/checkout/thank_you"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy (Domestic)",
+        "typical_url_patterns": [
+          "/us-shipping/",
+          "/pages/shipping-policy",
+          "/shipping-returns/"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy (International)",
+        "typical_url_patterns": [
+          "/international-orders-and-shipping/",
+          "/pages/international-orders-policy"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns-exchanges-refunds/",
+          "/pages/returns-and-exchanges-policy",
+          "/pages/returns"
+        ]
+      },
+      {
+        "type_name": "Order Cancellation Policy",
+        "typical_url_patterns": [
+          "/order-cancellation/",
+          "/pages/order-cancellation-policy"
+        ]
+      },
+      {
+        "type_name": "Contact Us / Customer Service",
+        "typical_url_patterns": [
+          "/contact-us/",
+          "/customer-service/",
+          "/pages/customer-service"
+        ]
+      },
+      {
+        "type_name": "Legal & Restriction Policies",
+        "typical_url_patterns": [
+          "/export-policy/",
+          "/state-restrictions/"
+        ]
+      },
+      {
+        "type_name": "In-Store / Curbside Pickup Info",
+        "typical_url_patterns": [
+          "/curbside-pickup/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/account.php"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/login.php?action=create_account",
+          "/account/register"
+        ]
+      },
+      {
+        "type_name": "Rewards / Loyalty Program",
+        "typical_url_patterns": [
+          "/pages/rewards"
+        ]
+      },
+      {
+        "type_name": "RSS Feed / Syndication",
+        "typical_url_patterns": [
+          "/rss-syndication/"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/careers/"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/terms-and-conditions/",
+          "/pages/offer-terms-and-conditions"
+        ]
+      },
+      {
+        "type_name": "Privacy & Security Policy",
+        "typical_url_patterns": [
+          "/secure-ordering-privacy-policy/",
+          "/pages/secure-ordering-policy"
+        ]
+      },
+      {
+        "type_name": "Pricing & Content Policy",
+        "typical_url_patterns": [
+          "/prices-sales-tax-content-policies/",
+          "/pages/prices-and-content-policies"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

@@ -1,0 +1,3267 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "shopandroid.com",
+  "export_time": "2025-07-01 15:56:21",
+  "yearly_analysis_results": {
+    "2012": {
+      "analysis_time": "2025-07-01 15:53:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 204,
+      "valid_content_urls_count": 204,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-about.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/enterprise/index.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/device-selector.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-screen-protectors.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-cases.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-chargers-and-cables.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-new.htm",
+        "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-photography.htm"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and informs customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/enterprise/index.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Enterprise Sales",
+            "selection_reason": "Targets business customers, expanding the customer base and increasing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/device-selector.htm",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Device Selector Tool",
+            "selection_reason": "Helps customers find the right products based on their specific devices, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-screen-protectors.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Screen Protectors PLP",
+            "selection_reason": "Showcases a specific product category that is highly relevant to customers interested in device protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-cases.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cases Category PLP",
+            "selection_reason": "A core product category that attracts customers looking for device protection solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-chargers-and-cables.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Chargers & Cables Category PLP",
+            "selection_reason": "Essential accessories that customers frequently seek, driving interest and potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides customers with a way to reach out for support, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Informs customers about return processes, which is vital for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Clarifies shipping details, helping customers make informed decisions during checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages ongoing engagement with customers through newsletters and updates."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-new.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Highlights the latest offerings, attracting repeat customers and generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-photography.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Use-Case PLP (e.g., Photography)",
+            "selection_reason": "Targets specific customer interests, enhancing product relevance and engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-screen-protectors.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Screen Protectors PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-hard-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-weather-resistant-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-accessories.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-holsters.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-new.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-chargers-and-cables.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-backup-batteries.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Power Banks PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-skin-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-memory-cards.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Memory Cards PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-headsets.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-photography.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/device-selector.htm",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Device Selector Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-car-chargers.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-car-mounts.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-flip-lid-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-bluetooth.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20121230093823/http://www.shopandroid.com/android-cradles.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 15:53:48",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 220,
+      "valid_content_urls_count": 220,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-about.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/device-selector.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-new.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-cases.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-accessories.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-status.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/index.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+        "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-clearance.htm"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that provides an overview of the site and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand and its values, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/device-selector.htm",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Device Selector Tool",
+            "selection_reason": "Helps customers find the right products based on their needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-new.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Showcases the latest products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-cases.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cases Category PLP",
+            "selection_reason": "A popular product category that drives customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-accessories.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Accessories PLP",
+            "selection_reason": "Comprehensive category for accessories, appealing to a wide audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-status.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Essential for customers to track their orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Clarifies the return process, which is crucial for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing support."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, aiding decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/index.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Centralized resource for customer service, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust by informing customers about data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages ongoing engagement with customers through newsletters."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-clearance.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Deals & Clearance PLP",
+            "selection_reason": "Attracts bargain hunters and drives sales through promotions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-new.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-flip-lid-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-memory-cards.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Memory Cards PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-headsets.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-usb-cables.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-hard-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/device-selector.htm",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Device Selector Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-photography.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-car-mounts.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-cradles.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-wall-chargers.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-weather-resistant-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-accessories.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-clearance.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-screen-protectors.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Screen Protectors PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-chargers-and-cables.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-bluetooth.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-skin-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-holsters.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231082736/http://www.shopandroid.com/android-car-chargers.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 15:54:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 72,
+      "valid_content_urls_count": 72,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/enterprise/index.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-status.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/index.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-about.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-support.htm",
+        "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-subscriptions.htm"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/enterprise/index.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Enterprise Sales",
+            "selection_reason": "Targets business customers, expanding market reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Encourages partnerships and increases brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential for customer trust and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Critical information for purchase decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-status.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Enhances customer experience by providing order tracking."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/index.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Centralized support resource for customer inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Facilitates customer communication and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides brand story and values, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-support.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Technical Support Page",
+            "selection_reason": "Offers technical assistance, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages ongoing engagement and customer loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231225059/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-01 15:54:21",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 80,
+      "valid_content_urls_count": 80,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/about.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/enterprise/index.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-support.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-status.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/index.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-subscriptions.htm"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page informs customers about the brand's mission and values, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/enterprise/index.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Enterprise Sales",
+            "selection_reason": "Targets business customers, highlighting solutions tailored for enterprises."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Encourages partnerships and expands brand reach through affiliate marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-support.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Technical Support Page",
+            "selection_reason": "Provides essential support resources for customers experiencing issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and policies, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Clarifies the return process, which is vital for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Assures customers about their data protection and privacy rights."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-status.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/index.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Centralizes customer service resources, improving support accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing support engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages ongoing engagement through newsletters, fostering customer loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231232003/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-01 15:54:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 120,
+      "valid_content_urls_count": 120,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/about.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/device-selector.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-accessories.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-deals.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-status.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-new.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/index.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-chargers-and-cables.htm",
+        "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-cases.htm"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the store."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the company, building trust with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/device-selector.htm",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Device Selector Tool",
+            "selection_reason": "Helps customers find the right products based on their device, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-accessories.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Accessories PLP",
+            "selection_reason": "A comprehensive page showcasing all accessories, catering to various customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-deals.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Deals & Clearance PLP",
+            "selection_reason": "Attracts customers looking for discounts and promotions, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential for customer trust, outlining the return process clearly."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-status.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, improving customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling practices, essential for trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages customers to stay engaged with the brand through newsletters."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-new.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Highlights the latest products, attracting returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/index.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Centralizes customer service resources, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-chargers-and-cables.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Chargers & Cables Category PLP",
+            "selection_reason": "Specific product category that is essential for many customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-cases.htm",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cases Category PLP",
+            "selection_reason": "Another essential product category that attracts a wide range of customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-hard-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-memory-cards.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Memory Cards PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-usb-cables.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-deals.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-car-mounts.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/pages/become-an-affiliate.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-bluetooth.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-chargers-and-cables.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-skin-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-cradles.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-car-chargers.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-cases.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-accessories.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-holsters.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-photography.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-clearance.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-headsets.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-wall-chargers.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-new.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/device-selector.htm",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Device Selector Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222055119/http://www.shopandroid.com/android-screen-protectors.htm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Screen Protectors PLP"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-01 15:54:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 75,
+      "valid_content_urls_count": 75,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-about.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/enterprise/index.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-returns.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-status.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-contact.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/index.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-support.htm",
+        "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-subscriptions.htm"
+      ],
+      "recommended_pages_count": 11,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-about.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and brand identity, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/enterprise/index.htm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Enterprise Sales",
+            "selection_reason": "Targets business customers, expanding the customer base and increasing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-returns.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Clear returns policy enhances customer confidence in making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Shipping information is critical for customers to understand delivery expectations."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-status.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-contact.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides customers with a way to reach out for support, essential for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling practices, which is vital for trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/index.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Centralizes customer service resources, improving the fulfillment process."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-support.htm",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Technical Support Page",
+            "selection_reason": "Provides technical assistance, crucial for customer retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Subscription Page",
+            "selection_reason": "Encourages ongoing engagement with customers, fostering retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 12,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-returns.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-support.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/enterprise/index.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Enterprise Sales"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-about.htm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-privacy.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-shipping.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-status.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-contact.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/page-subscriptions.htm",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Subscription Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231075100/http://www.shopandroid.com/content/customercare/index.htm",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-01 15:55:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 94,
+      "valid_content_urls_count": 94,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/about-smartphone-experts",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/search",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/cart",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-returns",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/contact-smartphone-experts",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/login",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/register",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/all",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-case-1",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/deals",
+        "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/cases"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/about-smartphone-experts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand and its mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/search",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results",
+            "selection_reason": "Allows customers to search for specific products, aiding in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Informs customers about return procedures, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Details shipping options and costs, which are crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/contact-smartphone-experts",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a way for customers to reach out for assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/register",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages new customers to create accounts for better service."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Accessories PLP",
+            "selection_reason": "Showcases the entire range of products available."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers PLP",
+            "selection_reason": "Highlights popular products that may attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-case-1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Showcases the latest products, appealing to customers looking for new items."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Deals & Clearance PLP",
+            "selection_reason": "Attracts customers looking for discounts and special offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/cases",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cases Category PLP",
+            "selection_reason": "A core category that is likely of high interest to customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 65,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/audio-video",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/200gb-ultra-microsdxc-memory-card-23577",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-technical-support",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/wall-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-case-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/amzer-anti-radiation-anti-tracking-emf-protection-anti-spying-gps-rfid-signal-blocker-pouch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/wallet-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/folio-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/fast-charge-wireless-charging-stand-23087",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/holders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/amzer®-pudding-tpu-x-protection-blackberry-motion-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/waterproof-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/motorcyclist",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-plus-surface-case-with-metal-kick-stand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/pocket-pouches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/seidio-surface-holster-for-samsung-galaxy-note-8-27450",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/wireless-charging",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wireless Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/featured/products/samsung-hdmi-adapter-type-c-27162",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/featured/products/sandisk-128gb-ultra-microsdxc-memory-card-18446",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/hardcases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/hybrid-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/bumper-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/holsters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/usb-type-c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case-2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/rugged-qx-xxl-horizontal-pouch-13872",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/featured/products/samsung-fast-charge-wireless-charging-convertible-pad-26857",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/clearance",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/power-banks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Power Banks PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-seidio-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/search",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/contact-smartphone-experts",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/stereo-earphones-26355",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/amzer®-pudding-tpu-blackberry-motion-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/memory-cards",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Memory Cards PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/charging-docks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/battery-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Battery Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/bluetooth",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/samsung-33ft-usb-type-c-cable-24448",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/sale/products/samsung-5ft-micro-usb-charging-data-cable-16220",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/skin-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-plus-surface-case-with-metal-kick-stand-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/account/register",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/car-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/chargers-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/car-kits-mounts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/collections/usb-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230071907/https://www.shopandroid.com/pages/about-smartphone-experts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-01 15:55:31",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 85,
+      "valid_content_urls_count": 85,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/about-smartphone-experts",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/search",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/cart",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-returns",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/login/",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/register",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/deals",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/power-banks",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/holsters",
+        "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/contact-smartphone-experts"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the store."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/about-smartphone-experts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/search",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results",
+            "selection_reason": "Allows customers to find specific products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential information for customers regarding product returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/login/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates customer retention by allowing access to account features."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/register",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages new customers to create accounts for better service."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Highlights new arrivals, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers PLP",
+            "selection_reason": "Showcases popular products, guiding customer choices."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Deals & Clearance PLP",
+            "selection_reason": "Attracts customers looking for discounts and special offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/power-banks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Power Banks PLP",
+            "selection_reason": "Focuses on a popular product category, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/holsters",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holsters & Pouches PLP",
+            "selection_reason": "Targets a specific accessory category, appealing to niche interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/contact-smartphone-experts",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a way for customers to reach out for assistance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 57,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/bumper-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/power-banks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Power Banks PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/bluetooth",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-plus-surface-case-with-metal-kick-stand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case-2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/wallet-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/clearance",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/holsters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/car-kits-mounts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/holders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/waterproof-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-technical-support",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/car-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/folio-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/contact-smartphone-experts",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/sale/products/stereo-earphones-26355",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/wireless-charging",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wireless Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/chargers-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/charging-docks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/audio-video",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/sale/products/sandisk-32gb-microsdhc-card-7429",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/sale/products/samsung-33ft-usb-type-c-cable-24448",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/motorcyclist",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/pages/about-smartphone-experts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/search",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/battery-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Battery Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/usb-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/wall-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-seidio-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/account/register",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/pocket-pouches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/hardcases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/sale/products/sandisk-16gb-microsdhc-card-4148",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/featured/products/sandisk-128gb-ultra-microsdxc-memory-card-18446",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/200gb-ultra-microsdxc-memory-card-23577",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/hybrid-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/skin-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/usb-type-c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/new-products/products/amzer-anti-radiation-anti-tracking-emf-protection-anti-spying-gps-rfid-signal-blocker-pouch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231105715/https://www.shopandroid.com/collections/best-selling/products/seidio-surface-holster-for-samsung-galaxy-note-8-27450",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-01 15:55:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 85,
+      "valid_content_urls_count": 85,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/about-smartphone-experts",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/search",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/cart",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-returns",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/login",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/register",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-seidio-surface-holster",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/clearance",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/holsters",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/wall-chargers",
+        "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/power-banks"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/about-smartphone-experts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, building trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/search",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results",
+            "selection_reason": "Allows customers to search for specific products, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Informs customers about return procedures, enhancing their confidence in purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Essential information regarding shipping options and costs, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates customer retention by allowing users to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/register",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages new customers to create accounts, fostering long-term relationships."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers PLP",
+            "selection_reason": "Highlights popular products, attracting customer interest and facilitating purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-seidio-surface-holster",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Showcases the latest products, appealing to customers looking for new items."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/clearance",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Deals & Clearance PLP",
+            "selection_reason": "Attracts bargain hunters and encourages purchases through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/holsters",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holsters & Pouches PLP",
+            "selection_reason": "Targets customers interested in specific product categories, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/wall-chargers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Wall Chargers PLP",
+            "selection_reason": "Focuses on a specific product category that is essential for smartphone users."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/power-banks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Power Banks PLP",
+            "selection_reason": "Appeals to customers looking for portable charging solutions, a common need."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 57,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/bumper-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-seidio-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/wallet-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/motorcyclist",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/clearance",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-technical-support",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/folio-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/amzer-anti-radiation-anti-tracking-emf-protection-anti-spying-gps-rfid-signal-blocker-pouch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/chargers-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/sale/products/sandisk-32gb-microsdhc-card-7429",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/200gb-ultra-microsdxc-memory-card-23577",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/usb-type-c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/battery-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Battery Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/power-banks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Power Banks PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/holsters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/bluetooth",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/about-smartphone-experts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/car-kits-mounts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/usb-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/hybrid-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case-2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/featured/products/sandisk-128gb-ultra-microsdxc-memory-card-18446",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/sale/products/stereo-earphones-26355",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/charging-docks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/search",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/wall-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/holders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/account/register",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/skin-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/hardcases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/contact-smartphone-experts",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-plus-surface-case-with-metal-kick-stand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/waterproof-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/wireless-charging",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wireless Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/sale/products/samsung-33ft-usb-type-c-cable-24448",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/pocket-pouches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/seidio-surface-holster-for-samsung-galaxy-note-8-27450",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/sale/products/sandisk-16gb-microsdhc-card-4148",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/audio-video",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206131525/https://www.shopandroid.com/collections/car-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-01 15:56:07",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 84,
+      "valid_content_urls_count": 84,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/about-smartphone-experts",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/search",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/cart",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-returns",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/login",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/register",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/usb-type-c",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/wireless-charging",
+        "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/contact-smartphone-experts"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/about-smartphone-experts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, fostering trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/search",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results",
+            "selection_reason": "Allows customers to find specific products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential for customer confidence regarding post-purchase processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates customer retention by allowing access to account features."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/register",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages new customers to create accounts, enhancing future engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers PLP",
+            "selection_reason": "Highlights popular products, attracting customer interest and facilitating purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Products PLP",
+            "selection_reason": "Showcases the latest offerings, keeping customers engaged with new arrivals."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products PLP",
+            "selection_reason": "Promotes selected products, enhancing visibility and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/usb-type-c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "USB Cables PLP",
+            "selection_reason": "Targets a specific product category, catering to customer needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/wireless-charging",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Wireless Chargers PLP",
+            "selection_reason": "Focuses on a growing trend in charging technology, appealing to tech-savvy customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/contact-smartphone-experts",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing customer service."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 56,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/chargers-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Chargers & Cables Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/folio-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/2-in-1-usb-cable-micro-usb-and-usb-type-c-25505",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/battery-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Battery Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/hybrid-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/google-pixel-2-xl-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/search",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/featured/products/seidio-surface-case-with-metal-kickstand-for-blackberry-keyone-27791",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/usb-type-c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/wireless-charging",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wireless Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/car-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-technical-support",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Technical Support Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/usb-cables",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "USB Cables PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/smartphone-experts-shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/seidio-surface-holster-for-samsung-galaxy-note-8-27450",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/waterproof-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Waterproof Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/sale/products/sandisk-32gb-microsdhc-card-7429",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/bluetooth",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Bluetooth Accessories PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/amzer-anti-radiation-anti-tracking-emf-protection-anti-spying-gps-rfid-signal-blocker-pouch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/holsters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/audio-video",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audio & Video Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/about-smartphone-experts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cases Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/clearance",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/sale/products/stereo-earphones-26355",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/sale/products/sandisk-16gb-microsdhc-card-4148",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-case-2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/200gb-ultra-microsdxc-memory-card-23577",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/skin-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/sale/products/samsung-33ft-usb-type-c-cable-24448",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Deals & Clearance PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/wall-chargers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Wall Chargers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/featured/products/sandisk-128gb-ultra-microsdxc-memory-card-18446",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/charging-docks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Charging Docks & Cradles PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-plus-surface-case-with-metal-kick-stand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-dilex-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/motorcyclist",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Use-Case PLP (e.g., Photography)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/wallet-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Folio & Wallet Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/power-banks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Power Banks PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/apex-fusion-fine-point-stylus",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/best-selling/products/amzer-dual-layer-hybrid-kickstand-case-for-samsung-galaxy-s8-27350",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/pages/contact-smartphone-experts",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/pocket-pouches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holsters & Pouches PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/hardcases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hard & Hybrid Cases PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/account/register",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/car-kits-mounts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/new-products/products/samsung-galaxy-s9-surface-holster",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Products PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/holders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mounts & Holders Category PLP"
+        },
+        {
+          "url": "https://web.archive.org/web/20211208221413/https://www.shopandroid.com/collections/bumper-cases",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Skin & Bumper Cases PLP"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-01 15:56:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221225015657/https://shopandroid.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221225015657/https://shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of products and brand offerings, crucial for creating initial awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221225015657/https://shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-01 15:56:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 7,
+      "valid_content_urls_count": 7,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231223184517/https://shopandroid.com/about",
+        "https://web.archive.org/web/20231223184517/https://shopandroid.com/contact",
+        "https://web.archive.org/web/20231223184517/https://shopandroid.com/",
+        "https://web.archive.org/web/20231223184517/https://shopandroid.com/home"
+      ],
+      "recommended_pages_count": 4,
+      "recommended_in_valid_overlap": 4,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, helping customers understand the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/contact",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Enables customers to reach out for support, ensuring their inquiries and issues are addressed."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Acts as the main entry point for customers, showcasing key products and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/home",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, reinforcing the brand's presence and offerings."
+          }
+        ],
+        "total_recommendations": 4,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 4,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/contact",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223184517/https://shopandroid.com/home",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 15:56:21",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 7,
+      "valid_content_urls_count": 7,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20240309080700/https://shopandroid.com/contact",
+        "https://web.archive.org/web/20240309080700/https://shopandroid.com/about",
+        "https://web.archive.org/web/20240309080700/https://shopandroid.com/",
+        "https://web.archive.org/web/20240309080700/https://shopandroid.com/home"
+      ],
+      "recommended_pages_count": 4,
+      "recommended_in_valid_overlap": 4,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/contact",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact & Support Form",
+            "selection_reason": "Essential for customer support and inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides information about the brand and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main entry point for customers to explore offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/home",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another entry point that reinforces brand presence."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 4,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/contact",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact & Support Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240309080700/https://shopandroid.com/home",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

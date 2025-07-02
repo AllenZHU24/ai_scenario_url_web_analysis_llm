@@ -1,0 +1,90 @@
+{
+    "description": "E-commerce User Journey Micro-Scenarios Definitions mapped to a standard Customer Journey Model.",
+    "version": "v0.3",
+    "total_scenarios": 70,
+    "last_updated": "2025-06-23",
+    "scenarios": {
+      "Awareness Stage": {
+        "1.1": { "name": "Holiday Promotion Page Browse", "keywords": ["holiday deals", "seasonal offers", "limited time deals", "special offers"] },
+        "1.2": { "name": "Platform Theme Activity Page Browse", "keywords": ["prime day", "black friday", "cyber monday", "anniversary sale"] },
+        "1.3": { "name": "Category Theme Activity Page Browse", "keywords": ["electronics deals", "fashion sale", "book deals", "home essentials sale"] },
+        "1.4": { "name": "Hot Search Keyword Clicking", "keywords": ["Trending searches", "Popular searches", "People are searching for"] },
+        "1.5": { "name": "Social Media Ad Entry", "keywords": ["social media ad", "sponsored post", "ad click", "Instagram ad", "TikTok ad"] }
+      },
+      "Interest Stage": {
+        "2.1": { "name": "Direct Keyword Search", "keywords": ["What are you looking for?", "Search products", "Search bar", "Enter your search"] },
+        "2.2": { "name": "Fuzzy Category Keyword Search", "keywords": ["category search", "search departments", "browse by category", "Search categories"] },
+        "2.3": { "name": "Image Search Entry Usage", "keywords": ["Search with image", "Visual search", "Search by photo", "Upload an image to search"] },
+        "2.4": { "name": "Voice Search Entry Usage", "keywords": ["Voice search", "Search by voice", "Speak to search"] },
+        "2.5": { "name": "Autocomplete Options Browse", "keywords": ["Search suggestions", "Popular suggestions", "autocomplete suggestions"] },
+        "2.6": { "name": "Recommended Products Browse", "keywords": ["recommendations for you", "you might like", "recommended based on your Browse history", "today's recommendations"] },
+        "2.7": { "name": "Trending Hot Products Browse", "keywords": ["best sellers", "trending now", "what's hot", "popular items"] },
+        "2.8": { "name": "Category Recommendation Browse", "keywords": ["shop by category", "explore departments", "browse categories"] },
+        "2.9": { "name": "New Arrivals Recommendation Browse", "keywords": ["new releases", "just launched", "new arrivals", "what's new"] },
+        "2.10": { "name": "Main Category Navigation Browse", "keywords": ["all departments", "shop by department", "main categories", "navigation menu"] },
+        "2.11": { "name": "Brand Aggregation Page Browse", "keywords": ["shop by brand", "brand store", "featured brands", "popular brands"] },
+        "2.12": { "name": "Livestream Shopping & Content Discovery", "keywords": ["livestream shopping", "shop while watching", "influencer live", "shoppable video"] },
+        "2.13": { "name": "Guided Selling / Quiz Engagement", "keywords": ["product quiz", "style finder", "product finder", "guided selling"] }
+      },
+      "Consideration Stage": {
+        "3.1": { "name": "Subcategory Filtering Browse", "keywords": ["refine by category", "refine by subcategory", "narrow results"] },
+        "3.2": { "name": "Filter Adjustment Browse", "keywords": ["filter by", "sort by", "price range", "customer rating", "filter by brand", "refine results"] },
+        "3.3": { "name": "Post-Search Intent Category Entry", "keywords": ["refine by department", "related to your search", "discover categories"] },
+        "3.4": { "name": "Recently Viewed Products Continuation", "keywords": ["recently viewed", "your Browse history", "pick up where you left off"] },
+        "3.5": { "name": "History-Driven Recommendation Browse", "keywords": ["based on your shopping trends", "related to items you've viewed", "inspired by your purchases"] },
+        "3.6": { "name": "Image and Text Details Browse", "keywords": ["Product details", "Product description", "Product features", "About this item"] },
+        "3.7": { "name": "Product Parameters Viewing", "keywords": ["Product specifications", "Technical details", "Product information", "View specs"] },
+        "3.8": { "name": "SKU/Color Switching Viewing", "keywords": ["Select color", "Choose size", "Available options", "Select style", "Choose configuration"] },
+        "3.9": { "name": "Positive/Negative Review Filtering", "keywords": ["Filter reviews", "sort by star rating", "top reviews", "most recent reviews"] },
+        "3.10": { "name": "Q&A Section Browse", "keywords": ["Customer questions", "Questions and answers", "Have a question?"] },
+        "3.11": { "name": "Adding Products for Horizontal Comparison", "keywords": ["Compare with similar items", "Add to compare", "Compare products"] },
+        "3.12": { "name": "Viewing Price Trend Chart", "keywords": ["Price history", "Price tracker", "Price trend", "Price changes"] },
+        "3.13": { "name": "Frequently Bought Together Products Browse", "keywords": ["Frequently bought together", "Complete the set", "Better together"] },
+        "3.14": { "name": "Cross-Category Matching Recommendations Browse", "keywords": ["Complete the look", "Shop the look", "Pair with", "Goes well with"] },
+        "3.15": { "name": "Wishlist/Saved for Later Price Alert", "keywords": ["Price drop alert", "Item back in stock", "An item in your wishlist is on sale", "Saved item update"] },
+        "3.16": { "name": "AR Virtual Try-On", "keywords": ["virtual try-on", "AR view", "view in your room", "try before you buy"] },
+        "3.17": { "name": "Viewing Customer-Submitted Media", "keywords": ["customer photos", "customer videos", "user-submitted photos"] },
+        "3.18": { "name": "Back-in-Stock Alert Signup", "keywords": ["back in stock notification", "notify me when available", "stock alert"] },
+        "3.19": { "name": "Saving a Product Configuration", "keywords": ["save configuration", "my custom build", "save design", "product builder"] }
+      },
+      "Decision Stage": {
+        "4.1": { "name": "Viewing Return Policy", "keywords": ["Return policy", "Returns & Refunds", "Free returns", "Return window"] },
+        "4.2": { "name": "Discount Package Combination Browse", "keywords": ["Bundle and save", "Buy together and save", "Package deals", "Combo offers"] },
+        "4.3": { "name": "Adding Product to Cart", "keywords": ["Add to cart", "Add to basket", "Shopping cart"] },
+        "4.4": { "name": "Buy Now Usage", "keywords": ["Buy now", "Purchase now", "Buy with 1-Click", "Instant buy"] },
+        "4.5": { "name": "Package Deal Ordering", "keywords": ["Add both to cart", "Add all to cart", "Buy this bundle"] },
+        "4.6": { "name": "Subscription Setting", "keywords": ["Subscribe & Save", "Set up auto-delivery", "Schedule regular delivery", "Manage subscription"] },
+        "4.7": { "name": "Digital Product Purchase", "keywords": ["Digital purchase", "Buy and download", "Get digital delivery"] },
+        "4.8": { "name": "Buy Now, Pay Later (BNPL) Selection", "keywords": ["buy now pay later", "pay in installments", "pay with Afterpay", "pay with Klarna"] },
+        "4.9": { "name": "Coupon/Promo Code Application", "keywords": ["apply coupon", "enter promo code", "redeem offer", "discount code"] }
+      },
+      "Fulfillment Stage": {
+        "5.1": { "name": "Order Page Viewing", "keywords": ["Your orders", "Order details", "Order history", "Track package"] },
+        "5.2": { "name": "Return Application Process", "keywords": ["Return items", "Start a return", "Return & refund center", "Process a return"] },
+        "5.3": { "name": "Transaction Complaint Submission", "keywords": ["Report a problem with order", "File a complaint", "Order issues", "Dispute this charge"] },
+        "5.4": { "name": "Online Bot Interaction", "keywords": ["Chat with us", "Virtual assistant", "Help bot", "Automated support"] },
+        "5.5": { "name": "BOPIS/Click & Collect Selection", "keywords": ["BOPIS option", "click and collect", "in-store pickup", "curbside pickup"] },
+        "5.6": { "name": "Visual Real-Time Order Tracking", "keywords": ["live map tracking", "watch your delivery", "real-time tracker", "track driver"] },
+        "5.7": { "name": "Post-Purchase Delivery Management", "keywords": ["manage delivery", "change delivery date", "delivery instructions"] }
+      },
+      "Retention Stage": {
+        "6.1": { "name": "Continue Browse Recommendation Module", "keywords": ["Continue shopping", "Continue Browse", "Pick up where you left off"] },
+        "6.2": { "name": "Repurchase Recommendation Module", "keywords": ["Buy again", "Repurchase items", "Buy it again", "Reorder from your history"] },
+        "6.3": { "name": "Exclusive Offer for Repeat Customers", "keywords": ["Just for you", "A special offer for our loyal customers", "Your exclusive discount", "Thanks for being a customer"] },
+        "6.4": { "name": "Product Review Submission", "keywords": ["Write a product review", "Rate your purchase", "Share your thoughts", "Review this product"] },
+        "6.5": { "name": "Brand Homepage Entry Access", "keywords": ["Visit the Brand store", "Shop the official store", "More from this brand"] },
+        "6.6": { "name": "Platform Message Center Browse", "keywords": ["Your Notifications", "Your Messages", "Account Updates", "Message Center"] },
+        "6.7": { "name": "Loyalty Program Engagement", "keywords": ["Your rewards", "Loyalty program", "Earn points", "Redeem points", "Member perks"] },
+        "6.8": { "name": "Membership Level Display", "keywords": ["Membership level", "Your status", "Member tier", "Loyalty level"] },
+        "6.9": { "name": "Points Display Section", "keywords": ["Your points", "Rewards balance", "Points earned", "Available credits"] },
+        "6.10": { "name": "Referral Program Usage", "keywords": ["Refer a friend", "Give $10, Get $10", "Share with friends", "Your referral link"] },
+        "6.11": { "name": "Community Forum/Discussion Participation", "keywords": ["Community forum", "Join the conversation", "Ask the community", "Start a discussion"] },
+        "6.12": { "name": "Prime Exclusive Page Browse", "keywords": ["exclusive for Prime members", "Prime exclusive", "Member-only deals"] },
+        "6.13": { "name": "Prime Benefits Explanation Page Browse", "keywords": ["Prime benefits", "What's included in Prime", "Prime features", "Explore your membership details"] },
+        "6.14": { "name": "Prime Trial Entry Access", "keywords": ["Try Prime free", "Start your free trial", "Get a 30-day free trial"] },
+        "6.15": { "name": "Prime Renewal Management", "keywords": ["Manage Prime Membership", "Prime settings", "Your Prime membership", "Renew membership"] },
+        "6.16": { "name": "Trade-in Program Engagement", "keywords": ["trade-in program", "upgrade program", "recycle device", "trade for credit"] },
+        "6.17": { "name": "Accessing Member-Exclusive Content", "keywords": ["member-only content", "exclusive access", "insider content", "VIP tutorials"] }
+      }
+    }
+  }

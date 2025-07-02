@@ -1,0 +1,373 @@
+{
+  "generation_time": "2025-06-23 15:13:31",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Homepage",
+        "typical_url_patterns": [
+          "/",
+          "/?ref_=nav_logo",
+          "/?ref_=footer_logo"
+        ]
+      },
+      {
+        "type_name": "International Homepage",
+        "typical_url_patterns": [
+          "www.amazon.co.uk/",
+          "www.amazon.de/",
+          "www.amazon.ca/",
+          "www.amazon.com.au/"
+        ]
+      },
+      {
+        "type_name": "Corporate & Informational",
+        "typical_url_patterns": [
+          "aboutamazon.com",
+          "blog.aboutamazon.com",
+          "sustainability.aboutamazon.com",
+          "www.amazon.jobs/",
+          "/ir",
+          "phx.corporate-ir.net/"
+        ]
+      },
+      {
+        "type_name": "Advertising Platform",
+        "typical_url_patterns": [
+          "advertising.amazon.com",
+          "/content/product-ads-on-amazon.htm"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "affiliate-program.amazon.com"
+        ]
+      },
+      {
+        "type_name": "Developer Portal",
+        "typical_url_patterns": [
+          "developer.amazon.com"
+        ]
+      },
+      {
+        "type_name": "Subsidiary Brand Homepage",
+        "typical_url_patterns": [
+          "www.zappos.com/",
+          "www.woot.com/",
+          "www.6pm.com/",
+          "www.shopbop.com/",
+          "www.imdb.com/",
+          "www.dpreview.com/",
+          "www.goodreads.com/",
+          "www.abebooks.com/"
+        ]
+      },
+      {
+        "type_name": "International Shipping Information",
+        "typical_url_patterns": [
+          "/International-Shipping-Direct/b?node=230659011",
+          "/gp/browse.html?node=230659011"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Search Results Page (SRP)",
+        "typical_url_patterns": [
+          "/s?k=...",
+          "/s/ref=...",
+          "/s/browse/ref=..."
+        ]
+      },
+      {
+        "type_name": "Category/Department Page",
+        "typical_url_patterns": [
+          "/b?node=...",
+          "/{category-name}/b?node=...",
+          "/books-used-books-textbooks/b/"
+        ]
+      },
+      {
+        "type_name": "Deals Hub (Gold Box / Today's Deals)",
+        "typical_url_patterns": [
+          "/gp/goldbox",
+          "/deals"
+        ]
+      },
+      {
+        "type_name": "Specific Deal Page",
+        "typical_url_patterns": [
+          "/deal/{deal-id}"
+        ]
+      },
+      {
+        "type_name": "Best Sellers",
+        "typical_url_patterns": [
+          "/gp/bestsellers",
+          "/zgbs/"
+        ]
+      },
+      {
+        "type_name": "New Releases",
+        "typical_url_patterns": [
+          "/gp/new-releases/"
+        ]
+      },
+      {
+        "type_name": "Curated/Event Landing Page",
+        "typical_url_patterns": [
+          "/gcx/",
+          "/b?node=...&ref=...GW...",
+          "/oprahsfavoritethings"
+        ]
+      },
+      {
+        "type_name": "Brand Store",
+        "typical_url_patterns": [
+          "/stores/node/",
+          "/stores/page/"
+        ]
+      },
+      {
+        "type_name": "Specialty Storefront",
+        "typical_url_patterns": [
+          "/alm/storefront",
+          "/Handmade/b/",
+          "/luxurystores",
+          "/pharmacy.amazon.com/"
+        ]
+      },
+      {
+        "type_name": "Site Directory",
+        "typical_url_patterns": [
+          "/gp/site-directory"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/dp/{ASIN}",
+          "/gp/product/{ASIN}"
+        ]
+      },
+      {
+        "type_name": "Product Reviews Page",
+        "typical_url_patterns": [
+          "/gp/product-reviews/{ASIN}"
+        ]
+      },
+      {
+        "type_name": "Author/Artist/Creator Page",
+        "typical_url_patterns": [
+          "/e/{creator-id}"
+        ]
+      },
+      {
+        "type_name": "Wish List",
+        "typical_url_patterns": [
+          "/gp/registry/wishlist",
+          "/gp/wishlist"
+        ]
+      },
+      {
+        "type_name": "Gift Registry (Baby, Wedding)",
+        "typical_url_patterns": [
+          "/gp/registry/baby",
+          "/gp/wedding/homepage",
+          "/gp/registry/search"
+        ]
+      },
+      {
+        "type_name": "Coupons Page",
+        "typical_url_patterns": [
+          "/Coupons/b/",
+          "/gp/coupons/"
+        ]
+      },
+      {
+        "type_name": "Outlet/Warehouse Deals/Renewed",
+        "typical_url_patterns": [
+          "/Outlet/b/",
+          "/Warehouse-Deals/b/",
+          "/Certified-Refurbished/b/",
+          "/gp/browse.html?node=12653393011"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/gp/cart/view.html"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/gp/buy/spc/handlers/display.html",
+          "/checkout/"
+        ]
+      },
+      {
+        "type_name": "Sign-In Page",
+        "typical_url_patterns": [
+          "/ap/signin"
+        ]
+      },
+      {
+        "type_name": "Account Registration Page",
+        "typical_url_patterns": [
+          "/ap/register"
+        ]
+      },
+      {
+        "type_name": "Prime Membership Landing Page",
+        "typical_url_patterns": [
+          "/gp/prime",
+          "/prime",
+          "/pr"
+        ]
+      },
+      {
+        "type_name": "Gift Card Store",
+        "typical_url_patterns": [
+          "/gift-cards/b/",
+          "/gp/gc/"
+        ]
+      },
+      {
+        "type_name": "Credit Card & Financing Offers",
+        "typical_url_patterns": [
+          "/compare-credit-card-offers/b/",
+          "/credit/storecard/member",
+          "/gp/cobrandcard/marketing.html"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History & Tracking",
+        "typical_url_patterns": [
+          "/gp/css/order-history"
+        ]
+      },
+      {
+        "type_name": "Returns & Replacements Center",
+        "typical_url_patterns": [
+          "/gp/orc/returns/homepage.html",
+          "/returns/gift"
+        ]
+      },
+      {
+        "type_name": "Help & Customer Service Hub",
+        "typical_url_patterns": [
+          "/gp/help/customer/display.html?nodeId=508510",
+          "/Help/b?node=508510"
+        ]
+      },
+      {
+        "type_name": "Specific Help Topic Page",
+        "typical_url_patterns": [
+          "/gp/help/customer/display.html?nodeId=468520",
+          "/gp/help/customer/display.html?nodeId=468496"
+        ]
+      },
+      {
+        "type_name": "Manage Digital Content & Devices",
+        "typical_url_patterns": [
+          "/gp/digital/fiona/manage",
+          "/hz/mycd/myx",
+          "/yourdigitalitems",
+          "/gp/mas/your-account/myapps"
+        ]
+      },
+      {
+        "type_name": "Amazon Hub/Locker Locator",
+        "typical_url_patterns": [
+          "go.thehub-amazon.com/amazon-hub-locker"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Your Account Hub",
+        "typical_url_patterns": [
+          "/gp/css/homepage.html",
+          "/gp/yourstore/home"
+        ]
+      },
+      {
+        "type_name": "Browsing History",
+        "typical_url_patterns": [
+          "/gp/history"
+        ]
+      },
+      {
+        "type_name": "Subscribe & Save Management",
+        "typical_url_patterns": [
+          "/gp/subscribe-and-save/manager/viewsubscriptions",
+          "/auto-deliveries/landing"
+        ]
+      },
+      {
+        "type_name": "Personalized Recommendations",
+        "typical_url_patterns": [
+          "/gp/yourstore/pym/"
+        ]
+      },
+      {
+        "type_name": "Manage Prime Membership",
+        "typical_url_patterns": [
+          "/gp/subs/primeclub/account/homepage.html"
+        ]
+      },
+      {
+        "type_name": "Language, Country & Currency Preferences",
+        "typical_url_patterns": [
+          "/customer-preferences/edit",
+          "/gp/navigation-country/select-country",
+          "/Currency-Converter/b/"
+        ]
+      },
+      {
+        "type_name": "Trade-In Program",
+        "typical_url_patterns": [
+          "/Electronics/Trade-In/b/",
+          "/Trade-In/b/"
+        ]
+      },
+      {
+        "type_name": "Seller & Publisher Portals",
+        "typical_url_patterns": [
+          "sell.amazon.com",
+          "kdp.amazon.com",
+          "www.acx.com",
+          "/gp/seller-account/"
+        ]
+      },
+      {
+        "type_name": "Digital Service Homepage (Music, Video, Photos)",
+        "typical_url_patterns": [
+          "music.amazon.com",
+          "/gp/video/storefront/",
+          "/photos/home",
+          "/clouddrive"
+        ]
+      },
+      {
+        "type_name": "Appstore",
+        "typical_url_patterns": [
+          "/mobile-apps/b?node=2350149011"
+        ]
+      },
+      {
+        "type_name": "Product Safety Alerts",
+        "typical_url_patterns": [
+          "/your-product-safety-alerts"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "generation_time": "2025-06-28 20:19:14",
+  "company_url": "article.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "About Us / Brand Story",
+        "typical_url_patterns": [
+          "/aboutus",
+          "/ourarticle"
+        ]
+      },
+      {
+        "type_name": "Blog / Content Hub",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "Lookbooks / Inspiration",
+        "typical_url_patterns": [
+          "/lookbook/*",
+          "/lookbooks",
+          "/c/Ideas-and-Inspiration"
+        ]
+      },
+      {
+        "type_name": "Press",
+        "typical_url_patterns": [
+          "/press"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers"
+        ]
+      },
+      {
+        "type_name": "Corporate Responsibility",
+        "typical_url_patterns": [
+          "/c/responsibility-report"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/c/store-*"
+        ]
+      },
+      {
+        "type_name": "Forum Category (Historical)",
+        "typical_url_patterns": [
+          "/forumdisplay.php*"
+        ]
+      },
+      {
+        "type_name": "Forum Thread (Historical)",
+        "typical_url_patterns": [
+          "/showthread.php*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Shop Page",
+        "typical_url_patterns": [
+          "/shop",
+          "/c/all-products"
+        ]
+      },
+      {
+        "type_name": "Primary Category Page",
+        "typical_url_patterns": [
+          "/browse/{id}/{category-name}"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/browse/{id}/{category}-{subcategory}"
+        ]
+      },
+      {
+        "type_name": "Room-Themed Category Page",
+        "typical_url_patterns": [
+          "/browse/{id}/rooms-*",
+          "/room/*",
+          "/c/all-rooms",
+          "/browse/{id}/*-furniture"
+        ]
+      },
+      {
+        "type_name": "Themed Landing Page",
+        "typical_url_patterns": [
+          "/c/best-sellers",
+          "/c/all-dark-wood",
+          "/c/velvet-feature"
+        ]
+      },
+      {
+        "type_name": "Product Collection Page",
+        "typical_url_patterns": [
+          "/collection/{id}/{name}",
+          "/l/{collection-name}",
+          "/c/collections"
+        ]
+      },
+      {
+        "type_name": "Furniture Bundles Page",
+        "typical_url_patterns": [
+          "/furniture-bundles"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/browse/100/new"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search"
+        ]
+      },
+      {
+        "type_name": "RSS Feed (Historical)",
+        "typical_url_patterns": [
+          "/external.php?type=RSS2*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/product/{id}/{name}"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews Page",
+        "typical_url_patterns": [
+          "/reviews"
+        ]
+      },
+      {
+        "type_name": "Favorites / Wishlist",
+        "typical_url_patterns": [
+          "/favorites"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/help-center",
+          "/faq"
+        ]
+      },
+      {
+        "type_name": "Delivery Information",
+        "typical_url_patterns": [
+          "/delivery",
+          "/help-center/delivery"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns",
+          "/help-center/returns"
+        ]
+      },
+      {
+        "type_name": "Financing Information",
+        "typical_url_patterns": [
+          "/financing"
+        ]
+      },
+      {
+        "type_name": "Design Resources",
+        "typical_url_patterns": [
+          "/c/design-resources"
+        ]
+      },
+      {
+        "type_name": "Product Care Information",
+        "typical_url_patterns": [
+          "/browse/{id}/decor-care-products"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/tou"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Main Sale Page",
+        "typical_url_patterns": [
+          "/sale",
+          "/clearance",
+          "/c/sale"
+        ]
+      },
+      {
+        "type_name": "Promotional Campaign Page",
+        "typical_url_patterns": [
+          "/promotion/{id}/{name}",
+          "/c/new-years-sale"
+        ]
+      },
+      {
+        "type_name": "Sale Sub-Category Page",
+        "typical_url_patterns": [
+          "/c/shop-sale-*",
+          "/c/shop-sale"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase",
+        "typical_url_patterns": [
+          "/giftcards/buy"
+        ]
+      },
+      {
+        "type_name": "Currency Switcher",
+        "typical_url_patterns": [
+          "/currency/switch*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Recall Information",
+        "typical_url_patterns": [
+          "/c/recall-information"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/accessibility"
+        ]
+      },
+      {
+        "type_name": "Do Not Sell My Personal Information",
+        "typical_url_patterns": [
+          "/do-not-sell-my-personal-information"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/register.php*"
+        ]
+      },
+      {
+        "type_name": "Trade / Business Program",
+        "typical_url_patterns": [
+          "/business",
+          "/trade"
+        ]
+      },
+      {
+        "type_name": "Forum Member Profile (Historical)",
+        "typical_url_patterns": [
+          "/member.php*"
+        ]
+      },
+      {
+        "type_name": "Forum Member List (Historical)",
+        "typical_url_patterns": [
+          "/memberlist.php*"
+        ]
+      },
+      {
+        "type_name": "Forum Private Messaging (Historical)",
+        "typical_url_patterns": [
+          "/private.php*",
+          "/sendmessage.php*"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

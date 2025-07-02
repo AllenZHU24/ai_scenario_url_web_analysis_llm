@@ -1,0 +1,424 @@
+{
+  "generation_time": "2025-06-30 18:35:20",
+  "company_url": "hearthsong.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.asp",
+          "/welcome.asp",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blogs/blog"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blogs/blog/*"
+        ]
+      },
+      {
+        "type_name": "About Us / Company History",
+        "typical_url_patterns": [
+          "/pages/about-us",
+          "/about/default.htm",
+          "/hearthsong/about/index.asp",
+          "/about/history"
+        ]
+      },
+      {
+        "type_name": "Corporate Giving / Social Responsibility",
+        "typical_url_patterns": [
+          "/pages/corporate-giving",
+          "/playitforward"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/pages/careers",
+          "/about/employment.htm",
+          "/about/employment.asp"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/store-finder"
+        ]
+      },
+      {
+        "type_name": "Wholesale Program",
+        "typical_url_patterns": [
+          "/pages/hearthsong-wholesale"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/en/affiliates-about"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/collections/outdoor-toys",
+          "/collections/indoor-play",
+          "/en/category/outdoor-play/c/*",
+          "/toys-and-games.htm",
+          "/arts-and-interests.htm",
+          "/Department_*.html"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/collections/tents-forts-toys",
+          "/collections/arts-crafts-toys",
+          "/en/shop-all-indoor-play/puppets-%26-stuffed-animals/c/*",
+          "/dolls-and-dollhouses/dolls-and-dollhouses.htm",
+          "/Category_*.html"
+        ]
+      },
+      {
+        "type_name": "Themed Category Page",
+        "typical_url_patterns": [
+          "/collections/sensory-toys",
+          "/collections/unicorns",
+          "/en/interests/science/c/*",
+          "/fairy-toys/fairy-toys.htm",
+          "/i-love-horses/i-love-horses.htm"
+        ]
+      },
+      {
+        "type_name": "Shop by Age Page",
+        "typical_url_patterns": [
+          "/collections/ages-*",
+          "/en/ages/*-years-old/c/*",
+          "/ages-9-to-12/ages-9-to-12.htm",
+          "/shop-by-age.htm"
+        ]
+      },
+      {
+        "type_name": "Shop by Price Page",
+        "typical_url_patterns": [
+          "/collections/fun-gifts-under-30",
+          "/en/Other/Fun-Gifts-under-%2425/c/*",
+          "/gifts-$25-$50/gifts-$25-$50.htm",
+          "/Gifts%2DUnder%2D%2415/Category_*.html"
+        ]
+      },
+      {
+        "type_name": "Shop by Recipient Page",
+        "typical_url_patterns": [
+          "/en/shop-by-recipient/boys-gifts/c/*",
+          "/boys-gifts/boys-gifts.htm",
+          "/Gift%2DIdeas%2Dfor%2DBoys/Category_*.html"
+        ]
+      },
+      {
+        "type_name": "Seasonal & Holiday Shop Page",
+        "typical_url_patterns": [
+          "/collections/valentines-day",
+          "/collections/easter",
+          "/en/category/holidays-%26-celebrations/halloween/c/*",
+          "/christmas/christmas.htm"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/collections/see-whats-new",
+          "/collections/*/see-whats-new",
+          "/see-whats-new/see-whats-new.htm",
+          "/en/narrow-by/see-what's-new/c/*"
+        ]
+      },
+      {
+        "type_name": "Best Sellers Page",
+        "typical_url_patterns": [
+          "/collections/best-sellers",
+          "/weekly-best-sellers/weekly-best-sellers.htm",
+          "/en/narrow-by/best-sellers/c/*"
+        ]
+      },
+      {
+        "type_name": "Top-Rated Products Page",
+        "typical_url_patterns": [
+          "/top-rated-gift-ideas/top-rated-gift-ideas.htm",
+          "/Top-Rated/Feature_*.html"
+        ]
+      },
+      {
+        "type_name": "Award Winners Page",
+        "typical_url_patterns": [
+          "/collections/award-winners",
+          "/award-winners/award-winners.htm",
+          "/en/narrow-by/award-winners/c/*"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Page",
+        "typical_url_patterns": [
+          "/collections/sarahs-silks",
+          "/collections/haba",
+          "/shop-by-brand/shop-by-brand.htm"
+        ]
+      },
+      {
+        "type_name": "HearthSong Exclusives Page",
+        "typical_url_patterns": [
+          "/collections/created-by-hearthsong",
+          "/hearthsong-exclusives/hearthsong-exclusives.htm",
+          "/en/other/exclusive-toys-%26-games/c/*"
+        ]
+      },
+      {
+        "type_name": "All Collections Index Page",
+        "typical_url_patterns": [
+          "/collections"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/site-search?*",
+          "/advanced_search.asp"
+        ]
+      },
+      {
+        "type_name": "Video Gallery",
+        "typical_url_patterns": [
+          "/view-all-videos/view-all-videos.htm",
+          "/HearthSong%2DVideos/Feature_*.html"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/*",
+          "/*_p*.html",
+          "/product.do?*",
+          "/product.asp?*"
+        ]
+      },
+      {
+        "type_name": "Gift Guide / Gift Finder",
+        "typical_url_patterns": [
+          "/pages/gift-guide",
+          "/pages/gift-quiz",
+          "/gift-finder.htm",
+          "/gift_center.asp"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist-main.aspx",
+          "/wish_list.asp",
+          "/hearthsong/secure/wishListRetrieve.do"
+        ]
+      },
+      {
+        "type_name": "Product-Specific Guide",
+        "typical_url_patterns": [
+          "/pages/swing-guide"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Cart / Basket",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart.aspx",
+          "/basket.asp",
+          "/hearthsong/basketRead.do"
+        ]
+      },
+      {
+        "type_name": "Quick Order / Bulk Order",
+        "typical_url_patterns": [
+          "/quick-order.htm",
+          "/quickshop/quickshop.asp",
+          "/hearthsong/quickOrderView.do"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/products/rise-ai-giftcard",
+          "/giftcards/default.htm",
+          "/egift-cards/egift-cards.htm",
+          "/HearthSong-Gift-Certificates_p*.html"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Landing Page",
+        "typical_url_patterns": [
+          "/collections/sale",
+          "/collections/clearance",
+          "/sale.htm",
+          "/view-all-sale/view-all-sale.htm",
+          "/en/sale/save-up-to-60-off/view-all-sale/c/*"
+        ]
+      },
+      {
+        "type_name": "Limited-Time Offers / Daily Deals Page",
+        "typical_url_patterns": [
+          "/collections/limited-time-offers",
+          "/deal-of-the-week/deal-of-the-week.htm",
+          "/en/sale/daily-deals/c/*"
+        ]
+      },
+      {
+        "type_name": "Bundle & Save Offer Page",
+        "typical_url_patterns": [
+          "/collections/buy-2-save",
+          "/buy-more-save-more/buy-more-save-more.htm"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status / Tracking Page",
+        "typical_url_patterns": [
+          "/guest/order-lookup/",
+          "/secure/orderstatus.aspx",
+          "/OrderTracking/OrderTracking_login.asp"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/pages/shipping-terms",
+          "/service/shipping_deliv.htm",
+          "/service/shipping_deliv.html"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/pages/returns-exchanges",
+          "/returns",
+          "/service/returns.html"
+        ]
+      },
+      {
+        "type_name": "Product Guarantee Information",
+        "typical_url_patterns": [
+          "/pages/guarantee",
+          "/service/guarantee"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/pages/contact",
+          "/contactus",
+          "/service/contact_us.htm",
+          "/service/contact_us.asp"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/pages/help-center",
+          "/pages/faqs",
+          "/service/index.htm"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Login Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/login",
+          "/memberlogin.aspx"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/myshop/index.asp",
+          "/member"
+        ]
+      },
+      {
+        "type_name": "Rewards / Loyalty Program",
+        "typical_url_patterns": [
+          "/pages/rewards-program-page",
+          "/playperks/index.asp",
+          "/rewardcard.asp"
+        ]
+      },
+      {
+        "type_name": "Catalog Request",
+        "typical_url_patterns": [
+          "/catalog-request",
+          "/catalog-request.aspx",
+          "/catalog/onlinecatalog.asp"
+        ]
+      },
+      {
+        "type_name": "Sweepstakes / Contest Page",
+        "typical_url_patterns": [
+          "/rules/emailsweepstakes.htm",
+          "/myshop/hs_sweep.asp"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/pages/privacy-policy",
+          "/privacypolicy",
+          "/security/privacypolicy.htm"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/pages/terms-of-use",
+          "/security-termsofuse",
+          "/security/termsofuse.htm",
+          "/security/termsofuse.asp"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/pages/accessibility",
+          "/accessibility-statement"
+        ]
+      },
+      {
+        "type_name": "User Generated Content Policy",
+        "typical_url_patterns": [
+          "/pages/user-generated-content",
+          "/security/usergeneratedcontentterms"
+        ]
+      },
+      {
+        "type_name": "Product Safety / Disclaimer Page",
+        "typical_url_patterns": [
+          "/pages/disclaimer-details",
+          "/disclaimer",
+          "/hearthsong/about/product_safety.asp"
+        ]
+      }
+    ]
+  },
+  "total_types": 51
+}

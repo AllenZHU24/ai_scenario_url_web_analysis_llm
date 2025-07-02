@@ -1,0 +1,865 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "avery.com",
+  "export_time": "2025-06-29 21:06:06",
+  "yearly_analysis_results": {
+    "2017": {
+      "analysis_time": "2025-06-28 22:59:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 17,
+      "valid_content_urls_count": 17,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/gifting",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/weprint/landing.shtml",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/templates",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/address-labels",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/shipping-labels",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/category/products/",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/cards/type/business-cards",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/tabs",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/binders",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/products/dividers",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/birthday",
+        "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/wedding-shower"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/gifting",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Inspiration Gallery",
+            "selection_reason": "Offers inspiration for gifting, attracting customers in the awareness stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/weprint/landing.shtml",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Highlights a key service that can engage customers interested in personalized products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/templates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Templates Hub",
+            "selection_reason": "Provides customers with templates, enhancing their interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/address-labels",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Labels Main Category",
+            "selection_reason": "Focuses on a specific product category that is essential for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/shipping-labels",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Labels Main Category",
+            "selection_reason": "Another crucial product category that customers may consider for their needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/category/products/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products Landing Page",
+            "selection_reason": "Central hub for exploring all products, facilitating customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/cards/type/business-cards",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cards Main Category",
+            "selection_reason": "Targets a specific product line that is popular among customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/tabs",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Line Category (e.g., Binders, Dividers)",
+            "selection_reason": "Highlights another important product category for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/binders",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Line Category (e.g., Binders, Dividers)",
+            "selection_reason": "Essential product category that customers may be interested in."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/dividers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Line Category (e.g., Binders, Dividers)",
+            "selection_reason": "Complements the binders and tabs, providing a full range of organizational products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Inspiration Gallery",
+            "selection_reason": "Encourages exploration of various ideas and inspirations, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/birthday",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Inspiration Gallery",
+            "selection_reason": "Targets a specific occasion, appealing to customers looking for birthday-related products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/wedding-shower",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Inspiration Gallery",
+            "selection_reason": "Focuses on wedding showers, attracting customers interested in event planning."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/gifting",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/weprint/landing.shtml",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/birthday",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/baby-shower",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/templates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Templates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/address-labels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Labels Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/shipping-labels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Labels Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/category/products/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/tabs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Line Category (e.g., Binders, Dividers)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/binders",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Line Category (e.g., Binders, Dividers)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/dividers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Line Category (e.g., Binders, Dividers)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/ideas/galleries/wedding-shower",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Inspiration Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/labels/usage/product-~-container-labels?toggle=printtotheedge",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Labels Main Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135123/https://www.avery.com/products/cards/type/business-cards",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cards Main Category"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-28 22:59:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 25,
+      "valid_content_urls_count": 25,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181218112118/https://www.avery.com/",
+        "https://web.archive.org/web/20181218112118/https://www.avery.com/blank",
+        "https://web.archive.org/web/20181218112118/https://www.avery.com/custom-printing",
+        "https://web.archive.org/web/20181218112118/https://www.avery.com/software/design-and-print/",
+        "https://web.archive.org/web/20181218112118/https://www.avery.com/templates"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/blank",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Blank Labels Landing Page",
+            "selection_reason": "This page showcases blank labels, attracting customers interested in customizable products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/custom-printing",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "This hub provides information on custom printing services, appealing to customers looking for personalized solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This page offers design tools, enhancing customer interest in creating custom products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/templates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Templates Hub",
+            "selection_reason": "This hub provides templates for various products, helping customers visualize their options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/blank",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Blank Labels Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/custom-printing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/templates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Templates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181218112118/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-28 22:59:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 25,
+      "valid_content_urls_count": 25,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191210062004/https://www.avery.com/",
+        "https://web.archive.org/web/20191210062004/https://www.avery.com/software/design-and-print/",
+        "https://web.archive.org/web/20191210062004/https://www.avery.com/custom-printing/",
+        "https://web.archive.org/web/20191210062004/https://www.avery.com/blank",
+        "https://web.archive.org/web/20191210062004/https://www.avery.com/templates"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This URL offers tools that engage customers in the design process, enhancing their interest in the products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/custom-printing/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "This URL highlights custom printing services, which are crucial for customers considering personalized products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/blank",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Blank Labels Landing Page",
+            "selection_reason": "This URL provides information on blank labels, appealing to customers looking for versatile options."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/templates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Templates Hub",
+            "selection_reason": "This URL offers templates that facilitate product customization, increasing customer engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/custom-printing/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/blank",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Blank Labels Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/templates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Templates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210062004/https://www.avery.com/custom-printing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-28 22:59:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 25,
+      "valid_content_urls_count": 25,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/",
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/templates",
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/software/design-and-print/",
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing/",
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/blank/",
+        "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/templates",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Templates Hub",
+            "selection_reason": "This page provides valuable templates that attract customer interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "Offers design tools that enhance customer engagement and interest in product customization."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Highlights custom printing services, appealing to customers looking for personalized solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/blank/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Blank Labels Landing Page",
+            "selection_reason": "Focuses on blank labels, catering to customers interested in DIY solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Reinforces the custom printing service, providing multiple entry points for customer interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/templates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Templates Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/blank/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Blank Labels Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/custom-printing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044500/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-28 22:59:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 20,
+      "valid_content_urls_count": 20,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211221004115/https://www.avery.com/",
+        "https://web.archive.org/web/20211221004115/https://www.avery.com/software/design-and-print/"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211221004115/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211221004115/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This URL offers valuable tools that engage customers and stimulate interest in products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211221004115/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211221004115/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-28 22:59:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 20,
+      "valid_content_urls_count": 20,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221221100021/https://www.avery.com/",
+        "https://web.archive.org/web/20221221100021/https://www.avery.com/software/design-and-print/"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221221100021/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221221100021/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This URL offers valuable tools that engage customers and stimulate interest in the products."
+          }
+        ],
+        "total_recommendations": 2,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221221100021/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221221100021/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-28 22:59:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 2,
+      "valid_content_urls_count": 2,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231223233658/https://www.avery.com/",
+        "https://web.archive.org/web/20231223233658/https://www.avery.com/software/design-and-print/"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231223233658/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential brand information and navigation to other resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223233658/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This URL offers valuable tools that engage customers and help them visualize product applications, enhancing their interest."
+          }
+        ],
+        "total_recommendations": 2,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231223233658/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223233658/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-28 22:59:43",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 5,
+      "valid_content_urls_count": 5,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241224233203/https://www.avery.com/",
+        "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/custom-stickers/",
+        "https://web.archive.org/web/20241224233203/https://www.avery.com/blank/",
+        "https://web.archive.org/web/20241224233203/https://www.avery.com/software/design-and-print/",
+        "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/labels/"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/custom-stickers/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "This page showcases a specific product category that can generate interest among potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/blank/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Blank Labels Landing Page",
+            "selection_reason": "This page provides information on blank labels, appealing to customers looking for customizable options."
+          },
+          {
+            "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "This resource is essential for customers interested in design tools, enhancing their engagement with the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/labels/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "This page focuses on custom labels, which is a key product offering that can drive customer interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/custom-stickers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/blank/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Blank Labels Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241224233203/https://www.avery.com/custom-printing/labels/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-28 22:59:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 8,
+      "valid_content_urls_count": 8,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/labels/calculator/sheets",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/software/design-and-print/",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/custom-stickers/",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/packaging/calculator/stand-up-pouches",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/category/products/",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/blank/",
+        "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/cards/"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/labels/calculator/sheets",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Offers a specific service that engages customers' interest in custom printing."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/software/design-and-print/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Software & Design Tools Hub",
+            "selection_reason": "Provides tools that enhance customer engagement and interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/custom-stickers/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Highlights a popular product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/packaging/calculator/stand-up-pouches",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Custom Printing Service Hub",
+            "selection_reason": "Engages customers looking for specific packaging solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/category/products/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products Landing Page",
+            "selection_reason": "Central hub for exploring all available products, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/blank/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Blank Labels Landing Page",
+            "selection_reason": "Targets a specific product category that may lead to purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/cards/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Cards Main Category",
+            "selection_reason": "Focuses on a specific product line that can drive customer interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/labels/calculator/sheets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/software/design-and-print/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Software & Design Tools Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/custom-stickers/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/packaging/calculator/stand-up-pouches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Custom Printing Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/category/products/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/blank/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Blank Labels Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250520153906/https://www.avery.com/custom-printing/cards/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cards Main Category"
+        }
+      ]
+    }
+  }
+}

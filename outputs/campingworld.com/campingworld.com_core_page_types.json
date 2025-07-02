@@ -1,0 +1,353 @@
+{
+  "generation_time": "2025-06-30 04:23:19",
+  "company_url": "campingworld.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blog/",
+          "/rvexpertcenter/"
+        ]
+      },
+      {
+        "type_name": "Blog Category",
+        "typical_url_patterns": [
+          "/blog/archives/category/*"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/rvexpertcenter/[post-slug]/[id]/",
+          "/blog/archives/[post-slug].html"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/stores/",
+          "/on/demandware.store/Sites-CampingWorld-Site/default/Stores-ShowGlobalStoreLocator*"
+        ]
+      },
+      {
+        "type_name": "Store Detail Page",
+        "typical_url_patterns": [
+          "/stores/[state]/[city]/[id]/"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/aboutus/",
+          "/about-marcus-lemonis.html"
+        ]
+      },
+      {
+        "type_name": "Promotions & Ads",
+        "typical_url_patterns": [
+          "/ads.html",
+          "/deals-services/deals",
+          "/search?pmid=*"
+        ]
+      },
+      {
+        "type_name": "Services Hub",
+        "typical_url_patterns": [
+          "/services/",
+          "/deals-services/",
+          "/performance-centers.html"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category",
+        "typical_url_patterns": [
+          "/electronics",
+          "/hitch-tow",
+          "/covers",
+          "/department/[name]/[id]"
+        ]
+      },
+      {
+        "type_name": "Sub-Category (PLP)",
+        "typical_url_patterns": [
+          "/[category]/[subcategory]",
+          "/category/[name]/[id]"
+        ]
+      },
+      {
+        "type_name": "RV Sales Home",
+        "typical_url_patterns": [
+          "/rvsales/"
+        ]
+      },
+      {
+        "type_name": "RV Type Listing (VLP)",
+        "typical_url_patterns": [
+          "/rvsales/class-a-gas/",
+          "/rvsales/fifth-wheel/",
+          "/rvsales/class-c/[id]"
+        ]
+      },
+      {
+        "type_name": "RV Brand Listing",
+        "typical_url_patterns": [
+          "/rvsales/brand/[name]/[id]",
+          "/[brand]-rv/[id]"
+        ]
+      },
+      {
+        "type_name": "RV Manufacturer Directory",
+        "typical_url_patterns": [
+          "/rvsales/rv-manufacturers/"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search?*",
+          "/search/index.cfm?*"
+        ]
+      },
+      {
+        "type_name": "Guides & Tools",
+        "typical_url_patterns": [
+          "/rvexpertcenter/",
+          "/RV-type-checklist.html",
+          "/tips/"
+        ]
+      },
+      {
+        "type_name": "Hard-to-Find Parts",
+        "typical_url_patterns": [
+          "/hardtofindparts/"
+        ]
+      },
+      {
+        "type_name": "Apparel Category",
+        "typical_url_patterns": [
+          "/apparel-footwear/*"
+        ]
+      },
+      {
+        "type_name": "Lifestyle Category",
+        "typical_url_patterns": [
+          "/lifestyle/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail (PDP)",
+        "typical_url_patterns": [
+          "/[product-name]-[id].html",
+          "/shopping/item/*",
+          "/shopping/product/*",
+          "/browse/skus/index.cfm*"
+        ]
+      },
+      {
+        "type_name": "RV Detail (VDP)",
+        "typical_url_patterns": [
+          "/rvsales/[type]/[year]/[make-model]/[id]/"
+        ]
+      },
+      {
+        "type_name": "Filtered Search / Category",
+        "typical_url_patterns": [
+          "/[category]?prefn1=*",
+          "/search/index.cfm?*N=*&Ne=*"
+        ]
+      },
+      {
+        "type_name": "Product Finder Tool",
+        "typical_url_patterns": [
+          "/rv-cover-tool.html"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews",
+        "typical_url_patterns": [
+          "/camping-world-reviews.html"
+        ]
+      },
+      {
+        "type_name": "Good Sam Membership Info",
+        "typical_url_patterns": [
+          "/deals-services/good-sam",
+          "/goodsamclub/benefits/"
+        ]
+      },
+      {
+        "type_name": "Roadside Assistance Info",
+        "typical_url_patterns": [
+          "/*-roadside-assistance-*.html",
+          "/roadside/",
+          "/travelassist"
+        ]
+      },
+      {
+        "type_name": "Credit Card Info",
+        "typical_url_patterns": [
+          "/goodsamcreditcard.html",
+          "/goodsamvisa/"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist"
+        ]
+      },
+      {
+        "type_name": "RV Rentals Info",
+        "typical_url_patterns": [
+          "/rvrentals/"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/order/"
+        ]
+      },
+      {
+        "type_name": "User Registration",
+        "typical_url_patterns": [
+          "/register",
+          "/account-login?action=register"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase",
+        "typical_url_patterns": [
+          "/gift-cards.html",
+          "/browse/giftCertificates.cfm"
+        ]
+      },
+      {
+        "type_name": "Good Sam Membership Purchase",
+        "typical_url_patterns": [
+          "/join-goodsam",
+          "/pc/join.cfm"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation",
+        "typical_url_patterns": [
+          "/order/confirmation"
+        ]
+      },
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/track-my-order",
+          "/orderstatus.cfm"
+        ]
+      },
+      {
+        "type_name": "Service Tracking",
+        "typical_url_patterns": [
+          "/service-tracker"
+        ]
+      },
+      {
+        "type_name": "RV Service Center",
+        "typical_url_patterns": [
+          "/rv-service-parts/",
+          "/rv-service-parts/rv-product-installation/"
+        ]
+      },
+      {
+        "type_name": "RV Collision Repair",
+        "typical_url_patterns": [
+          "/rv-service-parts/rv-collision-repair/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/account/orderhistory/"
+        ]
+      },
+      {
+        "type_name": "Account Preferences",
+        "typical_url_patterns": [
+          "/account/preferences"
+        ]
+      },
+      {
+        "type_name": "Good Sam Renewal",
+        "typical_url_patterns": [
+          "/goodsamclub/renew/",
+          "/pc/renew.cfm"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/helpcenter",
+          "/help/",
+          "/help/faq/"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact",
+          "/contact/contactus.cfm"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy",
+        "typical_url_patterns": [
+          "/termsOfUse.html",
+          "/privacyPolicy.html",
+          "/caSupplyChainDisclosure.html",
+          "/accessibilityPolicy.html"
+        ]
+      },
+      {
+        "type_name": "Product Recalls",
+        "typical_url_patterns": [
+          "/noticesRecalls.html",
+          "/recall_fan/"
+        ]
+      },
+      {
+        "type_name": "Catalog Request",
+        "typical_url_patterns": [
+          "/catalog-request",
+          "/catalog/"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

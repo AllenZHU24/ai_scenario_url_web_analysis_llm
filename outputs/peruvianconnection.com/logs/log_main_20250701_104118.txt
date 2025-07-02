@@ -1,0 +1,183 @@
+2025-07-01 10:41:18,002 - INFO - 📋 日志系统已初始化: outputs/peruvianconnection.com/logs/log_main_20250701_104118.txt
+2025-07-01 10:41:18,002 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-01 10:41:18,002 - INFO - 📊 公司: peruvianconnection.com
+2025-07-01 10:41:18,004 - INFO - ✅ 成功读取 16 个历史URLs from ./inputs/peruvianconnection.com.txt
+2025-07-01 10:41:18,004 - INFO - 🌐 开始URL处理...
+2025-07-01 10:41:18,005 - INFO - 🌐 开始处理公司URLs: peruvianconnection.com
+2025-07-01 10:41:18,008 - INFO - 🔄 发现已存在的链接文件: outputs/peruvianconnection.com/peruvianconnection.com_filtered_links.json，已加载 16 年的数据，将进行增量处理
+2025-07-01 10:41:18,008 - INFO - ⏭️ 跳过 2009 年，已有 29 个链接
+2025-07-01 10:41:18,008 - INFO - ⏭️ 跳过 2010 年，已有 36 个链接
+2025-07-01 10:41:18,008 - INFO - ⏭️ 跳过 2011 年，已有 79 个链接
+2025-07-01 10:41:18,008 - INFO - ⏭️ 跳过 2012 年，已有 115 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2013 年，已有 178 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2014 年，已有 177 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2015 年，已有 207 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2016 年，已有 209 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2018 年，已有 216 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2019 年，已有 224 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2020 年，已有 225 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2021 年，已有 437 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2022 年，已有 444 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2023 年，已有 36 个链接
+2025-07-01 10:41:18,009 - INFO - ⏭️ 跳过 2024 年，已有 39 个链接
+2025-07-01 10:41:18,010 - INFO - ⏭️ 跳过 2025 年，已有 58 个链接
+2025-07-01 10:41:18,018 - INFO - 💾 链接处理完成，共 2709 个链接已保存到: outputs/peruvianconnection.com/peruvianconnection.com_filtered_links.json
+2025-07-01 10:41:18,020 - INFO - ✅ 成功加载 16 年的链接数据
+2025-07-01 10:41:18,020 - INFO - ✅ URL处理完成，共处理 16 年的数据
+2025-07-01 10:41:18,020 - INFO - 🧠 开始LLM规划...
+2025-07-01 10:41:18,212 - INFO - 🚀 LLM规划器已初始化
+2025-07-01 10:41:18,212 - INFO - 🧠 开始识别核心页面类型...
+2025-07-01 10:41:18,215 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-01 10:41:24,680 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:42:09,001 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-01 10:42:09,003 - INFO - ✅ 核心页面类型识别完成，共 47 个类型已保存到: outputs/peruvianconnection.com/peruvianconnection.com_core_page_types.json
+2025-07-01 10:42:09,003 - INFO - ✅ 核心页面类型已生成: outputs/peruvianconnection.com/peruvianconnection.com_core_page_types.json
+2025-07-01 10:42:09,003 - INFO - 🤖 开始生成LLM规划...
+2025-07-01 10:42:09,009 - INFO - 🔍 处理 2009 年的规划...
+2025-07-01 10:42:09,011 - INFO - ✅ URL正则匹配完成，共过滤出8/29个classified_urls
+2025-07-01 10:42:09,011 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:42:09,596 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:42:24,641 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:42:24,641 - INFO - ✅ URL推荐完成: 8 个推荐，8 个在有效页面内
+2025-07-01 10:42:24,642 - INFO - ✅ 2009 年规划完成: 推荐 8 个核心URL
+2025-07-01 10:42:24,642 - INFO - 🔍 处理 2010 年的规划...
+2025-07-01 10:42:24,643 - INFO - ✅ URL正则匹配完成，共过滤出20/36个classified_urls
+2025-07-01 10:42:24,643 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:42:25,238 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:42:46,657 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:42:46,657 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:42:46,657 - INFO - ✅ 2010 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:42:46,659 - INFO - 🔍 处理 2011 年的规划...
+2025-07-01 10:42:46,673 - INFO - ✅ URL正则匹配完成，共过滤出24/79个classified_urls
+2025-07-01 10:42:46,674 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:42:47,478 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:43:17,139 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:43:17,140 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:43:17,140 - INFO - ✅ 2011 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:43:17,142 - INFO - 🔍 处理 2012 年的规划...
+2025-07-01 10:43:17,145 - INFO - ✅ URL正则匹配完成，共过滤出22/115个classified_urls
+2025-07-01 10:43:17,145 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:43:17,736 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:43:40,158 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:43:40,158 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-07-01 10:43:40,159 - INFO - ✅ 2012 年规划完成: 推荐 14 个核心URL
+2025-07-01 10:43:40,161 - INFO - 🔍 处理 2013 年的规划...
+2025-07-01 10:43:40,167 - INFO - ✅ URL正则匹配完成，共过滤出21/178个classified_urls
+2025-07-01 10:43:40,168 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:43:40,864 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:44:06,086 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:44:06,086 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:44:06,086 - INFO - ✅ 2013 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:44:06,090 - INFO - 🔍 处理 2014 年的规划...
+2025-07-01 10:44:06,099 - INFO - ✅ URL正则匹配完成，共过滤出20/177个classified_urls
+2025-07-01 10:44:06,099 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:44:07,052 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:44:36,520 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:44:36,520 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:44:36,520 - INFO - ✅ 2014 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:44:36,522 - INFO - 🔍 处理 2015 年的规划...
+2025-07-01 10:44:36,528 - INFO - ✅ URL正则匹配完成，共过滤出24/207个classified_urls
+2025-07-01 10:44:36,528 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:44:37,108 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:44:56,500 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:44:56,501 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:44:56,501 - INFO - ✅ 2015 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:44:56,504 - INFO - 🔍 处理 2016 年的规划...
+2025-07-01 10:44:56,511 - INFO - ✅ URL正则匹配完成，共过滤出23/209个classified_urls
+2025-07-01 10:44:56,512 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:44:57,170 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:45:22,883 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:45:22,883 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:45:22,883 - INFO - ✅ 2016 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:45:22,890 - INFO - 🔍 处理 2018 年的规划...
+2025-07-01 10:45:22,913 - INFO - ✅ URL正则匹配完成，共过滤出25/216个classified_urls
+2025-07-01 10:45:22,913 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:45:23,542 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:45:44,862 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:45:44,862 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:45:44,862 - INFO - ✅ 2018 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:45:44,866 - INFO - 🔍 处理 2019 年的规划...
+2025-07-01 10:45:44,872 - INFO - ✅ URL正则匹配完成，共过滤出24/224个classified_urls
+2025-07-01 10:45:44,872 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:45:45,675 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:46:08,044 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:46:08,044 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-07-01 10:46:08,045 - INFO - ✅ 2019 年规划完成: 推荐 14 个核心URL
+2025-07-01 10:46:08,063 - INFO - 🔍 处理 2020 年的规划...
+2025-07-01 10:46:08,086 - INFO - ✅ URL正则匹配完成，共过滤出23/225个classified_urls
+2025-07-01 10:46:08,087 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:46:08,735 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:46:32,971 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:46:32,971 - INFO - ✅ URL推荐完成: 15 个推荐，14 个在有效页面内
+2025-07-01 10:46:32,971 - INFO - ✅ 2020 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:46:32,982 - INFO - 🔍 处理 2021 年的规划...
+2025-07-01 10:46:32,995 - INFO - ✅ URL正则匹配完成，共过滤出27/437个classified_urls
+2025-07-01 10:46:32,995 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:46:33,716 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:46:59,324 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:46:59,324 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:46:59,324 - INFO - ✅ 2021 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:46:59,330 - INFO - 🔍 处理 2022 年的规划...
+2025-07-01 10:46:59,345 - INFO - ✅ URL正则匹配完成，共过滤出25/444个classified_urls
+2025-07-01 10:46:59,345 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:46:59,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:47:25,805 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:47:25,805 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-07-01 10:47:25,805 - INFO - ✅ 2022 年规划完成: 推荐 14 个核心URL
+2025-07-01 10:47:25,813 - INFO - 🔍 处理 2023 年的规划...
+2025-07-01 10:47:25,814 - INFO - ✅ URL正则匹配完成，共过滤出20/36个classified_urls
+2025-07-01 10:47:25,814 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:47:26,496 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:47:48,616 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:47:48,616 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:47:48,617 - INFO - ✅ 2023 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:47:48,624 - INFO - 🔍 处理 2024 年的规划...
+2025-07-01 10:47:48,625 - INFO - ✅ URL正则匹配完成，共过滤出22/39个classified_urls
+2025-07-01 10:47:48,626 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:47:49,224 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:48:12,998 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:48:12,998 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:48:12,998 - INFO - ✅ 2024 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:48:13,005 - INFO - 🔍 处理 2025 年的规划...
+2025-07-01 10:48:13,006 - INFO - ✅ URL正则匹配完成，共过滤出22/58个classified_urls
+2025-07-01 10:48:13,007 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 10:48:13,828 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 10:48:41,385 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 10:48:41,386 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-07-01 10:48:41,386 - INFO - ✅ 2025 年规划完成: 推荐 15 个核心URL
+2025-07-01 10:48:41,432 - INFO - 💾 LLM规划全部年份处理完成，共 230 个推荐URL已保存到: outputs/peruvianconnection.com/peruvianconnection.com_llm_planning.json
+2025-07-01 10:48:41,434 - INFO - ✅ 成功加载 16 年的规划数据
+2025-07-01 10:48:41,434 - INFO - ✅ LLM规划完成: outputs/peruvianconnection.com/peruvianconnection.com_llm_planning.json
+2025-07-01 10:48:41,434 - INFO - 🔍 开始场景分析...
+2025-07-01 10:48:41,435 - INFO - ✅ 成功加载 70 个微场景
+2025-07-01 10:48:41,436 - INFO - 🔍 场景分析器已初始化
+2025-07-01 10:48:41,436 - INFO - 🔍 开始分析场景: peruvianconnection.com
+2025-07-01 10:48:41,437 - INFO - 🔍 分析 2009 年的场景...
+2025-07-01 10:48:41,438 - INFO - 📄 [2009] 分析页面 1/8
+2025-07-01 10:48:44,338 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104844.txt
+2025-07-01 10:48:45,339 - INFO - 📄 [2009] 分析页面 2/8
+2025-07-01 10:48:46,805 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104846.txt
+2025-07-01 10:48:47,805 - INFO - 📄 [2009] 分析页面 3/8
+2025-07-01 10:48:49,234 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104849.txt
+2025-07-01 10:48:50,235 - INFO - 📄 [2009] 分析页面 4/8
+2025-07-01 10:48:54,210 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104854.txt
+2025-07-01 10:48:55,211 - INFO - 📄 [2009] 分析页面 5/8
+2025-07-01 10:48:56,696 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104856.txt
+2025-07-01 10:48:57,697 - INFO - 📄 [2009] 分析页面 6/8
+2025-07-01 10:49:00,642 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104900.txt
+2025-07-01 10:49:01,643 - INFO - 📄 [2009] 分析页面 7/8
+2025-07-01 10:49:18,276 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20091224020201/http://www.peruvianconnection.com/account.do?method=start: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-07-01 10:49:19,276 - INFO - 📄 [2009] 分析页面 8/8
+2025-07-01 10:49:21,559 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2009_20250701_104921.txt
+2025-07-01 10:49:22,561 - INFO - ✅ 2009 年场景分析完成: 3 个场景
+2025-07-01 10:49:22,561 - INFO - ✅ 场景分析结果已导出到: outputs/peruvianconnection.com/peruvianconnection.com_scenarios.json
+2025-07-01 10:49:22,561 - INFO - 🔍 分析 2010 年的场景...
+2025-07-01 10:49:22,562 - INFO - 📄 [2010] 分析页面 1/15
+2025-07-01 10:49:26,605 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2010_20250701_104926.txt
+2025-07-01 10:49:27,605 - INFO - 📄 [2010] 分析页面 2/15
+2025-07-01 10:49:29,436 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2010_20250701_104929.txt
+2025-07-01 10:49:30,437 - INFO - 📄 [2010] 分析页面 3/15
+2025-07-01 10:49:32,091 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2010_20250701_104932.txt
+2025-07-01 10:49:33,093 - INFO - 📄 [2010] 分析页面 4/15
+2025-07-01 10:49:34,750 - INFO - 💾 内容已保存到: outputs/peruvianconnection.com/websites/2010_20250701_104934.txt
+2025-07-01 10:49:35,751 - INFO - 📄 [2010] 分析页面 5/15

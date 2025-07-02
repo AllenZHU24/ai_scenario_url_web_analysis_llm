@@ -1,0 +1,2623 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "leathertree.com",
+  "export_time": "2025-07-01 10:52:21",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-01 01:55:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 112,
+      "valid_content_urls_count": 112,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/aboutus.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/payment_types.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipping.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/returnpolicy.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipment_tracking.asp",
+        "https://web.archive.org/web/20091227071434/http://www.leathertree.com/contactus.asp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/aboutus.asp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, building trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Engages customers looking for holiday gift ideas."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Briefcases",
+            "selection_reason": "Key product category that attracts professional customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Targets customers looking for Valentine's Day gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/payment_types.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Payment Options",
+            "selection_reason": "Important for customers to understand payment methods before purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipping.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Critical information for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/returnpolicy.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Reassures customers about their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Birthday",
+            "selection_reason": "Engages customers looking for birthday gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Seasonal",
+            "selection_reason": "Targets customers looking for Mother's Day gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "Encourages customer retention through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipment_tracking.asp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipment Tracking",
+            "selection_reason": "Essential for customers to track their orders post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/contactus.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with support and assistance options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 59,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/employment.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers / Employment"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/additional_sites.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Related Sites / Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227071434/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-01 01:55:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 113,
+      "valid_content_urls_count": 113,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/contactus.asp",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shipping.asp",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Backpacks-21/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leathercare.asp",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Laptop-Bags-44/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "A key product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Duffle Bags & Luggage",
+            "selection_reason": "Another important product category that showcases a variety of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Life Event",
+            "selection_reason": "Targets customers looking for specific gifts, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/contactus.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Essential for customer inquiries and building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers ready to make a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shipping.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Important for customers to understand shipping options before purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Targets seasonal shoppers, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Backpacks-21/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Backpacks & Backpack Purses",
+            "selection_reason": "A popular product category that attracts significant interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Seasonal",
+            "selection_reason": "Appeals to customers looking for gifts during specific occasions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leathercare.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Leather Care Guide",
+            "selection_reason": "Provides valuable information that can influence purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "Encourages customer retention through ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Laptop Bags",
+            "selection_reason": "A relevant product category that meets the needs of tech-savvy customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 61,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/employment.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers / Employment"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/additional_sites.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Related Sites / Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/press.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Media"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20101213192827/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-01 01:55:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 116,
+      "valid_content_urls_count": 116,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/aboutus.asp",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Briefcases-2/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/payment_types.asp",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipping.asp",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/returnpolicy.asp",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipment_tracking.asp"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/aboutus.asp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, establishing trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "Highlights a popular product category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "Another key product category that appeals to a different demographic."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Briefcases-2/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Briefcases",
+            "selection_reason": "Focuses on professional products, catering to business customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Laptop Bags",
+            "selection_reason": "Targets tech-savvy customers looking for practical solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Birthday",
+            "selection_reason": "Encourages gift purchases, tapping into seasonal buying behavior."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Promotes holiday shopping, a critical sales period."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/payment_types.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Payment Options",
+            "selection_reason": "Informs customers about payment methods, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipping.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Essential for customers to understand delivery options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/returnpolicy.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Builds customer confidence by clarifying return processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases and enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "Encourages ongoing engagement and repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipment_tracking.asp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipment Tracking",
+            "selection_reason": "Enhances customer satisfaction by providing tracking information."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 61,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/press.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Media"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/iPad-Holders-74/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Tech Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/additional_sites.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Related Sites / Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20111213154337/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-01 01:56:06",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 115,
+      "valid_content_urls_count": 115,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Wallets-67/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shipment_tracking.asp",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/contactus.asp",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/returnpolicy.asp",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leathercare.asp",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+        "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Wedding Party",
+            "selection_reason": "Targets customers looking for specific gifts, enhancing interest in the product range."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Wallets-67/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "A popular product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Seasonal",
+            "selection_reason": "Seasonal gift guides are crucial for driving sales during specific times of the year."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for the purchase process, facilitating customer transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shipment_tracking.asp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipment Tracking",
+            "selection_reason": "Important for customer satisfaction post-purchase, allowing tracking of orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "Helps retain customers by keeping them informed about new products and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/contactus.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with a way to reach out for inquiries, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/returnpolicy.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Critical for customer confidence in making a purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leathercare.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Leather Care Guide",
+            "selection_reason": "Educates customers on product maintenance, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Life Event",
+            "selection_reason": "Targets customers looking for gifts for significant life events."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Duffle Bags & Luggage",
+            "selection_reason": "Popular product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Seasonal gift guide that drives sales during the holiday season."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 61,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/iPad-Holders-74/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Tech Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/press.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Media"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121218090051/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 01:56:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 115,
+      "valid_content_urls_count": 115,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/aboutus.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/blog/",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Briefcases-2/",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/giftcertificates.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipping.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/returnpolicy.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipment_tracking.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/contactus.asp",
+        "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leathercare.asp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/aboutus.asp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and informs customers about the brand's values and history."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/blog/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "This category showcases a popular product line, generating interest among customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Wallets",
+            "selection_reason": "Similar to the men's wallets, this category appeals to a significant customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Briefcases-2/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Briefcases",
+            "selection_reason": "Briefcases are a key product offering that attracts professional customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "This page is crucial for customers ready to make a purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/giftcertificates.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Certificate Purchase Page",
+            "selection_reason": "Gift certificates are a popular choice, especially during holidays, enhancing customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipping.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Shipping details are essential for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/returnpolicy.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "A clear return policy helps alleviate customer concerns during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "This page encourages customer retention through ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipment_tracking.asp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipment Tracking",
+            "selection_reason": "Tracking shipments is critical for customer satisfaction post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/contactus.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Providing contact information is vital for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leathercare.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Leather Care Guide",
+            "selection_reason": "This guide helps customers understand product maintenance, influencing their purchase decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 59,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/press.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Media"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/iPad-Holders-74/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Tech Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131221001140/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 01:56:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 116,
+      "valid_content_urls_count": 116,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/aboutus.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipping.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/privacypolicy.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/giftcertificates.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shopping_cart.asp?c=1",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipment_tracking.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/emailalert.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leathercare.asp",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+        "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Valentines-Day-30/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/aboutus.asp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, enhancing customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Seasonal",
+            "selection_reason": "Engages customers looking for specific seasonal gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Category: Desk & Office Accessories",
+            "selection_reason": "Highlights a specific product category that may attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipping.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Critical for customers evaluating purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/privacypolicy.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building customer trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/giftcertificates.asp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Certificate Purchase Page",
+            "selection_reason": "Facilitates a direct purchase decision for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shopping_cart.asp?c=1",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "A crucial step in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipment_tracking.asp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipment Tracking",
+            "selection_reason": "Important for customers to track their orders post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/emailalert.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup / Email Alert",
+            "selection_reason": "Encourages customer retention through ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leathercare.asp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Leather Care Guide",
+            "selection_reason": "Provides valuable information that can influence purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Life Event",
+            "selection_reason": "Targets customers looking for specific life event gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide: Holiday",
+            "selection_reason": "Engages customers during a popular gifting season."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 60,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Fathers-Day-Gifts-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipping.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Desk-Sets-56/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Portfolios-70/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/press.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Media"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Tote-Bags-9/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Graduation-Gifts-41/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Life Event"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Womens-Wallets-69/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Valentines-Day-30/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Womens-Briefcases-49/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Her-18/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/iPad-Holders-74/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Tech Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Toiletry-Manicure-Cases-31/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Secretarys-Day-43/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/giftcertificates.asp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Certificate Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Padfolios-62/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Briefcases-2/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/privacypolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Laptop-Bags-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Laptop Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Conference-Room-Leather-Accessories-72/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Bridesmaids-Gifts-44/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Mens-Briefcases-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Desk-Pads-58/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Desk & Office Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/contactus.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leathercare.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Leather Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Luggage-7/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Wheeled-Briefcases-52/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wheeled Briefcases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Bosses-Day-Gifts-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Professional"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Lawyers-Briefcases-51/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Wallets-67/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/payment_types.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Payment Options"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Christmas-Gifts-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Mens-Wallets-68/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Wallets"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Backpacks-21/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shopping_cart.asp?c=1",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Backpack-Purses-32/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Backpacks & Backpack Purses"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Mens-Messenger-Bags-61/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/company-gifts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Gifts Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Jewelry-Boxes-Valets-34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Personal & Travel Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/returnpolicy.asp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Mothers-Day-Gifts-48/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Seasonal"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Duffle-Bags-6/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Duffle Bags & Luggage"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Pilot-Cases-36/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/emailalert.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup / Email Alert"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Purses-4/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Groomsmen-Gifts-40/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Wedding Party"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Catalog-Cases-35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Specialty Professional Cases"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/shipment_tracking.asp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipment Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Her-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Birthday-Gifts-For-Him-47/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Hanukkah-Gifts-39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Holiday"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/https://www.leathertree.com/affiliates.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Mens-handbags-22/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Purses, Totes & Handbags"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Binders-42/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Portfolios, Padfolios & Binders"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-gifts/Anniversary-Gifts-For-Him-45/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide: Anniversary"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/aboutus.asp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20140605142224/http://www.leathertree.com/leather-products/Messenger-Bags-33/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Category: Messenger Bags"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 01:56:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241210010934/http://leathertree.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241210010934/http://leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241210010934/http://leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-01 01:56:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250417141006/http://leathertree.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250417141006/http://leathertree.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250417141006/http://leathertree.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

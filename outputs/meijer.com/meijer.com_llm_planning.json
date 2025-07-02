@@ -1,0 +1,3356 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "meijer.com",
+  "export_time": "2025-07-01 10:52:38",
+  "yearly_analysis_results": {
+    "2011": {
+      "analysis_time": "2025-07-01 04:17:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 297,
+      "valid_content_urls_count": 297,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/home.jsp",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/custserv/store_locator.jsp",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content.jsp?pageName=holiday_gift_finder&icid=ssleftnav",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+        "https://web.archive.org/web/20111231200409/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/FAQ.cms",
+        "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/preregister.jsp?icmpid=headercreateaccount",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/rewards",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/s/gift-cards/_/N-41p",
+        "https://web.archive.org/web/20111231200409/http://www.meijer.com/Legal_Notice.cms",
+        "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/login.jsp?icmpid=headersignin"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/home.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/custserv/store_locator.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content.jsp?pageName=holiday_gift_finder&icid=ssleftnav",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holiday & Gift Guide",
+            "selection_reason": "Engages customers during holiday shopping."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides information on pharmacy services, a key consideration for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/FAQ.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides essential support information for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/preregister.jsp?icmpid=headercreateaccount",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages customers to create accounts for better service."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Attracts potential employees and enhances corporate image."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Informs customers about safety and product information."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/rewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat business through loyalty rewards."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial decisions for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Strengthens relationships with vendors and suppliers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/s/gift-cards/_/N-41p",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Promotes gift card options, appealing to gift-givers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Legal_Notice.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Ensures transparency and builds trust with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/login.jsp?icmpid=headersignin",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates easy access for returning customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/home.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/checkout/order_status.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/FAQ.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content.jsp?pageName=email_optin",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email & Text Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content.jsp?pageName=holiday_gift_finder&icid=ssleftnav",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday & Gift Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/preregister.jsp?icmpid=headercreateaccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/main.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/atstores/main.jsp?icid=as06",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/home.jsp?icmpid=HeaderShopMeijer",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/s/gift-cards/_/N-41p",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Services.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/checkout/order_status.jsp?icmpid=headerorderstatus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content.jsp?pageName=Simply-Give&icid=as03",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community & Giving"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/wishlist.jsp?icmpid=headerwishlist",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate&icmpid=HeaderMeijerCorporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/main.jsp?icmpid=headeryouraccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/content/content_leftnav_manual.jsp?pageName=meijer_text_alerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Email & Text Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/rewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/http://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231200409/https://www.meijer.com/user/login.jsp?icmpid=headersignin",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-01 04:17:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 296,
+      "valid_content_urls_count": 296,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/the-christmas-shop/_/N-29j/Nrc-D/Ns-Na/Ntk-n/Ntt-nativity/Ntx-ap?icid=25dayscat3e",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/custserv/store_locator.jsp",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/FAQ.cms",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=free-shipping-returns",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/rewards",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/gift-cards/_/N-41p",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/checkout/order_status.jsp",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/photo",
+        "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=vendors"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the store and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/the-christmas-shop/_/N-29j/Nrc-D/Ns-Na/Ntk-n/Ntt-nativity/Ntx-ap?icid=25dayscat3e",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Seasonal & Event Landing Page",
+            "selection_reason": "Highlights seasonal promotions, attracting customer interest during key shopping periods."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/custserv/store_locator.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/FAQ.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides answers to common questions, improving customer support and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=free-shipping-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Informs customers about shipping and return policies, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial decisions by providing credit card options for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/rewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat business through loyalty rewards, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides essential health services, attracting customers looking for pharmacy options."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/gift-cards/_/N-41p",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Offers gift card options, appealing to customers looking for gifting solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Builds brand trust and awareness by sharing corporate values and history."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/checkout/order_status.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Attracts potential employees, enhancing the company's image and community involvement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Informs customers about product safety, building trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/photo",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Photo Services",
+            "selection_reason": "Offers additional services that enhance customer engagement and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Strengthens relationships with vendors, which can indirectly benefit customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 31,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/user/main.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/the-christmas-shop/_/N-29j/Nrc-D/Ns-Na/Ntk-n/Ntt-nativity/Ntx-ap?icid=25dayscat3e",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/the-christmas-shop/_/N-29j?icid=bb4",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/gift-cards/_/N-41p",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/s/the-christmas-shop/_/N-29j",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/FAQ.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/rewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns&anchor=1&icid=hmmsiteb",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/content.jsp?pageName=meijer_photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns&icid=hmmsitea",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/checkout/order_status.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/home.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns&icid=Homepage_RightNav5_ordertostore",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121212065342/http://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 04:18:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 339,
+      "valid_content_urls_count": 339,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/home.jsp",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=brands",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/s/gift-cards/_/N-41p",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/photo",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/FAQ.cms",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/checkout/order_status.jsp",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/rewards",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+        "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/home.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces customers to the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Our Brands Hub",
+            "selection_reason": "Engages customers by showcasing the brands available at Meijer."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/s/gift-cards/_/N-41p",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Attracts customers looking for gift options, increasing potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/photo",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Photo Services",
+            "selection_reason": "Offers valuable services that customers may consider when shopping."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides essential health services that are critical for customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Encourages financial engagement and loyalty through credit options."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/FAQ.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides essential information to assist customers in their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping & Returns Policy",
+            "selection_reason": "Clarifies policies that are crucial for customer satisfaction and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/checkout/order_status.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Allows customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/rewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat business through loyalty incentives."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Strengthens relationships with vendors, impacting product availability."
+          },
+          {
+            "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Builds brand trust and transparency with customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 28,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/s/gift-cards/_/N-41p",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/home.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Our Brands Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=meijer_photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/s/the-christmas-shop/_/N-29j",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/rewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/FAQ.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/checkout/order_status.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/user/main.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/content.jsp?pageName=free-shipping-returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping & Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20131229182423/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 04:18:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 48,
+      "valid_content_urls_count": 48,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/s/gift-cards/_/N-41p?icid=header_giftcards",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=brands",
+        "https://web.archive.org/web/20141231013214/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/checkout/order_status.jsp",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/FAQ.cms",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/user/main.jsp",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/rewards",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=mobile_app",
+        "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides essential information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, increasing foot traffic."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/s/gift-cards/_/N-41p?icid=header_giftcards",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Attracts customers looking for gift options, enhancing product interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Our Brands Hub",
+            "selection_reason": "Showcases brand offerings, helping customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial transactions, important for customer purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/checkout/order_status.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Allows customers to track their orders, enhancing fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/FAQ.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides answers to common questions, improving customer support."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/user/main.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Enables customers to manage their accounts, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Engages employees and enhances internal communication."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/rewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat purchases through loyalty incentives."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=mobile_app",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Mobile App Information",
+            "selection_reason": "Promotes mobile engagement, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Informs customers about safety issues, building trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/photo?icid=header_photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/pharmacy?icmpid=headerpharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=Simply-Give&icmpid=HeaderSimplyGive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community & Giving"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/atstores/main.jsp?icmpid=HeaderYourStores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/s/gift-cards/_/N-41p?icid=header_giftcards",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Our Brands Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/https://www.meijer.com/checkout/basket.jsp?icmpid=headerviewcartcheckout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/FAQ.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/checkout/order_status.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/user/main.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/s/gift-cards/_/N-41p",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/pharmacy?icid=header_pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=mobile_app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/rewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/creditcard?icid=header_creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/home.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231013214/http://www.meijer.com/content/content.jsp?pageName=meijer_photo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Photo Services"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-01 04:18:41",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1511,
+      "valid_content_urls_count": 1511,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/custserv/store_locator.jsp",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/t1/gift-cards/T1-879.uts",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/Site_Map.cms",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/Legal_Notice.cms",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/Contests.cms",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/atstores/main.jsp",
+        "https://web.archive.org/web/20151231163506/http://www.meijer.com/catalog/cake_config.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/custserv/store_locator.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, crucial for driving foot traffic."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides customers with background information about the company, enhancing brand trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/t1/gift-cards/T1-879.uts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Engages customers interested in purchasing gift cards, a popular product."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Offers information about pharmacy services, important for health-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Informs customers about safety issues, crucial for maintaining trust and safety."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial decisions by providing information on credit card options."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Directly supports the purchasing decision for gift cards."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Site_Map.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Sitemap",
+            "selection_reason": "Aids customers in navigating the website effectively, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Legal_Notice.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Provides essential legal information, ensuring transparency and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Supports ongoing relationships with vendors, crucial for supply chain management."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Contests.cms",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contests & Sweepstakes",
+            "selection_reason": "Engages existing customers and encourages repeat visits through promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Fosters community and loyalty among employees, indirectly benefiting customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/atstores/main.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Provides additional access points for customers to locate stores, enhancing visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/catalog/cake_config.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Catering & Deli Trays",
+            "selection_reason": "Offers specific product information that may influence purchasing decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/t1/gift-cards/T1-879.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/catalog/cake_config.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Catering & Deli Trays"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231163506/http://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-01 04:19:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 1630,
+      "valid_content_urls_count": 1630,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/atstores/main.jsp",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=curbside",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/Legal_Notice.cms",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/Contests.cms",
+        "https://web.archive.org/web/20161229041902/https://www.meijer.com/Site_Map.cms"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/atstores/main.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand visibility and accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Engages customers interested in gift cards, a popular product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides background information about the company, fostering trust and brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Offers valuable information about pharmacy services, attracting health-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=curbside",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Delivery & Pickup Services",
+            "selection_reason": "Informs customers about convenient shopping options, influencing their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Encourages customers to apply for credit, enhancing customer loyalty and spending."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Provides critical safety information, demonstrating the company's commitment to customer safety."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Food Safety Information",
+            "selection_reason": "Educates customers on food safety, building trust and confidence in the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Facilitates the purchase of gift cards, a key revenue stream for the business."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Legal_Notice.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Ensures transparency and builds trust by providing legal information to customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Engages employees and fosters a sense of community, which can enhance customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Contests.cms",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contests & Sweepstakes",
+            "selection_reason": "Encourages customer engagement and loyalty through interactive promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Site_Map.cms",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Sitemap",
+            "selection_reason": "Aids in navigation and helps customers find information quickly, enhancing user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=curbside",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/catalog/cake_config.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Catering & Deli Trays"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/https://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229041902/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-01 04:19:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 1798,
+      "valid_content_urls_count": 1798,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad/",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20171227234838/http://www.meijer.com/creditcard",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=shipt",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=recipes",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=curbside",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/Contests.cms",
+        "https://web.archive.org/web/20171227234838/https://www.meijer.com/atstores/main.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces customers to the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Weekly Ad",
+            "selection_reason": "Promotes current deals and promotions, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Engages customers looking for gift options, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides essential health-related services, aiding customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/http://www.meijer.com/creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Critical for customers considering financial options with the store."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=shipt",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Delivery & Pickup Services",
+            "selection_reason": "Informs customers about convenient shopping options, influencing their decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=recipes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Recipe & Meal Idea Page",
+            "selection_reason": "Encourages customer engagement through meal planning and ideas."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Supports ongoing relationships with vendors, enhancing customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Fosters community and loyalty among employees and customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides transparency about the company, building customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=curbside",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Delivery & Pickup Services",
+            "selection_reason": "Highlights convenient shopping options, crucial for customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Essential for customer safety and informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/Contests.cms",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contests & Sweepstakes",
+            "selection_reason": "Encourages customer engagement and loyalty through promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/atstores/main.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations, enhancing accessibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 28,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad/?flyer_type_name=weekly&flyer_run_id=286776&page=18",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=shipt",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad/?flyer_type_name=promotional&flyer_run_id=305287&page=3",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/http://www.meijer.com/content/content.jsp?pageName=shipt",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=recipes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Recipe & Meal Idea Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=financial_services",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/t1/holiday/T1-894.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday & Gift Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/content.jsp?pageName=curbside",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/http://www.meijer.com/content/content.jsp?pageName=curbside",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/weeklyad/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227234838/https://www.meijer.com/Contests.cms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contests & Sweepstakes"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-01 04:19:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 2705,
+      "valid_content_urls_count": 2705,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/custserv/store_locator.jsp",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/pharmacy",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=shipt",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=financial_services&icid=redir:creditcard",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/Meijer_Gas.cms",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+        "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/holiday/T1-894.uts"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/custserv/store_locator.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides essential information about the company, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Weekly Ad",
+            "selection_reason": "Promotes current deals and offers, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Engages customers looking for gift options, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides detailed pharmacy services, aiding customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=shipt",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Delivery & Pickup Services",
+            "selection_reason": "Critical for customers deciding on delivery options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=financial_services&icid=redir:creditcard",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Important for customers considering financial services."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Food Safety Information",
+            "selection_reason": "Addresses customer concerns about food safety, influencing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Essential for customer safety and trust, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/Meijer_Gas.cms",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gas Stations Information",
+            "selection_reason": "Provides information on gas stations, relevant for customers considering fuel options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Vendor Hub",
+            "selection_reason": "Supports ongoing customer engagement and retention through vendor information."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Encourages employee engagement and retention strategies."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/holiday/T1-894.uts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holiday & Gift Guide",
+            "selection_reason": "Captures customer interest during holiday seasons with gift ideas."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 30,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/Legal_Notice.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=pharmacy_services",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/custserv/store_locator.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=shipt",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=financial_services&icid=redir:creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/gift-cards/T1-879.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=vendors",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=meijer_corporate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/Meijer_Gas.cms",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=team_members",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/t1/holiday/T1-894.uts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday & Gift Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/?flyer_type_name=promotional&flyer_run_id=374430&page=3",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/?flyer_type_name=promotional&flyer_run_id=374430&page=4",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/atstores/main.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=coca-cola",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Brand Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/http://www.meijer.com/creditcard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/http://www.meijer.com/content/content.jsp?pageName=shipt",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad/?flyer_type_name=promotional&flyer_run_id=374430&page=1",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/t2/gift-cards/meijer-gift-cards/t1/t1-879/T2-10117.uts",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=foodsafety",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/weeklyad",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/Site_Map.cms",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/http://www.meijer.com/content/content.jsp?pageName=curbside",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/corporate.jsp?pageName=product_recalls",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=curbside",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227220349/https://www.meijer.com/content/content.jsp?pageName=financial_services",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-01 04:19:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191227231205/http://www.meijer.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191227231205/http://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191227231205/http://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-01 04:19:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 29,
+      "valid_content_urls_count": 29,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/grand-opening.html",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/more-ways-to-meijer.html",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:12:122620::RxText",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/credit-card.html?icid=HP:sub:12:122620::MCC",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/mperks.html?icid=HP:sub:12:122620::mPerks",
+        "https://web.archive.org/web/20201231213739/https://www.meijer.com/content/meijer/en/terms.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Department Hub",
+            "selection_reason": "This page helps customers explore various product categories, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/grand-opening.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "New & Grand Opening Stores",
+            "selection_reason": "Informs customers about new store openings, generating interest and excitement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/more-ways-to-meijer.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Services Hub",
+            "selection_reason": "Provides information on various services offered, aiding in customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:12:122620::RxText",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Highlights pharmacy services, which are critical for customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/credit-card.html?icid=HP:sub:12:122620::MCC",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates customer decisions regarding financial services offered by Meijer."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/mperks.html?icid=HP:sub:12:122620::mPerks",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages customer retention through loyalty rewards and benefits."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/content/meijer/en/terms.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Essential for customer trust and legal compliance, impacting fulfillment."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/content/meijer/en/terms.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Department Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/credit-card.html?icid=HP:sub:12:122620::MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/grand-opening.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "New & Grand Opening Stores"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/mperks.html?icid=HP:sub:12:122620::mPerks",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/more-ways-to-meijer.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231213739/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:12:122620::RxText",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-01 04:20:06",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/food-safety.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122621::MCC",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/mobile-apps.html?icid=HP:sub:8:122621::MobileApp",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments/our-brands.html?icid=Departments:OurBrands",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer.html?icid=HP:sub:3:::PickUp",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/mperks/coupons.html?tag=20211226resolution&icid=HP:sub:7:122621::Wellness2021",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/product-recalls.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/giftcard.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122621::RxFlu",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer/accessibility.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/privacy-policy.html",
+        "https://web.archive.org/web/20211230203652/https://www.meijer.com/team-members.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the store."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Department Hub",
+            "selection_reason": "This page showcases all departments, helping customers navigate the store."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides essential information about the company, building trust with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/food-safety.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Food Safety Information",
+            "selection_reason": "Critical for customers concerned about food safety when making purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122621::MCC",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Important for customers considering financial options for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/mobile-apps.html?icid=HP:sub:8:122621::MobileApp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Mobile App Information",
+            "selection_reason": "Encourages customer retention through app engagement and loyalty programs."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments/our-brands.html?icid=Departments:OurBrands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Our Brands Hub",
+            "selection_reason": "Highlights exclusive brands, attracting customer interest and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer.html?icid=HP:sub:3:::PickUp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Services Hub",
+            "selection_reason": "Informs customers about various services available, aiding their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/mperks/coupons.html?tag=20211226resolution&icid=HP:sub:7:122621::Wellness2021",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Coupons & Digital Offers",
+            "selection_reason": "Attractive offers can significantly influence purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/product-recalls.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Essential for customer safety and trust, influencing their purchasing choices."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/giftcard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Gift cards are popular, enhancing customer interest and potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122621::RxFlu",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Pharmacy services are a key consideration for many customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer/accessibility.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Accessibility Information",
+            "selection_reason": "Important for customers with disabilities, ensuring inclusivity."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/privacy-policy.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Essential for customer trust and compliance with legal standards."
+          },
+          {
+            "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/team-members.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Encourages employee engagement and retention, indirectly benefiting customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Department Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/food-safety.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/gas-stations.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/content/meijer/en/terms.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments/our-brands.html?icid=Departments:OurBrands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Our Brands Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122621::MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer.html?icid=HP:sub:3:::PickUp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/mobile-apps.html?icid=HP:sub:8:122621::MobileApp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/organic-labeling.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Organic Labeling Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122621::RxFlu",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer/vendor-hub.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/departments/our-brands/meijer-brand.html?icid=HP:hero:1:122621::MeijerBrand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Brand Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/mperks/coupons.html?tag=20211226resolution&icid=HP:sub:7:122621::Wellness2021",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Coupons & Digital Offers"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer.html?icid=HP:sub:3:::Delivery",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/services/more-ways-to-meijer/pickup.html?icid=HP:sub:3:::PickUp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Delivery & Pickup Services"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:row:1:122621::NewYear",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/privacy-policy.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/about-meijer/accessibility.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Accessibility Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/team-members.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/newstores.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "New & Grand Opening Stores"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/product-recalls.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20211230203652/https://www.meijer.com/giftcard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-01 04:20:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 80,
+      "valid_content_urls_count": 80,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/newstores.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/shoppable-ad.html?service=pickup&icid=HP:sub:3:::PickUp",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/giftcard.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/c/collections/roasted-butternut-squash-with-penne-rigate-pasta.html?icid=HP:sub:7:122522::RecipeButternutSquashPasta",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/more-ways-to-meijer.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122522::Rx",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/product-recalls.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks/coupons.html?tag=20221225resolution&icid=HP:sub:7:122522::1225ResolutionmPerks",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/privacy-policy.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks.html?icid=HP:sub:8:122522::mPerks",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/about-meijer.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/store-finder.html",
+        "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122522::MCC"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/newstores.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "New & Grand Opening Stores",
+            "selection_reason": "Highlights new locations, attracting potential customers to visit."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shoppable-ad.html?service=pickup&icid=HP:sub:3:::PickUp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Weekly Ad",
+            "selection_reason": "Promotes current deals and offers, generating interest among customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/giftcard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Encourages customers to consider gift cards as a purchasing option."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/c/collections/roasted-butternut-squash-with-penne-rigate-pasta.html?icid=HP:sub:7:122522::RecipeButternutSquashPasta",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Recipe & Meal Idea Page",
+            "selection_reason": "Engages customers with meal ideas, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/more-ways-to-meijer.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Services Hub",
+            "selection_reason": "Informs customers about various services offered, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122522::Rx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides essential health services information, crucial for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/product-recalls.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Ensures customer safety and trust by providing important product information."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks/coupons.html?tag=20221225resolution&icid=HP:sub:7:122522::1225ResolutionmPerks",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Coupons & Digital Offers",
+            "selection_reason": "Encourages purchase decisions through discounts and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/privacy-policy.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Builds customer trust by providing transparency about data usage."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks.html?icid=HP:sub:8:122522::mPerks",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat business through loyalty rewards."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/about-meijer.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides background information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/store-finder.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, increasing foot traffic."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122522::MCC",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial decisions by providing credit options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/privacy-policy.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/team-members.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/content/meijer/en/terms.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/newstores.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "New & Grand Opening Stores"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/giftcard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shoppable-ad.html?service=pickup&icid=HP:sub:3:::PickUp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/c/collections/roasted-butternut-squash-with-penne-rigate-pasta.html?icid=HP:sub:7:122522::RecipeButternutSquashPasta",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Recipe & Meal Idea Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/more-ways-to-meijer.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:122522::Rx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/product-recalls.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/food-safety.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks/coupons.html?tag=20221225resolution&icid=HP:sub:7:122522::1225ResolutionmPerks",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Coupons & Digital Offers"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/about-meijer/accessibility.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Accessibility Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:hero:1:122522::NYE",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shoppable-ad.html?service=pickup&icid=HP:sub:3:::Pickup",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/gas-stations.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gas Stations Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/mperks.html?icid=HP:sub:8:122522::mPerks",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shoppable-ad.html?service=delivery&icid=HP:sub:3:::Delivery",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Weekly Ad"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/organic-labeling.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Organic Labeling Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/store-finder.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/departments/our-brands.html?icid=HP:sub:5:::OurBrands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Our Brands Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/about-meijer.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/about-meijer/vendor-hub.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/departments.html?icid=HP:sub:5:::ViewAll",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Department Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231105855/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122522::MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-01 04:20:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 58,
+      "valid_content_urls_count": 58,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:hero:1:122423::NYE",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/store-finder.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/giftcard.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/food-safety.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/product-recalls.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:120323::2023RxFluShots",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122423::MCC",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/privacy-policy.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:122423::mPerks",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/team-members.html",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer/community.html?icid=HP:sub:8:122423::Community",
+        "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/more-ways-to-meijer.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:hero:1:122423::NYE",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Seasonal & Event Landing Page",
+            "selection_reason": "Highlights seasonal promotions, attracting customer interest during specific events."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/store-finder.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides essential information about the company, fostering trust and brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/giftcard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Attracts customers looking for gift options, enhancing potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/food-safety.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Food Safety Information",
+            "selection_reason": "Provides critical information that influences customer decisions regarding food purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/product-recalls.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Informs customers about safety issues, enhancing transparency and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:120323::2023RxFluShots",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Offers valuable health-related services, attracting health-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122423::MCC",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial decisions for customers, encouraging loyalty through credit options."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Essential for customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/privacy-policy.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Provides important legal information, ensuring customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:122423::mPerks",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat purchases through loyalty rewards, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/team-members.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Engages employees and enhances internal brand loyalty, indirectly benefiting customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer/community.html?icid=HP:sub:8:122423::Community",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Community & Giving",
+            "selection_reason": "Highlights community involvement, fostering a positive brand image and customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/more-ways-to-meijer.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Services Hub",
+            "selection_reason": "Showcases various services offered, helping customers make informed choices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 22,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:hero:1:122423::NYE",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/food-safety.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/product-recalls.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:120323::2023RxFluShots",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:122423::MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:122423::mPerks",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/newstores.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "New & Grand Opening Stores"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/team-members.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/pharmacy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/store-finder.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer/community.html?icid=HP:sub:8:122423::Community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community & Giving"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/privacy-policy.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/credit-card.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/giftcard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer/accessibility.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Accessibility Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer/vendor-hub.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Vendor Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/about-meijer.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/services/more-ways-to-meijer.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/organic-labeling.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Organic Labeling Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231230235843/https://www.meijer.com/content/meijer/en/terms.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 04:21:12",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 47,
+      "valid_content_urls_count": 47,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/about-meijer.html?icid=Footer:AboutMeijer",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/giftcard.html?icid=Footer:GiftCards",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/organic-labeling.html?icid=Footer:USDAOrganic",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/pharmacy.html?icid=Footer:Pharmacy",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/coupons.html?tag=shop&icid=HP:sub:7:122924::MHDP122924Homepage",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/credit-card.html?icid=Footer:MCC",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/privacy-policy.html?icid=Footer:AboutOurAds",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:::mPerks",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/team-members.html?icid=Footer:TeamMember",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/newstores.html?icid=Footer:NewStores",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/more-ways-to-meijer.html?icid=Footer:DeliveryPickup",
+        "https://web.archive.org/web/20241231233434/https://www.meijer.com/food-safety.html?icid=Footer:FoodSafety"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand visibility and accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/about-meijer.html?icid=Footer:AboutMeijer",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides customers with background information about the company, fostering trust and brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/giftcard.html?icid=Footer:GiftCards",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Card Hub",
+            "selection_reason": "Attracts customers looking for gift options, enhancing engagement and potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/organic-labeling.html?icid=Footer:USDAOrganic",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Organic Labeling Information",
+            "selection_reason": "Educates customers on organic products, influencing their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/pharmacy.html?icid=Footer:Pharmacy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pharmacy Hub",
+            "selection_reason": "Provides essential health-related services, appealing to customers' needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/coupons.html?tag=shop&icid=HP:sub:7:122924::MHDP122924Homepage",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Coupons & Digital Offers",
+            "selection_reason": "Encourages purchases through discounts, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/credit-card.html?icid=Footer:MCC",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Credit Card Information & Application",
+            "selection_reason": "Facilitates financial transactions, making it easier for customers to make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / History",
+            "selection_reason": "Allows customers to track their orders, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/privacy-policy.html?icid=Footer:AboutOurAds",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal & Privacy Policies",
+            "selection_reason": "Informs customers about their rights and data protection, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:::mPerks",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (mPerks/Rewards)",
+            "selection_reason": "Encourages repeat business by rewarding loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/team-members.html?icid=Footer:TeamMember",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Team Member Portal",
+            "selection_reason": "Engages employees and fosters a sense of community within the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/newstores.html?icid=Footer:NewStores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "New & Grand Opening Stores",
+            "selection_reason": "Informs customers about new locations, driving traffic and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/more-ways-to-meijer.html?icid=Footer:DeliveryPickup",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Services Hub",
+            "selection_reason": "Highlights various services offered, enhancing customer convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/food-safety.html?icid=Footer:FoodSafety",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Food Safety Information",
+            "selection_reason": "Educates customers on food safety, influencing their purchasing decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/content/meijer/en/terms.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/about-meijer.html?icid=Footer:AboutMeijer",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/orders.html?icid=HP:row::::Reorder",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / History"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/organic-labeling.html?icid=Footer:USDAOrganic",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Organic Labeling Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/credit-card.html?icid=Footer:MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/giftcard.html?icid=Footer:GiftCards",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Card Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/about-meijer/community.html?icid=HP:sub:8:::Community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Community & Giving"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/pharmacy.html?icid=Footer:Pharmacy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/pharmacy.html?icid=HP:sub:8:120824::2023RxFluShots",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pharmacy Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/newstores.html?icid=Footer:NewStores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "New & Grand Opening Stores"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/about-meijer/accessibility.html?icid=Footer:Accessibility",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Accessibility Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/coupons.html?tag=shop&icid=HP:sub:7:122924::MHDP122924Homepage",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Coupons & Digital Offers"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/credit-card.html?icid=HP:sub:8:::MCC",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Credit Card Information & Application"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/food-safety.html?icid=Footer:FoodSafety",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Food Safety Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/privacy-policy.html?icid=Footer:AboutOurAds",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/c/collections/new-years-eve.html?icid=HP:hero:1:122924::NYE",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/services/more-ways-to-meijer.html?icid=Footer:DeliveryPickup",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Services Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/shopping/mPerks.html?tab=Claim&icid=HP:sub:8:::mPerks",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (mPerks/Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231233434/https://www.meijer.com/team-members.html?icid=Footer:TeamMember",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Team Member Portal"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-01 04:21:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250505233814/https://www.meijer.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250505233814/https://www.meijer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250505233814/https://www.meijer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

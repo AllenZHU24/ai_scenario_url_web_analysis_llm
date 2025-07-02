@@ -1,0 +1,549 @@
+2025-06-13 03:10:45,617 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-13 03:10:45,618 - INFO - ⚙️ Model configuration: openai/gpt-4o
+2025-06-13 03:10:45,619 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-13 03:10:45,620 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (7.1-7.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-13 03:10:45,620 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-13 03:10:45,621 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-13 03:10:45,621 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/microsoft.com
+2025-06-13 03:10:45,621 - INFO - 🔍 No existing planning file found at outputs/microsoft.com/microsoft.com_llm_planning_v0.4_result.json, starting fresh
+2025-06-13 03:10:45,621 - INFO - 📌 === Processing year 2013 ===
+2025-06-13 03:10:45,621 - INFO - 🤖 Running LLM planning for 2013
+2025-06-13 03:10:45,621 - INFO - 🤖 Starting adaptive LLM analysis for year 2013 website: https://web.archive.org/web/20131111134429/http://www.microsoft.com/
+2025-06-13 03:10:45,621 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:10:45,621 - INFO - 开始发现URL: https://web.archive.org/web/20131111134429/http://www.microsoft.com/
+2025-06-13 03:10:49,055 - INFO - 发现 2 个内部链接
+2025-06-13 03:10:49,064 - INFO - 📋 Discovered 2 internal links
+2025-06-13 03:10:49,064 - INFO - URL structure filtering completed: 2/2 meaningful URLs
+2025-06-13 03:10:49,064 - INFO - ✅ URL structure filtering completed: 2 meaningful URLs
+2025-06-13 03:10:49,064 - INFO - 📄 Getting and validating page content 1/2: https://web.archive.org/web/20131111134429/http://www.microsoft.com/
+2025-06-13 03:10:50,257 - INFO - 📄 Getting and validating page content 2/2: https://web.archive.org/web/20131111134429/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:10:54,008 - INFO - ✅ Content filtering completed: 1/2 valid pages
+2025-06-13 03:10:54,009 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:10:54,009 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:10:58,856 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:10:58,857 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:10:58,857 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:10:58,857 - ERROR - ❌ Year 2013 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:10:58,857 - ERROR - ❌ Planning failed for 2013: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:10:58,857 - INFO - 📌 === Processing year 2014 ===
+2025-06-13 03:10:58,857 - INFO - 🤖 Running LLM planning for 2014
+2025-06-13 03:10:58,857 - INFO - 🤖 Starting adaptive LLM analysis for year 2014 website: https://web.archive.org/web/20140410181505/http://www.microsoft.com/
+2025-06-13 03:10:58,857 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:10:58,858 - INFO - 开始发现URL: https://web.archive.org/web/20140410181505/http://www.microsoft.com/
+2025-06-13 03:11:00,489 - INFO - 发现 2 个内部链接
+2025-06-13 03:11:00,490 - INFO - 📋 Discovered 2 internal links
+2025-06-13 03:11:00,490 - INFO - URL structure filtering completed: 2/2 meaningful URLs
+2025-06-13 03:11:00,490 - INFO - ✅ URL structure filtering completed: 2 meaningful URLs
+2025-06-13 03:11:00,490 - INFO - 📄 Getting and validating page content 1/2: https://web.archive.org/web/20140410181505/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:11:06,522 - INFO - 📄 Getting and validating page content 2/2: https://web.archive.org/web/20140410181505/http://www.microsoft.com/
+2025-06-13 03:11:07,711 - INFO - ✅ Content filtering completed: 1/2 valid pages
+2025-06-13 03:11:07,712 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:11:07,712 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:11:12,327 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:11:12,328 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:12,328 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:11:12,328 - ERROR - ❌ Year 2014 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:12,328 - ERROR - ❌ Planning failed for 2014: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:12,328 - INFO - 📌 === Processing year 2015 ===
+2025-06-13 03:11:12,328 - INFO - 🤖 Running LLM planning for 2015
+2025-06-13 03:11:12,329 - INFO - 🤖 Starting adaptive LLM analysis for year 2015 website: https://web.archive.org/web/20151002093351/http://www.microsoft.com/
+2025-06-13 03:11:12,329 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:11:12,329 - INFO - 开始发现URL: https://web.archive.org/web/20151002093351/http://www.microsoft.com/
+2025-06-13 03:11:14,404 - INFO - 发现 1 个内部链接
+2025-06-13 03:11:14,404 - INFO - 📋 Discovered 1 internal links
+2025-06-13 03:11:14,404 - INFO - URL structure filtering completed: 1/1 meaningful URLs
+2025-06-13 03:11:14,404 - INFO - ✅ URL structure filtering completed: 1 meaningful URLs
+2025-06-13 03:11:14,404 - INFO - 📄 Getting and validating page content 1/1: https://web.archive.org/web/20151002093351/http://www.microsoft.com/
+2025-06-13 03:11:15,605 - INFO - ✅ Content filtering completed: 0/1 valid pages
+2025-06-13 03:11:15,606 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:11:15,606 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:11:19,875 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:11:19,876 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:19,876 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:11:19,876 - ERROR - ❌ Year 2015 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:19,876 - ERROR - ❌ Planning failed for 2015: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:19,877 - INFO - 📌 === Processing year 2017 ===
+2025-06-13 03:11:19,877 - INFO - 🤖 Running LLM planning for 2017
+2025-06-13 03:11:19,877 - INFO - 🤖 Starting adaptive LLM analysis for year 2017 website: https://web.archive.org/web/20171120040131/http://www.microsoft.com/
+2025-06-13 03:11:19,877 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:11:19,877 - INFO - 开始发现URL: https://web.archive.org/web/20171120040131/http://www.microsoft.com/
+2025-06-13 03:11:22,446 - INFO - 发现 2 个内部链接
+2025-06-13 03:11:22,447 - INFO - 📋 Discovered 2 internal links
+2025-06-13 03:11:22,447 - INFO - URL structure filtering completed: 2/2 meaningful URLs
+2025-06-13 03:11:22,447 - INFO - ✅ URL structure filtering completed: 2 meaningful URLs
+2025-06-13 03:11:22,447 - INFO - 📄 Getting and validating page content 1/2: https://web.archive.org/web/20171120040131/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:11:30,490 - INFO - 📄 Getting and validating page content 2/2: https://web.archive.org/web/20171120040131/http://www.microsoft.com/
+2025-06-13 03:11:31,678 - INFO - ✅ Content filtering completed: 1/2 valid pages
+2025-06-13 03:11:31,678 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:11:31,678 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:11:36,252 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:11:36,253 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:36,253 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:11:36,253 - ERROR - ❌ Year 2017 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:36,253 - ERROR - ❌ Planning failed for 2017: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:11:36,253 - INFO - 📌 === Processing year 2019 ===
+2025-06-13 03:11:36,253 - INFO - 🤖 Running LLM planning for 2019
+2025-06-13 03:11:36,253 - INFO - 🤖 Starting adaptive LLM analysis for year 2019 website: https://web.archive.org/web/20190425043737/https://www.microsoft.com/
+2025-06-13 03:11:36,253 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:11:36,253 - INFO - 开始发现URL: https://web.archive.org/web/20190425043737/https://www.microsoft.com/
+2025-06-13 03:11:38,571 - INFO - 发现 100 个内部链接
+2025-06-13 03:11:38,571 - INFO - 📋 Discovered 100 internal links
+2025-06-13 03:11:38,572 - INFO - URL structure filtering completed: 100/100 meaningful URLs
+2025-06-13 03:11:38,572 - INFO - ✅ URL structure filtering completed: 100 meaningful URLs
+2025-06-13 03:11:38,572 - INFO - 📄 Getting and validating page content 1/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/?linkid=2026638
+2025-06-13 03:11:45,140 - INFO - 📄 Getting and validating page content 2/100: https://web.archive.org/web/20190425043737/https://developer.microsoft.com/en-us/windows
+2025-06-13 03:11:48,473 - INFO - 📄 Getting and validating page content 3/100: https://web.archive.org/web/20190425043737/http://www.microsoft.com/en-us/locale.aspx
+2025-06-13 03:11:51,893 - INFO - 📄 Getting and validating page content 4/100: https://web.archive.org/web/20190425043737/https://azure.microsoft.com/en-us/
+2025-06-13 03:11:58,161 - INFO - 📄 Getting and validating page content 5/100: https://web.archive.org/web/20190425043737/http://trnsfrm.ms/elab
+2025-06-13 03:12:06,580 - INFO - 📄 Getting and validating page content 6/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/p/?LinkID=824761&clcid=0x409
+2025-06-13 03:12:13,455 - INFO - 📄 Getting and validating page content 7/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/trademarks
+2025-06-13 03:12:20,476 - INFO - 📄 Getting and validating page content 8/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/new-surface-pro-i5-128gb-type-cover/8nj3ncqfxn1c
+2025-06-13 03:12:21,831 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/new-surface-pro-i5-128gb-type-cover/8nj3ncqfxn1c: 404 Client Error: Not Found for url: https://web.archive.org/web/20190331134901/https://www.microsoft.com/en-us/store/d/new-surface-pro-i5-128gb-type-cover/8nj3ncqfxn1c
+2025-06-13 03:12:22,832 - INFO - 📄 Getting and validating page content 9/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/gift-cards
+2025-06-13 03:12:27,343 - INFO - 📄 Getting and validating page content 10/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations
+2025-06-13 03:12:29,487 - INFO - 📄 Getting and validating page content 11/100: https://web.archive.org/web/20190425043737/https://www.linkedin.com/company/microsoft
+2025-06-13 03:12:32,102 - INFO - 📄 Getting and validating page content 12/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/buy
+2025-06-13 03:12:40,094 - INFO - 📄 Getting and validating page content 13/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/microsoft-365
+2025-06-13 03:12:43,495 - INFO - 📄 Getting and validating page content 14/100: https://web.archive.org/web/20190425043737/https://account.microsoft.com/
+2025-06-13 03:13:00,940 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://account.microsoft.com/: Exceeded 30 redirects.
+2025-06-13 03:13:01,940 - INFO - 📄 Getting and validating page content 15/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation
+2025-06-13 03:13:05,186 - INFO - 📄 Getting and validating page content 16/100: https://web.archive.org/web/20190425043737/https://products.office.com/en-us/home
+2025-06-13 03:13:07,606 - INFO - 📄 Getting and validating page content 17/100: https://web.archive.org/web/20190425043737/https://careers.microsoft.com/
+2025-06-13 03:13:14,827 - INFO - 📄 Getting and validating page content 18/100: https://web.archive.org/web/20190425043737/https://azure.microsoft.com/
+2025-06-13 03:13:20,915 - INFO - 📄 Getting and validating page content 19/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/surface-laptop/90FC23DV6SNZ
+2025-06-13 03:13:25,355 - INFO - 📄 Getting and validating page content 20/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/download
+2025-06-13 03:13:30,646 - INFO - 📄 Getting and validating page content 21/100: https://web.archive.org/web/20190425043737/https://outlook.live.com/owa/
+2025-06-13 03:13:34,876 - INFO - 📄 Getting and validating page content 22/100: https://web.archive.org/web/20190425043737/https://technet.microsoft.com/en-us
+2025-06-13 03:13:38,534 - INFO - 📄 Getting and validating page content 23/100: https://web.archive.org/web/20190425043737/https://support.microsoft.com/en-us
+2025-06-13 03:13:43,364 - INFO - 📄 Getting and validating page content 24/100: https://web.archive.org/web/20190425043737/https://azure.microsoft.com/en-us/community/education/
+2025-06-13 03:13:51,214 - INFO - 📄 Getting and validating page content 25/100: https://web.archive.org/web/20190425043737/https://account.microsoft.com/orders
+2025-06-13 03:13:58,113 - INFO - 📄 Getting and validating page content 26/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/net/
+2025-06-13 03:14:04,156 - INFO - 📄 Getting and validating page content 27/100: https://web.archive.org/web/20190425043737/https://support.microsoft.com/en-us/contactus
+2025-06-13 03:14:07,003 - INFO - 📄 Getting and validating page content 28/100: https://web.archive.org/web/20190425043737/https://www.xbox.com/en-us/xbox-one-s?xr=shellnav
+2025-06-13 03:14:09,727 - INFO - 📄 Getting and validating page content 29/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/about
+2025-06-13 03:14:14,618 - INFO - 📄 Getting and validating page content 30/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise/health
+2025-06-13 03:14:18,367 - INFO - 📄 Getting and validating page content 31/100: https://web.archive.org/web/20190425043737/https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&WT.mc_id=oan_mscom_hp_o365febrefresh
+2025-06-13 03:14:21,225 - INFO - 📄 Getting and validating page content 32/100: https://web.archive.org/web/20190425043737/https://developer.microsoft.com/en-us/office
+2025-06-13 03:14:24,194 - INFO - 📄 Getting and validating page content 33/100: https://web.archive.org/web/20190425043737/https://www.skype.com/en/
+2025-06-13 03:14:29,075 - INFO - 📄 Getting and validating page content 34/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/home
+2025-06-13 03:14:33,205 - INFO - 📄 Getting and validating page content 35/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/buy-online-pick-up-in-store?icid=uhf_footer_bopuis
+2025-06-13 03:14:35,871 - INFO - 📄 Getting and validating page content 36/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/devices
+2025-06-13 03:14:40,727 - INFO - 📄 Getting and validating page content 37/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/microsoft-365/?omkt=en-US
+2025-06-13 03:14:46,727 - INFO - 📄 Getting and validating page content 38/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/cloud-platform/windows-server
+2025-06-13 03:14:54,496 - INFO - 📄 Getting and validating page content 39/100: https://web.archive.org/web/20190425043737/https://www.facebook.com/Microsoft
+2025-06-13 03:14:57,632 - INFO - 📄 Getting and validating page content 40/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/windows-10-games
+2025-06-13 03:15:08,786 - INFO - 📄 Getting and validating page content 41/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/garage/
+2025-06-13 03:15:12,027 - INFO - 📄 Getting and validating page content 42/100: https://web.archive.org/web/20190425043737/https://azure.microsoft.com/en-us/overview/azure-vs-aws/
+2025-06-13 03:15:16,113 - INFO - 📄 Getting and validating page content 43/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/
+2025-06-13 03:15:22,830 - INFO - 📄 Getting and validating page content 44/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS
+2025-06-13 03:15:25,613 - INFO - 📄 Getting and validating page content 45/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/accessories/en-us
+2025-06-13 03:15:26,756 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/accessories/en-us: 500 Server Error: Internal Server Error for url: https://web.archive.org/web/20190425133322/https://www.microsoft.com/accessories/en-us/
+2025-06-13 03:15:27,756 - INFO - 📄 Getting and validating page content 46/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/collections/XboxOneSBundleDeals
+2025-06-13 03:15:30,395 - INFO - 📄 Getting and validating page content 47/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/?LinkID=808093
+2025-06-13 03:15:34,286 - INFO - 📄 Getting and validating page content 48/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education/products/office/default.aspx
+2025-06-13 03:15:37,904 - INFO - 📄 Getting and validating page content 49/100: https://web.archive.org/web/20190425043737/https://developer.microsoft.com/en-us/store/register
+2025-06-13 03:15:40,378 - INFO - 📄 Getting and validating page content 50/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage
+2025-06-13 03:15:43,289 - INFO - 📄 Getting and validating page content 51/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/?LinkID=206977
+2025-06-13 03:15:49,795 - INFO - 📄 Getting and validating page content 52/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames
+2025-06-13 03:15:52,640 - INFO - 📄 Getting and validating page content 53/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/quantum/default.aspx
+2025-06-13 03:15:55,658 - INFO - 📄 Getting and validating page content 54/100: https://web.archive.org/web/20190425043737/https://www.onenote.com/
+2025-06-13 03:16:03,575 - INFO - 📄 Getting and validating page content 55/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/download/default.aspx
+2025-06-13 03:16:07,910 - INFO - 📄 Getting and validating page content 56/100: https://web.archive.org/web/20190425043737/https://news.microsoft.com/features/local-venues-major-festivals-surface-powered-kit-takes-electronic-artist-alison-wonderlands-live-act-new-level/
+2025-06-13 03:16:10,434 - INFO - 📄 Getting and validating page content 57/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-laptop-2/8XQJKK3DD91B 
+2025-06-13 03:16:15,210 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-laptop-2/8XQJKK3DD91B : 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20230218103948/https://www.microsoft.com/library/errorpages/smarterror.aspx?correlationId=99naiVZ9R0a4eEGq.0.0.0
+2025-06-13 03:16:16,211 - INFO - 📄 Getting and validating page content 58/100: https://web.archive.org/web/20190425043737/https://docs.microsoft.com/en-us/
+2025-06-13 03:16:22,159 - INFO - 📄 Getting and validating page content 59/100: https://web.archive.org/web/20190425043737/https://store.office.com/en-us/appshome.aspx
+2025-06-13 03:16:26,345 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://store.office.com/en-us/appshome.aspx: 520 Server Error: UNKNOWN for url: https://web.archive.org/save/_embed/https://appsource.microsoft.com/en-us/marketplace/apps?product=office&page=1&src=office&corrid=b72aa261-0c7f-40d6-ab54-e140f2040413&omexanonuid=8843294f-aa8d-476a-92bd-1f3d2ef682ad&referralurl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fphones
+2025-06-13 03:16:27,346 - INFO - 📄 Getting and validating page content 60/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise
+2025-06-13 03:16:30,636 - INFO - 📄 Getting and validating page content 61/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/books
+2025-06-13 03:16:37,972 - INFO - 📄 Getting and validating page content 62/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/sql-server/ 
+2025-06-13 03:16:40,997 - INFO - 📄 Getting and validating page content 63/100: https://web.archive.org/web/20190425043737/https://onedrive.live.com/about/en-us/
+2025-06-13 03:16:44,663 - INFO - 📄 Getting and validating page content 64/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/rewards
+2025-06-13 03:16:50,570 - INFO - 📄 Getting and validating page content 65/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/accessibility
+2025-06-13 03:16:56,686 - INFO - 📄 Getting and validating page content 66/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/education?icid=CNavfooter_Studentsandeducation
+2025-06-13 03:16:59,442 - INFO - 📄 Getting and validating page content 67/100: https://web.archive.org/web/20190425043737/https://msdn.microsoft.com/en-us
+2025-06-13 03:17:02,375 - INFO - 📄 Getting and validating page content 68/100: https://web.archive.org/web/20190425043737/https://www.xbox.com/en-us/xbox-one-x
+2025-06-13 03:17:05,920 - INFO - 📄 Getting and validating page content 69/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/devices/safety-and-eco 
+2025-06-13 03:17:07,187 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/devices/safety-and-eco : 404 Client Error: Not Found for url: https://web.archive.org/web/20200508115638/https://www.microsoft.com/en-us/devices/safety-and-eco%20
+2025-06-13 03:17:08,189 - INFO - 📄 Getting and validating page content 70/100: https://web.archive.org/web/20190425043737/https://channel9.msdn.com/
+2025-06-13 03:17:13,387 - INFO - 📄 Getting and validating page content 71/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/investor/default.aspx
+2025-06-13 03:17:19,033 - INFO - 📄 Getting and validating page content 72/100: https://web.archive.org/web/20190425043737/https://www.xbox.com/
+2025-06-13 03:17:27,173 - INFO - 📄 Getting and validating page content 73/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/dynamics365/home
+2025-06-13 03:17:39,125 - INFO - 📄 Getting and validating page content 74/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/solution-providers
+2025-06-13 03:17:43,284 - INFO - 📄 Getting and validating page content 75/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/b/virtualreality
+2025-06-13 03:17:47,489 - INFO - 📄 Getting and validating page content 76/100: https://web.archive.org/web/20190425043737/https://privacy.microsoft.com/en-us
+2025-06-13 03:17:51,305 - INFO - 📄 Getting and validating page content 77/100: https://web.archive.org/web/20190425043737/https://twitter.com/microsoft
+2025-06-13 03:17:54,979 - INFO - 📄 Getting and validating page content 78/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/education
+2025-06-13 03:17:57,985 - INFO - 📄 Getting and validating page content 79/100: https://web.archive.org/web/20190425043737/https://www.xbox.com/en-us/games/xbox-one?xr=shellnav
+2025-06-13 03:18:03,794 - INFO - 📄 Getting and validating page content 80/100: https://web.archive.org/web/20190425043737/https://products.office.com/en-us/academic/compare-office-365-education-plans
+2025-06-13 03:18:08,115 - INFO - 📄 Getting and validating page content 81/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/windows/windows-10-apps
+2025-06-13 03:18:12,197 - INFO - 📄 Getting and validating page content 82/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/enterprise/finance/banking-capital-markets
+2025-06-13 03:18:14,421 - INFO - 📄 Getting and validating page content 83/100: https://web.archive.org/web/20190425043737/https://visualstudio.microsoft.com/
+2025-06-13 03:18:18,299 - INFO - 📄 Getting and validating page content 84/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/sql-server/
+2025-06-13 03:18:21,153 - INFO - 📄 Getting and validating page content 85/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/security/default.aspx
+2025-06-13 03:18:26,486 - INFO - 📄 Getting and validating page content 86/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/p/surface-go/8v9dp4lnknsz
+2025-06-13 03:18:31,219 - INFO - 📄 Getting and validating page content 87/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/creators
+2025-06-13 03:18:33,522 - INFO - 📄 Getting and validating page content 88/100: https://web.archive.org/web/20190425043737/https://partner.microsoft.com/en-us/
+2025-06-13 03:18:37,151 - INFO - 📄 Getting and validating page content 89/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/hit-refresh-by-satya-nadella/8td9x3qh69b5/9f06
+2025-06-13 03:18:38,457 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/hit-refresh-by-satya-nadella/8td9x3qh69b5/9f06: 404 Client Error: Not Found for url: https://web.archive.org/web/20190331134907/https://www.microsoft.com/en-us/store/d/hit-refresh-by-satya-nadella/8td9x3qh69b5/9f06
+2025-06-13 03:18:39,458 - INFO - 📄 Getting and validating page content 90/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/
+2025-06-13 03:18:43,726 - INFO - 📄 Getting and validating page content 91/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/p/?LinkID=824764&clcid=0x409
+2025-06-13 03:18:55,265 - INFO - 📄 Getting and validating page content 92/100: https://web.archive.org/web/20190425043737/https://go.microsoft.com/fwlink/?LinkId=521839
+2025-06-13 03:19:05,744 - INFO - 📄 Getting and validating page content 93/100: https://web.archive.org/web/20190425043737/https://technet.microsoft.com/en-us/windows/dn798751.aspx
+2025-06-13 03:19:10,444 - INFO - 📄 Getting and validating page content 94/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/diversity/
+2025-06-13 03:19:16,930 - INFO - 📄 Getting and validating page content 95/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/d/xbox-one-x-1tb-console/8NQ33JVV1S9V?WT.mc_id=XB1X_PO_092017
+2025-06-13 03:19:21,517 - INFO - 📄 Getting and validating page content 96/100: https://web.archive.org/web/20190425043737/https://choice.microsoft.com/
+2025-06-13 03:19:36,823 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190425043737/https://choice.microsoft.com/: Exceeded 30 redirects.
+2025-06-13 03:19:37,824 - INFO - 📄 Getting and validating page content 97/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/p/surface-pro-6/8ZCNC665SLQ5
+2025-06-13 03:19:42,176 - INFO - 📄 Getting and validating page content 98/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv
+2025-06-13 03:19:44,961 - INFO - 📄 Getting and validating page content 99/100: https://web.archive.org/web/20190425043737/https://news.microsoft.com/
+2025-06-13 03:19:48,639 - INFO - 📄 Getting and validating page content 100/100: https://web.archive.org/web/20190425043737/https://www.microsoft.com/en-us/surface
+2025-06-13 03:19:51,995 - INFO - ✅ Content filtering completed: 86/100 valid pages
+2025-06-13 03:19:51,995 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:19:51,995 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:19:57,129 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:19:57,130 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:19:57,130 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:19:57,130 - ERROR - ❌ Year 2019 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:19:57,130 - ERROR - ❌ Planning failed for 2019: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:19:57,130 - INFO - 📌 === Processing year 2022 ===
+2025-06-13 03:19:57,130 - INFO - 🤖 Running LLM planning for 2022
+2025-06-13 03:19:57,130 - INFO - 🤖 Starting adaptive LLM analysis for year 2022 website: https://web.archive.org/web/20220506032946/http://www.microsoft.com/
+2025-06-13 03:19:57,131 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:19:57,131 - INFO - 开始发现URL: https://web.archive.org/web/20220506032946/http://www.microsoft.com/
+2025-06-13 03:19:59,422 - INFO - 发现 2 个内部链接
+2025-06-13 03:19:59,422 - INFO - 📋 Discovered 2 internal links
+2025-06-13 03:19:59,422 - INFO - URL structure filtering completed: 2/2 meaningful URLs
+2025-06-13 03:19:59,422 - INFO - ✅ URL structure filtering completed: 2 meaningful URLs
+2025-06-13 03:19:59,422 - INFO - 📄 Getting and validating page content 1/2: https://web.archive.org/web/20220506032946/http://www.microsoft.com/
+2025-06-13 03:20:00,609 - INFO - 📄 Getting and validating page content 2/2: https://web.archive.org/web/20220506032946/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:20:04,564 - INFO - ✅ Content filtering completed: 1/2 valid pages
+2025-06-13 03:20:04,564 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:20:04,565 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:20:09,134 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:20:09,135 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:20:09,135 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:20:09,135 - ERROR - ❌ Year 2022 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:20:09,135 - ERROR - ❌ Planning failed for 2022: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:20:09,135 - INFO - 📌 === Processing year 2025 ===
+2025-06-13 03:20:09,135 - INFO - 🤖 Running LLM planning for 2025
+2025-06-13 03:20:09,135 - INFO - 🤖 Starting adaptive LLM analysis for year 2025 website: https://web.archive.org/web/20250407041512/https://www.microsoft.com/
+2025-06-13 03:20:09,135 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:20:09,135 - INFO - 开始发现URL: https://web.archive.org/web/20250407041512/https://www.microsoft.com/
+2025-06-13 03:20:11,900 - INFO - 发现 97 个内部链接
+2025-06-13 03:20:11,900 - INFO - 📋 Discovered 97 internal links
+2025-06-13 03:20:11,900 - INFO - URL structure filtering completed: 97/97 meaningful URLs
+2025-06-13 03:20:11,900 - INFO - ✅ URL structure filtering completed: 97 meaningful URLs
+2025-06-13 03:20:11,901 - INFO - 📄 Getting and validating page content 1/97: https://web.archive.org/web/20250407041512/https://learn.microsoft.com/en-us/
+2025-06-13 03:20:15,362 - INFO - 📄 Getting and validating page content 2/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz
+2025-06-13 03:20:17,881 - INFO - 📄 Getting and validating page content 3/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+2025-06-13 03:20:21,915 - INFO - 📄 Getting and validating page content 4/97: https://web.archive.org/web/20250407041512/https://onedrive.live.com/about/en-us/
+2025-06-13 03:20:28,266 - INFO - 📄 Getting and validating page content 5/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/windows/
+2025-06-13 03:20:32,986 - INFO - 📄 Getting and validating page content 6/97: https://web.archive.org/web/20250407041512/https://account.microsoft.com/
+2025-06-13 03:20:49,418 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://account.microsoft.com/: Exceeded 30 redirects.
+2025-06-13 03:20:50,419 - INFO - 📄 Getting and validating page content 7/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education/products/microsoft-365
+2025-06-13 03:20:52,880 - INFO - 📄 Getting and validating page content 8/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/certified-refurbished-products
+2025-06-13 03:20:55,885 - INFO - 📄 Getting and validating page content 9/97: https://web.archive.org/web/20250407041512/https://news.microsoft.com/
+2025-06-13 03:21:03,363 - INFO - 📄 Getting and validating page content 10/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/enterprise
+2025-06-13 03:21:09,398 - INFO - 📄 Getting and validating page content 11/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/surface
+2025-06-13 03:21:13,370 - INFO - 📄 Getting and validating page content 12/97: https://web.archive.org/web/20250407041512/https://privacy.microsoft.com/en-us
+2025-06-13 03:21:18,103 - INFO - 📄 Getting and validating page content 13/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/investor/default.aspx
+2025-06-13 03:21:24,273 - INFO - 📄 Getting and validating page content 14/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate
+2025-06-13 03:21:37,277 - INFO - 📄 Getting and validating page content 15/97: https://web.archive.org/web/20250407041512/https://products.office.com/en-us/home
+2025-06-13 03:21:42,916 - INFO - 📄 Getting and validating page content 16/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/apps/windows?icid=CNavAppsWindowsApps
+2025-06-13 03:21:44,963 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/apps/windows?icid=CNavAppsWindowsApps: 404 Client Error: Not Found for url: https://web.archive.org/web/20250411230453/https://www.microsoft.com/library/errorpages/smarterror.aspx?correlationId=$(cvToken)
+2025-06-13 03:21:45,963 - INFO - 📄 Getting and validating page content 17/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/p/xbox-live-gold/cfq7ttc0k5dj?WT.mc_id=CNavGamesXboxLiveGold
+2025-06-13 03:21:49,794 - INFO - 📄 Getting and validating page content 18/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/mobile?icid=CNavDevicesMobile
+2025-06-13 03:21:53,113 - INFO - 📄 Getting and validating page content 19/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation
+2025-06-13 03:21:55,609 - INFO - 📄 Getting and validating page content 20/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/gift-cards
+2025-06-13 03:22:01,997 - INFO - 📄 Getting and validating page content 21/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories
+2025-06-13 03:22:06,508 - INFO - 📄 Getting and validating page content 22/97: https://web.archive.org/web/20250407041512/https://www.onenote.com/
+2025-06-13 03:22:13,702 - INFO - 📄 Getting and validating page content 23/97: https://web.archive.org/web/20250407041512/https://learn.microsoft.com/en-us/training/educator-center/?source=mec
+2025-06-13 03:22:15,763 - INFO - 📄 Getting and validating page content 24/97: https://web.archive.org/web/20250407041512/https://developer.microsoft.com/en-us/windows
+2025-06-13 03:22:19,466 - INFO - 📄 Getting and validating page content 25/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-365
+2025-06-13 03:22:23,275 - INFO - 📄 Getting and validating page content 26/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/d/Surface-Laptop-Go-3/8p0wwgj6c6l2
+2025-06-13 03:22:26,175 - INFO - 📄 Getting and validating page content 27/97: https://web.archive.org/web/20250407041512/https://appsource.microsoft.com/en-us/
+2025-06-13 03:22:29,770 - INFO - 📄 Getting and validating page content 28/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations
+2025-06-13 03:22:32,466 - INFO - 📄 Getting and validating page content 29/97: https://web.archive.org/web/20250407041512/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:22:34,330 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/http://www.microsoft.com/en/us/default.aspx?redir=true: 421 Client Error: Misdirected Request for url: https://web.archive.org/web/20250421012147/https://casoneroutegold-prod-bggfgca0dkaag8a8.b01.azurefd.net/en/us/default.aspx?redir=true
+2025-06-13 03:22:35,332 - INFO - 📄 Getting and validating page content 30/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality
+2025-06-13 03:22:37,675 - INFO - 📄 Getting and validating page content 31/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/returns
+2025-06-13 03:22:41,530 - INFO - 📄 Getting and validating page content 32/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/microsoft-365
+2025-06-13 03:22:46,566 - INFO - 📄 Getting and validating page content 33/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education/products/teams
+2025-06-13 03:22:49,891 - INFO - 📄 Getting and validating page content 34/97: https://web.archive.org/web/20250407041512/https://go.microsoft.com/fwlink/?linkid=2026638
+2025-06-13 03:22:57,007 - INFO - 📄 Getting and validating page content 35/97: https://web.archive.org/web/20250407041512/https://techcommunity.microsoft.com/
+2025-06-13 03:23:00,566 - INFO - 📄 Getting and validating page content 36/97: https://web.archive.org/web/20250407041512/https://support.microsoft.com/contactus
+2025-06-13 03:23:03,378 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://support.microsoft.com/contactus: 429 Client Error: Too Many Requests for url: https://web.archive.org/web/20250408002155/https://support.microsoft.com/contactus
+2025-06-13 03:23:04,384 - INFO - 📄 Getting and validating page content 37/97: https://web.archive.org/web/20250407041512/https://go.microsoft.com/fwlink/?LinkId=521839
+2025-06-13 03:23:10,409 - INFO - 📄 Getting and validating page content 38/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/sql-server/
+2025-06-13 03:23:12,695 - INFO - 📄 Getting and validating page content 39/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/d/surface-laptop-5/8XN49V61S1BN?activetab=pivot:overviewtab
+2025-06-13 03:23:16,764 - INFO - 📄 Getting and validating page content 40/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox
+2025-06-13 03:23:20,021 - INFO - 📄 Getting and validating page content 41/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-cloud
+2025-06-13 03:23:25,072 - INFO - 📄 Getting and validating page content 42/97: https://web.archive.org/web/20250407041512/https://products.office.com/en-us/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams
+2025-06-13 03:23:27,021 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://products.office.com/en-us/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250421012151/https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams
+2025-06-13 03:23:28,022 - INFO - 📄 Getting and validating page content 43/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/about
+2025-06-13 03:23:31,627 - INFO - 📄 Getting and validating page content 44/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/edge
+2025-06-13 03:23:39,760 - INFO - 📄 Getting and validating page content 45/97: https://web.archive.org/web/20250407041512/https://support.microsoft.com/en-us
+2025-06-13 03:23:44,195 - INFO - 📄 Getting and validating page content 46/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-copilot
+2025-06-13 03:23:51,064 - INFO - 📄 Getting and validating page content 47/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/power-platform
+2025-06-13 03:23:54,133 - INFO - 📄 Getting and validating page content 48/97: https://web.archive.org/web/20250407041512/https://developer.microsoft.com/en-us/
+2025-06-13 03:23:58,786 - INFO - 📄 Getting and validating page content 49/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames
+2025-06-13 03:24:03,243 - INFO - 📄 Getting and validating page content 50/97: https://web.archive.org/web/20250407041512/https://go.microsoft.com/fwlink/?LinkID=206977
+2025-06-13 03:24:08,174 - INFO - 📄 Getting and validating page content 51/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/dynamics-365
+2025-06-13 03:24:11,107 - INFO - 📄 Getting and validating page content 52/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/licensing/default
+2025-06-13 03:24:19,381 - INFO - 📄 Getting and validating page content 53/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/dynamics365/home
+2025-06-13 03:24:26,772 - INFO - 📄 Getting and validating page content 54/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab
+2025-06-13 03:24:30,410 - INFO - 📄 Getting and validating page content 55/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education/devices/overview
+2025-06-13 03:24:32,587 - INFO - 📄 Getting and validating page content 56/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/windows/windows-11-apps
+2025-06-13 03:24:36,199 - INFO - 📄 Getting and validating page content 57/97: https://web.archive.org/web/20250407041512/https://learn.microsoft.com/en-us/docs/
+2025-06-13 03:24:40,324 - INFO - 📄 Getting and validating page content 58/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/trademarks
+2025-06-13 03:24:45,219 - INFO - 📄 Getting and validating page content 59/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/download/default.aspx
+2025-06-13 03:24:52,967 - INFO - 📄 Getting and validating page content 60/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/diversity/
+2025-06-13 03:24:56,392 - INFO - 📄 Getting and validating page content 61/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020
+2025-06-13 03:24:58,784 - INFO - 📄 Getting and validating page content 62/97: https://web.archive.org/web/20250407041512/https://outlook.live.com/owa/
+2025-06-13 03:25:06,278 - INFO - 📄 Getting and validating page content 63/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/devices/safety-and-eco
+2025-06-13 03:25:07,747 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/devices/safety-and-eco: 404 Client Error: Not Found for url: https://web.archive.org/web/20250328093235/https://www.microsoft.com/en-us/devices/safety-and-eco
+2025-06-13 03:25:08,747 - INFO - 📄 Getting and validating page content 64/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/education
+2025-06-13 03:25:11,237 - INFO - 📄 Getting and validating page content 65/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/
+2025-06-13 03:25:14,985 - INFO - 📄 Getting and validating page content 66/97: https://web.archive.org/web/20250407041512/https://choice.microsoft.com/
+2025-06-13 03:25:32,641 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://choice.microsoft.com/: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20250407094916/https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=175&checkda=1&ct=1744019356&rver=7.5.2112.0&wp=SA_20MIN&wreply=https:%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-silent-signin%3Fru%3Dhttps%253A%252F%252Faccount.microsoft.com%252Fprivacy%252Fad-settings&lc=1033&id=292666
+2025-06-13 03:25:33,641 - INFO - 📄 Getting and validating page content 67/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education
+2025-06-13 03:25:37,646 - INFO - 📄 Getting and validating page content 68/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv
+2025-06-13 03:25:41,261 - INFO - 📄 Getting and validating page content 69/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/download
+2025-06-13 03:25:44,695 - INFO - 📄 Getting and validating page content 70/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/net/
+2025-06-13 03:25:52,136 - INFO - 📄 Getting and validating page content 71/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/rewards
+2025-06-13 03:26:03,165 - INFO - 📄 Getting and validating page content 72/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-365/business/copilot-for-microsoft-365
+2025-06-13 03:26:07,003 - INFO - 📄 Getting and validating page content 73/97: https://web.archive.org/web/20250407041512/https://www.xbox.com/
+2025-06-13 03:26:14,162 - INFO - 📄 Getting and validating page content 74/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/business
+2025-06-13 03:26:16,881 - INFO - 📄 Getting and validating page content 75/97: https://web.archive.org/web/20250407041512/https://www.skype.com/en/
+2025-06-13 03:26:22,892 - INFO - 📄 Getting and validating page content 76/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc
+2025-06-13 03:26:26,680 - INFO - 📄 Getting and validating page content 77/97: https://web.archive.org/web/20250407041512/https://support.microsoft.com/en-us/microsoft-store-and-billing?ocid=MS_Footer_StoreSupport
+2025-06-13 03:26:29,228 - INFO - 📄 Getting and validating page content 78/97: https://web.archive.org/web/20250407041512/http://www.microsoft.com/en-us/locale.aspx
+2025-06-13 03:26:34,270 - INFO - 📄 Getting and validating page content 79/97: https://web.archive.org/web/20250407041512/https://azuremarketplace.microsoft.com/en-us/
+2025-06-13 03:26:38,384 - INFO - 📄 Getting and validating page content 80/97: https://web.archive.org/web/20250407041512/https://docs.microsoft.com/en-us/
+2025-06-13 03:26:44,061 - INFO - 📄 Getting and validating page content 81/97: https://web.archive.org/web/20250407041512/https://visualstudio.microsoft.com/
+2025-06-13 03:26:49,150 - INFO - 📄 Getting and validating page content 82/97: https://web.archive.org/web/20250407041512/https://copilot.microsoft.com/
+2025-06-13 03:26:54,097 - INFO - 📄 Getting and validating page content 83/97: https://web.archive.org/web/20250407041512/https://account.microsoft.com/orders
+2025-06-13 03:27:01,050 - WARNING - 获取页面内容失败 https://web.archive.org/web/20250407041512/https://account.microsoft.com/orders: 520 Server Error: UNKNOWN for url: https://web.archive.org/save/_embed/https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service::account.microsoft.com::MBI_SSL+openid+profile+offline_access&response_type=code&client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&redirect_uri=https:%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-signin-oauth&client-request-id=4e286114-e754-4b12-940b-6d6d7b523d64&x-client-SKU=MSAL.Desktop&x-client-Ver=4.66.1.0&x-client-OS=Windows+Server+2019+Datacenter&prompt=login&client_info=1&state=H4sIAAAAAAAEAAXB3aJCMAAA4Hc5ty5ObGiXfkNhKVa7m8wQTgrh6c_3_aCLbqonGqnMv-TvQ9Mw2ohhBd920mdo8-yk33YSs7R7l8V0lt24vfmVRrndZXuru4ZRRYCRYSw-_iy3mWY49DTYEuLjYdOLGe6FxvsEekuymlj1A3C1iImY4Y6fX1LQv6pvwoJ44GKDqUPPh1f28GbUuK7FMQidwE_sMszXWF54mo7MLcoaR6lUAiDZlAN0kMmAvBSt4e6q4AaXctfInz-pXc4xe7STsAgMLJHeh-QY3eBiKRgPubcXVxYl82OvKfTUu-TI_Wog6TbRqOIW9bY1V5fhDpdMVDvXfE3I7qsEJUx_EitWN-23lD4eaCbqbGxQzPENlTOazbfzfb5MX54PU3muXWmMXFS_vuadb09I8zcPvsKvR-gY0-ZuhffzDwcRDJSCAQAA&msaoauth2=true&instance_aware=true&lc=1033
+2025-06-13 03:27:02,051 - INFO - 📄 Getting and validating page content 84/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore
+2025-06-13 03:27:05,699 - INFO - 📄 Getting and validating page content 85/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/microsoft-365/business
+2025-06-13 03:27:09,281 - INFO - 📄 Getting and validating page content 86/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/cloud-platform/windows-server
+2025-06-13 03:27:17,404 - INFO - 📄 Getting and validating page content 87/97: https://web.archive.org/web/20250407041512/https://azure.microsoft.com/en-us/
+2025-06-13 03:27:20,976 - INFO - 📄 Getting and validating page content 88/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage
+2025-06-13 03:27:23,973 - INFO - 📄 Getting and validating page content 89/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/security
+2025-06-13 03:27:28,960 - INFO - 📄 Getting and validating page content 90/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/accessibility
+2025-06-13 03:27:32,537 - INFO - 📄 Getting and validating page content 91/97: https://web.archive.org/web/20250407041512/https://careers.microsoft.com/
+2025-06-13 03:27:36,279 - INFO - 📄 Getting and validating page content 92/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
+2025-06-13 03:27:39,562 - INFO - 📄 Getting and validating page content 93/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/games/windows?icid=CNavGamesWindowsGames
+2025-06-13 03:27:45,879 - INFO - 📄 Getting and validating page content 94/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/sustainability/
+2025-06-13 03:27:48,790 - INFO - 📄 Getting and validating page content 95/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC
+2025-06-13 03:27:52,859 - INFO - 📄 Getting and validating page content 96/97: https://web.archive.org/web/20250407041512/https://www.microsoft.com/en-us/education/how-to-buy
+2025-06-13 03:27:55,753 - INFO - 📄 Getting and validating page content 97/97: https://web.archive.org/web/20250407041512/https://azure.microsoft.com/en-us/free/students/
+2025-06-13 03:27:59,366 - INFO - ✅ Content filtering completed: 80/97 valid pages
+2025-06-13 03:27:59,367 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:27:59,367 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:28:04,281 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:28:04,281 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:04,281 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:28:04,281 - ERROR - ❌ Year 2025 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:04,281 - ERROR - ❌ Planning failed for 2025: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:04,282 - INFO - 📌 === Processing year 2009 ===
+2025-06-13 03:28:04,282 - INFO - 🤖 Running LLM planning for 2009
+2025-06-13 03:28:04,282 - INFO - 🤖 Starting adaptive LLM analysis for year 2009 website: https://web.archive.org/web/20090628232459/http://www.microsoft.com:80/
+2025-06-13 03:28:04,282 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:28:04,282 - INFO - 开始发现URL: https://web.archive.org/web/20090628232459/http://www.microsoft.com:80/
+2025-06-13 03:28:07,060 - INFO - 发现 1 个内部链接
+2025-06-13 03:28:07,060 - INFO - 📋 Discovered 1 internal links
+2025-06-13 03:28:07,060 - INFO - URL structure filtering completed: 1/1 meaningful URLs
+2025-06-13 03:28:07,061 - INFO - ✅ URL structure filtering completed: 1 meaningful URLs
+2025-06-13 03:28:07,061 - INFO - 📄 Getting and validating page content 1/1: https://web.archive.org/web/20090628232459/http://www.microsoft.com:80/
+2025-06-13 03:28:08,248 - INFO - ✅ Content filtering completed: 0/1 valid pages
+2025-06-13 03:28:08,248 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:28:08,249 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:28:12,359 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-13 03:28:12,360 - ERROR - ❌ LLM API call failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:12,360 - ERROR - 🚨 Using model: openai/gpt-4o
+2025-06-13 03:28:12,360 - ERROR - ❌ Year 2009 LLM analysis failed: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:12,360 - ERROR - ❌ Planning failed for 2009: LLM analysis failed, unable to perform effective website analysis: Error code: 400 - {'error': {'message': 'timeout', 'code': 400}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-13 03:28:12,360 - INFO - 📌 === Processing year 2024 ===
+2025-06-13 03:28:12,361 - INFO - 🤖 Running LLM planning for 2024
+2025-06-13 03:28:12,361 - INFO - 🤖 Starting adaptive LLM analysis for year 2024 website: https://web.archive.org/web/20241231082124/https://www.microsoft.com/
+2025-06-13 03:28:12,361 - INFO - ⚙️ Current LLM model: openai/gpt-4o
+2025-06-13 03:28:12,361 - INFO - 开始发现URL: https://web.archive.org/web/20241231082124/https://www.microsoft.com/
+2025-06-13 03:28:14,071 - INFO - 发现 97 个内部链接
+2025-06-13 03:28:14,071 - INFO - 📋 Discovered 97 internal links
+2025-06-13 03:28:14,072 - INFO - URL structure filtering completed: 97/97 meaningful URLs
+2025-06-13 03:28:14,072 - INFO - ✅ URL structure filtering completed: 97 meaningful URLs
+2025-06-13 03:28:14,072 - INFO - 📄 Getting and validating page content 1/97: https://web.archive.org/web/20241231082124/https://developer.microsoft.com/en-us/
+2025-06-13 03:28:19,940 - INFO - 📄 Getting and validating page content 2/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/power-platform
+2025-06-13 03:28:22,564 - INFO - 📄 Getting and validating page content 3/97: https://web.archive.org/web/20241231082124/https://learn.microsoft.com/en-us/
+2025-06-13 03:28:26,307 - INFO - 📄 Getting and validating page content 4/97: https://web.archive.org/web/20241231082124/https://go.microsoft.com/fwlink/?LinkId=521839
+2025-06-13 03:28:33,532 - INFO - 📄 Getting and validating page content 5/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/sustainability/
+2025-06-13 03:28:36,007 - INFO - 📄 Getting and validating page content 6/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/cloud-platform/windows-server
+2025-06-13 03:28:44,358 - INFO - 📄 Getting and validating page content 7/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/download/default.aspx
+2025-06-13 03:28:49,774 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/download/default.aspx: 404 Client Error: Not Found for url: https://web.archive.org/web/20241226224733/http://www.microsoft.com/en-us/download/404-page
+2025-06-13 03:28:50,775 - INFO - 📄 Getting and validating page content 8/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage
+2025-06-13 03:28:51,777 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250101014022/https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage
+2025-06-13 03:28:52,777 - INFO - 📄 Getting and validating page content 9/97: https://web.archive.org/web/20241231082124/https://appsource.microsoft.com/en-us/
+2025-06-13 03:28:56,188 - INFO - 📄 Getting and validating page content 10/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/sql-server/
+2025-06-13 03:28:59,782 - INFO - 📄 Getting and validating page content 11/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/business
+2025-06-13 03:29:02,972 - INFO - 📄 Getting and validating page content 12/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz
+2025-06-13 03:29:04,470 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241230155006/https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz
+2025-06-13 03:29:05,471 - INFO - 📄 Getting and validating page content 13/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education/how-to-buy
+2025-06-13 03:29:07,987 - INFO - 📄 Getting and validating page content 14/97: https://web.archive.org/web/20241231082124/https://choice.microsoft.com/
+2025-06-13 03:29:19,548 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://choice.microsoft.com/: Exceeded 30 redirects.
+2025-06-13 03:29:20,549 - INFO - 📄 Getting and validating page content 15/97: https://web.archive.org/web/20241231082124/http://www.microsoft.com/en-us/locale.aspx
+2025-06-13 03:29:36,082 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/http://www.microsoft.com/en-us/locale.aspx: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-13 03:29:37,082 - INFO - 📄 Getting and validating page content 16/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/
+2025-06-13 03:29:41,956 - INFO - 📄 Getting and validating page content 17/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
+2025-06-13 03:29:45,355 - INFO - 📄 Getting and validating page content 18/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/microsoft-365
+2025-06-13 03:29:50,728 - INFO - 📄 Getting and validating page content 19/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/net/
+2025-06-13 03:30:00,529 - INFO - 📄 Getting and validating page content 20/97: https://web.archive.org/web/20241231082124/https://outlook.live.com/owa/
+2025-06-13 03:30:08,753 - INFO - 📄 Getting and validating page content 21/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-365/business
+2025-06-13 03:30:14,981 - INFO - 📄 Getting and validating page content 22/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/Surface-Laptop-Go-3/8p0wwgj6c6l2
+2025-06-13 03:30:17,347 - INFO - 📄 Getting and validating page content 23/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education/devices/overview
+2025-06-13 03:30:19,739 - INFO - 📄 Getting and validating page content 24/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education/products/teams
+2025-06-13 03:30:22,821 - INFO - 📄 Getting and validating page content 25/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/returns
+2025-06-13 03:30:26,766 - INFO - 📄 Getting and validating page content 26/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox
+2025-06-13 03:30:32,538 - INFO - 📄 Getting and validating page content 27/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames
+2025-06-13 03:30:33,534 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250109121555/https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames
+2025-06-13 03:30:34,535 - INFO - 📄 Getting and validating page content 28/97: https://web.archive.org/web/20241231082124/https://azure.microsoft.com/en-us/
+2025-06-13 03:30:38,473 - INFO - 📄 Getting and validating page content 29/97: https://web.archive.org/web/20241231082124/https://go.microsoft.com/fwlink/?linkid=2026638
+2025-06-13 03:30:45,078 - INFO - 📄 Getting and validating page content 30/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality
+2025-06-13 03:30:47,590 - INFO - 📄 Getting and validating page content 31/97: https://web.archive.org/web/20241231082124/https://privacy.microsoft.com/en-us
+2025-06-13 03:30:51,669 - INFO - 📄 Getting and validating page content 32/97: https://web.archive.org/web/20241231082124/https://visualstudio.microsoft.com/
+2025-06-13 03:30:56,723 - INFO - 📄 Getting and validating page content 33/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate
+2025-06-13 03:31:03,495 - INFO - 📄 Getting and validating page content 34/97: https://web.archive.org/web/20241231082124/https://developer.microsoft.com/en-us/windows
+2025-06-13 03:31:10,227 - INFO - 📄 Getting and validating page content 35/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore
+2025-06-13 03:31:12,676 - INFO - 📄 Getting and validating page content 36/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations
+2025-06-13 03:31:15,920 - INFO - 📄 Getting and validating page content 37/97: https://web.archive.org/web/20241231082124/https://support.microsoft.com/contactus
+2025-06-13 03:31:19,138 - INFO - 📄 Getting and validating page content 38/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/accessibility
+2025-06-13 03:31:22,481 - INFO - 📄 Getting and validating page content 39/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation
+2025-06-13 03:31:26,877 - INFO - 📄 Getting and validating page content 40/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC
+2025-06-13 03:31:28,643 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250102182647/https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC
+2025-06-13 03:31:29,643 - INFO - 📄 Getting and validating page content 41/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/licensing/default
+2025-06-13 03:31:31,290 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/licensing/default: 403 Client Error: Forbidden for url: https://web.archive.org/web/20250108183914/https://www.microsoft.com/licensing/default
+2025-06-13 03:31:32,290 - INFO - 📄 Getting and validating page content 42/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+2025-06-13 03:31:35,487 - INFO - 📄 Getting and validating page content 43/97: https://web.archive.org/web/20241231082124/https://products.office.com/en-us/home
+2025-06-13 03:31:40,429 - INFO - 📄 Getting and validating page content 44/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-365
+2025-06-13 03:31:42,636 - INFO - 📄 Getting and validating page content 45/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/p/xbox-live-gold/cfq7ttc0k5dj?WT.mc_id=CNavGamesXboxLiveGold
+2025-06-13 03:31:46,152 - INFO - 📄 Getting and validating page content 46/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/windows-11-apps
+2025-06-13 03:31:50,307 - INFO - 📄 Getting and validating page content 47/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/apps/windows?icid=CNavAppsWindowsApps
+2025-06-13 03:31:55,615 - INFO - 📄 Getting and validating page content 48/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/gift-cards
+2025-06-13 03:31:58,219 - WARNING - 获取页面内容失败 https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/gift-cards: 403 Client Error: Forbidden for url: https://web.archive.org/web/20241229161109/https://www.microsoft.com/en-us/store/b/gift-cards
+2025-06-13 03:31:59,219 - INFO - 📄 Getting and validating page content 49/97: https://web.archive.org/web/20241231082124/https://azuremarketplace.microsoft.com/en-us/
+2025-06-13 03:32:01,828 - INFO - 📄 Getting and validating page content 50/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-cloud
+2025-06-13 03:32:05,596 - INFO - 📄 Getting and validating page content 51/97: https://web.archive.org/web/20241231082124/https://products.office.com/en-us/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams
+2025-06-13 03:32:09,614 - INFO - 📄 Getting and validating page content 52/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/download
+2025-06-13 03:32:15,240 - INFO - 📄 Getting and validating page content 53/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-365/business/copilot-for-microsoft-365
+2025-06-13 03:32:18,470 - INFO - 📄 Getting and validating page content 54/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/enterprise
+2025-06-13 03:32:25,596 - INFO - 📄 Getting and validating page content 55/97: https://web.archive.org/web/20241231082124/https://account.microsoft.com/orders
+2025-06-13 03:32:36,690 - INFO - 📄 Getting and validating page content 56/97: https://web.archive.org/web/20241231082124/https://techcommunity.microsoft.com/
+2025-06-13 03:32:40,990 - INFO - 📄 Getting and validating page content 57/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/
+2025-06-13 03:32:42,350 - INFO - 📄 Getting and validating page content 58/97: https://web.archive.org/web/20241231082124/https://go.microsoft.com/fwlink/?LinkID=206977
+2025-06-13 03:32:47,960 - INFO - 📄 Getting and validating page content 59/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020
+2025-06-13 03:32:50,706 - INFO - 📄 Getting and validating page content 60/97: https://web.archive.org/web/20241231082124/https://azure.microsoft.com/en-us/free/students/
+2025-06-13 03:32:55,858 - INFO - 📄 Getting and validating page content 61/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education/products/microsoft-365
+2025-06-13 03:32:59,210 - INFO - 📄 Getting and validating page content 62/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/certified-refurbished-products
+2025-06-13 03:33:01,425 - INFO - 📄 Getting and validating page content 63/97: https://web.archive.org/web/20241231082124/https://www.onenote.com/
+2025-06-13 03:33:07,810 - INFO - 📄 Getting and validating page content 64/97: https://web.archive.org/web/20241231082124/https://www.skype.com/en/
+2025-06-13 03:33:14,065 - INFO - 📄 Getting and validating page content 65/97: https://web.archive.org/web/20241231082124/https://docs.microsoft.com/en-us/
+2025-06-13 03:33:22,286 - INFO - 📄 Getting and validating page content 66/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc
+2025-06-13 03:33:26,851 - INFO - 📄 Getting and validating page content 67/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/mobile?icid=CNavDevicesMobile
+2025-06-13 03:33:32,126 - INFO - 📄 Getting and validating page content 68/97: https://web.archive.org/web/20241231082124/https://support.microsoft.com/en-us/microsoft-store-and-billing?ocid=MS_Footer_StoreSupport
+2025-06-13 03:33:34,625 - INFO - 📄 Getting and validating page content 69/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-copilot
+2025-06-13 03:33:38,881 - INFO - 📄 Getting and validating page content 70/97: https://web.archive.org/web/20241231082124/https://support.microsoft.com/en-us
+2025-06-13 03:33:43,199 - INFO - 📄 Getting and validating page content 71/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/dynamics365/home
+2025-06-13 03:33:51,347 - INFO - 📄 Getting and validating page content 72/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/security
+2025-06-13 03:33:55,999 - INFO - 📄 Getting and validating page content 73/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education
+2025-06-13 03:33:59,423 - INFO - 📄 Getting and validating page content 74/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-laptop-5/8XN49V61S1BN?activetab=pivot:overviewtab
+2025-06-13 03:34:02,623 - INFO - 📄 Getting and validating page content 75/97: https://web.archive.org/web/20241231082124/http://www.microsoft.com/en/us/default.aspx?redir=true
+2025-06-13 03:34:07,249 - INFO - 📄 Getting and validating page content 76/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/investor/default.aspx
+2025-06-13 03:34:13,402 - INFO - 📄 Getting and validating page content 77/97: https://web.archive.org/web/20241231082124/https://onedrive.live.com/about/en-us/
+2025-06-13 03:34:21,301 - INFO - 📄 Getting and validating page content 78/97: https://web.archive.org/web/20241231082124/https://copilot.microsoft.com/
+2025-06-13 03:34:24,619 - INFO - 📄 Getting and validating page content 79/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/education
+2025-06-13 03:34:27,441 - INFO - 📄 Getting and validating page content 80/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/dynamics-365
+2025-06-13 03:34:30,019 - INFO - 📄 Getting and validating page content 81/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab
+2025-06-13 03:34:32,733 - INFO - 📄 Getting and validating page content 82/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/edge
+2025-06-13 03:34:40,010 - INFO - 📄 Getting and validating page content 83/97: https://web.archive.org/web/20241231082124/https://learn.microsoft.com/en-us/training/educator-center/?source=mec
+2025-06-13 03:34:42,152 - INFO - 📄 Getting and validating page content 84/97: https://web.archive.org/web/20241231082124/https://learn.microsoft.com/en-us/docs/
+2025-06-13 03:34:46,128 - INFO - 📄 Getting and validating page content 85/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv
+2025-06-13 03:34:49,287 - INFO - 📄 Getting and validating page content 86/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/trademarks
+2025-06-13 03:34:54,403 - INFO - 📄 Getting and validating page content 87/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/diversity/
+2025-06-13 03:34:59,563 - INFO - 📄 Getting and validating page content 88/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/rewards
+2025-06-13 03:35:09,457 - INFO - 📄 Getting and validating page content 89/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/games/windows?icid=CNavGamesWindowsGames
+2025-06-13 03:35:14,134 - INFO - 📄 Getting and validating page content 90/97: https://web.archive.org/web/20241231082124/https://careers.microsoft.com/
+2025-06-13 03:35:19,842 - INFO - 📄 Getting and validating page content 91/97: https://web.archive.org/web/20241231082124/https://account.microsoft.com/
+2025-06-13 03:35:33,770 - INFO - 📄 Getting and validating page content 92/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories
+2025-06-13 03:35:39,407 - INFO - 📄 Getting and validating page content 93/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/surface
+2025-06-13 03:35:42,898 - INFO - 📄 Getting and validating page content 94/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/about
+2025-06-13 03:35:46,544 - INFO - 📄 Getting and validating page content 95/97: https://web.archive.org/web/20241231082124/https://news.microsoft.com/
+2025-06-13 03:35:53,370 - INFO - 📄 Getting and validating page content 96/97: https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/devices/safety-and-eco
+2025-06-13 03:35:56,825 - INFO - 📄 Getting and validating page content 97/97: https://web.archive.org/web/20241231082124/https://www.xbox.com/
+2025-06-13 03:36:11,119 - INFO - ✅ Content filtering completed: 70/97 valid pages
+2025-06-13 03:36:11,119 - INFO - 🧠 Calling LLM for year-specific analysis...
+2025-06-13 03:36:11,119 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-13 03:36:13,330 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-13 03:36:53,243 - INFO - ✅ LLM response received successfully
+2025-06-13 03:36:53,243 - INFO - 📊 Response length: 9470 characters
+2025-06-13 03:36:53,243 - INFO - 🔍 LLM analysis: {'core_url_recommendations': {'recommended_url_list': [{'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/business', 'page_type': 'Business Solutions and Products', 'expected_scenarios': ['Browse Stage', 'Purchase Stage', 'Decision-Making Stage'], 'selection_reason': 'This page offers a comprehensive view of business solutions, covering browsing, decision-making, and purchase scenarios, making it a key hub for business users.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/returns', 'page_type': 'After-Sales Service', 'expected_scenarios': ['After-Sales Stage'], 'selection_reason': 'Focused on return policies and processes, this page is crucial for after-sales scenarios, ensuring customer satisfaction and service.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/windows/', 'page_type': 'Product Information and Features', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Provides detailed information on Windows products, supporting browsing and decision-making scenarios with rich content on features and comparisons.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox', 'page_type': 'Gaming Products and Services', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Covers a wide range of gaming products, facilitating browsing and purchase scenarios for gaming enthusiasts.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/education', 'page_type': 'Educational Products and Solutions', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Dedicated to educational tools and solutions, this page supports browsing and decision-making for educational institutions.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/dynamics365/home', 'page_type': 'Business Applications', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Offers insights into business applications, supporting browsing and decision-making for enterprise users.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/security', 'page_type': 'Security Solutions', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Focuses on security solutions, crucial for decision-making scenarios in cybersecurity.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/education', 'page_type': 'Educational Discounts and Deals', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Highlights educational discounts and deals, supporting browsing and purchase scenarios for students and educators.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/microsoft-copilot', 'page_type': 'AI and Personal Assistant', 'expected_scenarios': ['Personalization Stage'], 'selection_reason': 'Showcases AI capabilities and personal assistant features, enhancing personalization scenarios.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories', 'page_type': 'Accessories and Gadgets', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Covers a variety of accessories, supporting browsing and purchase scenarios for tech gadgets.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/d/surface-pro-9/93VKD8NP4FVK?activetab=pivot:overviewtab', 'page_type': 'Product Purchase Page', 'expected_scenarios': ['Purchase Stage', 'Decision-Making Stage'], 'selection_reason': 'Dedicated to a specific product, this page supports detailed decision-making and purchase scenarios.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/enterprise', 'page_type': 'Enterprise Solutions', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Provides comprehensive information on enterprise solutions, supporting browsing and decision-making for large organizations.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality', 'page_type': 'Virtual Reality Products', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Focuses on VR products, supporting browsing and purchase scenarios for immersive technology.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc', 'page_type': 'Payment and Financing', 'expected_scenarios': ['Purchase Stage'], 'selection_reason': 'Essential for purchase scenarios, offering information on payment and financing options.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/certified-refurbished-products', 'page_type': 'Refurbished Products', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Highlights certified refurbished products, supporting browsing and purchase scenarios with a focus on sustainability.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/accessibility', 'page_type': 'Accessibility Solutions', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Dedicated to accessibility solutions, supporting browsing and decision-making for inclusive technology.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020', 'page_type': 'Store Benefits and Policies', 'expected_scenarios': ['Service Stage', 'Personalization Stage'], 'selection_reason': 'Provides insights into store benefits and policies, supporting service and personalization scenarios.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv', 'page_type': 'Entertainment Content', 'expected_scenarios': ['Browse Stage', 'Purchase Stage'], 'selection_reason': 'Focuses on movies and TV content, supporting browsing and purchase scenarios for entertainment.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/about', 'page_type': 'Company Information', 'expected_scenarios': ['Browse Stage'], 'selection_reason': 'Offers comprehensive company information, supporting browsing scenarios for users interested in corporate details.'}, {'url': 'https://web.archive.org/web/20241231082124/https://www.microsoft.com/en-us/surface', 'page_type': 'Surface Products Overview', 'expected_scenarios': ['Browse Stage', 'Decision-Making Stage'], 'selection_reason': 'Provides an overview of Surface products, supporting browsing and decision-making scenarios with detailed product information.'}], 'total_recommendations': 20, 'coverage_scenario_types': ['browsing', 'search', 'decision', 'purchase', 'service', 'personalization']}, 'year_specific_evaluation': {'2024_technology_maturity': '4', '2024_design_style_features': 'The design in 2024 emphasizes AI integration, user-centric interfaces, and seamless cross-platform experiences, with a focus on accessibility and personalization.', '2024_main_functional_highlights': ['AI-driven personalization', 'Integrated cloud solutions', 'Enhanced security features']}}
+2025-06-13 03:36:53,244 - INFO - ✅ Normal URL filtering completed: 20/70 LLM recommended URLs are in valid pages list
+2025-06-13 03:36:53,244 - INFO - ✅ Year 2024 adaptive LLM analysis completed
+2025-06-13 03:36:53,244 - INFO - Analysis results exported to: outputs/microsoft.com/microsoft.com_llm_planning_v0.4_result.json
+2025-06-13 03:36:53,245 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-13 03:36:53,245 - INFO - 📄 [2024] Analyzing page 1/20
+2025-06-13 03:36:55,535 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033655.txt
+2025-06-13 03:36:56,538 - INFO - 📄 [2024] Analyzing page 2/20
+2025-06-13 03:36:59,510 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033659.txt
+2025-06-13 03:37:00,512 - INFO - 📄 [2024] Analyzing page 3/20
+2025-06-13 03:37:02,647 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033702.txt
+2025-06-13 03:37:03,648 - INFO - 📄 [2024] Analyzing page 4/20
+2025-06-13 03:37:07,701 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033707.txt
+2025-06-13 03:37:09,144 - INFO - 📄 [2024] Analyzing page 5/20
+2025-06-13 03:37:09,688 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033709.txt
+2025-06-13 03:37:10,691 - INFO - 📄 [2024] Analyzing page 6/20
+2025-06-13 03:37:12,071 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033712.txt
+2025-06-13 03:37:13,073 - INFO - 📄 [2024] Analyzing page 7/20
+2025-06-13 03:37:15,205 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033715.txt
+2025-06-13 03:37:16,211 - INFO - 📄 [2024] Analyzing page 8/20
+2025-06-13 03:37:16,738 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033716.txt
+2025-06-13 03:37:17,741 - INFO - 📄 [2024] Analyzing page 9/20
+2025-06-13 03:37:18,452 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033718.txt
+2025-06-13 03:37:19,454 - INFO - 📄 [2024] Analyzing page 10/20
+2025-06-13 03:37:19,978 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033719.txt
+2025-06-13 03:37:20,981 - INFO - 📄 [2024] Analyzing page 11/20
+2025-06-13 03:37:21,828 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033721.txt
+2025-06-13 03:37:22,832 - INFO - 📄 [2024] Analyzing page 12/20
+2025-06-13 03:37:27,141 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033727.txt
+2025-06-13 03:37:28,143 - INFO - 📄 [2024] Analyzing page 13/20
+2025-06-13 03:37:29,508 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033729.txt
+2025-06-13 03:37:30,510 - INFO - 📄 [2024] Analyzing page 14/20
+2025-06-13 03:37:32,750 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033732.txt
+2025-06-13 03:37:33,753 - INFO - 📄 [2024] Analyzing page 15/20
+2025-06-13 03:37:34,250 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033734.txt
+2025-06-13 03:37:35,253 - INFO - 📄 [2024] Analyzing page 16/20
+2025-06-13 03:37:38,271 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033738.txt
+2025-06-13 03:37:39,273 - INFO - 📄 [2024] Analyzing page 17/20
+2025-06-13 03:37:40,106 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033740.txt
+2025-06-13 03:37:41,572 - INFO - 📄 [2024] Analyzing page 18/20
+2025-06-13 03:37:42,328 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033742.txt
+2025-06-13 03:37:43,331 - INFO - 📄 [2024] Analyzing page 19/20
+2025-06-13 03:37:43,817 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033743.txt
+2025-06-13 03:37:44,818 - INFO - 📄 [2024] Analyzing page 20/20
+2025-06-13 03:37:45,300 - INFO - 💾 Content saved to: outputs/microsoft.com/websites/2024_20250613_033745.txt
+2025-06-13 03:37:46,301 - INFO - ✅ Year 2024 scenario identification completed: 17 scenarios
+2025-06-13 03:37:46,302 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4_result.json
+2025-06-13 03:37:46,303 - INFO - Scenario analysis results exported to: outputs/microsoft.com/microsoft.com_scenario_v0.4_result.json
+2025-06-13 03:37:46,303 - INFO - ✅ Incremental scenario analysis workflow completed!
+2025-06-13 03:37:46,303 - INFO - 💡 Analysis completed! Output files:
+2025-06-13 03:37:46,303 - INFO -    - ./outputs/microsoft.com/microsoft.com_llm_planning_v0.4_result.json
+2025-06-13 03:37:46,303 - INFO -    - ./outputs/microsoft.com/microsoft.com_scenario_v0.4_result.json
+2025-06-13 03:37:47,236 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-13 03:37:47,237 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

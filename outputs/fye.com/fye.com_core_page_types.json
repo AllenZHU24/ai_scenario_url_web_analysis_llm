@@ -1,0 +1,338 @@
+{
+  "generation_time": "2025-06-30 16:04:24",
+  "company_url": "fye.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/",
+          "/index.htm"
+        ]
+      },
+      {
+        "type_name": "Blog",
+        "typical_url_patterns": [
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us.html",
+          "/pages/about-us"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/stores",
+          "/Store-Locator_stcVVcatId*VVviewcat.htm"
+        ]
+      },
+      {
+        "type_name": "Promotions & Events",
+        "typical_url_patterns": [
+          "/events.html",
+          "/pages/sweepstakes",
+          "/Wanna-Win-Landing_stcVVcatId*VVviewcat.htm"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "High-Level Category",
+        "typical_url_patterns": [
+          "/music/",
+          "/movies-tv/",
+          "/apparel/",
+          "/toys-collectibles/",
+          "/technology/",
+          "/home-gift/",
+          "/Music_stcVVcatId*VVviewcat.htm",
+          "/stores/fye/category-*.jsp"
+        ]
+      },
+      {
+        "type_name": "Sub-Category",
+        "typical_url_patterns": [
+          "/apparel/mens/t-shirts/",
+          "/toys-collectibles/action-figures/",
+          "/technology/speakers/portable/",
+          "/home-gift/housewares/wall-art/"
+        ]
+      },
+      {
+        "type_name": "Themed & Franchise Collection",
+        "typical_url_patterns": [
+          "/collections/anime",
+          "/collections/star-wars",
+          "/harry-potter/",
+          "/marvel/",
+          "/disney/"
+        ]
+      },
+      {
+        "type_name": "Brand Collection",
+        "typical_url_patterns": [
+          "/collections/funko-pops",
+          "/collections/loungefly",
+          "/collections/neca",
+          "/pop-culture/funko/"
+        ]
+      },
+      {
+        "type_name": "Format-Specific Category",
+        "typical_url_patterns": [
+          "/music/?prefn1=format&prefv1=Vinyl",
+          "/movies-tv/?prefn1=format&prefv1=Blu-ray%20Disc",
+          "/stores/fye/category-vinyl.jsp",
+          "/Blu-ray_stcVVcatId*VVviewcat.htm"
+        ]
+      },
+      {
+        "type_name": "Genre-Specific Category",
+        "typical_url_patterns": [
+          "/music/rock/",
+          "/movies-tv/movies/horror/",
+          "/collections/music-rock",
+          "/collections/movies-horror",
+          "/Rock_stcVVcatId*VVviewcat.htm"
+        ]
+      },
+      {
+        "type_name": "New Releases",
+        "typical_url_patterns": [
+          "/music/new-releases/",
+          "/stores/fye/new-releases-movies.jsp"
+        ]
+      },
+      {
+        "type_name": "Best Sellers / Trending",
+        "typical_url_patterns": [
+          "/collections/best-selling-products",
+          "/collections/trending",
+          "/whats-hot/",
+          "/stores/fye/top-sellers-music.jsp"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Hub",
+        "typical_url_patterns": [
+          "/year-end-clearance/",
+          "/holidays/stocking-stuffers/",
+          "/stores/fye/specials.jsp",
+          "/stores/fye/browse-product.jsp?c=specials.clearance"
+        ]
+      },
+      {
+        "type_name": "Used Products Hub",
+        "typical_url_patterns": [
+          "/used/",
+          "/used/used-dvds-60-80--off/",
+          "/Used_stcVVcatId*VVviewcat.htm",
+          "/search?cgid=used-landing-deal"
+        ]
+      },
+      {
+        "type_name": "FYE Exclusives Hub",
+        "typical_url_patterns": [
+          "/collections/fye-exclusives",
+          "/pop-culture-exclusives/",
+          "/search?prefn1=isExclusive&prefv1=FYE%20Exclusive"
+        ]
+      },
+      {
+        "type_name": "Pre-Order Hub",
+        "typical_url_patterns": [
+          "/toys-collectibles/collectible-statues/pre-order-collectibles/",
+          "/stores/fye/pre-orders-movies.jsp"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*.html",
+          "/products/*",
+          "/s/product/*",
+          "/*_stcVVproductId*VVviewprod.htm"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search?q=*",
+          "/viewfdsearch.htm?query=*"
+        ]
+      },
+      {
+        "type_name": "Filtered Listing Page",
+        "typical_url_patterns": [
+          "/*?prefn1=*",
+          "/*?filter.p.*"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/wishlist.jsp",
+          "/viewWishList.htm"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/s/cart/",
+          "/viewcart.htm"
+        ]
+      },
+      {
+        "type_name": "Add to Cart Action",
+        "typical_url_patterns": [
+          "/s/cart/?add=true*"
+        ]
+      },
+      {
+        "type_name": "Checkout Process",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Login / Authentication",
+        "typical_url_patterns": [
+          "/login.jsp",
+          "/viewlogon.htm",
+          "/customer_authentication/redirect"
+        ]
+      },
+      {
+        "type_name": "Gift Card Page",
+        "typical_url_patterns": [
+          "/gift-card.jsp",
+          "/Gift-Cards_stcVVcatId*VVviewcat.htm"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/viewaccount.htm",
+          "/account.jsp"
+        ]
+      },
+      {
+        "type_name": "Order History & Status",
+        "typical_url_patterns": [
+          "/orders",
+          "/account-order-history.jsp",
+          "/vieworderlist.htm",
+          "/help-status-order.htm"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/policies/shipping-policy",
+          "/help-shipping-info.htm",
+          "/stores/fye/shipping-times.jsp"
+        ]
+      },
+      {
+        "type_name": "Returns & Refunds Policy",
+        "typical_url_patterns": [
+          "/policies/refund-policy",
+          "/stores/fye/returns-policy.jsp",
+          "/help-returnitem.htm"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation",
+        "typical_url_patterns": [
+          "/checkout/thank_you"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Loyalty Program Page",
+        "typical_url_patterns": [
+          "/pages/backstage-pass",
+          "/customer-service/help/backstage-pass.html",
+          "/Backstage-Pass_stcVVcatId*VVviewcat.htm"
+        ]
+      },
+      {
+        "type_name": "Help & FAQ Center",
+        "typical_url_patterns": [
+          "/pages/help",
+          "/help.htm",
+          "/customer-service/help/help.html"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contactus",
+          "/pages/contact",
+          "/policies/contact-information"
+        ]
+      },
+      {
+        "type_name": "Password Reset Page",
+        "typical_url_patterns": [
+          "/viewforgotpassword.htm"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy Page",
+        "typical_url_patterns": [
+          "/policies/privacy-policy",
+          "/about/ca-privacy-rights.html"
+        ]
+      },
+      {
+        "type_name": "Terms of Service Page",
+        "typical_url_patterns": [
+          "/policies/terms-of-service",
+          "/help-terms-of-service.htm"
+        ]
+      },
+      {
+        "type_name": "Accessibility Page",
+        "typical_url_patterns": [
+          "/accessibility.html",
+          "/pages/accessibility-statement"
+        ]
+      },
+      {
+        "type_name": "Data Privacy Request Page",
+        "typical_url_patterns": [
+          "/data-subject-request",
+          "/pages/state-privacy-rights"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/pages/careers"
+        ]
+      },
+      {
+        "type_name": "Sell/Trade-In Page",
+        "typical_url_patterns": [
+          "/stores/fye/sell.jsp"
+        ]
+      }
+    ]
+  },
+  "total_types": 41
+}

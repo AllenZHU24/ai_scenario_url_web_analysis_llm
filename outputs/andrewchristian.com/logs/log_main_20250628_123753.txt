@@ -1,0 +1,147 @@
+2025-06-28 12:37:53,023 - INFO - 📋 日志系统已初始化: outputs/andrewchristian.com/logs/log_main_20250628_123753.txt
+2025-06-28 12:37:53,023 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-28 12:37:53,023 - INFO - 📊 公司: andrewchristian.com
+2025-06-28 12:37:53,034 - INFO - ✅ 成功读取 17 个历史URLs from ./inputs/andrewchristian.com.txt
+2025-06-28 12:37:53,034 - INFO - 🌐 开始URL处理...
+2025-06-28 12:37:53,034 - INFO - 🌐 开始处理公司URLs: andrewchristian.com
+2025-06-28 12:37:53,036 - INFO - 🔄 发现已存在的链接文件: outputs/andrewchristian.com/andrewchristian.com_filtered_links.json，已加载 17 年的数据，将进行增量处理
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2009 年，已有 18 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2010 年，已有 11 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2011 年，已有 10 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2012 年，已有 10 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2013 年，已有 131 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2014 年，已有 199 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2015 年，已有 116 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2016 年，已有 183 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2017 年，已有 157 个链接
+2025-06-28 12:37:53,036 - INFO - ⏭️ 跳过 2018 年，已有 137 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2019 年，已有 128 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2020 年，已有 142 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2021 年，已有 149 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2022 年，已有 113 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2023 年，已有 117 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2024 年，已有 92 个链接
+2025-06-28 12:37:53,037 - INFO - ⏭️ 跳过 2025 年，已有 92 个链接
+2025-06-28 12:37:53,039 - INFO - 💾 链接处理完成，共 1805 个链接已保存到: outputs/andrewchristian.com/andrewchristian.com_filtered_links.json
+2025-06-28 12:37:53,039 - INFO - ✅ 成功加载 17 年的链接数据
+2025-06-28 12:37:53,040 - INFO - ✅ URL处理完成，共处理 17 年的数据
+2025-06-28 12:37:53,040 - INFO - 🧠 开始LLM规划...
+2025-06-28 12:37:53,265 - INFO - 🚀 LLM规划器已初始化
+2025-06-28 12:37:53,266 - INFO - 🧠 开始识别核心页面类型...
+2025-06-28 12:37:53,267 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-28 12:38:01,527 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:38:43,913 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-06-28 12:38:43,915 - INFO - ✅ 核心页面类型识别完成，共 47 个类型已保存到: outputs/andrewchristian.com/andrewchristian.com_core_page_types.json
+2025-06-28 12:38:43,915 - INFO - ✅ 核心页面类型已生成: outputs/andrewchristian.com/andrewchristian.com_core_page_types.json
+2025-06-28 12:38:43,915 - INFO - 🤖 开始生成LLM规划...
+2025-06-28 12:38:43,919 - INFO - 🔍 处理 2009 年的规划...
+2025-06-28 12:38:43,920 - INFO - ✅ URL正则匹配完成，共过滤出11/18个classified_urls
+2025-06-28 12:38:43,920 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:38:44,566 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:38:54,080 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:38:54,080 - INFO - ✅ URL推荐完成: 9 个推荐，9 个在有效页面内
+2025-06-28 12:38:54,080 - INFO - ✅ 2009 年规划完成: 推荐 9 个核心URL
+2025-06-28 12:38:54,081 - INFO - 🔍 处理 2010 年的规划...
+2025-06-28 12:38:54,081 - INFO - ✅ URL正则匹配完成，共过滤出8/11个classified_urls
+2025-06-28 12:38:54,081 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:38:54,742 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:39:07,081 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:39:07,081 - INFO - ✅ URL推荐完成: 8 个推荐，8 个在有效页面内
+2025-06-28 12:39:07,082 - INFO - ✅ 2010 年规划完成: 推荐 8 个核心URL
+2025-06-28 12:39:07,082 - INFO - 🔍 处理 2011 年的规划...
+2025-06-28 12:39:07,083 - INFO - ✅ URL正则匹配完成，共过滤出8/10个classified_urls
+2025-06-28 12:39:07,083 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:39:07,719 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:39:17,529 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:39:17,530 - INFO - ✅ URL推荐完成: 8 个推荐，8 个在有效页面内
+2025-06-28 12:39:17,530 - INFO - ✅ 2011 年规划完成: 推荐 8 个核心URL
+2025-06-28 12:39:17,531 - INFO - 🔍 处理 2012 年的规划...
+2025-06-28 12:39:17,531 - INFO - ✅ URL正则匹配完成，共过滤出8/10个classified_urls
+2025-06-28 12:39:17,531 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:39:18,245 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:39:27,257 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:39:27,258 - INFO - ✅ URL推荐完成: 8 个推荐，8 个在有效页面内
+2025-06-28 12:39:27,258 - INFO - ✅ 2012 年规划完成: 推荐 8 个核心URL
+2025-06-28 12:39:27,259 - INFO - 🔍 处理 2013 年的规划...
+2025-06-28 12:39:27,262 - INFO - ✅ URL正则匹配完成，共过滤出131/131个classified_urls
+2025-06-28 12:39:27,262 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:39:28,081 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:39:44,828 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:39:44,829 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-28 12:39:44,829 - INFO - ✅ 2013 年规划完成: 推荐 13 个核心URL
+2025-06-28 12:39:44,831 - INFO - 🔍 处理 2014 年的规划...
+2025-06-28 12:39:44,835 - INFO - ✅ URL正则匹配完成，共过滤出199/199个classified_urls
+2025-06-28 12:39:44,836 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:39:45,712 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:40:02,219 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:40:02,219 - INFO - ✅ URL推荐完成: 15 个推荐，14 个在有效页面内
+2025-06-28 12:40:02,219 - INFO - ✅ 2014 年规划完成: 推荐 15 个核心URL
+2025-06-28 12:40:02,223 - INFO - 🔍 处理 2015 年的规划...
+2025-06-28 12:40:02,226 - INFO - ✅ URL正则匹配完成，共过滤出116/116个classified_urls
+2025-06-28 12:40:02,226 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:40:02,963 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:40:16,289 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:40:16,289 - INFO - ✅ URL推荐完成: 13 个推荐，12 个在有效页面内
+2025-06-28 12:40:16,289 - INFO - ✅ 2015 年规划完成: 推荐 13 个核心URL
+2025-06-28 12:40:16,295 - INFO - 🔍 处理 2016 年的规划...
+2025-06-28 12:40:16,300 - INFO - ✅ URL正则匹配完成，共过滤出64/183个classified_urls
+2025-06-28 12:40:16,300 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:40:17,273 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:40:34,251 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:40:34,251 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-28 12:40:34,251 - INFO - ✅ 2016 年规划完成: 推荐 15 个核心URL
+2025-06-28 12:40:34,258 - INFO - 🔍 处理 2017 年的规划...
+2025-06-28 12:40:34,262 - INFO - ✅ URL正则匹配完成，共过滤出49/157个classified_urls
+2025-06-28 12:40:34,262 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:40:35,104 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:40:51,990 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:40:51,990 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-06-28 12:40:51,991 - INFO - ✅ 2017 年规划完成: 推荐 13 个核心URL
+2025-06-28 12:40:51,998 - INFO - 🔍 处理 2018 年的规划...
+2025-06-28 12:40:52,002 - INFO - ✅ URL正则匹配完成，共过滤出36/137个classified_urls
+2025-06-28 12:40:52,002 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:40:52,698 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:41:09,360 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:41:09,360 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-28 12:41:09,360 - INFO - ✅ 2018 年规划完成: 推荐 15 个核心URL
+2025-06-28 12:41:09,368 - INFO - 🔍 处理 2019 年的规划...
+2025-06-28 12:41:09,371 - INFO - ✅ URL正则匹配完成，共过滤出37/128个classified_urls
+2025-06-28 12:41:09,372 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:41:09,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:41:27,042 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-28 12:41:27,042 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-06-28 12:41:27,042 - INFO - ✅ 2019 年规划完成: 推荐 14 个核心URL
+2025-06-28 12:41:27,050 - INFO - 🔍 处理 2020 年的规划...
+2025-06-28 12:41:27,054 - INFO - ✅ URL正则匹配完成，共过滤出37/142个classified_urls
+2025-06-28 12:41:27,054 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 12:41:27,738 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-28 12:41:48,633 - INFO - Retrying request to /chat/completions in 0.474004 seconds
+2025-06-28 12:41:49,122 - INFO - Retrying request to /chat/completions in 0.841531 seconds
+2025-06-28 16:45:36,344 - ERROR - ❌ LLM API调用失败: Connection error.
+2025-06-28 16:45:36,344 - ERROR - ❌ 2020 年规划失败: Connection error.
+2025-06-28 16:45:36,344 - INFO - 🔍 处理 2021 年的规划...
+2025-06-28 16:45:36,352 - INFO - ✅ URL正则匹配完成，共过滤出43/149个classified_urls
+2025-06-28 16:45:36,352 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 16:45:36,392 - INFO - Retrying request to /chat/completions in 0.436438 seconds
+2025-06-28 16:45:37,053 - INFO - Retrying request to /chat/completions in 0.928139 seconds
+2025-06-28 16:45:37,999 - ERROR - ❌ LLM API调用失败: Connection error.
+2025-06-28 16:45:37,999 - ERROR - ❌ 2021 年规划失败: Connection error.
+2025-06-28 16:45:37,999 - INFO - 🔍 处理 2022 年的规划...
+2025-06-28 16:45:38,014 - INFO - ✅ URL正则匹配完成，共过滤出42/113个classified_urls
+2025-06-28 16:45:38,014 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 16:45:38,046 - INFO - Retrying request to /chat/completions in 0.383853 seconds
+2025-06-28 16:45:38,435 - INFO - Retrying request to /chat/completions in 0.770230 seconds
+2025-06-28 16:45:39,211 - ERROR - ❌ LLM API调用失败: Connection error.
+2025-06-28 16:45:39,211 - ERROR - ❌ 2022 年规划失败: Connection error.
+2025-06-28 16:45:39,211 - INFO - 🔍 处理 2023 年的规划...
+2025-06-28 16:45:39,217 - INFO - ✅ URL正则匹配完成，共过滤出43/117个classified_urls
+2025-06-28 16:45:39,218 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 16:45:39,228 - INFO - Retrying request to /chat/completions in 0.458171 seconds
+2025-06-28 16:45:39,727 - INFO - Retrying request to /chat/completions in 0.768934 seconds
+2025-06-28 16:45:40,500 - ERROR - ❌ LLM API调用失败: Connection error.
+2025-06-28 16:45:40,500 - ERROR - ❌ 2023 年规划失败: Connection error.
+2025-06-28 16:45:40,500 - INFO - 🔍 处理 2024 年的规划...
+2025-06-28 16:45:40,502 - INFO - ✅ URL正则匹配完成，共过滤出34/92个classified_urls
+2025-06-28 16:45:40,502 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-28 16:45:40,507 - INFO - Retrying request to /chat/completions in 0.394142 seconds
+2025-06-28 16:45:46,409 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"

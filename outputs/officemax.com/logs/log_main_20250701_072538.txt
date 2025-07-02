@@ -1,0 +1,287 @@
+2025-07-01 07:25:38,551 - INFO - 📋 日志系统已初始化: outputs/officemax.com/logs/log_main_20250701_072538.txt
+2025-07-01 07:25:38,551 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-01 07:25:38,551 - INFO - 📊 公司: officemax.com
+2025-07-01 07:25:38,560 - INFO - ✅ 成功读取 6 个历史URLs from ./inputs/officemax.com.txt
+2025-07-01 07:25:38,561 - INFO - 🌐 开始URL处理...
+2025-07-01 07:25:38,561 - INFO - 🌐 开始处理公司URLs: officemax.com
+2025-07-01 07:25:38,561 - INFO - 🔍 处理 2009 年的URLs...
+2025-07-01 07:25:38,561 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20091226170357/http://www.officemax.com/
+2025-07-01 07:25:41,572 - INFO - ✅ 发现 172 个内部链接
+2025-07-01 07:25:41,572 - INFO - ✅ URL过滤完成: 172/172 链接通过结构过滤
+2025-07-01 07:25:41,573 - INFO - ✅ 2009 年处理完成: 172 个有效链接
+2025-07-01 07:25:41,573 - INFO - 🔍 处理 2010 年的URLs...
+2025-07-01 07:25:41,573 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20101227165719/http://www.officemax.com/
+2025-07-01 07:25:43,680 - INFO - ✅ 发现 205 个内部链接
+2025-07-01 07:25:43,681 - INFO - ✅ URL过滤完成: 205/205 链接通过结构过滤
+2025-07-01 07:25:43,681 - INFO - ✅ 2010 年处理完成: 205 个有效链接
+2025-07-01 07:25:43,681 - INFO - 🔍 处理 2011 年的URLs...
+2025-07-01 07:25:43,681 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20111230031445/http://www.officemax.com:80/
+2025-07-01 07:25:45,450 - INFO - ✅ 发现 316 个内部链接
+2025-07-01 07:25:45,451 - INFO - ✅ URL过滤完成: 316/316 链接通过结构过滤
+2025-07-01 07:25:45,452 - INFO - ✅ 2011 年处理完成: 316 个有效链接
+2025-07-01 07:25:45,452 - INFO - 🔍 处理 2012 年的URLs...
+2025-07-01 07:25:45,452 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20121221234745/http://www.officemax.com/
+2025-07-01 07:25:47,726 - INFO - ✅ 发现 328 个内部链接
+2025-07-01 07:25:47,729 - INFO - ✅ URL过滤完成: 328/328 链接通过结构过滤
+2025-07-01 07:25:47,729 - INFO - ✅ 2012 年处理完成: 328 个有效链接
+2025-07-01 07:25:47,729 - INFO - 🔍 处理 2013 年的URLs...
+2025-07-01 07:25:47,729 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20131231220445/http://www.officemax.com/
+2025-07-01 07:25:50,469 - INFO - ✅ 发现 351 个内部链接
+2025-07-01 07:25:50,471 - INFO - ✅ URL过滤完成: 351/351 链接通过结构过滤
+2025-07-01 07:25:50,471 - INFO - ✅ 2013 年处理完成: 351 个有效链接
+2025-07-01 07:25:50,471 - INFO - 🔍 处理 2014 年的URLs...
+2025-07-01 07:25:50,471 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20141101121830/http://www.officemax.com:80/
+2025-07-01 07:25:53,134 - INFO - ✅ 发现 350 个内部链接
+2025-07-01 07:25:53,136 - INFO - ✅ URL过滤完成: 350/350 链接通过结构过滤
+2025-07-01 07:25:53,144 - INFO - ✅ 2014 年处理完成: 350 个有效链接
+2025-07-01 07:25:53,146 - INFO - 💾 链接处理完成，共 1722 个链接已保存到: outputs/officemax.com/officemax.com_filtered_links.json
+2025-07-01 07:25:53,147 - INFO - ✅ 成功加载 6 年的链接数据
+2025-07-01 07:25:53,147 - INFO - ✅ URL处理完成，共处理 6 年的数据
+2025-07-01 07:25:53,147 - INFO - 🧠 开始LLM规划...
+2025-07-01 07:25:53,403 - INFO - 🚀 LLM规划器已初始化
+2025-07-01 07:25:53,404 - INFO - 🧠 开始识别核心页面类型...
+2025-07-01 07:25:53,407 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-01 07:26:01,815 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:26:44,382 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-01 07:26:44,383 - INFO - ✅ 核心页面类型识别完成，共 46 个类型已保存到: outputs/officemax.com/officemax.com_core_page_types.json
+2025-07-01 07:26:44,383 - INFO - ✅ 核心页面类型已生成: outputs/officemax.com/officemax.com_core_page_types.json
+2025-07-01 07:26:44,383 - INFO - 🤖 开始生成LLM规划...
+2025-07-01 07:26:44,387 - INFO - 🔍 处理 2009 年的规划...
+2025-07-01 07:26:44,391 - INFO - ✅ URL正则匹配完成，共过滤出138/172个classified_urls
+2025-07-01 07:26:44,391 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:26:45,288 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:27:03,025 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:27:03,026 - INFO - ✅ URL推荐完成: 13 个推荐，13 个在有效页面内
+2025-07-01 07:27:03,026 - INFO - ✅ 2009 年规划完成: 推荐 13 个核心URL
+2025-07-01 07:27:03,028 - INFO - 🔍 处理 2010 年的规划...
+2025-07-01 07:27:03,031 - INFO - ✅ URL正则匹配完成，共过滤出187/205个classified_urls
+2025-07-01 07:27:03,032 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:27:03,996 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:27:26,997 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:27:26,997 - INFO - ✅ URL推荐完成: 15 个推荐，14 个在有效页面内
+2025-07-01 07:27:26,998 - INFO - ✅ 2010 年规划完成: 推荐 15 个核心URL
+2025-07-01 07:27:27,001 - INFO - 🔍 处理 2011 年的规划...
+2025-07-01 07:27:27,007 - INFO - ✅ URL正则匹配完成，共过滤出292/316个classified_urls
+2025-07-01 07:27:27,008 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:27:28,216 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:27:46,207 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:27:46,207 - INFO - ✅ URL推荐完成: 14 个推荐，13 个在有效页面内
+2025-07-01 07:27:46,207 - INFO - ✅ 2011 年规划完成: 推荐 14 个核心URL
+2025-07-01 07:27:46,213 - INFO - 🔍 处理 2012 年的规划...
+2025-07-01 07:27:46,220 - INFO - ✅ URL正则匹配完成，共过滤出306/328个classified_urls
+2025-07-01 07:27:46,220 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:27:47,593 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:28:13,157 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:28:13,157 - INFO - ✅ URL推荐完成: 13 个推荐，12 个在有效页面内
+2025-07-01 07:28:13,157 - INFO - ✅ 2012 年规划完成: 推荐 13 个核心URL
+2025-07-01 07:28:13,165 - INFO - 🔍 处理 2013 年的规划...
+2025-07-01 07:28:13,172 - INFO - ✅ URL正则匹配完成，共过滤出318/351个classified_urls
+2025-07-01 07:28:13,173 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:28:14,432 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:28:36,689 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:28:36,689 - INFO - ✅ URL推荐完成: 14 个推荐，13 个在有效页面内
+2025-07-01 07:28:36,690 - INFO - ✅ 2013 年规划完成: 推荐 14 个核心URL
+2025-07-01 07:28:36,707 - INFO - 🔍 处理 2014 年的规划...
+2025-07-01 07:28:36,718 - INFO - ✅ URL正则匹配完成，共过滤出315/350个classified_urls
+2025-07-01 07:28:36,719 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 07:28:38,147 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 07:28:56,014 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 07:28:56,014 - INFO - ✅ URL推荐完成: 13 个推荐，12 个在有效页面内
+2025-07-01 07:28:56,014 - INFO - ✅ 2014 年规划完成: 推荐 13 个核心URL
+2025-07-01 07:28:56,058 - INFO - 💾 LLM规划全部年份处理完成，共 82 个推荐URL已保存到: outputs/officemax.com/officemax.com_llm_planning.json
+2025-07-01 07:28:56,061 - INFO - ✅ 成功加载 6 年的规划数据
+2025-07-01 07:28:56,061 - INFO - ✅ LLM规划完成: outputs/officemax.com/officemax.com_llm_planning.json
+2025-07-01 07:28:56,061 - INFO - 🔍 开始场景分析...
+2025-07-01 07:28:56,062 - INFO - ✅ 成功加载 70 个微场景
+2025-07-01 07:28:56,062 - INFO - 🔍 场景分析器已初始化
+2025-07-01 07:28:56,062 - INFO - 🔍 开始分析场景: officemax.com
+2025-07-01 07:28:56,063 - INFO - 🔍 分析 2009 年的场景...
+2025-07-01 07:28:56,063 - INFO - 📄 [2009] 分析页面 1/13
+2025-07-01 07:28:57,381 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072857.txt
+2025-07-01 07:28:58,383 - INFO - 📄 [2009] 分析页面 2/13
+2025-07-01 07:29:01,559 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072901.txt
+2025-07-01 07:29:02,560 - INFO - 📄 [2009] 分析页面 3/13
+2025-07-01 07:29:04,393 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072904.txt
+2025-07-01 07:29:05,396 - INFO - 📄 [2009] 分析页面 4/13
+2025-07-01 07:29:07,294 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072907.txt
+2025-07-01 07:29:08,295 - INFO - 📄 [2009] 分析页面 5/13
+2025-07-01 07:29:09,646 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20091226170357/http://www.officemax.com/cart/cart.jsp;jsessionid=GxlUaupeSq-rIJIBVc+aKw**.atgb2c4-app9?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20091226170357/http://www.officemax.com/cart/cart.jsp;jsessionid=GxlUaupeSq-rIJIBVc+aKw**.atgb2c4-app9?continueShoppingURL=%2F
+2025-07-01 07:29:10,647 - INFO - 📄 [2009] 分析页面 6/13
+2025-07-01 07:29:17,846 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072917.txt
+2025-07-01 07:29:18,850 - INFO - 📄 [2009] 分析页面 7/13
+2025-07-01 07:29:20,945 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072920.txt
+2025-07-01 07:29:21,946 - INFO - 📄 [2009] 分析页面 8/13
+2025-07-01 07:29:23,736 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072923.txt
+2025-07-01 07:29:24,738 - INFO - 📄 [2009] 分析页面 9/13
+2025-07-01 07:29:27,330 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20091226170357/http://www.officemax.com/customerservice/contactUsHome.jsp;jsessionid=GxlUaupeSq-rIJIBVc+aKw**.atgb2c4-app9: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20091226170357/http://www.officemax.com/customerservice/contactUsHome.jsp;jsessionid=GxlUaupeSq-rIJIBVc+aKw**.atgb2c4-app9
+2025-07-01 07:29:28,331 - INFO - 📄 [2009] 分析页面 10/13
+2025-07-01 07:29:30,132 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072930.txt
+2025-07-01 07:29:31,134 - INFO - 📄 [2009] 分析页面 11/13
+2025-07-01 07:29:32,524 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072932.txt
+2025-07-01 07:29:33,526 - INFO - 📄 [2009] 分析页面 12/13
+2025-07-01 07:29:34,863 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072934.txt
+2025-07-01 07:29:35,864 - INFO - 📄 [2009] 分析页面 13/13
+2025-07-01 07:29:37,316 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2009_20250701_072937.txt
+2025-07-01 07:29:38,318 - INFO - ✅ 2009 年场景分析完成: 7 个场景
+2025-07-01 07:29:38,319 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:29:38,319 - INFO - 🔍 分析 2010 年的场景...
+2025-07-01 07:29:38,319 - INFO - 📄 [2010] 分析页面 1/15
+2025-07-01 07:29:38,937 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072938.txt
+2025-07-01 07:29:39,940 - INFO - 📄 [2010] 分析页面 2/15
+2025-07-01 07:29:42,625 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072942.txt
+2025-07-01 07:29:43,626 - INFO - 📄 [2010] 分析页面 3/15
+2025-07-01 07:29:45,136 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20101227165719/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20101227165719/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F
+2025-07-01 07:29:46,136 - INFO - 📄 [2010] 分析页面 4/15
+2025-07-01 07:29:47,776 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072947.txt
+2025-07-01 07:29:48,778 - INFO - 📄 [2010] 分析页面 5/15
+2025-07-01 07:29:54,610 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072954.txt
+2025-07-01 07:29:55,611 - INFO - 📄 [2010] 分析页面 6/15
+2025-07-01 07:29:57,136 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072957.txt
+2025-07-01 07:29:58,139 - INFO - 📄 [2010] 分析页面 7/15
+2025-07-01 07:29:59,791 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_072959.txt
+2025-07-01 07:30:00,793 - INFO - 📄 [2010] 分析页面 8/15
+2025-07-01 07:30:01,683 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073001.txt
+2025-07-01 07:30:02,684 - INFO - 📄 [2010] 分析页面 9/15
+2025-07-01 07:30:04,309 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073004.txt
+2025-07-01 07:30:05,310 - INFO - 📄 [2010] 分析页面 10/15
+2025-07-01 07:30:07,683 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073007.txt
+2025-07-01 07:30:08,685 - INFO - 📄 [2010] 分析页面 11/15
+2025-07-01 07:30:10,459 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073010.txt
+2025-07-01 07:30:11,460 - INFO - 📄 [2010] 分析页面 12/15
+2025-07-01 07:30:13,049 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073013.txt
+2025-07-01 07:30:14,051 - INFO - 📄 [2010] 分析页面 13/15
+2025-07-01 07:30:15,598 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073015.txt
+2025-07-01 07:30:16,602 - INFO - 📄 [2010] 分析页面 14/15
+2025-07-01 07:30:22,910 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073022.txt
+2025-07-01 07:30:23,911 - INFO - 📄 [2010] 分析页面 15/15
+2025-07-01 07:30:25,586 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2010_20250701_073025.txt
+2025-07-01 07:30:26,588 - INFO - ✅ 2010 年场景分析完成: 8 个场景
+2025-07-01 07:30:26,589 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:30:26,589 - INFO - 🔍 分析 2011 年的场景...
+2025-07-01 07:30:26,589 - INFO - 📄 [2011] 分析页面 1/14
+2025-07-01 07:30:28,629 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073028.txt
+2025-07-01 07:30:29,632 - INFO - 📄 [2011] 分析页面 2/14
+2025-07-01 07:30:30,714 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073030.txt
+2025-07-01 07:30:31,716 - INFO - 📄 [2011] 分析页面 3/14
+2025-07-01 07:30:33,918 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073033.txt
+2025-07-01 07:30:34,920 - INFO - 📄 [2011] 分析页面 4/14
+2025-07-01 07:30:50,524 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20111230031445/http://www.officemax.com/storelocator/storeLocatorHome.jsp: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-07-01 07:30:51,525 - INFO - 📄 [2011] 分析页面 5/14
+2025-07-01 07:30:53,436 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20111230031445/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20111230031445/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F
+2025-07-01 07:30:54,437 - INFO - 📄 [2011] 分析页面 6/14
+2025-07-01 07:30:55,502 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073055.txt
+2025-07-01 07:30:56,504 - INFO - 📄 [2011] 分析页面 7/14
+2025-07-01 07:30:57,794 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20111230031445/http://www.officemax.com/home/homePage.jsp?_DARGS=/common/navUtility.jsp_A&_DAV=&_dynSessConf=901821922970411913: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20111230031445/http://www.officemax.com/home/homePage.jsp?_DARGS=/common/navUtility.jsp_A&_DAV=&_dynSessConf=901821922970411913
+2025-07-01 07:30:58,795 - INFO - 📄 [2011] 分析页面 8/14
+2025-07-01 07:31:00,643 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073100.txt
+2025-07-01 07:31:01,648 - INFO - 📄 [2011] 分析页面 9/14
+2025-07-01 07:31:03,264 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073103.txt
+2025-07-01 07:31:04,266 - INFO - 📄 [2011] 分析页面 10/14
+2025-07-01 07:31:05,900 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073105.txt
+2025-07-01 07:31:06,903 - INFO - 📄 [2011] 分析页面 11/14
+2025-07-01 07:31:09,064 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073109.txt
+2025-07-01 07:31:10,067 - INFO - 📄 [2011] 分析页面 12/14
+2025-07-01 07:31:12,064 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073112.txt
+2025-07-01 07:31:13,067 - INFO - 📄 [2011] 分析页面 13/14
+2025-07-01 07:31:14,885 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073114.txt
+2025-07-01 07:31:15,888 - INFO - 📄 [2011] 分析页面 14/14
+2025-07-01 07:31:17,562 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2011_20250701_073117.txt
+2025-07-01 07:31:18,565 - INFO - ✅ 2011 年场景分析完成: 6 个场景
+2025-07-01 07:31:18,566 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:31:18,566 - INFO - 🔍 分析 2012 年的场景...
+2025-07-01 07:31:18,566 - INFO - 📄 [2012] 分析页面 1/13
+2025-07-01 07:31:20,403 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073120.txt
+2025-07-01 07:31:21,406 - INFO - 📄 [2012] 分析页面 2/13
+2025-07-01 07:31:23,431 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073123.txt
+2025-07-01 07:31:24,435 - INFO - 📄 [2012] 分析页面 3/13
+2025-07-01 07:31:26,028 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073126.txt
+2025-07-01 07:31:27,032 - INFO - 📄 [2012] 分析页面 4/13
+2025-07-01 07:31:28,788 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073128.txt
+2025-07-01 07:31:29,791 - INFO - 📄 [2012] 分析页面 5/13
+2025-07-01 07:31:31,243 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/cart/cart.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/cart/cart.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?continueShoppingURL=%2F
+2025-07-01 07:31:32,243 - INFO - 📄 [2012] 分析页面 6/13
+2025-07-01 07:31:33,807 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/profile/login.jsp? : 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/profile/login.jsp?%20
+2025-07-01 07:31:34,808 - INFO - 📄 [2012] 分析页面 7/13
+2025-07-01 07:31:35,929 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/profile/orderSearch.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?orderStatus=Order-Status: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/profile/orderSearch.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?orderStatus=Order-Status
+2025-07-01 07:31:36,930 - INFO - 📄 [2012] 分析页面 8/13
+2025-07-01 07:31:38,424 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073138.txt
+2025-07-01 07:31:39,424 - INFO - 📄 [2012] 分析页面 9/13
+2025-07-01 07:31:40,789 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/customerservice/customerService.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?subCategoryId=Delivery_Information&categorySelect=Delivery_and_Returns: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/customerservice/customerService.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8?subCategoryId=Delivery_Information&categorySelect=Delivery_and_Returns
+2025-07-01 07:31:41,789 - INFO - 📄 [2012] 分析页面 10/13
+2025-07-01 07:31:43,347 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/home/custom.jsp?id=m2900051&cm_re=homepage-_-banners-_-maxperks&cm_sp=homepage-_-generic-_-maxperks: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/home/custom.jsp?id=m2900051&cm_re=homepage-_-banners-_-maxperks&cm_sp=homepage-_-generic-_-maxperks
+2025-07-01 07:31:44,348 - INFO - 📄 [2012] 分析页面 11/13
+2025-07-01 07:31:45,603 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20121221234745/http://www.officemax.com/catalog/shop/orderByNumberSkuDetails.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121221234745/http://www.officemax.com/catalog/shop/orderByNumberSkuDetails.jsp;jsessionid=XrOl4S+XWCELbHNVZrx6WA**.atgb2c4-app8
+2025-07-01 07:31:46,604 - INFO - 📄 [2012] 分析页面 12/13
+2025-07-01 07:31:48,494 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073148.txt
+2025-07-01 07:31:49,496 - INFO - 📄 [2012] 分析页面 13/13
+2025-07-01 07:31:51,019 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2012_20250701_073151.txt
+2025-07-01 07:31:52,021 - INFO - ✅ 2012 年场景分析完成: 5 个场景
+2025-07-01 07:31:52,022 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:31:52,022 - INFO - 🔍 分析 2013 年的场景...
+2025-07-01 07:31:52,022 - INFO - 📄 [2013] 分析页面 1/14
+2025-07-01 07:31:53,926 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073153.txt
+2025-07-01 07:31:54,928 - INFO - 📄 [2013] 分析页面 2/14
+2025-07-01 07:31:56,305 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20131231220445/http://www.officemax.com/catalog/shop/orderByNumberSkuDetails.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220445/http://www.officemax.com/catalog/shop/orderByNumberSkuDetails.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7
+2025-07-01 07:31:57,306 - INFO - 📄 [2013] 分析页面 3/14
+2025-07-01 07:31:58,668 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20131231220445/http://www.officemax.com/cart/cart.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220445/http://www.officemax.com/cart/cart.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7?continueShoppingURL=%2F
+2025-07-01 07:31:59,668 - INFO - 📄 [2013] 分析页面 4/14
+2025-07-01 07:32:00,772 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20131231220445/http://www.officemax.com/profile/orderSearch.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7?tabType=trackanorder&orderStatus=Order-Status: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220445/http://www.officemax.com/profile/orderSearch.jsp;jsessionid=DBNyU9q8y2imYnOo4NARlg__.omx4-app7?tabType=trackanorder&orderStatus=Order-Status
+2025-07-01 07:32:01,772 - INFO - 📄 [2013] 分析页面 5/14
+2025-07-01 07:32:04,728 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073204.txt
+2025-07-01 07:32:05,731 - INFO - 📄 [2013] 分析页面 6/14
+2025-07-01 07:32:07,117 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20131231220445/http://www.officemax.com/technology/printers/inkjet-all-in-one-printers/product-prod5010989?cm_re=homepage-_-priority2-_-brothermfcj870dw&cm_sp=homepage-_-save50dol-_-brothermfcj870dw: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220445/http://www.officemax.com/technology/printers/inkjet-all-in-one-printers/product-prod5010989?cm_re=homepage-_-priority2-_-brothermfcj870dw&cm_sp=homepage-_-save50dol-_-brothermfcj870dw
+2025-07-01 07:32:08,118 - INFO - 📄 [2013] 分析页面 7/14
+2025-07-01 07:32:10,568 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073210.txt
+2025-07-01 07:32:11,571 - INFO - 📄 [2013] 分析页面 8/14
+2025-07-01 07:32:13,272 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073213.txt
+2025-07-01 07:32:14,275 - INFO - 📄 [2013] 分析页面 9/14
+2025-07-01 07:32:15,835 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20131231220445/http://www.officemax.com/technology/computers/laptop-computers/product-prod5040116?cm_re=homepage-_-priority1-_-dellinspironlaptopfeatintelcorei33227uprocwindows8&cm_sp=homepage-_-save130dol-_-dellinspironlaptopfeatintelcorei33227uprocwindows8: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220445/http://www.officemax.com/technology/computers/laptop-computers/product-prod5040116?cm_re=homepage-_-priority1-_-dellinspironlaptopfeatintelcorei33227uprocwindows8&cm_sp=homepage-_-save130dol-_-dellinspironlaptopfeatintelcorei33227uprocwindows8
+2025-07-01 07:32:16,835 - INFO - 📄 [2013] 分析页面 10/14
+2025-07-01 07:32:22,415 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073222.txt
+2025-07-01 07:32:23,418 - INFO - 📄 [2013] 分析页面 11/14
+2025-07-01 07:32:25,308 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073225.txt
+2025-07-01 07:32:26,311 - INFO - 📄 [2013] 分析页面 12/14
+2025-07-01 07:32:28,138 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073228.txt
+2025-07-01 07:32:29,150 - INFO - 📄 [2013] 分析页面 13/14
+2025-07-01 07:32:31,361 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073231.txt
+2025-07-01 07:32:32,365 - INFO - 📄 [2013] 分析页面 14/14
+2025-07-01 07:32:33,803 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2013_20250701_073233.txt
+2025-07-01 07:32:34,806 - INFO - ✅ 2013 年场景分析完成: 7 个场景
+2025-07-01 07:32:34,807 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:32:34,807 - INFO - 🔍 分析 2014 年的场景...
+2025-07-01 07:32:34,807 - INFO - 📄 [2014] 分析页面 1/13
+2025-07-01 07:32:36,379 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/home: 404 Client Error: Not Found for url: https://web.archive.org/web/20130909002840/http://www.officemax.com/home
+2025-07-01 07:32:37,413 - INFO - 📄 [2014] 分析页面 2/13
+2025-07-01 07:32:39,091 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/office-supplies: 502 Server Error: Bad Gateway for url: https://web.archive.org/web/20141029134748/http://www.officemax.com/office-supplies
+2025-07-01 07:32:40,091 - INFO - 📄 [2014] 分析页面 3/13
+2025-07-01 07:32:42,076 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073242.txt
+2025-07-01 07:32:43,079 - INFO - 📄 [2014] 分析页面 4/13
+2025-07-01 07:32:46,962 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/office-furniture: 404 Client Error: Not Found for url: https://web.archive.org/web/20141104083643/http://www.officedepot.com/a/browse/furniture/N=5+917#omxb214UmVkaXJVcmw9aHR0cCUzQSUyRiUyRnd3dy5vZmZpY2VtYXguY29tJTJGb2ZmaWNlLWZ1cm5pdHVyZSZjbV9tbWM9REwtT01YLV8tREwtXy1ETC1fLXJlZGlyZWN0LXJlZGlyZWN0
+2025-07-01 07:32:47,963 - INFO - 📄 [2014] 分析页面 5/13
+2025-07-01 07:32:48,942 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20141101121830/http://www.officemax.com/cart/cart.jsp?continueShoppingURL=%2F
+2025-07-01 07:32:49,943 - INFO - 📄 [2014] 分析页面 6/13
+2025-07-01 07:32:52,132 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073252.txt
+2025-07-01 07:32:53,133 - INFO - 📄 [2014] 分析页面 7/13
+2025-07-01 07:32:54,707 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073254.txt
+2025-07-01 07:32:55,711 - INFO - 📄 [2014] 分析页面 8/13
+2025-07-01 07:32:59,383 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/catalog/refill/inkNtoner.jsp: 404 Client Error: Not Found for url: https://web.archive.org/web/20141102091939/http://www.officedepot.com/a/browse/ink-toner-and-ribbons/N=5+513381#omxb214UmVkaXJVcmw9aHR0cCUzQSUyRiUyRnd3dy5vZmZpY2VtYXguY29tJTJGY2F0YWxvZyUyRnJlZmlsbCUyRmlua050b25lci5qc3AmY21fbW1jPURMLU9NWC1fLURMLV8tREwtXy1yZWRpcmVjdC1yZWRpcmVjdA
+2025-07-01 07:33:00,384 - INFO - 📄 [2014] 分析页面 9/13
+2025-07-01 07:33:02,040 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073302.txt
+2025-07-01 07:33:03,043 - INFO - 📄 [2014] 分析页面 10/13
+2025-07-01 07:33:04,742 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073304.txt
+2025-07-01 07:33:05,745 - INFO - 📄 [2014] 分析页面 11/13
+2025-07-01 07:33:07,756 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073307.txt
+2025-07-01 07:33:08,759 - INFO - 📄 [2014] 分析页面 12/13
+2025-07-01 07:33:09,882 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20141101121830/http://www.officemax.com/office-supplies/paper: 502 Server Error: Bad Gateway for url: https://web.archive.org/web/20141029134803/http://www.officemax.com/office-supplies/paper
+2025-07-01 07:33:10,883 - INFO - 📄 [2014] 分析页面 13/13
+2025-07-01 07:33:12,884 - INFO - 💾 内容已保存到: outputs/officemax.com/websites/2014_20250701_073312.txt
+2025-07-01 07:33:13,888 - INFO - ✅ 2014 年场景分析完成: 6 个场景
+2025-07-01 07:33:13,889 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:33:13,894 - INFO - ✅ 场景分析结果已导出到: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:33:13,894 - INFO - ✅ 场景分析完成: outputs/officemax.com/officemax.com_scenarios.json
+2025-07-01 07:33:13,894 - INFO - 🎉 分析流程完成!
+2025-07-01 07:33:13,894 - INFO - 📁 输出文件:
+2025-07-01 07:33:13,895 - INFO -    - 过滤链接: outputs/officemax.com/officemax.com_filtered_links.json
+2025-07-01 07:33:13,895 - INFO -    - 核心页面类型: outputs/officemax.com/officemax.com_core_page_types.json
+2025-07-01 07:33:13,895 - INFO -    - LLM规划: outputs/officemax.com/officemax.com_llm_planning.json
+2025-07-01 07:33:13,895 - INFO -    - 场景分析: outputs/officemax.com/officemax.com_scenarios.json

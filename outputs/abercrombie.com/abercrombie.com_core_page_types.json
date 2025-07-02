@@ -1,0 +1,358 @@
+{
+  "generation_time": "2025-06-27 18:18:18",
+  "company_url": "abercrombie.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Homepage",
+        "typical_url_patterns": [
+          "/",
+          "/homepage.html"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/anf/",
+          "/hco/",
+          "/abercrombiekids/"
+        ]
+      },
+      {
+        "type_name": "Campaign / Lookbook",
+        "typical_url_patterns": [
+          "/lifestyles/",
+          "/get-inspired/",
+          "/lookbook/"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/store-locator",
+          "/find-stores",
+          "/servlet/StoreLocator"
+        ]
+      },
+      {
+        "type_name": "Corporate Information",
+        "typical_url_patterns": [
+          "/corporate.abercrombie.com/",
+          "/company/"
+        ]
+      },
+      {
+        "type_name": "Investor Relations",
+        "typical_url_patterns": [
+          "/investorrelations.anfcorp.com/",
+          "/investors/"
+        ]
+      },
+      {
+        "type_name": "Sustainability / Social Responsibility",
+        "typical_url_patterns": [
+          "/sustainability/",
+          "/a-f-cares/"
+        ]
+      },
+      {
+        "type_name": "Press / Newsroom",
+        "typical_url_patterns": [
+          "/newsroom/",
+          "/press/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page (PLP)",
+        "typical_url_patterns": [
+          "/shop/us/mens",
+          "/shop/us/womens",
+          "/servlet/CategoryDisplay?categoryId="
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (PLP)",
+        "typical_url_patterns": [
+          "/shop/us/mens-jeans",
+          "/shop/us/womens-dresses-and-jumpsuits"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/shop/us/search",
+          "/servlet/SearchDisplay?searchTerm="
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/shop/us/mens-new-arrivals",
+          "/whats-new/"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Page",
+        "typical_url_patterns": [
+          "/shop/us/sale",
+          "/shop/us/clearance"
+        ]
+      },
+      {
+        "type_name": "Gift Guide / Gift Shop",
+        "typical_url_patterns": [
+          "/gift-guide/",
+          "/gifts-for-her/",
+          "/gifts-for-him/"
+        ]
+      },
+      {
+        "type_name": "Themed Collection / Edit",
+        "typical_url_patterns": [
+          "/shop/us/collection/",
+          "/the-edit/"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Shop (e.g. Gilly Hicks)",
+        "typical_url_patterns": [
+          "/gilly-hicks/",
+          "/shop/us/gilly-hicks"
+        ]
+      },
+      {
+        "type_name": "Fit Guide",
+        "typical_url_patterns": [
+          "/jeans-fit-guide",
+          "/content/fit-guide"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/shop/us/p/",
+          "/servlet/ProductDisplay?productId="
+        ]
+      },
+      {
+        "type_name": "Product Reviews",
+        "typical_url_patterns": [
+          "/reviews/",
+          "/pdp/reviews/"
+        ]
+      },
+      {
+        "type_name": "Size Guide / Chart",
+        "typical_url_patterns": [
+          "/size-guide/",
+          "/sizechart/",
+          "/content/size-charts"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Favorites",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/favorites"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/gift-cards",
+          "/giftcards/"
+        ]
+      },
+      {
+        "type_name": "Product Quick View",
+        "typical_url_patterns": [
+          "/quickview/product/"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Bag / Cart",
+        "typical_url_patterns": [
+          "/shopping-bag",
+          "/cart",
+          "/servlet/OrderCalculate"
+        ]
+      },
+      {
+        "type_name": "Checkout Login / Guest Option",
+        "typical_url_patterns": [
+          "/checkout/logon",
+          "/checkout/start"
+        ]
+      },
+      {
+        "type_name": "Checkout Shipping Page",
+        "typical_url_patterns": [
+          "/checkout/shipping"
+        ]
+      },
+      {
+        "type_name": "Checkout Payment Page",
+        "typical_url_patterns": [
+          "/checkout/payment"
+        ]
+      },
+      {
+        "type_name": "Checkout Order Review Page",
+        "typical_url_patterns": [
+          "/checkout/review-and-place-order"
+        ]
+      },
+      {
+        "type_name": "Offers & Promotions Page",
+        "typical_url_patterns": [
+          "/offers",
+          "/promo",
+          "/coupons"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You Page",
+        "typical_url_patterns": [
+          "/checkout/order-confirmation",
+          "/servlet/OrderConfirmation"
+        ]
+      },
+      {
+        "type_name": "Order History List",
+        "typical_url_patterns": [
+          "/account/order-history",
+          "/order-history"
+        ]
+      },
+      {
+        "type_name": "Order Details Page",
+        "typical_url_patterns": [
+          "/account/order-details/",
+          "/order-details?orderId="
+        ]
+      },
+      {
+        "type_name": "Public Order Tracking",
+        "typical_url_patterns": [
+          "/track-my-order",
+          "/order-tracking"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns-and-exchanges",
+          "/help/returns"
+        ]
+      },
+      {
+        "type_name": "Initiate Return / Exchange",
+        "typical_url_patterns": [
+          "/start-return",
+          "/returns/start"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account/my-account",
+          "/my-account"
+        ]
+      },
+      {
+        "type_name": "Account Profile Settings",
+        "typical_url_patterns": [
+          "/account/profile-information",
+          "/account/settings"
+        ]
+      },
+      {
+        "type_name": "Address Book",
+        "typical_url_patterns": [
+          "/account/address-book"
+        ]
+      },
+      {
+        "type_name": "Stored Payment Methods",
+        "typical_url_patterns": [
+          "/account/payment-methods"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Hub",
+        "typical_url_patterns": [
+          "/myabercrombie",
+          "/club-cali",
+          "/rewards"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Signup",
+        "typical_url_patterns": [
+          "/rewards/join"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/help",
+          "/content/help",
+          "/faq"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact-us",
+          "/help/contact-us"
+        ]
+      },
+      {
+        "type_name": "Email / SMS Signup Page",
+        "typical_url_patterns": [
+          "/email-signup",
+          "/subscribe"
+        ]
+      },
+      {
+        "type_name": "Gift Card Balance Check",
+        "typical_url_patterns": [
+          "/gift-cards/balance"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers.abercrombie.com/",
+          "/careers"
+        ]
+      },
+      {
+        "type_name": "Mobile App Download Page",
+        "typical_url_patterns": [
+          "/get-the-app",
+          "/mobile-app"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy Pages",
+        "typical_url_patterns": [
+          "/legalText/privacy.html",
+          "/terms-of-use",
+          "/privacy-policy"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

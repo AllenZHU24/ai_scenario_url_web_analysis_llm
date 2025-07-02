@@ -1,0 +1,361 @@
+{
+  "generation_time": "2025-06-28 05:51:33",
+  "company_url": "americangreetings.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.pd"
+        ]
+      },
+      {
+        "type_name": "Holiday & Occasion Hub",
+        "typical_url_patterns": [
+          "/birthday",
+          "/christmas",
+          "/valentines-day",
+          "/mothers-day",
+          "/occasion-holiday"
+        ]
+      },
+      {
+        "type_name": "Inspiration Hub",
+        "typical_url_patterns": [
+          "/inspiration",
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "Inspiration Category",
+        "typical_url_patterns": [
+          "/inspiration/celebration",
+          "/inspiration/gifting"
+        ]
+      },
+      {
+        "type_name": "Inspiration Article / Guide",
+        "typical_url_patterns": [
+          "/inspiration/what-to-write/*",
+          "/inspiration/celebration/*-ideas*",
+          "/inspiration/*-gift-guide"
+        ]
+      },
+      {
+        "type_name": "Corporate Information",
+        "typical_url_patterns": [
+          "/corporate/*",
+          "/investors",
+          "/careers",
+          "/about-us",
+          "/news"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "eCards Hub",
+        "typical_url_patterns": [
+          "/ecards",
+          "/cards/ecards/"
+        ]
+      },
+      {
+        "type_name": "Creatacard Hub",
+        "typical_url_patterns": [
+          "/creatacard"
+        ]
+      },
+      {
+        "type_name": "Paper Cards Hub",
+        "typical_url_patterns": [
+          "/cards/paper-cards/",
+          "/paper-greeting-cards"
+        ]
+      },
+      {
+        "type_name": "Printable Cards Hub",
+        "typical_url_patterns": [
+          "/cards/printables/",
+          "/printables/",
+          "/printable-cards"
+        ]
+      },
+      {
+        "type_name": "Gifts Hub",
+        "typical_url_patterns": [
+          "/gift-ideas/",
+          "/gifting"
+        ]
+      },
+      {
+        "type_name": "Party Supplies Hub",
+        "typical_url_patterns": [
+          "/party/party-supplies/"
+        ]
+      },
+      {
+        "type_name": "Gift Packaging Hub",
+        "typical_url_patterns": [
+          "/gift-packaging/"
+        ]
+      },
+      {
+        "type_name": "Category Listing Page (PLP)",
+        "typical_url_patterns": [
+          "/cards/*/*/_/N-*",
+          "/ecards/*",
+          "/creatacard/*",
+          "/gift-ideas/gifts/*",
+          "/party/party-supplies/*"
+        ]
+      },
+      {
+        "type_name": "Special Feature Collection (e.g., Smashups)",
+        "typical_url_patterns": [
+          "/smashups",
+          "/cards/ecards/smashups/*",
+          "/ecards/talking"
+        ]
+      },
+      {
+        "type_name": "Brand/Artist/Celebrity Collection",
+        "typical_url_patterns": [
+          "/[celebrity-name]",
+          "/kathy-davis",
+          "/ecards/wonder-woman",
+          "/justwink"
+        ]
+      },
+      {
+        "type_name": "Digital Gift Partnership Hub",
+        "typical_url_patterns": [
+          "/digital-gifts",
+          "/digital-gifts/cameo",
+          "/digital-gifts/songfinch"
+        ]
+      },
+      {
+        "type_name": "Site Index",
+        "typical_url_patterns": [
+          "/siteindex",
+          "/siteindex.pd"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/new/ecards",
+          "/new/creatacard"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/detail/ecards/*",
+          "/ecards/*/*/card-*",
+          "/creatacard/*/*/card-*",
+          "*/pn/prod*"
+        ]
+      },
+      {
+        "type_name": "Product Customization Tool",
+        "typical_url_patterns": [
+          "/creatacard/*/*",
+          "/ecards/smashups/add-a-photo"
+        ]
+      },
+      {
+        "type_name": "Membership Benefits / Pricing",
+        "typical_url_patterns": [
+          "/member-benefits"
+        ]
+      },
+      {
+        "type_name": "Free Product Offer",
+        "typical_url_patterns": [
+          "/free/ecards",
+          "/free/creatacard",
+          "/join?app=freecard"
+        ]
+      },
+      {
+        "type_name": "Mobile App Promotion",
+        "typical_url_patterns": [
+          "/apps",
+          "/iphone/index.pd",
+          "/ecards-app"
+        ]
+      },
+      {
+        "type_name": "General Landing Page",
+        "typical_url_patterns": [
+          "/landing/*"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Sign-In",
+        "typical_url_patterns": [
+          "/signin",
+          "/auth/signin.pd"
+        ]
+      },
+      {
+        "type_name": "Registration / Join",
+        "typical_url_patterns": [
+          "/join",
+          "/join/fom.pd"
+        ]
+      },
+      {
+        "type_name": "Password Recovery",
+        "typical_url_patterns": [
+          "/auth/forgot.pd",
+          "/myaccount/forgotpassword"
+        ]
+      },
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart"
+        ]
+      },
+      {
+        "type_name": "Promotions",
+        "typical_url_patterns": [
+          "/promotions"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase",
+        "typical_url_patterns": [
+          "/gift-cards",
+          "/e-gift-cards"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/orders",
+          "/myaccount/orderhistory"
+        ]
+      },
+      {
+        "type_name": "Sent eCards History",
+        "typical_url_patterns": [
+          "/myaccount/ecardssent"
+        ]
+      },
+      {
+        "type_name": "Scheduled eCards",
+        "typical_url_patterns": [
+          "/myaccount/ecardsscheduled"
+        ]
+      },
+      {
+        "type_name": "Received eCards (Recipient View)",
+        "typical_url_patterns": [
+          "/myaccount/ecardsreceived"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping-information"
+        ]
+      },
+      {
+        "type_name": "Product Recalls",
+        "typical_url_patterns": [
+          "/recalls-product"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/myaccount"
+        ]
+      },
+      {
+        "type_name": "Manage Membership",
+        "typical_url_patterns": [
+          "/myaccount/managemembership"
+        ]
+      },
+      {
+        "type_name": "Manage Payment/Billing",
+        "typical_url_patterns": [
+          "/myaccount/paymentandbilling"
+        ]
+      },
+      {
+        "type_name": "Manage Profile/Preferences",
+        "typical_url_patterns": [
+          "/myaccount/preferences",
+          "/myaccount/changepassword"
+        ]
+      },
+      {
+        "type_name": "Address Book",
+        "typical_url_patterns": [
+          "/myaccount/addressbook"
+        ]
+      },
+      {
+        "type_name": "Saved Favorites",
+        "typical_url_patterns": [
+          "/myaccount/favorites"
+        ]
+      },
+      {
+        "type_name": "Event Reminder/Calendar",
+        "typical_url_patterns": [
+          "/card-calendar",
+          "/remember"
+        ]
+      },
+      {
+        "type_name": "Help & FAQ",
+        "typical_url_patterns": [
+          "/faq",
+          "/help/index.pd",
+          "/contact-us",
+          "/contactus"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy",
+        "typical_url_patterns": [
+          "/privacy-policy",
+          "/terms-of-service",
+          "/email-protection",
+          "/legal.pd",
+          "/policy-overview",
+          "/california-transparency-act-statement"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/retailers"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate-program"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

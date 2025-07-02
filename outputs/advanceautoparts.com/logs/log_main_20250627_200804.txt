@@ -1,0 +1,73 @@
+2025-06-27 20:08:04,021 - INFO - 📋 日志系统已初始化: outputs/advanceautoparts.com/logs/log_main_20250627_200804.txt
+2025-06-27 20:08:04,021 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-27 20:08:04,021 - INFO - 📊 公司: advanceautoparts.com
+2025-06-27 20:08:04,022 - INFO - ✅ 成功读取 1 个历史URLs from ./inputs/advanceautoparts.com.txt
+2025-06-27 20:08:04,022 - INFO - 🌐 开始URL处理...
+2025-06-27 20:08:04,022 - INFO - 🌐 开始处理公司URLs: advanceautoparts.com
+2025-06-27 20:08:04,023 - INFO - 🔄 发现已存在的链接文件: outputs/advanceautoparts.com/advanceautoparts.com_filtered_links.json，已加载 1 年的数据，将进行增量处理
+2025-06-27 20:08:04,023 - INFO - ⏭️ 跳过 2009 年，已有 18 个链接
+2025-06-27 20:08:04,023 - INFO - 💾 链接处理完成，共 18 个链接已保存到: outputs/advanceautoparts.com/advanceautoparts.com_filtered_links.json
+2025-06-27 20:08:04,024 - INFO - ✅ 成功加载 1 年的链接数据
+2025-06-27 20:08:04,024 - INFO - ✅ URL处理完成，共处理 1 年的数据
+2025-06-27 20:08:04,024 - INFO - 🧠 开始LLM规划...
+2025-06-27 20:08:04,202 - INFO - 🚀 LLM规划器已初始化
+2025-06-27 20:08:04,203 - INFO - 🧠 开始识别核心页面类型...
+2025-06-27 20:08:04,203 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-27 20:08:07,807 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-27 20:08:50,937 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-06-27 20:08:50,938 - INFO - ✅ 核心页面类型识别完成，共 50 个类型已保存到: outputs/advanceautoparts.com/advanceautoparts.com_core_page_types.json
+2025-06-27 20:08:50,938 - INFO - ✅ 核心页面类型已生成: outputs/advanceautoparts.com/advanceautoparts.com_core_page_types.json
+2025-06-27 20:08:50,938 - INFO - 🤖 开始生成LLM规划...
+2025-06-27 20:08:50,942 - INFO - 🔍 处理 2009 年的规划...
+2025-06-27 20:08:50,942 - INFO - ✅ URL正则匹配完成，共过滤出18/18个classified_urls
+2025-06-27 20:08:50,943 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-27 20:08:51,531 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-27 20:09:18,368 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-27 20:09:18,368 - INFO - ✅ URL推荐完成: 15 个推荐，15 个在有效页面内
+2025-06-27 20:09:18,368 - INFO - ✅ 2009 年规划完成: 推荐 15 个核心URL
+2025-06-27 20:09:18,370 - INFO - 💾 LLM规划全部年份处理完成，共 15 个推荐URL已保存到: outputs/advanceautoparts.com/advanceautoparts.com_llm_planning.json
+2025-06-27 20:09:18,370 - INFO - ✅ 成功加载 1 年的规划数据
+2025-06-27 20:09:18,370 - INFO - ✅ LLM规划完成: outputs/advanceautoparts.com/advanceautoparts.com_llm_planning.json
+2025-06-27 20:09:18,370 - INFO - 🔍 开始场景分析...
+2025-06-27 20:09:18,371 - INFO - ✅ 成功加载 70 个微场景
+2025-06-27 20:09:18,371 - INFO - 🔍 场景分析器已初始化
+2025-06-27 20:09:18,371 - INFO - 🔍 开始分析场景: advanceautoparts.com
+2025-06-27 20:09:18,372 - INFO - 🔍 分析 2009 年的场景...
+2025-06-27 20:09:18,372 - INFO - 📄 [2009] 分析页面 1/15
+2025-06-27 20:09:21,479 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200921.txt
+2025-06-27 20:09:22,480 - INFO - 📄 [2009] 分析页面 2/15
+2025-06-27 20:09:24,410 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200924.txt
+2025-06-27 20:09:25,410 - INFO - 📄 [2009] 分析页面 3/15
+2025-06-27 20:09:28,025 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200928.txt
+2025-06-27 20:09:29,027 - INFO - 📄 [2009] 分析页面 4/15
+2025-06-27 20:09:32,481 - INFO - 📄 [2009] 分析页面 5/15
+2025-06-27 20:09:34,299 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200934.txt
+2025-06-27 20:09:35,299 - INFO - 📄 [2009] 分析页面 6/15
+2025-06-27 20:09:39,014 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200939.txt
+2025-06-27 20:09:40,015 - INFO - 📄 [2009] 分析页面 7/15
+2025-06-27 20:09:42,220 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200942.txt
+2025-06-27 20:09:43,223 - INFO - 📄 [2009] 分析页面 8/15
+2025-06-27 20:09:44,971 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200944.txt
+2025-06-27 20:09:45,971 - INFO - 📄 [2009] 分析页面 9/15
+2025-06-27 20:09:47,505 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200947.txt
+2025-06-27 20:09:48,505 - INFO - 📄 [2009] 分析页面 10/15
+2025-06-27 20:09:51,005 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200951.txt
+2025-06-27 20:09:52,005 - INFO - 📄 [2009] 分析页面 11/15
+2025-06-27 20:09:53,954 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_200953.txt
+2025-06-27 20:09:54,958 - INFO - 📄 [2009] 分析页面 12/15
+2025-06-27 20:09:58,133 - INFO - 📄 [2009] 分析页面 13/15
+2025-06-27 20:10:00,271 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_201000.txt
+2025-06-27 20:10:01,273 - INFO - 📄 [2009] 分析页面 14/15
+2025-06-27 20:10:02,771 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_201002.txt
+2025-06-27 20:10:03,772 - INFO - 📄 [2009] 分析页面 15/15
+2025-06-27 20:10:05,167 - INFO - 💾 内容已保存到: outputs/advanceautoparts.com/websites/2009_20250627_201005.txt
+2025-06-27 20:10:06,168 - INFO - ✅ 2009 年场景分析完成: 1 个场景
+2025-06-27 20:10:06,169 - INFO - ✅ 场景分析结果已导出到: outputs/advanceautoparts.com/advanceautoparts.com_scenarios.json
+2025-06-27 20:10:06,169 - INFO - ✅ 场景分析结果已导出到: outputs/advanceautoparts.com/advanceautoparts.com_scenarios.json
+2025-06-27 20:10:06,170 - INFO - ✅ 场景分析完成: outputs/advanceautoparts.com/advanceautoparts.com_scenarios.json
+2025-06-27 20:10:06,170 - INFO - 🎉 分析流程完成!
+2025-06-27 20:10:06,170 - INFO - 📁 输出文件:
+2025-06-27 20:10:06,170 - INFO -    - 过滤链接: outputs/advanceautoparts.com/advanceautoparts.com_filtered_links.json
+2025-06-27 20:10:06,170 - INFO -    - 核心页面类型: outputs/advanceautoparts.com/advanceautoparts.com_core_page_types.json
+2025-06-27 20:10:06,170 - INFO -    - LLM规划: outputs/advanceautoparts.com/advanceautoparts.com_llm_planning.json
+2025-06-27 20:10:06,170 - INFO -    - 场景分析: outputs/advanceautoparts.com/advanceautoparts.com_scenarios.json

@@ -1,0 +1,19 @@
+2025-06-19 14:42:28,864 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-19 14:42:28,865 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-19 14:42:28,865 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-19 14:42:28,866 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-19 14:42:28,866 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-19 14:42:28,867 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-19 14:42:28,867 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/apple.com
+2025-06-19 14:42:28,867 - INFO - 🔍 No existing planning file found at outputs/apple.com/apple.com_llm_planning_v0.4.2_result.json, starting fresh
+2025-06-19 14:42:28,868 - INFO - 🔄 Starting new unified planning workflow (v0.4.2)...
+2025-06-19 14:42:28,868 - INFO - 🌐 [Links] Discovering internal links for 2009
+2025-06-19 14:42:28,868 - INFO - 开始发现URL: https://web.archive.org/web/20091225172142/http://www.apple.com/
+2025-06-19 14:42:31,299 - INFO - 发现 25 个内部链接

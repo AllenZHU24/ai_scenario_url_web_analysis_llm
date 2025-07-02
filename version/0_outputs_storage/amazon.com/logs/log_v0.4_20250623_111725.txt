@@ -1,0 +1,712 @@
+2025-06-23 11:17:25,792 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-23 11:17:25,792 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-23 11:17:25,793 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-23 11:17:25,793 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-23 11:17:25,794 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-23 11:17:25,794 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-23 11:17:25,794 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/amazon.com
+2025-06-23 11:17:25,795 - INFO - 🔍 No existing planning file found at outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json, starting fresh
+2025-06-23 11:17:25,798 - INFO - 🔄 Loaded links cache (17 years)
+2025-06-23 11:17:25,799 - INFO - 🔄 Loaded cached core page types (30) from disk
+2025-06-23 11:17:25,799 - INFO - 🔄 Starting new unified planning workflow (v0.4.3)...
+2025-06-23 11:17:25,799 - INFO - 🔄 [Links] Using cached links for 2010 (224 links)
+2025-06-23 11:17:25,799 - INFO - 🔄 [Links] Using cached links for 2013 (328 links)
+2025-06-23 11:17:25,799 - INFO - 🔄 [Links] Using cached links for 2011 (182 links)
+2025-06-23 11:17:25,799 - INFO - 🔄 [Links] Using cached links for 2014 (384 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2015 (229 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2016 (99 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2020 (213 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2012 (293 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2009 (169 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2017 (138 links)
+2025-06-23 11:17:25,800 - INFO - 🔄 [Links] Using cached links for 2023 (135 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2022 (173 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2021 (154 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2018 (111 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2019 (78 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2024 (62 links)
+2025-06-23 11:17:25,801 - INFO - 🔄 [Links] Using cached links for 2025 (90 links)
+2025-06-23 11:17:25,801 - INFO - ⏩ [Step B] Core page types already available, skipping LLM call
+2025-06-23 11:17:25,802 - INFO - 🤖 [Step C] Recommending core URLs for 2010
+2025-06-23 11:17:25,810 - INFO - 🔄 Classified 68 URLs for year 2010
+2025-06-23 11:17:25,815 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:17:27,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:17:56,067 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:17:56,067 - INFO - 📊 Response length: 6176 characters
+2025-06-23 11:17:56,067 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-23 11:17:56,069 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:17:56,069 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-23 11:17:56,075 - INFO - 🔄 Classified 130 URLs for year 2013
+2025-06-23 11:17:56,076 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:17:57,138 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:18:16,224 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:18:16,224 - INFO - 📊 Response length: 5060 characters
+2025-06-23 11:18:16,224 - INFO - ✅ URL recommendation finished: 14 recommended, 12 within valid pages (enforce=False)
+2025-06-23 11:18:16,228 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:18:16,228 - INFO - 🤖 [Step C] Recommending core URLs for 2011
+2025-06-23 11:18:16,231 - INFO - 🔄 Classified 54 URLs for year 2011
+2025-06-23 11:18:16,232 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:18:16,888 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:18:47,668 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:18:47,669 - INFO - 📊 Response length: 4511 characters
+2025-06-23 11:18:47,669 - INFO - ✅ URL recommendation finished: 13 recommended, 12 within valid pages (enforce=False)
+2025-06-23 11:18:47,673 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:18:47,673 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-23 11:18:47,683 - INFO - 🔄 Classified 64 URLs for year 2014
+2025-06-23 11:18:47,684 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:18:48,512 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:19:04,663 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:19:04,663 - INFO - 📊 Response length: 4409 characters
+2025-06-23 11:19:04,663 - INFO - ✅ URL recommendation finished: 13 recommended, 13 within valid pages (enforce=False)
+2025-06-23 11:19:04,669 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:19:04,669 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-23 11:19:04,675 - INFO - 🔄 Classified 39 URLs for year 2015
+2025-06-23 11:19:04,678 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:19:05,396 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:19:27,931 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:19:27,932 - INFO - 📊 Response length: 5216 characters
+2025-06-23 11:19:27,932 - INFO - ✅ URL recommendation finished: 15 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:19:27,938 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:19:27,938 - INFO - 🤖 [Step C] Recommending core URLs for 2016
+2025-06-23 11:19:27,941 - INFO - 🔄 Classified 21 URLs for year 2016
+2025-06-23 11:19:27,941 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:19:28,571 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:19:55,362 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:19:55,363 - INFO - 📊 Response length: 5765 characters
+2025-06-23 11:19:55,363 - INFO - ✅ URL recommendation finished: 15 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:19:55,369 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:19:55,370 - INFO - 🤖 [Step C] Recommending core URLs for 2020
+2025-06-23 11:19:55,375 - INFO - 🔄 Classified 66 URLs for year 2020
+2025-06-23 11:19:55,378 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:19:56,182 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:20:18,583 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:20:18,583 - INFO - 📊 Response length: 5408 characters
+2025-06-23 11:20:18,583 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:20:18,592 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:20:18,593 - INFO - 🤖 [Step C] Recommending core URLs for 2012
+2025-06-23 11:20:18,601 - INFO - 🔄 Classified 131 URLs for year 2012
+2025-06-23 11:20:18,601 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:20:19,568 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:20:41,806 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:20:41,806 - INFO - 📊 Response length: 4882 characters
+2025-06-23 11:20:41,807 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:20:41,817 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:20:41,822 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-23 11:20:41,829 - INFO - 🔄 Classified 44 URLs for year 2009
+2025-06-23 11:20:41,829 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:20:42,428 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:20:57,688 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:20:57,689 - INFO - 📊 Response length: 4680 characters
+2025-06-23 11:20:57,689 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:20:57,705 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:20:57,705 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-23 11:20:57,708 - INFO - 🔄 Classified 51 URLs for year 2017
+2025-06-23 11:20:57,708 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:20:58,439 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:21:28,034 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:21:28,035 - INFO - 📊 Response length: 6090 characters
+2025-06-23 11:21:28,035 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:21:28,061 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:21:28,061 - INFO - 🤖 [Step C] Recommending core URLs for 2023
+2025-06-23 11:21:28,076 - INFO - 🔄 Classified 40 URLs for year 2023
+2025-06-23 11:21:28,076 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:21:28,909 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:21:53,893 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:21:53,893 - INFO - 📊 Response length: 5082 characters
+2025-06-23 11:21:53,893 - INFO - ✅ URL recommendation finished: 12 recommended, 12 within valid pages (enforce=False)
+2025-06-23 11:21:53,906 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:21:53,906 - INFO - 🤖 [Step C] Recommending core URLs for 2022
+2025-06-23 11:21:53,915 - INFO - 🔄 Classified 62 URLs for year 2022
+2025-06-23 11:21:53,916 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:21:54,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:22:14,617 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:22:14,618 - INFO - 📊 Response length: 5393 characters
+2025-06-23 11:22:14,618 - INFO - ✅ URL recommendation finished: 14 recommended, 13 within valid pages (enforce=False)
+2025-06-23 11:22:14,632 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:22:14,632 - INFO - 🤖 [Step C] Recommending core URLs for 2021
+2025-06-23 11:22:14,640 - INFO - 🔄 Classified 59 URLs for year 2021
+2025-06-23 11:22:14,640 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:22:15,508 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:22:39,011 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:22:39,011 - INFO - 📊 Response length: 4855 characters
+2025-06-23 11:22:39,011 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:22:39,032 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:22:39,032 - INFO - 🤖 [Step C] Recommending core URLs for 2018
+2025-06-23 11:22:39,036 - INFO - 🔄 Classified 20 URLs for year 2018
+2025-06-23 11:22:39,037 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:22:39,630 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:23:02,645 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:23:02,646 - INFO - 📊 Response length: 6271 characters
+2025-06-23 11:23:02,646 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-23 11:23:02,659 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:23:02,659 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-23 11:23:02,661 - INFO - 🔄 Classified 21 URLs for year 2019
+2025-06-23 11:23:02,661 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:23:03,426 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:23:41,816 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:23:41,816 - INFO - 📊 Response length: 7146 characters
+2025-06-23 11:23:41,817 - INFO - ✅ URL recommendation finished: 16 recommended, 16 within valid pages (enforce=False)
+2025-06-23 11:23:41,835 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:23:41,835 - INFO - 🤖 [Step C] Recommending core URLs for 2024
+2025-06-23 11:23:41,836 - INFO - 🔄 Classified 17 URLs for year 2024
+2025-06-23 11:23:41,837 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:23:42,396 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:24:02,779 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:24:02,780 - INFO - 📊 Response length: 4737 characters
+2025-06-23 11:24:02,780 - INFO - ✅ URL recommendation finished: 14 recommended, 14 within valid pages (enforce=False)
+2025-06-23 11:24:02,796 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:24:02,797 - INFO - 🤖 [Step C] Recommending core URLs for 2025
+2025-06-23 11:24:02,800 - INFO - 🔄 Classified 22 URLs for year 2025
+2025-06-23 11:24:02,801 - INFO - 🤖 Calling LLM model [Step C.2 Select]: openai/gpt-4o-mini
+2025-06-23 11:24:03,438 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-23 11:24:27,520 - INFO - ✅ LLM response received successfully [Step C.2 Select]
+2025-06-23 11:24:27,520 - INFO - 📊 Response length: 5264 characters
+2025-06-23 11:24:27,520 - INFO - ✅ URL recommendation finished: 15 recommended, 15 within valid pages (enforce=False)
+2025-06-23 11:24:27,540 - INFO - Analysis results exported to: outputs/amazon.com/amazon.com_llm_planning_v0.4.3_result.json
+2025-06-23 11:24:27,540 - INFO - 🔍 Identifying scenarios for year 2010 ...
+2025-06-23 11:24:27,540 - INFO - 📄 [2010] Analyzing page 1/15
+2025-06-23 11:24:32,390 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112432.txt
+2025-06-23 11:24:33,392 - INFO - 📄 [2010] Analyzing page 2/15
+2025-06-23 11:24:37,131 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112437.txt
+2025-06-23 11:24:38,136 - INFO - 📄 [2010] Analyzing page 3/15
+2025-06-23 11:24:39,493 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112439.txt
+2025-06-23 11:24:40,494 - INFO - 📄 [2010] Analyzing page 4/15
+2025-06-23 11:24:42,535 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112442.txt
+2025-06-23 11:24:43,536 - INFO - 📄 [2010] Analyzing page 5/15
+2025-06-23 11:24:47,093 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112447.txt
+2025-06-23 11:24:48,102 - INFO - 📄 [2010] Analyzing page 6/15
+2025-06-23 11:24:51,654 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112451.txt
+2025-06-23 11:24:52,661 - INFO - 📄 [2010] Analyzing page 7/15
+2025-06-23 11:24:54,686 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112454.txt
+2025-06-23 11:24:55,689 - INFO - 📄 [2010] Analyzing page 8/15
+2025-06-23 11:24:59,973 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112459.txt
+2025-06-23 11:25:00,975 - INFO - 📄 [2010] Analyzing page 9/15
+2025-06-23 11:25:03,580 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112503.txt
+2025-06-23 11:25:04,583 - INFO - 📄 [2010] Analyzing page 10/15
+2025-06-23 11:25:08,594 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112508.txt
+2025-06-23 11:25:09,596 - INFO - 📄 [2010] Analyzing page 11/15
+2025-06-23 11:25:12,327 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112512.txt
+2025-06-23 11:25:13,328 - INFO - 📄 [2010] Analyzing page 12/15
+2025-06-23 11:25:14,850 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112514.txt
+2025-06-23 11:25:15,851 - INFO - 📄 [2010] Analyzing page 13/15
+2025-06-23 11:25:19,943 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112519.txt
+2025-06-23 11:25:20,944 - INFO - 📄 [2010] Analyzing page 14/15
+2025-06-23 11:25:22,280 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112522.txt
+2025-06-23 11:25:23,281 - INFO - 📄 [2010] Analyzing page 15/15
+2025-06-23 11:25:28,356 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2010_20250623_112528.txt
+2025-06-23 11:25:29,358 - INFO - ✅ Year 2010 scenario identification completed: 27 scenarios
+2025-06-23 11:25:29,359 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:25:29,359 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-23 11:25:29,359 - INFO - 📄 [2013] Analyzing page 1/14
+2025-06-23 11:25:35,899 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112535.txt
+2025-06-23 11:25:36,902 - INFO - 📄 [2013] Analyzing page 2/14
+2025-06-23 11:25:39,792 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112539.txt
+2025-06-23 11:25:40,795 - INFO - 📄 [2013] Analyzing page 3/14
+2025-06-23 11:25:45,499 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112545.txt
+2025-06-23 11:25:46,503 - INFO - 📄 [2013] Analyzing page 4/14
+2025-06-23 11:25:51,015 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112551.txt
+2025-06-23 11:25:52,025 - INFO - 📄 [2013] Analyzing page 5/14
+2025-06-23 11:25:54,468 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112554.txt
+2025-06-23 11:25:55,470 - INFO - 📄 [2013] Analyzing page 6/14
+2025-06-23 11:25:58,636 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112558.txt
+2025-06-23 11:25:59,642 - INFO - 📄 [2013] Analyzing page 7/14
+2025-06-23 11:26:03,482 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112603.txt
+2025-06-23 11:26:04,486 - INFO - 📄 [2013] Analyzing page 8/14
+2025-06-23 11:26:13,250 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112613.txt
+2025-06-23 11:26:14,252 - INFO - 📄 [2013] Analyzing page 9/14
+2025-06-23 11:26:16,775 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112616.txt
+2025-06-23 11:26:17,778 - INFO - 📄 [2013] Analyzing page 10/14
+2025-06-23 11:26:20,864 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112620.txt
+2025-06-23 11:26:21,867 - INFO - 📄 [2013] Analyzing page 11/14
+2025-06-23 11:26:25,280 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112625.txt
+2025-06-23 11:26:26,282 - INFO - 📄 [2013] Analyzing page 12/14
+2025-06-23 11:26:29,234 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112629.txt
+2025-06-23 11:26:30,237 - INFO - 📄 [2013] Analyzing page 13/14
+2025-06-23 11:26:33,703 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112633.txt
+2025-06-23 11:26:34,705 - INFO - 📄 [2013] Analyzing page 14/14
+2025-06-23 11:26:36,783 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2013_20250623_112636.txt
+2025-06-23 11:26:37,785 - INFO - ✅ Year 2013 scenario identification completed: 22 scenarios
+2025-06-23 11:26:37,787 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:26:37,787 - INFO - 🔍 Identifying scenarios for year 2011 ...
+2025-06-23 11:26:37,787 - INFO - 📄 [2011] Analyzing page 1/13
+2025-06-23 11:26:41,293 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112641.txt
+2025-06-23 11:26:42,295 - INFO - 📄 [2011] Analyzing page 2/13
+2025-06-23 11:26:44,023 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112644.txt
+2025-06-23 11:26:45,025 - INFO - 📄 [2011] Analyzing page 3/13
+2025-06-23 11:26:49,157 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112649.txt
+2025-06-23 11:26:50,159 - INFO - 📄 [2011] Analyzing page 4/13
+2025-06-23 11:26:53,852 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112653.txt
+2025-06-23 11:26:54,861 - INFO - 📄 [2011] Analyzing page 5/13
+2025-06-23 11:26:57,896 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112657.txt
+2025-06-23 11:26:58,898 - INFO - 📄 [2011] Analyzing page 6/13
+2025-06-23 11:27:09,735 - WARNING - 获取页面内容失败 https://web.archive.org/web/20111231235154/http://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=usflex&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%3Fie%3DUTF8%26ref_%3Dpd_irl_gw_r: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20111231235154/http://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=usflex&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%3Fie%3DUTF8%26ref_%3Dpd_irl_gw_r
+2025-06-23 11:27:10,736 - INFO - 📄 [2011] Analyzing page 7/13
+2025-06-23 11:27:15,915 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112715.txt
+2025-06-23 11:27:16,920 - INFO - 📄 [2011] Analyzing page 8/13
+2025-06-23 11:27:20,050 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112720.txt
+2025-06-23 11:27:21,052 - INFO - 📄 [2011] Analyzing page 9/13
+2025-06-23 11:27:31,647 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112731.txt
+2025-06-23 11:27:32,648 - INFO - 📄 [2011] Analyzing page 10/13
+2025-06-23 11:27:36,037 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112736.txt
+2025-06-23 11:27:37,038 - INFO - 📄 [2011] Analyzing page 11/13
+2025-06-23 11:27:40,406 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112740.txt
+2025-06-23 11:27:41,408 - INFO - 📄 [2011] Analyzing page 12/13
+2025-06-23 11:27:44,961 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112744.txt
+2025-06-23 11:27:45,965 - INFO - 📄 [2011] Analyzing page 13/13
+2025-06-23 11:27:50,286 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2011_20250623_112750.txt
+2025-06-23 11:27:51,288 - INFO - ✅ Year 2011 scenario identification completed: 17 scenarios
+2025-06-23 11:27:51,289 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:27:51,289 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-23 11:27:51,289 - INFO - 📄 [2014] Analyzing page 1/13
+2025-06-23 11:27:55,988 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112755.txt
+2025-06-23 11:27:56,991 - INFO - 📄 [2014] Analyzing page 2/13
+2025-06-23 11:27:59,906 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112759.txt
+2025-06-23 11:28:00,909 - INFO - 📄 [2014] Analyzing page 3/13
+2025-06-23 11:28:07,047 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112807.txt
+2025-06-23 11:28:08,052 - INFO - 📄 [2014] Analyzing page 4/13
+2025-06-23 11:28:11,665 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112811.txt
+2025-06-23 11:28:12,667 - INFO - 📄 [2014] Analyzing page 5/13
+2025-06-23 11:28:14,735 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112814.txt
+2025-06-23 11:28:15,738 - INFO - 📄 [2014] Analyzing page 6/13
+2025-06-23 11:28:18,128 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112818.txt
+2025-06-23 11:28:19,131 - INFO - 📄 [2014] Analyzing page 7/13
+2025-06-23 11:28:21,202 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112821.txt
+2025-06-23 11:28:22,205 - INFO - 📄 [2014] Analyzing page 8/13
+2025-06-23 11:28:29,921 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112829.txt
+2025-06-23 11:28:30,924 - INFO - 📄 [2014] Analyzing page 9/13
+2025-06-23 11:28:33,575 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112833.txt
+2025-06-23 11:28:34,575 - INFO - 📄 [2014] Analyzing page 10/13
+2025-06-23 11:28:37,537 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112837.txt
+2025-06-23 11:28:38,538 - INFO - 📄 [2014] Analyzing page 11/13
+2025-06-23 11:28:41,837 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112841.txt
+2025-06-23 11:28:42,839 - INFO - 📄 [2014] Analyzing page 12/13
+2025-06-23 11:28:45,132 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112845.txt
+2025-06-23 11:28:46,135 - INFO - 📄 [2014] Analyzing page 13/13
+2025-06-23 11:28:56,009 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2014_20250623_112856.txt
+2025-06-23 11:28:57,010 - INFO - ✅ Year 2014 scenario identification completed: 22 scenarios
+2025-06-23 11:28:57,011 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:28:57,011 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-23 11:28:57,012 - INFO - 📄 [2015] Analyzing page 1/15
+2025-06-23 11:29:01,667 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112901.txt
+2025-06-23 11:29:02,668 - INFO - 📄 [2015] Analyzing page 2/15
+2025-06-23 11:29:07,389 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112907.txt
+2025-06-23 11:29:08,390 - INFO - 📄 [2015] Analyzing page 3/15
+2025-06-23 11:29:11,065 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112911.txt
+2025-06-23 11:29:12,067 - INFO - 📄 [2015] Analyzing page 4/15
+2025-06-23 11:29:14,699 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112914.txt
+2025-06-23 11:29:15,701 - INFO - 📄 [2015] Analyzing page 5/15
+2025-06-23 11:29:17,356 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112917.txt
+2025-06-23 11:29:18,358 - INFO - 📄 [2015] Analyzing page 6/15
+2025-06-23 11:29:25,379 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112925.txt
+2025-06-23 11:29:26,382 - INFO - 📄 [2015] Analyzing page 7/15
+2025-06-23 11:29:29,711 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112929.txt
+2025-06-23 11:29:30,712 - INFO - 📄 [2015] Analyzing page 8/15
+2025-06-23 11:29:32,894 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112932.txt
+2025-06-23 11:29:33,895 - INFO - 📄 [2015] Analyzing page 9/15
+2025-06-23 11:29:36,993 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112936.txt
+2025-06-23 11:29:37,999 - INFO - 📄 [2015] Analyzing page 10/15
+2025-06-23 11:29:42,279 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112942.txt
+2025-06-23 11:29:43,279 - INFO - 📄 [2015] Analyzing page 11/15
+2025-06-23 11:29:55,886 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_112955.txt
+2025-06-23 11:29:56,889 - INFO - 📄 [2015] Analyzing page 12/15
+2025-06-23 11:30:00,047 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_113000.txt
+2025-06-23 11:30:01,048 - INFO - 📄 [2015] Analyzing page 13/15
+2025-06-23 11:30:03,830 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_113003.txt
+2025-06-23 11:30:04,832 - INFO - 📄 [2015] Analyzing page 14/15
+2025-06-23 11:30:06,628 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_113006.txt
+2025-06-23 11:30:07,631 - INFO - 📄 [2015] Analyzing page 15/15
+2025-06-23 11:30:10,146 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2015_20250623_113010.txt
+2025-06-23 11:30:11,151 - INFO - ✅ Year 2015 scenario identification completed: 23 scenarios
+2025-06-23 11:30:11,153 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:30:11,153 - INFO - 🔍 Identifying scenarios for year 2016 ...
+2025-06-23 11:30:11,153 - INFO - 📄 [2016] Analyzing page 1/15
+2025-06-23 11:30:15,926 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113015.txt
+2025-06-23 11:30:16,928 - INFO - 📄 [2016] Analyzing page 2/15
+2025-06-23 11:30:22,708 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113022.txt
+2025-06-23 11:30:23,710 - INFO - 📄 [2016] Analyzing page 3/15
+2025-06-23 11:30:27,168 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113027.txt
+2025-06-23 11:30:28,169 - INFO - 📄 [2016] Analyzing page 4/15
+2025-06-23 11:30:31,189 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113031.txt
+2025-06-23 11:30:32,194 - INFO - 📄 [2016] Analyzing page 5/15
+2025-06-23 11:30:34,329 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113034.txt
+2025-06-23 11:30:35,332 - INFO - 📄 [2016] Analyzing page 6/15
+2025-06-23 11:30:39,896 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113039.txt
+2025-06-23 11:30:40,897 - INFO - 📄 [2016] Analyzing page 7/15
+2025-06-23 11:30:42,940 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113042.txt
+2025-06-23 11:30:43,946 - INFO - 📄 [2016] Analyzing page 8/15
+2025-06-23 11:30:47,664 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113047.txt
+2025-06-23 11:30:48,666 - INFO - 📄 [2016] Analyzing page 9/15
+2025-06-23 11:30:50,617 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113050.txt
+2025-06-23 11:30:51,618 - INFO - 📄 [2016] Analyzing page 10/15
+2025-06-23 11:30:52,916 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113052.txt
+2025-06-23 11:30:53,917 - INFO - 📄 [2016] Analyzing page 11/15
+2025-06-23 11:31:02,816 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113102.txt
+2025-06-23 11:31:03,818 - INFO - 📄 [2016] Analyzing page 12/15
+2025-06-23 11:31:10,982 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113110.txt
+2025-06-23 11:31:11,984 - INFO - 📄 [2016] Analyzing page 13/15
+2025-06-23 11:31:14,602 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113114.txt
+2025-06-23 11:31:15,609 - INFO - 📄 [2016] Analyzing page 14/15
+2025-06-23 11:31:18,463 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113118.txt
+2025-06-23 11:31:19,464 - INFO - 📄 [2016] Analyzing page 15/15
+2025-06-23 11:31:27,860 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2016_20250623_113127.txt
+2025-06-23 11:31:28,861 - INFO - ✅ Year 2016 scenario identification completed: 31 scenarios
+2025-06-23 11:31:28,863 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:31:28,863 - INFO - 🔍 Identifying scenarios for year 2020 ...
+2025-06-23 11:31:28,863 - INFO - 📄 [2020] Analyzing page 1/14
+2025-06-23 11:31:32,620 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113132.txt
+2025-06-23 11:31:33,625 - INFO - 📄 [2020] Analyzing page 2/14
+2025-06-23 11:31:35,338 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113135.txt
+2025-06-23 11:31:36,341 - INFO - 📄 [2020] Analyzing page 3/14
+2025-06-23 11:31:39,725 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113139.txt
+2025-06-23 11:31:40,729 - INFO - 📄 [2020] Analyzing page 4/14
+2025-06-23 11:31:42,482 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113142.txt
+2025-06-23 11:31:43,483 - INFO - 📄 [2020] Analyzing page 5/14
+2025-06-23 11:31:46,239 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113146.txt
+2025-06-23 11:31:47,241 - INFO - 📄 [2020] Analyzing page 6/14
+2025-06-23 11:31:49,870 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113149.txt
+2025-06-23 11:31:50,877 - INFO - 📄 [2020] Analyzing page 7/14
+2025-06-23 11:31:55,408 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113155.txt
+2025-06-23 11:31:56,418 - INFO - 📄 [2020] Analyzing page 8/14
+2025-06-23 11:31:58,919 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113158.txt
+2025-06-23 11:31:59,923 - INFO - 📄 [2020] Analyzing page 9/14
+2025-06-23 11:32:02,569 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113202.txt
+2025-06-23 11:32:03,570 - INFO - 📄 [2020] Analyzing page 10/14
+2025-06-23 11:32:08,407 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113208.txt
+2025-06-23 11:32:09,412 - INFO - 📄 [2020] Analyzing page 11/14
+2025-06-23 11:32:12,168 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113212.txt
+2025-06-23 11:32:13,170 - INFO - 📄 [2020] Analyzing page 12/14
+2025-06-23 11:32:15,653 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113215.txt
+2025-06-23 11:32:16,654 - INFO - 📄 [2020] Analyzing page 13/14
+2025-06-23 11:32:18,827 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113218.txt
+2025-06-23 11:32:19,828 - INFO - 📄 [2020] Analyzing page 14/14
+2025-06-23 11:32:22,442 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2020_20250623_113222.txt
+2025-06-23 11:32:23,444 - INFO - ✅ Year 2020 scenario identification completed: 28 scenarios
+2025-06-23 11:32:23,445 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:32:23,446 - INFO - 🔍 Identifying scenarios for year 2012 ...
+2025-06-23 11:32:23,446 - INFO - 📄 [2012] Analyzing page 1/14
+2025-06-23 11:32:27,136 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113227.txt
+2025-06-23 11:32:28,146 - INFO - 📄 [2012] Analyzing page 2/14
+2025-06-23 11:32:29,939 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113229.txt
+2025-06-23 11:32:30,941 - INFO - 📄 [2012] Analyzing page 3/14
+2025-06-23 11:32:34,222 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113234.txt
+2025-06-23 11:32:35,227 - INFO - 📄 [2012] Analyzing page 4/14
+2025-06-23 11:32:37,264 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113237.txt
+2025-06-23 11:32:38,267 - INFO - 📄 [2012] Analyzing page 5/14
+2025-06-23 11:32:40,283 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113240.txt
+2025-06-23 11:32:41,285 - INFO - 📄 [2012] Analyzing page 6/14
+2025-06-23 11:32:44,101 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113244.txt
+2025-06-23 11:32:45,111 - INFO - 📄 [2012] Analyzing page 7/14
+2025-06-23 11:32:47,048 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113247.txt
+2025-06-23 11:32:48,050 - INFO - 📄 [2012] Analyzing page 8/14
+2025-06-23 11:32:59,292 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113259.txt
+2025-06-23 11:33:00,293 - INFO - 📄 [2012] Analyzing page 9/14
+2025-06-23 11:33:06,192 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113306.txt
+2025-06-23 11:33:07,197 - INFO - 📄 [2012] Analyzing page 10/14
+2025-06-23 11:33:10,304 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113310.txt
+2025-06-23 11:33:11,317 - INFO - 📄 [2012] Analyzing page 11/14
+2025-06-23 11:33:14,165 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113314.txt
+2025-06-23 11:33:15,168 - INFO - 📄 [2012] Analyzing page 12/14
+2025-06-23 11:33:19,949 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113319.txt
+2025-06-23 11:33:20,952 - INFO - 📄 [2012] Analyzing page 13/14
+2025-06-23 11:33:24,191 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113324.txt
+2025-06-23 11:33:25,203 - INFO - 📄 [2012] Analyzing page 14/14
+2025-06-23 11:33:28,303 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2012_20250623_113328.txt
+2025-06-23 11:33:29,306 - INFO - ✅ Year 2012 scenario identification completed: 30 scenarios
+2025-06-23 11:33:29,307 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:33:29,308 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-23 11:33:29,308 - INFO - 📄 [2009] Analyzing page 1/14
+2025-06-23 11:33:33,025 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113333.txt
+2025-06-23 11:33:34,027 - INFO - 📄 [2009] Analyzing page 2/14
+2025-06-23 11:33:35,706 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113335.txt
+2025-06-23 11:33:36,717 - INFO - 📄 [2009] Analyzing page 3/14
+2025-06-23 11:33:39,738 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113339.txt
+2025-06-23 11:33:40,739 - INFO - 📄 [2009] Analyzing page 4/14
+2025-06-23 11:33:42,380 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113342.txt
+2025-06-23 11:33:43,382 - INFO - 📄 [2009] Analyzing page 5/14
+2025-06-23 11:33:46,523 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113346.txt
+2025-06-23 11:33:47,524 - INFO - 📄 [2009] Analyzing page 6/14
+2025-06-23 11:33:50,786 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113350.txt
+2025-06-23 11:33:51,788 - INFO - 📄 [2009] Analyzing page 7/14
+2025-06-23 11:33:54,492 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113354.txt
+2025-06-23 11:33:55,495 - INFO - 📄 [2009] Analyzing page 8/14
+2025-06-23 11:33:58,899 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113358.txt
+2025-06-23 11:33:59,902 - INFO - 📄 [2009] Analyzing page 9/14
+2025-06-23 11:34:01,425 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113401.txt
+2025-06-23 11:34:02,428 - INFO - 📄 [2009] Analyzing page 10/14
+2025-06-23 11:34:03,770 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113403.txt
+2025-06-23 11:34:04,771 - INFO - 📄 [2009] Analyzing page 11/14
+2025-06-23 11:34:07,781 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113407.txt
+2025-06-23 11:34:08,782 - INFO - 📄 [2009] Analyzing page 12/14
+2025-06-23 11:34:11,327 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113411.txt
+2025-06-23 11:34:12,329 - INFO - 📄 [2009] Analyzing page 13/14
+2025-06-23 11:34:15,362 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113415.txt
+2025-06-23 11:34:16,363 - INFO - 📄 [2009] Analyzing page 14/14
+2025-06-23 11:34:19,451 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2009_20250623_113419.txt
+2025-06-23 11:34:20,452 - INFO - ✅ Year 2009 scenario identification completed: 21 scenarios
+2025-06-23 11:34:20,454 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:34:20,454 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-23 11:34:20,454 - INFO - 📄 [2017] Analyzing page 1/14
+2025-06-23 11:34:23,204 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113423.txt
+2025-06-23 11:34:24,205 - INFO - 📄 [2017] Analyzing page 2/14
+2025-06-23 11:34:26,984 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113426.txt
+2025-06-23 11:34:27,986 - INFO - 📄 [2017] Analyzing page 3/14
+2025-06-23 11:34:29,851 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113429.txt
+2025-06-23 11:34:30,854 - INFO - 📄 [2017] Analyzing page 4/14
+2025-06-23 11:34:39,608 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113439.txt
+2025-06-23 11:34:40,610 - INFO - 📄 [2017] Analyzing page 5/14
+2025-06-23 11:34:46,704 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113446.txt
+2025-06-23 11:34:47,706 - INFO - 📄 [2017] Analyzing page 6/14
+2025-06-23 11:34:49,102 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113449.txt
+2025-06-23 11:34:50,103 - INFO - 📄 [2017] Analyzing page 7/14
+2025-06-23 11:34:53,222 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113453.txt
+2025-06-23 11:34:54,227 - INFO - 📄 [2017] Analyzing page 8/14
+2025-06-23 11:34:58,614 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113458.txt
+2025-06-23 11:34:59,616 - INFO - 📄 [2017] Analyzing page 9/14
+2025-06-23 11:35:00,893 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113500.txt
+2025-06-23 11:35:01,895 - INFO - 📄 [2017] Analyzing page 10/14
+2025-06-23 11:35:04,511 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113504.txt
+2025-06-23 11:35:05,514 - INFO - 📄 [2017] Analyzing page 11/14
+2025-06-23 11:35:09,664 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113509.txt
+2025-06-23 11:35:10,672 - INFO - 📄 [2017] Analyzing page 12/14
+2025-06-23 11:35:13,038 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113513.txt
+2025-06-23 11:35:14,040 - INFO - 📄 [2017] Analyzing page 13/14
+2025-06-23 11:35:15,351 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113515.txt
+2025-06-23 11:35:16,352 - INFO - 📄 [2017] Analyzing page 14/14
+2025-06-23 11:35:21,829 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2017_20250623_113521.txt
+2025-06-23 11:35:22,831 - INFO - ✅ Year 2017 scenario identification completed: 25 scenarios
+2025-06-23 11:35:22,833 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:35:22,833 - INFO - 🔍 Identifying scenarios for year 2023 ...
+2025-06-23 11:35:22,833 - INFO - 📄 [2023] Analyzing page 1/12
+2025-06-23 11:35:25,631 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113525.txt
+2025-06-23 11:35:26,633 - INFO - 📄 [2023] Analyzing page 2/12
+2025-06-23 11:35:29,346 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113529.txt
+2025-06-23 11:35:30,347 - INFO - 📄 [2023] Analyzing page 3/12
+2025-06-23 11:35:33,630 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113533.txt
+2025-06-23 11:35:34,633 - INFO - 📄 [2023] Analyzing page 4/12
+2025-06-23 11:35:37,500 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113537.txt
+2025-06-23 11:35:38,502 - INFO - 📄 [2023] Analyzing page 5/12
+2025-06-23 11:35:41,055 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113541.txt
+2025-06-23 11:35:42,057 - INFO - 📄 [2023] Analyzing page 6/12
+2025-06-23 11:35:44,862 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113544.txt
+2025-06-23 11:35:45,865 - INFO - 📄 [2023] Analyzing page 7/12
+2025-06-23 11:35:48,842 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113548.txt
+2025-06-23 11:35:49,844 - INFO - 📄 [2023] Analyzing page 8/12
+2025-06-23 11:35:52,211 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113552.txt
+2025-06-23 11:35:53,212 - INFO - 📄 [2023] Analyzing page 9/12
+2025-06-23 11:35:55,175 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113555.txt
+2025-06-23 11:35:56,179 - INFO - 📄 [2023] Analyzing page 10/12
+2025-06-23 11:35:59,123 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113559.txt
+2025-06-23 11:36:00,125 - INFO - 📄 [2023] Analyzing page 11/12
+2025-06-23 11:36:01,992 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113601.txt
+2025-06-23 11:36:02,993 - INFO - 📄 [2023] Analyzing page 12/12
+2025-06-23 11:36:04,810 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2023_20250623_113604.txt
+2025-06-23 11:36:05,811 - INFO - ✅ Year 2023 scenario identification completed: 15 scenarios
+2025-06-23 11:36:05,813 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:36:05,813 - INFO - 🔍 Identifying scenarios for year 2022 ...
+2025-06-23 11:36:05,814 - INFO - 📄 [2022] Analyzing page 1/14
+2025-06-23 11:36:08,892 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113608.txt
+2025-06-23 11:36:09,895 - INFO - 📄 [2022] Analyzing page 2/14
+2025-06-23 11:36:12,012 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113612.txt
+2025-06-23 11:36:13,018 - INFO - 📄 [2022] Analyzing page 3/14
+2025-06-23 11:36:16,817 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113616.txt
+2025-06-23 11:36:17,819 - INFO - 📄 [2022] Analyzing page 4/14
+2025-06-23 11:36:20,266 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113620.txt
+2025-06-23 11:36:21,270 - INFO - 📄 [2022] Analyzing page 5/14
+2025-06-23 11:36:24,118 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113624.txt
+2025-06-23 11:36:25,120 - INFO - 📄 [2022] Analyzing page 6/14
+2025-06-23 11:36:27,105 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113627.txt
+2025-06-23 11:36:28,106 - INFO - 📄 [2022] Analyzing page 7/14
+2025-06-23 11:36:30,013 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113630.txt
+2025-06-23 11:36:31,015 - INFO - 📄 [2022] Analyzing page 8/14
+2025-06-23 11:36:33,579 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113633.txt
+2025-06-23 11:36:34,585 - INFO - 📄 [2022] Analyzing page 9/14
+2025-06-23 11:36:37,603 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113637.txt
+2025-06-23 11:36:38,605 - INFO - 📄 [2022] Analyzing page 10/14
+2025-06-23 11:36:40,869 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113640.txt
+2025-06-23 11:36:41,874 - INFO - 📄 [2022] Analyzing page 11/14
+2025-06-23 11:36:43,835 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113643.txt
+2025-06-23 11:36:44,837 - INFO - 📄 [2022] Analyzing page 12/14
+2025-06-23 11:36:47,165 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113647.txt
+2025-06-23 11:36:48,167 - INFO - 📄 [2022] Analyzing page 13/14
+2025-06-23 11:36:50,778 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113650.txt
+2025-06-23 11:36:51,781 - INFO - 📄 [2022] Analyzing page 14/14
+2025-06-23 11:36:53,572 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2022_20250623_113653.txt
+2025-06-23 11:36:54,574 - INFO - ✅ Year 2022 scenario identification completed: 19 scenarios
+2025-06-23 11:36:54,575 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:36:54,576 - INFO - 🔍 Identifying scenarios for year 2021 ...
+2025-06-23 11:36:54,576 - INFO - 📄 [2021] Analyzing page 1/14
+2025-06-23 11:36:58,069 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113658.txt
+2025-06-23 11:36:59,072 - INFO - 📄 [2021] Analyzing page 2/14
+2025-06-23 11:37:00,346 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113700.txt
+2025-06-23 11:37:01,347 - INFO - 📄 [2021] Analyzing page 3/14
+2025-06-23 11:37:03,955 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113703.txt
+2025-06-23 11:37:04,957 - INFO - 📄 [2021] Analyzing page 4/14
+2025-06-23 11:37:07,456 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113707.txt
+2025-06-23 11:37:08,457 - INFO - 📄 [2021] Analyzing page 5/14
+2025-06-23 11:37:10,756 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113710.txt
+2025-06-23 11:37:11,758 - INFO - 📄 [2021] Analyzing page 6/14
+2025-06-23 11:37:16,433 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113716.txt
+2025-06-23 11:37:17,435 - INFO - 📄 [2021] Analyzing page 7/14
+2025-06-23 11:37:20,886 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113720.txt
+2025-06-23 11:37:21,887 - INFO - 📄 [2021] Analyzing page 8/14
+2025-06-23 11:37:24,316 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113724.txt
+2025-06-23 11:37:25,321 - INFO - 📄 [2021] Analyzing page 9/14
+2025-06-23 11:37:28,039 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113728.txt
+2025-06-23 11:37:29,044 - INFO - 📄 [2021] Analyzing page 10/14
+2025-06-23 11:37:32,125 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113732.txt
+2025-06-23 11:37:33,130 - INFO - 📄 [2021] Analyzing page 11/14
+2025-06-23 11:37:34,713 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113734.txt
+2025-06-23 11:37:35,715 - INFO - 📄 [2021] Analyzing page 12/14
+2025-06-23 11:37:40,088 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113740.txt
+2025-06-23 11:37:41,091 - INFO - 📄 [2021] Analyzing page 13/14
+2025-06-23 11:37:43,192 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113743.txt
+2025-06-23 11:37:44,195 - INFO - 📄 [2021] Analyzing page 14/14
+2025-06-23 11:37:46,271 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2021_20250623_113746.txt
+2025-06-23 11:37:47,275 - INFO - ✅ Year 2021 scenario identification completed: 18 scenarios
+2025-06-23 11:37:47,276 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:37:47,276 - INFO - 🔍 Identifying scenarios for year 2018 ...
+2025-06-23 11:37:47,277 - INFO - 📄 [2018] Analyzing page 1/15
+2025-06-23 11:37:50,728 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113750.txt
+2025-06-23 11:37:51,730 - INFO - 📄 [2018] Analyzing page 2/15
+2025-06-23 11:37:59,809 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113759.txt
+2025-06-23 11:38:00,809 - INFO - 📄 [2018] Analyzing page 3/15
+2025-06-23 11:38:03,528 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113803.txt
+2025-06-23 11:38:04,530 - INFO - 📄 [2018] Analyzing page 4/15
+2025-06-23 11:38:06,423 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113806.txt
+2025-06-23 11:38:07,426 - INFO - 📄 [2018] Analyzing page 5/15
+2025-06-23 11:38:10,130 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113810.txt
+2025-06-23 11:38:11,132 - INFO - 📄 [2018] Analyzing page 6/15
+2025-06-23 11:38:16,037 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113816.txt
+2025-06-23 11:38:17,039 - INFO - 📄 [2018] Analyzing page 7/15
+2025-06-23 11:38:18,563 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113818.txt
+2025-06-23 11:38:19,564 - INFO - 📄 [2018] Analyzing page 8/15
+2025-06-23 11:38:22,987 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113822.txt
+2025-06-23 11:38:23,988 - INFO - 📄 [2018] Analyzing page 9/15
+2025-06-23 11:38:29,214 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113829.txt
+2025-06-23 11:38:30,216 - INFO - 📄 [2018] Analyzing page 10/15
+2025-06-23 11:38:33,343 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113833.txt
+2025-06-23 11:38:34,348 - INFO - 📄 [2018] Analyzing page 11/15
+2025-06-23 11:38:38,045 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113838.txt
+2025-06-23 11:38:39,055 - INFO - 📄 [2018] Analyzing page 12/15
+2025-06-23 11:38:40,629 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113840.txt
+2025-06-23 11:38:41,630 - INFO - 📄 [2018] Analyzing page 13/15
+2025-06-23 11:38:53,778 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113853.txt
+2025-06-23 11:38:54,784 - INFO - 📄 [2018] Analyzing page 14/15
+2025-06-23 11:38:56,750 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113856.txt
+2025-06-23 11:38:57,751 - INFO - 📄 [2018] Analyzing page 15/15
+2025-06-23 11:39:05,907 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2018_20250623_113905.txt
+2025-06-23 11:39:06,908 - INFO - ✅ Year 2018 scenario identification completed: 23 scenarios
+2025-06-23 11:39:06,910 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:39:06,910 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-23 11:39:06,911 - INFO - 📄 [2019] Analyzing page 1/16
+2025-06-23 11:39:08,730 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113908.txt
+2025-06-23 11:39:09,731 - INFO - 📄 [2019] Analyzing page 2/16
+2025-06-23 11:39:13,174 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113913.txt
+2025-06-23 11:39:14,175 - INFO - 📄 [2019] Analyzing page 3/16
+2025-06-23 11:39:16,205 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113916.txt
+2025-06-23 11:39:17,210 - INFO - 📄 [2019] Analyzing page 4/16
+2025-06-23 11:39:22,468 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113922.txt
+2025-06-23 11:39:23,468 - INFO - 📄 [2019] Analyzing page 5/16
+2025-06-23 11:39:26,779 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113926.txt
+2025-06-23 11:39:27,780 - INFO - 📄 [2019] Analyzing page 6/16
+2025-06-23 11:39:32,812 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113932.txt
+2025-06-23 11:39:33,814 - INFO - 📄 [2019] Analyzing page 7/16
+2025-06-23 11:39:36,442 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113936.txt
+2025-06-23 11:39:37,444 - INFO - 📄 [2019] Analyzing page 8/16
+2025-06-23 11:39:40,944 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113940.txt
+2025-06-23 11:39:41,948 - INFO - 📄 [2019] Analyzing page 9/16
+2025-06-23 11:39:43,871 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113943.txt
+2025-06-23 11:39:44,873 - INFO - 📄 [2019] Analyzing page 10/16
+2025-06-23 11:39:47,783 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113947.txt
+2025-06-23 11:39:48,787 - INFO - 📄 [2019] Analyzing page 11/16
+2025-06-23 11:39:51,467 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113951.txt
+2025-06-23 11:39:52,469 - INFO - 📄 [2019] Analyzing page 12/16
+2025-06-23 11:39:54,321 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113954.txt
+2025-06-23 11:39:55,323 - INFO - 📄 [2019] Analyzing page 13/16
+2025-06-23 11:39:57,714 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_113957.txt
+2025-06-23 11:39:58,723 - INFO - 📄 [2019] Analyzing page 14/16
+2025-06-23 11:40:00,408 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_114000.txt
+2025-06-23 11:40:01,409 - INFO - 📄 [2019] Analyzing page 15/16
+2025-06-23 11:40:03,890 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_114003.txt
+2025-06-23 11:40:04,893 - INFO - 📄 [2019] Analyzing page 16/16
+2025-06-23 11:40:12,875 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2019_20250623_114012.txt
+2025-06-23 11:40:13,877 - INFO - ✅ Year 2019 scenario identification completed: 20 scenarios
+2025-06-23 11:40:13,879 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:40:13,880 - INFO - 🔍 Identifying scenarios for year 2024 ...
+2025-06-23 11:40:13,880 - INFO - 📄 [2024] Analyzing page 1/14
+2025-06-23 11:40:17,168 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114017.txt
+2025-06-23 11:40:18,170 - INFO - 📄 [2024] Analyzing page 2/14
+2025-06-23 11:40:20,736 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114020.txt
+2025-06-23 11:40:21,740 - INFO - 📄 [2024] Analyzing page 3/14
+2025-06-23 11:40:24,176 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114024.txt
+2025-06-23 11:40:25,178 - INFO - 📄 [2024] Analyzing page 4/14
+2025-06-23 11:40:27,800 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114027.txt
+2025-06-23 11:40:28,802 - INFO - 📄 [2024] Analyzing page 5/14
+2025-06-23 11:40:32,578 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114032.txt
+2025-06-23 11:40:33,582 - INFO - 📄 [2024] Analyzing page 6/14
+2025-06-23 11:40:37,833 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114037.txt
+2025-06-23 11:40:38,833 - INFO - 📄 [2024] Analyzing page 7/14
+2025-06-23 11:40:43,586 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114043.txt
+2025-06-23 11:40:44,588 - INFO - 📄 [2024] Analyzing page 8/14
+2025-06-23 11:40:46,705 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114046.txt
+2025-06-23 11:40:47,706 - INFO - 📄 [2024] Analyzing page 9/14
+2025-06-23 11:40:50,889 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114050.txt
+2025-06-23 11:40:51,890 - INFO - 📄 [2024] Analyzing page 10/14
+2025-06-23 11:40:54,001 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114054.txt
+2025-06-23 11:40:55,003 - INFO - 📄 [2024] Analyzing page 11/14
+2025-06-23 11:40:58,023 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114058.txt
+2025-06-23 11:40:59,024 - INFO - 📄 [2024] Analyzing page 12/14
+2025-06-23 11:41:01,620 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114101.txt
+2025-06-23 11:41:02,621 - INFO - 📄 [2024] Analyzing page 13/14
+2025-06-23 11:41:04,637 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114104.txt
+2025-06-23 11:41:05,638 - INFO - 📄 [2024] Analyzing page 14/14
+2025-06-23 11:41:08,244 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2024_20250623_114108.txt
+2025-06-23 11:41:09,246 - INFO - ✅ Year 2024 scenario identification completed: 13 scenarios
+2025-06-23 11:41:09,248 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:41:09,249 - INFO - 🔍 Identifying scenarios for year 2025 ...
+2025-06-23 11:41:09,249 - INFO - 📄 [2025] Analyzing page 1/15
+2025-06-23 11:41:12,116 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114112.txt
+2025-06-23 11:41:13,118 - INFO - 📄 [2025] Analyzing page 2/15
+2025-06-23 11:41:15,542 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114115.txt
+2025-06-23 11:41:16,544 - INFO - 📄 [2025] Analyzing page 3/15
+2025-06-23 11:41:19,359 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114119.txt
+2025-06-23 11:41:20,363 - INFO - 📄 [2025] Analyzing page 4/15
+2025-06-23 11:41:23,436 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114123.txt
+2025-06-23 11:41:24,442 - INFO - 📄 [2025] Analyzing page 5/15
+2025-06-23 11:41:29,725 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114129.txt
+2025-06-23 11:41:30,729 - INFO - 📄 [2025] Analyzing page 6/15
+2025-06-23 11:41:34,233 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114134.txt
+2025-06-23 11:41:35,235 - INFO - 📄 [2025] Analyzing page 7/15
+2025-06-23 11:41:38,155 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114138.txt
+2025-06-23 11:41:39,158 - INFO - 📄 [2025] Analyzing page 8/15
+2025-06-23 11:41:41,487 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114141.txt
+2025-06-23 11:41:42,490 - INFO - 📄 [2025] Analyzing page 9/15
+2025-06-23 11:41:45,291 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114145.txt
+2025-06-23 11:41:46,291 - INFO - 📄 [2025] Analyzing page 10/15
+2025-06-23 11:41:49,841 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114149.txt
+2025-06-23 11:41:50,846 - INFO - 📄 [2025] Analyzing page 11/15
+2025-06-23 11:41:53,909 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114153.txt
+2025-06-23 11:41:54,911 - INFO - 📄 [2025] Analyzing page 12/15
+2025-06-23 11:41:58,212 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114158.txt
+2025-06-23 11:41:59,215 - INFO - 📄 [2025] Analyzing page 13/15
+2025-06-23 11:42:00,920 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114200.txt
+2025-06-23 11:42:01,923 - INFO - 📄 [2025] Analyzing page 14/15
+2025-06-23 11:42:03,725 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114203.txt
+2025-06-23 11:42:04,727 - INFO - 📄 [2025] Analyzing page 15/15
+2025-06-23 11:42:06,499 - INFO - 💾 Content saved to: outputs/amazon.com/websites/2025_20250623_114206.txt
+2025-06-23 11:42:07,502 - INFO - ✅ Year 2025 scenario identification completed: 19 scenarios
+2025-06-23 11:42:07,504 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:42:07,516 - INFO - Scenario analysis results exported to: outputs/amazon.com/amazon.com_scenario_v0.4.3_result.json
+2025-06-23 11:42:07,516 - INFO - ✅ Unified analysis workflow completed!
+2025-06-23 11:42:07,516 - INFO - 💡 Analysis completed! Output files:
+2025-06-23 11:42:07,516 - INFO -    - ./outputs/amazon.com/amazon.com_llm_planning_v0.4_result.json
+2025-06-23 11:42:07,516 - INFO -    - ./outputs/amazon.com/amazon.com_scenario_v0.4_result.json
+2025-06-23 11:42:08,987 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-23 11:42:08,990 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

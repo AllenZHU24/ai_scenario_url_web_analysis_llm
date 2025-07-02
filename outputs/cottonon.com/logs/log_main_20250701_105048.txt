@@ -1,0 +1,43 @@
+2025-07-01 10:50:48,429 - INFO - 📋 日志系统已初始化: outputs/cottonon.com/logs/log_main_20250701_105048.txt
+2025-07-01 10:50:48,430 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-01 10:50:48,430 - INFO - 📊 公司: cottonon.com
+2025-07-01 10:50:48,430 - INFO - ✅ 成功读取 3 个历史URLs from ./inputs/cottonon.com.txt
+2025-07-01 10:50:48,431 - INFO - 🌐 开始URL处理...
+2025-07-01 10:50:48,431 - INFO - 🌐 开始处理公司URLs: cottonon.com
+2025-07-01 10:50:48,432 - INFO - 🔄 发现已存在的链接文件: outputs/cottonon.com/cottonon.com_filtered_links.json，已加载 3 年的数据，将进行增量处理
+2025-07-01 10:50:48,432 - INFO - ⏭️ 跳过 2009 年，已有 1 个链接
+2025-07-01 10:50:48,432 - INFO - ⏭️ 跳过 2010 年，已有 1 个链接
+2025-07-01 10:50:48,432 - INFO - ⏭️ 跳过 2011 年，已有 8 个链接
+2025-07-01 10:50:48,433 - INFO - 💾 链接处理完成，共 10 个链接已保存到: outputs/cottonon.com/cottonon.com_filtered_links.json
+2025-07-01 10:50:48,433 - INFO - ✅ 成功加载 3 年的链接数据
+2025-07-01 10:50:48,433 - INFO - ✅ URL处理完成，共处理 3 年的数据
+2025-07-01 10:50:48,433 - INFO - 🧠 开始LLM规划...
+2025-07-01 10:50:48,744 - INFO - 🚀 LLM规划器已初始化
+2025-07-01 10:50:48,744 - INFO - 🧠 开始识别核心页面类型...
+2025-07-01 10:50:48,745 - INFO - ✅ 发现已存在的核心页面类型文件: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-07-01 10:50:48,745 - INFO - ✅ 从文件加载核心页面类型: 48 个类型
+2025-07-01 10:50:48,745 - INFO - ✅ 核心页面类型已生成: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-07-01 10:50:48,746 - INFO - 🤖 开始生成LLM规划...
+2025-07-01 10:50:48,746 - INFO - ✅ 加载已存在的规划结果: 3 年
+2025-07-01 10:50:48,751 - INFO - ⏩ 2009 年规划已存在，跳过
+2025-07-01 10:50:48,751 - INFO - ⏩ 2010 年规划已存在，跳过
+2025-07-01 10:50:48,751 - INFO - ⏩ 2011 年规划已存在，跳过
+2025-07-01 10:50:48,751 - INFO - 💾 LLM规划全部年份处理完成，共 3 个推荐URL已保存到: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-07-01 10:50:48,752 - INFO - ✅ 成功加载 3 年的规划数据
+2025-07-01 10:50:48,752 - INFO - ✅ LLM规划完成: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-07-01 10:50:48,752 - INFO - 🔍 开始场景分析...
+2025-07-01 10:50:48,753 - INFO - ✅ 成功加载 70 个微场景
+2025-07-01 10:50:48,753 - INFO - 🔍 场景分析器已初始化
+2025-07-01 10:50:48,753 - INFO - 🔍 开始分析场景: cottonon.com
+2025-07-01 10:50:48,753 - INFO - ✅ 加载已存在的场景结果: 3 年
+2025-07-01 10:50:48,754 - INFO - ⏩ 2009 年场景已存在，跳过
+2025-07-01 10:50:48,754 - INFO - ⏩ 2010 年场景已存在，跳过
+2025-07-01 10:50:48,754 - INFO - ⏩ 2011 年场景已存在，跳过
+2025-07-01 10:50:48,754 - INFO - ✅ 场景分析结果已导出到: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-07-01 10:50:48,754 - INFO - ✅ 场景分析完成: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-07-01 10:50:48,754 - INFO - 🎉 分析流程完成!
+2025-07-01 10:50:48,754 - INFO - 📁 输出文件:
+2025-07-01 10:50:48,754 - INFO -    - 过滤链接: outputs/cottonon.com/cottonon.com_filtered_links.json
+2025-07-01 10:50:48,755 - INFO -    - 核心页面类型: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-07-01 10:50:48,755 - INFO -    - LLM规划: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-07-01 10:50:48,755 - INFO -    - 场景分析: outputs/cottonon.com/cottonon.com_scenarios.json

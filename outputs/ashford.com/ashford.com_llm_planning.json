@@ -1,0 +1,3368 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "ashford.com",
+  "export_time": "2025-06-29 23:20:28",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-28 20:44:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 122,
+      "valid_content_urls_count": 122,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/faq.php",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/shopping-cart/",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=690&manufacturers_id=20",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/clearance-3/",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/orders/",
+        "https://web.archive.org/web/20091108001137/https://www.ashford.com/account/login.html",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14664&manufacturers_id=62",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=20&manufacturers_id=18",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=9&manufacturers_id=7",
+        "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=19&manufacturers_id=11"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/faq.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Provides essential information to retain customers and address their queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/shopping-cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Dashboard",
+            "selection_reason": "Allows customers to manage their accounts and orders, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=690&manufacturers_id=20",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Highlights specific product categories to attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/clearance-3/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Clearance / Outlet",
+            "selection_reason": "Engages customers looking for deals and discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/orders/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Order History",
+            "selection_reason": "Enables customers to track their purchases, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/https://www.ashford.com/account/login.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Essential for customers to access their accounts and manage their information."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14664&manufacturers_id=62",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Promotes specific brands, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=20&manufacturers_id=18",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Introduces customers to a variety of products."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=9&manufacturers_id=7",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Engages customers with a diverse product selection."
+          },
+          {
+            "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=19&manufacturers_id=11",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Attracts customers to explore new product lines."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 28,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=11&manufacturers_id=8",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14664&manufacturers_id=62",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=20&manufacturers_id=18",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=1590&manufacturers_id=43",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=13453&manufacturers_id=47",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=13755&manufacturers_id=48",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=1892&manufacturers_id=35",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/orders/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=227&manufacturers_id=21",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14859&manufacturers_id=76",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=9&manufacturers_id=7",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/faq.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14803&manufacturers_id=68",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=690&manufacturers_id=20",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=14593&manufacturers_id=60",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=1756&manufacturers_id=40",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=15&manufacturers_id=14",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/https://www.ashford.com/account/login.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=1907&manufacturers_id=34",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=1608&manufacturers_id=42",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=736&manufacturers_id=25",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/clearance-3/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/shopping-cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=19&manufacturers_id=11",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091108001137/http://www.ashford.com/index.php?cPath=237&manufacturers_id=22",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-06-28 20:44:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 210,
+      "valid_content_urls_count": 210,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/index.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/aboutUs.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/testimonials.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/faq.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/contactUs.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/cart/cart.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/returns.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/shipping.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/ordersearch/orderSearch.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/warranty.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/privacy.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/myaccount/login.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11?loginFromHeader=yes",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/affiliates.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/terms.jsp",
+        "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/printorder.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/index.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Essential entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with background information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/testimonials.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Testimonials / Reviews",
+            "selection_reason": "Builds trust and credibility through customer feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/faq.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/contactUs.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a channel for customer support and inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/cart/cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/returns.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Informs customers about return procedures, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Essential for customers to understand shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/ordersearch/orderSearch.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Lookup",
+            "selection_reason": "Allows customers to track their orders, improving satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/warranty.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Warranty Information (Static)",
+            "selection_reason": "Informs customers about warranty coverage, enhancing confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/privacy.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Legal",
+            "selection_reason": "Ensures customers are aware of their data privacy rights."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/myaccount/login.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11?loginFromHeader=yes",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Facilitates account management and personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/affiliates.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Encourages partnerships and expands brand reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/terms.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Legal",
+            "selection_reason": "Clarifies terms of service, ensuring transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/printorder.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Printable Order Form (Legacy)",
+            "selection_reason": "Provides an option for customers to print their orders."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/terms.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/index.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/cart/cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/warranty.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/myaccount/login.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11?loginFromHeader=yes",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/printorder.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Printable Order Form (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/cart/cart.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/testimonials.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/contactUs.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/ordersearch/orderSearch.jsp;jsessionid=951F1DF454E4E65E612E55917AF67FE0.prd-store11",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/returns.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/faq.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/affiliates.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223020142/http://www.ashford.com/info/privacy.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-28 20:45:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 195,
+      "valid_content_urls_count": 195,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/index.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/aboutUs.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/testimonials.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/faq.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/login.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/shipping.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/returns.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/payment.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/cart/cart.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/myFavorites.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/contactUs.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/ordersearch/orderSearch.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/warranty.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/terms.jsp",
+        "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/affiliates.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/index.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "The Home Page serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "The About Us page helps build trust and credibility by informing customers about the company's background and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/testimonials.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Testimonials / Reviews",
+            "selection_reason": "Customer testimonials and reviews provide social proof, influencing potential buyers during the awareness stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/faq.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "The FAQ section addresses common customer queries, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/login.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "The login page is crucial for returning customers to access their accounts, promoting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Shipping information is vital for customers to understand delivery options and timelines."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/returns.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "A clear returns policy is essential for customer confidence and satisfaction post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/payment.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Information (Static)",
+            "selection_reason": "Payment information is critical for customers to make informed decisions during checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/cart/cart.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart page is where customers finalize their purchases, making it a key part of the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/myFavorites.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist / Favorites",
+            "selection_reason": "The wishlist feature allows customers to save items for later, aiding in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/contactUs.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Providing a contact page enhances customer support and retention by allowing customers to reach out easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/ordersearch/orderSearch.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Lookup",
+            "selection_reason": "Order status lookup is essential for customers to track their purchases, enhancing fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/warranty.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Warranty Information (Static)",
+            "selection_reason": "Warranty information reassures customers about the quality and support for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/terms.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Legal",
+            "selection_reason": "Privacy and legal information is important for transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/affiliates.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "The affiliate program page can attract new customers through partnerships, enhancing brand awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/faq.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/index.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/testimonials.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/returns.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/payment.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/myFavorites.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/addressBook.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/warranty.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/myaccount/login.jsp?loginFromHeader=yes",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/contactUs.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/ordersearch/orderSearch.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/cart/cart.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/terms.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/privacy.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/printorder.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Printable Order Form (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20130805212837/http://www.ashford.com/info/affiliates.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-28 20:45:31",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 362,
+      "valid_content_urls_count": 362,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/about-us",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/testimonials",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry.html",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/womens-watches.html",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/shipping",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/warranty",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/wishlist",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20201230044155/https://www.ashford.com/contact"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Essential entry point for customers to explore the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides customers with brand story and values, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/testimonials",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Testimonials / Reviews",
+            "selection_reason": "Showcases customer satisfaction and builds credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Jewelry",
+            "selection_reason": "Core product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/womens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Women's Watches",
+            "selection_reason": "Popular category that drives significant customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Men's Watches",
+            "selection_reason": "Another key product category that appeals to a large audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Important for customer assurance regarding post-purchase support."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Essential information for customers regarding delivery expectations."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/warranty",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Warranty Information (Static)",
+            "selection_reason": "Provides customers with confidence in product quality and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist / Favorites",
+            "selection_reason": "Encourages customers to save items for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Page",
+            "selection_reason": "Facilitates product discovery and comparison for informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer support and engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 41,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/womens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry/bracelet.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/sunglasses.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/brand/index/index",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/customer/account/logout/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry/necklace.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/stores/store/redirect/___store/zh/___from_store/default/uenc/aHR0cHM6Ly96aC5hc2hmb3JkLmNvbS8_X19fc3RvcmU9emg%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/stores/store/redirect/___store/kr/___from_store/default/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8_X19fc3RvcmU9a3I%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/sunglasses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/jewelry/ring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/stores/store/redirect/___store/tw/___from_store/default/uenc/aHR0cHM6Ly90dy5hc2hmb3JkLmNvbS8_X19fc3RvcmU9dHc%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html?band_type=Strap",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/sunglasses.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230044155/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-28 20:45:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 348,
+      "valid_content_urls_count": 348,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/testimonials",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/shippinginfo",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/contactus",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/wishlist",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Gucci",
+        "https://web.archive.org/web/20211231203953/https://www.ashford.com/terms"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "The main entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/testimonials",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Testimonials / Reviews",
+            "selection_reason": "Provides social proof and builds trust with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Page",
+            "selection_reason": "Helps customers find specific products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/shippinginfo",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Essential information for customers regarding delivery options."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Informs customers about the return process, increasing purchase confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/contactus",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist / Favorites",
+            "selection_reason": "Allows customers to save items for future consideration, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Eyewear",
+            "selection_reason": "A core product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Men's Watches",
+            "selection_reason": "A key product category that is likely to drive sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Women's Watches",
+            "selection_reason": "Another essential product category that appeals to a significant customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Gucci",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Eyewear",
+            "selection_reason": "Highlights a popular brand within the eyewear category, attracting brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/terms",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Legal",
+            "selection_reason": "Important for customer trust and legal compliance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 106,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?band_type=Strap",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=B+Swiss",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Calvin Klein",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?polarization=Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Ferragamo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry/necklace.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?hsww_prod_type=Opticals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Hamilton",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?feature_family=Chronograph",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Michael+Kors",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Thomas Earnshaw",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories/mens-cufflink.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Rado",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Invicta",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/contactus",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Mido",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Frederique Constant",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Mido",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Jacques Lemans",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?band_type=Strap",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=U-Boat",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?hsww_prod_type=Earring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/flashdeals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?hsww_prod_type=Brooch",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/watch-resources.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub / Resources"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Prada",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?brand=Swarovski",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Beauty"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/stores/store/redirect/___store/tw/___from_store/default/uenc/aHR0cHM6Ly90dy5hc2hmb3JkLmNvbS8%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Fendi",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Christian Dior",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Tissot",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?brand=Fred+of+Paris",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Bracelet",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Tom+Ford",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories/pens.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Glycine",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Costa+Del+Mar",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/payment",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html?hsww_prod_type=Handbags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Rado",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/shippinginfo",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html?hsww_prod_type=Scarves",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Technomarine",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html?hsww_prod_type=Pen",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/customer/account/logout/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?movement_type_family=Automatic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html?prod_cate=Footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Christian+Van+Sant",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?polarization=Non-Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Tissot",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Christian Dior",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Technomarine",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html?hsww_prod_type=Wallet",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories/belts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry/bracelet.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/all-brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?movement_type_family=Automatic%2CManual",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories/watch-winder.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Gucci",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/shippinginfo ",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=B+Swiss",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?brand=Verso",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/eyewear.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Caravelle+by+Bulova",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Ring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/new-arrivals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Calvin Klein",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Swiza",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/stores/store/redirect/___store/zh/___from_store/default/uenc/aHR0cHM6Ly96aC5hc2hmb3JkLmNvbS8%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/womens-watches.html?brand=Caravelle+by+Bulova",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Gevril",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/mens-watches.html?brand=Blancpain",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/stores/store/redirect/___store/kr/___from_store/default/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry/earring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231203953/https://www.ashford.com/jewelry/ring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-28 20:46:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 366,
+      "valid_content_urls_count": 366,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/about-us",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/watch-resources.html",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/on-sale",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/all-brands/",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/catalogsearch/advanced/",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/payment",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/shippinginfo",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/contactus",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/account/login"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "The main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's history and values, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/watch-resources.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub / Resources",
+            "selection_reason": "Provides valuable information and guides, establishing authority in the watch industry."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/on-sale",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Attracts customers looking for discounts and promotions, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/all-brands/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Index",
+            "selection_reason": "Allows customers to explore various brands, catering to diverse preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/catalogsearch/advanced/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Advanced Search Page",
+            "selection_reason": "Facilitates product discovery, helping customers find specific items efficiently."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/payment",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Information (Static)",
+            "selection_reason": "Essential for customers to understand payment options before completing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process, allowing customers to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/shippinginfo",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Provides customers with necessary shipping details, enhancing transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Informs customers about return procedures, building trust and confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/contactus",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer concerns, improving user experience and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Facilitates account access for returning customers, promoting loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 67,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories.html?hsww_prod_type=Handbags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/contactus",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/all-brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/solar-powered-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/account/logout/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Logout"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories.html?hsww_prod_type=Wallet",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Ring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/flashdeals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories/mens-cufflink.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html?hsww_prod_type=Earring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html?polarization=Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/automatic-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories.html?hsww_prod_type=Scarves",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/watch-resources.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub / Resources"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories/belts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html?hsww_prod_type=Jewelry+Set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry/bracelet.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/new-arrivals.html?gender=WOMEN&prod_cate=Watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html?hsww_prod_type=Opticals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/stores/store/redirect/___store/kr/___from_store/default/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/new-arrivals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html?polarization=Non-Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/moonphase-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Coupons Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Bracelet",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories/watch-winder.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/shippinginfo",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/gmt-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories/pens.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Accessory Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Necklace",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/eyewear.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/payment",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/shippinginfo ",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/chronograph-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/stores/store/redirect/___store/zh/___from_store/default/uenc/aHR0cHM6Ly96aC5hc2hmb3JkLmNvbS8%2C/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/accessories.html?hsww_prod_type=Pen",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry/necklace.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064316/https://www.ashford.com/jewelry/ring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-28 20:46:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 379,
+      "valid_content_urls_count": 379,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/watch-resources.html",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/womens-watches.html",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/mens-watches.html",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/coupons",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/shippinginfo",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/customer/account/login",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/contactus",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/terms",
+        "https://web.archive.org/web/20231231022418/https://www.ashford.com/warranty"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "Essential entry point for customers to explore the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/watch-resources.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub / Resources",
+            "selection_reason": "Provides valuable information to educate customers about watches."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Jewelry",
+            "selection_reason": "Core category that attracts customer interest in jewelry products."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/womens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Women's Watches",
+            "selection_reason": "Key category for female customers, showcasing a variety of options."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/mens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Men's Watches",
+            "selection_reason": "Important category for male customers, highlighting men's watch selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/coupons",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Coupons Page",
+            "selection_reason": "Encourages customers to consider purchases by offering discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process where customers finalize their choices."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/shippinginfo",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Provides essential information on shipping policies to customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Important for customer assurance regarding product returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/customer/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Facilitates customer retention by allowing access to account features."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/contactus",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/terms",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Legal",
+            "selection_reason": "Essential for customer trust and legal compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/warranty",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Warranty Information (Static)",
+            "selection_reason": "Provides customers with assurance regarding product warranties."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 66,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html?hsww_prod_type=Earring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/new-arrivals.html?gender=WOMEN&prod_cate=Watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/automatic-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry/necklace.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Necklace",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Coupons Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/gmt-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Ring",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry/earring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/accessories.html?hsww_prod_type=Scarves",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?polarization=Non-Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/shippinginfo",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/opticals.html?gender=MEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/flashdeals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/moonphase-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?hsww_prod_type=Opticals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/watch-resources.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub / Resources"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry/ring.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html?gender=WOMEN&hsww_prod_type=Bracelet",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry.html?hsww_prod_type=Jewelry+Set",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Jewelry"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/opticals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/jewelry/bracelet.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Jewelry Type"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/contactus",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/opticals.html?gender=WOMEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/accessories.html?hsww_prod_type=Handbags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/stores/store/redirect/___store/kr/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8_X19fc3RvcmU9a3I%2C/___from_store/default/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?polarization=Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/new-arrivals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/payment",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/ccpa-privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?hsww_prod_type=Sunglasses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/stores/store/redirect/___store/zh/uenc/aHR0cHM6Ly96aC5hc2hmb3JkLmNvbS8_X19fc3RvcmU9emg%2C/___from_store/default/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/all-brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/reviews",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/solar-powered-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/accessories.html?hsww_prod_type=Pen",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231022418/https://www.ashford.com/eyewear.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-28 20:46:41",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 392,
+      "valid_content_urls_count": 392,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/about-us",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/testimonials",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/watch-resources.html",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/mens-watches.html",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/womens-watches.html",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/coupons",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/payment",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/shippinginfo",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/contactus",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/customer/account/login",
+        "https://web.archive.org/web/20241227001508/https://www.ashford.com/wishlist"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "The main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's story and values, enhancing trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/testimonials",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Testimonials / Reviews",
+            "selection_reason": "Provides social proof and builds credibility through customer feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/watch-resources.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub / Resources",
+            "selection_reason": "Offers valuable information that can engage potential customers and educate them about products."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/mens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Men's Watches",
+            "selection_reason": "A key product category that attracts customers interested in men's watches."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/womens-watches.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category: Women's Watches",
+            "selection_reason": "Another essential product category catering to female customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/coupons",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Coupons Page",
+            "selection_reason": "Encourages customers to consider purchases by offering discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers in the decision-making phase to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/payment",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Information (Static)",
+            "selection_reason": "Essential for customers to understand payment options before completing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Provides important information about return processes, enhancing customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/shippinginfo",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/contactus",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/customer/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Allows returning customers to access their accounts, promoting loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist / Favorites",
+            "selection_reason": "Encourages customers to save items for future purchases, enhancing engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 50,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/eyewear.html?polarization=Non-Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Coupons Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/watch-resources.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub / Resources"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/new-arrivals.html?gender=WOMEN&prod_cate=Watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/ccpa-privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/doorbusters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/gmt-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/sunglasses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/opticals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/new-arrivals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/all-brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/stores/store/redirect/___store/kr/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8_X19fc3RvcmU9a3I~/___from_store/default/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/payment",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/reviews",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/automatic-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/eyewear.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/solar-powered-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/eyewear.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/opticals.html?gender=MEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/shippinginfo",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/opticals.html?gender=WOMEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/contactus",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/eyewear.html?polarization=Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/moonphase-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241227001508/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-28 20:46:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 427,
+      "valid_content_urls_count": 427,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/about-us",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/featured-events",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/new-arrivals.html",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/checkout/cart/",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/payment",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/returns",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/shippinginfo",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/wishlist",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/coupons",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/faq",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/contactus",
+        "https://web.archive.org/web/20250427212105/https://www.ashford.com/customer/account/login"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home Page",
+            "selection_reason": "The main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's story, values, and mission, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/featured-events",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sales & Deals Hub",
+            "selection_reason": "Highlights current promotions and events, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/new-arrivals.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals",
+            "selection_reason": "Showcases the latest products, appealing to customers looking for new items."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/payment",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Information (Static)",
+            "selection_reason": "Essential for completing transactions, providing necessary payment details."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy (Static)",
+            "selection_reason": "Informs customers about the return process, enhancing trust and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/shippinginfo",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information (Static)",
+            "selection_reason": "Provides crucial shipping details, impacting customer purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist / Favorites",
+            "selection_reason": "Allows customers to save items for future consideration, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/coupons",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Coupons Page",
+            "selection_reason": "Encourages purchase by providing discounts, appealing to budget-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/faq",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving customer support and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/contactus",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with a way to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/customer/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account - Login",
+            "selection_reason": "Facilitates customer account access, promoting user engagement and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 50,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/featured-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/new-arrivals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/eyewear.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/eyewear.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/eyewear.html?polarization=Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/weekly-deals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sales & Deals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/new-arrivals.html?gender=WOMEN%2CUNISEX&prod_cate=Watches",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/gmt-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/womens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/sunglasses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/opticals.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / Favorites"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/payment",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/all-brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Coupons Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/mens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/customer/address",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Address Book"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/automatic-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/watch-resources.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub / Resources"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/accessibility",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/opticals.html?gender=WOMEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/watches/mens-watches/gold.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sub-Category: Watch Style"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/womens-watches.html?product_list_order=is_featured&product_list_dir=desc",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Women's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/ccpa-privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/faq",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/opticals.html?gender=MEN",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/moonphase-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/affiliates",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/customer/account/login/referer/aHR0cHM6Ly93d3cuYXNoZm9yZC5jb20v/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/clearance.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Clearance / Outlet"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/stores/store/redirect/___store/kr/uenc/aHR0cHM6Ly9rci5hc2hmb3JkLmNvbS8_X19fc3RvcmU9a3I~/___from_store/default/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store & Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/mens-watches.html?product_list_dir=desc&product_list_order=new_arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/vault/cards/listaction",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Saved Payments"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/shippinginfo",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/warranty",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Warranty Information (Static)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Legal"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/contactus",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/solar-powered-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Feature-Based Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/testimonials",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/eyewear.html?polarization=Non-Polarized",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Eyewear"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/mens-watches.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category: Men's Watches"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/reviews",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Testimonials / Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20250427212105/https://www.ashford.com/customer/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account - Login"
+        }
+      ]
+    }
+  }
+}

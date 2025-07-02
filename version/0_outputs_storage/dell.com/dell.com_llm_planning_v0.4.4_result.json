@@ -1,0 +1,3009 @@
+{
+  "agent_version": "Real_LLM_Planning_Agent_v0.4",
+  "company_url": "dell.com",
+  "export_time": "2025-06-25 09:47:44",
+  "yearly_analysis_results": {
+    "2012": {
+      "analysis_time": "2025-06-25 09:42:48",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 116,
+      "valid_content_urls_count": 116,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/servers",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/laptops",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/search1",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/19?c=us&l=en&s=dhs",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/04?c=us&l=en&s=bsd",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/storage-products",
+        "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops?~ck=mn"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This URL showcases a specific product category, attracting customers interested in servers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL directs customers to the desktops section, which is a key interest area for many shoppers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This URL focuses on laptops, a popular product category, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL highlights popular deals, which can significantly attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/search1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results",
+            "selection_reason": "This URL allows customers to search for products, facilitating their interest and exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "This URL provides customer reviews, aiding in the consideration process for potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL helps customers make decisions based on their location, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL provides options for international customers, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/19?c=us&l=en&s=dhs",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL offers support resources, which are vital for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/04?c=us&l=en&s=bsd",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL provides additional support options, enhancing customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL directs customers to the business products section, catering to a specific customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/storage-products",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL focuses on storage products, appealing to customers with specific needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops?~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL highlights desktops, a key product area, driving customer interest."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 19,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/19?c=us&l=en&s=dhs",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/04?c=us&l=en&s=bsd",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/search1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/laptops?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/support/home/us/EN/555?c=us&l=en&s=biz",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/business/p/storage-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/us/p/desktops?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231905/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-06-25 09:43:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 283,
+      "valid_content_urls_count": 283,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/deals",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/laptops",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/workstations",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/careers",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/cr",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20151228032321/https://www.dell.com/support/orderstatus",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/19/campaigns/free-shipping-easy-returns?ref=stpvalueprops",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/cloud-client-computing?stp_redir=false",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/software?stp_redir=false",
+        "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/desktops"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer awareness and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page showcases deals, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "A key category page for customers interested in laptops."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on enterprise products, appealing to business customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/workstations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Targets professionals looking for workstations."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights Dell's corporate culture and job opportunities."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "Demonstrates Dell's commitment to social responsibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Essential for customers to understand purchase terms."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/https://www.dell.com/support/orderstatus",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Informs customers about privacy policies and terms of use."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/19/campaigns/free-shipping-easy-returns?ref=stpvalueprops",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Details shipping and return policies, crucial for customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Knowledge Base / Self-Help",
+            "selection_reason": "Provides support resources, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/cloud-client-computing?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on cloud solutions, appealing to tech-savvy customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/software?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Targets customers interested in software solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Key page for customers interested in desktop computers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 24,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/networking-products?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/deals/popular-laptop-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&dgc=IR&cid=awardwinningprecisionworkstations-207601&lid=2-1&ref=bnn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/dell-tablets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/deals/popular-desktop-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/cloud-client-computing?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/https://www.dell.com/support/orderstatus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Knowledge Base / Self-Help"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/?l=en&s=chn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/desktops-n-workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/dell-tablets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/us/business/p/software?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20151228032321/http://www.dell.com/learn/us/en/19/campaigns/free-shipping-easy-returns?ref=stpvalueprops",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-06-25 09:43:33",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 104,
+      "valid_content_urls_count": 104,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/workstations",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/storage-products",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/servers",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/laptops",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20141230132704/https://www.dell.com/support/orderstatus?c=us&l=en&ref=mb3&s=bsd",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/popular-laptop-deals?=us&cs=19&l=en&s=dhs&~ck=mn",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/desktops",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/",
+        "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides essential information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/workstations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Highlights a specific product category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/storage-products",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on storage products, appealing to business customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "Targets a key product segment for business solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "A popular category that attracts a wide range of customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Provides social proof and helps customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "Facilitates customer decisions based on location preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Essential for customer trust and understanding of data usage."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Important for customers to understand their rights and obligations."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/https://www.dell.com/support/orderstatus?c=us&l=en&ref=mb3&s=bsd",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Critical for customers to track their orders and enhance satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/popular-laptop-deals?=us&cs=19&l=en&s=dhs&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Highlights deals that attract customer interest and drive sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on desktop products, appealing to a specific customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "A general page for business products, catering to business customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "A general page for consumer products, appealing to a broad audience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "all_classified_urls_count": 27,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell-newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/search1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/storage-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/desktop-all-in-one-deals?ref=rb3&s=bsd",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/desktops?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/dell-tablets?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/https://www.dell.com/support/orderstatus?c=us&l=en&ref=mb3&s=bsd",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell-investor",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/business/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/learn/us/en/uscorp1/about-dell?s=corp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/content/segmenter.aspx?c=us&cs=6099&l=en&s=eep",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/popular-laptop-deals?=us&cs=19&l=en&s=dhs&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141230132704/http://www.dell.com/us/p/laptops.aspx?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        }
+      ]
+    },
+    "2009": {
+      "analysis_time": "2025-06-25 09:43:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 95,
+      "valid_content_urls_count": 95,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091227080405/http://www.dell.com/",
+        "https://web.archive.org/web/20091227080405/http://www.dell.com/search1",
+        "https://web.archive.org/web/20091227080405/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+        "https://web.archive.org/web/20091227080405/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+        "https://web.archive.org/web/20091227080405/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/search1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results",
+            "selection_reason": "This URL allows customers to explore products, indicating their interest in specific offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "This URL provides customer reviews, helping potential buyers in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL aids customers in making decisions by allowing them to select their region for tailored content."
+          },
+          {
+            "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL is crucial for customers to finalize their purchase decisions based on their location."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 7,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/search1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&ref=hs&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091227080405/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-06-25 09:43:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 107,
+      "valid_content_urls_count": 107,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/search1",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/us/p/popular-desktop-deals.aspx?c=us&cs=19&l=en&s=dhs&~ck=mn",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+        "https://web.archive.org/web/20101231152745/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/search1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results",
+            "selection_reason": "This URL allows customers to explore products, generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/us/p/popular-desktop-deals.aspx?c=us&cs=19&l=en&s=dhs&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page showcases popular deals, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "This URL provides customer reviews, aiding in the consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL helps customers make decisions based on their location."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL assists in final decision-making by providing localized options."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL is crucial for customers to finalize their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL provides essential information for customers to make informed decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 9,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&ref=hs&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/search1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/us/p/popular-desktop-deals.aspx?c=us&cs=19&l=en&s=dhs&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&cs=19&l=en&s=dhs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231152745/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-25 09:44:12",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 173,
+      "valid_content_urls_count": 173,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/community/Dell-Community/ct-p/English?profile.language=en&~ck=mn",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?ref=support1_cta",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&ref=support4_cta",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=products&~ck=mn",
+        "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Essential for customers to understand privacy policies and terms of use."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Important for customers to know the terms under which they are purchasing products."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Critical for customers to log in or register before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Provides ongoing support and warranty information, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "Allows customers to seek help and resolve issues, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/community/Dell-Community/ct-p/English?profile.language=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Forum",
+            "selection_reason": "Encourages customer engagement and loyalty through community support."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Drivers & Downloads",
+            "selection_reason": "Essential for customers to access necessary drivers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Provides access to knowledge base articles, aiding in customer self-service."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?ref=support1_cta",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "A centralized hub for customer support resources, vital for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&ref=support4_cta",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Focuses on warranty services, important for customer assurance."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=products&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Helps customers manage their products, crucial for ongoing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Another login option for customers, facilitating access to their accounts."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 14,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Drivers & Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/community/Dell-Community/ct-p/English?profile.language=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Forum"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?ref=support1_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=warranty&ref=support4_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/support/home/en-us?app=products&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20210721063825/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-25 09:44:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 170,
+      "valid_content_urls_count": 170,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/orders?~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?~ck=mn",
+        "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=products&~ck=mn"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL provides warranty information, crucial for customer retention and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL offers access to a knowledge base, helping customers resolve issues and enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Drivers & Downloads",
+            "selection_reason": "This URL is essential for customers needing drivers, directly impacting their satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/orders?~ck=mn",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "This URL allows customers to track their orders, a key aspect of the fulfillment stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "This URL provides legal information that is important for customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "This URL outlines the terms of sale, which is critical for customer understanding and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "This URL is essential for customers to access their accounts, influencing their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "This URL facilitates account creation and login, crucial for customer engagement and decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "This URL allows customers to contact support, which is vital for retention and customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL serves as a central hub for customer support, enhancing retention through easy access to help."
+          },
+          {
+            "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=products&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "This URL provides product-specific support, which is important for customer retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 14,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/incidents-online/en-us/srsearch?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=warranty&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/Login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=knowledgebase&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=drivers&ref=support2_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Drivers & Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?ref=support1_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=warranty&ref=support4_cta",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/home/en-us?app=products&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/Identity/global/LoginOrRegister/98254675-AC6F-47D9-A7E4-4537724F135D?c=us&l=en&r=us&s=corp&~ck=mn&redirectUrl=",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20200812023154/https://www.dell.com/support/orders?~ck=mn",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-25 09:44:56",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 105,
+      "valid_content_urls_count": 105,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/laptops",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/servers",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/desktops",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20131231220731/https://www.dell.com/support/orderstatus/us/en/04?c=us&l=en&ref=mb3&s=bsd",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/workstations",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/deals?~ck=mn&~ck=mn",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/search1",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/cr",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/desktop-all-in-one-deals?ref=rb3&s=bsd",
+        "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell-newsroom"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "This page provides essential information about the company, enhancing brand awareness and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "A key product category page that attracts customers interested in laptops."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This page targets business customers looking for server solutions, crucial for B2B engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "A vital page for customers exploring desktop options, enhancing product visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "Customer reviews are critical for influencing purchase decisions and building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This page assists customers in making decisions based on their location, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Legal information is essential for customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/https://www.dell.com/support/orderstatus/us/en/04?c=us&l=en&ref=mb3&s=bsd",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "This page is crucial for customers to track their orders, enhancing post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/workstations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "A targeted page for customers interested in workstations, important for specific customer needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/deals?~ck=mn&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Promotional deals attract customers and drive sales, making it a key page."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/search1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results",
+            "selection_reason": "The search results page is essential for customers to find specific products quickly."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "This page highlights Dell's commitment to social responsibility, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/desktop-all-in-one-deals?ref=rb3&s=bsd",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page focuses on all-in-one desktop deals, appealing to budget-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell-newsroom",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Newsroom updates keep customers informed about the brand's latest developments."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 24,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/storage-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell-investor",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/deals?~ck=mn&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/search1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/business/p/desktop-all-in-one-deals?ref=rb3&s=bsd",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/laptops.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/learn/us/en/uscorp1/about-dell-newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/us/p/tablets-touch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/https://www.dell.com/support/orderstatus/us/en/04?c=us&l=en&ref=mb3&s=bsd",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220731/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-25 09:45:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 166,
+      "valid_content_urls_count": 166,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/products",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/community/戴尔社区/ct-p/Chinese",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=drivers",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=manuals",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/incidents-online/zh-cn/contactus/dynamic?spestate",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/contractservices/zh-cn/",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/premier/home",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn/account-settings/profile",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/quicktest",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn",
+        "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Essential for customers to create accounts and access personalized services."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/products",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Critical for customers seeking support and assistance with their products."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/community/戴尔社区/ct-p/Chinese",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Forum",
+            "selection_reason": "Provides a platform for customer engagement and support through community interaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their accounts and view order history, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=drivers",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Important for customers to access drivers and software updates for their devices."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=manuals",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Provides access to product manuals, essential for customer support and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/incidents-online/zh-cn/contactus/dynamic?spestate",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "Facilitates direct communication for support, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/contractservices/zh-cn/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Warranty & Service Contracts",
+            "selection_reason": "Important for customers to understand their warranty and service options."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/premier/home",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Premier Portal (B2B)",
+            "selection_reason": "Essential for business customers to manage their accounts and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn/account-settings/profile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to update their profiles, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/quicktest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Quick access to troubleshooting tools, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Central hub for all support-related inquiries, vital for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Critical for returning customers to access their accounts and make purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 14,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/community/戴尔社区/ct-p/Chinese",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Forum"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/products",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/premier/home",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Premier Portal (B2B)"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn/quicktest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/myaccount/zh-cn/account-settings/profile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=drivers",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/incidents-online/zh-cn/contactus/dynamic?spestate",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/contractservices/zh-cn/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Warranty & Service Contracts"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/support/home/zh-cn?app=manuals",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20240814170934/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3dce60c787-ab6e-44bb-815a-95c0d29ca95b%2caid%3d8269df2d-d371-4a0c-a92a-4d8ccbcbd2ca&nonce=sf5a3pgvep0jwuzhyz2wgmtg&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luL2NlNjBjNzg3LWFiNmUtNDRiYi04MTVhLTk1YzBkMjljYTk1Yj9jPWNuJmw9emgmcj1hcCZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGemgtY24mcG49TG9naW5PclJlZ2lzdGVy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-25 09:45:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 141,
+      "valid_content_urls_count": 141,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/cr",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/servers",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home/us/en/19?c=&l=&s=",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/support/orders?~ck=mn",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+        "https://web.archive.org/web/20180926070454/https://www.dell.com/community/English/ct-p/English?profile.language=en&~ck=mn"
+      ],
+      "recommended_pages_count": 11,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "Highlights Dell's commitment to social responsibility, attracting socially conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Central hub for exploring Dell's workstation products, crucial for customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "Specific product category page that helps customers in their consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home/us/en/19?c=&l=&s=",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Essential for customer retention, providing support resources and assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/orders?~ck=mn",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Critical for customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Important for customers to understand the terms of their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Essential for customer trust and understanding of privacy policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Knowledge Base / Self-Help",
+            "selection_reason": "Empowers customers to find solutions independently, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Warranty & Service Contracts",
+            "selection_reason": "Provides customers with important warranty information, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/community/English/ct-p/English?profile.language=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Forum",
+            "selection_reason": "Fosters community engagement and support, enhancing customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Clarifies the terms under which customers make purchases, important for transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Essential for customer trust and understanding of privacy policies."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 12,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/premier?s=bsd&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Premier Portal (B2B)"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home/us/en/19?c=&l=&s=",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/orders?~ck=mn",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Knowledge Base / Self-Help"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Warranty & Service Contracts"
+        },
+        {
+          "url": "https://web.archive.org/web/20180926070454/https://www.dell.com/community/English/ct-p/English?profile.language=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Forum"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-06-25 09:46:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 101,
+      "valid_content_urls_count": 101,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/desktops",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/servers",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/laptops",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops?~ck=mn",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/storage-products",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+        "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This page showcases laptops, attracting customer interest in a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This URL highlights desktop products, catering to customer interest in another key category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page targets business customers, expanding interest in business-related products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This URL focuses on server products, appealing to business customers' specific needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page features popular deals, enticing customers with attractive offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Customer Reviews",
+            "selection_reason": "This URL provides customer reviews, aiding in the consideration process for potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL assists customers in making decisions based on their location."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page targets business laptops, catering to a specific segment of customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops?~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "This URL provides a focused view on laptops, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/storage-products",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "This page showcases storage products, appealing to business customers' needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL helps customers finalize their decisions based on regional preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL provides options for customers to choose their country, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL assists customers in making informed decisions based on their location."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "International Site Selector",
+            "selection_reason": "This URL provides tailored options for customers, enhancing their decision-making experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 18,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/desktops?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=eep&cs=_eep&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/storage-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx//pub?c=us&cs=2684&l=en&ref=hs&s=pub",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/public/choosecountry.aspx?c=us&l=en&s=gen",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/laptops?~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/segmenter.aspx?c=us&l=en&s=dfo",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "International Site Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/p/popular-laptop-deals?c=us&cs=19&l=en&s=dhs&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/us/business/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231220658/http://www.dell.com/content/topics/segtopic.aspx/ratings_reviews?c=us&l=en&s=gen",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Customer Reviews"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-25 09:46:45",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 288,
+      "valid_content_urls_count": 288,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/laptops",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/laptop-tablet-deals",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/desktop-all-in-one-deals",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/workstations",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/support/orderstatus?~ck=mn",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/support/home/product-support?c=us&l=en",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+        "https://web.archive.org/web/20160922193704/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/cloud-client?stp_redir=false",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/networking-products?stp_redir=false",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/deals/popular-laptop-deals",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/desktops",
+        "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/cr"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about Dell."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/laptops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Key product category page for laptops, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/laptop-tablet-deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Highlights deals on laptops and tablets, important for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/desktop-all-in-one-deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on desktop deals, appealing to customers looking for value."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/workstations",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Targets professionals interested in workstations, a niche market."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/support/orderstatus?~ck=mn",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Essential for customers to track their orders, enhancing fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Important legal information that builds trust with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/support/home/product-support?c=us&l=en",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Critical for customer retention, providing ongoing support."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Knowledge Base / Self-Help",
+            "selection_reason": "Empowers customers to find solutions independently, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates customer account access, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/cloud-client?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Addresses a growing market segment, attracting interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Targets enterprise customers, a significant revenue source."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/networking-products?stp_redir=false",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Focuses on networking products, essential for business customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/deals/popular-laptop-deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Showcases popular laptop deals, driving customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/desktops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Key page for desktop products, appealing to a broad audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "Highlights Dell's commitment to social responsibility, enhancing brand image."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 27,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/gateways-embedded-pcs?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/laptop-tablet-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/desktop-all-in-one-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/deals/poweredge-tower-server-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/software?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/deals/popular-desktop-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/desktops-n-workstations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/cloud-client?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/https://www.dell.com/support/orderstatus?~ck=mn",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/desktops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/?l=en&s=chn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/support/home/product-support?c=us&l=en",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/deals/popular-laptop-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Knowledge Base / Self-Help"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/enterprise-products?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/laptops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/dell-tablets",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/p/2-in-1-laptop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160922193704/http://www.dell.com/us/business/p/networking-products?stp_redir=false",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-25 09:47:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 336,
+      "valid_content_urls_count": 336,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/premier?s=bsd&~ck=mn",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+        "https://web.archive.org/web/20170901150716/https://www.dell.com/support/orderstatus?~ck=mn",
+        "https://web.archive.org/web/20170901150716/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/careers?~ck=mn",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/cr",
+        "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/servers"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Knowledge Base / Self-Help",
+            "selection_reason": "Essential for customer support and retention, allowing users to find solutions independently."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Warranty & Service Contracts",
+            "selection_reason": "Important for existing customers to manage their warranties and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Critical for understanding the terms under which purchases are made."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/premier?s=bsd&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Premier Portal (B2B)",
+            "selection_reason": "Key for business customers to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Shop Page",
+            "selection_reason": "Provides a comprehensive view of products, crucial for generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/https://www.dell.com/support/orderstatus?~ck=mn",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates customer account access, essential for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Important for customers to understand their privacy rights and terms."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/careers?~ck=mn",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights Dell's corporate culture and job opportunities, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "Demonstrates Dell's commitment to social responsibility, improving brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/servers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category Page (PLP)",
+            "selection_reason": "Provides detailed information on server products, crucial for customer interest."
+          }
+        ],
+        "total_recommendations": 12,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 12,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/support/Contents/category/Product-Support/Self-support-Knowledgebase?c=us&l=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Knowledge Base / Self-Help"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/support/home?app=warranty&c=us&l=en&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Warranty & Service Contracts"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/premier?s=bsd&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Premier Portal (B2B)"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/workstations?c=us&cs=04&l=en&s=bsd&~ck=mn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Shop Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/https://www.dell.com/support/orderstatus?~ck=mn",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/https://www.dell.com/identity/global/loginorregister?connectionId=98254675-AC6F-47D9-A7E4-4537724F135D&wreply=http%3a%2f%2fwww.dell.com%2fen-us%2fhome%2f&c=us&l=en&r=us&s=dhs&cs=19&~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/careers?~ck=mn",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20170901150716/http://www.dell.com/us/business/p/servers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category Page (PLP)"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-25 09:47:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 138,
+      "valid_content_urls_count": 138,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?~ck=mn",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/identity/global/login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/cr",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/support/orders?~ck=mn",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/support/incidents-online/us/en/04/srsearch?~ck=mn",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=knowledgebase&~ck=mn",
+        "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=products&~ck=mn"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of Dell's offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Essential for existing customers to access support and resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Terms of Sale",
+            "selection_reason": "Important for customers to understand the terms under which they purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/identity/global/login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Critical for customers to access their accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/cr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social & Environmental Impact",
+            "selection_reason": "Highlights Dell's commitment to social responsibility, attracting socially conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/orders?~ck=mn",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/incidents-online/us/en/04/srsearch?~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "Enables customers to seek help and resolve issues, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Legal - Privacy & Terms of Use",
+            "selection_reason": "Informs customers about privacy policies, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=knowledgebase&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Provides access to knowledge base articles, aiding customer self-service."
+          },
+          {
+            "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=products&~ck=mn",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Facilitates product support, essential for customer satisfaction."
+          }
+        ],
+        "total_recommendations": 10,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 10,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/terms-of-sale",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Terms of Sale"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/identity/global/login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=knowledgebase&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/cr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social & Environmental Impact"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/home/us/en/04?app=products&~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/learn/us/en/uscorp1/policies-privacy",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Legal - Privacy & Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/orders?~ck=mn",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20191116211212/https://www.dell.com/support/incidents-online/us/en/04/srsearch?~ck=mn",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-25 09:47:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 187,
+      "valid_content_urls_count": 187,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/community/en/categories/dell-community",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us/orders",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/contactus/dynamic?spestate",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=warranty",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=drivers",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=manuals",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/premier/home",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/contractservices/en-us/",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid",
+        "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/srsearch"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing brand awareness and access to various products."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/community/en/categories/dell-community",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Forum",
+            "selection_reason": "Engages customers post-purchase and fosters community interaction, enhancing customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Central hub for customer support, crucial for retention and customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their accounts, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us/orders",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Essential for customers to track their orders, directly impacting fulfillment satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/contactus/dynamic?spestate",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "Provides direct access to support, crucial for resolving issues and retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=warranty",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Support Home",
+            "selection_reason": "Focuses on warranty information, important for customer trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=drivers",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Drivers & Downloads",
+            "selection_reason": "Critical for maintaining product performance, enhancing customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=manuals",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Manuals & Documentation",
+            "selection_reason": "Provides essential product information, aiding in customer support and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/premier/home",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Premier Portal (B2B)",
+            "selection_reason": "Targets business customers, enhancing retention through tailored services."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/contractservices/en-us/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Warranty & Service Contracts",
+            "selection_reason": "Important for long-term customer relationships and service retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates new customer onboarding, crucial for expanding the customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts, impacting user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/srsearch",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Support / Service Request",
+            "selection_reason": "Provides a direct link for support inquiries, enhancing customer service."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "all_classified_urls_count": 16,
+      "all_classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/authorize?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3d98254675-ac6f-47d9-a7e4-4537724f135d%2caid%3ddb0a56e7-2d07-43f8-957b-c51db034c5ec&nonce=0vrtv3lwb0wowh2kojg1wfe0&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vaWRlbnRpdHkvZ2xvYmFsL2luLzk4MjU0Njc1LWFjNmYtNDdkOS1hN2U0LTQ1Mzc3MjRmMTM1ZD9jPXVzJmw9ZW4mcj11cyZzPWNvcnAmcmVkaXJlY3RVcmw9aHR0cHM6JTJGJTJGd3d3LmRlbGwuY29tJTJGZW4tdXMmcG49TG9naW5PclJlZ2lzdGVy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/contactus/dynamic?spestate",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/dci/idp/dwa/register?response_type=id_token&client_id=228467e4-d9b6-4b04-8a11-45e1cc9f786d&redirect_uri=https://www.dell.com/identity/global/in/228467e4-d9b6-4b04-8a11-45e1cc9f786d&scope=openid&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM&code_challenge_method=S256&tag=cid%3d98254675-ac6f-47d9-a7e4-4537724f135d%2caid%3ddb0a56e7-2d07-43f8-957b-c51db034c5ec&nonce=0vrtv3lwb0wowh2kojg1wfe0&state=aHR0cHM6Ly93d3cuZGVsbC5jb20vSWRlbnRpdHkvZ2xvYmFsL0luLzk4MjU0Njc1LUFDNkYtNDdEOS1BN0U0LTQ1Mzc3MjRGMTM1RD9jPXVzJmw9ZW4mcj11cyZzPWNvcnAmYWN0aW9uPXJlZ2lzdGVyJnJlZGlyZWN0VXJsPWh0dHBzOiUyRiUyRnd3dy5kZWxsLmNvbSUyRmVuLXVz",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/community/en/categories/dell-community",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Forum"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/contractservices/en-us/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Warranty & Service Contracts"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us/rewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/incidents-online/en-us/srsearch",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Support / Service Request"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/premier/home",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Premier Portal (B2B)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us/orders",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=manuals",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Manuals & Documentation"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=warranty",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/myaccount/en-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us?app=drivers",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Drivers & Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20250316225640/https://www.dell.com/support/home/en-us/quicktest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Support Home"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "generation_time": "2025-06-28 03:05:53",
+  "company_url": "alliedelec.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/about-us/",
+          "/aboutus.aspx",
+          "/alliedhistory.aspx"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/lp/*",
+          "/sp/*"
+        ]
+      },
+      {
+        "type_name": "Articles & Expert Content",
+        "typical_url_patterns": [
+          "/articles/",
+          "/expert/"
+        ]
+      },
+      {
+        "type_name": "Solutions Hub",
+        "typical_url_patterns": [
+          "/solutions/*"
+        ]
+      },
+      {
+        "type_name": "Newsroom",
+        "typical_url_patterns": [
+          "/newsroom/"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/careers/",
+          "/hr/careeropp.aspx"
+        ]
+      },
+      {
+        "type_name": "Corporate Responsibility Page",
+        "typical_url_patterns": [
+          "/newsroom/2030-esg-action-plan/",
+          "/diversity.aspx"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category Page",
+        "typical_url_patterns": [
+          "/{category-slug}/"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/{category-slug}/{subcategory-slug}/"
+        ]
+      },
+      {
+        "type_name": "Tertiary Category Page",
+        "typical_url_patterns": [
+          "/{category-slug}/{subcategory-slug}/{tertiary-category-slug}/"
+        ]
+      },
+      {
+        "type_name": "Faceted/Filtered Category Page",
+        "typical_url_patterns": [
+          "/*?*"
+        ]
+      },
+      {
+        "type_name": "All Products Index",
+        "typical_url_patterns": [
+          "/products/",
+          "/catalog/indices/products.aspx*"
+        ]
+      },
+      {
+        "type_name": "Brand Hub (Line Card)",
+        "typical_url_patterns": [
+          "/linecard/",
+          "/linecardsupplier.aspx"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Category Page",
+        "typical_url_patterns": [
+          "/absolutebm/abmc.aspx*"
+        ]
+      },
+      {
+        "type_name": "New Products & Brands Page",
+        "typical_url_patterns": [
+          "/manufacturers/new-manufacturers/",
+          "/new/"
+        ]
+      },
+      {
+        "type_name": "Sales & Clearance Page",
+        "typical_url_patterns": [
+          "/excess/",
+          "/currentspecials*"
+        ]
+      },
+      {
+        "type_name": "Development & Prototyping Hub",
+        "typical_url_patterns": [
+          "/raspberry-pi-arduino-development-tools/",
+          "/esd-prototyping/"
+        ]
+      },
+      {
+        "type_name": "Specialty Tech Shop",
+        "typical_url_patterns": [
+          "/raspberry-pi-arduino-development-tools/arduino-shop/",
+          "/raspberry-pi-arduino-development-tools/raspberry-pi-shop/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/product/*/*/*/",
+          "/*-[0-9]+/[0-9]+/"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search/searchresults.aspx*",
+          "/search/?*"
+        ]
+      },
+      {
+        "type_name": "Product Finder Tool",
+        "typical_url_patterns": [
+          "/productfinders/"
+        ]
+      },
+      {
+        "type_name": "Bill of Materials (BOM) Tool",
+        "typical_url_patterns": [
+          "/cart/billofmaterials.aspx"
+        ]
+      },
+      {
+        "type_name": "Quick Order Portal",
+        "typical_url_patterns": [
+          "/search/orderportal.aspx"
+        ]
+      },
+      {
+        "type_name": "Request a Quote Form",
+        "typical_url_patterns": [
+          "/customerservice/forms/partquote.aspx"
+        ]
+      },
+      {
+        "type_name": "Technical Support Form",
+        "typical_url_patterns": [
+          "/customerservice/forms/technicalsupport.aspx"
+        ]
+      },
+      {
+        "type_name": "Customer Stories Page",
+        "typical_url_patterns": [
+          "/lp/customer-stories/"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart Page",
+        "typical_url_patterns": [
+          "/cart/viewcart.aspx"
+        ]
+      },
+      {
+        "type_name": "Saved Carts Page",
+        "typical_url_patterns": [
+          "/cart/savedcart.aspx"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/user/login.aspx",
+          "/customer/login"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/user/register.aspx",
+          "/customer/register",
+          "/online-registration/"
+        ]
+      },
+      {
+        "type_name": "Password Recovery Page",
+        "typical_url_patterns": [
+          "/user/requestpassword.aspx"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow (Implicit)",
+        "typical_url_patterns": [
+          "/checkout/*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation Page (Implicit)",
+        "typical_url_patterns": [
+          "/order/success"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/user/myaccount.aspx",
+          "/customer/myaccount"
+        ]
+      },
+      {
+        "type_name": "Order History Page",
+        "typical_url_patterns": [
+          "/orders/orderhistory.aspx"
+        ]
+      },
+      {
+        "type_name": "Return Merchandise (RMA) Form",
+        "typical_url_patterns": [
+          "/customerservice/forms/rma.aspx"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/customerservice/shippinginfo.aspx",
+          "/view/shippinginfo"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/customerservice/customerservice.aspx"
+        ]
+      },
+      {
+        "type_name": "Contact Us Form",
+        "typical_url_patterns": [
+          "/customerservice/forms/contactus.aspx"
+        ]
+      },
+      {
+        "type_name": "Literature Request Form",
+        "typical_url_patterns": [
+          "/customerservice/forms/literature.aspx"
+        ]
+      },
+      {
+        "type_name": "Value-Added Services Page",
+        "typical_url_patterns": [
+          "/services/",
+          "/services.aspx"
+        ]
+      },
+      {
+        "type_name": "Quality Policy Page",
+        "typical_url_patterns": [
+          "/quality.aspx"
+        ]
+      },
+      {
+        "type_name": "Legal & Privacy Policy Page",
+        "typical_url_patterns": [
+          "/view/legalprivacy",
+          "/customerservice/legalprivacy.aspx"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions Page",
+        "typical_url_patterns": [
+          "/view/legalterms",
+          "/customerservice/legalterms.aspx"
+        ]
+      },
+      {
+        "type_name": "GSA Program Page",
+        "typical_url_patterns": [
+          "/gsa.aspx",
+          "/gsa-advantage/"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

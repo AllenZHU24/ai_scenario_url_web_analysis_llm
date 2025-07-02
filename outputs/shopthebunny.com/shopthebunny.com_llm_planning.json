@@ -1,0 +1,476 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "shopthebunny.com",
+  "export_time": "2025-07-01 16:41:39",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-01 16:40:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com:80/",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+        "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/includes/inc.maillist.php"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Helps customers understand shipping policies, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses return policies, which are vital for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides a way for customers to reach out for inquiries, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms & Conditions Page",
+            "selection_reason": "Informs customers about the terms of service, essential for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Builds customer trust by detailing how their data is handled."
+          },
+          {
+            "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/includes/inc.maillist.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup Page/Module",
+            "selection_reason": "Encourages ongoing engagement with customers through newsletters."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms & Conditions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/includes/inc.maillist.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup Page/Module"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090227180801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-01 16:41:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 20,
+      "valid_content_urls_count": 20,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/landingpages/2010giftguide.php",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/includes/inc.maillist.php",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+        "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/landingpages/2010giftguide.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Landing Page",
+            "selection_reason": "This page helps to create interest by showcasing specific products or themes."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "This FAQ addresses return policies, which are crucial for customers in the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Providing contact information is essential for customer inquiries during consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Shipping information is critical for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/includes/inc.maillist.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Signup Page/Module",
+            "selection_reason": "Encouraging newsletter signups helps retain customers and keep them informed."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "A privacy policy builds trust and is essential for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms & Conditions Page",
+            "selection_reason": "Clear terms and conditions are important for customer trust and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/includes/inc.maillist.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Signup Page/Module"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/landingpages/2010giftguide.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231202801/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms & Conditions Page"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-01 16:41:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 12,
+      "valid_content_urls_count": 12,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/landingpages/affiliate.php",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com:80/",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+        "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/landingpages/affiliate.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Page",
+            "selection_reason": "This page raises awareness about the affiliate program, attracting potential partners."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Essential for building trust and retaining customers by informing them about data usage."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Important for customers to reach out with inquiries, aiding their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common concerns about returns, helping customers in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Provides shipping information, crucial for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms & Conditions Page",
+            "selection_reason": "Informs customers of their rights and obligations, fostering trust and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/landingpages/affiliate.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/privacy.php?footDept=privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/contact.php?footDept=contactUs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=8&footDept=returnPol",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/faq.php?fa=2&footDept=shipInfo",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110812055625/http://www.shopthebunny.com/infoPages/terms.php?footDept=tandc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms & Conditions Page"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-01 16:41:33",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20210213222240/http://www.shopthebunny.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20210213222240/http://www.shopthebunny.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings, which is essential for creating initial awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20210213222240/http://www.shopthebunny.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-01 16:41:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231213150214/https://www.shopthebunny.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231213150214/https://www.shopthebunny.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings, crucial for creating initial awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231213150214/https://www.shopthebunny.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-01 16:41:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20240511153034/https://shopthebunny.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20240511153034/https://shopthebunny.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings, essential for creating initial awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20240511153034/https://shopthebunny.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

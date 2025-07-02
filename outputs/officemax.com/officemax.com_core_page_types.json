@@ -1,0 +1,317 @@
+{
+  "generation_time": "2025-07-01 07:26:44",
+  "company_url": "officemax.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/",
+          "/home/homePage.jsp",
+          "/index.html"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=...",
+          "/catalog/promotions.jsp?catId=..."
+        ]
+      },
+      {
+        "type_name": "Brand Showcase",
+        "typical_url_patterns": [
+          "/brands/...",
+          "/home/custom.jsp?id=m730004"
+        ]
+      },
+      {
+        "type_name": "Services Hub",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m2900051",
+          "/home/custom.jsp?id=m2900052",
+          "/home/custom.jsp?id=m15160025"
+        ]
+      },
+      {
+        "type_name": "Content Hub / Magazine",
+        "typical_url_patterns": [
+          "/home/exchangemag.jsp"
+        ]
+      },
+      {
+        "type_name": "Thematic Hub",
+        "typical_url_patterns": [
+          "/promotional-pages/...",
+          "/home/custom.jsp?id=m2670086"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "L1 Category - Office Supplies",
+        "typical_url_patterns": [
+          "/office-supplies"
+        ]
+      },
+      {
+        "type_name": "L1 Category - Office Furniture",
+        "typical_url_patterns": [
+          "/office-furniture"
+        ]
+      },
+      {
+        "type_name": "L1 Category - Technology",
+        "typical_url_patterns": [
+          "/technology"
+        ]
+      },
+      {
+        "type_name": "L2 Category - Paper",
+        "typical_url_patterns": [
+          "/office-supplies/paper",
+          "/office-supplies/paper/..."
+        ]
+      },
+      {
+        "type_name": "L2 Category - Writing Instruments",
+        "typical_url_patterns": [
+          "/office-supplies/pens-pencils-markers",
+          "/office-supplies/pens-pencils-markers/..."
+        ]
+      },
+      {
+        "type_name": "L2 Category - Chairs & Seating",
+        "typical_url_patterns": [
+          "/office-furniture/chairs",
+          "/office-furniture/chairs/..."
+        ]
+      },
+      {
+        "type_name": "L2 Category - Desks & Workstations",
+        "typical_url_patterns": [
+          "/office-furniture/desks-laptop-stands"
+        ]
+      },
+      {
+        "type_name": "L2 Category - Printers & Scanners",
+        "typical_url_patterns": [
+          "/technology/printers",
+          "/technology/scanners"
+        ]
+      },
+      {
+        "type_name": "L2 Category - Computers & Tablets",
+        "typical_url_patterns": [
+          "/technology/computers",
+          "/technology/computers/..."
+        ]
+      },
+      {
+        "type_name": "L2 Category - Breakroom & Cleaning",
+        "typical_url_patterns": [
+          "/office-supplies/breakroom-cleaning",
+          "/office-supplies/breakroom-cleaning/..."
+        ]
+      },
+      {
+        "type_name": "Generic Category Listing",
+        "typical_url_patterns": [
+          "/catalog/category.jsp?catId=..."
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/catalog/search.jsp?freeText=...",
+          "/catalog/search.jsp?searchText=..."
+        ]
+      },
+      {
+        "type_name": "Clearance Hub",
+        "typical_url_patterns": [
+          "/clearance"
+        ]
+      },
+      {
+        "type_name": "Clearance Category",
+        "typical_url_patterns": [
+          "/clearance/..."
+        ]
+      },
+      {
+        "type_name": "Gift Card Hub",
+        "typical_url_patterns": [
+          "/gift-cards",
+          "/gift-cards/..."
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/catalog/sku.jsp?productId=...",
+          "/*/*/product-prod..."
+        ]
+      },
+      {
+        "type_name": "Ink & Toner Finder",
+        "typical_url_patterns": [
+          "/catalog/refill/inkNtoner.jsp"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/storelocator/storeLocatorHome.jsp"
+        ]
+      },
+      {
+        "type_name": "Service Detail - Print & Copy",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m9540558"
+        ]
+      },
+      {
+        "type_name": "Service Detail - Shredding",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m4510117"
+        ]
+      },
+      {
+        "type_name": "Service Detail - Shipping (FedEx)",
+        "typical_url_patterns": [
+          "/fedex",
+          "/home/custom.jsp?id=m3650049"
+        ]
+      },
+      {
+        "type_name": "Service Detail - Furniture Assembly",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m15360054"
+        ]
+      },
+      {
+        "type_name": "Quick Order by SKU",
+        "typical_url_patterns": [
+          "/catalog/shop/orderByNumberSkuDetails.jsp"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart/cart.jsp"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/profile/login.jsp"
+        ]
+      },
+      {
+        "type_name": "Financial Offer Page (Credit Card)",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m280004",
+          "/home/custom.jsp?id=m13870130"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/profile/orderSearch.jsp"
+        ]
+      },
+      {
+        "type_name": "Shipping & Delivery Information",
+        "typical_url_patterns": [
+          "/customerservice/customerService.jsp?subCategoryId=Delivery_Information"
+        ]
+      },
+      {
+        "type_name": "Return Policy Information",
+        "typical_url_patterns": [
+          "/customerservice/customerService.jsp?subCategoryId=Return_Policy",
+          "/customerservice/returnPolicy.jsp"
+        ]
+      },
+      {
+        "type_name": "Initiate Return Form",
+        "typical_url_patterns": [
+          "/customerservice/returnMerchandise.jsp"
+        ]
+      },
+      {
+        "type_name": "Request Receipt Copy",
+        "typical_url_patterns": [
+          "/customerservice/customerService.jsp?subCategoryId=YourOrder_ReceiptCopy"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/profile/personalInfoMain.jsp"
+        ]
+      },
+      {
+        "type_name": "Shopping List",
+        "typical_url_patterns": [
+          "/profile/shoppingListMain.jsp"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program (MaxPerks)",
+        "typical_url_patterns": [
+          "/maxperks",
+          "/home/custom.jsp?id=m2430056"
+        ]
+      },
+      {
+        "type_name": "Email Signup Page",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m15950202"
+        ]
+      },
+      {
+        "type_name": "Catalog Request",
+        "typical_url_patterns": [
+          "/customerservice/requestCatalog.jsp"
+        ]
+      },
+      {
+        "type_name": "Customer Service Home",
+        "typical_url_patterns": [
+          "/customerservice/customerService.jsp"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/customerservice/contactUsHome.jsp"
+        ]
+      },
+      {
+        "type_name": "Protection Plan (MaxAssurance)",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m590002"
+        ]
+      },
+      {
+        "type_name": "Tech Support Services",
+        "typical_url_patterns": [
+          "/home/custom.jsp?id=m15680305",
+          "/home/custom.jsp?id=m15680091"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

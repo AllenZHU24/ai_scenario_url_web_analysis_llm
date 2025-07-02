@@ -1,0 +1,355 @@
+{
+  "generation_time": "2025-06-28 17:54:43",
+  "company_url": "antonline.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.htm",
+          "/index.php"
+        ]
+      },
+      {
+        "type_name": "Blog",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about_us"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers",
+          "/careers.php"
+        ]
+      },
+      {
+        "type_name": "CEO Letter",
+        "typical_url_patterns": [
+          "/letter-from-the-ceo.php"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Primary Category Page",
+        "typical_url_patterns": [
+          "/[Category_Name]",
+          "/cat_*.htm",
+          "/ecat_*.htm"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/[...]/[Sub_Category]",
+          "/c_x-*.htm"
+        ]
+      },
+      {
+        "type_name": "Filtered Category Page",
+        "typical_url_patterns": [
+          "/*Product_Type=*",
+          "/*/[Filter_Value]"
+        ]
+      },
+      {
+        "type_name": "Brand Hub",
+        "typical_url_patterns": [
+          "/[Brand_Name]"
+        ]
+      },
+      {
+        "type_name": "Brand-Category Page",
+        "typical_url_patterns": [
+          "/[Brand]/[Category]/[Sub_Category]"
+        ]
+      },
+      {
+        "type_name": "Brand Product-Line Page",
+        "typical_url_patterns": [
+          "/[Brand]/[Product_Line]",
+          "/[Brand]/[Product_Line]/[Sub_Product]"
+        ]
+      },
+      {
+        "type_name": "Legacy Brand/Store Page",
+        "typical_url_patterns": [
+          "/brand_*.htm",
+          "/store_*.htm"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/searchinv?st=*",
+          "/antonline.php?op=inventory&st=*"
+        ]
+      },
+      {
+        "type_name": "General Deals Page",
+        "typical_url_patterns": [
+          "/Deals",
+          "/clearance",
+          "/*save*",
+          "/*sale*"
+        ]
+      },
+      {
+        "type_name": "Themed Gift Guide",
+        "typical_url_patterns": [
+          "/*Gifts*",
+          "/*stocking_stuffers*"
+        ]
+      },
+      {
+        "type_name": "Price-Based Deals Page",
+        "typical_url_patterns": [
+          "/ant/gifts_under_*",
+          "/GiftsUnder*"
+        ]
+      },
+      {
+        "type_name": "Open Box Deals Page",
+        "typical_url_patterns": [
+          "/Open_Box",
+          "/ecat_Open-Boxes*.htm"
+        ]
+      },
+      {
+        "type_name": "Gaming Hub",
+        "typical_url_patterns": [
+          "/gaming",
+          "/gaming_desktop_computer/*",
+          "/Gaming_Laptop/*"
+        ]
+      },
+      {
+        "type_name": "Component Hub",
+        "typical_url_patterns": [
+          "/components",
+          "/Motherboards",
+          "/Graphic_Cards"
+        ]
+      },
+      {
+        "type_name": "Product Launch/Tech Hub",
+        "typical_url_patterns": [
+          "/*-launch",
+          "/*[gen]cpus",
+          "/*[series]"
+        ]
+      },
+      {
+        "type_name": "Specific Game Landing Page",
+        "typical_url_patterns": [
+          "/diabloiv",
+          "/minecraft",
+          "/forza-motorsport"
+        ]
+      },
+      {
+        "type_name": "Bundle Landing Page",
+        "typical_url_patterns": [
+          "/*bundle*",
+          "/*BundleAndSave"
+        ]
+      },
+      {
+        "type_name": "Interstitial/Splash Page",
+        "typical_url_patterns": [
+          "/interstitial.php?grid=*"
+        ]
+      },
+      {
+        "type_name": "All Categories/Sitemap",
+        "typical_url_patterns": [
+          "/toc.htm"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*/[ID]",
+          "/p_*.htm"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare_*.htm",
+          "/comparepc_*.htm"
+        ]
+      },
+      {
+        "type_name": "Rebate Center",
+        "typical_url_patterns": [
+          "/rebate_center.php"
+        ]
+      },
+      {
+        "type_name": "Custom Server Builder",
+        "typical_url_patterns": [
+          "/buy-new-custom-built-supermicro-servers.htm",
+          "/server-splash.php"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/?op=viewcart",
+          "/*waitcart"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/customer",
+          "/index.php?op=logon",
+          "/index.php?op=retrieve_info"
+        ]
+      },
+      {
+        "type_name": "Request Quote",
+        "typical_url_patterns": [
+          "/requestQuote.php",
+          "/requestQuote.htm"
+        ]
+      },
+      {
+        "type_name": "Corporate Accounts Page",
+        "typical_url_patterns": [
+          "/support/corporate_accounts",
+          "/business",
+          "/corporateAccounts.htm"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status Page",
+        "typical_url_patterns": [
+          "/support/order_status",
+          "/orderStatusRequest.htm"
+        ]
+      },
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/customer"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy/FAQ",
+        "typical_url_patterns": [
+          "/faq_shipping.htm"
+        ]
+      },
+      {
+        "type_name": "Manufacturer Support",
+        "typical_url_patterns": [
+          "/mfgsupport.php",
+          "/manf_support.php"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Customer Registration Page",
+        "typical_url_patterns": [
+          "/customer/register"
+        ]
+      },
+      {
+        "type_name": "Forgot Password Page",
+        "typical_url_patterns": [
+          "/customer/forgot-password"
+        ]
+      },
+      {
+        "type_name": "General Support Hub",
+        "typical_url_patterns": [
+          "/support",
+          "/support.php"
+        ]
+      },
+      {
+        "type_name": "Support Ticket System",
+        "typical_url_patterns": [
+          "/support/support_ticket",
+          "/ticketRequest.php"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/support/faq",
+          "/faq_orders.php"
+        ]
+      },
+      {
+        "type_name": "Return Policy Page",
+        "typical_url_patterns": [
+          "/support/returns",
+          "/support/return_policy",
+          "/returns.htm"
+        ]
+      },
+      {
+        "type_name": "RMA Request Page",
+        "typical_url_patterns": [
+          "/request_rma.php",
+          "/support.php?p=rma"
+        ]
+      },
+      {
+        "type_name": "Terms of Sale/Service",
+        "typical_url_patterns": [
+          "/terms",
+          "/support/terms_of_sale",
+          "/saleterms.php"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy",
+          "/privacy.htm"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/support/accessibility"
+        ]
+      },
+      {
+        "type_name": "Subscriptions Page",
+        "typical_url_patterns": [
+          "/subscriptions",
+          "/subscriptions.php"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contactus.htm",
+          "/support.php?p=contact"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

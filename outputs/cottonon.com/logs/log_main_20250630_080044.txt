@@ -1,0 +1,85 @@
+2025-06-30 08:00:44,926 - INFO - 📋 日志系统已初始化: outputs/cottonon.com/logs/log_main_20250630_080044.txt
+2025-06-30 08:00:44,926 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-30 08:00:44,926 - INFO - 📊 公司: cottonon.com
+2025-06-30 08:00:44,927 - INFO - ✅ 成功读取 3 个历史URLs from ./inputs/cottonon.com.txt
+2025-06-30 08:00:44,927 - INFO - 🌐 开始URL处理...
+2025-06-30 08:00:44,927 - INFO - 🌐 开始处理公司URLs: cottonon.com
+2025-06-30 08:00:44,927 - INFO - 🔍 处理 2009 年的URLs...
+2025-06-30 08:00:44,927 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20090416184606/http://www.cottonon.com:80/
+2025-06-30 08:00:47,213 - INFO - ✅ 发现 1 个内部链接
+2025-06-30 08:00:47,213 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-06-30 08:00:47,214 - INFO - ✅ 2009 年处理完成: 1 个有效链接
+2025-06-30 08:00:47,214 - INFO - 🔍 处理 2010 年的URLs...
+2025-06-30 08:00:47,214 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20101124073841/http://www.cottonon.com:80/
+2025-06-30 08:00:49,205 - INFO - ✅ 发现 1 个内部链接
+2025-06-30 08:00:49,205 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-06-30 08:00:49,205 - INFO - ✅ 2010 年处理完成: 1 个有效链接
+2025-06-30 08:00:49,205 - INFO - 🔍 处理 2011 年的URLs...
+2025-06-30 08:00:49,205 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20110817013335/http://www.cottonon.com:80/
+2025-06-30 08:00:50,566 - INFO - ✅ 发现 8 个内部链接
+2025-06-30 08:00:50,566 - INFO - ✅ URL过滤完成: 8/8 链接通过结构过滤
+2025-06-30 08:00:50,566 - INFO - ✅ 2011 年处理完成: 8 个有效链接
+2025-06-30 08:00:50,567 - INFO - 💾 链接处理完成，共 10 个链接已保存到: outputs/cottonon.com/cottonon.com_filtered_links.json
+2025-06-30 08:00:50,567 - INFO - ✅ 成功加载 3 年的链接数据
+2025-06-30 08:00:50,567 - INFO - ✅ URL处理完成，共处理 3 年的数据
+2025-06-30 08:00:50,567 - INFO - 🧠 开始LLM规划...
+2025-06-30 08:00:50,866 - INFO - 🚀 LLM规划器已初始化
+2025-06-30 08:00:50,866 - INFO - 🧠 开始识别核心页面类型...
+2025-06-30 08:00:50,866 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-30 08:00:54,523 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 08:02:22,835 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-06-30 08:02:22,836 - INFO - ✅ 核心页面类型识别完成，共 48 个类型已保存到: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-06-30 08:02:22,836 - INFO - ✅ 核心页面类型已生成: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-06-30 08:02:22,836 - INFO - 🤖 开始生成LLM规划...
+2025-06-30 08:02:22,841 - INFO - 🔍 处理 2009 年的规划...
+2025-06-30 08:02:22,841 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-06-30 08:02:22,842 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-30 08:02:23,576 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 08:02:25,798 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-30 08:02:25,798 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-06-30 08:02:25,798 - INFO - ✅ 2009 年规划完成: 推荐 1 个核心URL
+2025-06-30 08:02:25,799 - INFO - 🔍 处理 2010 年的规划...
+2025-06-30 08:02:25,799 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-06-30 08:02:25,799 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-30 08:02:26,322 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 08:02:27,035 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-30 08:02:27,035 - WARNING - LLM推荐URLs不在有效列表中，使用前 1 个有效URLs
+2025-06-30 08:02:27,035 - INFO - ✅ URL推荐完成: 1 个推荐，0 个在有效页面内
+2025-06-30 08:02:27,035 - INFO - ✅ 2010 年规划完成: 推荐 1 个核心URL
+2025-06-30 08:02:27,036 - INFO - 🔍 处理 2011 年的规划...
+2025-06-30 08:02:27,036 - INFO - ✅ URL正则匹配完成，共过滤出1/8个classified_urls
+2025-06-30 08:02:27,037 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-06-30 08:02:27,570 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 08:02:29,312 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-06-30 08:02:29,312 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-06-30 08:02:29,313 - INFO - ✅ 2011 年规划完成: 推荐 1 个核心URL
+2025-06-30 08:02:29,323 - INFO - 💾 LLM规划全部年份处理完成，共 3 个推荐URL已保存到: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-06-30 08:02:29,324 - INFO - ✅ 成功加载 3 年的规划数据
+2025-06-30 08:02:29,324 - INFO - ✅ LLM规划完成: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-06-30 08:02:29,324 - INFO - 🔍 开始场景分析...
+2025-06-30 08:02:29,325 - INFO - ✅ 成功加载 70 个微场景
+2025-06-30 08:02:29,325 - INFO - 🔍 场景分析器已初始化
+2025-06-30 08:02:29,325 - INFO - 🔍 开始分析场景: cottonon.com
+2025-06-30 08:02:29,327 - INFO - 🔍 分析 2009 年的场景...
+2025-06-30 08:02:29,327 - INFO - 📄 [2009] 分析页面 1/1
+2025-06-30 08:02:30,473 - INFO - 💾 内容已保存到: outputs/cottonon.com/websites/2009_20250630_080230.txt
+2025-06-30 08:02:31,474 - INFO - ✅ 2009 年场景分析完成: 0 个场景
+2025-06-30 08:02:31,484 - INFO - ✅ 场景分析结果已导出到: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-06-30 08:02:31,484 - INFO - 🔍 分析 2010 年的场景...
+2025-06-30 08:02:31,484 - INFO - 📄 [2010] 分析页面 1/1
+2025-06-30 08:02:31,839 - INFO - 💾 内容已保存到: outputs/cottonon.com/websites/2010_20250630_080231.txt
+2025-06-30 08:02:32,840 - INFO - ✅ 2010 年场景分析完成: 0 个场景
+2025-06-30 08:02:32,840 - INFO - ✅ 场景分析结果已导出到: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-06-30 08:02:32,840 - INFO - 🔍 分析 2011 年的场景...
+2025-06-30 08:02:32,841 - INFO - 📄 [2011] 分析页面 1/1
+2025-06-30 08:02:33,237 - INFO - 💾 内容已保存到: outputs/cottonon.com/websites/2011_20250630_080233.txt
+2025-06-30 08:02:34,246 - INFO - ✅ 2011 年场景分析完成: 0 个场景
+2025-06-30 08:02:34,247 - INFO - ✅ 场景分析结果已导出到: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-06-30 08:02:34,303 - INFO - ✅ 场景分析结果已导出到: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-06-30 08:02:34,303 - INFO - ✅ 场景分析完成: outputs/cottonon.com/cottonon.com_scenarios.json
+2025-06-30 08:02:34,303 - INFO - 🎉 分析流程完成!
+2025-06-30 08:02:34,303 - INFO - 📁 输出文件:
+2025-06-30 08:02:34,303 - INFO -    - 过滤链接: outputs/cottonon.com/cottonon.com_filtered_links.json
+2025-06-30 08:02:34,303 - INFO -    - 核心页面类型: outputs/cottonon.com/cottonon.com_core_page_types.json
+2025-06-30 08:02:34,303 - INFO -    - LLM规划: outputs/cottonon.com/cottonon.com_llm_planning.json
+2025-06-30 08:02:34,303 - INFO -    - 场景分析: outputs/cottonon.com/cottonon.com_scenarios.json

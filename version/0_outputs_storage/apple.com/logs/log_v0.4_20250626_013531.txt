@@ -1,0 +1,41 @@
+2025-06-26 01:35:31,708 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-26 01:35:31,708 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-26 01:35:31,709 - INFO - ✅ Successfully loaded scenario reference with 70 scenarios
+2025-06-26 01:35:31,709 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (70 scenarios total):
+Awareness Stage (1.1-1.5): Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, Hot Search Keyword Clicking, Social Media Ad Entry
+Interest Stage (2.1-2.13): Direct Keyword Search, Fuzzy Category Keyword Search, Image Search Entry Usage, Voice Search Entry Usage, Autocomplete Options Browse, Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Main Category Navigation Browse, Brand Aggregation Page Browse, Livestream Shopping & Content Discovery, Guided Selling / Quiz Engagement
+Consideration Stage (3.1-3.19): Subcategory Filtering Browse, Filter Adjustment Browse, Post-Search Intent Category Entry, Recently Viewed Products Continuation, History-Driven Recommendation Browse, Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Wishlist/Saved for Later Price Alert, AR Virtual Try-On, Viewing Customer-Submitted Media, Back-in-Stock Alert Signup, Saving a Product Configuration
+Decision Stage (4.1-4.9): Viewing Return Policy, Discount Package Combination Browse, Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase, Buy Now, Pay Later (BNPL) Selection, Coupon/Promo Code Application
+Fulfillment Stage (5.1-5.7): Order Page Viewing, Return Application Process, Transaction Complaint Submission, Online Bot Interaction, BOPIS/Click & Collect Selection, Visual Real-Time Order Tracking, Post-Purchase Delivery Management
+Retention Stage (6.1-6.17): Continue Browse Recommendation Module, Repurchase Recommendation Module, Exclusive Offer for Repeat Customers, Product Review Submission, Brand Homepage Entry Access, Platform Message Center Browse, Loyalty Program Engagement, Membership Level Display, Points Display Section, Referral Program Usage, Community Forum/Discussion Participation, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Trade-in Program Engagement, Accessing Member-Exclusive Content
+
+2025-06-26 01:35:31,710 - INFO - ✅ Successfully loaded 70 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions_v0.3.json
+2025-06-26 01:35:31,710 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-26 01:35:31,710 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/apple.com
+2025-06-26 01:35:31,713 - INFO - ✅ Loaded existing planning results for 17 years: ['2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025']
+2025-06-26 01:35:31,713 - INFO - ✅ Loaded existing scenario results for 17 years
+2025-06-26 01:35:31,714 - INFO - 🔄 Loaded links cache (17 years)
+2025-06-26 01:35:31,714 - INFO - 🔄 Loaded cached core page types (46) from disk
+2025-06-26 01:35:31,715 - INFO - 🔄 Starting new unified planning workflow (v0.4.4)...
+2025-06-26 01:35:31,715 - INFO - 🔄 [Links] Using cached links for 2009 (24 links)
+2025-06-26 01:35:31,715 - INFO - 🔄 [Links] Using cached links for 2010 (24 links)
+2025-06-26 01:35:31,715 - INFO - 🔄 [Links] Using cached links for 2011 (21 links)
+2025-06-26 01:35:31,715 - INFO - 🔄 [Links] Using cached links for 2012 (23 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2013 (23 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2014 (22 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2015 (49 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2016 (49 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2017 (51 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2018 (65 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2019 (69 links)
+2025-06-26 01:35:31,716 - INFO - 🔄 [Links] Using cached links for 2020 (71 links)
+2025-06-26 01:35:31,717 - INFO - 🔄 [Links] Using cached links for 2021 (80 links)
+2025-06-26 01:35:31,717 - INFO - 🔄 [Links] Using cached links for 2022 (78 links)
+2025-06-26 01:35:31,717 - INFO - 🔄 [Links] Using cached links for 2023 (82 links)
+2025-06-26 01:35:31,717 - INFO - 🔄 [Links] Using cached links for 2024 (89 links)
+2025-06-26 01:35:31,717 - INFO - 🔄 [Links] Using cached links for 2025 (89 links)
+2025-06-26 01:35:31,717 - INFO - 💡 Analysis completed! Output files:
+2025-06-26 01:35:31,717 - INFO -    - ./outputs/apple.com/apple.com_llm_planning_v0.4_result.json
+2025-06-26 01:35:31,717 - INFO -    - ./outputs/apple.com/apple.com_scenario_v0.4_result.json
+2025-06-26 01:35:32,927 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-26 01:35:32,928 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

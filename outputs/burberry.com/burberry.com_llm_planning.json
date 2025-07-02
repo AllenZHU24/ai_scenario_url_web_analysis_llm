@@ -1,0 +1,832 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "burberry.com",
+  "export_time": "2025-07-01 10:50:29",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-30 03:15:43",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 15,
+      "valid_content_urls_count": 15,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+        "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential brand information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "This URL allows users to select their region and language, enhancing user experience and accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Facilitates access for European customers, ensuring they can navigate the site in their preferred language."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Targets Italian customers, improving localization and user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Directs UK customers to the appropriate site version, enhancing relevance and user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Serves German-speaking customers, ensuring they have access to localized content."
+          },
+          {
+            "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Enhances the experience for French customers by providing localized navigation."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091026122413/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-06-30 03:15:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 14,
+      "valid_content_urls_count": 14,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com:80/",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr",
+        "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Provides localized access to the brand for German-speaking customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Directs UK customers to the appropriate regional site."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Targets Italian-speaking customers for better engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Serves European customers with a centralized site."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main entry point for all customers to explore the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Engages French-speaking customers effectively."
+          },
+          {
+            "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Region/Language Selector",
+            "selection_reason": "Caters to the US market with localized content."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.de&culture=de-de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://uk.burberry.com&culture=en",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.it&culture=it-it",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.eu&culture=en",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://www.burberry.fr&culture=fr-fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20100729130224/http://www.burberry.com/redirect.aspx?url=http://us.burberry.com&culture=en-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Region/Language Selector"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-06-30 03:16:01",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 4,
+      "valid_content_urls_count": 4,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121231083221/http://www.burberry.com/",
+        "https://web.archive.org/web/20121231083221/http://www.burberry.com:80/",
+        "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/burberry/myburberry/register/myLogin.jsp",
+        "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/"
+      ],
+      "recommended_pages_count": 4,
+      "recommended_in_valid_overlap": 4,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage that enhances brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/burberry/myburberry/register/myLogin.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "This URL allows customers to register and consider their options for purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Provides customers with store locations, aiding in their decision-making process."
+          }
+        ],
+        "total_recommendations": 4,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 4,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/burberry/myburberry/register/myLogin.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231083221/http://www.burberry.com/store/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-06-30 03:16:05",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 2,
+      "valid_content_urls_count": 2,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231153233/http://www.burberry.com/",
+        "https://web.archive.org/web/20131231153233/http://www.burberry.com/burberry/myburberry/register/myLogin.jsp"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231153233/http://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and showcasing the overall offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231153233/http://www.burberry.com/burberry/myburberry/register/myLogin.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Login",
+            "selection_reason": "This URL is crucial for returning customers to access their accounts, enhancing customer retention and loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231153233/http://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231153233/http://www.burberry.com/burberry/myburberry/register/myLogin.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Login"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-06-30 03:16:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 2,
+      "valid_content_urls_count": 2,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231173611/http://burberry.com/",
+        "https://web.archive.org/web/20141231173611/http://burberry.com/burberry/myburberry/register/myLogin.jsp"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231173611/http://burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and showcasing the brand's identity."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231173611/http://burberry.com/burberry/myburberry/register/myLogin.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Login",
+            "selection_reason": "This URL is crucial for customer retention, allowing existing customers to log in and access personalized services."
+          }
+        ],
+        "total_recommendations": 2,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231173611/http://burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231173611/http://burberry.com/burberry/myburberry/register/myLogin.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Login"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-06-30 03:16:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 2,
+      "valid_content_urls_count": 2,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151229113629/https://www.burberry.com/",
+        "https://web.archive.org/web/20151229113629/https://www.burberry.com/burberry/myburberry/register/myLogin.jsp"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151229113629/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151229113629/https://www.burberry.com/burberry/myburberry/register/myLogin.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Login",
+            "selection_reason": "This URL is crucial for returning customers to access their accounts, enhancing customer retention."
+          }
+        ],
+        "total_recommendations": 2,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151229113629/https://www.burberry.com/burberry/myburberry/register/myLogin.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151229113629/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-06-30 03:16:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161231185631/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161231185631/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161231185631/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-06-30 03:16:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171230164541/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171230164541/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL represents the brand's main entry point, crucial for creating awareness among potential customers."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171230164541/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-06-30 03:16:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181230091644/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181230091644/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to become aware of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181230091644/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-06-30 03:16:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231164020/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231164020/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231164020/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-06-30 03:16:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231075145/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231075145/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231075145/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-06-30 03:16:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231103018/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231103018/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to become aware of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231103018/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-06-30 03:16:37",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221230030504/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221230030504/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221230030504/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-06-30 03:16:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231231070710/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231231070710/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and showcasing the latest collections."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231231070710/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-06-30 03:16:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241223043756/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241223043756/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241223043756/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-06-30 03:16:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250502031652/https://www.burberry.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250502031652/https://www.burberry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness and showcasing the latest collections."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250502031652/https://www.burberry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

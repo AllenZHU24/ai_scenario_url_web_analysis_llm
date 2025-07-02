@@ -1,0 +1,375 @@
+{
+  "generation_time": "2025-06-27 18:58:11",
+  "company_url": "acmetools.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/",
+          "/?PageSpeed=noscript"
+        ]
+      },
+      {
+        "type_name": "Blog List",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "About Us / Company History",
+        "typical_url_patterns": [
+          "/about-us.html",
+          "/acme-tools-history.html",
+          "/shop/tools/about-acme",
+          "/webapp/wcs/stores/servlet/CompanyHistoryView"
+        ]
+      },
+      {
+        "type_name": "Press Releases",
+        "typical_url_patterns": [
+          "/press-releases.html",
+          "/shop/tools/press-releases"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers.html",
+          "/shop/tools/careers",
+          "/webapp/wcs/stores/servlet/CareersView"
+        ]
+      },
+      {
+        "type_name": "Informational Page",
+        "typical_url_patterns": [
+          "/acme-tools-covid-19-response.html",
+          "/transparency-coverage.html"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category (PLP)",
+        "typical_url_patterns": [
+          "/power-tools.html",
+          "/hand-tools.html",
+          "/outdoor-power-equipment/",
+          "/shop/tools/power-tools",
+          "/tools/Acme+Tools/Power+Tools"
+        ]
+      },
+      {
+        "type_name": "Sub-Category (PLP)",
+        "typical_url_patterns": [
+          "/lawn-mowers/",
+          "/cordless-tools/",
+          "/shop/tools/cordless-drills",
+          "/tools/Acme+Tools/Power+Tools/Grinders"
+        ]
+      },
+      {
+        "type_name": "Brand Page",
+        "typical_url_patterns": [
+          "/{brand-name}.html",
+          "/{brand-name}/",
+          "/shop/tools/{brand-name}",
+          "/tools/{Brand+Name}"
+        ]
+      },
+      {
+        "type_name": "Brand + Category Page (PLP)",
+        "typical_url_patterns": [
+          "/milwaukee/m18/power-tools/",
+          "/dewalt/outdoor-power-equipment/",
+          "/shop/tools/milwaukee-m18-tools",
+          "/shop/tools/dewalt-power-tool-accessories"
+        ]
+      },
+      {
+        "type_name": "Product System / Line Page",
+        "typical_url_patterns": [
+          "/milwaukee/packout/storage/",
+          "/dewalt/toughsystem-2.0/tool-boxes/",
+          "/shop/tools/dewalt-flexvolt"
+        ]
+      },
+      {
+        "type_name": "Trade-Specific Category (PLP)",
+        "typical_url_patterns": [
+          "/woodworking-tools/",
+          "/shop/tools/woodworking",
+          "/shop/tools/electrical-trade",
+          "/tools/Woodworking"
+        ]
+      },
+      {
+        "type_name": "All Categories Page",
+        "typical_url_patterns": [
+          "/categories.html",
+          "/shop/tools/categories",
+          "/webapp/wcs/stores/servlet/CategoryListingView"
+        ]
+      },
+      {
+        "type_name": "All Brands Page",
+        "typical_url_patterns": [
+          "/brands/",
+          "/shop/tools/brands",
+          "/webapp/wcs/stores/servlet/BrandsView"
+        ]
+      },
+      {
+        "type_name": "'What's New' Page",
+        "typical_url_patterns": [
+          "/all/?prefn1=acme-tools-brand-name-2&prefv1=WhatsNewBrand",
+          "/shop/tools/new-tools",
+          "/tools/Acme+Tools/What%27s+New"
+        ]
+      },
+      {
+        "type_name": "Used / Refurbished Equipment",
+        "typical_url_patterns": [
+          "/used/equipment/",
+          "/ego/refurbished/all/",
+          "/tools/Acme+Tools/Reconditioned+Tools"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail (PDP)",
+        "typical_url_patterns": [
+          "/*/{product-id}.html",
+          "/shop/ProductDisplay?productId=*",
+          "/tools/{product-name-with-sku}"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search/?cgid=*",
+          "/shop/SearchDisplay?searchTerm=*",
+          "/shop/AdvancedSearchDisplay"
+        ]
+      },
+      {
+        "type_name": "Filtered Category / Search",
+        "typical_url_patterns": [
+          "/*/?prefn1=*",
+          "/search/?cgid=*&prefn1=*"
+        ]
+      },
+      {
+        "type_name": "Buying Guides List",
+        "typical_url_patterns": [
+          "/buying-guides-listing.html",
+          "/shop/tools/buying-guides-listing"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/holiday-gift-guide.html",
+          "/gifts-under-99/",
+          "/shop/tools/tool-gift-ideas"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/store-locations.html",
+          "/stores/?showMap=true",
+          "/shop/tools/locations"
+        ]
+      },
+      {
+        "type_name": "Product Reviews",
+        "typical_url_patterns": [
+          "/reviewscontest.html",
+          "/shop/tools/reviewscontest"
+        ]
+      },
+      {
+        "type_name": "Click Tracker / Redirect",
+        "typical_url_patterns": [
+          "/webapp/wcs/stores/servlet/ClickInfo?URL=*"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Deals & Promotions Hub",
+        "typical_url_patterns": [
+          "/deals.html",
+          "/promotions.html",
+          "/shop/tools/deals",
+          "/tools/Acme+Tools/Rebates"
+        ]
+      },
+      {
+        "type_name": "Clearance / Sale Page",
+        "typical_url_patterns": [
+          "/shop/tools/clearance-tools",
+          "/shop/tools/hot-smokin-deals",
+          "/tools/Acme+Tools/Clearance"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Sale Page",
+        "typical_url_patterns": [
+          "/milwaukee-red-sale/",
+          "/dewalt-tough-deals/",
+          "/shop/tools/makita-tool-sale"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/all/?pmid=*",
+          "/search?pmid=*"
+        ]
+      },
+      {
+        "type_name": "Quote Request",
+        "typical_url_patterns": [
+          "/quote/",
+          "/shop/tools/quote",
+          "/webapp/wcs/stores/servlet/RequestQuoteView"
+        ]
+      },
+      {
+        "type_name": "Gift Card",
+        "typical_url_patterns": [
+          "/gift-cards/",
+          "/acme-tools-gift-card-email-delivery*/"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist/",
+          "/shop/WishListDisplayView*",
+          "/webapp/wcs/stores/servlet/NonAjaxAccountWishListDisplayView"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart/"
+        ]
+      },
+      {
+        "type_name": "Cart/Order AJAX Call",
+        "typical_url_patterns": [
+          "/shop/RESTOrderCalculate*",
+          "/webapp/wcs/stores/servlet/AjaxOrderItemDisplayView*"
+        ]
+      },
+      {
+        "type_name": "Login / Register",
+        "typical_url_patterns": [
+          "/login/",
+          "/shop/LogonForm*",
+          "/webapp/wcs/stores/servlet/LogonFormView"
+        ]
+      },
+      {
+        "type_name": "Shipping & Delivery Policy",
+        "typical_url_patterns": [
+          "/shipping-delivery.html",
+          "/shipping-policies.html",
+          "/shop/tools/delivery"
+        ]
+      },
+      {
+        "type_name": "Return Policy",
+        "typical_url_patterns": [
+          "/return-policy.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account/"
+        ]
+      },
+      {
+        "type_name": "Order Status / History",
+        "typical_url_patterns": [
+          "/my-orders/",
+          "/orders/",
+          "/track-your-order.html",
+          "/shop/OrderStatusLookupView*"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/customer-service-center.html",
+          "/customerservice.html",
+          "/shop/tools/customer-service"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contactus/",
+          "/shop/tools/contact-us",
+          "/webapp/wcs/stores/servlet/ContactUsView"
+        ]
+      },
+      {
+        "type_name": "FAQ",
+        "typical_url_patterns": [
+          "/frequently-asked-questions.html",
+          "/faqs.html",
+          "/shop/tools/faq"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy-policy.html",
+          "/shop/tools/privacy-policy",
+          "/webapp/wcs/stores/servlet/PrivacyPolicyView"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/terms.html",
+          "/shop/tools/terms-conditions",
+          "/webapp/wcs/stores/servlet/TermsAndConditionsView"
+        ]
+      },
+      {
+        "type_name": "Affiliates Program",
+        "typical_url_patterns": [
+          "/affiliates.html",
+          "/shop/tools/affiliates"
+        ]
+      },
+      {
+        "type_name": "Catalog Request",
+        "typical_url_patterns": [
+          "/catalog-request/",
+          "/catalogs.html",
+          "/shop/tools/catalog-request"
+        ]
+      },
+      {
+        "type_name": "Logout",
+        "typical_url_patterns": [
+          "/on/demandware.store/Sites-AcmeTools-Site/en_US/Login-Logout"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

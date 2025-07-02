@@ -1,0 +1,47 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "abercrombie.com",
+  "export_time": "2025-06-29 23:18:33",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-06-27 18:18:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 2,
+      "valid_content_urls_count": 2,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090106191028/http://abercrombie.com/",
+        "https://web.archive.org/web/20090106191028/http://abercrombie.com/anf/lifestyles/html/homepage.html"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 0,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090106191028/http://abercrombie.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106191028/http://abercrombie.com/anf/lifestyles/html/homepage.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Landing Page"
+        }
+      ]
+    }
+  }
+}

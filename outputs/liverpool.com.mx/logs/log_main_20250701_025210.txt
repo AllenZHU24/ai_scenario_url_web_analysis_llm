@@ -1,0 +1,129 @@
+2025-07-01 02:52:10,059 - INFO - 📋 日志系统已初始化: outputs/liverpool.com.mx/logs/log_main_20250701_025210.txt
+2025-07-01 02:52:10,059 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-01 02:52:10,059 - INFO - 📊 公司: liverpool.com.mx
+2025-07-01 02:52:10,069 - INFO - ✅ 成功读取 6 个历史URLs from ./inputs/liverpool.com.mx.txt
+2025-07-01 02:52:10,069 - INFO - 🌐 开始URL处理...
+2025-07-01 02:52:10,069 - INFO - 🌐 开始处理公司URLs: liverpool.com.mx
+2025-07-01 02:52:10,069 - INFO - 🔍 处理 2009 年的URLs...
+2025-07-01 02:52:10,069 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20090224101739/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:13,366 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:13,367 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:13,367 - INFO - ✅ 2009 年处理完成: 1 个有效链接
+2025-07-01 02:52:13,367 - INFO - 🔍 处理 2011 年的URLs...
+2025-07-01 02:52:13,367 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20111123232059/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:16,024 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:16,024 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:16,025 - INFO - ✅ 2011 年处理完成: 1 个有效链接
+2025-07-01 02:52:16,025 - INFO - 🔍 处理 2012 年的URLs...
+2025-07-01 02:52:16,025 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20120917181508/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:18,337 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:18,337 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:18,337 - INFO - ✅ 2012 年处理完成: 1 个有效链接
+2025-07-01 02:52:18,337 - INFO - 🔍 处理 2013 年的URLs...
+2025-07-01 02:52:18,337 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20130930061645/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:20,799 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:20,799 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:20,799 - INFO - ✅ 2013 年处理完成: 1 个有效链接
+2025-07-01 02:52:20,799 - INFO - 🔍 处理 2014 年的URLs...
+2025-07-01 02:52:20,799 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20141205051740/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:22,701 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:22,701 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:22,701 - INFO - ✅ 2014 年处理完成: 1 个有效链接
+2025-07-01 02:52:22,701 - INFO - 🔍 处理 2015 年的URLs...
+2025-07-01 02:52:22,701 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20150916064041/http://www.liverpool.com.mx:80/
+2025-07-01 02:52:25,100 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:52:25,100 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:52:25,100 - INFO - ✅ 2015 年处理完成: 1 个有效链接
+2025-07-01 02:52:25,101 - INFO - 💾 链接处理完成，共 6 个链接已保存到: outputs/liverpool.com.mx/liverpool.com.mx_filtered_links.json
+2025-07-01 02:52:25,101 - INFO - ✅ 成功加载 6 年的链接数据
+2025-07-01 02:52:25,101 - INFO - ✅ URL处理完成，共处理 6 年的数据
+2025-07-01 02:52:25,101 - INFO - 🧠 开始LLM规划...
+2025-07-01 02:52:25,360 - INFO - 🚀 LLM规划器已初始化
+2025-07-01 02:52:25,361 - INFO - 🧠 开始识别核心页面类型...
+2025-07-01 02:52:25,361 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-01 02:52:29,220 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:22,767 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-01 02:53:22,769 - INFO - ✅ 核心页面类型识别完成，共 47 个类型已保存到: outputs/liverpool.com.mx/liverpool.com.mx_core_page_types.json
+2025-07-01 02:53:22,769 - INFO - ✅ 核心页面类型已生成: outputs/liverpool.com.mx/liverpool.com.mx_core_page_types.json
+2025-07-01 02:53:22,769 - INFO - 🤖 开始生成LLM规划...
+2025-07-01 02:53:22,773 - INFO - 🔍 处理 2009 年的规划...
+2025-07-01 02:53:22,773 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:22,773 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:23,456 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:24,742 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:24,742 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:24,742 - INFO - ✅ 2009 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:24,742 - INFO - 🔍 处理 2011 年的规划...
+2025-07-01 02:53:24,743 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:24,743 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:25,324 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:26,389 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:26,389 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:26,389 - INFO - ✅ 2011 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:26,390 - INFO - 🔍 处理 2012 年的规划...
+2025-07-01 02:53:26,390 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:26,390 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:26,972 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:28,156 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:28,156 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:28,156 - INFO - ✅ 2012 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:28,157 - INFO - 🔍 处理 2013 年的规划...
+2025-07-01 02:53:28,157 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:28,157 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:28,759 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:29,737 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:29,738 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:29,738 - INFO - ✅ 2013 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:29,739 - INFO - 🔍 处理 2014 年的规划...
+2025-07-01 02:53:29,739 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:29,739 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:30,326 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:31,484 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:31,484 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:31,484 - INFO - ✅ 2014 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:31,485 - INFO - 🔍 处理 2015 年的规划...
+2025-07-01 02:53:31,485 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:53:31,485 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:53:32,244 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:53:33,250 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:53:33,250 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:53:33,250 - INFO - ✅ 2015 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:53:33,261 - INFO - 💾 LLM规划全部年份处理完成，共 6 个推荐URL已保存到: outputs/liverpool.com.mx/liverpool.com.mx_llm_planning.json
+2025-07-01 02:53:33,261 - INFO - ✅ 成功加载 6 年的规划数据
+2025-07-01 02:53:33,261 - INFO - ✅ LLM规划完成: outputs/liverpool.com.mx/liverpool.com.mx_llm_planning.json
+2025-07-01 02:53:33,261 - INFO - 🔍 开始场景分析...
+2025-07-01 02:53:33,262 - INFO - ✅ 成功加载 70 个微场景
+2025-07-01 02:53:33,262 - INFO - 🔍 场景分析器已初始化
+2025-07-01 02:53:33,262 - INFO - 🔍 开始分析场景: liverpool.com.mx
+2025-07-01 02:53:33,263 - INFO - 🔍 分析 2009 年的场景...
+2025-07-01 02:53:33,263 - INFO - 📄 [2009] 分析页面 1/1
+2025-07-01 02:53:35,478 - INFO - ✅ 2009 年场景分析完成: 0 个场景
+2025-07-01 02:53:35,488 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:35,488 - INFO - 🔍 分析 2011 年的场景...
+2025-07-01 02:53:35,488 - INFO - 📄 [2011] 分析页面 1/1
+2025-07-01 02:53:36,869 - INFO - ✅ 2011 年场景分析完成: 0 个场景
+2025-07-01 02:53:36,869 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:36,869 - INFO - 🔍 分析 2012 年的场景...
+2025-07-01 02:53:36,869 - INFO - 📄 [2012] 分析页面 1/1
+2025-07-01 02:53:38,248 - INFO - ✅ 2012 年场景分析完成: 0 个场景
+2025-07-01 02:53:38,249 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:38,249 - INFO - 🔍 分析 2013 年的场景...
+2025-07-01 02:53:38,249 - INFO - 📄 [2013] 分析页面 1/1
+2025-07-01 02:53:39,640 - INFO - ✅ 2013 年场景分析完成: 0 个场景
+2025-07-01 02:53:39,641 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:39,641 - INFO - 🔍 分析 2014 年的场景...
+2025-07-01 02:53:39,641 - INFO - 📄 [2014] 分析页面 1/1
+2025-07-01 02:53:41,026 - INFO - ✅ 2014 年场景分析完成: 0 个场景
+2025-07-01 02:53:41,035 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:41,035 - INFO - 🔍 分析 2015 年的场景...
+2025-07-01 02:53:41,036 - INFO - 📄 [2015] 分析页面 1/1
+2025-07-01 02:53:42,436 - INFO - ✅ 2015 年场景分析完成: 0 个场景
+2025-07-01 02:53:42,437 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:42,447 - INFO - ✅ 场景分析结果已导出到: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:42,447 - INFO - ✅ 场景分析完成: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json
+2025-07-01 02:53:42,447 - INFO - 🎉 分析流程完成!
+2025-07-01 02:53:42,447 - INFO - 📁 输出文件:
+2025-07-01 02:53:42,447 - INFO -    - 过滤链接: outputs/liverpool.com.mx/liverpool.com.mx_filtered_links.json
+2025-07-01 02:53:42,447 - INFO -    - 核心页面类型: outputs/liverpool.com.mx/liverpool.com.mx_core_page_types.json
+2025-07-01 02:53:42,447 - INFO -    - LLM规划: outputs/liverpool.com.mx/liverpool.com.mx_llm_planning.json
+2025-07-01 02:53:42,447 - INFO -    - 场景分析: outputs/liverpool.com.mx/liverpool.com.mx_scenarios.json

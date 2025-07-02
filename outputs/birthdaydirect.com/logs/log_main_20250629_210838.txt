@@ -1,0 +1,385 @@
+2025-06-29 21:08:38,385 - INFO - 📋 日志系统已初始化: outputs/birthdaydirect.com/logs/log_main_20250629_210838.txt
+2025-06-29 21:08:38,385 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-29 21:08:38,385 - INFO - 📊 公司: birthdaydirect.com
+2025-06-29 21:08:38,385 - INFO - ✅ 成功读取 17 个历史URLs from ./inputs/birthdaydirect.com.txt
+2025-06-29 21:08:38,385 - INFO - 🌐 开始URL处理...
+2025-06-29 21:08:38,386 - INFO - 🌐 开始处理公司URLs: birthdaydirect.com
+2025-06-29 21:08:38,386 - INFO - 🔄 发现已存在的链接文件: outputs/birthdaydirect.com/birthdaydirect.com_filtered_links.json，已加载 17 年的数据，将进行增量处理
+2025-06-29 21:08:38,386 - INFO - ⏭️ 跳过 2009 年，已有 46 个链接
+2025-06-29 21:08:38,386 - INFO - ⏭️ 跳过 2010 年，已有 50 个链接
+2025-06-29 21:08:38,386 - INFO - ⏭️ 跳过 2011 年，已有 51 个链接
+2025-06-29 21:08:38,386 - INFO - ⏭️ 跳过 2012 年，已有 45 个链接
+2025-06-29 21:08:38,386 - INFO - ⏭️ 跳过 2013 年，已有 47 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2014 年，已有 48 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2015 年，已有 50 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2016 年，已有 53 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2017 年，已有 58 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2018 年，已有 62 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2019 年，已有 67 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2020 年，已有 56 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2021 年，已有 54 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2022 年，已有 12 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2023 年，已有 12 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2024 年，已有 17 个链接
+2025-06-29 21:08:38,387 - INFO - ⏭️ 跳过 2025 年，已有 18 个链接
+2025-06-29 21:08:38,389 - INFO - 💾 链接处理完成，共 746 个链接已保存到: outputs/birthdaydirect.com/birthdaydirect.com_filtered_links.json
+2025-06-29 21:08:38,390 - INFO - ✅ 成功加载 17 年的链接数据
+2025-06-29 21:08:38,390 - INFO - ✅ URL处理完成，共处理 17 年的数据
+2025-06-29 21:08:38,390 - INFO - 🧠 开始LLM规划...
+2025-06-29 21:08:38,752 - INFO - 🚀 LLM规划器已初始化
+2025-06-29 21:08:38,752 - INFO - 🧠 开始识别核心页面类型...
+2025-06-29 21:08:38,753 - INFO - ✅ 发现已存在的核心页面类型文件: outputs/birthdaydirect.com/birthdaydirect.com_core_page_types.json
+2025-06-29 21:08:38,754 - INFO - ✅ 从文件加载核心页面类型: 43 个类型
+2025-06-29 21:08:38,755 - INFO - ✅ 核心页面类型已生成: outputs/birthdaydirect.com/birthdaydirect.com_core_page_types.json
+2025-06-29 21:08:38,755 - INFO - 🤖 开始生成LLM规划...
+2025-06-29 21:08:38,758 - INFO - ✅ 加载已存在的规划结果: 17 年
+2025-06-29 21:08:38,765 - INFO - ⏩ 2009 年规划已存在，跳过
+2025-06-29 21:08:38,765 - INFO - ⏩ 2010 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2011 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2012 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2013 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2014 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2015 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2016 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2017 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2018 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2019 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2020 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2021 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2022 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2023 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2024 年规划已存在，跳过
+2025-06-29 21:08:38,766 - INFO - ⏩ 2025 年规划已存在，跳过
+2025-06-29 21:08:38,776 - INFO - 💾 LLM规划全部年份处理完成，共 241 个推荐URL已保存到: outputs/birthdaydirect.com/birthdaydirect.com_llm_planning.json
+2025-06-29 21:08:38,779 - INFO - ✅ 成功加载 17 年的规划数据
+2025-06-29 21:08:38,779 - INFO - ✅ LLM规划完成: outputs/birthdaydirect.com/birthdaydirect.com_llm_planning.json
+2025-06-29 21:08:38,779 - INFO - 🔍 开始场景分析...
+2025-06-29 21:08:38,780 - INFO - ✅ 成功加载 70 个微场景
+2025-06-29 21:08:38,780 - INFO - 🔍 场景分析器已初始化
+2025-06-29 21:08:38,780 - INFO - 🔍 开始分析场景: birthdaydirect.com
+2025-06-29 21:08:38,780 - INFO - ✅ 加载已存在的场景结果: 7 年
+2025-06-29 21:08:38,780 - INFO - ⏩ 2009 年场景已存在，跳过
+2025-06-29 21:08:38,780 - INFO - ⏩ 2010 年场景已存在，跳过
+2025-06-29 21:08:38,780 - INFO - ⏩ 2011 年场景已存在，跳过
+2025-06-29 21:08:38,780 - INFO - ⏩ 2012 年场景已存在，跳过
+2025-06-29 21:08:38,780 - INFO - ⏩ 2013 年场景已存在，跳过
+2025-06-29 21:08:38,780 - INFO - ⏩ 2014 年场景已存在，跳过
+2025-06-29 21:08:38,781 - INFO - ⏩ 2015 年场景已存在，跳过
+2025-06-29 21:08:38,781 - INFO - 🔍 分析 2016 年的场景...
+2025-06-29 21:08:38,781 - INFO - 📄 [2016] 分析页面 1/15
+2025-06-29 21:08:40,961 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2016_20250629_210840.txt
+2025-06-29 21:08:41,962 - INFO - 📄 [2016] 分析页面 2/15
+2025-06-29 21:08:42,861 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/about-birthday-direct-pm-615.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/about-birthday-direct-pm-615.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:43,862 - INFO - 📄 [2016] 分析页面 3/15
+2025-06-29 21:08:44,991 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/adult-birthday-party-supplies-c-37.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/adult-birthday-party-supplies-c-37.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:45,992 - INFO - 📄 [2016] 分析页面 4/15
+2025-06-29 21:08:46,981 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/kids-birthday-party-supplies-c-1076.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/kids-birthday-party-supplies-c-1076.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:47,982 - INFO - 📄 [2016] 分析页面 5/15
+2025-06-29 21:08:48,941 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/holiday-party-supplies-c-3399.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/holiday-party-supplies-c-3399.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:49,942 - INFO - 📄 [2016] 分析页面 6/15
+2025-06-29 21:08:53,777 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/party-balloons-c-252.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/party-balloons-c-252.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:54,778 - INFO - 📄 [2016] 分析页面 7/15
+2025-06-29 21:08:56,053 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/contact_us.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/contact_us.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:08:57,054 - INFO - 📄 [2016] 分析页面 8/15
+2025-06-29 21:09:07,776 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/customer-service-pm-617.html: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161117093745/http://www.birthdaydirect.com/customer-service-help-center-pm-617.html?cartSID=cueu9kth486cdp4dkno8fkju82
+2025-06-29 21:09:08,777 - INFO - 📄 [2016] 分析页面 9/15
+2025-06-29 21:09:23,793 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/coupon-codes-pm-614.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 21:09:24,794 - INFO - 📄 [2016] 分析页面 10/15
+2025-06-29 21:09:27,374 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/shopping_cart.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/shopping_cart.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:09:28,375 - INFO - 📄 [2016] 分析页面 11/15
+2025-06-29 21:09:29,861 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/https://www.birthdaydirect.com/checkout_shipping.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/https://www.birthdaydirect.com/checkout_shipping.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:09:30,862 - INFO - 📄 [2016] 分析页面 12/15
+2025-06-29 21:09:32,183 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/order-questions-pm-619.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/order-questions-pm-619.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:09:33,183 - INFO - 📄 [2016] 分析页面 13/15
+2025-06-29 21:09:34,308 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/shipping-information-pm-616.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/shipping-information-pm-616.html?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:09:35,309 - INFO - 📄 [2016] 分析页面 14/15
+2025-06-29 21:09:44,205 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2016_20250629_210944.txt
+2025-06-29 21:09:45,207 - INFO - 📄 [2016] 分析页面 15/15
+2025-06-29 21:09:47,130 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/login.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161202215340/http://www.birthdaydirect.com/login.php?cartSID=cokc0bgvatj2h1f3go5t6s4cc1
+2025-06-29 21:09:48,130 - INFO - ✅ 2016 年场景分析完成: 3 个场景
+2025-06-29 21:09:48,131 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:09:48,131 - INFO - 🔍 分析 2017 年的场景...
+2025-06-29 21:09:48,132 - INFO - 📄 [2017] 分析页面 1/14
+2025-06-29 21:09:49,245 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_210949.txt
+2025-06-29 21:09:50,255 - INFO - 📄 [2017] 分析页面 2/14
+2025-06-29 21:09:53,473 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_210953.txt
+2025-06-29 21:09:54,474 - INFO - 📄 [2017] 分析页面 3/14
+2025-06-29 21:09:57,825 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_210957.txt
+2025-06-29 21:09:58,826 - INFO - 📄 [2017] 分析页面 4/14
+2025-06-29 21:10:02,930 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211002.txt
+2025-06-29 21:10:03,933 - INFO - 📄 [2017] 分析页面 5/14
+2025-06-29 21:10:06,865 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211006.txt
+2025-06-29 21:10:07,868 - INFO - 📄 [2017] 分析页面 6/14
+2025-06-29 21:10:10,993 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211010.txt
+2025-06-29 21:10:11,994 - INFO - 📄 [2017] 分析页面 7/14
+2025-06-29 21:10:17,197 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211017.txt
+2025-06-29 21:10:18,198 - INFO - 📄 [2017] 分析页面 8/14
+2025-06-29 21:10:20,636 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211020.txt
+2025-06-29 21:10:21,639 - INFO - 📄 [2017] 分析页面 9/14
+2025-06-29 21:10:27,267 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211027.txt
+2025-06-29 21:10:28,268 - INFO - 📄 [2017] 分析页面 10/14
+2025-06-29 21:10:30,318 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211030.txt
+2025-06-29 21:10:31,319 - INFO - 📄 [2017] 分析页面 11/14
+2025-06-29 21:10:32,956 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211032.txt
+2025-06-29 21:10:33,957 - INFO - 📄 [2017] 分析页面 12/14
+2025-06-29 21:10:35,350 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211035.txt
+2025-06-29 21:10:36,350 - INFO - 📄 [2017] 分析页面 13/14
+2025-06-29 21:10:41,204 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211041.txt
+2025-06-29 21:10:42,206 - INFO - 📄 [2017] 分析页面 14/14
+2025-06-29 21:10:45,797 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2017_20250629_211045.txt
+2025-06-29 21:10:46,800 - INFO - ✅ 2017 年场景分析完成: 5 个场景
+2025-06-29 21:10:46,801 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:10:46,802 - INFO - 🔍 分析 2018 年的场景...
+2025-06-29 21:10:46,802 - INFO - 📄 [2018] 分析页面 1/14
+2025-06-29 21:10:48,574 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211048.txt
+2025-06-29 21:10:49,576 - INFO - 📄 [2018] 分析页面 2/14
+2025-06-29 21:11:01,141 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211101.txt
+2025-06-29 21:11:02,142 - INFO - 📄 [2018] 分析页面 3/14
+2025-06-29 21:11:05,404 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20181209113033/https://www.birthdaydirect.com/party-planning-tips-and-ideas/: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181209113033/https://www.birthdaydirect.com/party-planning-tips-and-ideas/
+2025-06-29 21:11:06,405 - INFO - 📄 [2018] 分析页面 4/14
+2025-06-29 21:11:08,071 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211108.txt
+2025-06-29 21:11:09,072 - INFO - 📄 [2018] 分析页面 5/14
+2025-06-29 21:11:11,787 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211111.txt
+2025-06-29 21:11:12,788 - INFO - 📄 [2018] 分析页面 6/14
+2025-06-29 21:11:28,433 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20181209113033/https://www.birthdaydirect.com/shipping/: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 21:11:29,436 - INFO - 📄 [2018] 分析页面 7/14
+2025-06-29 21:11:32,452 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211132.txt
+2025-06-29 21:11:33,455 - INFO - 📄 [2018] 分析页面 8/14
+2025-06-29 21:11:36,143 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211136.txt
+2025-06-29 21:11:37,144 - INFO - 📄 [2018] 分析页面 9/14
+2025-06-29 21:11:43,902 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211143.txt
+2025-06-29 21:11:44,904 - INFO - 📄 [2018] 分析页面 10/14
+2025-06-29 21:11:47,118 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211147.txt
+2025-06-29 21:11:48,119 - INFO - 📄 [2018] 分析页面 11/14
+2025-06-29 21:11:49,618 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211149.txt
+2025-06-29 21:11:50,620 - INFO - 📄 [2018] 分析页面 12/14
+2025-06-29 21:12:03,095 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211203.txt
+2025-06-29 21:12:04,096 - INFO - 📄 [2018] 分析页面 13/14
+2025-06-29 21:12:14,266 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211214.txt
+2025-06-29 21:12:15,268 - INFO - 📄 [2018] 分析页面 14/14
+2025-06-29 21:12:20,235 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2018_20250629_211220.txt
+2025-06-29 21:12:21,236 - INFO - ✅ 2018 年场景分析完成: 5 个场景
+2025-06-29 21:12:21,237 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:12:21,237 - INFO - 🔍 分析 2019 年的场景...
+2025-06-29 21:12:21,237 - INFO - 📄 [2019] 分析页面 1/15
+2025-06-29 21:12:22,379 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211222.txt
+2025-06-29 21:12:23,381 - INFO - 📄 [2019] 分析页面 2/15
+2025-06-29 21:12:24,658 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211224.txt
+2025-06-29 21:12:25,659 - INFO - 📄 [2019] 分析页面 3/15
+2025-06-29 21:12:31,371 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211231.txt
+2025-06-29 21:12:32,372 - INFO - 📄 [2019] 分析页面 4/15
+2025-06-29 21:12:34,291 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211234.txt
+2025-06-29 21:12:35,293 - INFO - 📄 [2019] 分析页面 5/15
+2025-06-29 21:12:51,133 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20191214183727/https://www.birthdaydirect.com/shipping/: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 21:12:52,134 - INFO - 📄 [2019] 分析页面 6/15
+2025-06-29 21:12:55,740 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211255.txt
+2025-06-29 21:12:56,741 - INFO - 📄 [2019] 分析页面 7/15
+2025-06-29 21:12:58,570 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211258.txt
+2025-06-29 21:12:59,572 - INFO - 📄 [2019] 分析页面 8/15
+2025-06-29 21:13:01,655 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211301.txt
+2025-06-29 21:13:02,657 - INFO - 📄 [2019] 分析页面 9/15
+2025-06-29 21:13:04,500 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211304.txt
+2025-06-29 21:13:05,501 - INFO - 📄 [2019] 分析页面 10/15
+2025-06-29 21:13:07,119 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211307.txt
+2025-06-29 21:13:08,120 - INFO - 📄 [2019] 分析页面 11/15
+2025-06-29 21:13:10,155 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211310.txt
+2025-06-29 21:13:11,157 - INFO - 📄 [2019] 分析页面 12/15
+2025-06-29 21:13:17,007 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211317.txt
+2025-06-29 21:13:18,008 - INFO - 📄 [2019] 分析页面 13/15
+2025-06-29 21:13:22,157 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211322.txt
+2025-06-29 21:13:23,158 - INFO - 📄 [2019] 分析页面 14/15
+2025-06-29 21:13:27,294 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211327.txt
+2025-06-29 21:13:28,296 - INFO - 📄 [2019] 分析页面 15/15
+2025-06-29 21:13:33,305 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2019_20250629_211333.txt
+2025-06-29 21:13:34,306 - INFO - ✅ 2019 年场景分析完成: 7 个场景
+2025-06-29 21:13:34,307 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:13:34,307 - INFO - 🔍 分析 2020 年的场景...
+2025-06-29 21:13:34,307 - INFO - 📄 [2020] 分析页面 1/15
+2025-06-29 21:13:35,446 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211335.txt
+2025-06-29 21:13:36,446 - INFO - 📄 [2020] 分析页面 2/15
+2025-06-29 21:13:38,151 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211338.txt
+2025-06-29 21:13:39,153 - INFO - 📄 [2020] 分析页面 3/15
+2025-06-29 21:13:40,705 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211340.txt
+2025-06-29 21:13:41,706 - INFO - 📄 [2020] 分析页面 4/15
+2025-06-29 21:13:43,840 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211343.txt
+2025-06-29 21:13:44,841 - INFO - 📄 [2020] 分析页面 5/15
+2025-06-29 21:13:47,194 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20201206144812/https://www.birthdaydirect.com/theme-party-supplies/: 404 Client Error: Not Found for url: https://web.archive.org/web/20210823061250/https://www.birthdaydirect.com/theme-party-supplies/
+2025-06-29 21:13:48,204 - INFO - 📄 [2020] 分析页面 6/15
+2025-06-29 21:13:50,359 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211350.txt
+2025-06-29 21:13:51,359 - INFO - 📄 [2020] 分析页面 7/15
+2025-06-29 21:13:53,102 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211353.txt
+2025-06-29 21:13:54,103 - INFO - 📄 [2020] 分析页面 8/15
+2025-06-29 21:13:55,957 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211355.txt
+2025-06-29 21:13:56,959 - INFO - 📄 [2020] 分析页面 9/15
+2025-06-29 21:13:59,000 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211358.txt
+2025-06-29 21:14:00,001 - INFO - 📄 [2020] 分析页面 10/15
+2025-06-29 21:14:03,196 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211403.txt
+2025-06-29 21:14:04,197 - INFO - 📄 [2020] 分析页面 11/15
+2025-06-29 21:14:05,742 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211405.txt
+2025-06-29 21:14:06,744 - INFO - 📄 [2020] 分析页面 12/15
+2025-06-29 21:14:10,400 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211410.txt
+2025-06-29 21:14:11,402 - INFO - 📄 [2020] 分析页面 13/15
+2025-06-29 21:14:13,825 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211413.txt
+2025-06-29 21:14:14,826 - INFO - 📄 [2020] 分析页面 14/15
+2025-06-29 21:14:16,572 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211416.txt
+2025-06-29 21:14:17,576 - INFO - 📄 [2020] 分析页面 15/15
+2025-06-29 21:14:19,611 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2020_20250629_211419.txt
+2025-06-29 21:14:20,611 - INFO - ✅ 2020 年场景分析完成: 5 个场景
+2025-06-29 21:14:20,613 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:14:20,613 - INFO - 🔍 分析 2021 年的场景...
+2025-06-29 21:14:20,613 - INFO - 📄 [2021] 分析页面 1/14
+2025-06-29 21:14:21,707 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211421.txt
+2025-06-29 21:14:22,708 - INFO - 📄 [2021] 分析页面 2/14
+2025-06-29 21:14:24,668 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211424.txt
+2025-06-29 21:14:25,670 - INFO - 📄 [2021] 分析页面 3/14
+2025-06-29 21:14:27,469 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211427.txt
+2025-06-29 21:14:28,471 - INFO - 📄 [2021] 分析页面 4/14
+2025-06-29 21:14:30,069 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211430.txt
+2025-06-29 21:14:31,070 - INFO - 📄 [2021] 分析页面 5/14
+2025-06-29 21:14:32,958 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211432.txt
+2025-06-29 21:14:33,959 - INFO - 📄 [2021] 分析页面 6/14
+2025-06-29 21:14:35,512 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211435.txt
+2025-06-29 21:14:36,513 - INFO - 📄 [2021] 分析页面 7/14
+2025-06-29 21:14:38,501 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211438.txt
+2025-06-29 21:14:39,502 - INFO - 📄 [2021] 分析页面 8/14
+2025-06-29 21:14:43,134 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211443.txt
+2025-06-29 21:14:44,135 - INFO - 📄 [2021] 分析页面 9/14
+2025-06-29 21:14:45,725 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211445.txt
+2025-06-29 21:14:46,727 - INFO - 📄 [2021] 分析页面 10/14
+2025-06-29 21:14:48,575 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211448.txt
+2025-06-29 21:14:49,576 - INFO - 📄 [2021] 分析页面 11/14
+2025-06-29 21:14:50,887 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211450.txt
+2025-06-29 21:14:51,888 - INFO - 📄 [2021] 分析页面 12/14
+2025-06-29 21:14:53,951 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211453.txt
+2025-06-29 21:14:54,952 - INFO - 📄 [2021] 分析页面 13/14
+2025-06-29 21:14:56,999 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211456.txt
+2025-06-29 21:14:58,010 - INFO - 📄 [2021] 分析页面 14/14
+2025-06-29 21:14:59,470 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2021_20250629_211459.txt
+2025-06-29 21:15:00,472 - INFO - ✅ 2021 年场景分析完成: 6 个场景
+2025-06-29 21:15:00,473 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:15:00,473 - INFO - 🔍 分析 2022 年的场景...
+2025-06-29 21:15:00,473 - INFO - 📄 [2022] 分析页面 1/12
+2025-06-29 21:15:01,772 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211501.txt
+2025-06-29 21:15:02,773 - INFO - 📄 [2022] 分析页面 2/12
+2025-06-29 21:15:05,056 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211505.txt
+2025-06-29 21:15:06,057 - INFO - 📄 [2022] 分析页面 3/12
+2025-06-29 21:15:08,057 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211508.txt
+2025-06-29 21:15:09,058 - INFO - 📄 [2022] 分析页面 4/12
+2025-06-29 21:15:11,164 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211511.txt
+2025-06-29 21:15:12,167 - INFO - 📄 [2022] 分析页面 5/12
+2025-06-29 21:15:14,838 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211514.txt
+2025-06-29 21:15:15,839 - INFO - 📄 [2022] 分析页面 6/12
+2025-06-29 21:15:18,415 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211518.txt
+2025-06-29 21:15:19,417 - INFO - 📄 [2022] 分析页面 7/12
+2025-06-29 21:15:21,111 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211521.txt
+2025-06-29 21:15:22,112 - INFO - 📄 [2022] 分析页面 8/12
+2025-06-29 21:15:24,157 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211524.txt
+2025-06-29 21:15:25,160 - INFO - 📄 [2022] 分析页面 9/12
+2025-06-29 21:15:27,036 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211527.txt
+2025-06-29 21:15:28,038 - INFO - 📄 [2022] 分析页面 10/12
+2025-06-29 21:15:30,157 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211530.txt
+2025-06-29 21:15:31,158 - INFO - 📄 [2022] 分析页面 11/12
+2025-06-29 21:15:32,921 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211532.txt
+2025-06-29 21:15:33,921 - INFO - 📄 [2022] 分析页面 12/12
+2025-06-29 21:15:35,713 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2022_20250629_211535.txt
+2025-06-29 21:15:36,719 - INFO - ✅ 2022 年场景分析完成: 3 个场景
+2025-06-29 21:15:36,721 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:15:36,721 - INFO - 🔍 分析 2023 年的场景...
+2025-06-29 21:15:36,721 - INFO - 📄 [2023] 分析页面 1/12
+2025-06-29 21:15:38,001 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211538.txt
+2025-06-29 21:15:39,003 - INFO - 📄 [2023] 分析页面 2/12
+2025-06-29 21:15:41,072 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211541.txt
+2025-06-29 21:15:42,073 - INFO - 📄 [2023] 分析页面 3/12
+2025-06-29 21:15:43,943 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211543.txt
+2025-06-29 21:15:44,946 - INFO - 📄 [2023] 分析页面 4/12
+2025-06-29 21:15:46,237 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211546.txt
+2025-06-29 21:15:47,238 - INFO - 📄 [2023] 分析页面 5/12
+2025-06-29 21:15:49,029 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211549.txt
+2025-06-29 21:15:50,030 - INFO - 📄 [2023] 分析页面 6/12
+2025-06-29 21:15:51,650 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211551.txt
+2025-06-29 21:15:52,652 - INFO - 📄 [2023] 分析页面 7/12
+2025-06-29 21:15:54,681 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211554.txt
+2025-06-29 21:15:55,685 - INFO - 📄 [2023] 分析页面 8/12
+2025-06-29 21:15:58,983 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211558.txt
+2025-06-29 21:15:59,985 - INFO - 📄 [2023] 分析页面 9/12
+2025-06-29 21:16:02,581 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211602.txt
+2025-06-29 21:16:03,584 - INFO - 📄 [2023] 分析页面 10/12
+2025-06-29 21:16:04,800 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211604.txt
+2025-06-29 21:16:05,801 - INFO - 📄 [2023] 分析页面 11/12
+2025-06-29 21:16:06,957 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211606.txt
+2025-06-29 21:16:07,958 - INFO - 📄 [2023] 分析页面 12/12
+2025-06-29 21:16:09,437 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2023_20250629_211609.txt
+2025-06-29 21:16:10,438 - INFO - ✅ 2023 年场景分析完成: 3 个场景
+2025-06-29 21:16:10,439 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:16:10,440 - INFO - 🔍 分析 2024 年的场景...
+2025-06-29 21:16:10,440 - INFO - 📄 [2024] 分析页面 1/14
+2025-06-29 21:16:12,288 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211612.txt
+2025-06-29 21:16:13,289 - INFO - 📄 [2024] 分析页面 2/14
+2025-06-29 21:16:15,071 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211615.txt
+2025-06-29 21:16:16,072 - INFO - 📄 [2024] 分析页面 3/14
+2025-06-29 21:16:21,522 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211621.txt
+2025-06-29 21:16:22,524 - INFO - 📄 [2024] 分析页面 4/14
+2025-06-29 21:16:24,639 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211624.txt
+2025-06-29 21:16:25,641 - INFO - 📄 [2024] 分析页面 5/14
+2025-06-29 21:16:28,035 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211628.txt
+2025-06-29 21:16:29,041 - INFO - 📄 [2024] 分析页面 6/14
+2025-06-29 21:16:31,050 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211631.txt
+2025-06-29 21:16:32,052 - INFO - 📄 [2024] 分析页面 7/14
+2025-06-29 21:16:33,923 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211633.txt
+2025-06-29 21:16:34,926 - INFO - 📄 [2024] 分析页面 8/14
+2025-06-29 21:16:36,159 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211636.txt
+2025-06-29 21:16:37,160 - INFO - 📄 [2024] 分析页面 9/14
+2025-06-29 21:16:39,149 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211639.txt
+2025-06-29 21:16:40,150 - INFO - 📄 [2024] 分析页面 10/14
+2025-06-29 21:16:41,803 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211641.txt
+2025-06-29 21:16:42,805 - INFO - 📄 [2024] 分析页面 11/14
+2025-06-29 21:16:44,529 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211644.txt
+2025-06-29 21:16:45,530 - INFO - 📄 [2024] 分析页面 12/14
+2025-06-29 21:16:47,258 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211647.txt
+2025-06-29 21:16:48,259 - INFO - 📄 [2024] 分析页面 13/14
+2025-06-29 21:16:49,413 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211649.txt
+2025-06-29 21:16:50,417 - INFO - 📄 [2024] 分析页面 14/14
+2025-06-29 21:16:52,231 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2024_20250629_211652.txt
+2025-06-29 21:16:53,233 - INFO - ✅ 2024 年场景分析完成: 4 个场景
+2025-06-29 21:16:53,234 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:16:53,235 - INFO - 🔍 分析 2025 年的场景...
+2025-06-29 21:16:53,235 - INFO - 📄 [2025] 分析页面 1/15
+2025-06-29 21:16:54,418 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211654.txt
+2025-06-29 21:16:55,419 - INFO - 📄 [2025] 分析页面 2/15
+2025-06-29 21:16:58,292 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211658.txt
+2025-06-29 21:16:59,294 - INFO - 📄 [2025] 分析页面 3/15
+2025-06-29 21:17:01,679 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211701.txt
+2025-06-29 21:17:02,683 - INFO - 📄 [2025] 分析页面 4/15
+2025-06-29 21:17:04,433 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211704.txt
+2025-06-29 21:17:05,444 - INFO - 📄 [2025] 分析页面 5/15
+2025-06-29 21:17:07,584 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211707.txt
+2025-06-29 21:17:08,586 - INFO - 📄 [2025] 分析页面 6/15
+2025-06-29 21:17:10,310 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211710.txt
+2025-06-29 21:17:11,311 - INFO - 📄 [2025] 分析页面 7/15
+2025-06-29 21:17:25,896 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250317014627/https://www.birthdaydirect.com/collections/3rd-birthday: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 21:17:26,897 - INFO - 📄 [2025] 分析页面 8/15
+2025-06-29 21:17:29,177 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211729.txt
+2025-06-29 21:17:30,179 - INFO - 📄 [2025] 分析页面 9/15
+2025-06-29 21:17:34,297 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211734.txt
+2025-06-29 21:17:35,298 - INFO - 📄 [2025] 分析页面 10/15
+2025-06-29 21:17:37,886 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211737.txt
+2025-06-29 21:17:38,887 - INFO - 📄 [2025] 分析页面 11/15
+2025-06-29 21:17:40,535 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211740.txt
+2025-06-29 21:17:41,537 - INFO - 📄 [2025] 分析页面 12/15
+2025-06-29 21:17:43,225 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211743.txt
+2025-06-29 21:17:44,228 - INFO - 📄 [2025] 分析页面 13/15
+2025-06-29 21:17:45,462 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211745.txt
+2025-06-29 21:17:46,014 - INFO - 📄 [2025] 分析页面 14/15
+2025-06-29 21:17:47,892 - INFO - 💾 内容已保存到: outputs/birthdaydirect.com/websites/2025_20250629_211747.txt
+2025-06-29 21:17:48,893 - INFO - 📄 [2025] 分析页面 15/15
+2025-06-29 21:18:04,496 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20250317014627/https://www.birthdaydirect.com/pages/sustainability: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-29 21:18:05,497 - INFO - ✅ 2025 年场景分析完成: 4 个场景
+2025-06-29 21:18:05,498 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:18:05,500 - INFO - ✅ 场景分析结果已导出到: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:18:05,500 - INFO - ✅ 场景分析完成: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json
+2025-06-29 21:18:05,500 - INFO - 🎉 分析流程完成!
+2025-06-29 21:18:05,500 - INFO - 📁 输出文件:
+2025-06-29 21:18:05,501 - INFO -    - 过滤链接: outputs/birthdaydirect.com/birthdaydirect.com_filtered_links.json
+2025-06-29 21:18:05,501 - INFO -    - 核心页面类型: outputs/birthdaydirect.com/birthdaydirect.com_core_page_types.json
+2025-06-29 21:18:05,501 - INFO -    - LLM规划: outputs/birthdaydirect.com/birthdaydirect.com_llm_planning.json
+2025-06-29 21:18:05,501 - INFO -    - 场景分析: outputs/birthdaydirect.com/birthdaydirect.com_scenarios.json

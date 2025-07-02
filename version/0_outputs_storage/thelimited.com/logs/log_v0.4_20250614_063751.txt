@@ -1,0 +1,521 @@
+2025-06-14 06:37:52,147 - INFO - 🚀 LLM Planning Agent v0.4 (English) initialized
+2025-06-14 06:37:52,148 - INFO - ⚙️ Model configuration: openai/gpt-4o-mini
+2025-06-14 06:37:52,148 - INFO - ✅ Successfully loaded scenario reference with 56 scenarios
+2025-06-14 06:37:52,148 - INFO - 📝 Scenario reference: E-commerce User Journey Micro-Scenario Categories (56 scenarios total):
+Browse Stage (1.1-1.13): Recommended Products Browse, Trending Hot Products Browse, Category Recommendation Browse, New Arrivals Recommendation Browse, Recently Viewed Products Continuation, Main Category Navigation Browse, Subcategory Filtering Browse, Filter Adjustment Browse, Brand Aggregation Page Browse, Holiday Promotion Page Browse, Platform Theme Activity Page Browse, Category Theme Activity Page Browse, History-Driven Recommendation Browse
+Search Stage (2.1-2.7): Direct Keyword Search, Fuzzy Category Keyword Search, Autocomplete Options Browse, Hot Search Keyword Clicking, Post-Search Intent Category Entry, Image Search Entry Usage, Voice Search Entry Usage
+Decision-Making Stage (3.1-3.11): Image and Text Details Browse, Product Parameters Viewing, SKU/Color Switching Viewing, Positive/Negative Review Filtering, Q&A Section Browse, Adding Products for Horizontal Comparison, Viewing Price Trend Chart, Viewing Return Policy, Frequently Bought Together Products Browse, Cross-Category Matching Recommendations Browse, Discount Package Combination Browse
+Purchase Stage (4.1-4.5): Adding Product to Cart, Buy Now Usage, Package Deal Ordering, Subscription Setting, Digital Product Purchase
+After-Sales Stage (5.1-5.8): Order Page Viewing, Return Application Process, Online Bot Interaction, Prime Exclusive Page Browse, Prime Benefits Explanation Page Browse, Prime Trial Entry Access, Prime Renewal Management, Transaction Complaint Submission
+Customer Retention Stage (6.1-6.12): Continue Browse Recommendation Module, Repurchase Recommendation Module, Brand Homepage Entry Access, Platform Message Center Browse, Membership Level Display, Points Display Section, Loyalty Program Engagement, Referral Program Usage, Product Review Submission, Wishlist/Saved for Later Price Alert, Exclusive Offer for Repeat Customers, Community Forum/Discussion Participation
+
+2025-06-14 06:37:52,149 - INFO - ✅ Successfully loaded 56 micro-scenarios from /home/allen1997/agent_wayback_machine/inputs/micro_scenarios_definitions.json
+2025-06-14 06:37:52,149 - INFO - 🚀 Starting complete analysis workflow...
+2025-06-14 06:37:52,149 - INFO - 🚀 Starting incremental LLM scenario analysis workflow... Output dir: outputs/thelimited.com
+2025-06-14 06:37:52,149 - INFO - 🔍 No existing planning file found at outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json, starting fresh
+2025-06-14 06:37:52,149 - INFO - 🔄 Starting new unified planning workflow (v0.4.1)...
+2025-06-14 06:37:52,149 - INFO - 🌐 [Links] Discovering internal links for 2011
+2025-06-14 06:37:52,149 - INFO - 开始发现URL: https://web.archive.org/web/20111231050358/http://www.thelimited.com:80/
+2025-06-14 06:37:54,863 - INFO - 发现 32 个内部链接
+2025-06-14 06:39:08,517 - INFO - URL filtering completed: 31/32 links passed (structure + reachability)
+2025-06-14 06:39:08,517 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:39:08,517 - INFO - 🌐 [Links] Discovering internal links for 2010
+2025-06-14 06:39:08,517 - INFO - 开始发现URL: https://web.archive.org/web/20101231045924/http://www.thelimited.com:80/
+2025-06-14 06:39:10,098 - INFO - 发现 25 个内部链接
+2025-06-14 06:40:11,766 - INFO - URL filtering completed: 23/25 links passed (structure + reachability)
+2025-06-14 06:40:11,767 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:40:11,767 - INFO - 🌐 [Links] Discovering internal links for 2014
+2025-06-14 06:40:11,767 - INFO - 开始发现URL: https://web.archive.org/web/20141231164431/http://www.thelimited.com:80/
+2025-06-14 06:40:15,504 - INFO - 发现 162 个内部链接
+2025-06-14 06:44:48,914 - INFO - URL filtering completed: 162/162 links passed (structure + reachability)
+2025-06-14 06:44:48,915 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:44:48,915 - INFO - 🌐 [Links] Discovering internal links for 2012
+2025-06-14 06:44:48,915 - INFO - 开始发现URL: https://web.archive.org/web/20121226183227/http://www.thelimited.com/
+2025-06-14 06:44:51,038 - INFO - 发现 101 个内部链接
+2025-06-14 06:47:25,344 - INFO - URL filtering completed: 97/101 links passed (structure + reachability)
+2025-06-14 06:47:25,345 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:47:25,345 - INFO - 🌐 [Links] Discovering internal links for 2015
+2025-06-14 06:47:25,345 - INFO - 开始发现URL: https://web.archive.org/web/20151231003112/http://www.thelimited.com:80/
+2025-06-14 06:47:27,590 - INFO - 发现 180 个内部链接
+2025-06-14 06:52:02,645 - INFO - URL filtering completed: 180/180 links passed (structure + reachability)
+2025-06-14 06:52:02,647 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:52:02,647 - INFO - 🌐 [Links] Discovering internal links for 2016
+2025-06-14 06:52:02,647 - INFO - 开始发现URL: https://web.archive.org/web/20161227152618/http://www.thelimited.com/
+2025-06-14 06:52:04,635 - INFO - 发现 90 个内部链接
+2025-06-14 06:54:32,399 - INFO - URL filtering completed: 87/90 links passed (structure + reachability)
+2025-06-14 06:54:32,400 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:54:32,400 - INFO - 🌐 [Links] Discovering internal links for 2017
+2025-06-14 06:54:32,400 - INFO - 开始发现URL: https://web.archive.org/web/20171227085212/https://www.thelimited.com/
+2025-06-14 06:54:34,555 - INFO - 发现 30 个内部链接
+2025-06-14 06:55:30,366 - INFO - URL filtering completed: 21/30 links passed (structure + reachability)
+2025-06-14 06:55:30,367 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:55:30,368 - INFO - 🌐 [Links] Discovering internal links for 2009
+2025-06-14 06:55:30,368 - INFO - 开始发现URL: https://web.archive.org/web/20091219055121/http://www.thelimited.com:80/
+2025-06-14 06:55:32,813 - INFO - 发现 34 个内部链接
+2025-06-14 06:56:27,802 - INFO - URL filtering completed: 34/34 links passed (structure + reachability)
+2025-06-14 06:56:27,803 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:56:27,804 - INFO - 🌐 [Links] Discovering internal links for 2019
+2025-06-14 06:56:27,804 - INFO - 开始发现URL: https://web.archive.org/web/20190710205128/https://www.thelimited.com/
+2025-06-14 06:56:30,123 - INFO - 发现 85 个内部链接
+2025-06-14 06:58:34,704 - INFO - URL filtering completed: 85/85 links passed (structure + reachability)
+2025-06-14 06:58:34,706 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 06:58:34,706 - INFO - 🌐 [Links] Discovering internal links for 2013
+2025-06-14 06:58:34,706 - INFO - 开始发现URL: https://web.archive.org/web/20131231220523/http://www.thelimited.com/
+2025-06-14 06:58:38,364 - INFO - 发现 115 个内部链接
+2025-06-14 07:01:29,846 - INFO - URL filtering completed: 107/115 links passed (structure + reachability)
+2025-06-14 07:01:29,848 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 07:01:29,848 - INFO - 🌐 [Links] Discovering internal links for 2018
+2025-06-14 07:01:29,848 - INFO - 开始发现URL: https://web.archive.org/web/20181230112225/https://www.thelimited.com/
+2025-06-14 07:01:31,406 - INFO - 发现 83 个内部链接
+2025-06-14 07:03:12,931 - INFO - URL filtering completed: 79/83 links passed (structure + reachability)
+2025-06-14 07:03:12,933 - INFO - 💾 [Links] Consolidated cache updated (outputs/thelimited.com/thelimited.com_filtered_links_v0.4.1_result.json)
+2025-06-14 07:03:12,933 - INFO - 🧠 [Step B] Identifying core page types via LLM…
+2025-06-14 07:03:12,934 - INFO - 🤖 Calling LLM model: openai/gpt-4o
+2025-06-14 07:03:16,120 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:03:20,607 - INFO - ✅ LLM response received successfully
+2025-06-14 07:03:20,607 - INFO - 📊 Response length: 2437 characters
+2025-06-14 07:03:20,607 - INFO - ✅ Identified 18 core page types
+2025-06-14 07:03:20,608 - INFO - 💾 Core page types exported to outputs/thelimited.com/thelimited.com_core_page_types_v0.4.1_result.json
+2025-06-14 07:03:20,608 - INFO - 🤖 [Step C] Recommending core URLs for 2011
+2025-06-14 07:03:20,608 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:03:21,343 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:03:40,769 - INFO - ✅ LLM response received successfully
+2025-06-14 07:03:40,769 - INFO - 📊 Response length: 5330 characters
+2025-06-14 07:03:40,769 - INFO - ✅ URL recommendation finished: 14 recommended, 13 within valid pages (enforce=False)
+2025-06-14 07:03:40,770 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:03:40,770 - INFO - 🤖 [Step C] Recommending core URLs for 2010
+2025-06-14 07:03:40,770 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:03:41,367 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:03:57,701 - INFO - ✅ LLM response received successfully
+2025-06-14 07:03:57,701 - INFO - 📊 Response length: 6075 characters
+2025-06-14 07:03:57,701 - INFO - ✅ URL recommendation finished: 15 recommended, 11 within valid pages (enforce=False)
+2025-06-14 07:03:57,702 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:03:57,702 - INFO - 🤖 [Step C] Recommending core URLs for 2014
+2025-06-14 07:03:57,703 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:03:58,605 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:04:17,198 - INFO - ✅ LLM response received successfully
+2025-06-14 07:04:17,199 - INFO - 📊 Response length: 5033 characters
+2025-06-14 07:04:17,199 - INFO - ✅ URL recommendation finished: 15 recommended, 3 within valid pages (enforce=False)
+2025-06-14 07:04:17,200 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:04:17,200 - INFO - 🤖 [Step C] Recommending core URLs for 2012
+2025-06-14 07:04:17,200 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:04:18,049 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:04:36,093 - INFO - ✅ LLM response received successfully
+2025-06-14 07:04:36,094 - INFO - 📊 Response length: 5089 characters
+2025-06-14 07:04:36,094 - INFO - ✅ URL recommendation finished: 15 recommended, 7 within valid pages (enforce=False)
+2025-06-14 07:04:36,096 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:04:36,097 - INFO - 🤖 [Step C] Recommending core URLs for 2015
+2025-06-14 07:04:36,097 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:04:37,139 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:04:55,640 - INFO - ✅ LLM response received successfully
+2025-06-14 07:04:55,640 - INFO - 📊 Response length: 5009 characters
+2025-06-14 07:04:55,640 - INFO - ✅ URL recommendation finished: 15 recommended, 8 within valid pages (enforce=False)
+2025-06-14 07:04:55,642 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:04:55,642 - INFO - 🤖 [Step C] Recommending core URLs for 2016
+2025-06-14 07:04:55,643 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:04:56,326 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:05:14,981 - INFO - ✅ LLM response received successfully
+2025-06-14 07:05:14,981 - INFO - 📊 Response length: 5627 characters
+2025-06-14 07:05:14,982 - INFO - ✅ URL recommendation finished: 15 recommended, 9 within valid pages (enforce=False)
+2025-06-14 07:05:14,984 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:05:14,984 - INFO - 🤖 [Step C] Recommending core URLs for 2017
+2025-06-14 07:05:14,984 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:05:15,719 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:05:38,963 - INFO - ✅ LLM response received successfully
+2025-06-14 07:05:38,963 - INFO - 📊 Response length: 5756 characters
+2025-06-14 07:05:38,963 - INFO - ✅ URL recommendation finished: 15 recommended, 11 within valid pages (enforce=False)
+2025-06-14 07:05:38,966 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:05:38,966 - INFO - 🤖 [Step C] Recommending core URLs for 2009
+2025-06-14 07:05:38,966 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:05:39,879 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:05:57,552 - INFO - ✅ LLM response received successfully
+2025-06-14 07:05:57,553 - INFO - 📊 Response length: 5806 characters
+2025-06-14 07:05:57,553 - INFO - ✅ URL recommendation finished: 15 recommended, 11 within valid pages (enforce=False)
+2025-06-14 07:05:57,556 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:05:57,556 - INFO - 🤖 [Step C] Recommending core URLs for 2019
+2025-06-14 07:05:57,556 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:05:58,458 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:06:18,483 - INFO - ✅ LLM response received successfully
+2025-06-14 07:06:18,484 - INFO - 📊 Response length: 5029 characters
+2025-06-14 07:06:18,484 - INFO - ✅ URL recommendation finished: 14 recommended, 8 within valid pages (enforce=False)
+2025-06-14 07:06:18,487 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:06:18,487 - INFO - 🤖 [Step C] Recommending core URLs for 2013
+2025-06-14 07:06:18,488 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:06:19,443 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:06:45,805 - INFO - ✅ LLM response received successfully
+2025-06-14 07:06:45,805 - INFO - 📊 Response length: 5812 characters
+2025-06-14 07:06:45,805 - INFO - ✅ URL recommendation finished: 15 recommended, 10 within valid pages (enforce=False)
+2025-06-14 07:06:45,809 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:06:45,809 - INFO - 🤖 [Step C] Recommending core URLs for 2018
+2025-06-14 07:06:45,809 - INFO - 🤖 Calling LLM model: openai/gpt-4o-mini
+2025-06-14 07:06:48,591 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-14 07:07:14,194 - INFO - ✅ LLM response received successfully
+2025-06-14 07:07:14,194 - INFO - 📊 Response length: 5719 characters
+2025-06-14 07:07:14,194 - INFO - ✅ URL recommendation finished: 15 recommended, 6 within valid pages (enforce=False)
+2025-06-14 07:07:14,198 - INFO - Analysis results exported to: outputs/thelimited.com/thelimited.com_llm_planning_v0.4.1_result.json
+2025-06-14 07:07:14,198 - INFO - 🔍 Identifying scenarios for year 2011 ...
+2025-06-14 07:07:14,198 - INFO - 📄 [2011] Analyzing page 1/14
+2025-06-14 07:07:16,717 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070716.txt
+2025-06-14 07:07:17,721 - INFO - 📄 [2011] Analyzing page 2/14
+2025-06-14 07:07:19,337 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070719.txt
+2025-06-14 07:07:20,339 - INFO - 📄 [2011] Analyzing page 3/14
+2025-06-14 07:07:21,575 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070721.txt
+2025-06-14 07:07:22,585 - INFO - 📄 [2011] Analyzing page 4/14
+2025-06-14 07:07:23,935 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070723.txt
+2025-06-14 07:07:24,936 - INFO - 📄 [2011] Analyzing page 5/14
+2025-06-14 07:07:26,248 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070726.txt
+2025-06-14 07:07:27,251 - INFO - 📄 [2011] Analyzing page 6/14
+2025-06-14 07:07:28,809 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070728.txt
+2025-06-14 07:07:29,811 - INFO - 📄 [2011] Analyzing page 7/14
+2025-06-14 07:07:29,790 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070729.txt
+2025-06-14 07:07:30,793 - INFO - 📄 [2011] Analyzing page 8/14
+2025-06-14 07:07:32,342 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070732.txt
+2025-06-14 07:07:33,346 - INFO - 📄 [2011] Analyzing page 9/14
+2025-06-14 07:07:34,273 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070734.txt
+2025-06-14 07:07:35,275 - INFO - 📄 [2011] Analyzing page 10/14
+2025-06-14 07:07:39,799 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070739.txt
+2025-06-14 07:07:40,801 - INFO - 📄 [2011] Analyzing page 11/14
+2025-06-14 07:07:41,998 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070741.txt
+2025-06-14 07:07:43,002 - INFO - 📄 [2011] Analyzing page 12/14
+2025-06-14 07:07:48,621 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070748.txt
+2025-06-14 07:07:49,622 - INFO - 📄 [2011] Analyzing page 13/14
+2025-06-14 07:07:51,185 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070751.txt
+2025-06-14 07:07:52,188 - INFO - 📄 [2011] Analyzing page 14/14
+2025-06-14 07:07:55,410 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2011_20250614_070755.txt
+2025-06-14 07:07:56,411 - INFO - ✅ Year 2011 scenario identification completed: 12 scenarios
+2025-06-14 07:07:56,411 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:07:56,412 - INFO - 🔍 Identifying scenarios for year 2010 ...
+2025-06-14 07:07:56,412 - INFO - 📄 [2010] Analyzing page 1/15
+2025-06-14 07:07:58,240 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070758.txt
+2025-06-14 07:07:59,242 - INFO - 📄 [2010] Analyzing page 2/15
+2025-06-14 07:08:00,475 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070800.txt
+2025-06-14 07:08:01,486 - INFO - 📄 [2010] Analyzing page 3/15
+2025-06-14 07:08:02,742 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070802.txt
+2025-06-14 07:08:03,751 - INFO - 📄 [2010] Analyzing page 4/15
+2025-06-14 07:08:05,670 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070805.txt
+2025-06-14 07:08:06,677 - INFO - 📄 [2010] Analyzing page 5/15
+2025-06-14 07:08:07,657 - WARNING - 获取页面内容失败 https://web.archive.org/web/20101231045924/http://www.thelimited.com/detail/index/item_desc/12345: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20101231045924/http://www.thelimited.com/detail/index/item_desc/12345
+2025-06-14 07:08:08,663 - INFO - 📄 [2010] Analyzing page 6/15
+2025-06-14 07:08:09,514 - WARNING - 获取页面内容失败 https://web.archive.org/web/20101231045924/http://www.thelimited.com/search/?q=shirt: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20101231045924/http://www.thelimited.com/search/?q=shirt
+2025-06-14 07:08:10,520 - INFO - 📄 [2010] Analyzing page 7/15
+2025-06-14 07:08:11,544 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070811.txt
+2025-06-14 07:08:12,551 - INFO - 📄 [2010] Analyzing page 8/15
+2025-06-14 07:08:13,781 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070813.txt
+2025-06-14 07:08:14,789 - INFO - 📄 [2010] Analyzing page 9/15
+2025-06-14 07:08:16,208 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070816.txt
+2025-06-14 07:08:17,215 - INFO - 📄 [2010] Analyzing page 10/15
+2025-06-14 07:08:18,186 - WARNING - 获取页面内容失败 https://web.archive.org/web/20101231045924/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20101231045924/http://www.thelimited.com/checkout
+2025-06-14 07:08:19,191 - INFO - 📄 [2010] Analyzing page 11/15
+2025-06-14 07:08:19,923 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070819.txt
+2025-06-14 07:08:20,927 - INFO - 📄 [2010] Analyzing page 12/15
+2025-06-14 07:08:24,137 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070824.txt
+2025-06-14 07:08:25,138 - INFO - 📄 [2010] Analyzing page 13/15
+2025-06-14 07:08:27,297 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070827.txt
+2025-06-14 07:08:28,300 - INFO - 📄 [2010] Analyzing page 14/15
+2025-06-14 07:08:29,975 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070829.txt
+2025-06-14 07:08:30,981 - INFO - 📄 [2010] Analyzing page 15/15
+2025-06-14 07:08:32,816 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2010_20250614_070832.txt
+2025-06-14 07:08:32,597 - INFO - ✅ Year 2010 scenario identification completed: 10 scenarios
+2025-06-14 07:08:32,598 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:08:32,598 - INFO - 🔍 Identifying scenarios for year 2014 ...
+2025-06-14 07:08:32,598 - INFO - 📄 [2014] Analyzing page 1/15
+2025-06-14 07:08:36,861 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070836.txt
+2025-06-14 07:08:37,865 - INFO - 📄 [2014] Analyzing page 2/15
+2025-06-14 07:08:38,902 - WARNING - 获取页面内容失败 https://web.archive.org/web/20141231164431/http://www.thelimited.com/category/womens-clothing: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20141231164431/http://www.thelimited.com/category/womens-clothing
+2025-06-14 07:08:39,903 - INFO - 📄 [2014] Analyzing page 3/15
+2025-06-14 07:08:42,417 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070842.txt
+2025-06-14 07:08:43,419 - INFO - 📄 [2014] Analyzing page 4/15
+2025-06-14 07:08:43,967 - WARNING - 获取页面内容失败 https://web.archive.org/web/20141231164431/http://www.thelimited.com/detail/index/item_desc/12345: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20141231164431/http://www.thelimited.com/detail/index/item_desc/12345
+2025-06-14 07:08:44,968 - INFO - 📄 [2014] Analyzing page 5/15
+2025-06-14 07:08:46,956 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070846.txt
+2025-06-14 07:08:47,959 - INFO - 📄 [2014] Analyzing page 6/15
+2025-06-14 07:08:49,312 - WARNING - 获取页面内容失败 https://web.archive.org/web/20141231164431/http://www.thelimited.com/search/?q=top: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20141231164431/http://www.thelimited.com/search/?q=top
+2025-06-14 07:08:50,316 - INFO - 📄 [2014] Analyzing page 7/15
+2025-06-14 07:08:51,184 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070851.txt
+2025-06-14 07:08:52,190 - INFO - 📄 [2014] Analyzing page 8/15
+2025-06-14 07:08:53,957 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070853.txt
+2025-06-14 07:08:54,960 - INFO - 📄 [2014] Analyzing page 9/15
+2025-06-14 07:08:56,200 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070856.txt
+2025-06-14 07:08:57,202 - INFO - 📄 [2014] Analyzing page 10/15
+2025-06-14 07:08:58,126 - WARNING - 获取页面内容失败 https://web.archive.org/web/20141231164431/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20141231164431/http://www.thelimited.com/checkout
+2025-06-14 07:08:59,127 - INFO - 📄 [2014] Analyzing page 11/15
+2025-06-14 07:09:02,137 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070902.txt
+2025-06-14 07:09:03,138 - INFO - 📄 [2014] Analyzing page 12/15
+2025-06-14 07:09:04,187 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070904.txt
+2025-06-14 07:09:03,980 - INFO - 📄 [2014] Analyzing page 13/15
+2025-06-14 07:09:05,559 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070905.txt
+2025-06-14 07:09:06,583 - INFO - 📄 [2014] Analyzing page 14/15
+2025-06-14 07:09:07,975 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070907.txt
+2025-06-14 07:09:08,978 - INFO - 📄 [2014] Analyzing page 15/15
+2025-06-14 07:09:10,020 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2014_20250614_070910.txt
+2025-06-14 07:09:11,023 - INFO - ✅ Year 2014 scenario identification completed: 11 scenarios
+2025-06-14 07:09:11,024 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:09:11,024 - INFO - 🔍 Identifying scenarios for year 2012 ...
+2025-06-14 07:09:11,024 - INFO - 📄 [2012] Analyzing page 1/15
+2025-06-14 07:09:13,524 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070913.txt
+2025-06-14 07:09:14,524 - INFO - 📄 [2012] Analyzing page 2/15
+2025-06-14 07:09:15,908 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070915.txt
+2025-06-14 07:09:16,914 - INFO - 📄 [2012] Analyzing page 3/15
+2025-06-14 07:09:18,798 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070918.txt
+2025-06-14 07:09:19,801 - INFO - 📄 [2012] Analyzing page 4/15
+2025-06-14 07:09:22,360 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070922.txt
+2025-06-14 07:09:23,365 - INFO - 📄 [2012] Analyzing page 5/15
+2025-06-14 07:09:24,260 - WARNING - 获取页面内容失败 https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale,default,sc.html?navid=top: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale,default,sc.html?navid=top
+2025-06-14 07:09:25,262 - INFO - 📄 [2012] Analyzing page 6/15
+2025-06-14 07:09:27,067 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070927.txt
+2025-06-14 07:09:28,071 - INFO - 📄 [2012] Analyzing page 7/15
+2025-06-14 07:09:29,094 - WARNING - 获取页面内容失败 https://web.archive.org/web/20121226183227/http://www.thelimited.com/search/?q=sweater: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121226183227/http://www.thelimited.com/search/?q=sweater
+2025-06-14 07:09:30,096 - INFO - 📄 [2012] Analyzing page 8/15
+2025-06-14 07:09:31,906 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070931.txt
+2025-06-14 07:09:32,910 - INFO - 📄 [2012] Analyzing page 9/15
+2025-06-14 07:09:34,300 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070934.txt
+2025-06-14 07:09:35,302 - INFO - 📄 [2012] Analyzing page 10/15
+2025-06-14 07:09:35,870 - WARNING - 获取页面内容失败 https://web.archive.org/web/20121226183227/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121226183227/http://www.thelimited.com/checkout
+2025-06-14 07:09:36,872 - INFO - 📄 [2012] Analyzing page 11/15
+2025-06-14 07:09:38,656 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070938.txt
+2025-06-14 07:09:39,657 - INFO - 📄 [2012] Analyzing page 12/15
+2025-06-14 07:09:40,494 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070940.txt
+2025-06-14 07:09:41,497 - INFO - 📄 [2012] Analyzing page 13/15
+2025-06-14 07:09:43,235 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070943.txt
+2025-06-14 07:09:44,239 - INFO - 📄 [2012] Analyzing page 14/15
+2025-06-14 07:09:45,492 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2012_20250614_070945.txt
+2025-06-14 07:09:46,500 - INFO - 📄 [2012] Analyzing page 15/15
+2025-06-14 07:09:48,734 - WARNING - 获取页面内容失败 https://web.archive.org/web/20121226183227/http://www.thelimited.com/facebook: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20121226183227/http://www.thelimited.com/facebook
+2025-06-14 07:09:49,736 - INFO - ✅ Year 2012 scenario identification completed: 12 scenarios
+2025-06-14 07:09:49,738 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:09:49,738 - INFO - 🔍 Identifying scenarios for year 2015 ...
+2025-06-14 07:09:49,738 - INFO - 📄 [2015] Analyzing page 1/15
+2025-06-14 07:09:52,357 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_070952.txt
+2025-06-14 07:09:53,368 - INFO - 📄 [2015] Analyzing page 2/15
+2025-06-14 07:09:53,933 - WARNING - 获取页面内容失败 https://web.archive.org/web/20151231003112/http://www.thelimited.com/category/womens-clothing: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20151231003112/http://www.thelimited.com/category/womens-clothing
+2025-06-14 07:09:54,934 - INFO - 📄 [2015] Analyzing page 3/15
+2025-06-14 07:09:56,325 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_070956.txt
+2025-06-14 07:09:57,331 - INFO - 📄 [2015] Analyzing page 4/15
+2025-06-14 07:09:58,590 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_070958.txt
+2025-06-14 07:09:59,596 - INFO - 📄 [2015] Analyzing page 5/15
+2025-06-14 07:10:00,470 - WARNING - 获取页面内容失败 https://web.archive.org/web/20151231003112/http://www.thelimited.com/detail/index/item_desc/12345: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20151231003112/http://www.thelimited.com/detail/index/item_desc/12345
+2025-06-14 07:10:01,471 - INFO - 📄 [2015] Analyzing page 6/15
+2025-06-14 07:10:04,184 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071004.txt
+2025-06-14 07:10:05,186 - INFO - 📄 [2015] Analyzing page 7/15
+2025-06-14 07:10:06,416 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071006.txt
+2025-06-14 07:10:06,185 - INFO - 📄 [2015] Analyzing page 8/15
+2025-06-14 07:10:08,007 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071008.txt
+2025-06-14 07:10:09,011 - INFO - 📄 [2015] Analyzing page 9/15
+2025-06-14 07:10:10,243 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071010.txt
+2025-06-14 07:10:11,245 - INFO - 📄 [2015] Analyzing page 10/15
+2025-06-14 07:10:12,278 - WARNING - 获取页面内容失败 https://web.archive.org/web/20151231003112/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20151231003112/http://www.thelimited.com/checkout
+2025-06-14 07:10:13,282 - INFO - 📄 [2015] Analyzing page 11/15
+2025-06-14 07:10:14,511 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071014.txt
+2025-06-14 07:10:15,513 - INFO - 📄 [2015] Analyzing page 12/15
+2025-06-14 07:10:16,533 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071016.txt
+2025-06-14 07:10:17,536 - INFO - 📄 [2015] Analyzing page 13/15
+2025-06-14 07:10:18,879 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071018.txt
+2025-06-14 07:10:19,886 - INFO - 📄 [2015] Analyzing page 14/15
+2025-06-14 07:10:21,505 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071021.txt
+2025-06-14 07:10:22,511 - INFO - 📄 [2015] Analyzing page 15/15
+2025-06-14 07:10:23,898 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2015_20250614_071023.txt
+2025-06-14 07:10:24,906 - INFO - ✅ Year 2015 scenario identification completed: 14 scenarios
+2025-06-14 07:10:24,907 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:10:24,907 - INFO - 🔍 Identifying scenarios for year 2016 ...
+2025-06-14 07:10:24,907 - INFO - 📄 [2016] Analyzing page 1/15
+2025-06-14 07:10:28,258 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071028.txt
+2025-06-14 07:10:29,260 - INFO - 📄 [2016] Analyzing page 2/15
+2025-06-14 07:10:31,806 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071031.txt
+2025-06-14 07:10:32,810 - INFO - 📄 [2016] Analyzing page 3/15
+2025-06-14 07:10:34,634 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071034.txt
+2025-06-14 07:10:35,638 - INFO - 📄 [2016] Analyzing page 4/15
+2025-06-14 07:10:36,969 - WARNING - 获取页面内容失败 https://web.archive.org/web/20161227152618/http://www.thelimited.com/detail/index/item_desc/12345: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161227152618/http://www.thelimited.com/detail/index/item_desc/12345
+2025-06-14 07:10:37,981 - INFO - 📄 [2016] Analyzing page 5/15
+2025-06-14 07:10:38,171 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071038.txt
+2025-06-14 07:10:39,174 - INFO - 📄 [2016] Analyzing page 6/15
+2025-06-14 07:10:40,638 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071040.txt
+2025-06-14 07:10:41,639 - INFO - 📄 [2016] Analyzing page 7/15
+2025-06-14 07:10:47,355 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071047.txt
+2025-06-14 07:10:48,358 - INFO - 📄 [2016] Analyzing page 8/15
+2025-06-14 07:10:49,039 - WARNING - 获取页面内容失败 https://web.archive.org/web/20161227152618/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161227152618/http://www.thelimited.com/checkout
+2025-06-14 07:10:50,046 - INFO - 📄 [2016] Analyzing page 9/15
+2025-06-14 07:10:51,446 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071051.txt
+2025-06-14 07:10:52,447 - INFO - 📄 [2016] Analyzing page 10/15
+2025-06-14 07:10:53,846 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071053.txt
+2025-06-14 07:10:54,850 - INFO - 📄 [2016] Analyzing page 11/15
+2025-06-14 07:10:56,351 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071056.txt
+2025-06-14 07:10:57,359 - INFO - 📄 [2016] Analyzing page 12/15
+2025-06-14 07:10:59,614 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071059.txt
+2025-06-14 07:11:00,621 - INFO - 📄 [2016] Analyzing page 13/15
+2025-06-14 07:11:01,807 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071101.txt
+2025-06-14 07:11:02,812 - INFO - 📄 [2016] Analyzing page 14/15
+2025-06-14 07:11:08,258 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2016_20250614_071108.txt
+2025-06-14 07:11:09,259 - INFO - 📄 [2016] Analyzing page 15/15
+2025-06-14 07:11:09,414 - WARNING - 获取页面内容失败 https://web.archive.org/web/20161227152618/http://www.thelimited.com/facebook: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20161227152618/http://www.thelimited.com/facebook
+2025-06-14 07:11:10,415 - INFO - ✅ Year 2016 scenario identification completed: 15 scenarios
+2025-06-14 07:11:10,417 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:11:10,417 - INFO - 🔍 Identifying scenarios for year 2017 ...
+2025-06-14 07:11:10,417 - INFO - 📄 [2017] Analyzing page 1/15
+2025-06-14 07:11:25,437 - WARNING - 获取页面内容失败 https://web.archive.org/web/20171227085212/https://www.thelimited.com/: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-06-14 07:11:26,441 - INFO - 📄 [2017] Analyzing page 2/15
+2025-06-14 07:11:28,469 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071128.txt
+2025-06-14 07:11:29,475 - INFO - 📄 [2017] Analyzing page 3/15
+2025-06-14 07:11:31,205 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071131.txt
+2025-06-14 07:11:32,211 - INFO - 📄 [2017] Analyzing page 4/15
+2025-06-14 07:11:34,898 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071134.txt
+2025-06-14 07:11:35,915 - INFO - 📄 [2017] Analyzing page 5/15
+2025-06-14 07:11:37,592 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071137.txt
+2025-06-14 07:11:38,594 - INFO - 📄 [2017] Analyzing page 6/15
+2025-06-14 07:11:39,965 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071139.txt
+2025-06-14 07:11:39,731 - INFO - 📄 [2017] Analyzing page 7/15
+2025-06-14 07:11:41,042 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071141.txt
+2025-06-14 07:11:42,046 - INFO - 📄 [2017] Analyzing page 8/15
+2025-06-14 07:11:44,812 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071144.txt
+2025-06-14 07:11:45,819 - INFO - 📄 [2017] Analyzing page 9/15
+2025-06-14 07:11:47,763 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071147.txt
+2025-06-14 07:11:48,777 - INFO - 📄 [2017] Analyzing page 10/15
+2025-06-14 07:11:52,429 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071152.txt
+2025-06-14 07:11:53,433 - INFO - 📄 [2017] Analyzing page 11/15
+2025-06-14 07:11:55,596 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071155.txt
+2025-06-14 07:11:56,605 - INFO - 📄 [2017] Analyzing page 12/15
+2025-06-14 07:11:57,977 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071157.txt
+2025-06-14 07:11:58,979 - INFO - 📄 [2017] Analyzing page 13/15
+2025-06-14 07:12:00,049 - WARNING - 获取页面内容失败 https://web.archive.org/web/20171227085212/https://www.thelimited.com/account/: 404 Client Error: Not Found for url: https://web.archive.org/web/20170128044105/http://www.thelimited.com/account
+2025-06-14 07:12:01,051 - INFO - 📄 [2017] Analyzing page 14/15
+2025-06-14 07:12:02,218 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071202.txt
+2025-06-14 07:12:03,220 - INFO - 📄 [2017] Analyzing page 15/15
+2025-06-14 07:12:05,874 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2017_20250614_071205.txt
+2025-06-14 07:12:06,881 - INFO - ✅ Year 2017 scenario identification completed: 15 scenarios
+2025-06-14 07:12:06,883 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:12:06,883 - INFO - 🔍 Identifying scenarios for year 2009 ...
+2025-06-14 07:12:06,883 - INFO - 📄 [2009] Analyzing page 1/15
+2025-06-14 07:12:11,083 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071211.txt
+2025-06-14 07:12:10,898 - INFO - 📄 [2009] Analyzing page 2/15
+2025-06-14 07:12:11,903 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071211.txt
+2025-06-14 07:12:12,907 - INFO - 📄 [2009] Analyzing page 3/15
+2025-06-14 07:12:14,029 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071214.txt
+2025-06-14 07:12:15,031 - INFO - 📄 [2009] Analyzing page 4/15
+2025-06-14 07:12:16,052 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071216.txt
+2025-06-14 07:12:17,067 - INFO - 📄 [2009] Analyzing page 5/15
+2025-06-14 07:12:18,217 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071218.txt
+2025-06-14 07:12:19,221 - INFO - 📄 [2009] Analyzing page 6/15
+2025-06-14 07:12:21,263 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071221.txt
+2025-06-14 07:12:22,268 - INFO - 📄 [2009] Analyzing page 7/15
+2025-06-14 07:12:23,254 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071223.txt
+2025-06-14 07:12:24,255 - INFO - 📄 [2009] Analyzing page 8/15
+2025-06-14 07:12:26,279 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071226.txt
+2025-06-14 07:12:27,284 - INFO - 📄 [2009] Analyzing page 9/15
+2025-06-14 07:12:31,613 - WARNING - 获取页面内容失败 https://web.archive.org/web/20091219055121/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20091219055121/http://www.thelimited.com/checkout
+2025-06-14 07:12:32,613 - INFO - 📄 [2009] Analyzing page 10/15
+2025-06-14 07:12:33,793 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071233.txt
+2025-06-14 07:12:34,796 - INFO - 📄 [2009] Analyzing page 11/15
+2025-06-14 07:12:38,394 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071238.txt
+2025-06-14 07:12:39,395 - INFO - 📄 [2009] Analyzing page 12/15
+2025-06-14 07:12:40,443 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071240.txt
+2025-06-14 07:12:41,446 - INFO - 📄 [2009] Analyzing page 13/15
+2025-06-14 07:12:42,199 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071242.txt
+2025-06-14 07:12:43,200 - INFO - 📄 [2009] Analyzing page 14/15
+2025-06-14 07:12:45,155 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071245.txt
+2025-06-14 07:12:46,157 - INFO - 📄 [2009] Analyzing page 15/15
+2025-06-14 07:12:47,421 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2009_20250614_071247.txt
+2025-06-14 07:12:48,424 - INFO - ✅ Year 2009 scenario identification completed: 10 scenarios
+2025-06-14 07:12:48,425 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:12:48,425 - INFO - 🔍 Identifying scenarios for year 2019 ...
+2025-06-14 07:12:48,425 - INFO - 📄 [2019] Analyzing page 1/14
+2025-06-14 07:12:50,611 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071250.txt
+2025-06-14 07:12:51,615 - INFO - 📄 [2019] Analyzing page 2/14
+2025-06-14 07:12:53,367 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071253.txt
+2025-06-14 07:12:54,370 - INFO - 📄 [2019] Analyzing page 3/14
+2025-06-14 07:12:55,737 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071255.txt
+2025-06-14 07:12:56,740 - INFO - 📄 [2019] Analyzing page 4/14
+2025-06-14 07:12:57,385 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190710205128/https://www.thelimited.com/detail/index/item_desc/12345: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20190710205128/https://www.thelimited.com/detail/index/item_desc/12345
+2025-06-14 07:12:58,389 - INFO - 📄 [2019] Analyzing page 5/14
+2025-06-14 07:13:00,042 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071300.txt
+2025-06-14 07:13:01,044 - INFO - 📄 [2019] Analyzing page 6/14
+2025-06-14 07:13:03,072 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071303.txt
+2025-06-14 07:13:04,075 - INFO - 📄 [2019] Analyzing page 7/14
+2025-06-14 07:13:05,164 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190710205128/https://www.thelimited.com/checkout/: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20190710205128/https://www.thelimited.com/checkout/
+2025-06-14 07:13:06,168 - INFO - 📄 [2019] Analyzing page 8/14
+2025-06-14 07:13:07,249 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071307.txt
+2025-06-14 07:13:08,253 - INFO - 📄 [2019] Analyzing page 9/14
+2025-06-14 07:13:09,527 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071309.txt
+2025-06-14 07:13:10,528 - INFO - 📄 [2019] Analyzing page 10/14
+2025-06-14 07:13:12,849 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071312.txt
+2025-06-14 07:13:13,857 - INFO - 📄 [2019] Analyzing page 11/14
+2025-06-14 07:13:13,335 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071313.txt
+2025-06-14 07:13:14,343 - INFO - 📄 [2019] Analyzing page 12/14
+2025-06-14 07:13:15,460 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071315.txt
+2025-06-14 07:13:16,484 - INFO - 📄 [2019] Analyzing page 13/14
+2025-06-14 07:13:18,482 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2019_20250614_071318.txt
+2025-06-14 07:13:19,505 - INFO - 📄 [2019] Analyzing page 14/14
+2025-06-14 07:13:20,159 - WARNING - 获取页面内容失败 https://web.archive.org/web/20190710205128/https://www.thelimited.com/twitter: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20190710205128/https://www.thelimited.com/twitter
+2025-06-14 07:13:21,165 - INFO - ✅ Year 2019 scenario identification completed: 11 scenarios
+2025-06-14 07:13:21,166 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:13:21,166 - INFO - 🔍 Identifying scenarios for year 2013 ...
+2025-06-14 07:13:21,166 - INFO - 📄 [2013] Analyzing page 1/15
+2025-06-14 07:13:24,589 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071324.txt
+2025-06-14 07:13:25,592 - INFO - 📄 [2013] Analyzing page 2/15
+2025-06-14 07:13:27,758 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071327.txt
+2025-06-14 07:13:28,759 - INFO - 📄 [2013] Analyzing page 3/15
+2025-06-14 07:13:30,186 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071330.txt
+2025-06-14 07:13:31,191 - INFO - 📄 [2013] Analyzing page 4/15
+2025-06-14 07:13:32,665 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071332.txt
+2025-06-14 07:13:33,675 - INFO - 📄 [2013] Analyzing page 5/15
+2025-06-14 07:13:35,362 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071335.txt
+2025-06-14 07:13:36,368 - INFO - 📄 [2013] Analyzing page 6/15
+2025-06-14 07:13:39,852 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071339.txt
+2025-06-14 07:13:40,854 - INFO - 📄 [2013] Analyzing page 7/15
+2025-06-14 07:13:42,052 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071342.txt
+2025-06-14 07:13:43,060 - INFO - 📄 [2013] Analyzing page 8/15
+2025-06-14 07:13:44,164 - WARNING - 获取页面内容失败 https://web.archive.org/web/20131231220523/http://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20131231220523/http://www.thelimited.com/checkout
+2025-06-14 07:13:45,167 - INFO - 📄 [2013] Analyzing page 9/15
+2025-06-14 07:13:45,071 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071345.txt
+2025-06-14 07:13:46,074 - INFO - 📄 [2013] Analyzing page 10/15
+2025-06-14 07:13:46,950 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071346.txt
+2025-06-14 07:13:47,955 - INFO - 📄 [2013] Analyzing page 11/15
+2025-06-14 07:13:49,512 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071349.txt
+2025-06-14 07:13:50,516 - INFO - 📄 [2013] Analyzing page 12/15
+2025-06-14 07:13:51,575 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071351.txt
+2025-06-14 07:13:52,577 - INFO - 📄 [2013] Analyzing page 13/15
+2025-06-14 07:13:55,266 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071355.txt
+2025-06-14 07:13:56,278 - INFO - 📄 [2013] Analyzing page 14/15
+2025-06-14 07:13:57,373 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071357.txt
+2025-06-14 07:13:58,380 - INFO - 📄 [2013] Analyzing page 15/15
+2025-06-14 07:13:59,891 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2013_20250614_071359.txt
+2025-06-14 07:14:00,894 - INFO - ✅ Year 2013 scenario identification completed: 14 scenarios
+2025-06-14 07:14:00,896 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:14:00,896 - INFO - 🔍 Identifying scenarios for year 2018 ...
+2025-06-14 07:14:00,896 - INFO - 📄 [2018] Analyzing page 1/15
+2025-06-14 07:14:02,170 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071402.txt
+2025-06-14 07:14:03,172 - INFO - 📄 [2018] Analyzing page 2/15
+2025-06-14 07:14:04,228 - WARNING - 获取页面内容失败 https://web.archive.org/web/20181230112225/https://www.thelimited.com/category/*: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181230112225/https://www.thelimited.com/category/*
+2025-06-14 07:14:05,231 - INFO - 📄 [2018] Analyzing page 3/15
+2025-06-14 07:14:06,558 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071406.txt
+2025-06-14 07:14:07,564 - INFO - 📄 [2018] Analyzing page 4/15
+2025-06-14 07:14:08,444 - WARNING - 获取页面内容失败 https://web.archive.org/web/20181230112225/https://www.thelimited.com/detail/index/item_desc/*: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181230112225/https://www.thelimited.com/detail/index/item_desc/*
+2025-06-14 07:14:09,445 - INFO - 📄 [2018] Analyzing page 5/15
+2025-06-14 07:14:11,368 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071411.txt
+2025-06-14 07:14:12,380 - INFO - 📄 [2018] Analyzing page 6/15
+2025-06-14 07:14:13,074 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071413.txt
+2025-06-14 07:14:14,077 - INFO - 📄 [2018] Analyzing page 7/15
+2025-06-14 07:14:15,059 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071415.txt
+2025-06-14 07:14:16,068 - INFO - 📄 [2018] Analyzing page 8/15
+2025-06-14 07:14:15,475 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071415.txt
+2025-06-14 07:14:16,477 - INFO - 📄 [2018] Analyzing page 9/15
+2025-06-14 07:14:16,965 - WARNING - 获取页面内容失败 https://web.archive.org/web/20181230112225/https://www.thelimited.com/checkout: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181230112225/https://www.thelimited.com/checkout
+2025-06-14 07:14:17,966 - INFO - 📄 [2018] Analyzing page 10/15
+2025-06-14 07:14:19,266 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071419.txt
+2025-06-14 07:14:20,272 - INFO - 📄 [2018] Analyzing page 11/15
+2025-06-14 07:14:21,313 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071421.txt
+2025-06-14 07:14:22,315 - INFO - 📄 [2018] Analyzing page 12/15
+2025-06-14 07:14:23,081 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071423.txt
+2025-06-14 07:14:24,084 - INFO - 📄 [2018] Analyzing page 13/15
+2025-06-14 07:14:26,012 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071426.txt
+2025-06-14 07:14:27,014 - INFO - 📄 [2018] Analyzing page 14/15
+2025-06-14 07:14:27,623 - INFO - 💾 Content saved to: outputs/thelimited.com/websites/2018_20250614_071427.txt
+2025-06-14 07:14:28,624 - INFO - 📄 [2018] Analyzing page 15/15
+2025-06-14 07:14:29,162 - WARNING - 获取页面内容失败 https://web.archive.org/web/20181230112225/https://www.thelimited.com/facebook: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20181230112225/https://www.thelimited.com/facebook
+2025-06-14 07:14:30,163 - INFO - ✅ Year 2018 scenario identification completed: 12 scenarios
+2025-06-14 07:14:30,164 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:14:30,174 - INFO - Scenario analysis results exported to: outputs/thelimited.com/thelimited.com_scenario_v0.4.1_result.json
+2025-06-14 07:14:30,174 - INFO - ✅ Unified analysis workflow completed!
+2025-06-14 07:14:30,174 - INFO - 💡 Analysis completed! Output files:
+2025-06-14 07:14:30,174 - INFO -    - ./outputs/thelimited.com/thelimited.com_llm_planning_v0.4_result.json
+2025-06-14 07:14:30,174 - INFO -    - ./outputs/thelimited.com/thelimited.com_scenario_v0.4_result.json
+2025-06-14 07:14:31,053 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-14 07:14:31,055 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

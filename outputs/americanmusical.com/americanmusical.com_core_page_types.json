@@ -1,0 +1,335 @@
+{
+  "generation_time": "2025-06-28 10:38:25",
+  "company_url": "americanmusical.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.aspx"
+        ]
+      },
+      {
+        "type_name": "Content Hub / Blog",
+        "typical_url_patterns": [
+          "/blog",
+          "/blog/*",
+          "/mediacenter",
+          "/content--name-AMS-Content-Hub",
+          "/s/ams-content-hub"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/content--name-Closeout-Sale",
+          "/c/promotions/*",
+          "/Limited-Time-Sale",
+          "/AMS-Sale",
+          "/*-Promo"
+        ]
+      },
+      {
+        "type_name": "Contest / Giveaway",
+        "typical_url_patterns": [
+          "/contestentry--id-*",
+          "/ContestEntry.aspx"
+        ]
+      },
+      {
+        "type_name": "About Us / Company Info",
+        "typical_url_patterns": [
+          "/content--name-Our-Company",
+          "/content--name-Why-We-Rock",
+          "/s/press"
+        ]
+      },
+      {
+        "type_name": "Community / Forum",
+        "typical_url_patterns": [
+          "/amsforum/default.aspx"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category Page",
+        "typical_url_patterns": [
+          "/c/guitars",
+          "/c/drums",
+          "/Guitars",
+          "/DJ",
+          "/Recording",
+          "/Category--*-m-*"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/c/{category}/{subcategory}",
+          "/SubCategory--{name}--m-{id}",
+          "/Acoustic-Guitars",
+          "/Electronic-Drum-Sets"
+        ]
+      },
+      {
+        "type_name": "Brand-Filtered Category Page",
+        "typical_url_patterns": [
+          "/ItemList--{brand}-{product}--m-{id}",
+          "/Yamaha-Power-Amps",
+          "/c/brands/{brand}/{product-type}"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/c/brands/{brand-name}",
+          "/{BrandName}"
+        ]
+      },
+      {
+        "type_name": "All Brands List",
+        "typical_url_patterns": [
+          "/BrandList.aspx",
+          "/s/all-brands"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/ItemSearch--search-*"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/New-Gear",
+          "/c/promotions/new-gear",
+          "/RSS_Feeds/Ndnd.aspx"
+        ]
+      },
+      {
+        "type_name": "Best Sellers / Top Products Page",
+        "typical_url_patterns": [
+          "/Top-*-Products",
+          "/c/promotions/top-100-products",
+          "/c/promotions/trending"
+        ]
+      },
+      {
+        "type_name": "Outlet / Clearance Hub",
+        "typical_url_patterns": [
+          "/Clearance.aspx",
+          "/c/outlet-zone",
+          "/content--name-Distressed-Clearance"
+        ]
+      },
+      {
+        "type_name": "Outlet / Clearance Category Page",
+        "typical_url_patterns": [
+          "/*--outlet-true"
+        ]
+      },
+      {
+        "type_name": "Gift Card Hub",
+        "typical_url_patterns": [
+          "/Gift-Cards-Certificates",
+          "/c/accessories/gift-cards",
+          "/Item.aspx?i=GIFTCARD"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/Item--i-*-LIST",
+          "/p/*?sku=*",
+          "/Item.aspx?i=*"
+        ]
+      },
+      {
+        "type_name": "Buyer's Guides",
+        "typical_url_patterns": [
+          "/content--name-Buyers-Guide",
+          "/content--name-Electric-Guitar-Buyers-Guide",
+          "/content--name-Recording-Microphone-Buyers-Guide"
+        ]
+      },
+      {
+        "type_name": "Payment Plan Information",
+        "typical_url_patterns": [
+          "/content--name-EzPay",
+          "/s/ez-payment-plans",
+          "/content--name-*-Pay"
+        ]
+      },
+      {
+        "type_name": "Rebate & Offers Page",
+        "typical_url_patterns": [
+          "/content--name-Rebate-Offer"
+        ]
+      },
+      {
+        "type_name": "Gear Packages / Bundles Page",
+        "typical_url_patterns": [
+          "/Recording-Packages",
+          "/content--name-Gear-Packages",
+          "/*-Packages"
+        ]
+      },
+      {
+        "type_name": "Themed / Curated Collection",
+        "typical_url_patterns": [
+          "/content--name-EDM-Gear",
+          "/content--name-Holiday-Gift-Guide",
+          "/content--name-Top-Selling-Gifts"
+        ]
+      },
+      {
+        "type_name": "Price & Guarantee Policies",
+        "typical_url_patterns": [
+          "/content--name-Lowest-Price-Guarantee",
+          "/content--name-45-Day-Money-Back-Guarantee",
+          "/s/45day-money-back-guarantee"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews Page",
+        "typical_url_patterns": [
+          "/content--name-Customer-Reviews"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/CartPage.aspx"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/content--name-Wish-List",
+          "/Members/WishListUpdate.aspx"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/customer/account/login/",
+          "/Members/MyAccount.aspx",
+          "/login.aspx"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/customer/account/create/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/Members/OrderHistory.aspx"
+        ]
+      },
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/content--name-Track-Your-Order",
+          "/content--name-Track-your-order"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/content--name-Shipping-Information",
+          "/s/shipping-information"
+        ]
+      },
+      {
+        "type_name": "Return Policy",
+        "typical_url_patterns": [
+          "/content--name-Return-Policy"
+        ]
+      },
+      {
+        "type_name": "Warranty Information",
+        "typical_url_patterns": [
+          "/content--name-Product-Warranties",
+          "/content--name-Protected-One-Extra-Year",
+          "/s/protected-one-extra-year"
+        ]
+      },
+      {
+        "type_name": "Service & Repairs",
+        "typical_url_patterns": [
+          "/content--name-Get-It-Fix-or-Serviced"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/Members/MyAccount.aspx",
+          "/customer/account/login/"
+        ]
+      },
+      {
+        "type_name": "My Registered Gear",
+        "typical_url_patterns": [
+          "/content--name-My-AMS-Gear"
+        ]
+      },
+      {
+        "type_name": "Newsletter Management",
+        "typical_url_patterns": [
+          "/newslettermaintenance.aspx",
+          "/Content--name-Online-Newsletter"
+        ]
+      },
+      {
+        "type_name": "Contact Us / Customer Service",
+        "typical_url_patterns": [
+          "/content--name-Contact-Us",
+          "/s/contact-us",
+          "/content--name-customer-service"
+        ]
+      },
+      {
+        "type_name": "Sales Agent Bios",
+        "typical_url_patterns": [
+          "/content--name-Sales-Agent-Bios"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/content--name-Privacy-Policy",
+          "/s/privacy-policy"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/content--name-txt-messaging-terms",
+          "/content--name-sms-messaging-terms"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/content--name-Affiliate-Program",
+          "/refer.aspx"
+        ]
+      }
+    ]
+  },
+  "total_types": 43
+}

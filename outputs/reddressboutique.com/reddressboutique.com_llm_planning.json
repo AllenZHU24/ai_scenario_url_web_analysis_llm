@@ -1,0 +1,3232 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "reddressboutique.com",
+  "export_time": "2025-07-01 12:44:18",
+  "yearly_analysis_results": {
+    "2010": {
+      "analysis_time": "2025-07-01 12:40:54",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 27,
+      "valid_content_urls_count": 27,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/",
+        "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/dresses.html",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/wishlist/",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/returns",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/help",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/about",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/contact-us",
+        "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/shop-by-brand.html",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/checkout/cart/",
+        "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/gift-certificates.html",
+        "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/whats-new.html",
+        "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/jewelry.html",
+        "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/accessories.html"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main homepage, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Key category page that showcases a primary product offering."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchase, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential for customers to understand return policies post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/help",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides support and information, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Builds brand trust and connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer communication, important for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/shop-by-brand.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Brands Index",
+            "selection_reason": "Helps customers explore products by brand, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/gift-certificates.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Offers gifting options, appealing to customers looking for presents."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/whats-new.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Highlights new arrivals, attracting returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/jewelry.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Showcases a specific product category, important for customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/accessories.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key category page that enhances product visibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20100605010501/https://www.reddressboutique.com/index.php/customer/account/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/shipping",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/tops.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/checkout/cart/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/whats-new.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/shop-by-brand.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/jewelry.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/belize-one-shoulder-dress.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/accessories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/denim.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/lastone.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/press",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/privacy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/https://www.reddressboutique.com/index.php/customer/account/login/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/returns",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/joan-dress-salmon.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/shoes.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/gift-certificates.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://reddressboutique.com/index.php/bottoms.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20100605010501/http://www.reddressboutique.com/index.php/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-01 12:41:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 27,
+      "valid_content_urls_count": 27,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/dresses.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/wishlist/",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/returns",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/contact-us",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shipping",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/about",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shop-by-brand.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/help",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/whats-new.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/sale-sale-sale.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/gift-certificates.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/press",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/accessories.html",
+        "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/customer/account/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main homepage, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This page showcases a key product category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchase, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/returns",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Important for customer trust and understanding of return policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Essential for customer support and retention efforts."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shipping",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Critical information regarding shipping policies that affects purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Builds brand connection and trust through storytelling."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shop-by-brand.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Brands Index",
+            "selection_reason": "Facilitates exploration of different brands, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/help",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides essential support information, aiding customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/whats-new.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Keeps customers informed about the latest products, driving engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/sale-sale-sale.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Attracts customers with promotions, crucial for driving sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/gift-certificates.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Offers a gifting option, appealing to customers looking for presents."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/press",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press / Newsroom",
+            "selection_reason": "Enhances brand visibility and credibility through media coverage."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/accessories.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Showcases additional product offerings, enhancing customer options."
+          },
+          {
+            "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/customer/account/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Important for account management and customer engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/checkout/cart/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/https://www.reddressboutique.com/index.php/customer/account/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/privacy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/sunset-boulevard-dress.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/returns",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shoes.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/whats-new.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/kickoffcutie/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Media Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/accessories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/tops.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shipping",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/sale-sale-sale.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/gift-certificates.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/jewelry.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/bottoms.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/press",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/denim.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/shop-by-brand.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/http://www.reddressboutique.com/index.php/royale-lady-sequin-jacket.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111207121424/https://www.reddressboutique.com/index.php/customer/account/login/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-01 12:41:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 31,
+      "valid_content_urls_count": 31,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lookbook/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/dresses.html",
+        "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/wishlist/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/checkout/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/contact-us/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/about/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/sale.html",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/returns",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/shipping",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/blog-love/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/gift-certificates.html/",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/whats-new.html",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/notify-of-restock.html",
+        "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lastone.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lookbook/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Lookbook",
+            "selection_reason": "Provides visual inspiration and showcases products, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, offering a comprehensive overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Focuses on a key product category, driving customer interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for later, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process, facilitating conversions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/contact-us/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a channel for customer support, enhancing customer satisfaction and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/about/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Builds brand identity and connects with customers on a personal level."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/sale.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Attracts bargain hunters and encourages purchases through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns",
+            "selection_reason": "Informs customers about return policies, crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping",
+            "selection_reason": "Details shipping options, impacting customer decisions and expectations."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/blog-love/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Blog",
+            "selection_reason": "Engages customers with content, fostering community and brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/gift-certificates.html/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Gift Certificates",
+            "selection_reason": "Offers a flexible gifting option, appealing to a wider audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/whats-new.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Highlights new arrivals, keeping the inventory fresh and exciting for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/notify-of-restock.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Restock Notification",
+            "selection_reason": "Encourages repeat visits by notifying customers of restocked items."
+          },
+          {
+            "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lastone.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Last One",
+            "selection_reason": "Creates urgency for customers to purchase limited items."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 31,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lookbook/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/designer-collections-1.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/sale.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/shoes.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/game-day.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/checkout/cart/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/tops.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/promo.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/gift-certificates.html/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/contact-us/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/whats-new.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/lastone.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/customer/account/login/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/back-in-stock-1.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/denim.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/jewelry.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/shipping",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/about/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/shop-lookbook.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/privacy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/https://www.reddressboutique.com/index.php/customer/account/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/returns",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/blog-love/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/notify-of-restock.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/checkout/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/accessories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121117035652/http://www.reddressboutique.com/index.php/bottoms.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 12:41:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 24,
+      "valid_content_urls_count": 24,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/our-story",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/lookbook-archive",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/blog-love",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/whats-new.html",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/gift-certificates.html",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/wishlist/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/cart/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/shipping-deadlines/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/returns",
+        "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/",
+        "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/login/",
+        "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/privacy"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides background and builds brand connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/lookbook-archive",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Lookbook Archive",
+            "selection_reason": "Showcases products in a curated format, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/blog-love",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog",
+            "selection_reason": "Engages customers with content, driving traffic and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/whats-new.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Highlights the latest products, attracting returning and new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/gift-certificates.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Certificate Page",
+            "selection_reason": "Offers a flexible purchasing option, appealing to gift buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical for completing purchases, directly impacting sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Facilitates the review of selected items before purchase, essential for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/shipping-deadlines/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping timelines, crucial for order expectations."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Provides essential information on returns, enhancing customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Enables customers to manage their accounts, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/login/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Login",
+            "selection_reason": "Facilitates easy access to account features, encouraging repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds customer trust by detailing data protection practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/shop-lookbook.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/gift-certificates.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/shipping-deadlines/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/index.php/lookbook",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/lookbook-archive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/whats-new.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/https://www.reddressboutique.com/customer/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131230090950/http://www.reddressboutique.com/blog-love",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 12:42:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 33,
+      "valid_content_urls_count": 33,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/newsroom",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/blog-love",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/our-story",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/whats-new.html",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/sale.html",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/gift-certificates.html",
+        "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/wishlist/",
+        "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/checkout/",
+        "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/checkout/cart/",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/returns",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/shipping",
+        "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/",
+        "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/login/",
+        "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/privacy"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/newsroom",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press / Newsroom",
+            "selection_reason": "Provides brand visibility and engages potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/blog-love",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog",
+            "selection_reason": "Engages customers with content and builds brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Informs customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/whats-new.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Attracts customers looking for the latest products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/sale.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "Encourages purchases through discounts and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/gift-certificates.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Certificate Page",
+            "selection_reason": "Provides gifting options, appealing to a wider audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Enables customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Builds customer trust by outlining return processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Encourages repeat business by allowing account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/login/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Login",
+            "selection_reason": "Facilitates easy access for returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reassures customers about data protection and privacy."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/whats-new.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/blog-love",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/customer/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/gift-certificates.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/https://www.reddressboutique.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/lookbook/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231164432/http://www.reddressboutique.com/lookbook-archive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook Archive"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-01 12:42:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 197,
+      "valid_content_urls_count": 197,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/our-story",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-dresses.html",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/new-today.html",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/sale.html",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/returns",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shipping",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/checkout/",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/wishlist/",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/customer/account/",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/contact-us",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/gift-certificates.html",
+        "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-shoes.html"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides insight into the brand's mission and values, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "A key category page that showcases a wide range of products."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/new-today.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Highlights the latest products, attracting returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/sale.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "Offers discounts and promotions, appealing to price-sensitive customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential for customer trust and satisfaction regarding post-purchase processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "The final step in the purchasing process, critical for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Facilitates customer management of their orders and preferences, promoting loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer inquiries, enhancing customer support."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/gift-certificates.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Certificate Page",
+            "selection_reason": "Encourages gifting, expanding the customer base and increasing sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-shoes.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Another key category page that showcases a variety of products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/home-office.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/christmas-shoppe.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/new-today.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/sale/dresses-on-sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shop-by-outfit.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop The Look Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/shop-lookbook.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-shoes.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/customer/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-dresses/shop-by-color.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/back-in-stock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-shoes/all-boots/ankle-boots-booties.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shop-lookbook.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/dresses/maxi-dress.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/gift-certificates.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/home-office/home-decor.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/lookbook-archive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/shop-lookbook/give-thanks.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shop-lookbook/shimmer-shine.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/going-fast.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/http://www.reddressboutique.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231044304/https://www.reddressboutique.com/all-tops/sweaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-01 12:42:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 169,
+      "valid_content_urls_count": 169,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/our-story",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/new-today.html",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-dresses.html",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/sale.html",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/checkout/",
+        "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/checkout/cart/",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/shipping",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/returns",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/privacy",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/contact-us",
+        "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/customer/account/login/",
+        "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/wishlist/",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/gift-certificates.html",
+        "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/notify-of-restock.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides background information about the brand, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/new-today.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Highlights the latest products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Central hub for one of the main product categories, facilitating exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/sale.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "Attracts price-sensitive customers looking for deals."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process where customers finalize their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Allows customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential information that builds trust and reduces purchase anxiety."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reassures customers about data protection, enhancing brand loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with a way to reach out for support, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/customer/account/login/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Login",
+            "selection_reason": "Facilitates returning customers to access their accounts, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, increasing conversion potential."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/gift-certificates.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Certificate Page",
+            "selection_reason": "Offers a popular gifting option, appealing to customers looking for presents."
+          },
+          {
+            "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/notify-of-restock.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Notify of Restock Page",
+            "selection_reason": "Engages customers interested in out-of-stock items, encouraging future purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-tops/sweaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/home-office/home-decor.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/new-today.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/customer/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/gift-certificates.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/https://www.reddressboutique.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-shoes/all-boots/ankle-boots-booties.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/shop-lookbook/love-letter-to-fall.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-shoes.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/going-fast.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/notify-of-restock.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Notify of Restock Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/accessories/beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/lookbook-archive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/shop-by-outfit.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop The Look Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/back-in-stock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/sale/dresses-on-sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/home-office.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-dresses/shop-by-color.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/all-dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161122212612/http://www.reddressboutique.com/holiday/gift-guide.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Collection"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-01 12:43:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 216,
+      "valid_content_urls_count": 216,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/our-story",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/lookbook",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-dresses.html",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/new-today.html",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/sale.html",
+        "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/wishlist/",
+        "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/checkout/",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/shipping",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/returns",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/contact-us",
+        "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/privacy",
+        "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/terms-of-use",
+        "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/login/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand to potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides insight into the brand's values and mission, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/lookbook",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Lookbook",
+            "selection_reason": "Showcases products in a styled format, generating interest and inspiration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-dresses.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Central hub for a popular product category, attracting potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/new-today.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Highlights the latest products, appealing to customers looking for fresh options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/sale.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "Attracts bargain hunters and encourages purchases through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process, where decisions are finalized."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Provides assurance to customers regarding the return process, influencing purchase confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support and engagement, essential for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Encourages repeat visits and purchases by allowing account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/terms-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies user rights and responsibilities, fostering a transparent relationship."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/login/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Login",
+            "selection_reason": "Encourages account creation and loyalty through easy access to personal accounts."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 36,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/home-office.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/gift-certificates.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/brands-we-love.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/lookbook-archive",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook Archive"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-dresses/shop-by-color.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-dresses.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/back-in-stock.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/newsroom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press / Newsroom"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/accessories/beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/most-popular.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/home-office/home-decor.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/going-fast.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-shoes/all-boots/ankle-boots-booties.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com:80/beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/lookbook",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/notify-of-restock.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Notify of Restock Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-tops/sweaters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/customer/account/login/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/https://www.reddressboutique.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/new-today.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/all-shoes.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230164641/http://www.reddressboutique.com/sale/dresses-on-sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-01 12:43:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 210,
+      "valid_content_urls_count": 210,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/our-story",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-dresses",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/trending",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/new-today",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/sale",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/checkout",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/cart",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/returns",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/shipping",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/account/login",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/help",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/contact-us",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/promotions",
+        "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/most-popular"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "This page helps customers connect with the brand's identity and values, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-dresses",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This hub showcases the main product category, attracting customer interest in dresses."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/trending",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Trend Collection",
+            "selection_reason": "Highlighting trending items captures customer interest and encourages exploration of popular products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/new-today",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "This collection attracts customers looking for the latest products, enhancing interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/sale",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "The sale hub appeals to price-sensitive customers, driving interest and potential purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/checkout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "The checkout page is critical for conversion, representing the final step in the purchasing decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart page allows customers to review their selections, influencing their final purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "A clear returns policy builds customer trust and confidence in the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Providing shipping information is essential for customer satisfaction and fulfillment transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/account/login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Login",
+            "selection_reason": "The login page is vital for returning customers to access their accounts and order history."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/help",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "A help page enhances customer retention by providing support and addressing common inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "The contact page allows customers to reach out for assistance, fostering ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/promotions",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Promotions Page",
+            "selection_reason": "Promotions can influence customer decisions and drive conversions, making this page crucial."
+          },
+          {
+            "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/most-popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Most Popular / Going Fast Collection",
+            "selection_reason": "Showcasing popular items can drive interest and encourage customers to explore best-sellers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 45,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/quay-australia",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/bando",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/trending",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/follow-us-on-snapchat",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Media Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/account",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/gift-certificates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/laura-beverlin",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Influencer Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/home-decor",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/graduation-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/ankle-boots-booties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/animal-print",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/amanda-miller",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Influencer Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/red-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/beauty",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/sweaters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/shop-the-look",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop The Look Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/notify-of-restock",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Notify of Restock Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/most-popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/outlet-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/going-fast",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/new-today",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-clothing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/maxi-dress",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/all-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/shoes-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/back-in-stock",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/promotions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/shop-by-color",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/checkout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/pages/privacy-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/off-the-shoulder-trend",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181222082234/https://www.reddressboutique.com/collections/dresses-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-01 12:43:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 210,
+      "valid_content_urls_count": 210,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/our-story",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-dresses",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/outlet-sale",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/new-today",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/cart",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/checkout",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/shipping",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/returns",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/account",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/contact-us",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/help",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/privacy-security",
+        "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/notify-of-restock"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides background about the brand, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-dresses",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "A core collection page that showcases a primary product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/outlet-sale",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale Hub",
+            "selection_reason": "Attracts customers looking for discounts and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/new-today",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Highlights the latest products, appealing to trend-conscious shoppers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/checkout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Critical step in the purchasing process, facilitating the final transaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential information that affects customer confidence in purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/account",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Encourages customer loyalty by providing account management features."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support and engagement, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/help",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides assistance and answers to common questions, improving customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/privacy-security",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/notify-of-restock",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Notify of Restock Page",
+            "selection_reason": "Engages customers interested in out-of-stock items, encouraging future purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 44,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/account",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/outlet-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/shop-the-look",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop The Look Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/back-in-stock",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/most-popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/animal-print-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-clothing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/shoes-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/sweaters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/quay-australia",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/maxi-dress",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/christmas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/home-decor-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/beauty-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/new-today",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/privacy-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/trending",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/graduation-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/follow-us-on-snapchat",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Media Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/ankle-boots-booties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/checkout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/gift-certificates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/off-the-shoulder",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/pages/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/all-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/dresses-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/animal-print",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/red-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/going-fast",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/notify-of-restock",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Notify of Restock Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191216015822/https://www.reddressboutique.com/collections/shop-by-color",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-01 12:44:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 177,
+      "valid_content_urls_count": 177,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/our-story",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/red-dresses",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/returns",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/cart",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/checkout",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/shipping",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/contact-us",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/account",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/most-popular",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-gifts",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/help",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/new-today",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-clothing",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/privacy-security",
+        "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/valentines-day-dresses"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/our-story",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About / Our Story",
+            "selection_reason": "Provides background and values of the brand, essential for customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/red-dresses",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Shop by Attribute (Color/Print)",
+            "selection_reason": "Highlights a popular product category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Critical for customer trust and decision-making regarding purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/checkout",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout",
+            "selection_reason": "Final step in the purchasing process, crucial for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/shipping",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Policy",
+            "selection_reason": "Informs customers about shipping options and costs, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/account",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Hub",
+            "selection_reason": "Allows customers to manage their accounts, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/most-popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Most Popular / Going Fast Collection",
+            "selection_reason": "Showcases trending items, driving customer interest and urgency."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-gifts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide Collection",
+            "selection_reason": "Targets gift shoppers, expanding customer base during gifting seasons."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/help",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help / FAQ",
+            "selection_reason": "Provides answers to common questions, improving customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/new-today",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Collection",
+            "selection_reason": "Attracts customers looking for the latest products, driving repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-clothing",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Central hub for all clothing, facilitating easy navigation for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/privacy-security",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/valentines-day-dresses",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Seasonal / Event Collection",
+            "selection_reason": "Targets seasonal shoppers, enhancing relevance during specific times."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 43,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/our-story",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About / Our Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/red-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/shoes-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/shop-by-color",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Attribute (Color/Print)"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/notify-of-restock",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Notify of Restock Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/follow-us-on-snapchat",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Media Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/account",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/most-popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/home-decor-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Home & Decor Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/dresses-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale by Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/account/login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/shipping",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/valentines-day-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/off-the-shoulder",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/help",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help / FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/animal-print",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/trending",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/ankle-boots-booties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/new-today",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/maxi-dress",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/back-in-stock",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Back in Stock Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/shop-the-look",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop The Look Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/checkout",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/animal-print-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Trend Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/pages/privacy-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/sweaters",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/gift-certificates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Certificate Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/beauty-on-sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Beauty Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/graduation-dresses",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Seasonal / Event Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/going-fast",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Most Popular / Going Fast Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20200111100231/https://www.reddressboutique.com/collections/all-clothing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        }
+      ]
+    }
+  }
+}

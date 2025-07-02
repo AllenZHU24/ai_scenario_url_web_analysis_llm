@@ -1,0 +1,298 @@
+{
+  "generation_time": "2025-06-30 13:49:24",
+  "company_url": "essentialhardware.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.php"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/company-info/about-us"
+        ]
+      },
+      {
+        "type_name": "News / Blog Page",
+        "typical_url_patterns": [
+          "/company-info/news"
+        ]
+      },
+      {
+        "type_name": "DIY Project Hub",
+        "typical_url_patterns": [
+          "/projects.php"
+        ]
+      },
+      {
+        "type_name": "DIY Project Detail",
+        "typical_url_patterns": [
+          "/project_details.php?pid=*"
+        ]
+      },
+      {
+        "type_name": "HTML Sitemap",
+        "typical_url_patterns": [
+          "/catalog/seo_sitemap/category/"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/company-info/careers"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*/*/*.html",
+          "/*/*.html",
+          "/*-[0-9]*.html",
+          "/product_detail.php?pid=*"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category (L1)",
+        "typical_url_patterns": [
+          "/hardware.html",
+          "/home-garden.html",
+          "/tools.html",
+          "/automotive.html",
+          "/sporting-goods.html"
+        ]
+      },
+      {
+        "type_name": "Mid-Level Category (L2)",
+        "typical_url_patterns": [
+          "/hardware/plumbing.html",
+          "/home-garden/lawn-care.html",
+          "/tools/power-tools.html",
+          "/automotive/automotive-parts.html",
+          "/sporting-goods/marine-hunting-camping.html"
+        ]
+      },
+      {
+        "type_name": "Leaf-Level Category (L3)",
+        "typical_url_patterns": [
+          "/hardware/plumbing/faucets.html",
+          "/home-garden/lawn-care/herbicides.html",
+          "/tools/power-tools/saws.html",
+          "/automotive/automotive-parts/filters.html",
+          "/sporting-goods/marine-hunting-camping/fishing-equipment.html"
+        ]
+      },
+      {
+        "type_name": "Legacy Category Page",
+        "typical_url_patterns": [
+          "/products.php?ccid=*"
+        ]
+      },
+      {
+        "type_name": "Paginated/Filtered Category View",
+        "typical_url_patterns": [
+          "/*?p=*",
+          "/*?limit=*",
+          "/*?dir=*",
+          "/*?order=*",
+          "/*?brand=*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/catalogsearch/result/*",
+          "/search?q=*"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/europro.html"
+        ]
+      },
+      {
+        "type_name": "Themed Category (Gifts)",
+        "typical_url_patterns": [
+          "/gift-ideas.html?cat=*"
+        ]
+      },
+      {
+        "type_name": "Themed Category (New Items)",
+        "typical_url_patterns": [
+          "/new-items.html"
+        ]
+      },
+      {
+        "type_name": "Themed Category (Holiday)",
+        "typical_url_patterns": [
+          "/home-garden/holiday-seasonal.html"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Quick View",
+        "typical_url_patterns": [
+          "/product_detail_qv.php?pid=*"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Project List",
+        "typical_url_patterns": [
+          "/wishlist/project/"
+        ]
+      },
+      {
+        "type_name": "Knowledge Base Home",
+        "typical_url_patterns": [
+          "/knowledge-base/home.html",
+          "/kb/category/viewhome/"
+        ]
+      },
+      {
+        "type_name": "KB Article: Shipping Policy",
+        "typical_url_patterns": [
+          "/knowledge-base/home/what-are-your-shipping-rates.html",
+          "/knowledge-base/shipping-delivery.html"
+        ]
+      },
+      {
+        "type_name": "KB Article: Return Policy",
+        "typical_url_patterns": [
+          "/knowledge-base/home/what-is-your-return-policy.html"
+        ]
+      },
+      {
+        "type_name": "KB Article: Payment Information",
+        "typical_url_patterns": [
+          "/knowledge-base/payments.html"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/knowledge-base/customer-service.html",
+          "/knowledge-base/customer-service/"
+        ]
+      },
+      {
+        "type_name": "Site-wide Reviews Page",
+        "typical_url_patterns": [
+          "/reviews"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/company-info/contact-info"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.php"
+        ]
+      },
+      {
+        "type_name": "Checkout Page",
+        "typical_url_patterns": [
+          "/onestepcheckout/"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/sign_in.php",
+          "/xajax/customer_account/login/"
+        ]
+      },
+      {
+        "type_name": "Account Creation Page",
+        "typical_url_patterns": [
+          "/xajax/customer_account/create/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Success Page",
+        "typical_url_patterns": [
+          "/checkout/onepage/success/"
+        ]
+      },
+      {
+        "type_name": "My Account - Order History",
+        "typical_url_patterns": [
+          "/sales/order/history/",
+          "/customer/account/orders/"
+        ]
+      },
+      {
+        "type_name": "My Account - Order Details",
+        "typical_url_patterns": [
+          "/sales/order/view/order_id/*"
+        ]
+      },
+      {
+        "type_name": "My Account - Order Tracking",
+        "typical_url_patterns": [
+          "/sales/order/track/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/"
+        ]
+      },
+      {
+        "type_name": "Rewards / Loyalty Program",
+        "typical_url_patterns": [
+          "/rewards-programs"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup / Sample Page",
+        "typical_url_patterns": [
+          "/sample-newsletter",
+          "/sample-newsletter/"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program Page",
+        "typical_url_patterns": [
+          "/company-info/become-affiliate"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/terms-conditions/terms-of-use"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/terms-conditions/privacy-policy"
+        ]
+      },
+      {
+        "type_name": "Legacy Static Info Page",
+        "typical_url_patterns": [
+          "/information.php?iid=*"
+        ]
+      }
+    ]
+  },
+  "total_types": 42
+}

@@ -1,0 +1,362 @@
+{
+  "generation_time": "2025-06-27 16:09:25",
+  "company_url": "3balls.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/*"
+        ]
+      },
+      {
+        "type_name": "Informational Content Page",
+        "typical_url_patterns": [
+          "/file_include-file/whatis",
+          "/file_include-file/where-we-get-our-stuff",
+          "/file_include-file/buy-with-confidence"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/promotions/*",
+          "/static_include-file/deal-zone*"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate/",
+          "/file_include-file/affiliate-program"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Shop Page",
+        "typical_url_patterns": [
+          "/shop/"
+        ]
+      },
+      {
+        "type_name": "New Clubs Hub",
+        "typical_url_patterns": [
+          "/shop/new-clubs/"
+        ]
+      },
+      {
+        "type_name": "Used Clubs Hub",
+        "typical_url_patterns": [
+          "/shop/used-clubs/"
+        ]
+      },
+      {
+        "type_name": "Apparel Hub",
+        "typical_url_patterns": [
+          "/shop/apparel/",
+          "/shop/Product_Type-Apparel"
+        ]
+      },
+      {
+        "type_name": "Shoes Hub",
+        "typical_url_patterns": [
+          "/shop/shoes/",
+          "/shop/Product_Type-Shoes"
+        ]
+      },
+      {
+        "type_name": "Golf Bags Hub",
+        "typical_url_patterns": [
+          "/shop/golf-bags/",
+          "/shop/bags/",
+          "/shop/Product_Type-Bags"
+        ]
+      },
+      {
+        "type_name": "Golf Balls Hub",
+        "typical_url_patterns": [
+          "/shop/balls/",
+          "/shop/reload/balls/",
+          "/shop/Product_Type-Balls"
+        ]
+      },
+      {
+        "type_name": "Accessories Hub",
+        "typical_url_patterns": [
+          "/shop/accessories/",
+          "/shop/Product_Type-Accessories"
+        ]
+      },
+      {
+        "type_name": "Training Aids Hub",
+        "typical_url_patterns": [
+          "/shop/training-aids/",
+          "/shop/Product_Type-Practice_Aids"
+        ]
+      },
+      {
+        "type_name": "Brand Hub",
+        "typical_url_patterns": [
+          "/shop/{brand-name}/",
+          "/shop/Brand-*"
+        ]
+      },
+      {
+        "type_name": "Audience Hub (Men/Women/Junior/Lefty)",
+        "typical_url_patterns": [
+          "/shop/mens/",
+          "/shop/womens/",
+          "/shop/juniors/",
+          "/shop/clubs/left-hand/",
+          "/shop/Gender-*",
+          "/shop/Hand-LH"
+        ]
+      },
+      {
+        "type_name": "Sales & Deals Hub",
+        "typical_url_patterns": [
+          "/clearance/",
+          "/weekly-specials/",
+          "/shop/closeout/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Hub",
+        "typical_url_patterns": [
+          "/just-arrived/"
+        ]
+      },
+      {
+        "type_name": "Trade-In Hub",
+        "typical_url_patterns": [
+          "/trade-in/",
+          "/Trade-In/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/product-productid/*",
+          "/shop/{product_id}/*/"
+        ]
+      },
+      {
+        "type_name": "Internal Search Results",
+        "typical_url_patterns": [
+          "/sitesearch/search.php?keywords=*",
+          "/search/?keyword=*"
+        ]
+      },
+      {
+        "type_name": "Product Listing (Sub-Category)",
+        "typical_url_patterns": [
+          "/shop/*/*/",
+          "/shop/Product_Type-*/Type-*"
+        ]
+      },
+      {
+        "type_name": "Product Listing (Filtered)",
+        "typical_url_patterns": [
+          "*?tags=*",
+          "*?grd=*",
+          "*Condition=*",
+          "*Size=*"
+        ]
+      },
+      {
+        "type_name": "Drivers Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/driver/",
+          "/shop/used-clubs/driver/",
+          "/shop/Product_Type-Woods_Drivers"
+        ]
+      },
+      {
+        "type_name": "Fairway Woods Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/fairway-wood/",
+          "/shop/used-clubs/fairway-wood/",
+          "/shop/Product_Type-Woods_Fairway"
+        ]
+      },
+      {
+        "type_name": "Hybrids Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/hybrid/",
+          "/shop/used-clubs/hybrid/",
+          "/shop/Product_Type-Woods_Utility"
+        ]
+      },
+      {
+        "type_name": "Irons & Wedges Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/iron-set/",
+          "/shop/used-clubs/wedge/",
+          "/shop/Product_Type-Irons_Wedges"
+        ]
+      },
+      {
+        "type_name": "Putters Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/putter/",
+          "/shop/used-clubs/putter/",
+          "/shop/Product_Type-Putter"
+        ]
+      },
+      {
+        "type_name": "Complete Sets Category",
+        "typical_url_patterns": [
+          "/shop/new-clubs/club-set/",
+          "/shop/used-clubs/club-set/",
+          "/shop/Product_Type-Complete_Sets"
+        ]
+      },
+      {
+        "type_name": "Apparel Sub-Category",
+        "typical_url_patterns": [
+          "/shop/apparel/shirt/",
+          "/shop/apparel/pants/",
+          "/shop/apparel/headwear/"
+        ]
+      },
+      {
+        "type_name": "Shoes Sub-Category",
+        "typical_url_patterns": [
+          "/shop/shoes/golf-shoe/",
+          "/shop/shoes/spikeless/"
+        ]
+      },
+      {
+        "type_name": "Condition/Grade Guide",
+        "typical_url_patterns": [
+          "/help/merchandisepricing/grade-guide/",
+          "/file_include-file/conditionpage"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Purchase",
+        "typical_url_patterns": [
+          "/gift-certificates/",
+          "/gift_certificates"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/customer_account-display/modifycart*"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/track-order/"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/account/orders/"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/help/shipping/",
+          "/misc/shippop.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Home",
+        "typical_url_patterns": [
+          "/account/",
+          "/customer_account/"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program",
+        "typical_url_patterns": [
+          "/account/loyalty/",
+          "/rewards"
+        ]
+      },
+      {
+        "type_name": "Product Alerts Management",
+        "typical_url_patterns": [
+          "/account/product-alert/",
+          "/product_alerts"
+        ]
+      },
+      {
+        "type_name": "My Trade-Ins",
+        "typical_url_patterns": [
+          "/account/trade-in/"
+        ]
+      },
+      {
+        "type_name": "Returns Policy",
+        "typical_url_patterns": [
+          "/help/returns/"
+        ]
+      },
+      {
+        "type_name": "Help / FAQ Hub",
+        "typical_url_patterns": [
+          "/help/"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/help/info/contact/"
+        ]
+      },
+      {
+        "type_name": "Promotions Information",
+        "typical_url_patterns": [
+          "/help/paymentpromotions/"
+        ]
+      },
+      {
+        "type_name": "Email Signup Form",
+        "typical_url_patterns": [
+          "/promotions/emailsignuppop.php*"
+        ]
+      },
+      {
+        "type_name": "Legal / Privacy Policy",
+        "typical_url_patterns": [
+          "/file_include-file/privacypolicy",
+          "/file_include-file/legalese"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

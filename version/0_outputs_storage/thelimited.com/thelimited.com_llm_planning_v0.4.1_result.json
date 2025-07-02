@@ -1,0 +1,1878 @@
+{
+  "agent_version": "Real_LLM_Planning_Agent_v0.4",
+  "company_url": "thelimited.com",
+  "export_time": "2025-06-14 07:07:14",
+  "yearly_analysis_results": {
+    "2011": {
+      "analysis_time": "2025-06-14 07:03:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 31,
+      "valid_content_urls_count": 31,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/apparel",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/whats-new",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/sale",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/whats-new/new-arrivals",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/shopping_bag",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/account/create",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/e-mail",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/wishlist",
+        "https://web.archive.org/web/20111231050358/http://www.facebook.com/thelimited",
+        "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/programs/affiliate-program"
+      ],
+      "recommended_pages_count": 14,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User visits the homepage to browse products",
+              "User looks for promotions on the homepage"
+            ],
+            "selection_reason": "Essential entry point for users to start their shopping journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/apparel",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses through apparel categories",
+              "User filters apparel by type"
+            ],
+            "selection_reason": "Represents a key browsing stage for users interested in clothing."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/whats-new",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User checks new arrivals",
+              "User looks for the latest trends"
+            ],
+            "selection_reason": "Highlights new products, attracting users looking for fresh items."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/sale",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User seeks discounted items",
+              "User compares sale items"
+            ],
+            "selection_reason": "Captures users looking for bargains, enhancing the browsing experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/category/whats-new/new-arrivals",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User views details of a new arrival",
+              "User checks product specifications"
+            ],
+            "selection_reason": "Provides detailed information about specific products, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks their order status",
+              "User checks delivery updates"
+            ],
+            "selection_reason": "Important for users wanting to monitor their purchases post-order."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/shopping_bag",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items before checkout",
+              "User modifies cart contents"
+            ],
+            "selection_reason": "Critical step in the purchase stage for users finalizing their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User looks for return policies",
+              "User initiates a return process"
+            ],
+            "selection_reason": "Essential for after-sales support, addressing user concerns about returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help with an order",
+              "User finds contact information"
+            ],
+            "selection_reason": "Provides necessary support for users needing assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/account/create",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User creates a new account",
+              "User manages account settings"
+            ],
+            "selection_reason": "Facilitates user retention by encouraging account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/e-mail",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User opts in for promotional emails"
+            ],
+            "selection_reason": "Encourages ongoing engagement with users through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/wishlist",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User saves favorite items for later",
+              "User compares products"
+            ],
+            "selection_reason": "Enhances decision-making by allowing users to track desired products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.facebook.com/thelimited",
+            "page_type": "Social Media",
+            "expected_scenarios": [
+              "User engages with the brand on social media",
+              "User follows for updates"
+            ],
+            "selection_reason": "Strengthens brand presence and user engagement through social platforms."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231050358/http://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about affiliate opportunities",
+              "User engages with loyalty programs"
+            ],
+            "selection_reason": "Promotes customer retention through loyalty initiatives."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2010": {
+      "analysis_time": "2025-06-14 07:03:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 23,
+      "valid_content_urls_count": 23,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/apparel",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/sale",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/accessories-gifts",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/detail/index/item_desc/12345",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/search/?q=shirt",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/favorites",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/shopping_bag",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/account/create",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/e-mail",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/programs/affiliate-program",
+        "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage to browse products",
+              "User looks for promotions or featured items"
+            ],
+            "selection_reason": "This URL represents the main entry point for users, covering the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/apparel",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User navigates to the apparel category to explore clothing options",
+              "User wants to filter products by category"
+            ],
+            "selection_reason": "This URL provides access to a specific product category, fitting the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/sale",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User checks for discounted items",
+              "User browses through sale items"
+            ],
+            "selection_reason": "This URL allows users to view products on sale, relevant to the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/category/accessories-gifts",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User explores accessories and gift options",
+              "User wants to find complementary products"
+            ],
+            "selection_reason": "This URL covers another category, enhancing the Browse Stage experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/detail/index/item_desc/12345",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User wants detailed information about a specific product",
+              "User checks product specifications and images"
+            ],
+            "selection_reason": "This URL provides detailed information about a product, essential for the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/search/?q=shirt",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for specific items like shirts",
+              "User wants to find products quickly"
+            ],
+            "selection_reason": "This URL allows users to perform searches, fitting the Search Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/favorites",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares favorite items before making a decision",
+              "User reviews saved products"
+            ],
+            "selection_reason": "This URL enables users to compare products, relevant to the Decision-Making Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User checks the status of their order",
+              "User wants to know when their order will arrive"
+            ],
+            "selection_reason": "This URL is crucial for users post-purchase, fitting the After-Sales Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/shopping_bag",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items in their shopping cart",
+              "User prepares to proceed to checkout"
+            ],
+            "selection_reason": "This URL allows users to view their cart, essential for the Purchase Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User completes their purchase",
+              "User enters payment and shipping information"
+            ],
+            "selection_reason": "This URL is critical for finalizing purchases, fitting the Purchase Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User wants to initiate a return",
+              "User seeks information on exchange policies"
+            ],
+            "selection_reason": "This URL addresses post-purchase concerns, relevant to the After-Sales Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/account/create",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User creates a new account",
+              "User wants to manage their account settings"
+            ],
+            "selection_reason": "This URL is essential for user account management, fitting the Customer Retention Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/e-mail",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User wants to receive promotional emails"
+            ],
+            "selection_reason": "This URL allows users to subscribe to emails, enhancing Customer Retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about affiliate programs",
+              "User wants to join loyalty initiatives"
+            ],
+            "selection_reason": "This URL provides information on loyalty programs, relevant to Customer Retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231045924/http://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help with issues",
+              "User wants to contact customer service"
+            ],
+            "selection_reason": "This URL is vital for customer support, fitting the After-Sales Stage."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2014": {
+      "analysis_time": "2025-06-14 07:04:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 162,
+      "valid_content_urls_count": 162,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/category/womens-clothing",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/new-arrivals",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/detail/index/item_desc/12345",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/limited-time-offers",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/search/?q=top",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/wishlist",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/cart",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/account",
+        "https://web.archive.org/web/20141231164431/http://www.thelimited.com/email"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User visits the homepage to start browsing products"
+            ],
+            "selection_reason": "Covers the starting point of the customer journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/category/womens-clothing",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses women's clothing categories"
+            ],
+            "selection_reason": "Provides access to specific product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/new-arrivals",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User looks for new arrivals in the store"
+            ],
+            "selection_reason": "Highlights the latest products available."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/detail/index/item_desc/12345",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User views detailed information about a specific product"
+            ],
+            "selection_reason": "Essential for users making decisions on specific items."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/limited-time-offers",
+            "page_type": "Special Collections",
+            "expected_scenarios": [
+              "User checks out special promotional collections"
+            ],
+            "selection_reason": "Attracts users with limited-time offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/search/?q=top",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for specific items like 'top'"
+            ],
+            "selection_reason": "Facilitates product discovery through search functionality."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/wishlist",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares items they are interested in purchasing"
+            ],
+            "selection_reason": "Helps users in decision-making by saving favorite products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User reads reviews on popular items"
+            ],
+            "selection_reason": "Influences purchase decisions through customer feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/cart",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items before proceeding to checkout"
+            ],
+            "selection_reason": "Critical step in the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User completes their purchase"
+            ],
+            "selection_reason": "Finalizes the transaction for the user."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks their order status post-purchase"
+            ],
+            "selection_reason": "Enhances customer experience after purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User seeks information on returning items"
+            ],
+            "selection_reason": "Important for customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User looks for help or customer service"
+            ],
+            "selection_reason": "Provides support options for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/account",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User manages their account settings"
+            ],
+            "selection_reason": "Facilitates user account management and personalization."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231164431/http://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to email updates"
+            ],
+            "selection_reason": "Encourages customer retention through subscriptions."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 3,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2012": {
+      "analysis_time": "2025-06-14 07:04:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 97,
+      "valid_content_urls_count": 97,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/?navid=logo",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/new-arrivals,default,sc.html?icid=IBAC-0000759",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/pants,default,sc.html?navid=top",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/new-dresses,default,sc.html?navid=top",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale,default,sc.html?navid=top",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sweater,default,sc.html?navid=top",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/search/?q=sweater",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale-pants,default,sc.html?navid=top",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/on/demandware.store/Sites-ltd-Site/default/Cart-Show",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service",
+        "https://web.archive.org/web/20121226183227/https://www.thelimited.com/on/demandware.store/Sites-ltd-Site/default/EmailSubscription-Show",
+        "https://web.archive.org/web/20121226183227/http://www.thelimited.com/facebook"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/?navid=logo",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User visits the homepage to explore products"
+            ],
+            "selection_reason": "Covers the browsing stage as the entry point."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/new-arrivals,default,sc.html?icid=IBAC-0000759",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User views new arrivals in women's clothing"
+            ],
+            "selection_reason": "Showcases new products, enhancing browsing experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/pants,default,sc.html?navid=top",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User navigates to the pants category"
+            ],
+            "selection_reason": "Represents a specific category for browsing."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/new-dresses,default,sc.html?navid=top",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User explores new dresses"
+            ],
+            "selection_reason": "Provides another category option for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale,default,sc.html?navid=top",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User checks out sale items"
+            ],
+            "selection_reason": "Encourages browsing through discounted products."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sweater,default,sc.html?navid=top",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User views details of a specific sweater"
+            ],
+            "selection_reason": "Provides detailed information about a product."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/search/?q=sweater",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for sweaters"
+            ],
+            "selection_reason": "Facilitates user search for specific items."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/womens-clothing/sale-pants,default,sc.html?navid=top",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares different sale pants"
+            ],
+            "selection_reason": "Allows users to evaluate options before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/on/demandware.store/Sites-ltd-Site/default/Cart-Show",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User views items in their shopping cart"
+            ],
+            "selection_reason": "Essential for the purchase stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User proceeds to checkout"
+            ],
+            "selection_reason": "Critical step in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks their order status"
+            ],
+            "selection_reason": "Supports after-sales service."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User initiates a return or exchange"
+            ],
+            "selection_reason": "Important for after-sales support."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks customer support"
+            ],
+            "selection_reason": "Provides assistance for customer inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/https://www.thelimited.com/on/demandware.store/Sites-ltd-Site/default/EmailSubscription-Show",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to email updates"
+            ],
+            "selection_reason": "Encourages customer retention through subscriptions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121226183227/http://www.thelimited.com/facebook",
+            "page_type": "Social Media",
+            "expected_scenarios": [
+              "User interacts with brand on social media"
+            ],
+            "selection_reason": "Enhances customer engagement and retention."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2015": {
+      "analysis_time": "2025-06-14 07:04:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 180,
+      "valid_content_urls_count": 180,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/category/womens-clothing",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/sale/sale-shorts?navid=top",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/features/new-arrivals/new-arrivals-lounge?navid=top",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/detail/index/item_desc/12345",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/search/?q=jeans",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/wishlist",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/features/highest-rated-apparel-and-accessories?navid=top",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/cart",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20151231003112/http://www.thelimited.com/contactus",
+        "https://web.archive.org/web/20151231003112/https://www.thelimited.com/register",
+        "https://web.archive.org/web/20151231003112/https://www.thelimited.com/email"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage to browse products"
+            ],
+            "selection_reason": "Represents the starting point of the customer journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/category/womens-clothing",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses women's clothing categories"
+            ],
+            "selection_reason": "Provides access to various product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/sale/sale-shorts?navid=top",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User views products on sale"
+            ],
+            "selection_reason": "Highlights discounted products, attracting bargain hunters."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/features/new-arrivals/new-arrivals-lounge?navid=top",
+            "page_type": "Special Collections",
+            "expected_scenarios": [
+              "User explores new arrivals in lounge wear"
+            ],
+            "selection_reason": "Showcases new products, appealing to trend-conscious shoppers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/detail/index/item_desc/12345",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User views details of a specific product"
+            ],
+            "selection_reason": "Essential for customers needing detailed product information."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/search/?q=jeans",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for jeans"
+            ],
+            "selection_reason": "Facilitates direct product searches, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/wishlist",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares favorite products"
+            ],
+            "selection_reason": "Allows users to save and compare products before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/features/highest-rated-apparel-and-accessories?navid=top",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User reads reviews of popular items"
+            ],
+            "selection_reason": "Builds trust through customer feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/cart",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User views items in their shopping cart"
+            ],
+            "selection_reason": "Critical for users preparing to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User proceeds to checkout"
+            ],
+            "selection_reason": "Essential for completing the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks their order status"
+            ],
+            "selection_reason": "Provides transparency and reassurance to customers post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User learns about return policies"
+            ],
+            "selection_reason": "Crucial for customer satisfaction and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/http://www.thelimited.com/contactus",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help or has inquiries"
+            ],
+            "selection_reason": "Provides necessary support for customer issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/https://www.thelimited.com/register",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User creates an account"
+            ],
+            "selection_reason": "Encourages user retention through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231003112/https://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters"
+            ],
+            "selection_reason": "Grows the customer base through email marketing."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2016": {
+      "analysis_time": "2025-06-14 07:05:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 87,
+      "valid_content_urls_count": 87,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/womens-clothing/dresses?navid=top",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/sale/sale-eva?navid=top",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/detail/index/item_desc/12345",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/search",
+        "https://web.archive.org/web/20161227152618/https://www.thelimited.com/wishlist",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/cart",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/contactus",
+        "https://web.archive.org/web/20161227152618/https://www.thelimited.com/register",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/email",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/programs/affiliate-program",
+        "https://web.archive.org/web/20161227152618/http://www.thelimited.com/facebook"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User visits the homepage to browse products",
+              "User looks for promotions"
+            ],
+            "selection_reason": "Represents the entry point for users to start their shopping journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/womens-clothing/dresses?navid=top",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses women's dresses",
+              "User filters dresses by size or color"
+            ],
+            "selection_reason": "Covers a specific category of products for browsing."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/sale/sale-eva?navid=top",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User looks for discounted items",
+              "User compares different sale products"
+            ],
+            "selection_reason": "Showcases a listing of products on sale, appealing to bargain hunters."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/detail/index/item_desc/12345",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User wants detailed information about a specific product",
+              "User checks product specifications"
+            ],
+            "selection_reason": "Provides in-depth information necessary for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/search",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for specific items",
+              "User looks for product availability"
+            ],
+            "selection_reason": "Facilitates user navigation through search functionality."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/https://www.thelimited.com/wishlist",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares favorite items",
+              "User saves items for future purchase"
+            ],
+            "selection_reason": "Allows users to manage and compare their desired products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/cart",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items before purchase",
+              "User adjusts quantities or removes items"
+            ],
+            "selection_reason": "Critical step in the purchase process where users finalize their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User enters payment information",
+              "User confirms order details"
+            ],
+            "selection_reason": "Essential for completing the purchase transaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User checks the status of their order",
+              "User inquires about delivery times"
+            ],
+            "selection_reason": "Provides post-purchase support for users to track their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User seeks information on how to return an item",
+              "User checks return policies"
+            ],
+            "selection_reason": "Important for customer satisfaction and after-sales support."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/contactus",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User needs assistance with an order",
+              "User has questions about products"
+            ],
+            "selection_reason": "Provides a channel for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/https://www.thelimited.com/register",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User creates a new account",
+              "User manages account settings"
+            ],
+            "selection_reason": "Encourages user retention through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User opts in for promotional emails"
+            ],
+            "selection_reason": "Enhances customer retention through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about affiliate programs",
+              "User signs up for loyalty rewards"
+            ],
+            "selection_reason": "Promotes customer loyalty and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227152618/http://www.thelimited.com/facebook",
+            "page_type": "Social Media",
+            "expected_scenarios": [
+              "User engages with the brand on social media",
+              "User shares products with friends"
+            ],
+            "selection_reason": "Connects users with the brand's social presence for community engagement."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2017": {
+      "analysis_time": "2025-06-14 07:05:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/dresses/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/tops/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/search/?isclearancelanding=true&pmid=LimitedClearancePricing",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/returns-refunds/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/my-bag/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/account-order-history/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/size-chart/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/privacy-policy/privacy-policy.html",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/email",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/account/",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/programs/affiliate-program",
+        "https://web.archive.org/web/20171227085212/https://www.thelimited.com/my-closet/"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage to explore products",
+              "User looks for promotions or featured items"
+            ],
+            "selection_reason": "Covers the Browse Stage as the entry point for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/dresses/",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses the dresses category",
+              "User filters dresses by size or color"
+            ],
+            "selection_reason": "Represents a specific product category in the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/tops/",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User explores different tops available",
+              "User compares styles within the tops category"
+            ],
+            "selection_reason": "Provides another category option in the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/search/?isclearancelanding=true&pmid=LimitedClearancePricing",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for clearance items",
+              "User looks for specific products using search"
+            ],
+            "selection_reason": "Covers the Search Stage by allowing users to find specific items."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/returns-refunds/",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User checks return policies",
+              "User initiates a return process"
+            ],
+            "selection_reason": "Essential for the After-Sales Stage, addressing returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help with an order",
+              "User looks for contact information"
+            ],
+            "selection_reason": "Provides support options in the After-Sales Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/my-bag/",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items in the cart",
+              "User updates quantities or removes items"
+            ],
+            "selection_reason": "Critical for the Purchase Stage as it leads to checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/account-order-history/",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User checks past orders",
+              "User prepares for reordering items"
+            ],
+            "selection_reason": "Supports the Purchase Stage by managing order history."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/size-chart/",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User checks size information before purchasing",
+              "User compares sizes across products"
+            ],
+            "selection_reason": "Useful in the Decision-Making Stage for informed purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/privacy-policy/privacy-policy.html",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User reviews privacy policies",
+              "User seeks information on data handling"
+            ],
+            "selection_reason": "Important for After-Sales Stage regarding customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User reads reviews on top-rated products",
+              "User compares customer feedback"
+            ],
+            "selection_reason": "Enhances the Decision-Making Stage by providing insights."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes for updates",
+              "User opts in for promotional emails"
+            ],
+            "selection_reason": "Supports Customer Retention Stage by building a subscriber base."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/account/",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User manages account settings",
+              "User updates personal information"
+            ],
+            "selection_reason": "Essential for Customer Retention Stage to maintain user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about affiliate opportunities",
+              "User checks benefits of loyalty programs"
+            ],
+            "selection_reason": "Encourages Customer Retention Stage through loyalty incentives."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227085212/https://www.thelimited.com/my-closet/",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares items saved in their closet",
+              "User evaluates potential purchases"
+            ],
+            "selection_reason": "Facilitates the Decision-Making Stage by allowing product comparisons."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2009": {
+      "analysis_time": "2025-06-14 07:05:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 34,
+      "valid_content_urls_count": 34,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/category/accessories-gifts",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/new-arrivals",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/detail/index/item_desc/turtleneck-sweater-dress/item/3315877/default_color/137",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/search",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/favorites",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/shopping_bag",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/account/signin",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/programs/affiliate-program",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/email",
+        "https://web.archive.org/web/20091219055121/http://www.thelimited.com/category/tops"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User visits the homepage to start browsing products",
+              "User looks for promotions"
+            ],
+            "selection_reason": "Covers the Browse Stage as the entry point for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/category/accessories-gifts",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User explores accessories and gifts category",
+              "User wants to find specific items in the category"
+            ],
+            "selection_reason": "Represents the Browse Stage with a specific category."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/new-arrivals",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User checks new arrivals for the latest products",
+              "User compares new items"
+            ],
+            "selection_reason": "Highlights the Browse Stage with a focus on new products."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/detail/index/item_desc/turtleneck-sweater-dress/item/3315877/default_color/137",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User wants detailed information about a specific product",
+              "User considers purchasing the item"
+            ],
+            "selection_reason": "Essential for the Browse Stage to provide detailed product insights."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/search",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for specific items",
+              "User wants to find products quickly"
+            ],
+            "selection_reason": "Covers the Search Stage for users looking for specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/favorites",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares favorite items before making a decision",
+              "User saves items for later consideration"
+            ],
+            "selection_reason": "Supports the Decision-Making Stage by allowing product comparison."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks the status of their order",
+              "User wants to check delivery updates"
+            ],
+            "selection_reason": "Important for the After-Sales Stage to provide order tracking information."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/shopping_bag",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items in their shopping cart",
+              "User prepares to proceed to checkout"
+            ],
+            "selection_reason": "Critical for the Purchase Stage as it leads to checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User completes their purchase",
+              "User enters payment information"
+            ],
+            "selection_reason": "Essential for the Purchase Stage to finalize transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User seeks information on returning an item",
+              "User wants to understand the exchange policy"
+            ],
+            "selection_reason": "Supports the After-Sales Stage by providing return information."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/account/signin",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User logs into their account",
+              "User manages their profile and orders"
+            ],
+            "selection_reason": "Important for the Customer Retention Stage to manage accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about affiliate programs",
+              "User considers joining loyalty programs"
+            ],
+            "selection_reason": "Enhances the Customer Retention Stage by promoting loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help or information",
+              "User contacts customer service"
+            ],
+            "selection_reason": "Vital for the After-Sales Stage to provide customer support."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User wants updates on promotions"
+            ],
+            "selection_reason": "Supports the Customer Retention Stage through email engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20091219055121/http://www.thelimited.com/category/tops",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses the tops category",
+              "User looks for specific top styles"
+            ],
+            "selection_reason": "Provides additional coverage in the Browse Stage with a different category."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2019": {
+      "analysis_time": "2025-06-14 07:06:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 85,
+      "valid_content_urls_count": 85,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/clothing/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/new/jackets-blazers/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/detail/index/item_desc/12345",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/search/?q=denim",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/my-bag/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/checkout/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/returns-refunds/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/account/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/email",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/programs/affiliate-program",
+        "https://web.archive.org/web/20190710205128/https://www.thelimited.com/twitter"
+      ],
+      "recommended_pages_count": 14,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage",
+              "User explores featured products"
+            ],
+            "selection_reason": "Covers the starting point of the customer journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/clothing/",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses clothing categories",
+              "User selects a specific clothing type"
+            ],
+            "selection_reason": "Provides access to various clothing categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/new/jackets-blazers/",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User views new arrivals in jackets and blazers",
+              "User filters products based on preferences"
+            ],
+            "selection_reason": "Highlights a specific product listing for browsing."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/detail/index/item_desc/12345",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User views detailed information about a specific product",
+              "User checks product specifications"
+            ],
+            "selection_reason": "Essential for providing detailed product information."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/search/?q=denim",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for denim products",
+              "User refines search results"
+            ],
+            "selection_reason": "Facilitates user search for specific items."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/my-bag/",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items in the shopping cart",
+              "User updates quantities or removes items"
+            ],
+            "selection_reason": "Critical for the purchase stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/checkout/",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User proceeds to checkout",
+              "User enters shipping and payment information"
+            ],
+            "selection_reason": "Key step in the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/returns-refunds/",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User initiates a return process",
+              "User checks refund policies"
+            ],
+            "selection_reason": "Important for after-sales support."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User tracks order status",
+              "User checks delivery updates"
+            ],
+            "selection_reason": "Enhances customer experience post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/account/",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User manages account settings",
+              "User updates personal information"
+            ],
+            "selection_reason": "Supports customer retention through account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User opts in for promotional emails"
+            ],
+            "selection_reason": "Encourages customer retention through engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help with issues",
+              "User accesses FAQs"
+            ],
+            "selection_reason": "Essential for customer service and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/customer-service/programs/affiliate-program",
+            "page_type": "Loyalty Programs",
+            "expected_scenarios": [
+              "User learns about loyalty programs",
+              "User enrolls in affiliate programs"
+            ],
+            "selection_reason": "Promotes customer retention through loyalty initiatives."
+          },
+          {
+            "url": "https://web.archive.org/web/20190710205128/https://www.thelimited.com/twitter",
+            "page_type": "Social Media",
+            "expected_scenarios": [
+              "User engages with brand on Twitter",
+              "User follows for updates"
+            ],
+            "selection_reason": "Enhances brand presence and customer engagement."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2013": {
+      "analysis_time": "2025-06-14 07:06:45",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 107,
+      "valid_content_urls_count": 107,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/womens-clothing/",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/sale/sale-tops",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/new-arrivals/new-dresses",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/womens-clothing/jewelry/jewelry-essential-jewelry",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+        "https://web.archive.org/web/20131231220523/https://www.thelimited.com/cart",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/account",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/email",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/limited-time-offers",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/contactus",
+        "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/more-ways-to-shop-trends/resort-wear"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage to explore products",
+              "User looks for promotions"
+            ],
+            "selection_reason": "Covers the browsing stage as the entry point for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/womens-clothing/",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses women's clothing categories",
+              "User looks for specific clothing types"
+            ],
+            "selection_reason": "Represents the browsing stage with a focus on a specific category."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/sale/sale-tops",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User searches for discounted tops",
+              "User compares various sale items"
+            ],
+            "selection_reason": "Showcases a product listing page for browsing sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/new-arrivals/new-dresses",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User checks new arrivals in dresses",
+              "User wants to see the latest trends"
+            ],
+            "selection_reason": "Highlights new arrivals, relevant for browsing stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/womens-clothing/jewelry/jewelry-essential-jewelry",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User wants detailed information on a specific jewelry item",
+              "User examines product features"
+            ],
+            "selection_reason": "Provides detailed product information for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User reads reviews before making a purchase",
+              "User seeks validation from other customers"
+            ],
+            "selection_reason": "Essential for decision-making stage, focusing on customer feedback."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/https://www.thelimited.com/cart",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items before checkout",
+              "User wants to modify their cart"
+            ],
+            "selection_reason": "Critical for the purchase stage, allowing users to manage their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User proceeds to finalize their purchase",
+              "User enters payment information"
+            ],
+            "selection_reason": "Directly involved in the purchase stage, facilitating the checkout process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User checks the status of their order",
+              "User wants updates on shipping"
+            ],
+            "selection_reason": "Important for after-sales stage, providing order status information."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/customer-service/returns/returns-exchanges.html",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User wants to understand the return policy",
+              "User initiates a return process"
+            ],
+            "selection_reason": "Essential for after-sales support, addressing customer concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/account",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User manages their account settings",
+              "User updates personal information"
+            ],
+            "selection_reason": "Supports customer retention by allowing account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User opts in for promotions"
+            ],
+            "selection_reason": "Encourages customer retention through email marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/limited-time-offers",
+            "page_type": "Special Collections",
+            "expected_scenarios": [
+              "User explores limited-time deals",
+              "User looks for exclusive offers"
+            ],
+            "selection_reason": "Attracts users during the browsing stage with special promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/contactus",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks assistance with an issue",
+              "User wants to contact customer service"
+            ],
+            "selection_reason": "Vital for after-sales support, providing customer service access."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220523/http://www.thelimited.com/features/more-ways-to-shop-trends/resort-wear",
+            "page_type": "Special Collections",
+            "expected_scenarios": [
+              "User looks for specific seasonal collections",
+              "User explores themed product offerings"
+            ],
+            "selection_reason": "Enhances browsing experience with curated collections."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false
+    },
+    "2018": {
+      "analysis_time": "2025-06-14 07:07:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 79,
+      "valid_content_urls_count": 79,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/home/",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/category/*",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/new/tops/",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/detail/index/item_desc/*",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/search/?srule=Price%3A%20Low%20to%20High&sz=96&start=0&pmid=LimitedClearancePricing",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/wishlist",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/my-bag/",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/checkout",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service/order/tracking",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service/returns-refunds/",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/account/",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/email",
+        "https://web.archive.org/web/20181230112225/https://www.thelimited.com/facebook"
+      ],
+      "recommended_pages_count": 15,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/home/",
+            "page_type": "Home",
+            "expected_scenarios": [
+              "User lands on the homepage",
+              "User navigates to featured products"
+            ],
+            "selection_reason": "Covers the Browse Stage as the entry point of the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/category/*",
+            "page_type": "Category",
+            "expected_scenarios": [
+              "User browses clothing categories",
+              "User filters products by category"
+            ],
+            "selection_reason": "Represents the Browse Stage by allowing users to explore product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/new/tops/",
+            "page_type": "Product Listing",
+            "expected_scenarios": [
+              "User views new arrivals in tops",
+              "User sorts products by price"
+            ],
+            "selection_reason": "Showcases new products, fitting the Browse Stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/detail/index/item_desc/*",
+            "page_type": "Product Detail",
+            "expected_scenarios": [
+              "User checks product details",
+              "User reads product specifications"
+            ],
+            "selection_reason": "Essential for the Browse Stage, providing detailed information about a specific product."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/search/?srule=Price%3A%20Low%20to%20High&sz=96&start=0&pmid=LimitedClearancePricing",
+            "page_type": "Search",
+            "expected_scenarios": [
+              "User searches for specific items",
+              "User refines search results"
+            ],
+            "selection_reason": "Covers the Search Stage, allowing users to find products based on queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/wishlist",
+            "page_type": "Product Comparison",
+            "expected_scenarios": [
+              "User compares favorite items",
+              "User saves items for later"
+            ],
+            "selection_reason": "Fits the Decision-Making Stage by enabling product comparison."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/features/highest-rated-apparel-and-accessories",
+            "page_type": "Customer Reviews",
+            "expected_scenarios": [
+              "User reads reviews on popular items",
+              "User checks ratings before purchasing"
+            ],
+            "selection_reason": "Important for the Decision-Making Stage, providing social proof."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/my-bag/",
+            "page_type": "Shopping Cart",
+            "expected_scenarios": [
+              "User reviews items in the cart",
+              "User adjusts quantities before checkout"
+            ],
+            "selection_reason": "Critical for the Purchase Stage, allowing users to manage their selected items."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/checkout",
+            "page_type": "Checkout",
+            "expected_scenarios": [
+              "User enters shipping information",
+              "User finalizes the purchase"
+            ],
+            "selection_reason": "Essential for the Purchase Stage, facilitating the checkout process."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service/order/tracking",
+            "page_type": "Order Tracking",
+            "expected_scenarios": [
+              "User checks the status of an order",
+              "User tracks shipment progress"
+            ],
+            "selection_reason": "Covers the After-Sales Stage, providing order tracking capabilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service/returns-refunds/",
+            "page_type": "Returns and Exchanges",
+            "expected_scenarios": [
+              "User initiates a return",
+              "User checks return policies"
+            ],
+            "selection_reason": "Important for the After-Sales Stage, assisting users with returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/customer-service",
+            "page_type": "Customer Support",
+            "expected_scenarios": [
+              "User seeks help with issues",
+              "User contacts customer service"
+            ],
+            "selection_reason": "Covers the After-Sales Stage, providing customer support options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/account/",
+            "page_type": "Account Management",
+            "expected_scenarios": [
+              "User manages account settings",
+              "User updates personal information"
+            ],
+            "selection_reason": "Fits the Customer Retention Stage, allowing users to manage their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/email",
+            "page_type": "Email Subscription",
+            "expected_scenarios": [
+              "User subscribes to newsletters",
+              "User receives promotional emails"
+            ],
+            "selection_reason": "Important for the Customer Retention Stage, encouraging user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230112225/https://www.thelimited.com/facebook",
+            "page_type": "Social Media",
+            "expected_scenarios": [
+              "User follows on social media",
+              "User engages with brand content"
+            ],
+            "selection_reason": "Covers the Customer Retention Stage, enhancing brand loyalty through social media."
+          }
+        ],
+        "total_recommendations": "15",
+        "coverage_scenario_types": [
+          "browsing",
+          "search",
+          "decision",
+          "purchase",
+          "service",
+          "personalization"
+        ]
+      },
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false
+    }
+  }
+}

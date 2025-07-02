@@ -1,0 +1,161 @@
+2025-07-01 02:02:30,988 - INFO - 📋 日志系统已初始化: outputs/levi.com/logs/log_main_20250701_020230.txt
+2025-07-01 02:02:30,988 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-01 02:02:30,988 - INFO - 📊 公司: levi.com
+2025-07-01 02:02:30,997 - INFO - ✅ 成功读取 6 个历史URLs from ./inputs/levi.com.txt
+2025-07-01 02:02:30,998 - INFO - 🌐 开始URL处理...
+2025-07-01 02:02:30,998 - INFO - 🌐 开始处理公司URLs: levi.com
+2025-07-01 02:02:30,998 - INFO - 🔍 处理 2009 年的URLs...
+2025-07-01 02:02:30,998 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20090107034539/http://levi.com/
+2025-07-01 02:02:34,969 - INFO - ✅ 发现 27 个内部链接
+2025-07-01 02:02:34,969 - INFO - ✅ URL过滤完成: 27/27 链接通过结构过滤
+2025-07-01 02:02:34,969 - INFO - ✅ 2009 年处理完成: 27 个有效链接
+2025-07-01 02:02:34,969 - INFO - 🔍 处理 2010 年的URLs...
+2025-07-01 02:02:34,970 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20101214020356/http://levi.com/
+2025-07-01 02:02:38,490 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:02:38,491 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:02:38,491 - INFO - ✅ 2010 年处理完成: 1 个有效链接
+2025-07-01 02:02:38,491 - INFO - 🔍 处理 2011 年的URLs...
+2025-07-01 02:02:38,491 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20110202102429/http://levi.com/
+2025-07-01 02:02:41,449 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:02:41,449 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:02:41,450 - INFO - ✅ 2011 年处理完成: 1 个有效链接
+2025-07-01 02:02:41,450 - INFO - 🔍 处理 2013 年的URLs...
+2025-07-01 02:02:41,450 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20131024065831/http://www.levi.com/
+2025-07-01 02:02:45,293 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:02:45,293 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:02:45,293 - INFO - ✅ 2013 年处理完成: 1 个有效链接
+2025-07-01 02:02:45,293 - INFO - 🔍 处理 2018 年的URLs...
+2025-07-01 02:02:45,293 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20180927032130/http://www.levi.com:80/
+2025-07-01 02:02:48,339 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:02:48,339 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:02:48,339 - INFO - ✅ 2018 年处理完成: 1 个有效链接
+2025-07-01 02:02:48,339 - INFO - 🔍 处理 2022 年的URLs...
+2025-07-01 02:02:48,340 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20220408093103/http://www.levi.com/
+2025-07-01 02:02:52,171 - INFO - ✅ 发现 1 个内部链接
+2025-07-01 02:02:52,171 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-01 02:02:52,171 - INFO - ✅ 2022 年处理完成: 1 个有效链接
+2025-07-01 02:02:52,172 - INFO - 💾 链接处理完成，共 32 个链接已保存到: outputs/levi.com/levi.com_filtered_links.json
+2025-07-01 02:02:52,172 - INFO - ✅ 成功加载 6 年的链接数据
+2025-07-01 02:02:52,172 - INFO - ✅ URL处理完成，共处理 6 年的数据
+2025-07-01 02:02:52,172 - INFO - 🧠 开始LLM规划...
+2025-07-01 02:02:52,509 - INFO - 🚀 LLM规划器已初始化
+2025-07-01 02:02:52,509 - INFO - 🧠 开始识别核心页面类型...
+2025-07-01 02:02:52,510 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-01 02:02:56,904 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:03:49,130 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-01 02:03:49,131 - INFO - ✅ 核心页面类型识别完成，共 48 个类型已保存到: outputs/levi.com/levi.com_core_page_types.json
+2025-07-01 02:03:49,132 - INFO - ✅ 核心页面类型已生成: outputs/levi.com/levi.com_core_page_types.json
+2025-07-01 02:03:49,132 - INFO - 🤖 开始生成LLM规划...
+2025-07-01 02:03:49,137 - INFO - 🔍 处理 2009 年的规划...
+2025-07-01 02:03:49,138 - INFO - ✅ URL正则匹配完成，共过滤出27/27个classified_urls
+2025-07-01 02:03:49,138 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:03:49,759 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:17,628 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:17,628 - INFO - ✅ URL推荐完成: 14 个推荐，14 个在有效页面内
+2025-07-01 02:04:17,628 - INFO - ✅ 2009 年规划完成: 推荐 14 个核心URL
+2025-07-01 02:04:17,629 - INFO - 🔍 处理 2010 年的规划...
+2025-07-01 02:04:17,629 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:04:17,629 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:04:18,244 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:21,023 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:21,023 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:04:21,024 - INFO - ✅ 2010 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:04:21,024 - INFO - 🔍 处理 2011 年的规划...
+2025-07-01 02:04:21,025 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:04:21,025 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:04:21,610 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:24,840 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:24,841 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:04:24,841 - INFO - ✅ 2011 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:04:24,842 - INFO - 🔍 处理 2013 年的规划...
+2025-07-01 02:04:24,842 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:04:24,842 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:04:25,422 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:30,431 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:30,431 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:04:30,431 - INFO - ✅ 2013 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:04:30,432 - INFO - 🔍 处理 2018 年的规划...
+2025-07-01 02:04:30,433 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:04:30,433 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:04:31,052 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:33,512 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:33,512 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:04:33,513 - INFO - ✅ 2018 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:04:33,514 - INFO - 🔍 处理 2022 年的规划...
+2025-07-01 02:04:33,514 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-01 02:04:33,514 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-01 02:04:34,225 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-01 02:04:36,514 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-01 02:04:36,514 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-01 02:04:36,515 - INFO - ✅ 2022 年规划完成: 推荐 1 个核心URL
+2025-07-01 02:04:36,527 - INFO - 💾 LLM规划全部年份处理完成，共 19 个推荐URL已保存到: outputs/levi.com/levi.com_llm_planning.json
+2025-07-01 02:04:36,527 - INFO - ✅ 成功加载 6 年的规划数据
+2025-07-01 02:04:36,527 - INFO - ✅ LLM规划完成: outputs/levi.com/levi.com_llm_planning.json
+2025-07-01 02:04:36,527 - INFO - 🔍 开始场景分析...
+2025-07-01 02:04:36,528 - INFO - ✅ 成功加载 70 个微场景
+2025-07-01 02:04:36,528 - INFO - 🔍 场景分析器已初始化
+2025-07-01 02:04:36,528 - INFO - 🔍 开始分析场景: levi.com
+2025-07-01 02:04:36,529 - INFO - 🔍 分析 2009 年的场景...
+2025-07-01 02:04:36,529 - INFO - 📄 [2009] 分析页面 1/14
+2025-07-01 02:04:40,626 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/home/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_logo: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/home/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_logo
+2025-07-01 02:04:41,627 - INFO - 📄 [2009] 分析页面 2/14
+2025-07-01 02:04:43,595 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/SweepsSignup/index.jsp?camp=CMS_Home_Spree_010109: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/SweepsSignup/index.jsp?camp=CMS_Home_Spree_010109
+2025-07-01 02:04:44,595 - INFO - 📄 [2009] 分析页面 3/14
+2025-07-01 02:04:46,433 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/shop/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_sale&categoryId=3202806: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/shop/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_sale&categoryId=3202806
+2025-07-01 02:04:47,433 - INFO - 📄 [2009] 分析页面 4/14
+2025-07-01 02:04:48,737 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp?categoryId=2067884&cp=3202806.3210660&camp=CMS_Home_M_SaleBottom_010109: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp?categoryId=2067884&cp=3202806.3210660&camp=CMS_Home_M_SaleBottom_010109
+2025-07-01 02:04:49,738 - INFO - 📄 [2009] 分析页面 5/14
+2025-07-01 02:04:51,653 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/corp/index.jsp?page=storeLocator&camp=CMS_Home_Store_010109: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/corp/index.jsp?page=storeLocator&camp=CMS_Home_Store_010109
+2025-07-01 02:04:52,653 - INFO - 📄 [2009] 分析页面 6/14
+2025-07-01 02:04:54,512 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/cart/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_shopping_bag: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/cart/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?clickid=header_shopping_bag
+2025-07-01 02:04:55,512 - INFO - 📄 [2009] 分析页面 7/14
+2025-07-01 02:04:58,464 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=returns&subdisplay=returns&clickid=botnav_returns_img: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=returns&subdisplay=returns&clickid=botnav_returns_img
+2025-07-01 02:04:59,464 - INFO - 📄 [2009] 分析页面 8/14
+2025-07-01 02:05:01,831 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=ship&subdisplay=shipMethods&clickid=botnav_returns_img: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=ship&subdisplay=shipMethods&clickid=botnav_returns_img
+2025-07-01 02:05:02,832 - INFO - 📄 [2009] 分析页面 9/14
+2025-07-01 02:05:07,051 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=safety&subdisplay=secure&clickid=footer_secure_shopping: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=safety&subdisplay=secure&clickid=footer_secure_shopping
+2025-07-01 02:05:08,052 - INFO - 📄 [2009] 分析页面 10/14
+2025-07-01 02:05:10,312 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=account&subdisplay=unsubscribe&clickid=botnav_unsubscribe_img: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/helpdesk/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?display=account&subdisplay=unsubscribe&clickid=botnav_unsubscribe_img
+2025-07-01 02:05:11,314 - INFO - 📄 [2009] 分析页面 11/14
+2025-07-01 02:05:12,849 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/shop/index.jsp?categoryId=3349026: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/shop/index.jsp?categoryId=3349026
+2025-07-01 02:05:13,850 - INFO - 📄 [2009] 分析页面 12/14
+2025-07-01 02:05:15,450 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?cp=3146842&clickid=header_big&categoryId=3146930: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?cp=3146842&clickid=header_big&categoryId=3146930
+2025-07-01 02:05:16,451 - INFO - 📄 [2009] 分析页面 13/14
+2025-07-01 02:05:18,078 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp?categoryId=2071168&cp=3202806.3210660&camp=CMS_Home_M_SaleTops_010109: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp?categoryId=2071168&cp=3202806.3210660&camp=CMS_Home_M_SaleTops_010109
+2025-07-01 02:05:19,079 - INFO - 📄 [2009] 分析页面 14/14
+2025-07-01 02:05:22,897 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?cp=3146849&clickid=header_petite&categoryId=3146895: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20090107034539/http://levi.com/family/index.jsp;jsessionid=ds6gJkVDbVG1fwvwQQJycGnZvQPnjCqrtrrrnqnxf2p2hp2c2VlX!1004775834?cp=3146849&clickid=header_petite&categoryId=3146895
+2025-07-01 02:05:23,898 - INFO - ✅ 2009 年场景分析完成: 0 个场景
+2025-07-01 02:05:23,899 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:23,899 - INFO - 🔍 分析 2010 年的场景...
+2025-07-01 02:05:23,899 - INFO - 📄 [2010] 分析页面 1/1
+2025-07-01 02:05:24,278 - INFO - 💾 内容已保存到: outputs/levi.com/websites/2010_20250701_020524.txt
+2025-07-01 02:05:25,280 - INFO - ✅ 2010 年场景分析完成: 0 个场景
+2025-07-01 02:05:25,280 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:25,280 - INFO - 🔍 分析 2011 年的场景...
+2025-07-01 02:05:25,280 - INFO - 📄 [2011] 分析页面 1/1
+2025-07-01 02:05:25,652 - INFO - 💾 内容已保存到: outputs/levi.com/websites/2011_20250701_020525.txt
+2025-07-01 02:05:26,653 - INFO - ✅ 2011 年场景分析完成: 0 个场景
+2025-07-01 02:05:26,654 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:26,654 - INFO - 🔍 分析 2013 年的场景...
+2025-07-01 02:05:26,654 - INFO - 📄 [2013] 分析页面 1/1
+2025-07-01 02:05:27,020 - INFO - 💾 内容已保存到: outputs/levi.com/websites/2013_20250701_020527.txt
+2025-07-01 02:05:28,021 - INFO - ✅ 2013 年场景分析完成: 0 个场景
+2025-07-01 02:05:28,022 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:28,022 - INFO - 🔍 分析 2018 年的场景...
+2025-07-01 02:05:28,022 - INFO - 📄 [2018] 分析页面 1/1
+2025-07-01 02:05:28,398 - INFO - 💾 内容已保存到: outputs/levi.com/websites/2018_20250701_020528.txt
+2025-07-01 02:05:29,399 - INFO - ✅ 2018 年场景分析完成: 0 个场景
+2025-07-01 02:05:29,400 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:29,400 - INFO - 🔍 分析 2022 年的场景...
+2025-07-01 02:05:29,400 - INFO - 📄 [2022] 分析页面 1/1
+2025-07-01 02:05:29,757 - INFO - 💾 内容已保存到: outputs/levi.com/websites/2022_20250701_020529.txt
+2025-07-01 02:05:30,758 - INFO - ✅ 2022 年场景分析完成: 0 个场景
+2025-07-01 02:05:30,759 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:30,782 - INFO - ✅ 场景分析结果已导出到: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:30,782 - INFO - ✅ 场景分析完成: outputs/levi.com/levi.com_scenarios.json
+2025-07-01 02:05:30,783 - INFO - 🎉 分析流程完成!
+2025-07-01 02:05:30,783 - INFO - 📁 输出文件:
+2025-07-01 02:05:30,783 - INFO -    - 过滤链接: outputs/levi.com/levi.com_filtered_links.json
+2025-07-01 02:05:30,783 - INFO -    - 核心页面类型: outputs/levi.com/levi.com_core_page_types.json
+2025-07-01 02:05:30,783 - INFO -    - LLM规划: outputs/levi.com/levi.com_llm_planning.json
+2025-07-01 02:05:30,783 - INFO -    - 场景分析: outputs/levi.com/levi.com_scenarios.json

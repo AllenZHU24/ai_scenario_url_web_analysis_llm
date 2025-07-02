@@ -1,0 +1,391 @@
+{
+  "generation_time": "2025-06-30 07:56:21",
+  "company_url": "containerstore.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/",
+          "/index.html",
+          "/index.jsp"
+        ]
+      },
+      {
+        "type_name": "Blog / Content Hub",
+        "typical_url_patterns": [
+          "/blog",
+          "/contain/",
+          "/tips-and-ideas"
+        ]
+      },
+      {
+        "type_name": "Campaign Landing Page",
+        "typical_url_patterns": [
+          "/sale/",
+          "/campaign/",
+          "/promo/"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/store-locator",
+          "/stores",
+          "/locations"
+        ]
+      },
+      {
+        "type_name": "About Us / Company Information",
+        "typical_url_patterns": [
+          "/about-us",
+          "/our-story",
+          "/company.htm"
+        ]
+      },
+      {
+        "type_name": "Press / In The News",
+        "typical_url_patterns": [
+          "/press",
+          "/in-the-news",
+          "/media-room"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers",
+          "/jobs",
+          "/work-with-us"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page (PLP)",
+        "typical_url_patterns": [
+          "/s/{main-category}",
+          "/shop/{main-category}",
+          "/category.htm?id="
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (PLP)",
+        "typical_url_patterns": [
+          "/s/{main-category}/{sub-category}",
+          "/shop/{main-category}/{sub-category}"
+        ]
+      },
+      {
+        "type_name": "Shop by Room Page",
+        "typical_url_patterns": [
+          "/s/shop-by-room/{room-name}",
+          "/shop/room/"
+        ]
+      },
+      {
+        "type_name": "Shop by Solution Page",
+        "typical_url_patterns": [
+          "/s/solutions/{solution-name}",
+          "/solutions/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/s/new",
+          "/new-arrivals"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Page",
+        "typical_url_patterns": [
+          "/s/sale",
+          "/s/clearance",
+          "/sale.htm"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/s/gift-guides",
+          "/gifts",
+          "/gift-ideas"
+        ]
+      },
+      {
+        "type_name": "Inspiration Gallery / Projects",
+        "typical_url_patterns": [
+          "/projects",
+          "/inspiration",
+          "/elfa-solutions/"
+        ]
+      },
+      {
+        "type_name": "Custom Closet System Landing Page",
+        "typical_url_patterns": [
+          "/custom-closets",
+          "/elfa",
+          "/elfa-faqs.htm"
+        ]
+      },
+      {
+        "type_name": "In-Home Design Service Page",
+        "typical_url_patterns": [
+          "/in-home-organizing",
+          "/design-services",
+          "/custom-spaces"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/s/{category}/{product-name}.html?productId={id}",
+          "/p/{product-name}",
+          "/product.htm?id="
+        ]
+      },
+      {
+        "type_name": "Product Reviews Page",
+        "typical_url_patterns": [
+          "/p/{product-name}/reviews",
+          "/reviews/{product-id}"
+        ]
+      },
+      {
+        "type_name": "Product Q&A Page",
+        "typical_url_patterns": [
+          "/p/{product-name}/questions",
+          "/qa/{product-id}"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare",
+          "/product-comparison"
+        ]
+      },
+      {
+        "type_name": "Customizer / Design Tool",
+        "typical_url_patterns": [
+          "/design-center",
+          "/custom-closets/designer",
+          "/elfa/designer"
+        ]
+      },
+      {
+        "type_name": "Buying / Sizing Guide",
+        "typical_url_patterns": [
+          "/guides",
+          "/buying-guide",
+          "/size-charts"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Favorites",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/account/favorites"
+        ]
+      },
+      {
+        "type_name": "Customer Photo Gallery (UGC)",
+        "typical_url_patterns": [
+          "/gallery/customer-photos",
+          "/ugc-gallery",
+          "/#inspiration"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Bag",
+        "typical_url_patterns": [
+          "/cart",
+          "/bag",
+          "/shopping-cart.htm"
+        ]
+      },
+      {
+        "type_name": "Checkout Start / Login",
+        "typical_url_patterns": [
+          "/checkout",
+          "/checkout/login"
+        ]
+      },
+      {
+        "type_name": "Checkout Shipping Step",
+        "typical_url_patterns": [
+          "/checkout/shipping",
+          "/checkout/step1"
+        ]
+      },
+      {
+        "type_name": "Checkout Payment Step",
+        "typical_url_patterns": [
+          "/checkout/payment",
+          "/checkout/step2"
+        ]
+      },
+      {
+        "type_name": "Checkout Review Step",
+        "typical_url_patterns": [
+          "/checkout/review",
+          "/checkout/step3"
+        ]
+      },
+      {
+        "type_name": "Promotional Offers Page",
+        "typical_url_patterns": [
+          "/offers",
+          "/coupons",
+          "/promotions"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/gift-cards",
+          "/gift-card/purchase"
+        ]
+      },
+      {
+        "type_name": "Financing Information Page",
+        "typical_url_patterns": [
+          "/financing",
+          "/klarna",
+          "/affirm"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation Page",
+        "typical_url_patterns": [
+          "/checkout/confirmation",
+          "/order-confirmation",
+          "/thank-you"
+        ]
+      },
+      {
+        "type_name": "Order Status / Tracking Page",
+        "typical_url_patterns": [
+          "/order-status",
+          "/track-order",
+          "/account/orders/{order-id}"
+        ]
+      },
+      {
+        "type_name": "Order History Page",
+        "typical_url_patterns": [
+          "/account/orders",
+          "/my-account/order-history"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/customer-service/shipping",
+          "/help/shipping-delivery"
+        ]
+      },
+      {
+        "type_name": "Return Policy / Form Page",
+        "typical_url_patterns": [
+          "/customer-service/returns",
+          "/help/returns"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/customer-service",
+          "/help",
+          "/faq"
+        ]
+      },
+      {
+        "type_name": "Installation Services Page",
+        "typical_url_patterns": [
+          "/installation-services",
+          "/assembly-services"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/my-account"
+        ]
+      },
+      {
+        "type_name": "Account Profile / Settings",
+        "typical_url_patterns": [
+          "/account/profile",
+          "/account/settings"
+        ]
+      },
+      {
+        "type_name": "Saved Addresses",
+        "typical_url_patterns": [
+          "/account/addresses"
+        ]
+      },
+      {
+        "type_name": "Saved Payment Methods",
+        "typical_url_patterns": [
+          "/account/payment-methods"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Page",
+        "typical_url_patterns": [
+          "/pop-rewards",
+          "/loyalty",
+          "/rewards"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend Page",
+        "typical_url_patterns": [
+          "/refer-a-friend",
+          "/referral"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/email-signup",
+          "/subscribe"
+        ]
+      },
+      {
+        "type_name": "Gift Registry Hub",
+        "typical_url_patterns": [
+          "/registry",
+          "/gift-registry"
+        ]
+      },
+      {
+        "type_name": "Saved Designs Page",
+        "typical_url_patterns": [
+          "/account/my-designs",
+          "/account/saved-projects"
+        ]
+      },
+      {
+        "type_name": "Quick Reorder / Past Purchases",
+        "typical_url_patterns": [
+          "/account/reorder",
+          "/account/past-purchases"
+        ]
+      }
+    ]
+  },
+  "total_types": 50
+}

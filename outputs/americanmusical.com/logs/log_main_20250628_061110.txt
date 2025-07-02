@@ -1,0 +1,34 @@
+2025-06-28 06:11:10,350 - INFO - 📋 日志系统已初始化: outputs/americanmusical.com/logs/log_main_20250628_061110.txt
+2025-06-28 06:11:10,350 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-06-28 06:11:10,351 - INFO - 📊 公司: americanmusical.com
+2025-06-28 06:11:10,361 - INFO - ✅ 成功读取 17 个历史URLs from ./inputs/americanmusical.com.txt
+2025-06-28 06:11:10,361 - INFO - 🌐 开始URL处理...
+2025-06-28 06:11:10,361 - INFO - 🌐 开始处理公司URLs: americanmusical.com
+2025-06-28 06:11:10,365 - INFO - 🔄 发现已存在的链接文件: outputs/americanmusical.com/americanmusical.com_filtered_links.json，已加载 17 年的数据，将进行增量处理
+2025-06-28 06:11:10,365 - INFO - ⏭️ 跳过 2009 年，已有 215 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2010 年，已有 269 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2011 年，已有 218 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2012 年，已有 227 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2013 年，已有 125 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2014 年，已有 140 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2015 年，已有 143 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2016 年，已有 460 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2017 年，已有 473 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2018 年，已有 456 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2019 年，已有 445 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2020 年，已有 415 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2021 年，已有 417 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2022 年，已有 59 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2023 年，已有 59 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2024 年，已有 214 个链接
+2025-06-28 06:11:10,366 - INFO - ⏭️ 跳过 2025 年，已有 215 个链接
+2025-06-28 06:11:10,371 - INFO - 💾 链接处理完成，共 4550 个链接已保存到: outputs/americanmusical.com/americanmusical.com_filtered_links.json
+2025-06-28 06:11:10,372 - INFO - ✅ 成功加载 17 年的链接数据
+2025-06-28 06:11:10,372 - INFO - ✅ URL处理完成，共处理 17 年的数据
+2025-06-28 06:11:10,373 - INFO - 🧠 开始LLM规划...
+2025-06-28 06:11:10,602 - INFO - 🚀 LLM规划器已初始化
+2025-06-28 06:11:10,602 - INFO - 🧠 开始识别核心页面类型...
+2025-06-28 06:11:10,606 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-06-28 06:11:13,025 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+2025-06-28 06:11:13,026 - ERROR - ❌ LLM API调用失败: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 30000 tokens, but can only afford 2535. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}
+2025-06-28 06:11:13,026 - ERROR - ❌ 流程执行失败: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 30000 tokens, but can only afford 2535. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_2tz6KvroFpahm7nown93X1G1k8L'}

@@ -1,0 +1,347 @@
+{
+  "generation_time": "2025-06-30 03:15:28",
+  "company_url": "burberry.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:lang-:country/"
+        ]
+      },
+      {
+        "type_name": "Brand Story / About Us",
+        "typical_url_patterns": [
+          "/our-history/",
+          "/about-burberry/",
+          "/corporate/responsibility/"
+        ]
+      },
+      {
+        "type_name": "Campaign / Lookbook",
+        "typical_url_patterns": [
+          "/stories/[campaign-name]/",
+          "/discover/[collection-name]/",
+          "/the-world-of-burberry/"
+        ]
+      },
+      {
+        "type_name": "Press / News",
+        "typical_url_patterns": [
+          "/corporate/media/",
+          "/press-releases/"
+        ]
+      },
+      {
+        "type_name": "Region/Language Selector",
+        "typical_url_patterns": [
+          "/redirect.aspx?url=",
+          "/country-selector/",
+          "/choose-your-location/"
+        ]
+      },
+      {
+        "type_name": "Investor Relations",
+        "typical_url_patterns": [
+          "/corporate/investor-relations/"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/corporate/careers/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category (PLP)",
+        "typical_url_patterns": [
+          "/c/[category-name]/",
+          "/shop/[gender]/",
+          "/[gender]/[main-category]/"
+        ]
+      },
+      {
+        "type_name": "Sub-Category (PLP)",
+        "typical_url_patterns": [
+          "/[gender]/[main-category]/[sub-category]/",
+          "/c/[main-category]/[sub-category]/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/whats-new/",
+          "/new-in/"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/gifts/",
+          "/gifts/[recipient]/"
+        ]
+      },
+      {
+        "type_name": "Themed Collection",
+        "typical_url_patterns": [
+          "/collection/[collection-name]/",
+          "/runway-collection/"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search/?q=[query]",
+          "/search/result/?q=[query]"
+        ]
+      },
+      {
+        "type_name": "Sale / Outlet",
+        "typical_url_patterns": [
+          "/sale/",
+          "/outlet/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail (PDP)",
+        "typical_url_patterns": [
+          "/p/[product-id]/",
+          "/[product-name]-[sku]/",
+          "/[category]/p/[product-name]/"
+        ]
+      },
+      {
+        "type_name": "Size Guide",
+        "typical_url_patterns": [
+          "/size-guide/",
+          "/customer-service/size-charts/"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/store-locator/",
+          "/store/",
+          "/find-a-store/"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Favourites",
+        "typical_url_patterns": [
+          "/wishlist/",
+          "/account/wishlist/"
+        ]
+      },
+      {
+        "type_name": "Personalisation / Monogramming",
+        "typical_url_patterns": [
+          "/personalise/[product-id]/",
+          "/monogramming-service/"
+        ]
+      },
+      {
+        "type_name": "Shop The Look / Style Inspiration",
+        "typical_url_patterns": [
+          "/shop-the-look/[look-id]/",
+          "/ways-to-wear/"
+        ]
+      },
+      {
+        "type_name": "Product Reviews",
+        "typical_url_patterns": [
+          "/p/[product-id]/#reviews",
+          "/reviews/[product-id]/"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Bag / Cart",
+        "typical_url_patterns": [
+          "/shopping-bag/",
+          "/cart/",
+          "/checkout/cart/"
+        ]
+      },
+      {
+        "type_name": "Checkout Start (Login/Guest)",
+        "typical_url_patterns": [
+          "/checkout/",
+          "/checkout/onepage/"
+        ]
+      },
+      {
+        "type_name": "Checkout - Shipping",
+        "typical_url_patterns": [
+          "/checkout/shipping/",
+          "/checkout/#shipping"
+        ]
+      },
+      {
+        "type_name": "Checkout - Payment",
+        "typical_url_patterns": [
+          "/checkout/payment/",
+          "/checkout/#payment"
+        ]
+      },
+      {
+        "type_name": "Checkout - Order Review",
+        "typical_url_patterns": [
+          "/checkout/review/",
+          "/checkout/#review"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You",
+        "typical_url_patterns": [
+          "/checkout/success/",
+          "/order-confirmation/"
+        ]
+      },
+      {
+        "type_name": "Order Details",
+        "typical_url_patterns": [
+          "/my-account/order/[order-id]",
+          "/sales/order/view/order_id/[id]/"
+        ]
+      },
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/track-my-order/",
+          "/customer-service/track-your-order"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/customer-service/shipping/",
+          "/help/shipping-and-delivery/"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/customer-service/returns/",
+          "/help/returns-and-refunds/"
+        ]
+      },
+      {
+        "type_name": "Initiate Return Form",
+        "typical_url_patterns": [
+          "/returns/create/",
+          "/my-account/order/[order-id]/return"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/my-account/",
+          "/account/dashboard/"
+        ]
+      },
+      {
+        "type_name": "Login",
+        "typical_url_patterns": [
+          "/burberry/myburberry/register/myLogin.jsp",
+          "/account/login/",
+          "/login/"
+        ]
+      },
+      {
+        "type_name": "Registration",
+        "typical_url_patterns": [
+          "/account/create/",
+          "/register/"
+        ]
+      },
+      {
+        "type_name": "Forgot Password",
+        "typical_url_patterns": [
+          "/account/forgotpassword/",
+          "/password-reset/"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/my-account/orders/",
+          "/sales/order/history/"
+        ]
+      },
+      {
+        "type_name": "My Profile / Personal Details",
+        "typical_url_patterns": [
+          "/my-account/profile/",
+          "/account/edit/"
+        ]
+      },
+      {
+        "type_name": "Address Book",
+        "typical_url_patterns": [
+          "/my-account/addresses/",
+          "/customer/address/"
+        ]
+      },
+      {
+        "type_name": "Saved Payment Methods",
+        "typical_url_patterns": [
+          "/my-account/payment-methods/",
+          "/customer/payment/"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Contact Us",
+        "typical_url_patterns": [
+          "/customer-service/",
+          "/contact-us/"
+        ]
+      },
+      {
+        "type_name": "FAQ",
+        "typical_url_patterns": [
+          "/faq/",
+          "/help-centre/"
+        ]
+      },
+      {
+        "type_name": "Appointment Booking",
+        "typical_url_patterns": [
+          "/book-an-appointment/",
+          "/services/private-shopping/"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup",
+        "typical_url_patterns": [
+          "/newsletter-signup/",
+          "/subscribe/"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/footer/termsconditions",
+          "/legal/terms-of-use/"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/footer/privacy",
+          "/legal/privacy-policy/"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

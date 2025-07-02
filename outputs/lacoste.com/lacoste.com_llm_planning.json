@@ -1,0 +1,939 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "lacoste.com",
+  "export_time": "2025-07-01 10:52:17",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-01 01:34:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 3,
+      "valid_content_urls_count": 3,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090105164153/http://www.lacoste.com/",
+        "https://web.archive.org/web/20090105164153/http://www.lacoste.com/low-fi/",
+        "https://web.archive.org/web/20090105164153/http://lacoste.com/"
+      ],
+      "recommended_pages_count": 3,
+      "recommended_in_valid_overlap": 3,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090105164153/http://www.lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105164153/http://www.lacoste.com/low-fi/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Accessibility Statement",
+            "selection_reason": "This URL is important for retaining customers by ensuring accessibility and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105164153/http://lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page that enhances brand visibility."
+          }
+        ],
+        "total_recommendations": 3,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 3,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090105164153/http://www.lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105164153/http://www.lacoste.com/low-fi/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105164153/http://lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-01 01:34:21",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 28,
+      "valid_content_urls_count": 28,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/saveyourlogo/",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/rene_lacoste",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/press",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/l1212/",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-men-clothing",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/catalogue-children-shoes-sport",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-women-shoes",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/golf",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/tennis",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/lacostetv",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/contact",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/noflashshowPopupLegals",
+        "https://web.archive.org/web/20101230193142/http://www.lacoste.com/goodies"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/saveyourlogo/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Social Responsibility (CSR)",
+            "selection_reason": "Highlights the brand's commitment to social responsibility, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/rene_lacoste",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Provides customers with the brand's history and values, fostering a connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/press",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press & Media Center",
+            "selection_reason": "Offers media resources that can enhance brand visibility and credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/l1212/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Campaign Landing Page",
+            "selection_reason": "Promotes specific marketing campaigns, driving customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-men-clothing",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Listing Page (PLP) / Sub-Category",
+            "selection_reason": "Directly showcases men's clothing, catering to customer interest in specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/catalogue-children-shoes-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Listing Page (PLP) / Sub-Category",
+            "selection_reason": "Targets customers interested in children's sports shoes, diversifying product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-women-shoes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Listing Page (PLP) / Sub-Category",
+            "selection_reason": "Focuses on women's shoes, appealing to a significant customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/golf",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Collection (e.g., Sports)",
+            "selection_reason": "Promotes a specific themed collection, attracting sports enthusiasts."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/tennis",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Collection (e.g., Sports)",
+            "selection_reason": "Engages customers interested in tennis, enhancing brand association with sports."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/lacostetv",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub (e.g., TV/Blog)",
+            "selection_reason": "Provides engaging content that can attract and retain customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Essential for customer support and retention, allowing customers to reach out."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/noflashshowPopupLegals",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Legal Notice / Terms of Use",
+            "selection_reason": "Provides necessary legal information, ensuring transparency and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/goodies",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Digital Goodies / Downloads",
+            "selection_reason": "Offers additional value to customers, enhancing brand engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-men-clothing",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Listing Page (PLP) / Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/saveyourlogo/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Social Responsibility (CSR)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/noflashshowPopupLegals",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Legal Notice / Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/goodies",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Digital Goodies / Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/rene_lacoste",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/press",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press & Media Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/tennis",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/l1212/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/catalogue-children-shoes-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Listing Page (PLP) / Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/golf",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/collection-women-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Listing Page (PLP) / Sub-Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230193142/http://www.lacoste.com/lacostetv",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (e.g., TV/Blog)"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-01 01:34:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/tennis",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/saveyourlogo/",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com:80/",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/stores",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/shoponline",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/privacy",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/contact",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/inscription",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/lacostetv",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/live/",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/rene_lacoste",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/goodies",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/press-news",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/uc",
+        "https://web.archive.org/web/20111127003136/http://www.lacoste.com/l1212/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/tennis",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Collection (e.g., Sports)",
+            "selection_reason": "Highlights a specific product category that can attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/saveyourlogo/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Social Responsibility (CSR)",
+            "selection_reason": "Demonstrates the brand's commitment to social responsibility, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers to explore the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/stores",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations, facilitating the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/shoponline",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Online Store Home",
+            "selection_reason": "Directs customers to the online shopping experience, crucial for sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by informing them about data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a channel for customer inquiries, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/inscription",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration / Signup",
+            "selection_reason": "Encourages customer loyalty through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/lacostetv",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub (e.g., TV/Blog)",
+            "selection_reason": "Engages customers with brand-related content, fostering a community."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/live/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Campaign Landing Page",
+            "selection_reason": "Promotes specific marketing campaigns, driving traffic and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/rene_lacoste",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Tells the brand's story, enhancing emotional connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/goodies",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Digital Goodies / Downloads",
+            "selection_reason": "Offers free content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/press-news",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press Release / News Article",
+            "selection_reason": "Keeps customers informed about brand developments, enhancing transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/uc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Provides customers with a personalized experience and account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/l1212/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Campaign Landing Page",
+            "selection_reason": "Promotes a specific campaign, driving engagement and potential sales."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/tennis",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/saveyourlogo/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Social Responsibility (CSR)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/press-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Press Contact"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/univers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/inscription",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration / Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/stores",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/goodies",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Digital Goodies / Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/rene_lacoste",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/lacostetv",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (e.g., TV/Blog)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/press-news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Release / News Article"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/live/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/press-press_release",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Release / News Article"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/golf",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/shoponline",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Online Store Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/uc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111127003136/http://www.lacoste.com/l1212/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-01 01:35:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/stores",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/contact",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/inscription",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/privacy",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/goodies",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/l1212/",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/tennis",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/lacostetv",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/univers",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/uc",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/press-news",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/golf",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/saveyourlogo/",
+        "https://web.archive.org/web/20121216043147/http://www.lacoste.com/rene_lacoste"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/stores",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations to explore products."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Essential for customer support and inquiries, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/inscription",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration / Signup",
+            "selection_reason": "Encourages customer engagement and loyalty through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/goodies",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Digital Goodies / Downloads",
+            "selection_reason": "Engages customers with free content, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/l1212/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Campaign Landing Page",
+            "selection_reason": "Promotes specific marketing campaigns, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/tennis",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Collection (e.g., Sports)",
+            "selection_reason": "Highlights a specific product line, attracting sports enthusiasts."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/lacostetv",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub (e.g., TV/Blog)",
+            "selection_reason": "Provides engaging content that keeps customers informed and entertained."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/univers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Shares the brand's story, enhancing emotional connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/uc",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Facilitates easy access to customer accounts, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/press-news",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press Release / News Article",
+            "selection_reason": "Keeps customers updated on brand news, fostering engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/golf",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Collection (e.g., Sports)",
+            "selection_reason": "Attracts golf enthusiasts to specific product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/saveyourlogo/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Social Responsibility (CSR)",
+            "selection_reason": "Demonstrates the brand's commitment to social responsibility, appealing to conscious consumers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/rene_lacoste",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Highlights the founder's story, enhancing brand heritage and connection."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/press-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Press Contact"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/stores",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/goodies",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Digital Goodies / Downloads"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/l1212/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/tennis",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/inscription",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration / Signup"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/live/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/uc",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/press-news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Release / News Article"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/golf",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Collection (e.g., Sports)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/lacostetv",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (e.g., TV/Blog)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/saveyourlogo/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Social Responsibility (CSR)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/univers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/rene_lacoste",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20121216043147/http://www.lacoste.com/press-press_release",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Release / News Article"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-01 01:35:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 8,
+      "valid_content_urls_count": 8,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/80/polohistory",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/privacy",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/mediacenter",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/press",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/univers",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/contact",
+        "https://web.archive.org/web/20131210174906/http://www.lacoste.com/news"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/80/polohistory",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Provides insight into the brand's heritage, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, crucial for brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust and retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/mediacenter",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press & Media Center",
+            "selection_reason": "Important for brand exposure and media relations."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/press",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press & Media Center",
+            "selection_reason": "Facilitates media coverage and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/univers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Universe / Story",
+            "selection_reason": "Enhances customer understanding of the brand's identity."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Critical for customer support and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/news",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press & Media Center",
+            "selection_reason": "Keeps customers informed about brand updates and news."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/80/polohistory",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/mediacenter",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press & Media Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/press",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press & Media Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/univers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Universe / Story"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131210174906/http://www.lacoste.com/news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press & Media Center"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-01 01:35:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 6,
+      "valid_content_urls_count": 6,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/",
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/lifeisabeautifulsport",
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/contact",
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/news",
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/privacy",
+        "https://web.archive.org/web/20140806115508/http://www.lacoste.com/stores"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand to potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/lifeisabeautifulsport",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Campaign Landing Page",
+            "selection_reason": "Engaging campaign that raises brand awareness and connects with customers emotionally."
+          },
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/contact",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Essential for customer support and maintaining relationships with existing customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/news",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press & Media Center",
+            "selection_reason": "Provides updates and news that keep customers informed about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and ensuring customers feel secure about their data."
+          },
+          {
+            "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/stores",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations to purchase products, aiding in the decision-making process."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/lifeisabeautifulsport",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press & Media Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20140806115508/http://www.lacoste.com/stores",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        }
+      ]
+    }
+  }
+}
