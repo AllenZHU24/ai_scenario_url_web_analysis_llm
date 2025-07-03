@@ -1,0 +1,351 @@
+{
+  "generation_time": "2025-07-03 04:01:22",
+  "company_url": "us.memebox.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "About Us / Company Page",
+        "typical_url_patterns": [
+          "/pages/about-mbx",
+          "/pages/about-us",
+          "/about-us"
+        ]
+      },
+      {
+        "type_name": "Brand Story Page",
+        "typical_url_patterns": [
+          "/pages/nooni",
+          "/pages/kaja",
+          "/pages/pony-effect",
+          "/pages/i-dew-care"
+        ]
+      },
+      {
+        "type_name": "Press / Media Page",
+        "typical_url_patterns": [
+          "/blogs/press-media",
+          "/pages/press",
+          "/memeshop/featured-in"
+        ]
+      },
+      {
+        "type_name": "Founder Page",
+        "typical_url_patterns": [
+          "/pages/meet-the-founder"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/pages/career",
+          "/jobs"
+        ]
+      },
+      {
+        "type_name": "Wholesale / B2B Page",
+        "typical_url_patterns": [
+          "/pages/wholesale-retail-inquiries"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/collections/skincare",
+          "/collections/makeup",
+          "/skincare",
+          "/makeup",
+          "/memeshop",
+          "/usa-shop"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/collections/{brand}/{type}",
+          "/skincare/{type}",
+          "/makeup/{type}",
+          "/memeshop/{type}"
+        ]
+      },
+      {
+        "type_name": "Brand Product Listing",
+        "typical_url_patterns": [
+          "/collections/{brand-name}",
+          "/brands/{brand-name}",
+          "/usa-shop/search-by-brand/{brand-name}"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/collections/new-arrivals",
+          "/new-restocked/new-arrivals"
+        ]
+      },
+      {
+        "type_name": "Best Sellers / Top Rated Page",
+        "typical_url_patterns": [
+          "/collections/best-sellers",
+          "/collections/top-rated",
+          "/bestseller-items"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Page",
+        "typical_url_patterns": [
+          "/sale",
+          "/collections/black-friday-cyber-monday",
+          "/usa-shop/clearance-sale"
+        ]
+      },
+      {
+        "type_name": "Themed / Curated Collection",
+        "typical_url_patterns": [
+          "/collections/morning-routine",
+          "/collections/vitamin-collection",
+          "/collections/holiday-gifts"
+        ]
+      },
+      {
+        "type_name": "Shop All Page",
+        "typical_url_patterns": [
+          "/collections/all",
+          "/collections/{brand}-shop-all"
+        ]
+      },
+      {
+        "type_name": "Subscription Box Hub",
+        "typical_url_patterns": [
+          "/our-boxes",
+          "/memebox-global",
+          "/newly-curated-boxes"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/holiday-gift-guide-2015",
+          "/usa-shop/holiday-gift-guide-130"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search",
+          "/catalogsearch/result/"
+        ]
+      },
+      {
+        "type_name": "Blog / Content Hub",
+        "typical_url_patterns": [
+          "/blogs/news-1"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-name}",
+          "/{product-name-slug}"
+        ]
+      },
+      {
+        "type_name": "Solution-Based Collection (Skin Concern/Type)",
+        "typical_url_patterns": [
+          "/collections/acne-skin-concern",
+          "/collections/dry-skin-type",
+          "/skincare/oily"
+        ]
+      },
+      {
+        "type_name": "Product Bundle / Set Page",
+        "typical_url_patterns": [
+          "/collections/bundles",
+          "/sale/value-sets",
+          "/{bundle-name-set}"
+        ]
+      },
+      {
+        "type_name": "Collaboration Collection",
+        "typical_url_patterns": [
+          "/xo-memebox",
+          "/memebox-collection/chosungah-x-memebox",
+          "/superbox/collaborations-superbox"
+        ]
+      },
+      {
+        "type_name": "Informational Article / Review",
+        "typical_url_patterns": [
+          "/blogs/press-media/{article-slug}"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/pages/faqs",
+          "/faqs"
+        ]
+      },
+      {
+        "type_name": "Wishlist Page",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/wishlist/index/add/product/{id}"
+        ]
+      },
+      {
+        "type_name": "Previous Subscription Boxes",
+        "typical_url_patterns": [
+          "/memebox-global/previous-boxes"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/checkout/cart/"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/customer/account/login"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/account/register",
+          "/customer/account/create"
+        ]
+      },
+      {
+        "type_name": "Promotions Hub",
+        "typical_url_patterns": [
+          "/promotions",
+          "/promotions/12-days-of-xmas"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status / Guest Order Form",
+        "typical_url_patterns": [
+          "/sales/guest/form/"
+        ]
+      },
+      {
+        "type_name": "Shipping & Returns Policy",
+        "typical_url_patterns": [
+          "/pages/shipping-and-returns",
+          "/return-policy",
+          "/shippingschedule"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/pages/get-in-touch-with-us"
+        ]
+      },
+      {
+        "type_name": "Terms of Service",
+        "typical_url_patterns": [
+          "/pages/terms-of-use",
+          "/policies/terms-of-service",
+          "/terms"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/pages/privacy",
+          "/privacy"
+        ]
+      },
+      {
+        "type_name": "Legal & Compliance Page",
+        "typical_url_patterns": [
+          "/pages/gdpr-compliance-1",
+          "/pages/ccpa-compliance"
+        ]
+      },
+      {
+        "type_name": "Mobile Program Terms",
+        "typical_url_patterns": [
+          "/pages/mobile-program-terms-of-service"
+        ]
+      },
+      {
+        "type_name": "User Generated Content (UGC) Terms",
+        "typical_url_patterns": [
+          "/pages/user-generated-content-ugc-terms-conditions"
+        ]
+      },
+      {
+        "type_name": "Error / Redirect Page",
+        "typical_url_patterns": [
+          "/{uuid}"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Loyalty / Ambassador Program",
+        "typical_url_patterns": [
+          "/pages/brand-ambassador-program",
+          "/affiliates/"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/pages/subscribe"
+        ]
+      },
+      {
+        "type_name": "Referral / Share Page",
+        "typical_url_patterns": [
+          "/share"
+        ]
+      },
+      {
+        "type_name": "Restocked Items Page",
+        "typical_url_patterns": [
+          "/new-restocked/restocked"
+        ]
+      },
+      {
+        "type_name": "Web Exclusives Collection",
+        "typical_url_patterns": [
+          "/collections/web-exclusives"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

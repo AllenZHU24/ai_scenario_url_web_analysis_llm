@@ -1,7 +1,7 @@
 {
   "agent_version": "LLM_Planner_v1.0",
   "company_url": "1800lighting.com",
-  "export_time": "2025-06-29 23:18:04",
+  "export_time": "2025-07-03 09:40:11",
   "yearly_analysis_results": {
     "2009": {
       "analysis_time": "2025-06-27 14:59:21",
@@ -6353,6 +6353,47 @@
           "url": "https://web.archive.org/web/20250426194820/https://www.1800lighting.com/customer-inquiry-form.html",
           "customer_journey_stage": "Retention Stage",
           "type_name": "Contact Us"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-03 09:40:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141219162427/http://www.1800lighting.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141219162427/http://www.1800lighting.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as an entry point for customers to discover lighting products, making it essential for the awareness stage."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141219162427/http://www.1800lighting.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
         }
       ]
     }

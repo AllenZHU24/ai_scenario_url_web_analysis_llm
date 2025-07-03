@@ -1,0 +1,40 @@
+2025-07-02 17:21:42,090 - INFO - 📋 日志系统已初始化: outputs/pcmall.com/logs/log_main_20250702_172142.txt
+2025-07-02 17:21:42,090 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-02 17:21:42,090 - INFO - 📊 公司: pcmall.com
+2025-07-02 17:21:42,091 - INFO - ✅ 成功读取 2 个历史URLs from ./inputs/pcmall.com.txt
+2025-07-02 17:21:42,091 - INFO - 🌐 开始URL处理...
+2025-07-02 17:21:42,091 - INFO - 🌐 开始处理公司URLs: pcmall.com
+2025-07-02 17:21:42,091 - INFO - 🔄 发现已存在的链接文件: outputs/pcmall.com/pcmall.com_filtered_links.json，已加载 2 年的数据，将进行增量处理
+2025-07-02 17:21:42,092 - INFO - ⏭️ 跳过 2009 年，已有 263 个链接
+2025-07-02 17:21:42,092 - INFO - ⏭️ 跳过 2012 年，已有 357 个链接
+2025-07-02 17:21:42,093 - INFO - 💾 链接处理完成，共 620 个链接已保存到: outputs/pcmall.com/pcmall.com_filtered_links.json
+2025-07-02 17:21:42,093 - INFO - ✅ 成功加载 2 年的链接数据
+2025-07-02 17:21:42,093 - INFO - ✅ URL处理完成，共处理 2 年的数据
+2025-07-02 17:21:42,093 - INFO - 🧠 开始LLM规划...
+2025-07-02 17:21:42,280 - INFO - 🚀 LLM规划器已初始化
+2025-07-02 17:21:42,281 - INFO - 🧠 开始识别核心页面类型...
+2025-07-02 17:21:42,281 - INFO - ✅ 发现已存在的核心页面类型文件: outputs/pcmall.com/pcmall.com_core_page_types.json
+2025-07-02 17:21:42,282 - INFO - ✅ 从文件加载核心页面类型: 46 个类型
+2025-07-02 17:21:42,282 - INFO - ✅ 核心页面类型已生成: outputs/pcmall.com/pcmall.com_core_page_types.json
+2025-07-02 17:21:42,282 - INFO - 🤖 开始生成LLM规划...
+2025-07-02 17:21:42,284 - INFO - ✅ 加载已存在的规划结果: 2 年
+2025-07-02 17:21:42,289 - INFO - ⏩ 2009 年规划已存在，跳过
+2025-07-02 17:21:42,289 - INFO - ⏩ 2012 年规划已存在，跳过
+2025-07-02 17:21:42,295 - INFO - 💾 LLM规划全部年份处理完成，共 30 个推荐URL已保存到: outputs/pcmall.com/pcmall.com_llm_planning.json
+2025-07-02 17:21:42,296 - INFO - ✅ 成功加载 2 年的规划数据
+2025-07-02 17:21:42,296 - INFO - ✅ LLM规划完成: outputs/pcmall.com/pcmall.com_llm_planning.json
+2025-07-02 17:21:42,297 - INFO - 🔍 开始场景分析...
+2025-07-02 17:21:42,298 - INFO - ✅ 成功加载 70 个微场景
+2025-07-02 17:21:42,298 - INFO - 🔍 场景分析器已初始化
+2025-07-02 17:21:42,298 - INFO - 🔍 开始分析场景: pcmall.com
+2025-07-02 17:21:42,299 - INFO - ✅ 加载已存在的场景结果: 2 年
+2025-07-02 17:21:42,299 - INFO - ⏩ 2009 年场景已存在，跳过
+2025-07-02 17:21:42,299 - INFO - ⏩ 2012 年场景已存在，跳过
+2025-07-02 17:21:42,301 - INFO - ✅ 场景分析结果已导出到: outputs/pcmall.com/pcmall.com_scenarios.json
+2025-07-02 17:21:42,301 - INFO - ✅ 场景分析完成: outputs/pcmall.com/pcmall.com_scenarios.json
+2025-07-02 17:21:42,301 - INFO - 🎉 分析流程完成!
+2025-07-02 17:21:42,301 - INFO - 📁 输出文件:
+2025-07-02 17:21:42,301 - INFO -    - 过滤链接: outputs/pcmall.com/pcmall.com_filtered_links.json
+2025-07-02 17:21:42,301 - INFO -    - 核心页面类型: outputs/pcmall.com/pcmall.com_core_page_types.json
+2025-07-02 17:21:42,301 - INFO -    - LLM规划: outputs/pcmall.com/pcmall.com_llm_planning.json
+2025-07-02 17:21:42,301 - INFO -    - 场景分析: outputs/pcmall.com/pcmall.com_scenarios.json

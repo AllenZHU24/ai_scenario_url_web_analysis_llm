@@ -1,7 +1,7 @@
 {
   "agent_version": "LLM_Planner_v1.0",
   "company_url": "1800contacts.com",
-  "export_time": "2025-06-29 23:17:59",
+  "export_time": "2025-07-03 09:39:58",
   "yearly_analysis_results": {
     "2009": {
       "analysis_time": "2025-06-27 14:32:20",
@@ -5901,6 +5901,83 @@
           "url": "https://web.archive.org/web/20241220205018/https://www.1800contacts.com/lenses/coopervision",
           "customer_journey_stage": "Interest Stage",
           "type_name": "PLP - All Lenses"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-03 09:39:56",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231220184817/https://www.1800contacts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231220184817/https://www.1800contacts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231220184817/https://www.1800contacts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-03 09:39:58",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250502075820/https://www.1800contacts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250502075820/https://www.1800contacts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about contact lenses and related products, making it essential for the awareness stage."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250502075820/https://www.1800contacts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
         }
       ]
     }

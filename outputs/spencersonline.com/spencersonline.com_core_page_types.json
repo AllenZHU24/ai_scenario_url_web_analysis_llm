@@ -1,0 +1,324 @@
+{
+  "generation_time": "2025-07-02 18:17:38",
+  "company_url": "spencersonline.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/",
+          "/home.jsp"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=About",
+          "/content.jsp?pageName=CompInfo",
+          "/about-spencers/"
+        ]
+      },
+      {
+        "type_name": "Social Responsibility Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=SocRes",
+          "/social-responsibility/"
+        ]
+      },
+      {
+        "type_name": "Press & News Page",
+        "typical_url_patterns": [
+          "/PressroomNews",
+          "/pages/PressroomNews.aspx"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/Job-Opportunities/",
+          "go/http://www.work4spencers.com"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Section Landing Page",
+        "typical_url_patterns": [
+          "/section/[name]/[id].uts"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category Page",
+        "typical_url_patterns": [
+          "/[category-name]/",
+          "/category/[name]/[id].uts"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/[parent]_[child]/",
+          "/category/[...]/pc/[id]/[id].uts"
+        ]
+      },
+      {
+        "type_name": "Sub-Sub-Category Page",
+        "typical_url_patterns": [
+          "/category/[...]/c/[id]/[id].uts"
+        ]
+      },
+      {
+        "type_name": "Thumbnail Grid Page",
+        "typical_url_patterns": [
+          "/thumbnail/[...].uts"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/brands/[...]",
+          "/lifestyle_brands_[...]/",
+          "/apparel_shop-by-brand_[...]/"
+        ]
+      },
+      {
+        "type_name": "Seasonal & Holiday Hub",
+        "typical_url_patterns": [
+          "/category/halloween/",
+          "/category/holiday/",
+          "/section/valentines-day/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/new_arrivals/[...]/NewArrivals.uts",
+          "/whats-new/"
+        ]
+      },
+      {
+        "type_name": "Gift Guide Page",
+        "typical_url_patterns": [
+          "/category/gifts-under-[...]/",
+          "/gifts_need-ideas/"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/custserv/locate_store.cmd",
+          "/StoreLocation.aspx"
+        ]
+      },
+      {
+        "type_name": "Trends Landing Page",
+        "typical_url_patterns": [
+          "/trends/",
+          "/trends_[...]/",
+          "/lifestyle_[...]/"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/[post-slug]"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/product/[...].uts",
+          "/product/[slug]/"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/catalog/search.jsp"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Hub",
+        "typical_url_patterns": [
+          "/on_sale/[...]/OnSale.uts",
+          "/section/clearance/",
+          "/clearance1/"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Sub-Category",
+        "typical_url_patterns": [
+          "/category/clearance/[...].uts",
+          "/[category]_sale/"
+        ]
+      },
+      {
+        "type_name": "Deals Hub",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=todaysdeals"
+        ]
+      },
+      {
+        "type_name": "Top Sellers Page",
+        "typical_url_patterns": [
+          "/category/[...]/top-sellers/[...].uts"
+        ]
+      },
+      {
+        "type_name": "Customization Page",
+        "typical_url_patterns": [
+          "/Design-A-Tee/",
+          "/tshirtartgun.aspx"
+        ]
+      },
+      {
+        "type_name": "Product Info & Warranty Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=jewelrywarranty",
+          "/content.jsp?pageName=CommitmentToQuality",
+          "/content.jsp?pageName=ProdInfo"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Basket",
+        "typical_url_patterns": [
+          "/checkout/basket.jsp",
+          "/cart.aspx"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/checkout/"
+        ]
+      },
+      {
+        "type_name": "Login / Register Page",
+        "typical_url_patterns": [
+          "/user/main.jsp"
+        ]
+      },
+      {
+        "type_name": "BOPIS Information Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=bopisInfo"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=TrckOrder",
+          "/Pages/OrderStatus.aspx"
+        ]
+      },
+      {
+        "type_name": "Order History Page",
+        "typical_url_patterns": [
+          "/user/orderhistory.cmd"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=Shipping",
+          "/guest-service_shipping-information/"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=RetExch",
+          "/returns_exchanges/"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/custserv/custserv.jsp",
+          "/guest-service/",
+          "/contacts/"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation Page",
+        "typical_url_patterns": [
+          "/checkout/confirm.jsp"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/user/main.jsp",
+          "/online/account/home.aspx"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=SpencersNationApp"
+        ]
+      },
+      {
+        "type_name": "Community Engagement Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=BbsMkMe",
+          "/be-a-spencers-model/"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=Terms",
+          "/content.jsp?pageName=termsofsale"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=SecPriv",
+          "/privacy-policy1/"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=websiteAccessibility"
+        ]
+      },
+      {
+        "type_name": "CCPA Notice & Request Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=ccpanotice",
+          "/content.jsp?pageName=ccparequest"
+        ]
+      },
+      {
+        "type_name": "Product Recall Notice Page",
+        "typical_url_patterns": [
+          "/content.jsp?pageName=recallNotice"
+        ]
+      },
+      {
+        "type_name": "Site Map",
+        "typical_url_patterns": [
+          "/site-map/"
+        ]
+      }
+    ]
+  },
+  "total_types": 45
+}

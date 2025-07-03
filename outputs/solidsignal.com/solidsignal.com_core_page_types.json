@@ -1,0 +1,343 @@
+{
+  "generation_time": "2025-07-02 18:03:04",
+  "company_url": "solidsignal.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/*",
+          "/t.asp?tag=*"
+        ]
+      },
+      {
+        "type_name": "Guide & Help Article",
+        "typical_url_patterns": [
+          "/antenna-help",
+          "/p/?p=*&d=*-help",
+          "/p/?p=*&d=*-faqs",
+          "/p/?p=*&d=choosing-*"
+        ]
+      },
+      {
+        "type_name": "Technical Document Library",
+        "typical_url_patterns": [
+          "/doc_library.asp*"
+        ]
+      },
+      {
+        "type_name": "News Page",
+        "typical_url_patterns": [
+          "/p/news.asp*"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us",
+          "/p/?p=*&d=about-us"
+        ]
+      },
+      {
+        "type_name": "Customer Testimonials",
+        "typical_url_patterns": [
+          "/p/ct.asp*"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers",
+          "/signal-group-careers"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "L1 Category Hub",
+        "typical_url_patterns": [
+          "/satellite-tv",
+          "/tv-antennas-and-parts",
+          "/commercial",
+          "/marine",
+          "/audio-video"
+        ]
+      },
+      {
+        "type_name": "L2 Category Page",
+        "typical_url_patterns": [
+          "/[a-z-]+/[a-z-]+",
+          "/c/?tc=*"
+        ]
+      },
+      {
+        "type_name": "L3+ Category Page",
+        "typical_url_patterns": [
+          "/[a-z-]+/[a-z-]+/.*"
+        ]
+      },
+      {
+        "type_name": "Legacy Category Page (cview.asp)",
+        "typical_url_patterns": [
+          "/cview.asp?*"
+        ]
+      },
+      {
+        "type_name": "Legacy Category Page (c.asp)",
+        "typical_url_patterns": [
+          "/c.asp?*"
+        ]
+      },
+      {
+        "type_name": "Legacy Paginated Category Page",
+        "typical_url_patterns": [
+          "/c/products.asp?*"
+        ]
+      },
+      {
+        "type_name": "Brand Hub Page",
+        "typical_url_patterns": [
+          "/top-brands"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Listing",
+        "typical_url_patterns": [
+          "/top-brands/*",
+          "/cview.asp?m=*"
+        ]
+      },
+      {
+        "type_name": "Solution Hub Page",
+        "typical_url_patterns": [
+          "/vehicle-solutions",
+          "/home-garden"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Page",
+        "typical_url_patterns": [
+          "/Clearance.asp",
+          "/*-sale",
+          "/on-sale"
+        ]
+      },
+      {
+        "type_name": "Deal of the Day Page",
+        "typical_url_patterns": [
+          "/deal-of-the-day",
+          "/Deal-Of-The-Day.asp"
+        ]
+      },
+      {
+        "type_name": "New Products Page",
+        "typical_url_patterns": [
+          "/new.asp*"
+        ]
+      },
+      {
+        "type_name": "Open Box Items Page",
+        "typical_url_patterns": [
+          "/ob.asp*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (Modern)",
+        "typical_url_patterns": [
+          "/*[A-Z0-9]{4,}.*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Legacy)",
+        "typical_url_patterns": [
+          "/pview.asp?*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search*",
+          "/search/sr.asp*"
+        ]
+      },
+      {
+        "type_name": "Brand-Filtered Search",
+        "typical_url_patterns": [
+          "/search?*custitemsg_brand=*"
+        ]
+      },
+      {
+        "type_name": "Antenna Finder Tool",
+        "typical_url_patterns": [
+          "/cview_antennas_zipcode.asp*",
+          "/p/ota.asp*"
+        ]
+      },
+      {
+        "type_name": "TV Mount Finder Tool",
+        "typical_url_patterns": [
+          "/TV-Mount-Finder.asp"
+        ]
+      },
+      {
+        "type_name": "Cell Repeater Help Tool",
+        "typical_url_patterns": [
+          "/p/ota_cell.asp*"
+        ]
+      },
+      {
+        "type_name": "Installation Hub",
+        "typical_url_patterns": [
+          "/installation"
+        ]
+      },
+      {
+        "type_name": "Wire & Cable Category",
+        "typical_url_patterns": [
+          "/installation/wire-and-cable",
+          "/installation/wire-and-cable/*"
+        ]
+      },
+      {
+        "type_name": "Mounting Supplies Category",
+        "typical_url_patterns": [
+          "/installation/mounting-supplies",
+          "/installation/antenna-mounting-supplies/*"
+        ]
+      },
+      {
+        "type_name": "Tools & Accessories Category",
+        "typical_url_patterns": [
+          "/installation/hand-tools",
+          "/installation/cable-prep-accessories"
+        ]
+      },
+      {
+        "type_name": "Framed Brand Content",
+        "typical_url_patterns": [
+          "/DirecTV_frame.asp"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/CartView.asp",
+          "/crtview.asp"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping-information",
+          "/p/?p=*&d=shipping-information"
+        ]
+      },
+      {
+        "type_name": "Returns & Warranties",
+        "typical_url_patterns": [
+          "/returns-warranties",
+          "/p/?p=*&d=returns-warranties"
+        ]
+      },
+      {
+        "type_name": "Payment Terms",
+        "typical_url_patterns": [
+          "/payment-terms",
+          "/p/?p=*&d=payment-terms"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy-policy",
+          "/p/?p=*&d=privacy-policy"
+        ]
+      },
+      {
+        "type_name": "Disclaimer Page",
+        "typical_url_patterns": [
+          "/public-disclaimer",
+          "/p/?p=*&d=disclaimer"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/p/os.asp*"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contact-us",
+          "/p/contact.asp*"
+        ]
+      },
+      {
+        "type_name": "Sitemap Page",
+        "typical_url_patterns": [
+          "/p/site_map.asp*"
+        ]
+      },
+      {
+        "type_name": "Signal Connect Service Page",
+        "typical_url_patterns": [
+          "/signal-connect"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Email Signup Form",
+        "typical_url_patterns": [
+          "/MailSignUp.asp"
+        ]
+      },
+      {
+        "type_name": "Email Preferences Page",
+        "typical_url_patterns": [
+          "/modify-email-preferences",
+          "/p/email.asp*"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/p/?p=*&d=affiliate-program"
+        ]
+      },
+      {
+        "type_name": "Legacy Brand Portal",
+        "typical_url_patterns": [
+          "/NewPartsPortal.asp"
+        ]
+      },
+      {
+        "type_name": "Mobile Site Redirect",
+        "typical_url_patterns": [
+          "/ftm.asp*"
+        ]
+      },
+      {
+        "type_name": "My Account / Login",
+        "typical_url_patterns": [
+          "/account",
+          "/login"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

@@ -1,0 +1,49 @@
+2025-07-02 22:54:35,435 - INFO - 📋 日志系统已初始化: outputs/shop.callawaygolf.com/logs/log_main_20250702_225435.txt
+2025-07-02 22:54:35,435 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-02 22:54:35,436 - INFO - 📊 公司: shop.callawaygolf.com
+2025-07-02 22:54:35,436 - INFO - ✅ 成功读取 5 个历史URLs from ./inputs/shop.callawaygolf.com.txt
+2025-07-02 22:54:35,436 - INFO - 🌐 开始URL处理...
+2025-07-02 22:54:35,436 - INFO - 🌐 开始处理公司URLs: shop.callawaygolf.com
+2025-07-02 22:54:35,437 - INFO - 🔄 发现已存在的链接文件: outputs/shop.callawaygolf.com/shop.callawaygolf.com_filtered_links.json，已加载 5 年的数据，将进行增量处理
+2025-07-02 22:54:35,437 - INFO - ⏭️ 跳过 2009 年，已有 150 个链接
+2025-07-02 22:54:35,437 - INFO - ⏭️ 跳过 2010 年，已有 175 个链接
+2025-07-02 22:54:35,437 - INFO - ⏭️ 跳过 2011 年，已有 191 个链接
+2025-07-02 22:54:35,437 - INFO - ⏭️ 跳过 2012 年，已有 138 个链接
+2025-07-02 22:54:35,438 - INFO - ⏭️ 跳过 2013 年，已有 115 个链接
+2025-07-02 22:54:35,439 - INFO - 💾 链接处理完成，共 769 个链接已保存到: outputs/shop.callawaygolf.com/shop.callawaygolf.com_filtered_links.json
+2025-07-02 22:54:35,440 - INFO - ✅ 成功加载 5 年的链接数据
+2025-07-02 22:54:35,440 - INFO - ✅ URL处理完成，共处理 5 年的数据
+2025-07-02 22:54:35,440 - INFO - 🧠 开始LLM规划...
+2025-07-02 22:54:35,602 - INFO - 🚀 LLM规划器已初始化
+2025-07-02 22:54:35,602 - INFO - 🧠 开始识别核心页面类型...
+2025-07-02 22:54:35,603 - INFO - ✅ 发现已存在的核心页面类型文件: outputs/shop.callawaygolf.com/shop.callawaygolf.com_core_page_types.json
+2025-07-02 22:54:35,603 - INFO - ✅ 从文件加载核心页面类型: 49 个类型
+2025-07-02 22:54:35,603 - INFO - ✅ 核心页面类型已生成: outputs/shop.callawaygolf.com/shop.callawaygolf.com_core_page_types.json
+2025-07-02 22:54:35,604 - INFO - 🤖 开始生成LLM规划...
+2025-07-02 22:54:35,604 - INFO - ✅ 加载已存在的规划结果: 5 年
+2025-07-02 22:54:35,608 - INFO - ⏩ 2009 年规划已存在，跳过
+2025-07-02 22:54:35,608 - INFO - ⏩ 2010 年规划已存在，跳过
+2025-07-02 22:54:35,608 - INFO - ⏩ 2011 年规划已存在，跳过
+2025-07-02 22:54:35,608 - INFO - ⏩ 2012 年规划已存在，跳过
+2025-07-02 22:54:35,608 - INFO - ⏩ 2013 年规划已存在，跳过
+2025-07-02 22:54:35,609 - INFO - 💾 LLM规划全部年份处理完成，共 23 个推荐URL已保存到: outputs/shop.callawaygolf.com/shop.callawaygolf.com_llm_planning.json
+2025-07-02 22:54:35,609 - INFO - ✅ 成功加载 5 年的规划数据
+2025-07-02 22:54:35,609 - INFO - ✅ LLM规划完成: outputs/shop.callawaygolf.com/shop.callawaygolf.com_llm_planning.json
+2025-07-02 22:54:35,609 - INFO - 🔍 开始场景分析...
+2025-07-02 22:54:35,609 - INFO - ✅ 成功加载 70 个微场景
+2025-07-02 22:54:35,610 - INFO - 🔍 场景分析器已初始化
+2025-07-02 22:54:35,610 - INFO - 🔍 开始分析场景: shop.callawaygolf.com
+2025-07-02 22:54:35,610 - INFO - ✅ 加载已存在的场景结果: 5 年
+2025-07-02 22:54:35,610 - INFO - ⏩ 2009 年场景已存在，跳过
+2025-07-02 22:54:35,610 - INFO - ⏩ 2010 年场景已存在，跳过
+2025-07-02 22:54:35,610 - INFO - ⏩ 2011 年场景已存在，跳过
+2025-07-02 22:54:35,610 - INFO - ⏩ 2012 年场景已存在，跳过
+2025-07-02 22:54:35,610 - INFO - ⏩ 2013 年场景已存在，跳过
+2025-07-02 22:54:35,610 - INFO - ✅ 场景分析结果已导出到: outputs/shop.callawaygolf.com/shop.callawaygolf.com_scenarios.json
+2025-07-02 22:54:35,611 - INFO - ✅ 场景分析完成: outputs/shop.callawaygolf.com/shop.callawaygolf.com_scenarios.json
+2025-07-02 22:54:35,611 - INFO - 🎉 分析流程完成!
+2025-07-02 22:54:35,611 - INFO - 📁 输出文件:
+2025-07-02 22:54:35,611 - INFO -    - 过滤链接: outputs/shop.callawaygolf.com/shop.callawaygolf.com_filtered_links.json
+2025-07-02 22:54:35,611 - INFO -    - 核心页面类型: outputs/shop.callawaygolf.com/shop.callawaygolf.com_core_page_types.json
+2025-07-02 22:54:35,611 - INFO -    - LLM规划: outputs/shop.callawaygolf.com/shop.callawaygolf.com_llm_planning.json
+2025-07-02 22:54:35,611 - INFO -    - 场景分析: outputs/shop.callawaygolf.com/shop.callawaygolf.com_scenarios.json

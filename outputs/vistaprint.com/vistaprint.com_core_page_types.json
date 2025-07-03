@@ -1,0 +1,335 @@
+{
+  "generation_time": "2025-07-03 04:25:25",
+  "company_url": "vistaprint.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/?no_redirect=1",
+          "/[a-z]{2}/"
+        ]
+      },
+      {
+        "type_name": "Content Hub",
+        "typical_url_patterns": [
+          "/hub/",
+          "/hub/index"
+        ]
+      },
+      {
+        "type_name": "Content Article/Guide",
+        "typical_url_patterns": [
+          "/hub/*"
+        ]
+      },
+      {
+        "type_name": "All Products",
+        "typical_url_patterns": [
+          "/all-products",
+          "/product-list.aspx"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us",
+          "/about-us.aspx"
+        ]
+      },
+      {
+        "type_name": "Partnership & Reseller Programs",
+        "typical_url_patterns": [
+          "/partnerships",
+          "/proadvantage.aspx",
+          "/reseller/",
+          "/brand-ambassador-program"
+        ]
+      },
+      {
+        "type_name": "Site Map",
+        "typical_url_patterns": [
+          "/site-map.aspx"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category Hub",
+        "typical_url_patterns": [
+          "/business-cards",
+          "/signs-posters",
+          "/clothing-bags",
+          "/stationery",
+          "/promotional-products",
+          "/photo-gifts",
+          "/packaging",
+          "/category/*.aspx"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (PLP)",
+        "typical_url_patterns": [
+          "/[category]/[subcategory]/",
+          "/marketing-materials/labels-stickers"
+        ]
+      },
+      {
+        "type_name": "Seasonal & Event Hub",
+        "typical_url_patterns": [
+          "/holiday/",
+          "/wedding-collection",
+          "/graduation-collection",
+          "/valentines-day"
+        ]
+      },
+      {
+        "type_name": "Design Services Overview",
+        "typical_url_patterns": [
+          "/design-services/graphic-design.aspx",
+          "/logo-design",
+          "/digital-marketing"
+        ]
+      },
+      {
+        "type_name": "Free Business Tools",
+        "typical_url_patterns": [
+          "/qr-code-generator",
+          "/logomaker",
+          "/digital-marketing/business-name-generator"
+        ]
+      },
+      {
+        "type_name": "Inspirational Gallery",
+        "typical_url_patterns": [
+          "/popular-designs.aspx",
+          "/all-products/collection",
+          "/bookmark-gallery.aspx"
+        ]
+      },
+      {
+        "type_name": "New Arrivals & Bestsellers",
+        "typical_url_patterns": [
+          "/new-arrivals",
+          "/bestsellers"
+        ]
+      },
+      {
+        "type_name": "Product Bundles",
+        "typical_url_patterns": [
+          "/product-bundles"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/[category]/[subcategory]/[product]",
+          "/*.aspx"
+        ]
+      },
+      {
+        "type_name": "Template Gallery",
+        "typical_url_patterns": [
+          "/[...]/templates",
+          "/gallery.aspx"
+        ]
+      },
+      {
+        "type_name": "Sample Kit Request",
+        "typical_url_patterns": [
+          "/samples/*",
+          "/sample-kits/*",
+          "/*-sample-kit.aspx",
+          "/samples-request.aspx"
+        ]
+      },
+      {
+        "type_name": "Product Feature/Material Page",
+        "typical_url_patterns": [
+          "/business-cards/raised-print",
+          "/business-cards/soft-touch",
+          "/brilliant-finishes.aspx"
+        ]
+      },
+      {
+        "type_name": "Mailing Services",
+        "typical_url_patterns": [
+          "/mailing-services.aspx",
+          "/marketing-materials/mailing-services-postcards",
+          "/all-products/business-services/mailing-lists"
+        ]
+      },
+      {
+        "type_name": "Corporate Gifting",
+        "typical_url_patterns": [
+          "/marketing-materials/corporate-gifts",
+          "/promotional-products/customer-employee-gifts"
+        ]
+      },
+      {
+        "type_name": "Themed Collection Filter",
+        "typical_url_patterns": [
+          "?collection=*"
+        ]
+      },
+      {
+        "type_name": "Product Comparison",
+        "typical_url_patterns": [
+          "/logo-design/logo-comparison.aspx"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Product Customizer/Studio",
+        "typical_url_patterns": [
+          "/propath/choose-product.aspx",
+          "/product-design/brief.aspx",
+          "/design",
+          "/logo-design-services/brief.aspx"
+        ]
+      },
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.aspx"
+        ]
+      },
+      {
+        "type_name": "Login & Welcome Back",
+        "typical_url_patterns": [
+          "/vp/ns/sign_in.aspx",
+          "/vp/welcomeback.aspx"
+        ]
+      },
+      {
+        "type_name": "Offers & Deals",
+        "typical_url_patterns": [
+          "/offers.aspx",
+          "/offers",
+          "/product-offer-details.aspx"
+        ]
+      },
+      {
+        "type_name": "Address Management",
+        "typical_url_patterns": [
+          "/envelope-recipient-addressing"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/my-account/order_history.aspx",
+          "/vp/ns/my_account/order_history.aspx"
+        ]
+      },
+      {
+        "type_name": "Order Details",
+        "typical_url_patterns": [
+          "/my-account/order_detail.aspx",
+          "/vp/ns/my_account/order_detail.aspx"
+        ]
+      },
+      {
+        "type_name": "Help Center & FAQ",
+        "typical_url_patterns": [
+          "/customer-care/help-center/",
+          "/customer-care/service-center.aspx",
+          "/COVID-19-FAQ"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/customer-care/contact-us.aspx"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping",
+          "/mlp/christmas-delivery-estimates"
+        ]
+      },
+      {
+        "type_name": "Satisfaction Guarantee",
+        "typical_url_patterns": [
+          "/satisfactionguarantee.aspx",
+          "/customer-promise"
+        ]
+      },
+      {
+        "type_name": "System/Error Page",
+        "typical_url_patterns": [
+          "/vp/errjscript.aspx"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/my-account/",
+          "/my-account/account_update.aspx"
+        ]
+      },
+      {
+        "type_name": "Quick Reorder",
+        "typical_url_patterns": [
+          "/my-account/quick-reorder.aspx"
+        ]
+      },
+      {
+        "type_name": "Saved Projects & Images",
+        "typical_url_patterns": [
+          "/my-account/my_portfolio.aspx",
+          "/my-account/my_images.aspx",
+          "/my-account/design/projects"
+        ]
+      },
+      {
+        "type_name": "Stored Payments",
+        "typical_url_patterns": [
+          "/my-account/stored-payments.aspx"
+        ]
+      },
+      {
+        "type_name": "Communications History",
+        "typical_url_patterns": [
+          "/my-account/recent-communications.aspx"
+        ]
+      },
+      {
+        "type_name": "Loyalty Card Product",
+        "typical_url_patterns": [
+          "/loyalty-cards.aspx",
+          "/business-cards/loyalty-cards"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy Center",
+        "typical_url_patterns": [
+          "/privacy-policy",
+          "/terms-of-use",
+          "/legal-notice",
+          "/customer-care/copyright.aspx",
+          "/customer-care/trademark.aspx",
+          "/accessibility"
+        ]
+      },
+      {
+        "type_name": "Data & Privacy Controls",
+        "typical_url_patterns": [
+          "/data-sale-opt-out",
+          "/vista-privacy-and-cookie-notice"
+        ]
+      }
+    ]
+  },
+  "total_types": 43
+}
