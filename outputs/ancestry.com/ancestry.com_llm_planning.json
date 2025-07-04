@@ -1,0 +1,2666 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "ancestry.com",
+  "export_time": "2025-07-04 09:43:02",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-04 03:53:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 43,
+      "valid_content_urls_count": 43,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/advertising/default.aspx",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/home/partner/default.aspx",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/learn",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/db.aspx?dbid=1030",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/default.aspx?rt=40",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/recent.aspx",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/rx/help.asp",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/community/member/browse.aspx",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/CB/",
+        "https://web.archive.org/web/20091230204906/http://www.ancestry.com/s0/shops/rd.ashx"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/advertising/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Provides information about partnerships, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/home/partner/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Another key page for business collaborations, important for brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Essential for users to explore available records and resources."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/learn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Learning Center",
+            "selection_reason": "Provides educational resources, fostering user engagement and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/db.aspx?dbid=1030",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Allows users to search specific databases, crucial for user interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/default.aspx?rt=40",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates targeted searches, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/recent.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "New Content Feed",
+            "selection_reason": "Keeps users updated with new content, important for user retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/rx/help.asp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "Critical for customer support, enhancing user satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/community/member/browse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Member Browser (Legacy)",
+            "selection_reason": "Encourages community engagement, vital for retaining users."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/CB/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Community Board (Legacy)",
+            "selection_reason": "Fosters user interaction and loyalty through community discussions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/s0/shops/rd.ashx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Member Store Redirect (Legacy)",
+            "selection_reason": "Provides access to exclusive member offers, enhancing retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/s0/shops/rd.ashx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Member Store Redirect (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/rx/help.asp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/CB/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Board (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/recent.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "New Content Feed"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/community/member/browse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Community Member Browser (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/advertising/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/learn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Learning Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/db.aspx?dbid=1030",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/home/partner/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/search/rectype/default.aspx?rt=40",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230204906/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-04 03:53:31",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/home/partner/default.aspx",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/learn",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/periodicals/news/",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/db.aspx?dbid=1030",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/obit/?us&dbid=7545",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/recent.aspx",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/uploadEnhancements",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/newtreeviewer",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/s0/help/rd.ashx",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/default.aspx?rt=35",
+        "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/trees/owt/"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, crucial for creating awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/home/partner/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Highlights partnerships and collaborations, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/learn",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Learning Center",
+            "selection_reason": "Provides educational resources, fostering user interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/periodicals/news/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Encourages exploration of content, critical for generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/db.aspx?dbid=1030",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates user engagement through search capabilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/obit/?us&dbid=7545",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Obituary Collection Search Page",
+            "selection_reason": "Helps users consider specific content relevant to their needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/recent.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "New Content Feed",
+            "selection_reason": "Provides users with the latest content, fulfilling their search needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/uploadEnhancements",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Media Upload Tool",
+            "selection_reason": "Essential for users to enhance their family trees, fulfilling their goals."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/newtreeviewer",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Family Tree Viewer (Legacy)",
+            "selection_reason": "Critical tool for users to visualize their family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/s0/help/rd.ashx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "Provides support and resources to retain users."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/default.aspx?rt=35",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Encourages user exploration and engagement with the platform."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/trees/owt/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates user interest in specific tree types."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/home/partner/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/newtreeviewer",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Family Tree Viewer (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/s0/help/rd.ashx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/periodicals/news/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/db.aspx?dbid=1030",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/recent.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "New Content Feed"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/obit/?us&dbid=7545",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Obituary Collection Search Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/learn",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Learning Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/default.aspx?rt=35",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/uploadEnhancements",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Media Upload Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231092042/http://www.ancestry.com/search/rectype/trees/owt/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-04 03:53:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com/",
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com:80/",
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com/home/partner/default.aspx",
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com/search/obit",
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com/s0/help/rd.ashx",
+        "https://web.archive.org/web/20111228234750/http://www.ancestry.com/cs/HelpAndAdviceUS"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, reinforcing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/home/partner/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Highlights partnerships and collaborations, enhancing brand credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/search/obit",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Obituary Collection Search Page",
+            "selection_reason": "Provides a specific service that potential customers may be interested in."
+          },
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/s0/help/rd.ashx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "Essential for customer support and retention, addressing user queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/cs/HelpAndAdviceUS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "Offers additional resources for users, enhancing customer satisfaction."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/s0/help/rd.ashx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/cs/HelpAndAdviceUS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/search/obit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Obituary Collection Search Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111228234750/http://www.ancestry.com/home/partner/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-04 03:53:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/1940-census",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/home/partner/default.aspx",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/search/obit",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/us/videos",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+        "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/HelpAndAdviceUS"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing overall awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/1940-census",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "This page targets specific historical content, generating interest and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/home/partner/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Highlights partnerships that can enhance brand credibility and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/search/obit",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Obituary Collection Search Page",
+            "selection_reason": "Provides a specific search function that aids users in considering the service."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/us/videos",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Video Content Gallery",
+            "selection_reason": "Engaging video content that captures user interest and showcases features."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Community Wiki (Legacy)",
+            "selection_reason": "A community-driven resource that fosters interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/HelpAndAdviceUS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "Essential for customer retention, providing support and guidance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Community Wiki (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/us/videos",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Video Content Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/cs/HelpAndAdviceUS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/1940-census",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/home/partner/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231153621/http://www.ancestry.com/search/obit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Obituary Collection Search Page"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-04 03:53:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 13,
+      "valid_content_urls_count": 13,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231215525/http://www.ancestry.com/",
+        "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/HelpAndAdviceUS",
+        "https://web.archive.org/web/20131231215525/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+        "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/us/videos",
+        "https://web.archive.org/web/20131231215525/http://www.ancestry.com/home/partner/default.aspx"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/HelpAndAdviceUS",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help & Support Center",
+            "selection_reason": "This resource helps retain customers by providing support and guidance."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Community Wiki (Legacy)",
+            "selection_reason": "This wiki fosters community engagement and provides valuable information, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/us/videos",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Video Content Gallery",
+            "selection_reason": "Videos can capture customer interest and provide engaging content about ancestry services."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/home/partner/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "This page highlights partnerships, increasing awareness of collaborative offerings."
+          }
+        ],
+        "total_recommendations": 5,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/wiki/index.php?title=Main_Page",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Community Wiki (Legacy)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/HelpAndAdviceUS",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help & Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/cs/us/videos",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Video Content Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231215525/http://www.ancestry.com/home/partner/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-04 03:54:01",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 4,
+      "valid_content_urls_count": 4,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231162901/http://www.ancestry.com/cs/us/affiliate",
+        "https://web.archive.org/web/20141231162901/http://www.ancestry.com/"
+      ],
+      "recommended_pages_count": 2,
+      "recommended_in_valid_overlap": 2,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231162901/http://www.ancestry.com/cs/us/affiliate",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "This URL provides information about partnerships, which can increase brand awareness and attract potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231162901/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for users, crucial for creating initial interest and awareness."
+          }
+        ],
+        "total_recommendations": 2,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231162901/http://www.ancestry.com/cs/us/affiliate",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231162901/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-04 03:54:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 8,
+      "valid_content_urls_count": 8,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231185433/http://www.ancestry.com/learn/facts/",
+        "https://web.archive.org/web/20151231185433/http://www.ancestry.com/download/charts",
+        "https://web.archive.org/web/20151231185433/http://www.ancestry.com/cs/us/videos",
+        "https://web.archive.org/web/20151231185433/http://www.ancestry.com/genealogy/records/",
+        "https://web.archive.org/web/20151231185433/http://www.ancestry.com/"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/learn/facts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides foundational knowledge about genealogy, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/download/charts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers practical tools that engage users and encourage exploration of genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/cs/us/videos",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Video Content Gallery",
+            "selection_reason": "Visual content that enhances user interest and understanding of genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/genealogy/records/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Records Collection Hub",
+            "selection_reason": "Central hub for users to explore various records, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for users, essential for brand awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/learn/facts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/download/charts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/cs/us/videos",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Video Content Gallery"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/genealogy/records/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Records Collection Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231185433/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-04 03:54:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 10,
+      "valid_content_urls_count": 10,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161231214716/http://www.ancestry.com/",
+        "https://web.archive.org/web/20161231214716/http://www.ancestry.com/learn/facts/",
+        "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/",
+        "https://web.archive.org/web/20161231214716/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20161231214716/http://www.ancestry.com/download/charts",
+        "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/records/",
+        "https://web.archive.org/web/20161231214716/https://www.ancestry.com/secure/security/forgotpassword.aspx"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing essential information about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/learn/facts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "This page educates potential customers about genealogy, enhancing awareness of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "This hub provides a comprehensive overview of genealogy services, attracting user interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "This page highlights DNA testing services, appealing to users interested in genetic ancestry."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/download/charts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offering free tools engages users and encourages them to explore genealogy further."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/records/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Records Collection Hub",
+            "selection_reason": "This hub provides access to various records, crucial for users considering genealogy research."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231214716/https://www.ancestry.com/secure/security/forgotpassword.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Password Reset Page",
+            "selection_reason": "This page is essential for user retention, allowing customers to regain access to their accounts."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/download/charts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/https://www.ancestry.com/secure/security/forgotpassword.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Password Reset Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/learn/facts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231214716/http://www.ancestry.com/genealogy/records/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Records Collection Hub"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-04 03:54:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 15,
+      "valid_content_urls_count": 15,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/genealogy/records/",
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/learn/facts/",
+        "https://web.archive.org/web/20171231235312/http://www.ancestry.com/genealogy/",
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/corporate/",
+        "https://web.archive.org/web/20171231235312/http://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20171231235312/https://www.ancestry.com/"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/genealogy/records/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Records Collection Hub",
+            "selection_reason": "Provides valuable resources for users interested in genealogy records."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/learn/facts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Educates potential customers about genealogy and family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/http://www.ancestry.com/genealogy/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Central hub for users exploring genealogy services."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Key service for users wanting to build their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/corporate/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate & Brand Information",
+            "selection_reason": "Informs users about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/http://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers free resources that enhance user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Highlights DNA testing services, appealing to users interested in genetic genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main entry point for users to explore all services offered."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/genealogy/records/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Records Collection Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/learn/facts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/http://www.ancestry.com/genealogy/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/corporate/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate & Brand Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/http://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231235312/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-04 03:54:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/records/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/privacyphilosophy",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/careers/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/ancestry-family",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20181231205051/https://www.ancestry.com/family-tree/"
+      ],
+      "recommended_pages_count": 11,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/records/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Records Collection Hub",
+            "selection_reason": "This page offers valuable records that users are interested in exploring."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Provides useful tools that enhance user engagement and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/privacyphilosophy",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate & Brand Information",
+            "selection_reason": "Informs users about the company's privacy policies, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate & Brand Information",
+            "selection_reason": "Provides insights into the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/careers/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Highlights career opportunities, appealing to potential employees."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Engages users with themed content related to family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Educates users about genealogy, fostering interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Central hub for genealogy services, crucial for user consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Offers DNA testing services, appealing to users interested in genetic genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Provides tools for building family trees, a key service for users."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 11,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/records/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Records Collection Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/privacyphilosophy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate & Brand Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate & Brand Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/corporate/careers/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/genealogy/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231205051/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-04 03:54:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 30,
+      "valid_content_urls_count": 30,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/corporate/careers/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/ancestry-family",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/privacyphilosophy",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/records/"
+      ],
+      "recommended_pages_count": 11,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/corporate/careers/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Business & Partner Pages",
+            "selection_reason": "Highlights the company's values and opportunities, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides educational content that raises awareness about genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Engages users with themed content related to family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/privacyphilosophy",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate & Brand Information",
+            "selection_reason": "Informs users about the company's privacy policies, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates user engagement by allowing searches for genealogy records."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Central hub for genealogy services, attracting user interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Promotes DNA testing services, appealing to users interested in genetic genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Encourages users to build family trees, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers free tools to assist users in their genealogy research."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/records/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Records Collection Hub",
+            "selection_reason": "Provides access to a vast collection of genealogy records, crucial for user research."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 11,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/corporate/careers/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Business & Partner Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/privacyphilosophy",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate & Brand Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231225716/https://www.ancestry.com/genealogy/records/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Records Collection Hub"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-04 03:55:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/history/womens-suffrage",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/ancestry-family",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/35",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/34",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/1030",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/7545",
+        "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/39"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "This page highlights the DNA testing service, attracting users interested in genetic ancestry."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/history/womens-suffrage",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Historical Content Feature",
+            "selection_reason": "This content raises awareness about historical events, engaging users with educational material."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides educational content that can attract and inform potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "This hub offers access to genealogy records, appealing to users interested in family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers valuable tools for users to organize their research, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Central search functionality for users to explore ancestry records."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Engages users with themed content related to family ancestry, increasing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/35",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Specific search category that helps users find relevant records quickly."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/34",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Another search category that enhances user experience by narrowing down results."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/1030",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Direct access to a specific collection, facilitating targeted searches."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/7545",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Provides access to another specific collection, improving search efficiency."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/39",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Offers users another way to filter searches, enhancing usability."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/history/womens-suffrage",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Historical Content Feature"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/35",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/34",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/1030",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/collections/7545",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231223407/https://www.ancestry.com/search/categories/39",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-04 03:55:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 23,
+      "valid_content_urls_count": 23,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/ancestry-family",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/discover",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/gift-selection",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/offers/freetrial",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/collections/7545/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/34/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/35/",
+        "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/39/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing a comprehensive overview of the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Offers valuable themed content that can attract users' interest in family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/discover",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Promotes discovery of ancestry services, crucial for user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides educational content that raises awareness about genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Essential for users to explore records and family trees, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Highlights DNA testing services, a key interest area for users."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Encourages users to build and explore their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Provides access to genealogy records, crucial for user research."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/gift-selection",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Membership Landing Page",
+            "selection_reason": "Encourages users to consider gifting memberships, expanding user base."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/offers/freetrial",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Free Trial Landing Page",
+            "selection_reason": "Attracts users to try services without commitment, increasing conversion chances."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers free tools that enhance user engagement and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/collections/7545/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Provides specific search capabilities, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/34/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates targeted searches, crucial for user research."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/35/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Enhances user ability to find specific records, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/39/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Provides additional search options, improving user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/new-years",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Seasonal & Event Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/collections/7545/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/gift-selection",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Membership Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/offers/freetrial",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Free Trial Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/cs/history/womens-suffrage",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Historical Content Feature"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/categories/39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/c/discover",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231235509/https://www.ancestry.com/search/collections/1030/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-04 03:55:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 23,
+      "valid_content_urls_count": 23,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/discover",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/offers/freetrial",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/1950-census",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/ancestry-family",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/1030/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/34/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/39/",
+        "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/7545/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Offers valuable information to educate potential customers about genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/discover",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Engages users with targeted marketing efforts to raise awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Highlights a key service that attracts user interest in genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Essential for users to explore genealogy records and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Provides access to a wide range of genealogy records."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Allows users to build and visualize their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/offers/freetrial",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Free Trial Landing Page",
+            "selection_reason": "Encourages users to try the service before committing."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/1950-census",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Promotes specific historical records to attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers useful tools that enhance user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Provides themed content that resonates with users' interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/1030/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates targeted searches for specific collections."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/34/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Enables users to explore various genealogy categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/39/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Provides access to additional genealogy categories for exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/7545/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Allows users to search through a specific collection of records."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/discover",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/history/womens-suffrage",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Historical Content Feature"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/1030/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/c/1950-census",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/collections/7545/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/search/categories/35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231233345/https://www.ancestry.com/cs/offers/freetrial",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Free Trial Landing Page"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-04 03:56:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 25,
+      "valid_content_urls_count": 25,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/discover",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/offers/freetrial",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/ancestry-family",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/finding-your-roots",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/1950-census",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/history/womens-suffrage",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/categories/39/",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/collections/1030/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/discover",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "This URL serves as a key entry point for users to discover the services offered by Ancestry."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/offers/freetrial",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Free Trial Landing Page",
+            "selection_reason": "This page encourages users to try the service, which is crucial for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "This hub provides essential tools for users interested in building their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "This URL is vital for users looking for genealogical records."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "This page is important for users interested in DNA testing services."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "This hub provides themed content that attracts users' attention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/finding-your-roots",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "This URL promotes a popular theme that resonates with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/1950-census",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "This page highlights historical records that can engage users."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "This page educates users about genealogy, enhancing their interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "This is a critical tool for users to search for their ancestors."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/history/womens-suffrage",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Historical Content Feature",
+            "selection_reason": "This feature provides valuable historical context, attracting users interested in history."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/categories/39/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "This URL allows users to search specific categories, enhancing their experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "This page offers free tools that can help users in their genealogy research."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/collections/1030/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "This URL is essential for users searching specific collections."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/categories/39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/offers/freetrial",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Free Trial Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/discover",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/history/womens-suffrage",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Historical Content Feature"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/categories/34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/cs/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/finding-your-roots",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/c/1950-census",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/collections/1030/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/collections/7545/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/search/categories/35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231235407/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-04 03:56:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 22,
+      "valid_content_urls_count": 22,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/first-name-meaning",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/1950-census",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/gift-selection",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/offers/freetrial",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/discover",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/39/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/34/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/collections/7545/",
+        "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/charts-and-forms"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/first-name-meaning",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "SEO Tool Landing Page",
+            "selection_reason": "Helps users discover the meaning of names, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/1950-census",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Promotes a significant historical record, attracting user interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Central hub for users interested in genealogy records."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Encourages users to build and explore their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Promotes DNA testing services, appealing to users' curiosity."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Essential tool for users to search through various records."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/gift-selection",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Membership Landing Page",
+            "selection_reason": "Facilitates the purchase of gift memberships, enhancing sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/offers/freetrial",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Free Trial Landing Page",
+            "selection_reason": "Encourages users to try services before committing, increasing conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/discover",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Promotes discovery of ancestry, attracting new users."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides educational content, enhancing user knowledge."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/39/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Specific search category to help users find relevant records."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/34/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Another search category to enhance user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/collections/7545/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Direct access to a specific collection, improving search efficiency."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers valuable tools for users, enhancing their research capabilities."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/first-name-meaning",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "SEO Tool Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/gift-selection",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Membership Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/collections/7545/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/1950-census",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/c/discover",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/offers/freetrial",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Free Trial Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/categories/35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231224547/https://www.ancestry.com/search/collections/1030/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-04 03:56:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/dna/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/family-tree/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/gift-selection",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/offers/freetrial",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/discover",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/ancestry-family",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/learn/facts",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/1950-census",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/genealogy/records",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/cs/charts-and-forms",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/categories/35/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/1030/",
+        "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/7545/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for users, providing an overview of services and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Essential for users to begin their genealogy search, driving engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/dna/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "DNA Service Hub",
+            "selection_reason": "Key service that attracts users interested in genetic genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/family-tree/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Family Tree Service Hub",
+            "selection_reason": "Core feature for users to build and visualize their family trees."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/gift-selection",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Membership Landing Page",
+            "selection_reason": "Encourages users to consider gifting memberships, expanding customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/offers/freetrial",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Free Trial Landing Page",
+            "selection_reason": "Attracts potential customers by offering a risk-free trial of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/discover",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Promotes discovery of ancestry services, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/ancestry-family",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Themed Content Hub",
+            "selection_reason": "Engages users with themed content related to family history."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/learn/facts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Learning \"Facts\" Page",
+            "selection_reason": "Provides educational content that raises awareness about genealogy."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/1950-census",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Marketing Campaign Landing Page",
+            "selection_reason": "Specific campaign page that draws interest in historical records."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/genealogy/records",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Genealogy Service Hub",
+            "selection_reason": "Central hub for accessing various genealogy records."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/cs/charts-and-forms",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Free Tools (Charts & Forms)",
+            "selection_reason": "Offers valuable tools that enhance user experience and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/categories/35/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Facilitates user searches in specific categories, improving navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/1030/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Directs users to specific collections, enhancing search efficiency."
+          },
+          {
+            "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/7545/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Global Search Form",
+            "selection_reason": "Another specific search form that aids users in finding relevant records."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/family-tree/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Family Tree Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/first-name-meaning",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "SEO Tool Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/categories/35/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/cs/charts-and-forms",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Free Tools (Charts & Forms)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/dna/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "DNA Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/ancestry-family",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Themed Content Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/1950-census",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/1030/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/learn/facts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Learning \"Facts\" Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/collections/7545/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/gift-selection",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Membership Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/categories/39/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/genealogy/records",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Genealogy Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/search/categories/34/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Global Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/offers/freetrial",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Free Trial Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250509195618/https://www.ancestry.com/c/discover",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Marketing Campaign Landing Page"
+        }
+      ]
+    }
+  }
+}

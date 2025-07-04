@@ -1,0 +1,350 @@
+{
+  "generation_time": "2025-07-04 06:09:41",
+  "company_url": "bareescentuals.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:?brandId=*",
+          "/*Home-Show*",
+          "/*Home-SiteIntro"
+        ]
+      },
+      {
+        "type_name": "Brand Story / About Us",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*STORY*",
+          "/*Landing-Show?cid=*OURSTORY*"
+        ]
+      },
+      {
+        "type_name": "Press / In The News",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*NEWS*"
+        ]
+      },
+      {
+        "type_name": "Founder Page",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*MEET_LESLIE*",
+          "/*Landing-Show?cid=*LESLIE_PAGE*"
+        ]
+      },
+      {
+        "type_name": "Social Responsibility / Cares",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*CARES*"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*CAREERS*",
+          "/*Experience-CareerPage"
+        ]
+      },
+      {
+        "type_name": "User-Generated Content Gallery",
+        "typical_url_patterns": [
+          "/*Landing-Show?cid=*OLAPIC_GALLERY*"
+        ]
+      },
+      {
+        "type_name": "Influencer Content",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*INFLUENCER*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page (e.g., Face, Eyes, Skincare)",
+        "typical_url_patterns": [
+          "/{Face|Eyes|Lips|Skincare|Body}/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (e.g., Foundation, Lipstick)",
+        "typical_url_patterns": [
+          "/*/*_SUB_*,*,sc.html",
+          "/makeup/face/*/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Brushes & Tools Category",
+        "typical_url_patterns": [
+          "/*Brushes-Tools/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Category",
+        "typical_url_patterns": [
+          "/*New-Arrivals/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Best Sellers / Award Winners Category",
+        "typical_url_patterns": [
+          "/*Award-Winners/*,*,sc.html",
+          "/*Best-Sellers/*,*,sc.html",
+          "/*Experience-Show?cgid=*AWARDS*"
+        ]
+      },
+      {
+        "type_name": "Collections / Sets Category",
+        "typical_url_patterns": [
+          "/*Collections/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Gift & Holiday Category",
+        "typical_url_patterns": [
+          "/Gifts/*,*,sc.html",
+          "/*Experience-Show?cgid=*HOLIDAY_GIFT*",
+          "/*Gifts-Under-*/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Shop by Concern/Type (e.g., Acne, Anti-Aging)",
+        "typical_url_patterns": [
+          "/{Acne|Anti-Aging|Redness|Pores}/*,*,sc.html",
+          "/by Skin Type/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Video Gallery / Tutorials",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*VIDEOS*",
+          "/*Video-GetVideo?videoName=*"
+        ]
+      },
+      {
+        "type_name": "Blog / Tips & Advice",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*TIPSANDADVICE*",
+          "/*Experience-Detail?cgid=*TIPSANDADVICE*"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/*Search-Show?cgid=*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*,*,pd.html",
+          "/*Product-Show?pid=*"
+        ]
+      },
+      {
+        "type_name": "Foundation/Shade Finder Tool",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*FOUNDATION_FINDER*",
+          "/*ShadeFinder-Show",
+          "/*ShadeSelectorTool-Start"
+        ]
+      },
+      {
+        "type_name": "Get Started Kit / Configurator",
+        "typical_url_patterns": [
+          "/*Get-Started*/*,*,sc.html",
+          "/*GSKConfigurator-Start",
+          "/*Landing-Show?cid=*CUSTOMGSK*"
+        ]
+      },
+      {
+        "type_name": "Customer Stories / Reviews",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*REALSTORIES*",
+          "/*ShareYourStory-Show"
+        ]
+      },
+      {
+        "type_name": "Sale / Last Chance Category",
+        "typical_url_patterns": [
+          "/{Last-Chance|Specials}/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Promotions / Coupons Page",
+        "typical_url_patterns": [
+          "/*Landing-Show?cid=*COUPONS*"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/*Stores-Find",
+          "/*Stores-International",
+          "/*Landing-Show?cid=*STORE_LOCATOR*"
+        ]
+      },
+      {
+        "type_name": "Events & Classes",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*EVENTSANDCLASSES*",
+          "/*EventsClasses-Main?cgid=*"
+        ]
+      },
+      {
+        "type_name": "Thematic Campaign Landing Page",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*READY*",
+          "/*Experience-Show?cgid=*MOXIE*",
+          "/*GenNude-Start",
+          "/*Experience-HolidayLanding"
+        ]
+      },
+      {
+        "type_name": "Samples Category",
+        "typical_url_patterns": [
+          "/*Samples/*,*,sc.html"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/*Cart-Show",
+          "/*Cart-SecureShow"
+        ]
+      },
+      {
+        "type_name": "Account Login",
+        "typical_url_patterns": [
+          "/*StoreAccountLogin-SecureStartLogin"
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/*Gift-Card*/*,*,sc.html",
+          "/*GiftCard-Master,*,pd.html*"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/*COShipping-Start",
+          "/*COBilling-Start"
+        ]
+      },
+      {
+        "type_name": "Generic Error / Redirect",
+        "typical_url_patterns": [
+          "/*SubmitPromoForm-GenericError*",
+          "/*RedirectURL-RedirectMobile"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/*ManageStoreAccount-Secure*"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/*CustService-Show*",
+          "/*CustService-Landing"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/*CustService-ContactUs"
+        ]
+      },
+      {
+        "type_name": "FAQ",
+        "typical_url_patterns": [
+          "/*CustService-FAQS"
+        ]
+      },
+      {
+        "type_name": "Policy Page (Terms, Privacy, Sales)",
+        "typical_url_patterns": [
+          "/*SubmitPromoForm-GenericError?cid=*_POLICY",
+          "/*SubmitPromoForm-GenericError?cid=*_TERMS_OF_USE",
+          "/*Experience-BEGlobalPolicy",
+          "/*CustService-CaliforniaLaw"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation",
+        "typical_url_patterns": [
+          "/*COSummary-Show"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/*Order-History"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Loyalty Program / Club Info",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*JOIN_CLUB*",
+          "/*Experience-Show?cgid=*BAREMINERALS_CLUB*",
+          "/*The-Eye-Club/*,*,sc.html"
+        ]
+      },
+      {
+        "type_name": "Auto-Delivery / Subscription Info",
+        "typical_url_patterns": [
+          "/*Auto-Delivery/*,*,sc.html",
+          "/*Experience-Show?cgid=*AUTO_DELIVERY*"
+        ]
+      },
+      {
+        "type_name": "Subscription Management",
+        "typical_url_patterns": [
+          "/*ManageStoreAccount-SecureFrequencyManager"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/*ManageStoreAccount-SecureShowWishList"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup",
+        "typical_url_patterns": [
+          "/*CustService-NewsLetterSignUp*"
+        ]
+      },
+      {
+        "type_name": "Customer Feedback Form",
+        "typical_url_patterns": [
+          "/*CustService-Feedback*"
+        ]
+      },
+      {
+        "type_name": "Pro / Makeup Artist Discount Program",
+        "typical_url_patterns": [
+          "/*Experience-Show?cgid=*MAKEUP_ARTIST_DISCOUNT*"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend Program",
+        "typical_url_patterns": [
+          "/*FABMarketing-Start"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

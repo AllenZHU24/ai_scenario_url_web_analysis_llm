@@ -1,0 +1,362 @@
+{
+  "generation_time": "2025-07-04 09:13:30",
+  "company_url": "bebe.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/home.jsp"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Page",
+        "typical_url_patterns": [
+          "/pages/about-bebe",
+          "/custserv/custservsection.jsp?pageName=About",
+          "/about-us/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Themed Collection / Lookbook",
+        "typical_url_patterns": [
+          "/collections/holiday-edit",
+          "/collections/nye-fabulous",
+          "/content.jsp?pageName=Lookbook",
+          "/New/December-Catalog/pc/{id}/{id}.cat"
+        ]
+      },
+      {
+        "type_name": "Shoppable Gallery / Social Proof",
+        "typical_url_patterns": [
+          "/pages/shoppable-gallery",
+          "/content.jsp?pageName=instagallery",
+          "/content.jsp?pageName=babesinbebe"
+        ]
+      },
+      {
+        "type_name": "Mobile App Promotion",
+        "typical_url_patterns": [
+          "/pages/apps",
+          "/content.jsp?pageName=Mobile"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/pages/affiliates"
+        ]
+      },
+      {
+        "type_name": "Corporate Info (Careers/Investors)",
+        "typical_url_patterns": [
+          "/custserv/careers.jsp",
+          "/investor-relations/b/{id}"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "All Collections Hub",
+        "typical_url_patterns": [
+          "/collections"
+        ]
+      },
+      {
+        "type_name": "Top-Level Category Page",
+        "typical_url_patterns": [
+          "/{id}.sec",
+          "/collections/clothing",
+          "/collections/dresses",
+          "/collections/shoes",
+          "/APPAREL-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Product Listing Page (PLP) / Sub-Category",
+        "typical_url_patterns": [
+          "/collections/{sub-category-name}",
+          "/{Category}/{Sub-Category}/pc/{id}/{id}.cat",
+          "/{...}-{Category}-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/collections/new",
+          "/New/All-New-Arrivals/pc/{id}/{id}.cat",
+          "/JUST-IN-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Best Sellers / Top Rated",
+        "typical_url_patterns": [
+          "/collections/best-sellers",
+          "/Shop-By/Top-Rated/pc/{id}/{id}.cat"
+        ]
+      },
+      {
+        "type_name": "Sale Hub",
+        "typical_url_patterns": [
+          "/collections/sale",
+          "/Sale/270.sec",
+          "/SALE-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Sale Sub-Category",
+        "typical_url_patterns": [
+          "/collections/sale-{category}",
+          "/Sale/{Category}/pc/{id}/{id}.cat"
+        ]
+      },
+      {
+        "type_name": "Final Sale / Clearance",
+        "typical_url_patterns": [
+          "/collections/final-sale",
+          "/Sale/Last-Chance/pc/{id}/{id}.cat"
+        ]
+      },
+      {
+        "type_name": "Themed Edit / Shop by Look",
+        "typical_url_patterns": [
+          "/collections/night-out",
+          "/collections/print-shop",
+          "/New/Looks-We-x2764/pc/{id}/{id}.cat"
+        ]
+      },
+      {
+        "type_name": "Shop by Price",
+        "typical_url_patterns": [
+          "/collections/dresses-under-200",
+          "/{price}-under-SHOP-BY-PRICE-SALE-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/collections/gift-guide",
+          "/pages/holiday-gift-guide",
+          "/Gifts/402.sec"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Line (e.g., Logo, Sport)",
+        "typical_url_patterns": [
+          "/collections/logo",
+          "/collections/bebe-sport",
+          "/Logo/234.sec",
+          "/bebe-Sport/232.sec"
+        ]
+      },
+      {
+        "type_name": "Faceted/Filtered Search Results",
+        "typical_url_patterns": [
+          "/collections/sale?Size[]={value}",
+          "/collections/denim?Color[]={value}"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-handle}",
+          "/dp/{product-id}"
+        ]
+      },
+      {
+        "type_name": "Size Guide",
+        "typical_url_patterns": [
+          "/pages/size-guide",
+          "/custserv/custserv.jsp?pageName=SizeChart",
+          "/size-guide/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Product Reviews Page",
+        "typical_url_patterns": [
+          "/pages/reviews"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/pages/swym-share-wishlist"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/pages/store-locator",
+          "/custserv/locate_store.cmd",
+          "/store-locator"
+        ]
+      },
+      {
+        "type_name": "Online Exclusives",
+        "typical_url_patterns": [
+          "/New/Online-Exclusives/pc/{id}/{id}.cat",
+          "/Web-Exclusives-APPAREL-Products/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Back in Stock",
+        "typical_url_patterns": [
+          "/collections/back-in-stock"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Bag",
+        "typical_url_patterns": [
+          "/cart",
+          "/checkout/basket.jsp"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/orc"
+        ]
+      },
+      {
+        "type_name": "Login / Register Page",
+        "typical_url_patterns": [
+          "/account/login",
+          "/user/login.jsp",
+          "/signin"
+        ]
+      },
+      {
+        "type_name": "Gift Card",
+        "typical_url_patterns": [
+          "/products/gift-card",
+          "/content.jsp?pageName=GiftCardsLandingPage",
+          "/bebe-gift-card/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Promotions / Coupons Page",
+        "typical_url_patterns": [
+          "/pages/offers",
+          "/content.jsp?pageName=bebe-coupons-and-discounts",
+          "/custserv/custserv_popup.jsp?pageName=SalesPromo"
+        ]
+      },
+      {
+        "type_name": "Payment Method Info (e.g., Klarna)",
+        "typical_url_patterns": [
+          "/pages/klarna"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status / Tracking",
+        "typical_url_patterns": [
+          "/checkout/order_status.jsp"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/pages/shipping",
+          "/custserv/custservsection.jsp?pageName=Shipping",
+          "/shipping-and-returns/b/{id}"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/pages/returns",
+          "/custserv/custservsection.jsp?pageName=Returns",
+          "/b/722994011?ref=footer_returns"
+        ]
+      },
+      {
+        "type_name": "International Shipping",
+        "typical_url_patterns": [
+          "/pages/international",
+          "/international/b/{id}"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/user/main.jsp"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program (Club Bebe)",
+        "typical_url_patterns": [
+          "/clubbebe",
+          "/user/rewards_landing.jsp",
+          "/content.jsp?pageName=clubbebeHome"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend",
+        "typical_url_patterns": [
+          "/pages/refer",
+          "/user/refer_a_friend.jsp"
+        ]
+      },
+      {
+        "type_name": "Newsletter Subscription Layer/Page",
+        "typical_url_patterns": [
+          "/user/subscribe_layer.jsp",
+          "/gp/subscription/email-opt-in/"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Help Center",
+        "typical_url_patterns": [
+          "/custserv/custservsection.jsp?pageName=Assistance",
+          "/assistance/b/{id}"
+        ]
+      },
+      {
+        "type_name": "FAQ",
+        "typical_url_patterns": [
+          "/pages/faq"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/pages/contact-us",
+          "/contact"
+        ]
+      },
+      {
+        "type_name": "Student Discount",
+        "typical_url_patterns": [
+          "/pages/student-discount",
+          "/pages/student-beans"
+        ]
+      },
+      {
+        "type_name": "Legal & Compliance (Privacy/Terms)",
+        "typical_url_patterns": [
+          "/pages/privacy-policy",
+          "/pages/terms-of-use",
+          "/pages/accessibility-statement-new",
+          "/custserv/custservsection.jsp?pageName=Privacy"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/site-map/b/{id}"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

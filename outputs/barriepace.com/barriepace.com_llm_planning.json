@@ -1,0 +1,884 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "barriepace.com",
+  "export_time": "2025-07-04 09:43:36",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-04 06:30:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 38,
+      "valid_content_urls_count": 38,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/about/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/privacy-policy/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/careers/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_trends/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/jackets/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/dresses/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/size-charts/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/product/gift-cards/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/cart.view/",
+        "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/checkout.start",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/shipping-information/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/returns-exchanges/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/customer-service/",
+        "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/userProfile.home/",
+        "https://web.archive.org/web/20090823053700/http://www.barriepace.com/feedback/"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 16,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/about/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides important information about the brand and its values."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/privacy-policy/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection and privacy practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/careers/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Engages potential employees and showcases company culture."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_trends/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed / Curated Collection",
+            "selection_reason": "Attracts customers with curated shopping experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/jackets/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category (PLP)",
+            "selection_reason": "Highlights a key product category for customer exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/dresses/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category (PLP)",
+            "selection_reason": "Another key product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/size-charts/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sizing & Fit Guide",
+            "selection_reason": "Helps customers make informed decisions about sizing."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/product/gift-cards/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Card PDP",
+            "selection_reason": "Offers a flexible gifting option for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/cart.view/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/checkout.start",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Start / Login",
+            "selection_reason": "Initiates the checkout process, essential for conversions."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/shipping-information/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information Policy",
+            "selection_reason": "Provides customers with important shipping details."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/returns-exchanges/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Informs customers about return policies, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/customer-service/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Central resource for customer support and inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/userProfile.home/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Encourages customer engagement and repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/feedback/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Feedback Form",
+            "selection_reason": "Allows customers to provide feedback, improving retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_trends/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/tops/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/search.advancedSearchForm",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/feedback/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Feedback Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/size-charts/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sizing & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/orderHistory.summary/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_boutiques/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed / Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/jackets/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/cart.view/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm?fuseaction=search.results&sizeType=Petites",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/userProfile.home/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/privacy-policy/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/request-a-catalog/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Catalog Request Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm?fuseaction=search.results&sizeType=Women's",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/Accessibility",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Accessibility Statement"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/cart.quickOrder",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/publicWishList.home/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/dresses/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/careers/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/content.popup/nodeID/16705d1c-ea8c-40ab-9499-fc77aec41c79",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/fit-guide/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sizing & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/shipping-information/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/https://www.barriepace.com/index.cfm/fuseaction/checkout.start",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Start / Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_new-arrivals/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/sale/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/index.cfm/fuseaction/cart.quickOrder/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Quick Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/returns-exchanges/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/customer-service/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/about/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/product/gift-cards/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Card PDP"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/more-ways-to-shop_brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20090823053700/http://www.barriepace.com/shop-our-catalogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Catalog"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-04 06:30:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20100817003504/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20100817003504/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to become aware of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20100817003504/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-04 06:30:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111012193124/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111012193124/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111012193124/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-04 06:30:25",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121118042815/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121118042815/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121118042815/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-04 06:30:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20130802074342/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 0,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20130802074342/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-04 06:30:31",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141219135239/http://www.barriepace.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141219135239/http://www.barriepace.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141219135239/http://www.barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-04 06:30:33",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151031121822/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151031121822/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151031121822/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-04 06:30:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20160306104405/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20160306104405/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20160306104405/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-04 06:30:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20180809124603/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20180809124603/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings, thus creating awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20180809124603/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-04 06:30:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190730214123/http://www.barriepace.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190730214123/http://www.barriepace.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20190730214123/http://www.barriepace.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-04 06:30:43",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201016115852/http://www.barriepace.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201016115852/http://www.barriepace.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings, thus creating awareness."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201016115852/http://www.barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-04 06:30:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211206022632/http://barriepace.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211206022632/http://barriepace.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211206022632/http://barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-04 06:30:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221207231733/http://barriepace.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221207231733/http://barriepace.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221207231733/http://barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-04 06:30:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230322025422/http://barriepace.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230322025422/http://barriepace.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230322025422/http://barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-04 06:30:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 7,
+      "valid_content_urls_count": 7,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/Womens_Clothing.cfm?fp=N6uOI0HepSE4rvEOqM9KXkzjWAdcAVfseV49AqXrZx3IjbGKio0oBMfa829FUKnBhuAnRjQjL7NVFWDSi%2BTtTFPGRqx9E5PSlKw7%2FZvIVjKdemK6pW8GVhXUNJaLtAm2tqn1jMTr9lj2xgSUZtCc0T1FlS9RiKnPMiSHt97UVxXP1UNwK%2BvomExszscMmUlA%2BdToR5WvKnvruFO0wD%2BCWp5MMr7isjoHit%2BG7BUjliq1ZXaUUjDsbumVK04kBAko5wXKBwdRRQFs1OynTLcw%2BKIJNb6Y2DgVcEhqqoPVh1aLjmu4WbpXN8%2F79vGHyFhm&kbetu=1&maxads=0&kld=1042&_opnslfp=1&&&kt=246&&kbc=3918&ki=31034708&ktd=0&kld=1042&kp=2",
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/Womens_Fashion.cfm?fp=N6uOI0HepSE4rvEOqM9KXkzjWAdcAVfseV49AqXrZx3IjbGKio0oBMfa829FUKnBhuAnRjQjL7NVFWDSi%2BTtTFPGRqx9E5PSlKw7%2FZvIVjKdemK6pW8GVhXUNJaLtAm2tqn1jMTr9lj2xgSUZtCc0T1FlS9RiKnPMiSHt97UVxXP1UNwK%2BvomExszscMmUlA%2BdToR5WvKnvruFO0wD%2BCWp5MMr7isjoHit%2BG7BUjliq1ZXaUUjDsbumVK04kBAko5wXKBwdRRQFs1OynTLcw%2BKIJNb6Y2DgVcEhqqoPVh1aLjmu4WbpXN8%2F79vGHyFhm&kbetu=1&maxads=0&kld=1042&_opnslfp=1&&&kt=246&&kbc=3918&ki=31036454&ktd=0&kld=1042&kp=4",
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/Womens_Jackets.cfm?fp=N6uOI0HepSE4rvEOqM9KXkzjWAdcAVfseV49AqXrZx3IjbGKio0oBMfa829FUKnBhuAnRjQjL7NVFWDSi%2BTtTFPGRqx9E5PSlKw7%2FZvIVjKdemK6pW8GVhXUNJaLtAm2tqn1jMTr9lj2xgSUZtCc0T1FlS9RiKnPMiSHt97UVxXP1UNwK%2BvomExszscMmUlA%2BdToR5WvKnvruFO0wD%2BCWp5MMr7isjoHit%2BG7BUjliq1ZXaUUjDsbumVK04kBAko5wXKBwdRRQFs1OynTLcw%2BKIJNb6Y2DgVcEhqqoPVh1aLjmu4WbpXN8%2F79vGHyFhm&kbetu=1&maxads=0&kld=1042&_opnslfp=1&&&kt=246&&kbc=3918&ki=31038968&ktd=0&kld=1042&kp=5",
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/Womens_Bottoms.cfm?fp=N6uOI0HepSE4rvEOqM9KXkzjWAdcAVfseV49AqXrZx3IjbGKio0oBMfa829FUKnBhuAnRjQjL7NVFWDSi%2BTtTFPGRqx9E5PSlKw7%2FZvIVjKdemK6pW8GVhXUNJaLtAm2tqn1jMTr9lj2xgSUZtCc0T1FlS9RiKnPMiSHt97UVxXP1UNwK%2BvomExszscMmUlA%2BdToR5WvKnvruFO0wD%2BCWp5MMr7isjoHit%2BG7BUjliq1ZXaUUjDsbumVK04kBAko5wXKBwdRRQFs1OynTLcw%2BKIJNb6Y2DgVcEhqqoPVh1aLjmu4WbpXN8%2F79vGHyFhm&kbetu=1&maxads=0&kld=1042&_opnslfp=1&&&kt=246&&kbc=3918&ki=31033827&ktd=0&kld=1042&kp=3",
+        "https://web.archive.org/web/20241212051434/http://barriepace.com/",
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/",
+        "https://web.archive.org/web/20241212051434/http://www.barriepace.com/Womens_Accessories.cfm?fp=N6uOI0HepSE4rvEOqM9KXkzjWAdcAVfseV49AqXrZx3IjbGKio0oBMfa829FUKnBhuAnRjQjL7NVFWDSi%2BTtTFPGRqx9E5PSlKw7%2FZvIVjKdemK6pW8GVhXUNJaLtAm2tqn1jMTr9lj2xgSUZtCc0T1FlS9RiKnPMiSHt97UVxXP1UNwK%2BvomExszscMmUlA%2BdToR5WvKnvruFO0wD%2BCWp5MMr7isjoHit%2BG7BUjliq1ZXaUUjDsbumVK04kBAko5wXKBwdRRQFs1OynTLcw%2BKIJNb6Y2DgVcEhqqoPVh1aLjmu4WbpXN8%2F79vGHyFhm&kbetu=1&maxads=0&kld=1042&_opnslfp=1&&&kt=246&&kbc=3918&ki=31032567&ktd=0&kld=1042&kp=1"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 0,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 2,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241212051434/http://barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241212051434/http://www.barriepace.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

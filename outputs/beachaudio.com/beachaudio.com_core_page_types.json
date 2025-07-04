@@ -1,0 +1,307 @@
+{
+  "generation_time": "2025-07-04 07:12:50",
+  "company_url": "beachaudio.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/index.php"
+        ]
+      },
+      {
+        "type_name": "All Brands Page",
+        "typical_url_patterns": [
+          "/brands/",
+          "/Manufacturers-Featured.html"
+        ]
+      },
+      {
+        "type_name": "Brand Detail Page",
+        "typical_url_patterns": [
+          "/brands/{brand-name}/",
+          "/{brand-name}/"
+        ]
+      },
+      {
+        "type_name": "News / Content Page",
+        "typical_url_patterns": [
+          "/news.php"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "L1 Category Page (Modern)",
+        "typical_url_patterns": [
+          "/electronics/",
+          "/automotive/",
+          "/home-kitchen/",
+          "/sports-outdoors/",
+          "/industrial-scientific/",
+          "/toys-games/",
+          "/musical-instruments/",
+          "/video-games/"
+        ]
+      },
+      {
+        "type_name": "L1 Category Page (Legacy)",
+        "typical_url_patterns": [
+          "/{CategoryName}-c-{id}.html"
+        ]
+      },
+      {
+        "type_name": "L2 Category Page (Modern)",
+        "typical_url_patterns": [
+          "/{category}/{sub-category}/"
+        ]
+      },
+      {
+        "type_name": "L2 Category Page (Legacy)",
+        "typical_url_patterns": [
+          "/{Category}/{SubCategory}-c-{id}_{sub-id}.html"
+        ]
+      },
+      {
+        "type_name": "L3+ Category Page (Modern)",
+        "typical_url_patterns": [
+          "/{category}/{sub-category}/{sub-sub-category...}/"
+        ]
+      },
+      {
+        "type_name": "L3+ Category Page (Legacy)",
+        "typical_url_patterns": [
+          "/{Cat}/{SubCat}/{SubSubCat}-c-{id}_{sub-id}_{sub-sub-id}.html"
+        ]
+      },
+      {
+        "type_name": "Featured Category Page",
+        "typical_url_patterns": [
+          "/kitchen-dining-features/",
+          "/camera-photo-features/",
+          "/outdoor-recreation-features/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (Legacy)",
+        "typical_url_patterns": [
+          "/{Brand}/{Product}-p-{id}.html"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare"
+        ]
+      },
+      {
+        "type_name": "All Product Reviews Page",
+        "typical_url_patterns": [
+          "/latest_reviews.php"
+        ]
+      },
+      {
+        "type_name": "Computer Components Category",
+        "typical_url_patterns": [
+          "/electronics/computers-accessories/computer-components/{...}"
+        ]
+      },
+      {
+        "type_name": "Cables & Interconnects Category",
+        "typical_url_patterns": [
+          "/electronics/computers-accessories/cables-accessories/cables-interconnects/{...}"
+        ]
+      },
+      {
+        "type_name": "Data Storage Category",
+        "typical_url_patterns": [
+          "/electronics/computers-accessories/data-storage/{...}"
+        ]
+      },
+      {
+        "type_name": "Networking Products Category",
+        "typical_url_patterns": [
+          "/electronics/computers-accessories/networking-products/{...}",
+          "/Computers/Networking-c-206_234.html"
+        ]
+      },
+      {
+        "type_name": "Printers & Accessories Category",
+        "typical_url_patterns": [
+          "/office-products/office-electronics/printers-accessories/{...}",
+          "/Computers/Printers-c-206_239.html"
+        ]
+      },
+      {
+        "type_name": "Camera & Photo Accessories Category",
+        "typical_url_patterns": [
+          "/electronics/camera-photo/accessories/{...}",
+          "/Accessories/Camera-Accessories-c-15111_15112.html"
+        ]
+      },
+      {
+        "type_name": "Car & Vehicle Electronics Category",
+        "typical_url_patterns": [
+          "/electronics/car-vehicle-electronics/{...}",
+          "/Mobile-Electronics-c-11080.html"
+        ]
+      },
+      {
+        "type_name": "Automotive Replacement Parts Category",
+        "typical_url_patterns": [
+          "/automotive/replacement-parts/{...}"
+        ]
+      },
+      {
+        "type_name": "Power & Hand Tools Category",
+        "typical_url_patterns": [
+          "/tools-home-improvement/power-hand-tools/{...}"
+        ]
+      },
+      {
+        "type_name": "Office & School Supplies Category",
+        "typical_url_patterns": [
+          "/office-products/office-school-supplies/{...}",
+          "/Office-Equipment-Supplies-c-15141.html"
+        ]
+      },
+      {
+        "type_name": "Kitchen & Dining Category",
+        "typical_url_patterns": [
+          "/home-kitchen/kitchen-dining/{...}"
+        ]
+      },
+      {
+        "type_name": "Home Audio Category",
+        "typical_url_patterns": [
+          "/electronics/home-audio/{...}",
+          "/Audio-c-11064.html"
+        ]
+      },
+      {
+        "type_name": "Gaming Accessories Category",
+        "typical_url_patterns": [
+          "/video-games/{console}/accessories/{...}",
+          "/Gaming/Accessories-c-11068_11069.html"
+        ]
+      },
+      {
+        "type_name": "Video Games (Software) Category",
+        "typical_url_patterns": [
+          "/video-games/{console}/games/{...}",
+          "/Gaming/Games-c-11068_11072.html"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.php"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/create_account.php",
+          "/login.php?action=create_account"
+        ]
+      },
+      {
+        "type_name": "Wishlist Page",
+        "typical_url_patterns": [
+          "/wishlist.php"
+        ]
+      },
+      {
+        "type_name": "Checkout Page (Inferred)",
+        "typical_url_patterns": [
+          "/checkout.php"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status Page",
+        "typical_url_patterns": [
+          "/orderstatus.php"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/shipping-information/",
+          "/holidayshipping.php"
+        ]
+      },
+      {
+        "type_name": "Returns Policy Page",
+        "typical_url_patterns": [
+          "/returns/",
+          "/returns.php"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation Page (Inferred)",
+        "typical_url_patterns": [
+          "/checkout_success.php"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account.php"
+        ]
+      },
+      {
+        "type_name": "Help Center",
+        "typical_url_patterns": [
+          "/help-center/"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/faq.php",
+          "/faq/"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contact-us/"
+        ]
+      },
+      {
+        "type_name": "Company Information Page",
+        "typical_url_patterns": [
+          "/info.php"
+        ]
+      },
+      {
+        "type_name": "Featured Offers Page",
+        "typical_url_patterns": [
+          "/more.php"
+        ]
+      },
+      {
+        "type_name": "Warranty Information Page",
+        "typical_url_patterns": [
+          "/{...}/warranties-services/"
+        ]
+      }
+    ]
+  },
+  "total_types": 44
+}

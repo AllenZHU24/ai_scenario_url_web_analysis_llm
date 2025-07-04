@@ -1,0 +1,3854 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "apmex.com",
+  "export_time": "2025-07-04 09:43:05",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-04 04:15:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 69,
+      "valid_content_urls_count": 69,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/Homepage/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/GoldinIRA/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/OrderingPolicy/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/CustomerService/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/FAQ/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/ContactUs/default.aspx",
+        "https://web.archive.org/web/20090106102156/http://apmex.com/",
+        "https://web.archive.org/web/20090106102156/http://www.apmex.com/",
+        "https://web.archive.org/web/20090106102156/http://apmex.com/CustomerService/Default.aspx"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/Homepage/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/GoldinIRA/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "This page educates customers about IRA investments, attracting potential investors."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/OrderingPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Important for customers to understand the ordering policies before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/CustomerService/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Provides crucial customer support information, helping to alleviate concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/FAQ/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Addresses common questions, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Essential for building trust by informing customers about privacy practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/ContactUs/default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Provides a way for customers to reach out for additional support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another entry point for customers, reinforcing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Provides a comprehensive overview of offerings, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20090106102156/http://apmex.com/CustomerService/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Reinforces customer support options, critical for customer confidence."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/OrderingPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/Homepage/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/CustomerService/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/GoldinIRA/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/ContactUs/default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/FAQ/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://apmex.com/CustomerService/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090106102156/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-04 04:15:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 53,
+      "valid_content_urls_count": 53,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/GoldinIRA/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/CustomerService/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/FAQ/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/CareerOpportunities/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/mobileapps",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/Homepage/Default.aspx",
+        "https://web.archive.org/web/20101231221928/http://www.apmex.com/OrderingPolicy/Default.aspx"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/GoldinIRA/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Provides valuable information about IRA investments, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/CustomerService/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Helps customers with common inquiries, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Informs customers about privacy practices, building trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/FAQ/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Addresses customer questions, enhancing their confidence in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/CareerOpportunities/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Showcases the company's values and culture, appealing to socially conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/mobileapps",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Landing",
+            "selection_reason": "Promotes mobile accessibility, enhancing user engagement and convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/Homepage/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key entry point that showcases products and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/OrderingPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Clarifies ordering procedures, helping customers feel secure in their transactions."
+          }
+        ],
+        "total_recommendations": 9,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/GoldinIRA/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/CustomerService/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/FAQ/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/CareerOpportunities/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/mobileapps",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/Homepage/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231221928/http://www.apmex.com/OrderingPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-04 04:15:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/Homepage/Default.aspx",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/mobileapps",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/OrderingPolicy/Default.aspx",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/CustomerService/Default.aspx",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/FAQ/Default.aspx",
+        "https://web.archive.org/web/20111025153922/http://www.apmex.com/CareerOpportunities/Default.aspx"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/Homepage/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key homepage URL that reinforces brand awareness and provides navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/mobileapps",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Landing",
+            "selection_reason": "Highlights the mobile app, catering to tech-savvy customers and enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/OrderingPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Provides important ordering policies that help customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/CustomerService/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Offers customer service information, crucial for addressing potential customer concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Informs customers about privacy policies, building trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/FAQ/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Addresses common questions, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/CareerOpportunities/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Provides insight into the company culture and job opportunities, enhancing brand image."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/mobileapps",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/OrderingPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/Homepage/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/CustomerService/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/CareerOpportunities/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20111025153922/http://www.apmex.com/FAQ/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-04 04:16:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 54,
+      "valid_content_urls_count": 54,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/mobileapps",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/CareerOpportunities/Default.aspx",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/FAQ/Default.aspx",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/CustomerService/Default.aspx",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/Homepage/Default.aspx",
+        "https://web.archive.org/web/20121205062906/https://www.apmex.com/Checkout/Default.aspx",
+        "https://web.archive.org/web/20121205062906/http://www.apmex.com/OrderingPolicy/Default.aspx"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/mobileapps",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Landing",
+            "selection_reason": "Introduces customers to the mobile app, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/CareerOpportunities/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Provides insights into the company, fostering trust and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for users, crucial for brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Informs customers about privacy practices, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/FAQ/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Addresses common customer queries, enhancing user confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/CustomerService/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Provides customer support information, crucial for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/Homepage/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another entry point for users, reinforcing brand presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/https://www.apmex.com/Checkout/Default.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the purchasing process, directly impacting sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/OrderingPolicy/Default.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Clarifies ordering policies, aiding customer decision-making."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/mobileapps",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/CareerOpportunities/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/PrivacyPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/FAQ/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/CustomerService/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/Homepage/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/https://www.apmex.com/Checkout/Default.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121205062906/http://www.apmex.com/OrderingPolicy/Default.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-04 04:16:20",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 63,
+      "valid_content_urls_count": 63,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/careeropportunities",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/whyapmex",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/contactus",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/international",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/orderingpolicy",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/register",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/login",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/marketalerts",
+        "https://web.archive.org/web/20131104112639/http://www.apmex.com/quickship?category=HomePage-Internal-Ad&action=FlashBanner&label=11012013FreeShipping"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/careeropportunities",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Provides insights into the company's culture and job opportunities, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/whyapmex",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Explains the unique value proposition of APMEX, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Offers social proof and builds trust among potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Provides essential information and support, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Details on international shipping options, crucial for global customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/orderingpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Clarifies ordering policies, which is important for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Informs customers about data privacy, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Critical for converting visitors into registered users."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "A key page in the purchasing process where customers review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/marketalerts",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Encourages customer engagement and retention through price alerts."
+          },
+          {
+            "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/quickship?category=HomePage-Internal-Ad&action=FlashBanner&label=11012013FreeShipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Promotes special offers and shipping options, influencing purchase decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/careeropportunities",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/whyapmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/orderingpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/quickship?category=HomePage-Internal-Ad&action=FlashBanner&label=11012013FreeShipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20131104112639/http://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-04 04:16:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 309,
+      "valid_content_urls_count": 309,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/whyapmex",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/contactus",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/register",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/login",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/quickship",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/international",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20141219071447/http://www.apmex.com/alerttools"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educates potential customers on the benefits of buying physical gold, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Provides guidance on purchasing, helping to inform and engage potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/whyapmex",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Corporate Information",
+            "selection_reason": "Informs customers about the company's values and unique selling propositions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Provides social proof and builds trust through customer testimonials."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "Offers assistance and answers to potential customer inquiries, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before finalizing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates account creation, essential for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Allows returning customers to access their accounts for a streamlined purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/quickship",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Informs customers about shipping options, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Provides information on international shipping, expanding the customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Ensures transparency and builds trust by outlining privacy policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/alerttools",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Encourages customer retention by allowing users to set price alerts."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/international?_campaign=06102014InternationalFAQ",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/whyapmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/careeropportunities",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219071447/http://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-04 04:16:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 336,
+      "valid_content_urls_count": 336,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/freeshipping",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/register",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/login",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/alerttools",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/contactus",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/international",
+        "https://web.archive.org/web/20151215135202/http://www.apmex.com/quickship"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "This guide raises awareness about investment options, crucial for potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educational content helps inform customers about the buying process, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "This page educates customers on the benefits of physical gold, fostering interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Customer testimonials build trust and assist in the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/freeshipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Information on shipping and payment is critical for customers evaluating their options."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for customers ready to make a purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "The registration page is vital for customers who want to create an account before purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is necessary for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Order tracking is crucial for customer satisfaction during the fulfillment stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/alerttools",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Price alerts help retain customers by keeping them informed about market changes."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/contactus",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ & Help Center",
+            "selection_reason": "A help center is essential for addressing customer queries during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Privacy policies are important for building trust and addressing customer concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "International shipping information is crucial for customers outside the primary market."
+          },
+          {
+            "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/quickship",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Quick shipping options can influence customer decisions positively."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/freeshipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/careeropportunities",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/whyapmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151215135202/http://www.apmex.com/contactus",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ & Help Center"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-04 04:17:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 346,
+      "valid_content_urls_count": 346,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/blog",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/register",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myaccount",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/freeshipping",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/quickship",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myproductpricealerts",
+        "https://web.archive.org/web/20161202213151/http://www.apmex.com/privacypolicy"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to explore the website and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Provides valuable information for potential investors, raising awareness about IRA options."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "Engages customers with informative content, enhancing brand awareness and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Helps potential customers in their decision-making process by showcasing positive experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to finalize their purchases and review selected items."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates account creation, essential for completing purchases and managing orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing transparency and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myaccount",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their accounts and preferences, promoting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/freeshipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Provides crucial information about shipping options, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/quickship",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Highlights expedited shipping options, appealing to customers seeking fast delivery."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educates potential customers on the benefits of investing in physical gold."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Provides guidance on purchasing gold and silver, aiding customer understanding."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myproductpricealerts",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Encourages customer engagement by allowing them to set price alerts for products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Informs customers about privacy practices, enhancing trust and transparency."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myaccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/freeshipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/whyapmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/careeropportunities",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20161202213151/http://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-04 04:17:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 356,
+      "valid_content_urls_count": 356,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/blog",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/precious-metals-guide",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/international",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/productreviews",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/marketalerts",
+        "https://web.archive.org/web/20171227135928/https://www.apmex.com/coin-values"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "This blog provides valuable insights and information, helping to build awareness and educate potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/precious-metals-guide",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educational resources are crucial for informing customers about products and market trends."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "This guide assists customers in understanding the purchasing process, enhancing their confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Shipping and payment information is critical for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Customer testimonials provide social proof, influencing potential buyers' decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for customers to review their selections before finalizing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "The registration page is crucial for new customers to create accounts and proceed with purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Storage services are important for customers looking for secure options for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Order tracking is essential for customer satisfaction and transparency in the fulfillment process."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "The account dashboard allows customers to manage their profiles and preferences, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/productreviews",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Product Reviews",
+            "selection_reason": "Product reviews help customers engage with the brand and provide feedback, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/marketalerts",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Price alerts keep customers informed about market changes, encouraging ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/coin-values",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Coin Values Tool",
+            "selection_reason": "Providing tools for customers to assess their investments enhances their experience and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/gold-and-silver-market-commentaries",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/coin-values ",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Coin Values Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171227135928/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-04 04:17:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 377,
+      "valid_content_urls_count": 377,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/login",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/portfolio",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/coin-values",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/international",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/blog",
+        "https://web.archive.org/web/20181226145212/https://www.apmex.com/ira-benefits-gold-ira-silver-ira"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "This page educates customers on the benefits of physical gold, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Provides guidance on purchasing, essential for customers in the awareness stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Customer testimonials help build trust and influence decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is critical for customers ready to make a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Registration is necessary for new customers to create accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Customers need to track their orders, making this page vital for fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Storage services are important for customers who need secure storage for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/portfolio",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Portfolio Tool",
+            "selection_reason": "The portfolio tool helps customers manage their investments, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "The account dashboard is essential for customers to manage their profiles and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/coin-values",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Coin Values Tool",
+            "selection_reason": "This tool helps customers stay informed about their investments, promoting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Shipping and payment information is crucial for customers evaluating their purchase options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "The blog provides valuable insights and updates, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "This guide is important for customers considering IRA investments in precious metals."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/coin-values ",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Coin Values Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/gold-and-silver-market-commentaries",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181226145212/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-04 04:18:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 388,
+      "valid_content_urls_count": 388,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/gold-and-silver-market-commentaries",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/login",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/portfolio",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/apmex-club",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/myproductpricealerts",
+        "https://web.archive.org/web/20191231121051/https://www.apmex.com/coin-values"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "This page educates potential customers on the benefits of purchasing physical gold, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Provides guidance on purchasing, helping to inform and attract potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/gold-and-silver-market-commentaries",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "Offers insights into market trends, enhancing customer awareness and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Customer testimonials build trust and influence potential buyers during their consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts and complete transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates new customer sign-ups, crucial for expanding the customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Offers customers secure storage options, important for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/portfolio",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Portfolio Tool",
+            "selection_reason": "Helps customers manage their investments, promoting retention and ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/apmex-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Encourages repeat purchases through loyalty incentives, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/myproductpricealerts",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Allows customers to set price alerts, enhancing their engagement and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/coin-values",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Coin Values Tool",
+            "selection_reason": "Provides ongoing value to customers by helping them assess their investments."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/gold-and-silver-market-commentaries",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/apmex-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/coin-knowledge",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/coin-knowledge?_campaign=09172019-coinknowledge-awareness-homePageBottom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/coin-values",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Coin Values Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231121051/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-04 04:18:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 415,
+      "valid_content_urls_count": 415,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/how-to-buy-gold-and-silver",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/world-mint-coins",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/coin-values",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/apmex-club",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/recurring/recurringorders",
+        "https://web.archive.org/web/20201231234720/https://www.apmex.com/precious-metals-market-news"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "This page educates potential customers on the benefits of purchasing physical gold, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/how-to-buy-gold-and-silver",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Provides guidance on the buying process, helping to inform and attract customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/world-mint-coins",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Shop by Mint Category",
+            "selection_reason": "Engages customers by showcasing specific product categories, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Provides social proof and builds trust, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before finalizing a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Essential for new customers to create an account, facilitating future transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Offers customers secure storage options, an important aspect of fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Enables customers to manage their accounts, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/coin-values",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Coin Values Tool",
+            "selection_reason": "Provides ongoing value to customers, encouraging them to return."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/apmex-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Encourages repeat business through loyalty rewards, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/recurring/recurringorders",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Recurring Orders / AutoInvest",
+            "selection_reason": "Facilitates ongoing purchases, promoting customer loyalty and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/precious-metals-market-news",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "Keeps customers informed about market trends, enhancing engagement and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/coin-values",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Coin Values Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/coin-knowledge",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/precious-metals-market-news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/apmex-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/coin-knowledge?_campaign=09172019-coinknowledge-awareness-homePageBottom",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/recurring/recurringorders",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231234720/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-04 04:18:54",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 425,
+      "valid_content_urls_count": 425,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/precious-metals-guide",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/recurring/recurringorders",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/login",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/blog",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/international",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/coin-values",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/why-buy-physical-gold",
+        "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/myprofile"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Provides essential information about IRA investments, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/precious-metals-guide",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educates customers on precious metals, enhancing awareness and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/recurring/recurringorders",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Recurring Orders / AutoInvest",
+            "selection_reason": "Encourages customer retention through automated investment options."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Builds trust by providing transparency about privacy policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Critical for customers to access their accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "Engages customers with relevant content and market insights."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Essential for customers to track their orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/international",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Provides important information for international customers considering purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Facilitates the purchasing process, crucial for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Influences potential customers by showcasing positive experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/coin-values",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Coin Values Tool",
+            "selection_reason": "Keeps customers engaged by providing valuable tools for their investments."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/why-buy-physical-gold",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Educational Hub & Guides",
+            "selection_reason": "Educates customers on the benefits of physical gold, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Enhances user experience by allowing customers to manage their profiles."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/precious-metals-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/recurring/recurringorders",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/pressreleases",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/international",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/coin-knowledge",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/storage/gold-and-silver-storage?_campaign=12202021-goldandsilverstorage-branding-homepagehero",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/how-to-buy-gold-and-silver",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/coin-values",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Coin Values Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/why-buy-physical-gold",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Educational Hub & Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/precious-metals-market-news",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222024826/https://www.apmex.com/apmex-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-04 04:19:15",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 423,
+      "valid_content_urls_count": 423,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/gold-and-silver-price-charts",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/login",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/productreviews",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/apmex-club",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/autoinvest",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/quickship",
+        "https://web.archive.org/web/20221231064637/https://www.apmex.com/blog"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "This guide educates potential customers about IRA investments, crucial for attracting interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/gold-and-silver-price-charts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Spot Price & Charts",
+            "selection_reason": "Providing price charts helps customers stay informed, enhancing their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Customer testimonials build trust and credibility, influencing potential buyers during consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is essential for returning customers to access their accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "The registration page is critical for new customers to create accounts and engage with the platform."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is a key component of the purchasing process, allowing customers to review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Storage services are vital for customers looking to securely store their investments."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Order tracking is essential for customer satisfaction and transparency in the fulfillment process."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "The account dashboard allows customers to manage their profiles, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/productreviews",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Product Reviews",
+            "selection_reason": "Product reviews encourage customer engagement and loyalty, contributing to retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/apmex-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Loyalty programs incentivize repeat purchases and enhance customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/autoinvest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Recurring Orders / AutoInvest",
+            "selection_reason": "AutoInvest options provide convenience for customers, promoting ongoing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/quickship",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping & Payment Info",
+            "selection_reason": "Clear shipping and payment information is crucial for customers during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog & Market Commentary",
+            "selection_reason": "Blogs provide valuable insights and information, enhancing brand awareness and customer engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 28,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/gold-and-silver-price-charts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Spot Price & Charts"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/apmex-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/storage/gold-and-silver-storage?_campaign=12272022-citadel-branding-homepagehero",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog & Market Commentary"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/recurring/recurringorders",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231064637/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-04 04:19:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 396,
+      "valid_content_urls_count": 396,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/world-mint-coins",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myaccount",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/bullion-club",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/autoinvest",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/sell-gold-sell-silver-overview",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/productreviews",
+        "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myprofile"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Educates customers on investment options, crucial for initial interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/world-mint-coins",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Shop by Mint Category",
+            "selection_reason": "Engages customers by showcasing specific product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Provides essential information regarding customer rights and data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Builds trust through customer feedback and experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates account creation, essential for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Offers customers secure storage options for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myaccount",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their accounts and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/bullion-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Encourages repeat business through loyalty incentives."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/autoinvest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Recurring Orders / AutoInvest",
+            "selection_reason": "Facilitates ongoing investments, promoting customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/sell-gold-sell-silver-overview",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Us",
+            "selection_reason": "Provides customers with options to liquidate their investments."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/productreviews",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Product Reviews",
+            "selection_reason": "Encourages engagement and feedback on products purchased."
+          },
+          {
+            "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their personal information and preferences."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/bullion-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/leadership-team",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myaccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20231209221423/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-04 04:20:01",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 369,
+      "valid_content_urls_count": 369,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/gold-and-silver-price-charts",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/world-mint-coins",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/testimonials",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/portfolio",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/autoinvest",
+        "https://web.archive.org/web/20241229070338/https://www.apmex.com/bullion-club"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Educates customers on the benefits of IRA investments, crucial for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/gold-and-silver-price-charts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Spot Price & Charts",
+            "selection_reason": "Provides essential market information that attracts potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/world-mint-coins",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Shop by Mint Category",
+            "selection_reason": "Engages customers by allowing them to explore products based on mint categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/testimonials",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Reviews",
+            "selection_reason": "Builds trust and credibility through customer testimonials."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Provides important information regarding customer rights and company policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Facilitates user registration, a critical step in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Allows customers to review their selected products before finalizing the purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Offers fulfillment options for customers who need secure storage for their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Provides customers with tracking information, enhancing their post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Enables customers to manage their account, fostering long-term engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/portfolio",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Portfolio Tool",
+            "selection_reason": "Helps customers track their investments, encouraging repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/autoinvest",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Recurring Orders / AutoInvest",
+            "selection_reason": "Promotes customer retention through automated investment options."
+          },
+          {
+            "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/bullion-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Encourages loyalty and repeat purchases through a rewards program."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/gold-and-silver-price-charts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Spot Price & Charts"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/world-mint-coins",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shop by Mint Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/quickship",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping & Payment Info"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/bullion-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/testimonials",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/account/myaccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20241229070338/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-04 04:20:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 383,
+      "valid_content_urls_count": 383,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/the-apmex-app",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/gold-and-silver-price-charts",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/privacypolicy",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/register",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/cart/viewcart",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/login",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/storage/gold-and-silver-storage",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/where-is-my-order",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/alerttools",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/bullion-club",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myproductpricealerts",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myprofile",
+        "https://web.archive.org/web/20250410082255/https://www.apmex.com/sell-gold-sell-silver-overview"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "IRA Investment Guide",
+            "selection_reason": "Educates customers on investment options, crucial for initial interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/the-apmex-app",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Landing",
+            "selection_reason": "Promotes the mobile app, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/gold-and-silver-price-charts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Spot Price & Charts",
+            "selection_reason": "Provides valuable market data, attracting potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/privacypolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Legal & Policy Pages",
+            "selection_reason": "Builds trust by informing customers about privacy policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/register",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Registration Page",
+            "selection_reason": "Essential for new customers to create an account."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/cart/viewcart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected products before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Necessary for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/storage/gold-and-silver-storage",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Storage Services (Citadel)",
+            "selection_reason": "Offers fulfillment options for customers storing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/where-is-my-order",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & History",
+            "selection_reason": "Allows customers to track their orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/alerttools",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Encourages repeat visits by allowing customers to set price alerts."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/bullion-club",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (APMEX Club / Bullion Card)",
+            "selection_reason": "Incentivizes customer loyalty and repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myproductpricealerts",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Price Alerts Management",
+            "selection_reason": "Enhances customer retention by managing alerts for price changes."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myprofile",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their accounts and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/sell-gold-sell-silver-overview",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Us",
+            "selection_reason": "Provides an avenue for customers to sell back their investments."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 24,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/alerttools",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/bullion-club",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (APMEX Club / Bullion Card)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/sell-gold-sell-silver-overview",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/marketalerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/storage/gold-and-silver-storage",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Storage Services (Citadel)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/productreviews",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Product Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/life-at-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/where-is-my-order",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & History"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/ira-benefits-gold-ira-silver-ira",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myproductpricealerts",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Price Alerts Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/the-apmex-app",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/gold-and-silver-price-charts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Spot Price & Charts"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/privacypolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Legal & Policy Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/autoinvest",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Recurring Orders / AutoInvest"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/cart/viewcart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/portfolio",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Portfolio Tool"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/register?ReturnUrl=%2faccount%2fapplyforthebullioncard",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myprofile",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/we-are-apmex",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/ira-benefits-gold-ira-silver-ira?track=nav",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "IRA Investment Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20250410082255/https://www.apmex.com/account/myaccount",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    }
+  }
+}

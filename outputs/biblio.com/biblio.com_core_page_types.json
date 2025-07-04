@@ -1,0 +1,358 @@
+{
+  "generation_time": "2025-07-04 10:05:28",
+  "company_url": "biblio.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "Blog Index",
+        "typical_url_patterns": [
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/*/*"
+        ]
+      },
+      {
+        "type_name": "Editorial Stories & Topics",
+        "typical_url_patterns": [
+          "/stories/*",
+          "/topic/*"
+        ]
+      },
+      {
+        "type_name": "About Us / Our Story",
+        "typical_url_patterns": [
+          "/company/our-story",
+          "/pages/Our_Story.html",
+          "/about.php"
+        ]
+      },
+      {
+        "type_name": "Why Shop at Biblio",
+        "typical_url_patterns": [
+          "/company/why-shop-at-biblio",
+          "/pages/Why_Shop_Biblio.html"
+        ]
+      },
+      {
+        "type_name": "Social Responsibility",
+        "typical_url_patterns": [
+          "/company/social-responsibility",
+          "/pages/Social_Responsibility.html"
+        ]
+      },
+      {
+        "type_name": "Eco-Friendly Initiatives",
+        "typical_url_patterns": [
+          "/company/ecosend",
+          "/ecosend/"
+        ]
+      },
+      {
+        "type_name": "Jobs / Careers",
+        "typical_url_patterns": [
+          "/company/jobs",
+          "/pages/jobs.html"
+        ]
+      },
+      {
+        "type_name": "Press & Awards",
+        "typical_url_patterns": [
+          "/press.php",
+          "/awards.php"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Search Results Page (SRP)",
+        "typical_url_patterns": [
+          "/usedbooksearch.bib",
+          "/booksearch",
+          "/search.php"
+        ]
+      },
+      {
+        "type_name": "Browse Hub",
+        "typical_url_patterns": [
+          "/browse-books/"
+        ]
+      },
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/rare-books",
+          "/first-editions",
+          "/signed-books"
+        ]
+      },
+      {
+        "type_name": "Textbooks Category",
+        "typical_url_patterns": [
+          "/textbooks/"
+        ]
+      },
+      {
+        "type_name": "Sub-Category & Subject Pages",
+        "typical_url_patterns": [
+          "/rare-books/*/*",
+          "/subjects/*",
+          "/*_Books.html"
+        ]
+      },
+      {
+        "type_name": "Book Sales / Deals",
+        "typical_url_patterns": [
+          "/book_sales/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/just-arrived/"
+        ]
+      },
+      {
+        "type_name": "Bookstore Directory",
+        "typical_url_patterns": [
+          "/bookstores/",
+          "/booksellers.html"
+        ]
+      },
+      {
+        "type_name": "Bookseller by Specialty",
+        "typical_url_patterns": [
+          "/booksellers_by_specialty.php"
+        ]
+      },
+      {
+        "type_name": "Book Collecting Hub",
+        "typical_url_patterns": [
+          "/book-collecting/"
+        ]
+      },
+      {
+        "type_name": "Book Collecting Guides",
+        "typical_url_patterns": [
+          "/book-collecting/basics/*",
+          "/book-collecting/what-to-collect/*"
+        ]
+      },
+      {
+        "type_name": "Book Valuation Tool",
+        "typical_url_patterns": [
+          "/book-value/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Work Detail Page (WDP)",
+        "typical_url_patterns": [
+          "/*/work/*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/book/*/d/*",
+          "/books/*.html"
+        ]
+      },
+      {
+        "type_name": "ISBN Detail Page",
+        "typical_url_patterns": [
+          "/978*"
+        ]
+      },
+      {
+        "type_name": "Individual Bookstore Page",
+        "typical_url_patterns": [
+          "/bookstore/*"
+        ]
+      },
+      {
+        "type_name": "Publisher/Illustrator/Binder Page",
+        "typical_url_patterns": [
+          "/publisher/*",
+          "/illustrator/*",
+          "/binder/*"
+        ]
+      },
+      {
+        "type_name": "Glossary / Terminology",
+        "typical_url_patterns": [
+          "/book_collecting_terminology/",
+          "/glossary.php"
+        ]
+      },
+      {
+        "type_name": "First Edition Identification Guide",
+        "typical_url_patterns": [
+          "/first-edition-identification/"
+        ]
+      },
+      {
+        "type_name": "Gift Ideas & Guides",
+        "typical_url_patterns": [
+          "/gifts-for-book-people",
+          "/stories/holiday-gift-guide"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.php"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/create_account.php"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Purchase",
+        "typical_url_patterns": [
+          "/gift-certificate",
+          "/create_gift_certificate.php"
+        ]
+      },
+      {
+        "type_name": "Coupons & Promotions",
+        "typical_url_patterns": [
+          "/coupons",
+          "/pages/coupons.html"
+        ]
+      },
+      {
+        "type_name": "Guarantee & Returns Policy",
+        "typical_url_patterns": [
+          "/info/*guarantee",
+          "/pages/*guarantee.html"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/info/terms-and-conditions",
+          "/pages/Terms_of_Sale.html"
+        ]
+      },
+      {
+        "type_name": "Privacy & Security Policy",
+        "typical_url_patterns": [
+          "/info/privacy-and-security",
+          "/pages/Privacy_and_Security.html"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/pages/free_shipping.html"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Details Page",
+        "typical_url_patterns": [
+          "/orderdetails.php"
+        ]
+      },
+      {
+        "type_name": "Institutional & Purchase Orders",
+        "typical_url_patterns": [
+          "/pages/purchaseorder.html",
+          "/for-libraries"
+        ]
+      },
+      {
+        "type_name": "Help & Customer Support",
+        "typical_url_patterns": [
+          "/help.php",
+          "/support_request.php"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/info/accessibility",
+          "/pages/accessibility.html"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/pages/site_map.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "User Account Hub",
+        "typical_url_patterns": [
+          "/account_menu.php",
+          "/account/*"
+        ]
+      },
+      {
+        "type_name": "User Privacy Settings",
+        "typical_url_patterns": [
+          "/account/privacy-settings",
+          "/privacy_settings.php"
+        ]
+      },
+      {
+        "type_name": "Bibliophile's Club (Loyalty Program)",
+        "typical_url_patterns": [
+          "/bibliophiles-club"
+        ]
+      },
+      {
+        "type_name": "Sell Books / Textbook Buyback",
+        "typical_url_patterns": [
+          "/app/sell/",
+          "/textbooks/buyback"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate_program/",
+          "/affiliate-program"
+        ]
+      },
+      {
+        "type_name": "Submit Review Page",
+        "typical_url_patterns": [
+          "/app/work/submit_review"
+        ]
+      },
+      {
+        "type_name": "Giveaway Terms",
+        "typical_url_patterns": [
+          "/pages/giveaway_terms.html"
+        ]
+      }
+    ]
+  },
+  "total_types": 51
+}

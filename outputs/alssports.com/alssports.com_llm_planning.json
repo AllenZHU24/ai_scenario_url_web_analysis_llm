@@ -1,0 +1,2324 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "alssports.com",
+  "export_time": "2025-07-04 09:42:14",
+  "yearly_analysis_results": {
+    "2010": {
+      "analysis_time": "2025-07-03 16:21:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 264,
+      "valid_content_urls_count": 264,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Default.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Mens-Casual-Footwear/Search",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Sleeping-Bags/Search",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/ReturnPolicy.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/free_shipping.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Auth/MyRegistry.aspx",
+        "https://web.archive.org/web/20101230085750/https://www.alssports.com/Secure/Auth/MyOrders.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Privacy_Policy.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Low_Price_Guarantee.aspx",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Wakeboards/Search",
+        "https://web.archive.org/web/20101230085750/http://www.alssports.com/Apparel/search"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background and builds trust with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Mens-Casual-Footwear/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Footwear Category (General)",
+            "selection_reason": "Engages customers interested in footwear."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Sleeping-Bags/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camping & Hiking Category",
+            "selection_reason": "Targets customers interested in camping products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/ReturnPolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Important for customers evaluating purchase risks."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/free_shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Addresses shipping costs, a key consideration for buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Auth/MyRegistry.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Registry Page",
+            "selection_reason": "Encourages purchases for special occasions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/https://www.alssports.com/Secure/Auth/MyOrders.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Provides support and resolves customer issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer queries, aiding decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Privacy_Policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Low_Price_Guarantee.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Price & Security Policies",
+            "selection_reason": "Reassures customers about pricing and security."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Wakeboards/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Water Sports Category",
+            "selection_reason": "Engages customers interested in water sports products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Apparel/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Apparel Category (General)",
+            "selection_reason": "Attracts customers looking for clothing options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Mens-Casual-Footwear/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Footwear Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/ReturnPolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/https://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Sleeping-Bags/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Belay-Devices/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Climbing/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Carabiners/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Camp-Furniture/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Skis/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Snowboards/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Apparel/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Wakeboards/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Tents/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230085750/http://www.alssports.com/Womens-Footwear/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Footwear Category (General)"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-03 16:21:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 276,
+      "valid_content_urls_count": 276,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Affiliates.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Womens-Footwear/Search",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Mens-Casual-Footwear/Search",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Carabiners/Search",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Sunglasses/Search",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/ReturnPolicy.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/international_shopping.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/free_shipping.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/CreateAccount.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Login.aspx",
+        "https://web.archive.org/web/20111229185229/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/Auth/MyOrders.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information about the brand, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Informs customers about partnership opportunities, increasing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Womens-Footwear/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Footwear Category (General)",
+            "selection_reason": "Engages customers by showcasing a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Mens-Casual-Footwear/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Footwear Category (General)",
+            "selection_reason": "Engages customers by showcasing a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Carabiners/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Climbing Accessories Category",
+            "selection_reason": "Engages customers by showcasing a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Sunglasses/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Accessories Category",
+            "selection_reason": "Engages customers by showcasing a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, aiding in the consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/ReturnPolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Informs customers about return policies, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/international_shopping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Provides essential shipping information, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/free_shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Highlights free shipping offers, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/CreateAccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages account creation, facilitating future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Provides support and assistance, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/Auth/MyOrders.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their orders, enhancing fulfillment experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 22,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/ReturnPolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Womens-Footwear/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Footwear Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Mens-Casual-Footwear/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Footwear Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Carabiners/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/CreateAccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/https://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/Sunglasses/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111229185229/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-03 16:21:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 1092,
+      "valid_content_urls_count": 1092,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/snow-goggles/Search",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/skis/Search",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/secure_shopping.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/Login.aspx",
+        "https://web.archive.org/web/20121231231800/https://www.alssports.com/Secure/CreateAccount.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/ReportSiteIssue.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/international_shopping.aspx",
+        "https://web.archive.org/web/20121231231800/http://www.alssports.com/free_shipping.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information and builds brand trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/snow-goggles/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Ski & Snowboard Accessories",
+            "selection_reason": "Highlights specific product categories to attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/skis/Search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Winter Sports Category",
+            "selection_reason": "Showcases a key product category relevant to the target audience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer queries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Essential for customers to understand return options before purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/secure_shopping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Price & Security Policies",
+            "selection_reason": "Informs customers about security measures and pricing policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before finalizing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/https://www.alssports.com/Secure/CreateAccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages new customer registrations, vital for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Provides support and assistance, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/ReportSiteIssue.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Report Issue Page",
+            "selection_reason": "Enables customers to report issues, improving service quality."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/international_shopping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Informs customers about shipping options, crucial for international buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/free_shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Highlights free shipping offers, a key consideration for many customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 22,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/snow-goggles/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/skis/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/ReportSiteIssue.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Report Issue Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/https://www.alssports.com/Secure/CreateAccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231231800/http://www.alssports.com/InStoreItems.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-03 16:21:56",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 1078,
+      "valid_content_urls_count": 1078,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-shorts/search",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/Auth/MyRegistry.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/Secure/CreateAccount.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/international_shopping.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/Privacy_Policy.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/ReportSiteIssue.aspx",
+        "https://web.archive.org/web/20131231193245/http://www.alssports.com/staff.aspx"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-shorts/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Apparel Category (General)",
+            "selection_reason": "Represents a popular category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Auth/MyRegistry.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Registry Page",
+            "selection_reason": "Facilitates customer decision-making for gift purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Important for customers to understand return options before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Secure/CreateAccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages customer engagement and repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer queries, aiding in their decision process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Essential for resolving customer issues post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchase process for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/international_shopping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Important for international customers to understand shipping options."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds brand trust and awareness among customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Privacy_Policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Reassures customers about their data security and privacy."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/ReportSiteIssue.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Report Issue Page",
+            "selection_reason": "Allows customers to report problems, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/staff.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Staff Page",
+            "selection_reason": "Personalizes the brand and fosters customer loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 78,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-shorts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-snow-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-winter-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/baseball-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Rock-Climbing-Ropes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/basketballs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/women's-skirts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Ski-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Tents/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Belay-Devices/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Fishing-Bait/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/StoreServices.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/golf-bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Bike-Tools/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Hunting-Boots-Mens/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/https://www.alssports.com/Secure/CreateAccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/golf-clubs/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/skis/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Hunting-Packs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Bows/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Bicycles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/InStoreItems.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Camp-Furniture/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Wallets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/running-shoes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Snow-Goggles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Rock-Climbing-Harnesses/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Bike-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/golf-balls/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Waders-Neoprene/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Boulder-Pads/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Wetsuits/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Fishing-Reels/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Fishing-Lures/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/staff.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Staff Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/women's-hiking-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/ReportSiteIssue.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Report Issue Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Watches/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Snowboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Backpacks-Framed/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-skate-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Carabiners/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/women's-basketball-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Waterski-Combos/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Tackle-Boxes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/women's-snowboard-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Hunting-Hats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Wakeboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Coolers/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Trail-Cameras/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Ski-Boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/sunglasses/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Ski-Gear-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Lanterns/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/football-cleats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Sleeping-Bags/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Fishing-Rods/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Sleeping-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/men's-winter-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231193245/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-03 16:22:07",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 1074,
+      "valid_content_urls_count": 1074,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/Secure/CreateAccount.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/Privacy_Policy.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/free_shipping.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/press.aspx",
+        "https://web.archive.org/web/20141222112708/http://www.alssports.com/StoreServices.aspx"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Provides essential information to help customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Secure/CreateAccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages customer registration for a personalized shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Essential for building customer trust and confidence in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Provides support and assistance for post-purchase inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Privacy_Policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Engages customers by sharing the brand's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their purchases and order status."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/free_shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Informs customers about shipping options, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Essential for building customer trust and confidence in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/press.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press Page",
+            "selection_reason": "Highlights brand credibility and media presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/StoreServices.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Information",
+            "selection_reason": "Provides details about services offered, aiding customer decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 78,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/women's-snowboard-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Wallets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Sleeping-Bags/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/men's-snow-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Trail-Cameras/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Ski-Gear-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Hunting-Hats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Carabiners/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Snowboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Snow-Goggles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Wakeboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Fishing-Rods/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Bike-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/https://www.alssports.com/Secure/CreateAccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Fishing-Lures/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Backpacks-Framed/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Bike-Tools/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Camp-Furniture/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/staff.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Staff Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Fishing-Reels/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Hunting-Packs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/InStoreItems.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Bicycles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/men's-winter-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/basketballs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Belay-Devices/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Lanterns/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/StoreServices.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/baseball-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/men's-skate-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/running-shoes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Rock-Climbing-Ropes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/golf-clubs/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/golf-balls/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/women's-hiking-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/women's-basketball-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/men's-winter-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Hunting-Boots-Mens/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Sleeping-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Waterski-Combos/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Wetsuits/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/sunglasses/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/men's-shorts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Coolers/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/ReportSiteIssue.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Report Issue Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Tackle-Boxes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Watches/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/golf-bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Waders-Neoprene/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Ski-Boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Boulder-Pads/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Rock-Climbing-Harnesses/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/skis/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Tents/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/women's-skirts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/football-cleats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Ski-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Fishing-Bait/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141222112708/http://www.alssports.com/Bows/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-03 16:22:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1086,
+      "valid_content_urls_count": 1086,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/OurHistory.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/faq.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/free_shipping.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/Auth/MyRegistry.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/shoppingbag.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/Customer_Service.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/survey.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/careers.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/Privacy_Policy.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/press.aspx",
+        "https://web.archive.org/web/20151013205005/http://www.alssports.com/StoreServices.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces customers to the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/OurHistory.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information about the company, enhancing brand trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/faq.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ Page",
+            "selection_reason": "Addresses common customer inquiries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy Page",
+            "selection_reason": "Informs customers about return policies, which is crucial for building confidence in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/free_shipping.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Information Page",
+            "selection_reason": "Details shipping options and costs, which are key factors in the purchasing decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Auth/MyRegistry.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Registry Page",
+            "selection_reason": "Facilitates customer decisions by allowing them to create gift registries."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/shoppingbag.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for the checkout process, enabling customers to review their selected items."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Customer_Service.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service Page",
+            "selection_reason": "Provides support and assistance to customers post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/survey.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Survey Page",
+            "selection_reason": "Engages customers for feedback, which is vital for retention and improvement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/careers.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights company culture and job opportunities, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Privacy_Policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling, which is crucial for trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/press.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press Page",
+            "selection_reason": "Showcases media coverage and brand reputation, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/StoreServices.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Information",
+            "selection_reason": "Provides details about store services, aiding customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Privacy_Policy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust with customers regarding their data."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 80,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/ReportSiteIssue.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Report Issue Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Tackle-Boxes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Tents/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Sleeping-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Fishing-Lures/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Waders-Neoprene/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Auth/MyRegistry.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Registry Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/women's-snowboard-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/OurHistory.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/faq.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Backpacks-Framed/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Rock-Climbing-Ropes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Privacy_Policy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Customer_Service.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Bike-Tools/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/free_shipping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/football-cleats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Sleeping-Bags/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping & Hiking Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/skis/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/clear-on-sale/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Landing"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/press.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Ski-Boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/https://www.alssports.com/Secure/CreateAccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/careers.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Secure/Auth/MyOrders.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/baseball-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/women's-skirts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Fishing-Rods/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Waterski-Combos/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Belay-Devices/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/survey.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Survey Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Wakeboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Carabiners/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/sunglasses/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/golf-bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/InStoreItems.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Low_Price_Guarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/men's-winter-gloves/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Hunting-Boots-Mens/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/golf-balls/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/running-shoes/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Bicycles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Coolers/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Wallets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Bike-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cycling Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Camp-Furniture/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/women's-hiking-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/men's-skate-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Trail-Cameras/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/men's-shorts/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Category (General)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/international_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Information Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Wetsuits/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Water Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Hunting-Hats/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Apparel Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Lanterns/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camping Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Boulder-Pads/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Fishing-Reels/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Ski-Helmets/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/staff.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Staff Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/basketballs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Team Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Fishing-Bait/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fishing Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Hunting-Packs/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Watches/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Snow-Goggles/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/men's-snow-boots/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Boots Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/StoreServices.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Rock-Climbing-Harnesses/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Climbing Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/golf-clubs/Search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Golf Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Snowboards/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Winter Sports Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/secure_shopping.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Price & Security Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Bows/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Hunting & Archery Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/women's-basketball-shoes/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Shoes Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/Ski-Gear-Bags/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Ski & Snowboard Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/http://www.alssports.com/men's-winter-jacket/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Outerwear Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20151013205005/https://www.alssports.com/shoppingbag.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    }
+  }
+}

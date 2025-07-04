@@ -1,0 +1,299 @@
+{
+  "generation_time": "2025-07-04 07:33:33",
+  "company_url": "beachbody.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/home.do"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/beachbodyblog/",
+          "/articles/index.do"
+        ]
+      },
+      {
+        "type_name": "Blog Category",
+        "typical_url_patterns": [
+          "/beachbodyblog/category/*",
+          "/articles/c*.do"
+        ]
+      },
+      {
+        "type_name": "Blog Post / Article",
+        "typical_url_patterns": [
+          "/articles/c*/*.do",
+          "/beachbodyblog/category/*/*"
+        ]
+      },
+      {
+        "type_name": "Infomercials",
+        "typical_url_patterns": [
+          "/product/infomercials.do"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "All Fitness Programs Category",
+        "typical_url_patterns": [
+          "/category/fitness_programs/all-fitness-programs.do"
+        ]
+      },
+      {
+        "type_name": "Fitness Program Category (by Goal/Type)",
+        "typical_url_patterns": [
+          "/category/fitness_programs/weight_loss.do",
+          "/category/fitness_programs/dance.do",
+          "/category/fitness_programs/cardio.do",
+          "/category/fitness_programs/abs_core.do"
+        ]
+      },
+      {
+        "type_name": "Fitness Program Category (by Intensity)",
+        "typical_url_patterns": [
+          "/category/fitness_programs/getting_started.do",
+          "/category/fitness_programs/advanced.do",
+          "/category/fitness_programs/extreme.do"
+        ]
+      },
+      {
+        "type_name": "Best Seller Programs Category",
+        "typical_url_patterns": [
+          "/category/fitness_programs/best_sellers.do"
+        ]
+      },
+      {
+        "type_name": "Fitness Gear Category (by Type)",
+        "typical_url_patterns": [
+          "/category/fitness_gear/bands_balls_weights.do",
+          "/category/fitness_gear/workout-clothes-apparel.do",
+          "/category/fitness_gear/progress_tools.do"
+        ]
+      },
+      {
+        "type_name": "Fitness Gear Category (by Program)",
+        "typical_url_patterns": [
+          "/category/fitness_gear/p90x_gear.do",
+          "/category/fitness_gear/body-beast-gear.do",
+          "/category/fitness_gear/21-day-fix-gear.do"
+        ]
+      },
+      {
+        "type_name": "Best Seller Gear Category",
+        "typical_url_patterns": [
+          "/category/fitness_gear/best_sellers.do"
+        ]
+      },
+      {
+        "type_name": "Supplement Category (by Goal)",
+        "typical_url_patterns": [
+          "/category/supplements/weight_loss.do",
+          "/category/supplements/muscle_enhancement.do",
+          "/category/supplements/wellness.do"
+        ]
+      },
+      {
+        "type_name": "Supplement Category (by Line)",
+        "typical_url_patterns": [
+          "/category/supplements/beachbody-performance.do",
+          "/category/supplements/p90x_peak_performance.do"
+        ]
+      },
+      {
+        "type_name": "Best Seller Supplements Category",
+        "typical_url_patterns": [
+          "/category/supplements/best_sellers.do"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search.do?query=*"
+        ]
+      },
+      {
+        "type_name": "Video Gallery",
+        "typical_url_patterns": [
+          "/category/video.do?bclid=*"
+        ]
+      },
+      {
+        "type_name": "Gift Card & Deals Category",
+        "typical_url_patterns": [
+          "/category/gift_cards.do",
+          "/category/gift_center.do",
+          "/product/fitness_programs/black-friday-deals.do"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Fitness Program PDP (DVD/Streaming)",
+        "typical_url_patterns": [
+          "/product/fitness_programs/*.do",
+          "/product/fitness_programs/*/*.do",
+          "/product/fitness_programs/*-streaming-online.do"
+        ]
+      },
+      {
+        "type_name": "On-Demand Subscription PDP",
+        "typical_url_patterns": [
+          "/product/fitness_programs/on-demand-workout-videos.do"
+        ]
+      },
+      {
+        "type_name": "Fitness Gear PDP",
+        "typical_url_patterns": [
+          "/product/fitness_gear/*/*.do",
+          "/product/fitness_gear/*.do"
+        ]
+      },
+      {
+        "type_name": "Supplement PDP",
+        "typical_url_patterns": [
+          "/product/supplements/*/*.do",
+          "/product/supplements/*.do"
+        ]
+      },
+      {
+        "type_name": "Cookbook & Nutrition Plan PDP",
+        "typical_url_patterns": [
+          "/product/fitness_gear/fixate-cookbook-recipes.do",
+          "/product/fitness_gear/p90x_nutrition_plan.do"
+        ]
+      },
+      {
+        "type_name": "Program Add-on/Upgrade Kit PDP",
+        "typical_url_patterns": [
+          "/product/fitness_programs/*deluxe*.do",
+          "/product/fitness_programs/*ultimate-upgrade*.do"
+        ]
+      },
+      {
+        "type_name": "Program Comparison Tool",
+        "typical_url_patterns": [
+          "/category/fitness_programs/compare_fitness_programs.do"
+        ]
+      },
+      {
+        "type_name": "Success Stories Hub",
+        "typical_url_patterns": [
+          "/category/success_stories.do"
+        ]
+      },
+      {
+        "type_name": "Success Story Detail",
+        "typical_url_patterns": [
+          "/category/success_stories/*.do"
+        ]
+      },
+      {
+        "type_name": "Company Overview",
+        "typical_url_patterns": [
+          "/product/about_us/company_overview.do"
+        ]
+      },
+      {
+        "type_name": "Press & Media",
+        "typical_url_patterns": [
+          "/product/about_us/press.do"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy Pages",
+        "typical_url_patterns": [
+          "/product/about_us/terms_of_use.do",
+          "/product/about_us/privacy_policy.do",
+          "/product/about_us/supply_chains_act_2010.do"
+        ]
+      },
+      {
+        "type_name": "Site Map",
+        "typical_url_patterns": [
+          "/product/about_us/site_map.do"
+        ]
+      },
+      {
+        "type_name": "Mobile App Information",
+        "typical_url_patterns": [
+          "/product/fitness_programs/official-fitness-workout-p90x-app-for-iphone.do"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Basket",
+        "typical_url_patterns": [
+          "/basket.do"
+        ]
+      },
+      {
+        "type_name": "Add-to-Cart Action URL",
+        "typical_url_patterns": [
+          "/product/code/*.do?actionkey=ADDTOBASKET"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "(Inferred, typically follows /basket.do)"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation",
+        "typical_url_patterns": [
+          "(Inferred, post-purchase page)"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "(Inferred, likely under /account.do)"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Customer Account Hub",
+        "typical_url_patterns": [
+          "/account.do?method=start"
+        ]
+      },
+      {
+        "type_name": "Newsletter Archive",
+        "typical_url_patterns": [
+          "/category/newsletters.do",
+          "/category/p90x-online/nl.do"
+        ]
+      },
+      {
+        "type_name": "Newsletter Detail",
+        "typical_url_patterns": [
+          "/product/newsletters/nl_*.do",
+          "/product/p90x-online/newsletters/p90xnl_*.do"
+        ]
+      },
+      {
+        "type_name": "Recipes",
+        "typical_url_patterns": [
+          "/beachbodyblog/category/nutrition/recipes"
+        ]
+      },
+      {
+        "type_name": "Community Challenge / Results Pages",
+        "typical_url_patterns": [
+          "/category/success_stories/21df-success-stories.do"
+        ]
+      }
+    ]
+  },
+  "total_types": 42
+}
