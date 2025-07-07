@@ -1,0 +1,134 @@
+2025-07-07 13:48:40,833 - INFO - 📋 日志系统已初始化: outputs/efollett.com/logs/log_main_20250707_134840.txt
+2025-07-07 13:48:40,834 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-07 13:48:40,834 - INFO - 📊 公司: efollett.com
+2025-07-07 13:48:40,852 - INFO - ✅ 成功读取 6 个历史URLs from ./inputs/efollett.com.txt
+2025-07-07 13:48:40,853 - INFO - 🌐 开始URL处理...
+2025-07-07 13:48:40,853 - INFO - 🌐 开始处理公司URLs: efollett.com
+2025-07-07 13:48:40,853 - INFO - 🔍 处理 2009 年的URLs...
+2025-07-07 13:48:40,854 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20091207123135/http://www.efollett.com:80/
+2025-07-07 13:48:43,205 - INFO - ✅ 发现 11 个内部链接
+2025-07-07 13:48:43,206 - INFO - ✅ URL过滤完成: 11/11 链接通过结构过滤
+2025-07-07 13:48:43,206 - INFO - ✅ 2009 年处理完成: 11 个有效链接
+2025-07-07 13:48:43,206 - INFO - 🔍 处理 2010 年的URLs...
+2025-07-07 13:48:43,206 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20101229002411/http://www.efollett.com/
+2025-07-07 13:48:44,870 - INFO - ✅ 发现 1 个内部链接
+2025-07-07 13:48:44,870 - INFO - ✅ URL过滤完成: 1/1 链接通过结构过滤
+2025-07-07 13:48:44,870 - INFO - ✅ 2010 年处理完成: 1 个有效链接
+2025-07-07 13:48:44,870 - INFO - 🔍 处理 2011 年的URLs...
+2025-07-07 13:48:44,870 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20111210172116/http://www.efollett.com/
+2025-07-07 13:48:46,656 - INFO - ✅ 发现 10 个内部链接
+2025-07-07 13:48:46,657 - INFO - ✅ URL过滤完成: 10/10 链接通过结构过滤
+2025-07-07 13:48:46,657 - INFO - ✅ 2011 年处理完成: 10 个有效链接
+2025-07-07 13:48:46,657 - INFO - 🔍 处理 2012 年的URLs...
+2025-07-07 13:48:46,657 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20121130205448/http://www.efollett.com/
+2025-07-07 13:48:48,699 - INFO - ✅ 发现 11 个内部链接
+2025-07-07 13:48:48,699 - INFO - ✅ URL过滤完成: 11/11 链接通过结构过滤
+2025-07-07 13:48:48,700 - INFO - ✅ 2012 年处理完成: 11 个有效链接
+2025-07-07 13:48:48,700 - INFO - 🔍 处理 2013 年的URLs...
+2025-07-07 13:48:48,700 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20131214024336/http://www.efollett.com/
+2025-07-07 13:48:50,493 - INFO - ✅ 发现 12 个内部链接
+2025-07-07 13:48:50,493 - INFO - ✅ URL过滤完成: 12/12 链接通过结构过滤
+2025-07-07 13:48:50,493 - INFO - ✅ 2013 年处理完成: 12 个有效链接
+2025-07-07 13:48:50,493 - INFO - 🔍 处理 2014 年的URLs...
+2025-07-07 13:48:50,493 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20140327022714/https://www.efollett.com/
+2025-07-07 13:48:51,928 - INFO - ✅ 发现 12 个内部链接
+2025-07-07 13:48:51,928 - INFO - ✅ URL过滤完成: 12/12 链接通过结构过滤
+2025-07-07 13:48:51,928 - INFO - ✅ 2014 年处理完成: 12 个有效链接
+2025-07-07 13:48:51,929 - INFO - 💾 链接处理完成，共 57 个链接已保存到: outputs/efollett.com/efollett.com_filtered_links.json
+2025-07-07 13:48:51,929 - INFO - ✅ 成功加载 6 年的链接数据
+2025-07-07 13:48:51,929 - INFO - ✅ URL处理完成，共处理 6 年的数据
+2025-07-07 13:48:51,929 - INFO - 🧠 开始LLM规划...
+2025-07-07 13:48:52,183 - INFO - 🚀 LLM规划器已初始化
+2025-07-07 13:48:52,183 - INFO - 🧠 开始识别核心页面类型...
+2025-07-07 13:48:52,184 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-07 13:48:55,550 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:35,181 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-07 13:49:35,183 - INFO - ✅ 核心页面类型识别完成，共 47 个类型已保存到: outputs/efollett.com/efollett.com_core_page_types.json
+2025-07-07 13:49:35,183 - INFO - ✅ 核心页面类型已生成: outputs/efollett.com/efollett.com_core_page_types.json
+2025-07-07 13:49:35,183 - INFO - 🤖 开始生成LLM规划...
+2025-07-07 13:49:35,190 - INFO - 🔍 处理 2009 年的规划...
+2025-07-07 13:49:35,191 - INFO - ✅ URL正则匹配完成，共过滤出1/11个classified_urls
+2025-07-07 13:49:35,192 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:35,742 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:36,973 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:36,973 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:36,973 - INFO - ✅ 2009 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:36,973 - INFO - 🔍 处理 2010 年的规划...
+2025-07-07 13:49:36,974 - INFO - ✅ URL正则匹配完成，共过滤出1/1个classified_urls
+2025-07-07 13:49:36,974 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:37,608 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:38,773 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:38,774 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:38,774 - INFO - ✅ 2010 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:38,774 - INFO - 🔍 处理 2011 年的规划...
+2025-07-07 13:49:38,774 - INFO - ✅ URL正则匹配完成，共过滤出1/10个classified_urls
+2025-07-07 13:49:38,775 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:39,535 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:40,733 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:40,733 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:40,733 - INFO - ✅ 2011 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:40,733 - INFO - 🔍 处理 2012 年的规划...
+2025-07-07 13:49:40,734 - INFO - ✅ URL正则匹配完成，共过滤出1/11个classified_urls
+2025-07-07 13:49:40,734 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:41,219 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:42,461 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:42,461 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:42,461 - INFO - ✅ 2012 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:42,462 - INFO - 🔍 处理 2013 年的规划...
+2025-07-07 13:49:42,462 - INFO - ✅ URL正则匹配完成，共过滤出1/12个classified_urls
+2025-07-07 13:49:42,463 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:42,898 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:43,946 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:43,946 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:43,947 - INFO - ✅ 2013 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:43,947 - INFO - 🔍 处理 2014 年的规划...
+2025-07-07 13:49:43,948 - INFO - ✅ URL正则匹配完成，共过滤出1/12个classified_urls
+2025-07-07 13:49:43,948 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-07 13:49:44,487 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 13:49:45,808 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-07 13:49:45,808 - INFO - ✅ URL推荐完成: 1 个推荐，1 个在有效页面内
+2025-07-07 13:49:45,808 - INFO - ✅ 2014 年规划完成: 推荐 1 个核心URL
+2025-07-07 13:49:45,818 - INFO - 💾 LLM规划全部年份处理完成，共 6 个推荐URL已保存到: outputs/efollett.com/efollett.com_llm_planning.json
+2025-07-07 13:49:45,818 - INFO - ✅ 成功加载 6 年的规划数据
+2025-07-07 13:49:45,819 - INFO - ✅ LLM规划完成: outputs/efollett.com/efollett.com_llm_planning.json
+2025-07-07 13:49:45,819 - INFO - 🔍 开始场景分析...
+2025-07-07 13:49:45,819 - INFO - ✅ 成功加载 70 个微场景
+2025-07-07 13:49:45,819 - INFO - 🔍 场景分析器已初始化
+2025-07-07 13:49:45,820 - INFO - 🔍 开始分析场景: efollett.com
+2025-07-07 13:49:45,820 - INFO - 🔍 分析 2009 年的场景...
+2025-07-07 13:49:45,820 - INFO - 📄 [2009] 分析页面 1/1
+2025-07-07 13:49:46,947 - INFO - 💾 内容已保存到: outputs/efollett.com/websites/2009_20250707_134946.txt
+2025-07-07 13:49:47,948 - INFO - ✅ 2009 年场景分析完成: 2 个场景
+2025-07-07 13:49:47,949 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:47,949 - INFO - 🔍 分析 2010 年的场景...
+2025-07-07 13:49:47,949 - INFO - 📄 [2010] 分析页面 1/1
+2025-07-07 13:49:49,314 - INFO - ✅ 2010 年场景分析完成: 0 个场景
+2025-07-07 13:49:49,315 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:49,315 - INFO - 🔍 分析 2011 年的场景...
+2025-07-07 13:49:49,316 - INFO - 📄 [2011] 分析页面 1/1
+2025-07-07 13:49:49,804 - INFO - 💾 内容已保存到: outputs/efollett.com/websites/2011_20250707_134949.txt
+2025-07-07 13:49:50,805 - INFO - ✅ 2011 年场景分析完成: 1 个场景
+2025-07-07 13:49:50,806 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:50,806 - INFO - 🔍 分析 2012 年的场景...
+2025-07-07 13:49:50,806 - INFO - 📄 [2012] 分析页面 1/1
+2025-07-07 13:49:51,296 - INFO - 💾 内容已保存到: outputs/efollett.com/websites/2012_20250707_134951.txt
+2025-07-07 13:49:52,297 - INFO - ✅ 2012 年场景分析完成: 1 个场景
+2025-07-07 13:49:52,297 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:52,298 - INFO - 🔍 分析 2013 年的场景...
+2025-07-07 13:49:52,298 - INFO - 📄 [2013] 分析页面 1/1
+2025-07-07 13:49:52,773 - INFO - 💾 内容已保存到: outputs/efollett.com/websites/2013_20250707_134952.txt
+2025-07-07 13:49:53,774 - INFO - ✅ 2013 年场景分析完成: 1 个场景
+2025-07-07 13:49:53,775 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:53,775 - INFO - 🔍 分析 2014 年的场景...
+2025-07-07 13:49:53,775 - INFO - 📄 [2014] 分析页面 1/1
+2025-07-07 13:49:54,252 - INFO - 💾 内容已保存到: outputs/efollett.com/websites/2014_20250707_134954.txt
+2025-07-07 13:49:55,253 - INFO - ✅ 2014 年场景分析完成: 1 个场景
+2025-07-07 13:49:55,254 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:55,255 - INFO - ✅ 场景分析结果已导出到: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:55,255 - INFO - ✅ 场景分析完成: outputs/efollett.com/efollett.com_scenarios.json
+2025-07-07 13:49:55,255 - INFO - 🎉 分析流程完成!
+2025-07-07 13:49:55,255 - INFO - 📁 输出文件:
+2025-07-07 13:49:55,255 - INFO -    - 过滤链接: outputs/efollett.com/efollett.com_filtered_links.json
+2025-07-07 13:49:55,255 - INFO -    - 核心页面类型: outputs/efollett.com/efollett.com_core_page_types.json
+2025-07-07 13:49:55,255 - INFO -    - LLM规划: outputs/efollett.com/efollett.com_llm_planning.json
+2025-07-07 13:49:55,255 - INFO -    - 场景分析: outputs/efollett.com/efollett.com_scenarios.json

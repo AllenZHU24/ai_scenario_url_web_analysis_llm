@@ -1,0 +1,375 @@
+{
+  "generation_time": "2025-07-07 16:25:55",
+  "company_url": "fanatics.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/holiday-gift-guide/*",
+          "/nfl-holiday-gift-guide/*",
+          "/pages/*Gifts"
+        ]
+      },
+      {
+        "type_name": "Gift Cards",
+        "typical_url_patterns": [
+          "/gift-cards/gc-1",
+          "/pages/Gift_Cards"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Info",
+        "typical_url_patterns": [
+          "/about-us/ch-*",
+          "/fanatics-corporate/*",
+          "/partner-solutions-about/*",
+          "/helpdesk/About"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/pages/Fanatics_Promotions*",
+          "/fanatics-promotions/x-*",
+          "/black-friday/*",
+          "/new-year-new-you/*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "League Hub",
+        "typical_url_patterns": [
+          "/nfl/",
+          "/mlb/",
+          "/nba/",
+          "/nhl/",
+          "/nascar/",
+          "/college/",
+          "/soccer/",
+          "/golf/",
+          "/wwe/",
+          "/formula-1/",
+          "/olympics/"
+        ]
+      },
+      {
+        "type_name": "Team Hub",
+        "typical_url_patterns": [
+          "/*/[team-name]/o-*+t-*",
+          "/[LEAGUE]_[Team_Name]"
+        ]
+      },
+      {
+        "type_name": "Player Hub",
+        "typical_url_patterns": [
+          "/*/[player-name]/o-*+a-*",
+          "/[Player_Name_Gear]",
+          "/[player-name]/a-*"
+        ]
+      },
+      {
+        "type_name": "Brand Hub",
+        "typical_url_patterns": [
+          "/[brand-name]/br-*",
+          "/[brand-name]/x-*",
+          "/pages/[brand-name]",
+          "/[brand_name]"
+        ]
+      },
+      {
+        "type_name": "Vintage / Historic Team Hub",
+        "typical_url_patterns": [
+          "/cooperstown-teams/*",
+          "/gridiron-classic-teams/*",
+          "/hardwood-classic-teams/*",
+          "/vintage-hockey/*"
+        ]
+      },
+      {
+        "type_name": "Special Event Hub",
+        "typical_url_patterns": [
+          "/*-champions/*",
+          "/*-merchandise/*",
+          "/*-playoff-gear/*",
+          "/*-bowl-merchandise/*",
+          "/nba-all-star-merchandise/*",
+          "/daytona-500-merchandise/*"
+        ]
+      },
+      {
+        "type_name": "eSports League Hub",
+        "typical_url_patterns": [
+          "/nba2kleague/*",
+          "/overwatch-league/*",
+          "/call-of-duty-league/*"
+        ]
+      },
+      {
+        "type_name": "Themed Collection Hub",
+        "typical_url_patterns": [
+          "/city-connect/*",
+          "/salute-to-service/*",
+          "/reverse-retro/*",
+          "/authentic-pro/*",
+          "/cooperstown-collection/*",
+          "/sideline-gear/*"
+        ]
+      },
+      {
+        "type_name": "Auctions",
+        "typical_url_patterns": [
+          "/auctions/ah-1",
+          "/*-Auction/*"
+        ]
+      },
+      {
+        "type_name": "General Product Type Hub",
+        "typical_url_patterns": [
+          "/jerseys/*",
+          "/hats/*",
+          "/sweatshirts/*",
+          "/t-shirts/*",
+          "/jackets/*",
+          "/polos/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Filtered Category (Team + Product Type)",
+        "typical_url_patterns": [
+          "/[league]/[team-name]/[product-type]/o-*+t-*+d-*"
+        ]
+      },
+      {
+        "type_name": "Filtered Category (League + Product Type)",
+        "typical_url_patterns": [
+          "/[league]/[product-type]/o-*+d-*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*p-*"
+        ]
+      },
+      {
+        "type_name": "Custom Shop",
+        "typical_url_patterns": [
+          "/custom/cz-*"
+        ]
+      },
+      {
+        "type_name": "Sale / Outlet Pages",
+        "typical_url_patterns": [
+          "/sale-items/*",
+          "/*on_sale/yes",
+          "/pages/*Outlet",
+          "/*os-*"
+        ]
+      },
+      {
+        "type_name": "Demographic Category (Big & Tall)",
+        "typical_url_patterns": [
+          "/big-and-tall/*"
+        ]
+      },
+      {
+        "type_name": "Demographic Category (Plus Sizes)",
+        "typical_url_patterns": [
+          "/plus-sizes/*"
+        ]
+      },
+      {
+        "type_name": "Demographic Category (Kids & Baby)",
+        "typical_url_patterns": [
+          "/baby/*",
+          "/kids/*"
+        ]
+      },
+      {
+        "type_name": "Collectibles & Memorabilia Category",
+        "typical_url_patterns": [
+          "/collectibles-and-memorabilia/*",
+          "/autographed-memorabilia/*"
+        ]
+      },
+      {
+        "type_name": "Trading Cards Category",
+        "typical_url_patterns": [
+          "/*trading-cards/*"
+        ]
+      },
+      {
+        "type_name": "Home, Office & Party Category",
+        "typical_url_patterns": [
+          "/home-and-office/*",
+          "/tailgate-and-party/*"
+        ]
+      },
+      {
+        "type_name": "Accessories Category",
+        "typical_url_patterns": [
+          "/accessories-gloves-and-scarves/*",
+          "/keychains/*",
+          "/magnets/*",
+          "/backpacks/*",
+          "/socks/*"
+        ]
+      },
+      {
+        "type_name": "Sizing Charts",
+        "typical_url_patterns": [
+          "/fanatics-size-charts/ch-*",
+          "/helpdesk/Sizing",
+          "/size-charts/ch-*"
+        ]
+      },
+      {
+        "type_name": "General FAQ",
+        "typical_url_patterns": [
+          "/helpdesk/FAQ",
+          "/*faq/ch-*"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy-policy",
+          "/what-is-your-privacy-policy/ch-*",
+          "/helpdesk/Privacy"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/terms-and-conditions/ch-*",
+          "/terms-of-use"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart/view"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout/address"
+        ]
+      },
+      {
+        "type_name": "Coupons & Promotions",
+        "typical_url_patterns": [
+          "/coupons/*",
+          "/promo-exclusions/*"
+        ]
+      },
+      {
+        "type_name": "Payment Plan Info",
+        "typical_url_patterns": [
+          "/zip-faq/ch-*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/track-order",
+          "/account/tracking"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping/ch-*",
+          "/helpdesk/Shipping",
+          "/shipping-results/ch-*"
+        ]
+      },
+      {
+        "type_name": "Returns Policy",
+        "typical_url_patterns": [
+          "/easy-365-day-returns/*",
+          "/what-is-your-return-policy/ch-*",
+          "/helpdesk/Returns",
+          "/returns-policy"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/customer-help-desk/hd-1",
+          "/helpdesk/Home",
+          "/contact-us/ch-*"
+        ]
+      },
+      {
+        "type_name": "Safe Shopping / Security",
+        "typical_url_patterns": [
+          "/security--safe-shopping/ch-*",
+          "/safe-shopping/ch-*"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account",
+        "typical_url_patterns": [
+          "/account/home",
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program (FanCash)",
+        "typical_url_patterns": [
+          "/rewards",
+          "/fancash",
+          "/fancash-rewards-card",
+          "/account/myfancash"
+        ]
+      },
+      {
+        "type_name": "Jersey Assurance Program",
+        "typical_url_patterns": [
+          "/jersey-assurance/*"
+        ]
+      },
+      {
+        "type_name": "Satisfaction Guarantee",
+        "typical_url_patterns": [
+          "/your-satisfaction-guaranteed/ch-*",
+          "/helpdesk/promise",
+          "/why-shop-with-us/ch-*"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliates/*"
+        ]
+      },
+      {
+        "type_name": "Mobile App Page",
+        "typical_url_patterns": [
+          "/mobile/x-*"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

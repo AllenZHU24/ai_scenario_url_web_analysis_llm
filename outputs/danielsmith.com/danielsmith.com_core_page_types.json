@@ -1,0 +1,321 @@
+{
+  "generation_time": "2025-07-06 09:05:52",
+  "company_url": "danielsmith.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "International Homepage",
+        "typical_url_patterns": [
+          "/fr/",
+          "/es/",
+          "/uk/",
+          "/nl/",
+          "/ja/",
+          "/zh/",
+          "/de/",
+          "/it/"
+        ]
+      },
+      {
+        "type_name": "Blog / Content Hub",
+        "typical_url_patterns": [
+          "/blogs/",
+          "/blog/",
+          "/blog-index/"
+        ]
+      },
+      {
+        "type_name": "Artist & Community Hub",
+        "typical_url_patterns": [
+          "/artists/",
+          "/featured-artists/",
+          "/brand-ambassadors/",
+          "/community/"
+        ]
+      },
+      {
+        "type_name": "Artist Profile / Interview",
+        "typical_url_patterns": [
+          "/[artist-name]/",
+          "/artists/chat-with-[artist-name]/",
+          "/artists/interviews/"
+        ]
+      },
+      {
+        "type_name": "Events & Demos",
+        "typical_url_patterns": [
+          "/events",
+          "/weekly-live-demos/",
+          "/2020-trade-shows/",
+          "/event/[event-slug]/"
+        ]
+      },
+      {
+        "type_name": "About Us / Brand Story",
+        "typical_url_patterns": [
+          "/about/",
+          "/about-us/",
+          "/Content--id-1",
+          "/video-the-art-of-making-paint/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page (PLP)",
+        "typical_url_patterns": [
+          "/Category--[name]--m-[id]",
+          "/category/[name]/",
+          "/products/",
+          "/product-categories/"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (PLP)",
+        "typical_url_patterns": [
+          "/SubCategory--[name]--m-[id]",
+          "/category/[parent]/[child]/",
+          "/ItemList--[name]--m-[id]"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Category Page",
+        "typical_url_patterns": [
+          "/Category--[BrandName]--m-[id]",
+          "/BrandList.aspx"
+        ]
+      },
+      {
+        "type_name": "Learning / Tutorials Hub",
+        "typical_url_patterns": [
+          "/Category--Learning--m-12",
+          "/tutorials/",
+          "/category/tutorials/",
+          "/SubCategory--Tips-and-Tutorials--m-418"
+        ]
+      },
+      {
+        "type_name": "Tutorial / How-To Article",
+        "typical_url_patterns": [
+          "/tutorials/[tutorial-slug]/",
+          "/artists/[article-slug]/",
+          "/ItemList--[Topic]-Tutorials--m-[id]"
+        ]
+      },
+      {
+        "type_name": "Thematic Content Category",
+        "typical_url_patterns": [
+          "/category/color-stories/",
+          "/category/product-updates/"
+        ]
+      },
+      {
+        "type_name": "Video Library",
+        "typical_url_patterns": [
+          "/video-library/",
+          "/SubCategory--Artist-Videos--m-134"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/Item--i-[sku]",
+          "/product/[product-name]/",
+          "/[product-name]/"
+        ]
+      },
+      {
+        "type_name": "Color Charts & Swatch Gallery Hub",
+        "typical_url_patterns": [
+          "/color-charts/",
+          "/swatch-gallery/",
+          "/brochures-and-color-charts/"
+        ]
+      },
+      {
+        "type_name": "Specific Swatch Gallery",
+        "typical_url_patterns": [
+          "/swatch-gallery/[product-line]/"
+        ]
+      },
+      {
+        "type_name": "Color Finder / Comparison Tool",
+        "typical_url_patterns": [
+          "/color-finder/",
+          "/color-map/",
+          "/side-by-side/",
+          "/dot-card-finder/"
+        ]
+      },
+      {
+        "type_name": "Dot Card / Sample Page",
+        "typical_url_patterns": [
+          "/watercolor-dot-cards/",
+          "/product/dot-cards/",
+          "/artists/artist-dot-cards/"
+        ]
+      },
+      {
+        "type_name": "Testimonials / Reviews",
+        "typical_url_patterns": [
+          "/testimonials/",
+          "/content--name-item-rate-and-review"
+        ]
+      },
+      {
+        "type_name": "Safety Data Sheets (SDS)",
+        "typical_url_patterns": [
+          "/safety-data-sheets/",
+          "/safety-data-sheets"
+        ]
+      },
+      {
+        "type_name": "Brochures & Digital Catalogs",
+        "typical_url_patterns": [
+          "/brochures/",
+          "/catalog/",
+          "/catalog.aspx",
+          "/brochures/[product-line]/"
+        ]
+      },
+      {
+        "type_name": "FAQ / Knowledge Base",
+        "typical_url_patterns": [
+          "/faq/",
+          "/knowledge-base/",
+          "/johns-resources/"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/CartPage.aspx"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Page",
+        "typical_url_patterns": [
+          "/Category--Clearance--m-[id]",
+          "/Clearance.aspx",
+          "/Category--SALE--m-[id]",
+          "/SubCategory--[Category]-Sale--m-[id]"
+        ]
+      },
+      {
+        "type_name": "Gift Guide Page",
+        "typical_url_patterns": [
+          "/Category--Gifts--m-577",
+          "/Category--Holiday-Gift-Guide--m-577",
+          "/SubCategory--[Category]-Gifts--m-[id]"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Page",
+        "typical_url_patterns": [
+          "/Item--i-G-GIFT-CERTIFICATES"
+        ]
+      },
+      {
+        "type_name": "Store Locator / Where to Buy",
+        "typical_url_patterns": [
+          "/retailers/",
+          "/stores-near-me/",
+          "/retail-stores-by-country/",
+          "/content--id-69"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/ItemSearch--search-[query]--srcin-1"
+        ]
+      },
+      {
+        "type_name": "Quick Order / Catalog Entry",
+        "typical_url_patterns": [
+          "/catquick.aspx"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login.aspx"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/Members/MyAccount.aspx"
+        ]
+      },
+      {
+        "type_name": "Generic Policy / Content Page",
+        "typical_url_patterns": [
+          "/Content--id-[number]"
+        ]
+      },
+      {
+        "type_name": "Store Closure Notice",
+        "typical_url_patterns": [
+          "/shopdanielsmith-is-now-closed/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Newsletter Signup",
+        "typical_url_patterns": [
+          "/newsletter-signup/",
+          "/NewsletterMaintenance.aspx"
+        ]
+      },
+      {
+        "type_name": "Contact Us / Support",
+        "typical_url_patterns": [
+          "/contact/",
+          "/contact-us/",
+          "/Item--i-E-ASKTHEEXPERTS"
+        ]
+      },
+      {
+        "type_name": "Careers / Opportunities",
+        "typical_url_patterns": [
+          "/jobs/",
+          "/about-us/opportunities/"
+        ]
+      },
+      {
+        "type_name": "Social Media Hub",
+        "typical_url_patterns": [
+          "/social-media/"
+        ]
+      },
+      {
+        "type_name": "Author Page",
+        "typical_url_patterns": [
+          "/author/[name]/"
+        ]
+      },
+      {
+        "type_name": "Educator Program",
+        "typical_url_patterns": [
+          "/Category--Educators--m-1150"
+        ]
+      }
+    ]
+  },
+  "total_types": 40
+}

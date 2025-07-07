@@ -1,0 +1,3182 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "dickssportinggoods.com",
+  "export_time": "2025-07-07 11:09:51",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-07 05:21:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 140,
+      "valid_content_urls_count": 140,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=aboutUs",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbyBrand/index.jsp?clickid=hdr_shopbybrand_txt",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbySport/index.jsp?clickid=hdr_seeallsports_txt",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2356658",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/cart/index.jsp",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCertificates/index.jsp",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=recalls",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=account&subdisplay=scoreRewards",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCenter/index.jsp",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367826",
+        "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=storeLocator"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=aboutUs",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "This page informs customers about the company's values and mission, enhancing brand trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbyBrand/index.jsp?clickid=hdr_shopbybrand_txt",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Index Page",
+            "selection_reason": "This page allows customers to explore products by brand, catering to brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbySport/index.jsp?clickid=hdr_seeallsports_txt",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This hub organizes products by sport, helping customers find relevant items easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2356658",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "This PLP showcases a specific category, allowing customers to consider various products."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/cart/index.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCertificates/index.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "This page allows customers to purchase gift cards, enhancing gift-giving options."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Providing customer support is essential for retention and customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=recalls",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "This page is important for customer safety and trust, informing them about product recalls."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=account&subdisplay=scoreRewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Information about loyalty programs encourages repeat purchases and customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCenter/index.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide / Center",
+            "selection_reason": "This guide helps customers find suitable gifts, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367826",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Another PLP that showcases a different category, providing more options for consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=storeLocator",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "This tool helps customers find physical store locations, bridging online and offline shopping."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 113,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2356658",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/cart/index.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2809943",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2368560",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2769325",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=716563",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2629183",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2809720",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2291514",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2762746",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2769324",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2890922",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672646",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2293465",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2762745",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2368551",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2810824",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672648",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2795145",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2812888",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCertificates/index.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2277089",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672650",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2791768",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/https://www.dickssportinggoods.com/coreg/index.jsp?step=register",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2713633",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2792639",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2478205",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2885937",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2629192",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2669278",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367826",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2778411",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2282096",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbyBrand/index.jsp?clickid=hdr_shopbybrand_txt",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2786509",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://www.dickssportinggoods.com/search/index.jsp?kw=Sole&f=Brand%2F24763%2F",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2716578",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2285520",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=safety&subdisplay=secure",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2629184",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2622932",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367824",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=3020077",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367525",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672645",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/NikeACG/index.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=safety&subdisplay=terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2629193",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367454",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2886723",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2651892",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367823",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2712461",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2796792",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2280790",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2629150",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2363468",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672652",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2716579",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/home/index.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/cart/index.jsp?wlName=wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / My Lists"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367827",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2886827",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2611881",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/giftCenter/index.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide / Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2769326",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=557120",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=account&subdisplay=scoreRewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2782295",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=711662",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2795144",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=1377236",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2713634",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=3159831",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2810668",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672651",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp?display=safety&subdisplay=privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2792640",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2623689",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=715323",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=1739883",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2792638",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=aboutUs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2292572",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/shopbySport/index.jsp?clickid=hdr_seeallsports_txt",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2368579",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2353048",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367821",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2765919",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367828",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672649",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=3116236",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/helpdesk/index.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2344489",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2885924",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=715535",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=3195713",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=1919739",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=714773",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://www.dickssportinggoods.com/category/index.jsp?categoryId=716563&ab=oas_flashHP:NFL010409",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2866814",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367820",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2809890",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367453",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2295234",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2713635",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2672647",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=2367825",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/category/index.jsp?categoryId=3388885",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090105163136/http://dickssportinggoods.com/corp/index.jsp?page=storeLocator",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 05:21:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171230152223/https://www.dickssportinggoods.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171230152223/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171230152223/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-07 05:21:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 331,
+      "valid_content_urls_count": 331,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/pro-tips",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/stores",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/nfl-fan-shop",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/shop-by-sport",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/fan-shop-deals",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/promo-exclusions",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/shipping-information",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/mobile-app",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/weekly-ad",
+        "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/gift-cards"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/pro-tips",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub (ProTips)",
+            "selection_reason": "This page provides valuable content that can attract and engage customers, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/stores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, increasing foot traffic and brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/nfl-fan-shop",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "League/Team Fan Page",
+            "selection_reason": "Attracts sports fans and showcases team-specific merchandise, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/shop-by-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Organizes products by sport, helping customers navigate and find relevant items."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/fan-shop-deals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Fan Shop Hub",
+            "selection_reason": "Highlights deals for fans, increasing engagement and potential purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/promo-exclusions",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Promotion Exclusions",
+            "selection_reason": "Clarifies promotional terms, aiding customers in making informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/shipping-information",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Essential for customers to understand shipping options and costs before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Provides reassurance to customers regarding returns, influencing their purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/mobile-app",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Mobile App Promotion",
+            "selection_reason": "Encourages customers to engage with the brand through a mobile app, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Provides support and assistance, crucial for retaining customers and resolving issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Informs customers about loyalty benefits, encouraging repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/weekly-ad",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Deals & Promotions Page",
+            "selection_reason": "Highlights current promotions, enticing customers to consider purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/gift-cards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Facilitates gift purchases, appealing to customers looking for convenient gifting options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 43,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Footwear Release Calendar"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/mobile-app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Promotion"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/nfl-fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "League/Team Fan Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/ncaa-shop-by-school",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "League/Team Fan Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/recommended-for-you",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Personalized Recommendations"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/AjaxLogonForm?catalogId=12301&myAcctMain=1&langId=-1&storeId=15108",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/TrackOrder",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/f/golf-shoes",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/f/patagonia",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/nike",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/clearance-apparel-gear-footwear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/basketball-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/featured-fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/LogonForm?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/baseball-equipment-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/fan-shop-deals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/weekly-ad",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/pro-tips",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (ProTips)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/c/this-weeks-deals",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181230225708/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-07 05:21:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 65,
+      "valid_content_urls_count": 65,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/about-us",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/shop-by-sport",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/yeti-brand",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/golf-equipment",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/weekly-ad",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/this-weeks-deals",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/LogonForm",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/shipping-information",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/recalls"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of offerings and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "This page builds brand trust and awareness by informing customers about the company's values and mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/shop-by-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This hub allows customers to explore products by their preferred sports, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/yeti-brand",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand-Specific Page",
+            "selection_reason": "Brand-specific pages cater to customers interested in particular brands, helping them find relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/golf-equipment",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sport Category Page",
+            "selection_reason": "Category pages help customers navigate to specific product types, facilitating easier decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/weekly-ad",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Deals & Promotions Page",
+            "selection_reason": "Promotions attract customers' attention and encourage them to consider purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/this-weeks-deals",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Clearance Hub",
+            "selection_reason": "This page highlights current deals, making it easier for customers to find discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/LogonForm",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Registration Page",
+            "selection_reason": "The login page is crucial for customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/shipping-information",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Shipping information is vital for customers to understand delivery options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies help customers feel secure in their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Order tracking is essential for customers to monitor their purchases and delivery status."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Customer service pages are crucial for addressing customer inquiries and enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Loyalty programs encourage repeat purchases and customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/recalls",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Product Recalls",
+            "selection_reason": "Information on product recalls is important for customer safety and trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/this-weeks-deals",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/yeti-brand",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand-Specific Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Footwear Release Calendar"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/basketball-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/weekly-ad",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/c/baseball-equipment-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/OrderItemDisplay?calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-3&calculationUsageId=-7&updatePrices=1&doConfigurationValidation=Y&catalogId=12301&orderId=.&langId=-1&storeId=15108",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191229033721/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-07 05:22:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 72,
+      "valid_content_urls_count": 72,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/about-us",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shop-all-brands",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/shop-by-sport",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/weekly-ad",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/this-weeks-deals",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/LogonForm",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/rebates",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/in-store-pickup",
+        "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/gift-cards"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the store and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us / Corporate Information",
+            "selection_reason": "Provides customers with information about the brand, enhancing trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shop-all-brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Index Page",
+            "selection_reason": "Allows customers to explore various brands, catering to their interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/shop-by-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Facilitates navigation by sport, helping customers find relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/weekly-ad",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Deals & Promotions Page",
+            "selection_reason": "Highlights current promotions, encouraging customers to consider purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/this-weeks-deals",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Clearance Hub",
+            "selection_reason": "Offers customers a chance to find discounted items, influencing their buying decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides essential shipping details that can affect the decision to purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clarifies return procedures, which is crucial for customer confidence in purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/LogonForm",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login / Registration Page",
+            "selection_reason": "Enables customers to create accounts or log in, essential for personalized shopping experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Provides support for customers, fostering retention through assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Encourages repeat business by informing customers about loyalty benefits."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/rebates",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Rebates Page",
+            "selection_reason": "Informs customers about rebate opportunities, enhancing retention strategies."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/in-store-pickup",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "In-Store Pickup Information",
+            "selection_reason": "Provides customers with options for pickup, influencing their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/gift-cards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Facilitates gift card purchases, appealing to customers looking for gifting options."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/weekly-ad",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/this-weeks-deals",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/OrderItemDisplay?calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-3&calculationUsageId=-7&updatePrices=1&doConfigurationValidation=Y&catalogId=12301&orderId=.&langId=-1&storeId=15108",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/nfl-fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "League/Team Fan Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/clearance-apparel-gear-footwear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/c/fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231093807/https://www.dickssportinggoods.com/f/build-your-own-home-gym",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-07 05:22:23",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 80,
+      "valid_content_urls_count": 80,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/stores",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/shop-by-sport",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/onlyatdicks",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/weekly-ad",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/clearance-apparel-gear-footwear",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/shipping-information",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/mobile-app"
+      ],
+      "recommended_pages_count": 12,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces customers to the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/stores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/shop-by-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Encourages exploration of products by sport, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/onlyatdicks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed/Curated Collection",
+            "selection_reason": "Showcases exclusive products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/weekly-ad",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Deals & Promotions Page",
+            "selection_reason": "Provides customers with current promotions, aiding in purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/clearance-apparel-gear-footwear",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Clearance Hub",
+            "selection_reason": "Offers discounted items, appealing to budget-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about return processes, enhancing trust and confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/shipping-information",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides essential shipping details, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Encourages repeat purchases through loyalty program details."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Provides customer support, fostering retention through assistance."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/mobile-app",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Mobile App Promotion",
+            "selection_reason": "Promotes the mobile app, encouraging customer engagement and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 38,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/Shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/clearance-apparel-gear-footwear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/afterpay-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/weekly-ad",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/this-weeks-deals",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/fan-shop-available-in-store",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/donotsell",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/scorerewards-credit-card",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Co-branded Credit Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/OrderItemDisplay",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/f/build-your-own-home-gym",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/affirm-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/mobile-app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Promotion"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231071626/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-07 05:22:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 49,
+      "valid_content_urls_count": 49,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shop-by-sport",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/weekly-ad",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/f/sale",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shipping-information",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/in-store-pickup",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/commercials-film",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/onlyatdicks",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/affirm-details",
+        "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/gift-cards"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shop-by-sport",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This page helps customers explore products based on their interests in specific sports."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Department Page (Men's/Women's/Kids')",
+            "selection_reason": "Department pages are crucial for customers looking for specific categories of products."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/weekly-ad",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Deals & Promotions Page",
+            "selection_reason": "This page showcases current promotions, helping customers make informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/f/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Clearance Hub",
+            "selection_reason": "The sale hub attracts customers looking for discounts and special offers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shipping-information",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Shipping information is critical for customers to understand delivery options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies help customers feel secure in their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/in-store-pickup",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "In-Store Pickup Information",
+            "selection_reason": "Providing in-store pickup options enhances convenience for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Order tracking is essential for customers to monitor their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Information about loyalty programs encourages repeat purchases and customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Access to customer service is vital for resolving issues and maintaining customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/commercials-film",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Media & Campaign Pages",
+            "selection_reason": "Campaign pages help build brand awareness and engage customers through marketing efforts."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/onlyatdicks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed/Curated Collection",
+            "selection_reason": "Curated collections attract customers looking for unique or exclusive items."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/affirm-details",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Options Info (BNPL)",
+            "selection_reason": "Information on payment options, including BNPL, is crucial for facilitating purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/gift-cards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Gift card options provide flexibility and are popular among customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 41,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/donotsell",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Footwear Release Calendar"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/afterpay-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/f/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/weekly-ad",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-all-womens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/affirm-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/Shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/scorerewards-credit-card",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Co-branded Credit Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/mobile-app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Promotion"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/OrderItemDisplay",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/a/pc/popular-categories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Popular Categories Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231055257/https://www.dickssportinggoods.com/c/shop-all-kids-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-07 05:22:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 115,
+      "valid_content_urls_count": 115,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/article-type/buying-guides/best-holiday-gifts",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-all-kids-apparel-footwear",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/promo-exclusions",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/onlyatdicks",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/price-match-policy",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/shipping-information",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/gift-cards",
+        "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/footwear-release-calendar"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of offerings and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/article-type/buying-guides/best-holiday-gifts",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying Guide (Article)",
+            "selection_reason": "This guide helps customers in the awareness stage by providing valuable gift ideas."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-all-kids-apparel-footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Department Page (Men's/Women's/Kids')",
+            "selection_reason": "This page targets customers interested in kids' apparel, showcasing a specific product category."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/promo-exclusions",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Promotion Exclusions",
+            "selection_reason": "Understanding exclusions is crucial for customers making purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "This page allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "A clear return policy is essential for customers when deciding to purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Providing customer support is vital for retention and addressing post-purchase concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Information about loyalty programs encourages repeat purchases and customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/onlyatdicks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed/Curated Collection",
+            "selection_reason": "Curated collections attract customer interest and promote specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/price-match-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Price Match Policy",
+            "selection_reason": "Price matching policies can influence customer decisions by ensuring competitive pricing."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/shipping-information",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Clear shipping information is crucial for customers making purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Social Responsibility",
+            "selection_reason": "Highlighting corporate responsibility initiatives can enhance brand image and attract customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/gift-cards",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Purchase Page",
+            "selection_reason": "Gift cards are a popular purchase option, especially during holidays."
+          },
+          {
+            "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Footwear Release Calendar",
+            "selection_reason": "This page provides valuable information for customers considering footwear purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 54,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/f/gifts-for-him",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide / Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-all-kids-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/donotsell",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/article-type/buying-guides/best-water-bottles",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/scorerewards-credit-card",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Co-branded Credit Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/article-type/buying-guides/best-holiday-gifts",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/OrderItemDisplay",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Footwear Release Calendar"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (ProTips)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/sports-and-activities/bikes-and-cycling/kids-bike-sizing-chart",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/f/gifts-by-price",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide / Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/recommended-for-you",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Personalized Recommendations"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/sustainability",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Social Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/holiday-gift-finder",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide / Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/a/pc/popular-categories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Popular Categories Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/Shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/protips/sports-and-activities/winter-sports/warmest-winter-coats-bpa2020",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/policy/brand-warranties",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Brand Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/afterpay-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/f/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/affirm-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Social Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/f/sale-golf-equipment",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/shop-all-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Index Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/c/shop-all-womens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20231223211054/https://www.dickssportinggoods.com/s/mobile-app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Promotion"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-07 05:22:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241004201853/https://www.dickssportinggoods.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241004201853/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241004201853/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-07 05:23:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 147,
+      "valid_content_urls_count": 147,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/stores",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/new-arrivals-golf",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/golf-shoes",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/afterpay-details",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/return-policy",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/scorecard-benefits",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/help-desk",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/commercials-film",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/foundation",
+        "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and directing them to various sections."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/stores",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing brand visibility and accessibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/new-arrivals-golf",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Page",
+            "selection_reason": "Attracts customers looking for the latest products, driving interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Department Page (Men's/Women's/Kids')",
+            "selection_reason": "Provides a comprehensive view of available apparel, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/golf-shoes",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Allows customers to compare options and make informed decisions about specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/afterpay-details",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Payment Options Info (BNPL)",
+            "selection_reason": "Informs customers about payment flexibility, aiding in their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Tracking Page",
+            "selection_reason": "Essential for customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/return-policy",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Critical information that influences customer confidence in making purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/scorecard-benefits",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Information",
+            "selection_reason": "Encourages repeat purchases by informing customers about loyalty benefits."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/help-desk",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Help Desk / Customer Service",
+            "selection_reason": "Provides support and assistance, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/commercials-film",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Media & Campaign Pages",
+            "selection_reason": "Engages customers through marketing campaigns, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/foundation",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Media & Campaign Pages",
+            "selection_reason": "Highlights corporate social responsibility initiatives, improving brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Social Responsibility",
+            "selection_reason": "Demonstrates commitment to community engagement, enhancing brand loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 61,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/golf-shoes",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/rebates",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Rebates Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/commercials-film",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/houseofsport",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/mobile-app",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Mobile App Promotion"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/new-arrivals-golf",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/afterpay-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/TrackOrder?catalogId=12301&langId=&storeId=15108",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Tracking Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/recalls",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Product Recalls"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/terms-of-use",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/donotsell",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/text-program-details",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Text Program Details"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/onlyatdicks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/california-disclosures",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/footwear-release-calendar",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Footwear Release Calendar"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/a/pc/popular-categories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Popular Categories Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/store-services",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Store Services Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/return-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/soccer-shin-guards",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/in-store-pickup",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "In-Store Pickup Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/apparel-footwear-new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/stores",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/sustainability",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Social Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/golf-equipment",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-all-mens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/baseball-equipment-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/affirm-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Payment Options Info (BNPL)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/foundation",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Media & Campaign Pages"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/scorecard/scorerewards-credit-card",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Co-branded Credit Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/protips/sports-and-activities/softball/complete-guide-softballs",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/basketball-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sport Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/fan-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Fan Shop Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/MyAccount/Lists",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist / My Lists"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/policy/price-match-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Price Match Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/shipping-information",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/cancellations",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Cancellation Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/protips/sports-and-activities/bikes-and-cycling/kids-bike-sizing-chart",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/protips/sports-and-activities/basketball/best-basketball-shoes",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/help-desk",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Help Desk / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/promo-exclusions",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Promotion Exclusions"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-by-sport",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/privacy-policy",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Legal & Privacy Policies"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/scorerewards-credit-card",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Co-branded Credit Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/f/nhl-playoffs-apparel-gear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "League/Team Fan Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-all-kids-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/OrderItemDisplay",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/c/shop-all-womens-apparel-footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Department Page (Men's/Women's/Kids')"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/policy/brand-warranties",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Brand Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/LogonForm",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login / Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/gift-cards",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Purchase Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/promotion-coupons",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Deals & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/protips",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub (ProTips)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/scorecard-benefits",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/Shipping-value-promo-details",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us / Corporate Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/brand-shop/dsg-brand-clothing-gear",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Exclusive Products Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/seasonal/graduation-gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed/Curated Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/protips/sports-and-activities/fan-shop/jersey-buying-guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guide (Article)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250428132443/https://www.dickssportinggoods.com/s/marketing/sponsorships-and-donations",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Social Responsibility"
+        }
+      ]
+    }
+  }
+}

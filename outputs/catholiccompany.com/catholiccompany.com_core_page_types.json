@@ -1,0 +1,362 @@
+{
+  "generation_time": "2025-07-06 01:35:43",
+  "company_url": "catholiccompany.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us/",
+          "/about.cfm",
+          "/about.tr"
+        ]
+      },
+      {
+        "type_name": "Blog & Magazine Hub",
+        "typical_url_patterns": [
+          "/blog/",
+          "/getfed/",
+          "/magazine/"
+        ]
+      },
+      {
+        "type_name": "Information Center / Content Hub",
+        "typical_url_patterns": [
+          "/content/information-center/",
+          "/content/Information-Center.cfm"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers/",
+          "/workWithUs.tr",
+          "/internship.tr"
+        ]
+      },
+      {
+        "type_name": "Charitable Donation Page",
+        "typical_url_patterns": [
+          "/donate-to-the-missionaries-of-the-poor-c1600/",
+          "/content/the-missionaries-of-the-poor"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page",
+        "typical_url_patterns": [
+          "/*-c[0-9]/",
+          "/*-c[0-9][0-9]/"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page",
+        "typical_url_patterns": [
+          "/*-c[0-9]{3,}/"
+        ]
+      },
+      {
+        "type_name": "Legacy Category Page",
+        "typical_url_patterns": [
+          "/[A-Za-z]+Gifts.cfm",
+          "/catholic-catalog/[0-9]+/*/"
+        ]
+      },
+      {
+        "type_name": "Occasion & Holiday Category",
+        "typical_url_patterns": [
+          "/christmas-c1237/",
+          "/lent-easter-c217/",
+          "/mothers-day-c991/",
+          "/graduation-c95/"
+        ]
+      },
+      {
+        "type_name": "Gift Guide Category",
+        "typical_url_patterns": [
+          "/gift-ideas-c52/",
+          "/content/Gift-Guides",
+          "/*-gift-guide"
+        ]
+      },
+      {
+        "type_name": "Themed & Curated Category",
+        "typical_url_patterns": [
+          "/irish-gifts-c85/",
+          "/st-michael-c115/",
+          "/pro-life-items-c813/"
+        ]
+      },
+      {
+        "type_name": "Personalization Hub",
+        "typical_url_patterns": [
+          "/personalized-c1605/",
+          "/personalized-catholic-books-g5/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Category",
+        "typical_url_patterns": [
+          "/new-products-c86/",
+          "/new-arrivals/"
+        ]
+      },
+      {
+        "type_name": "Shop All Page",
+        "typical_url_patterns": [
+          "/shop/",
+          "/shop?*"
+        ]
+      },
+      {
+        "type_name": "How-To & Educational Guides",
+        "typical_url_patterns": [
+          "/content/How-to-Pray",
+          "/content/How-to-Say-the-Rosary",
+          "/content/Jewelry-Guide"
+        ]
+      },
+      {
+        "type_name": "Patron Saint Index",
+        "typical_url_patterns": [
+          "/patron-saint-index-c545/"
+        ]
+      },
+      {
+        "type_name": "Spanish Language Hub",
+        "typical_url_patterns": [
+          "/content/material-catolico-en-espanol",
+          "/*-la-biblia-y-los-libros-c894/"
+        ]
+      },
+      {
+        "type_name": "Blog/Magazine Article",
+        "typical_url_patterns": [
+          "/blog/*",
+          "/getfed/*",
+          "/magazine/*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (Standard)",
+        "typical_url_patterns": [
+          "/*-i[0-9]+/",
+          "/*/[A-Za-z0-9-]+/"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Legacy)",
+        "typical_url_patterns": [
+          "/*-p[0-9]+/",
+          "/catholic-gifts/[0-9]+/*"
+        ]
+      },
+      {
+        "type_name": "Aggregated Reviews Page",
+        "typical_url_patterns": [
+          "/reviews/"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist.php",
+          "/wishList.cfm",
+          "/wishList.tr"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.php",
+          "/cart.cfm",
+          "/cart.tr"
+        ]
+      },
+      {
+        "type_name": "Add to Cart Action",
+        "typical_url_patterns": [
+          "/cart.php?action=add*"
+        ]
+      },
+      {
+        "type_name": "Checkout / Quick Order",
+        "typical_url_patterns": [
+          "/quick_order.cfm"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Purchase",
+        "typical_url_patterns": [
+          "/giftcertificates.php"
+        ]
+      },
+      {
+        "type_name": "Bulk & Parish Orders",
+        "typical_url_patterns": [
+          "/parish-bulk-orders/",
+          "/bulkOrders.cfm",
+          "/bulkOrders.tr"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Category",
+        "typical_url_patterns": [
+          "/sale-items-s0/",
+          "/*-on-sale-c*/",
+          "/deals/",
+          "/shop?*isOnSale*"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status",
+        "typical_url_patterns": [
+          "/account.php?action=order_status"
+        ]
+      },
+      {
+        "type_name": "Customer Service & Help Center",
+        "typical_url_patterns": [
+          "/customer-service/",
+          "/contact-us/",
+          "/help.cfm",
+          "/CONTACT.cfm"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping/",
+          "/content/Christmas-Shipping-Information*/"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns-exchanges/"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Balance Check",
+        "typical_url_patterns": [
+          "/giftcertificates.php?action=balance",
+          "/giftbal.tr"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy-policy/",
+          "/privacy.cfm",
+          "/privacy.tr"
+        ]
+      },
+      {
+        "type_name": "Terms of Service",
+        "typical_url_patterns": [
+          "/terms-of-service/",
+          "/terms.tr",
+          "/terms-of-service.cfm"
+        ]
+      },
+      {
+        "type_name": "Legal (CCPA) Request Page",
+        "typical_url_patterns": [
+          "/ccpa-requests/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account.php",
+          "/account.cfm",
+          "/account.tr"
+        ]
+      },
+      {
+        "type_name": "Newsletter & SMS Signup",
+        "typical_url_patterns": [
+          "/signup.tr",
+          "/sms-signup"
+        ]
+      },
+      {
+        "type_name": "Rewards & Loyalty Program",
+        "typical_url_patterns": [
+          "/rewards",
+          "/catholic-advantage.tr"
+        ]
+      },
+      {
+        "type_name": "Referral Program",
+        "typical_url_patterns": [
+          "/rewards/referrals"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate-program/",
+          "/link-to-us.tr"
+        ]
+      },
+      {
+        "type_name": "Physical Catalog Request",
+        "typical_url_patterns": [
+          "/catalog-request.tr",
+          "/catalogRequest.cfm"
+        ]
+      },
+      {
+        "type_name": "Contests Page",
+        "typical_url_patterns": [
+          "/content/Contests",
+          "/content/Contests.cfm"
+        ]
+      },
+      {
+        "type_name": "Brand Content Hub (Good Catholic)",
+        "typical_url_patterns": [
+          "/good-catholic-c6042/",
+          "/good-catholic/home.tr"
+        ]
+      },
+      {
+        "type_name": "Prayer & Devotion Hub",
+        "typical_url_patterns": [
+          "/content/favorite-catholic-prayers",
+          "/praystrong/"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

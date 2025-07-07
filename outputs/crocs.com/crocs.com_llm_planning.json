@@ -1,0 +1,3597 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "crocs.com",
+  "export_time": "2025-07-07 11:09:16",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-06 08:19:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 23,
+      "valid_content_urls_count": 23,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/Store-Locator/stores,default,pg.html",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/Site-Map/site-map,default,pg.html",
+        "https://web.archive.org/web/20091015130504/http://www.crocs.com/international-sites/international-sites,default,pg.html"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing brand visibility and initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/Store-Locator/stores,default,pg.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations to explore products, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Provides essential support and information for customers, fostering loyalty and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Informs customers about their rights and responsibilities, building trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for customer trust, detailing how their data is handled and protected."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/Site-Map/site-map,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Site Map",
+            "selection_reason": "Facilitates easy navigation, helping customers find information quickly."
+          },
+          {
+            "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/international-sites/international-sites,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Site / Region Selector",
+            "selection_reason": "Allows customers to select their region, enhancing localization and relevance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/Store-Locator/stores,default,pg.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/Site-Map/site-map,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/international-sites/international-sites,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Site / Region Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20091015130504/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-06 08:19:28",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 157,
+      "valid_content_urls_count": 157,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/most-popular-crocs-shoes/best-sellers,default,sc.html?intid=upsellmiddle_bestsellers_131227",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/returns/returns-policy-v2,default,pg.html?intid=minicart_returns_131112",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-men/men,default,sc.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-women/women,default,sc.html",
+        "https://web.archive.org/web/20131231220316/http://www.crocs.com/write-review/write-review,default,pg.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/most-popular-crocs-shoes/best-sellers,default,sc.html?intid=upsellmiddle_bestsellers_131227",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers (PLP)",
+            "selection_reason": "Highlights popular products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "Showcases the latest products, appealing to customers looking for new items."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Provides options for budget-conscious customers, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card",
+            "selection_reason": "Offers a flexible purchasing option, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/returns/returns-policy-v2,default,pg.html?intid=minicart_returns_131112",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Essential for customer trust and satisfaction regarding post-purchase processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Critical information for customers regarding delivery options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds customer trust by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Provides support and assistance, crucial for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms under which customers engage with the site, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size & Fit Guide",
+            "selection_reason": "Helps customers make informed decisions regarding sizing, reducing returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-men/men,default,sc.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Directs customers to a major product category, enhancing navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-women/women,default,sc.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Another key category that attracts a significant customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/write-review/write-review,default,pg.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Write a Review",
+            "selection_reason": "Encourages customer engagement and feedback, influencing potential buyers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/most-popular-crocs-shoes/best-sellers,default,sc.html?intid=upsellmiddle_bestsellers_131227",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/camo-shoes/realtree-collection,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Thematic Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-women/women,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=upsell3_sale_131125",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/affiliate-program/affiliate-program,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/returns/returns-policy-v2,default,pg.html?intid=minicart_returns_131112",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/returns/returns-policy-v2,default,pg.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/Site-Map/site-map,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-men/men,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/comfortable-mens-clogs/men-footwear-clogs,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=slider_clearance_outlet_131226",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/most-popular-crocs-shoes/best-sellers,default,sc.html?intid=slider_best_cta_131223",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-sale-mens/outlet-men,default,sc.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/crocs-sale-mens/outlet-men,default,sc.html?intid=130813_mm_m_sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/fuzz-collection/fuzz-collection,default,sc.html?intid=slider_fuzz_131226",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Thematic Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/write-review/write-review,default,pg.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Write a Review"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231220316/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-06 08:19:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 172,
+      "valid_content_urls_count": 172,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/returns/returns-policy-v2,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-men/men,default,sc.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-women/women,default,sc.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html?intid=mm_b_jibbitz_voltage",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/affiliate-program/affiliate-program,default,pg.html",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/camo-shoes/realtree-collection,default,sc.html?intid=mm_shop_by_realtree_140225",
+        "https://web.archive.org/web/20141231020324/http://www.crocs.com/comfortable-mens-clogs/men-footwear-clogs,default,sc.html?intid=mm_m_clogs_voltage"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "Highlights the latest products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size & Fit Guide",
+            "selection_reason": "Helps customers make informed decisions about sizing, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/returns/returns-policy-v2,default,pg.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Provides essential information on returns, which is crucial for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card",
+            "selection_reason": "Offers a popular purchasing option for customers looking for gifts."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Attracts price-sensitive customers and encourages purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Service Hub",
+            "selection_reason": "Provides support and assistance, enhancing customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Essential for customers to understand shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-men/men,default,sc.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Directs customers to a key product category, enhancing navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-women/women,default,sc.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Another key product category that attracts a significant customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html?intid=mm_b_jibbitz_voltage",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Jibbitz Category (PLP)",
+            "selection_reason": "Promotes a unique product line that enhances customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/affiliate-program/affiliate-program,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Encourages customer loyalty and engagement through affiliate marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/camo-shoes/realtree-collection,default,sc.html?intid=mm_shop_by_realtree_140225",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Thematic Collection (PLP)",
+            "selection_reason": "Attracts customers interested in specific themes or styles."
+          },
+          {
+            "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/comfortable-mens-clogs/men-footwear-clogs,default,sc.html?intid=mm_m_clogs_voltage",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Specific Style Category (PLP)",
+            "selection_reason": "Targets customers looking for specific styles, enhancing product discoverability."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 30,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/newest-crocs/new-arrivals,default,sc.html?intid=footer_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-fit-guide/fit-guide-landing,default,pg.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=slider_lc_25_clearance_sale_all_141230",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/terms-of-use/privacy-security-terms,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/affiliate-program/affiliate-program,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/Site-Map/site-map,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Site Map"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/write-review/write-review,default,pg.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Write a Review"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/returns/returns-policy-v2,default,pg.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/customer-service/cs-landing,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=mm_outlet_shopall_140418",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/fuzz-collection/fuzz-collection,default,sc.html?intid=mm_shop_by_fuzz_140906",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Thematic Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-sale-mens/outlet-men,default,sc.html?intid=mm_m_sale_voltage",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html?intid=mm_b_jibbitz_voltage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/camo-shoes/realtree-collection,default,sc.html?intid=mm_shop_by_realtree_140225",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Thematic Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/camo-shoes/realtree-collection,default,sc.html?intid=mm_m_realtree_voltage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Thematic Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/water-sandals/water-shoes,default,sc.html?intid=mm_shop_by_water_140201",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=sitewide_LCEXTRA25_123014",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/jibbitz-by-crocs-shoe-charms/jibbitz,default,sc.html?intid=mm_g_jibbitz_voltage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/returns/returns-policy-v2,default,pg.html?intid=minicart_returns_131112",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-men/men,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/giftcard/giftcard,default,pg.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/comfortable-mens-clogs/men-footwear-clogs,default,sc.html?intid=mm_m_clogs_voltage",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-sale-mens/outlet-men,default,sc.html?intid=mm_outlet_m_140418",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-women/women,default,sc.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/shipping-methods-costs/shipping-methods-costs,default,pg.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141231020324/http://www.crocs.com/crocs-shoes-sale/outlet,default,sc.html?intid=upsell3_sale_140610",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-06 08:19:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231170618/http://www.crocs.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231170618/http://www.crocs.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231170618/http://www.crocs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-06 08:20:02",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 225,
+      "valid_content_urls_count": 225,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/company/about-crocs.html",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/shop-by/activity/work-shoes",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear?intid=NAV_WNAV_MM_NA_W_072519_NA_wshopall_TXT_NA",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear?intid=NAV_MNAV_MM_NA_M_072516_NA_mshopall_TXT_NA",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=20&intid=NAV_SNAV_MM_NA_ALL_072565_NA_15to1999_TXT_NA&pmin=15",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/returns/returns-policy-v2.html",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/giftcard/giftcard.html",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/faq/faq-v2.html",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/footwear?intid=NAV_SBNAV_MM_NA_ALL_072534_NA_all_TXT_NA",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072560_NA_women_TXT_NA",
+        "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072561_NA_men_TXT_NA"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers to explore the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/company/about-crocs.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "Provides essential information about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/shop-by/activity/work-shoes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Activity-Based Category (PLP)",
+            "selection_reason": "Targets customers looking for specific footwear for work activities."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear?intid=NAV_WNAV_MM_NA_W_072519_NA_wshopall_TXT_NA",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Focuses on women's footwear, a key demographic for the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear?intid=NAV_MNAV_MM_NA_M_072516_NA_mshopall_TXT_NA",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Focuses on men's footwear, essential for capturing male customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=20&intid=NAV_SNAV_MM_NA_ALL_072565_NA_15to1999_TXT_NA&pmin=15",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Attracts price-sensitive customers looking for deals."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/returns/returns-policy-v2.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy",
+            "selection_reason": "Informs customers about return procedures, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/giftcard/giftcard.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card",
+            "selection_reason": "Provides an option for customers to purchase gift cards, appealing to gift-givers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/faq/faq-v2.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Ensures customers are informed about data protection, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/footwear?intid=NAV_SBNAV_MM_NA_ALL_072534_NA_all_TXT_NA",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Footwear Category (PLP)",
+            "selection_reason": "Offers a comprehensive view of all footwear options available."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072560_NA_women_TXT_NA",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale Sub-Category (PLP)",
+            "selection_reason": "Targets female customers specifically looking for sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072561_NA_men_TXT_NA",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale Sub-Category (PLP)",
+            "selection_reason": "Targets male customers specifically looking for sales."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 68,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/kids/cartoon-character-shoes?intid=NAV_SBNAV_MM_NA_ALL_072553_NA_kids%27character_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Character Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/fall-trends?intid=NAV_WNAV_MM_NA_W_081816_NA_wfalltrends_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/loafers?intid=NAV_WNAV_MM_NA_W_072516_NA_wloafers_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/privacy-security-policy/privacy-security-policy,default,pg.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/work-shoes?intid=NAV_MNAV_MM_NA_M_072516_NA_mwork_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=20&intid=NAV_SNAV_MM_NA_ALL_072565_NA_15to1999_TXT_NA&pmin=15",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/returns/returns-policy-v2.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/wedges-and-heels?intid=NAV_SBNAV_MM_NA_ALL_072545_NA_heels%26wedges_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/company/about-crocs.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sandals?intid=NAV_MNAV_MM_NA_M_072516_NA_msandals_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/footwear?intid=NAV_SBNAV_MM_NA_ALL_072534_NA_all_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/jibbitz?intid=NAV_GNAV_MM_NA_G_072516_NA_gjibbitzcharms_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/website-accessibility/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/flats?intid=NAV_WNAV_MM_NA_W_072516_NA_wflats_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear?intid=NAV_MNAV_MM_NA_M_072516_NA_mshopall_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/giftcard/giftcard.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/shop-by/activity/work-shoes?intid=NAV_SBNAV_MM_NA_ALL_072550_NA_workshoes_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/write-review/write-review.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Write a Review"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=99999&intid=NAV_SNAV_MM_NA_ALL_072568_NA_30ormore_TXT_NA&pmin=30",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/boots?intid=NAV_WNAV_MM_NA_W_072516_NA_wboots_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=25&intid=NAV_SNAV_MM_NA_ALL_072566_NA_20to2499_TXT_NA&pmin=20",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/best-sellers?intid=NAV_WNAV_MM_NA_W_072516_NA_wbestsellers_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/fuzz-lined?intid=NAV_WNAV_MM_NA_W_091516_NA_wfuzz_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/company/crocs-careers.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/kids/cartoon-character-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Character Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/best-sellers?intid=NAV_MNAV_MM_NA_M_072516_NA_mbestsellers_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sneakers?intid=NAV_WNAV_MM_NA_W_072516_NA_wshoes_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/flip-flops?intid=NAV_WNAV_MM_NA_W_072516_NA_wflipflops_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/new-arrivals?intid=NAV_WNAV_MM_NA_W_072516_NA_wnewarrivals_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/clogs?intid=NAV_WNAV_MM_NA_W_072516_NA_wclogs_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/boots?intid=NAV_MNAV_MM_NA_M_072516_NA_mboots_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sneakers?intid=NAV_MNAV_MM_NA_M_072516_NA_msneakers_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sandals?intid=NAV_WNAV_MM_NA_W_072516_NA_wsandals_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/wedges-and-heels?intid=NAV_WNAV_MM_NA_W_072516_NA_wheels%26wedges_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=15&intid=NAV_SNAV_MM_NA_ALL_072564_NA_10to1499_TXT_NA&pmin=10",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/new-arrivals?intid=footer_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/jibbitz?intid=NAV_SBNAV_MM_NA_ALL_072558_NA_jibbitz_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/crocs-store-locator/stores.html?intid=HP_HP_HPUP5_NA_ALL_092916_FAS_findastore_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale/new-markdowns?intid=NAV_SNAV_MM_NA_ALL_072559_NA_newmarkdowns_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/clogs?intid=NAV_MNAV_MM_NA_M_072516_NA_mclogs_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sale?intid=NAV_MNAV_MM_NA_M_072516_NA_msale_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/new-arrivals?intid=NAV_MNAV_MM_NA_M_072516_NA_mnewarrivals_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/fuzz-lined?intid=NAV_MNAV_MM_NA_M_091516_NA_mfuzz_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/collections/classics?intid=NAV_WNAV_MM_NA_W_072516_NA_wclassiccrocs_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/your-shipping-options/shipping-methods-costs-v2.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/loafers?intid=NAV_MNAV_MM_NA_M_072516_NA_mloafers_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?intid=NAV_SNAV_MM_NA_ALL_072572_NA_shopall_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/faq/faq-v2.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/aleigh-collection",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/collections/classics?intid=NAV_MNAV_MM_NA_M_072516_NA_mclassiccrocs_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear?intid=NAV_WNAV_MM_NA_W_072519_NA_wshopall_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072560_NA_women_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/flip-flops?intid=NAV_MNAV_MM_NA_M_072516_NA_mflipflops_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/sale?intid=NAV_SNAV_MM_NA_ALL_072561_NA_men_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women/footwear/sale?intid=NAV_WNAV_MM_NA_W_072516_NA_wsale_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/sale?pmax=30&intid=NAV_SNAV_MM_NA_ALL_072567_NA_25to2999_TXT_NA&pmin=25",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/jibbitz?intid=NAV_BNAV_MM_NA_B_072525_NA_bjibbitzcharms_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/big-and-tall?intid=NAV_MNAV_MM_NA_M_072516_NA_mbig%26tall_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/shop-by/style/clogs?intid=NAV_SBNAV_MM_NA_ALL_072541_NA_clogs_TXT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/men/footwear/boots?intid=NAV_MNAV_MM_NA_M_110316_COL_mensboots_PDCT_NA",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161231112701/http://www.crocs.com/c/women",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-06 08:20:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/comeasyouare",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/shop-by/activity/work-shoes",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/women",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/men",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20171231085112/https://www.crocs.com/crocs-store-locator/stores.html",
+        "https://web.archive.org/web/20171231085112/http://www.crocs.com/customer-service/order-status-and-tracking.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing brand visibility and initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/comeasyouare",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Campaign",
+            "selection_reason": "This URL promotes the brand's identity and values, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/shop-by/activity/work-shoes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Activity-Based Category (PLP)",
+            "selection_reason": "This URL targets specific customer interests, helping them explore relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/women",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "This URL caters to a significant demographic, driving interest in women's products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/men",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "This URL addresses the male demographic, enhancing product exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "This URL attracts price-sensitive customers, encouraging them to consider purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/https://www.crocs.com/crocs-store-locator/stores.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "This URL helps customers find physical locations, facilitating purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "This URL provides essential information for customers post-purchase, enhancing their experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171231085112/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/women",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/men",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/c/comeasyouare",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20171231085112/http://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-06 08:20:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 139,
+      "valid_content_urls_count": 139,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/company/about-crocs.html",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/new-arrivals",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/new-arrivals",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=30&pmin=25",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/crocs-store-locator/stores.html",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale/final-sale",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/sale",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/best-sellers",
+        "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-returns.html"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/company/about-crocs.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "Provides essential information about the brand, enhancing customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/new-arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "Highlights the latest products, attracting customers looking for new options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/new-arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "Showcases new men's footwear, appealing to male customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=30&pmin=25",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Offers discounted products, encouraging purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/crocs-store-locator/stores.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support, crucial for retention and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Allows customers to track their orders, enhancing fulfillment transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale/final-sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale Sub-Category (PLP)",
+            "selection_reason": "Encourages customers to explore final sale items, driving conversions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale Sub-Category (PLP)",
+            "selection_reason": "Targets female customers with sale items, increasing purchase likelihood."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/best-sellers",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Best Sellers (PLP)",
+            "selection_reason": "Showcases popular items, guiding customers towards trending products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Provides essential information for returns, enhancing customer satisfaction."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 67,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/slides",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/shop-by/style/clogs  ",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/collections/classics",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/boots",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/fuzz-lined",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=30&pmin=25",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/crocs-store-locator/stores.html?intid=HP_HP_HPUP5_NA_ALL_092916_FAS_findastore_TXT_NA",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=99999&pmin=30",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/flats",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear?intid=HP_HPFT2_NA_091217_COL_womens",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale/final-sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/santa-cruz-collection",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/collections/classics",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=20&pmin=15",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/kids/cartoon-character-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Character Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/stories/gift-guide.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/company/about-crocs.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/best-sellers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Best Sellers (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/sneakers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear?intid=HP_HPFT3_NA_091217_COL_mens",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/big-and-tall",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale/new-markdowns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/wedges-and-heels",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/shop-by/style/clogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale Sub-Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=15&pmin=10",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/stories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Stories / Blog Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/sneakers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/company/crocs-careers.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/kids/footwear?intid=HP_HPFT4_NA_091217_COL_kids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale/crocs-deals",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/boots",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/flip-flops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/collections/kids/disney-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Character Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specific Style Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/best-sellers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/comeasyouare",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/loafers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/fuzz-lined",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/loafers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/flip-flops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men/footwear/clogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/sale?pmax=25&pmin=20",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/women/footwear/clogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213084626/https://www.crocs.com/c/men",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-06 08:20:50",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 43,
+      "valid_content_urls_count": 43,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/company/about-crocs.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/stories.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/footwear",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/men",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/women",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/kids",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/jibbitz",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/crocs-store-locator/stores.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-returns.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/privacy-policy.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/company/about-crocs.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "Provides essential information about the brand, fostering customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/stories.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Stories / Blog Hub",
+            "selection_reason": "Engages customers with brand stories and content, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Footwear Category (PLP)",
+            "selection_reason": "Key category page that showcases the main product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/men",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Specific category for men's products, important for targeted customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/women",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Specific category for women's products, crucial for targeted customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/kids",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Specific category for kids' products, important for family-oriented customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/jibbitz",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Jibbitz Category (PLP)",
+            "selection_reason": "Highlights a unique product line that enhances customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Attracts price-sensitive customers and encourages purchase consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/crocs-store-locator/stores.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations, enhancing purchase convenience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Essential for customers to manage their orders and returns effectively."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Provides customers with important order tracking information."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, enhancing customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer support, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/privacy-policy.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/stories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Stories / Blog Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/kids/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/men",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/kids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/women/footwear/sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/company/about-crocs.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/jibbitz-nav",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/comeasyouare",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Campaign"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20191231110541/https://www.crocs.com/c/women",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-06 08:21:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 67,
+      "valid_content_urls_count": 67,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/footwear",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/kids",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/men",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/women",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/new-arrivals",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-returns.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/bulk-and-custom-request-form.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/affiliate-program/affiliate-program.html",
+        "https://web.archive.org/web/20201230093130/https://www.crocs.com/stories.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing overall brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Footwear Category (PLP)",
+            "selection_reason": "This category page showcases the main product offerings, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "The sale section is crucial for customers looking for deals, influencing their purchase consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/kids",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "This category targets a specific demographic, increasing interest among parents shopping for kids."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/men",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Men's footwear is a significant segment, attracting male customers' interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/women",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "This category appeals to female customers, enhancing interest in women's footwear."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/new-arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "New arrivals attract returning customers and generate interest in the latest products."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "FAQs help retain customers by addressing common inquiries and enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "This page is essential for customers to track their orders, ensuring fulfillment transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Order returns are critical for customer satisfaction and retention, making this page vital."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Providing a contact option is crucial for customer support and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Care Guide",
+            "selection_reason": "Product care information helps customers make informed decisions, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/bulk-and-custom-request-form.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Bulk & Custom Order Form",
+            "selection_reason": "This form is important for customers looking to make bulk purchases, influencing their decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/affiliate-program/affiliate-program.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "The affiliate program encourages customer loyalty and retention through partnerships."
+          },
+          {
+            "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/stories.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Stories / Blog Hub",
+            "selection_reason": "The blog hub enhances brand awareness and engages customers with storytelling."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/faq-cs-size-chart.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/kids",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/men",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/bulk-and-custom-request-form.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Bulk & Custom Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/kids/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/stories.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Stories / Blog Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/jibbitz/jibbitz-yearbook",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/COVID19-REQUEST.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Special Initiative (e.g., COVID-19 Donation)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/c/women",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201230093130/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-06 08:21:17",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 68,
+      "valid_content_urls_count": 68,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/collaborations.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/comfort-without-carbon.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/jibbitz",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/new-arrivals",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/faq-cs-size-chart.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-returns.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/privacy-policy.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/terms-of-use.html",
+        "https://web.archive.org/web/20211231202321/https://www.crocs.com/military.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/collaborations.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Collaborations Hub",
+            "selection_reason": "Highlights partnerships and collaborations, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/comfort-without-carbon.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "Communicates the brand's mission and values, fostering customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/jibbitz",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Jibbitz Category (PLP)",
+            "selection_reason": "Engages customers with a popular product category, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/new-arrivals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals (PLP)",
+            "selection_reason": "Attracts customers looking for the latest products, enhancing shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Encourages purchase decisions by showcasing discounted items."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/faq-cs-size-chart.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size & Fit Guide",
+            "selection_reason": "Assists customers in making informed decisions about sizing."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Facilitates the post-purchase experience by providing return information."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Enhances customer satisfaction by allowing order tracking."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer inquiries, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer questions, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/privacy-policy.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/terms-of-use.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal aspects of using the website, ensuring transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/military.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Encourages purchases by offering discounts to specific groups."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 32,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/comfort-without-carbon.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/faq-cs-size-chart.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/healthcare.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/new-arrivals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/kids/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/military.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/teachers.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/COVID19-REQUEST.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Special Initiative (e.g., COVID-19 Donation)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/footwear/flip-flops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/bulk-and-custom-request-form.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Bulk & Custom Order Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/footwear/sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/c/jibbitz-nav",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231202321/https://www.crocs.com/crocs-purpose.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-06 08:21:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 112,
+      "valid_content_urls_count": 112,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/comfort-without-carbon.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/wish-list/",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/gift-guide",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear/sandals",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/custom-crocs.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/kids/footwear",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/collaborations.html",
+        "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-returns.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/comfort-without-carbon.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "This page communicates the brand's values and mission, enhancing customer connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Footwear Category (PLP)",
+            "selection_reason": "A key category page that showcases the main product offerings, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "This page attracts customers looking for deals, influencing their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/wish-list/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "The wishlist feature aids customers in decision-making by allowing them to save items."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Providing answers to common questions helps retain customers by enhancing their experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "A vital resource for customer support, fostering trust and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/gift-guide",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide",
+            "selection_reason": "This page helps customers find suitable products, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear/sandals",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "General Footwear Category (PLP)",
+            "selection_reason": "Specific category pages like sandals attract targeted interest from customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Essential for customer satisfaction post-purchase, ensuring transparency in order fulfillment."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/custom-crocs.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customization Hub",
+            "selection_reason": "Allows customers to personalize products, enhancing their engagement and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Care Guide",
+            "selection_reason": "Educates customers on product maintenance, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/kids/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Targets a specific demographic, increasing interest and potential sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/collaborations.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Collaborations Hub",
+            "selection_reason": "Highlights partnerships that can attract new customers and enhance brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Critical for customer satisfaction, providing a seamless return process."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/Crocs-Club/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (Crocs Club)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/licensed-characters.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Character Collection (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear/sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/comfort-without-carbon.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/wish-list/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/gift-guide",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear/flip-flops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/healthcare.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/custom-crocs.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customization Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/size-chart-page.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/women/footwear/sandals/strappy-sandals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/teachers.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "General Footwear Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/crocs-purpose.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/kids/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/military.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221231071326/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-06 08:21:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 36,
+      "valid_content_urls_count": 36,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-purpose.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/women/footwear",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/men/footwear",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/kids/footwear",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/shop-by/activity/work-shoes",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-store-locator/stores.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/sale",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/size-chart-page.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-returns.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20231231103722/https://www.crocs.com/Crocs-Club/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-purpose.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "This page informs customers about the brand's values and mission, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/women/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Key category page that showcases products for women, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/men/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Essential category page for men's footwear, attracting interest from male customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/kids/footwear",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Gender Category (PLP)",
+            "selection_reason": "Important category for children's footwear, appealing to family-oriented shoppers."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/shop-by/activity/work-shoes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Activity-Based Category (PLP)",
+            "selection_reason": "Focuses on work shoes, catering to a specific customer need and generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-store-locator/stores.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical locations, aiding in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/sale",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sale / Outlet Hub (PLP)",
+            "selection_reason": "Attracts customers looking for deals, influencing their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/size-chart-page.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size & Fit Guide",
+            "selection_reason": "Provides essential information for customers to make informed purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Critical for customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-returns.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order / Return Lookup",
+            "selection_reason": "Essential for managing returns, which is a key aspect of customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, supporting retention through self-service."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides customers with a way to reach out for support, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/Crocs-Club/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (Crocs Club)",
+            "selection_reason": "Encourages repeat purchases and customer loyalty through rewards."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/teachers.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/women/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/shop-by/activity/work-shoes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/customer-service-home.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Service Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/wish-list/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/healthcare.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/custom-crocs.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customization Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/military.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-purpose.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/sale",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sale / Outlet Hub (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-store-locator/stores.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/men/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/jibbitz",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Jibbitz Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/size-chart-page.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/Crocs-Club/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (Crocs Club)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/customer-service/order-returns.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order / Return Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/c/kids/footwear",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Gender Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231231103722/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-06 08:22:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 28,
+      "valid_content_urls_count": 28,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-purpose.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/healthcare.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/size-chart-page.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/custom-crocs.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/teachers.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/military.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/first-responder.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/student.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/privacy-policy.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/collaborations.html",
+        "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/order-status-and-tracking.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-purpose.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "Informs customers about the brand's mission and values, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/healthcare.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Activity-Based Category (PLP)",
+            "selection_reason": "Targets specific customer segments, increasing interest in relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Care Guide",
+            "selection_reason": "Helps customers understand product maintenance, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/size-chart-page.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size & Fit Guide",
+            "selection_reason": "Essential for customers to make informed decisions about sizing before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/custom-crocs.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customization Hub",
+            "selection_reason": "Encourages customers to finalize their purchase by offering customization options."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/teachers.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Provides incentives for specific customer groups, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/military.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Targets military personnel with discounts, enhancing purchase motivation."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/first-responder.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Offers discounts to first responders, fostering loyalty and encouraging purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/student.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Engages students with discounts, making products more accessible to this demographic."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Provides essential information to customers, enhancing their experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates customer support, crucial for maintaining customer satisfaction and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/privacy-policy.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/collaborations.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Collaborations Hub",
+            "selection_reason": "Showcases partnerships that enhance brand visibility and attract new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Essential for customers to track their orders, enhancing the fulfillment experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/teachers.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/Crocs-Club/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (Crocs Club)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/comfort-for-our-communities.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Special Initiative (e.g., COVID-19 Donation)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/size-chart-page.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size & Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/custom-crocs.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customization Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/crocs-purpose.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/military.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/first-responder.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/healthcare.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/student.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241231030247/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-06 08:22:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 27,
+      "valid_content_urls_count": 27,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-purpose.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/collaborations.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/healthcare.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/custom-crocs.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/military.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/teachers.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/first-responder.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/faqs.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/contact-us.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/privacy-policy.html",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/Crocs-Club/",
+        "https://web.archive.org/web/20250503093506/https://www.crocs.com/affiliate-program/affiliate-program.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential brand information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-purpose.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Purpose / About Us",
+            "selection_reason": "This page informs customers about the brand's mission and values, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/collaborations.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Collaborations Hub",
+            "selection_reason": "Showcases partnerships and collaborations, attracting interest and enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/healthcare.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Activity-Based Category (PLP)",
+            "selection_reason": "Highlights specific product categories that cater to healthcare professionals, generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Care Guide",
+            "selection_reason": "Provides valuable information on product maintenance, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/custom-crocs.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Customization Hub",
+            "selection_reason": "Allows customers to personalize their products, enhancing the likelihood of purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/military.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Offers discounts to military personnel, encouraging purchases through targeted promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/teachers.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Provides special offers for teachers, appealing to a specific customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/first-responder.html",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Discount Program Page",
+            "selection_reason": "Targets first responders with discounts, fostering loyalty and encouraging purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status & Tracking",
+            "selection_reason": "Essential for customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/faqs.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer inquiries, improving customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/contact-us.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a direct line for customer support, crucial for maintaining customer relationships."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/privacy-policy.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection practices, fostering trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/Crocs-Club/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program (Crocs Club)",
+            "selection_reason": "Encourages repeat purchases through a loyalty program, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/affiliate-program/affiliate-program.html",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Affiliate Program",
+            "selection_reason": "Promotes customer engagement through affiliate marketing, contributing to retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/website-accessibility.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Website Accessibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-maintenance/caring-for-your-crocs.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/terms-of-use.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/custom-crocs.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Customization Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/military.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/crocs-purpose.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Purpose / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/collaborations.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Collaborations Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/affiliate-program/affiliate-program.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/healthcare.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Activity-Based Category (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/comfort-for-our-communities.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Special Initiative (e.g., COVID-19 Donation)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/contact-us.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/teachers.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/first-responder.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/faqs.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/privacy-policy.html",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/Crocs-Club/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program (Crocs Club)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/customer-service/order-status-and-tracking.html",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status & Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20250503093506/https://www.crocs.com/student.html",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Discount Program Page"
+        }
+      ]
+    }
+  }
+}

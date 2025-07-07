@@ -1,0 +1,76 @@
+2025-07-04 19:03:48,644 - INFO - 📋 日志系统已初始化: outputs/blindsandwallpaperwholesaler.com/logs/log_main_20250704_190348.txt
+2025-07-04 19:03:48,645 - INFO - 🚀 开始Wayback Machine分析流程...
+2025-07-04 19:03:48,646 - INFO - 📊 公司: blindsandwallpaperwholesaler.com
+2025-07-04 19:03:48,649 - INFO - ✅ 成功读取 1 个历史URLs from ./inputs/blindsandwallpaperwholesaler.com.txt
+2025-07-04 19:03:48,649 - INFO - 🌐 开始URL处理...
+2025-07-04 19:03:48,649 - INFO - 🌐 开始处理公司URLs: blindsandwallpaperwholesaler.com
+2025-07-04 19:03:48,650 - INFO - 🔍 处理 2021 年的URLs...
+2025-07-04 19:03:48,650 - INFO - 🔍 开始发现URL: https://web.archive.org/web/20211127221910/https://www.blindsandwallpaperwholesaler.com/
+2025-07-04 19:03:50,862 - INFO - ✅ 发现 53 个内部链接
+2025-07-04 19:03:50,862 - INFO - ✅ URL过滤完成: 53/53 链接通过结构过滤
+2025-07-04 19:03:50,862 - INFO - ✅ 2021 年处理完成: 53 个有效链接
+2025-07-04 19:03:50,863 - INFO - 💾 链接处理完成，共 53 个链接已保存到: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_filtered_links.json
+2025-07-04 19:03:50,863 - INFO - ✅ 成功加载 1 年的链接数据
+2025-07-04 19:03:50,863 - INFO - ✅ URL处理完成，共处理 1 年的数据
+2025-07-04 19:03:50,863 - INFO - 🧠 开始LLM规划...
+2025-07-04 19:03:51,018 - INFO - 🚀 LLM规划器已初始化
+2025-07-04 19:03:51,019 - INFO - 🧠 开始识别核心页面类型...
+2025-07-04 19:03:51,019 - INFO - 🤖 调用LLM模型 [识别核心页面类型]: google/gemini-2.5-pro
+2025-07-04 19:03:54,191 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 19:05:09,267 - INFO - ✅ LLM响应接收成功 [识别核心页面类型]
+2025-07-04 19:05:09,268 - INFO - ✅ 核心页面类型识别完成，共 46 个类型已保存到: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_core_page_types.json
+2025-07-04 19:05:09,269 - INFO - ✅ 核心页面类型已生成: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_core_page_types.json
+2025-07-04 19:05:09,269 - INFO - 🤖 开始生成LLM规划...
+2025-07-04 19:05:09,272 - INFO - 🔍 处理 2021 年的规划...
+2025-07-04 19:05:09,274 - INFO - ✅ URL正则匹配完成，共过滤出51/53个classified_urls
+2025-07-04 19:05:09,274 - INFO - 🤖 调用LLM模型 [选择核心URLs]: openai/gpt-4o-mini
+2025-07-04 19:05:10,034 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 19:05:28,273 - INFO - ✅ LLM响应接收成功 [选择核心URLs]
+2025-07-04 19:05:28,274 - INFO - ✅ URL推荐完成: 14 个推荐，13 个在有效页面内
+2025-07-04 19:05:28,274 - INFO - ✅ 2021 年规划完成: 推荐 14 个核心URL
+2025-07-04 19:05:28,276 - INFO - 💾 LLM规划全部年份处理完成，共 14 个推荐URL已保存到: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_llm_planning.json
+2025-07-04 19:05:28,276 - INFO - ✅ 成功加载 1 年的规划数据
+2025-07-04 19:05:28,276 - INFO - ✅ LLM规划完成: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_llm_planning.json
+2025-07-04 19:05:28,276 - INFO - 🔍 开始场景分析...
+2025-07-04 19:05:28,277 - INFO - ✅ 成功加载 70 个微场景
+2025-07-04 19:05:28,277 - INFO - 🔍 场景分析器已初始化
+2025-07-04 19:05:28,277 - INFO - 🔍 开始分析场景: blindsandwallpaperwholesaler.com
+2025-07-04 19:05:28,278 - INFO - 🔍 分析 2021 年的场景...
+2025-07-04 19:05:28,278 - INFO - 📄 [2021] 分析页面 1/14
+2025-07-04 19:05:29,547 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190529.txt
+2025-07-04 19:05:30,549 - INFO - 📄 [2021] 分析页面 2/14
+2025-07-04 19:05:47,043 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20211127221910/https://www.blindsandwallpaperwholesaler.com/currentsales: HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)
+2025-07-04 19:05:48,045 - INFO - 📄 [2021] 分析页面 3/14
+2025-07-04 19:05:57,472 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190557.txt
+2025-07-04 19:05:58,475 - INFO - 📄 [2021] 分析页面 4/14
+2025-07-04 19:06:06,714 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190606.txt
+2025-07-04 19:06:07,715 - INFO - 📄 [2021] 分析页面 5/14
+2025-07-04 19:06:09,060 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20211127221910/https://www.blindsandwallpaperwholesaler.com/how-to-buy-blinds: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/20211127221910/https://www.blindsandwallpaperwholesaler.com/how-to-buy-blinds
+2025-07-04 19:06:10,061 - INFO - 📄 [2021] 分析页面 6/14
+2025-07-04 19:06:19,134 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190619.txt
+2025-07-04 19:06:20,136 - INFO - 📄 [2021] 分析页面 7/14
+2025-07-04 19:06:28,376 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190628.txt
+2025-07-04 19:06:29,378 - INFO - 📄 [2021] 分析页面 8/14
+2025-07-04 19:06:43,992 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190643.txt
+2025-07-04 19:06:44,994 - INFO - 📄 [2021] 分析页面 9/14
+2025-07-04 19:06:54,844 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190654.txt
+2025-07-04 19:06:55,845 - INFO - 📄 [2021] 分析页面 10/14
+2025-07-04 19:06:57,975 - WARNING - ❌ 获取页面内容失败 https://web.archive.org/web/20211127221910/https://www.blindsandwallpaperwholesaler.com/how-to-install-your-new-blinds-and-shades: 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/_embed/https://www.blindsandwallpaperwholesaler.com/how-to-install-your-new-blinds-and-shades
+2025-07-04 19:06:58,975 - INFO - 📄 [2021] 分析页面 11/14
+2025-07-04 19:07:08,120 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190708.txt
+2025-07-04 19:07:09,122 - INFO - 📄 [2021] 分析页面 12/14
+2025-07-04 19:07:17,618 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190717.txt
+2025-07-04 19:07:18,619 - INFO - 📄 [2021] 分析页面 13/14
+2025-07-04 19:07:27,570 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190727.txt
+2025-07-04 19:07:28,572 - INFO - 📄 [2021] 分析页面 14/14
+2025-07-04 19:07:36,306 - INFO - 💾 内容已保存到: outputs/blindsandwallpaperwholesaler.com/websites/2021_20250704_190736.txt
+2025-07-04 19:07:37,310 - INFO - ✅ 2021 年场景分析完成: 6 个场景
+2025-07-04 19:07:37,311 - INFO - ✅ 场景分析结果已导出到: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_scenarios.json
+2025-07-04 19:07:37,311 - INFO - ✅ 场景分析结果已导出到: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_scenarios.json
+2025-07-04 19:07:37,311 - INFO - ✅ 场景分析完成: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_scenarios.json
+2025-07-04 19:07:37,311 - INFO - 🎉 分析流程完成!
+2025-07-04 19:07:37,312 - INFO - 📁 输出文件:
+2025-07-04 19:07:37,312 - INFO -    - 过滤链接: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_filtered_links.json
+2025-07-04 19:07:37,312 - INFO -    - 核心页面类型: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_core_page_types.json
+2025-07-04 19:07:37,312 - INFO -    - LLM规划: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_llm_planning.json
+2025-07-04 19:07:37,312 - INFO -    - 场景分析: outputs/blindsandwallpaperwholesaler.com/blindsandwallpaperwholesaler.com_scenarios.json

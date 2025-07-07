@@ -1,0 +1,380 @@
+{
+  "generation_time": "2025-07-06 02:45:57",
+  "company_url": "charmingcharlie.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/cc/",
+          "/cc"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blogs/the-cc-blog",
+          "/style-advice/blog/",
+          "/blog"
+        ]
+      },
+      {
+        "type_name": "Blog Post / Style Guide",
+        "typical_url_patterns": [
+          "/blog/...",
+          "/style-advice/how-to-guides/...",
+          "/fun/..."
+        ]
+      },
+      {
+        "type_name": "About Us / Our Story",
+        "typical_url_patterns": [
+          "/pages/our-story",
+          "/about/about-us/",
+          "/our-story.html"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/locations",
+          "/pages/store-locator",
+          "/cc/about/storeLoc.jsp"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/about/careers/",
+          "/careers.html",
+          "/pages/careers"
+        ]
+      },
+      {
+        "type_name": "Press Page",
+        "typical_url_patterns": [
+          "/about/press/",
+          "/whats-new/as-seen-in.html"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category PLP",
+        "typical_url_patterns": [
+          "/{category}.html",
+          "/collections/{category-name}",
+          "/{category-name}"
+        ]
+      },
+      {
+        "type_name": "Sub-Category PLP",
+        "typical_url_patterns": [
+          "/{category}/{sub-category}.html",
+          "/collections/{sub-category-name}",
+          "/{category}/{sub-category}"
+        ]
+      },
+      {
+        "type_name": "New Arrivals PLP",
+        "typical_url_patterns": [
+          "/whats-new/new-arrivals.html",
+          "/collections/new-arrivals",
+          "/collections/new-in"
+        ]
+      },
+      {
+        "type_name": "Best Sellers PLP",
+        "typical_url_patterns": [
+          "/whats-new/best-sellers.html",
+          "/collections/best-sellers",
+          "/collections/bestsellers"
+        ]
+      },
+      {
+        "type_name": "Sale Hub PLP",
+        "typical_url_patterns": [
+          "/sale.html",
+          "/collections/sale",
+          "/sale"
+        ]
+      },
+      {
+        "type_name": "Sale Category PLP",
+        "typical_url_patterns": [
+          "/sale/{category-on-sale}.html",
+          "/collections/sale-{category}",
+          "/sale/{category}/{sub-category}"
+        ]
+      },
+      {
+        "type_name": "Themed Collection / Lookbook",
+        "typical_url_patterns": [
+          "/collections/{theme-name}.html",
+          "/whats-new/{theme-name}.html",
+          "/featured/featured-shops/...",
+          "/occasion/..."
+        ]
+      },
+      {
+        "type_name": "Brand Collection PLP",
+        "typical_url_patterns": [
+          "/collections/{brand-name}"
+        ]
+      },
+      {
+        "type_name": "Shop by Color PLP",
+        "typical_url_patterns": [
+          "/shop-by-color/{color}/",
+          "/collections/shop-by-color?*"
+        ]
+      },
+      {
+        "type_name": "Plus Size Category PLP",
+        "typical_url_patterns": [
+          "/clothing/plus-size",
+          "/collections/plus-size"
+        ]
+      },
+      {
+        "type_name": "Kids Category PLP",
+        "typical_url_patterns": [
+          "/kids",
+          "/collections/kids"
+        ]
+      },
+      {
+        "type_name": "Gift Hub",
+        "typical_url_patterns": [
+          "/gifts.html",
+          "/collections/gifts"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/holiday-gift-guide-page.html",
+          "/pages/gift-guide"
+        ]
+      },
+      {
+        "type_name": "Gifts by Theme/Recipient",
+        "typical_url_patterns": [
+          "/gifts/by-profession/...",
+          "/gifts/loved-ones/...",
+          "/gifts/by-interest/..."
+        ]
+      },
+      {
+        "type_name": "Special Offers Page",
+        "typical_url_patterns": [
+          "/offers.html",
+          "/apparel/2-for-15.html",
+          "/featured/everyday-offers/..."
+        ]
+      },
+      {
+        "type_name": "All Products Page",
+        "typical_url_patterns": [
+          "/collections/all"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/{product-slug}",
+          "/collections/.../products/...",
+          "/cc/product/productDetails.jsp?*",
+          "/{product-name}.html"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/catalogsearch/result/?q=*",
+          "/search?*"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist/",
+          "/pages/wishlist"
+        ]
+      },
+      {
+        "type_name": "Advanced Search Page",
+        "typical_url_patterns": [
+          "/catalogsearch/advanced/"
+        ]
+      },
+      {
+        "type_name": "Customer Testimonials",
+        "typical_url_patterns": [
+          "/customer-testimonials"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/checkout/cart/",
+          "/cart",
+          "/cc/cart/cart.jsp"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout"
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/giftcard/",
+          "/gifts/gift-cards",
+          "/products/gift-card"
+        ]
+      },
+      {
+        "type_name": "Account Login",
+        "typical_url_patterns": [
+          "/customer/account/login/",
+          "/account/login",
+          "/cc/account/accountLogin.jsp"
+        ]
+      },
+      {
+        "type_name": "Account Registration",
+        "typical_url_patterns": [
+          "/customer/account/create/",
+          "/register"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/sales/order/history/"
+        ]
+      },
+      {
+        "type_name": "Order Tracking",
+        "typical_url_patterns": [
+          "/order-tracking"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/customer-service/shipping/",
+          "/pages/shipping",
+          "/shipping.html"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/customer-service/returns/",
+          "/pages/returns-and-exchanges",
+          "/returns.html"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/customer-service/contact/",
+          "/pages/contact-us",
+          "/contactus"
+        ]
+      },
+      {
+        "type_name": "FAQ",
+        "typical_url_patterns": [
+          "/customer-service/faqs/",
+          "/pages/faqs",
+          "/faqs.html"
+        ]
+      },
+      {
+        "type_name": "Gift Card Balance Check",
+        "typical_url_patterns": [
+          "/gift-card-balance/"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation (Inferred)",
+        "typical_url_patterns": [
+          "/checkout/onepage/success/",
+          "/orders/...",
+          "/thank-you"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/",
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Info",
+        "typical_url_patterns": [
+          "/reward-program-info",
+          "/charm-club-landing/",
+          "/charm-club/reward-terms/"
+        ]
+      },
+      {
+        "type_name": "Refer-a-Friend",
+        "typical_url_patterns": [
+          "/pages/refer-a-friend"
+        ]
+      },
+      {
+        "type_name": "Email Signup",
+        "typical_url_patterns": [
+          "/cc/about/emailSignUp.jsp*"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/about/affiliate-program/"
+        ]
+      },
+      {
+        "type_name": "Legal & Policy Pages",
+        "typical_url_patterns": [
+          "/pages/terms-of-service",
+          "/policies/privacy-policy",
+          "/pages/accessibility-statement",
+          "/reward-terms/"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/site-map.html"
+        ]
+      },
+      {
+        "type_name": "Vendor Information",
+        "typical_url_patterns": [
+          "/vendors",
+          "/pages/vendors",
+          "/pages/artisan-vendors"
+        ]
+      }
+    ]
+  },
+  "total_types": 49
+}

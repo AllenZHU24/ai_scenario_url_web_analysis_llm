@@ -1,0 +1,3214 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "eddiebauer.com",
+  "export_time": "2025-07-07 12:47:34",
+  "yearly_analysis_results": {
+    "2014": {
+      "analysis_time": "2025-07-07 12:43:54",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 289,
+      "valid_content_urls_count": 289,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/sportshop/about/about.jsp?previousPage=SCAT",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/career/career-overview.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/checkout/bag.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/order-history.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/login.jsp",
+        "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/sportshop/about/about.jsp?previousPage=SCAT",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Essential for building brand awareness and trust among potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/career/career-overview.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights the company's culture and values, attracting potential customers and employees."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Technical Information",
+            "selection_reason": "Provides important product details that help customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size Chart",
+            "selection_reason": "Crucial for customers to select the right product size, reducing returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/checkout/bag.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Bag",
+            "selection_reason": "Key page for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a popular purchasing option, especially during holidays."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential for customer satisfaction and trust in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides critical information about shipping options and costs."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Form",
+            "selection_reason": "Allows customers to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/order-history.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Enables customers to track their purchases, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/login.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates customer access to personalized services and order management."
+          },
+          {
+            "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Builds trust by informing customers about data protection measures."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-partners.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp?subject=catalog",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/sportshop/about/about.jsp?previousPage=SCAT",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/checkout/bag.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Bag"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/wishlist.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/career/career-overview.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Technical Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-affiliate-program.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size Chart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/templates/site-map.jsp?qsLineName=all",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/pro-deals-application.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20141229202802/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-07 12:44:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 267,
+      "valid_content_urls_count": 267,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-partners.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/view/shopping-index/index.html",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/checkout/bag.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/order-history.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/login.jsp",
+        "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page informs customers about the brand's history and values, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-partners.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Partnerships & Sponsorships",
+            "selection_reason": "Showcases the brand's collaborations, which can enhance credibility and attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, increasing engagement and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/view/shopping-index/index.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shopping Index / Sitemap",
+            "selection_reason": "Provides a comprehensive overview of available products, aiding customers in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size Chart",
+            "selection_reason": "Essential for customers to make informed decisions regarding sizing, reducing return rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Technical Information",
+            "selection_reason": "Provides detailed product specifications, helping customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers customers a popular purchasing option, enhancing the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/checkout/bag.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Bag",
+            "selection_reason": "Critical for customers to review their selections before purchase, facilitating the checkout process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Informs customers about return policies, which is crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Essential information regarding shipping options and costs, impacting customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Provides support and assistance, enhancing customer experience and satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/order-history.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to track past purchases, fostering loyalty and repeat business."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/login.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates access to personalized features and order tracking, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Builds trust with customers by outlining how their data is protected, crucial for retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 24,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/checkout/bag.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Bag"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/wishlist.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp?subject=catalog",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Technical Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size Chart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-partners.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/company-info/company-info-affiliate-program.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/pro-deals-application.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231200925/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-07 12:44:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 253,
+      "valid_content_urls_count": 253,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/view/shopping-index/index.html",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/checkout/bag.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/career/career-overview.jsp",
+        "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, enhancing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/view/shopping-index/index.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shopping Index / Sitemap",
+            "selection_reason": "Facilitates product exploration and comparison, aiding customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size Chart",
+            "selection_reason": "Essential for customers to make informed choices regarding product sizing."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/checkout/bag.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Bag",
+            "selection_reason": "Critical for finalizing purchases and ensuring a smooth checkout experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Informs customers about return policies, which is vital for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides necessary shipping details, enhancing customer confidence in their orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers an alternative purchasing option, appealing to gift buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Encourages repeat purchases and customer loyalty through rewards."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Centralized resource for customer support, enhancing overall customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Technical Information",
+            "selection_reason": "Provides detailed product information, aiding informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/career/career-overview.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights company culture and job opportunities, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Informs customers of their rights and responsibilities, fostering trust."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/career/career-overview.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size Chart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/catalog/catalog-quick-order.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Catalog Quick Order"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-affiliate-program.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-partners.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/user/acc-login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/checkout/bag.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Bag"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Technical Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/wishlist.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/user/acc-register.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp?subject=catalog",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/pro-deals-application.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161229132740/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 12:44:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 267,
+      "valid_content_urls_count": 267,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/responsible-sourcing",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/awards",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/checkout/bag.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/ski?previousPage=GNAV&cm_sp=SkiCampaignTNM-_-HP_1_171013",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+        "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/acc-register.jsp"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/responsible-sourcing",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Responsibility",
+            "selection_reason": "Highlights the brand's commitment to sustainability, attracting environmentally conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/awards",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Award Winners Page",
+            "selection_reason": "Showcases accolades and awards, enhancing brand credibility during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Credit Card Program Page",
+            "selection_reason": "Encourages customer loyalty through financial incentives, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Provides essential support and information, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/checkout/bag.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Bag",
+            "selection_reason": "Critical for the purchasing process, facilitating the final decision to buy."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size Chart",
+            "selection_reason": "Helps customers make informed decisions regarding product sizing."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Clarifies return policies, reducing purchase anxiety and enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/ski?previousPage=GNAV&cm_sp=SkiCampaignTNM-_-HP_1_171013",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection Page",
+            "selection_reason": "Engages customers with targeted collections, driving interest in specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Facilitates customer visits to physical stores, enhancing brand interaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a flexible purchasing option, appealing to gift buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Encourages repeat purchases through rewards, vital for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/acc-register.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Promotes customer engagement and retention through account creation."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/catalog/catalog-quick-order.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Catalog Quick Order"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/responsible-sourcing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/awards",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Award Winners Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/guidetoeb?cm_sp=topnav-_-GUIDETOEB-_-main&previousPage=GNAV",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/theguide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/checkout/bag.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Bag"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Technical Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp?subject=catalog",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/company-info/company-info-affiliate-program.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/ski?previousPage=GNAV&cm_sp=SkiCampaignTNM-_-HP_1_171013",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/acc-register.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/career/career-overview.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/ski?previousPage=GNAV&cm_sp=SkiCampaignTNW-_-HP_1_171013",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/storelocator/store_locator.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/americanforests",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/campaign/theheroesproject",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/acc-login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size Chart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-rewards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171230124905/http://www.eddiebauer.com/user/login.jsp?successUrl=/user/wishlist.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-07 12:45:18",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 278,
+      "valid_content_urls_count": 278,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/guidetoeb?cm_sp=topnav-_-GUIDETOEB-_-main&previousPage=GNAV",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/responsible-sourcing",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/theguide",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-women-_-RainCampaign",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-men-_-RainCampaign",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/awards",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/catalog/catalog-quick-order.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-login.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-register.jsp",
+        "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/guidetoeb?cm_sp=topnav-_-GUIDETOEB-_-main&previousPage=GNAV",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "This page educates customers about the brand's values and offerings, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/responsible-sourcing",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Responsibility",
+            "selection_reason": "Highlights the brand's commitment to sustainability, appealing to environmentally conscious consumers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/theguide",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "Provides insights into the brand's philosophy and product offerings, fostering customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-women-_-RainCampaign",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection Page",
+            "selection_reason": "Engages customers with specific product themes, driving interest in targeted collections."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-men-_-RainCampaign",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Collection Page",
+            "selection_reason": "Encourages exploration of seasonal collections, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Size Chart",
+            "selection_reason": "Assists customers in making informed decisions regarding sizing, reducing return rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/awards",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Award Winners Page",
+            "selection_reason": "Showcases recognized products, influencing customer decisions through social proof."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/catalog/catalog-quick-order.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Catalog Quick Order",
+            "selection_reason": "Facilitates quick purchasing decisions, enhancing the shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Provides essential information on returns, increasing customer confidence in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Informs customers about shipping options, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers a popular gifting option, appealing to customers looking for flexible purchase choices."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-login.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Encourages customer retention by facilitating easy access to accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-register.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Promotes customer loyalty through account creation, enabling personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Credit Card Program Page",
+            "selection_reason": "Encourages repeat purchases through credit card offerings, enhancing customer loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/guidetoeb?cm_sp=topnav-_-GUIDETOEB-_-main&previousPage=GNAV",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-size-charts.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Size Chart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-women-_-RainCampaign",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/catalog/catalog-quick-order.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Catalog Quick Order"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/rain?previouspage=GNAV&cm_sp=topnav-_-men-_-RainCampaign",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Collection Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/responsible-sourcing",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/acc-register.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/theguide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/company-info/company-info-affiliate-program.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Pro Deals / Affiliate Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/ask-eddie-email.jsp?subject=catalog",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/awards",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Award Winners Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/user/login.jsp?successUrl=/user/wishlist.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/theheroesproject",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/storelocator/store_locator.jsp",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/campaign/americanforests",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/custserv/customer-service-technical-information.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Technical Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181231060154/https://www.eddiebauer.com/company-info/company-info-privacy-and-security.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-07 12:45:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 44,
+      "valid_content_urls_count": 44,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/store-locator",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/view/shopping-index/index.html",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/checkout/bag.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/privacy-and-security",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/acc-register.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+        "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale & Clearance Hub",
+            "selection_reason": "Attracts customers looking for deals, enhancing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/store-locator",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "Helps customers find physical store locations, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/view/shopping-index/index.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shopping Index / Sitemap",
+            "selection_reason": "Provides a comprehensive view of product categories, aiding in product consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/checkout/bag.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Bag",
+            "selection_reason": "Critical for customers finalizing their purchases, directly impacting sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns & Exchanges Policy",
+            "selection_reason": "Essential for customer confidence in purchasing, detailing return processes."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Shipping Information",
+            "selection_reason": "Provides necessary shipping details, crucial for customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "A key resource for customer support, enhancing overall service experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's values and mission, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/privacy-and-security",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Assures customers about data protection, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "Facilitates easy access to account features, enhancing user retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/acc-register.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages new customer sign-ups, vital for building a loyal customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Gift Card Page",
+            "selection_reason": "Offers an alternative purchasing option, appealing to gift shoppers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Credit Card Program Page",
+            "selection_reason": "Promotes financial products that can enhance customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies user agreements, important for customer trust and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/store-locator",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/login.jsp?successUrl=/user/order-history.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/acc-register.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/acc-login.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/checkout/bag.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Bag"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-returns-and-exchanges.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns & Exchanges Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-gift-cards.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Gift Card Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/ask-eddie-email.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-about-us.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-shipping.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/company-info/company-info-terms-of-use.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/custserv/customer-service-landing.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191226180812/https://www.eddiebauer.com/user/acc-register.jsp?cm_re=rail_1_TO_P_LiveYourAdventure",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-07 12:46:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 38,
+      "valid_content_urls_count": 38,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/coupons/",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/shopping-index/index.html",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/contactus",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/order-status",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/acc-login",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/adventurerewards",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/terms-of-use",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/privacy-and-security",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/store-locator",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+        "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/true-fit?cm_re=homepage_6_OB_P_truefit_201216"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "This page helps customers understand the brand's values and mission, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This category hub attracts customers interested in children's products, showcasing a key product line."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/coupons/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Coupons & Promotions Page",
+            "selection_reason": "Promotions are crucial for engaging customers and driving interest in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Hub",
+            "selection_reason": "Showcasing new products is essential for maintaining customer interest and encouraging repeat visits."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/shopping-index/index.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shopping Index / Sitemap",
+            "selection_reason": "A shopping index helps customers navigate the site, facilitating product consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/contactus",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Form",
+            "selection_reason": "Providing a contact form is vital for customer support and fulfillment inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / Tracking",
+            "selection_reason": "Order tracking is critical for customer satisfaction during the fulfillment stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/acc-login",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Login",
+            "selection_reason": "An account login page is essential for customer retention and personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/adventurerewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Loyalty programs are key to retaining customers and encouraging repeat purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/terms-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Providing clear terms of use builds trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/privacy-and-security",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "A privacy policy is crucial for customer trust and compliance with regulations."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/store-locator",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Store Locator",
+            "selection_reason": "A store locator enhances customer convenience and drives foot traffic to physical locations."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale & Clearance Hub",
+            "selection_reason": "Clearance sales attract bargain hunters and can convert interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/true-fit?cm_re=homepage_6_OB_P_truefit_201216",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Fit Guide",
+            "selection_reason": "Fit guides help customers make informed decisions, reducing returns and enhancing satisfaction."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 25,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/coupons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/acc-login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/home?cm_sp=topnav_h",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/contactus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/optout/ccpa",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/campaign/theguide?cm_sp=footer_aboutus_ourfounder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/adventurerewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/credit",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/true-fit?cm_re=homepage_6_OB_P_truefit_201216",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/store-locator",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201231044914/https://www.eddiebauer.com/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / Tracking"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-07 12:46:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 33,
+      "valid_content_urls_count": 33,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/campaign/careers",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/california-supply-chains-act",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/coupons/",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/shopping-index/index.html",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/true-fit",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/order-status",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/contactus",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/signup",
+        "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/adventurerewards"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing overall brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/campaign/careers",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Careers",
+            "selection_reason": "Highlights the brand's employment opportunities, enhancing brand image."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/california-supply-chains-act",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Responsibility",
+            "selection_reason": "Demonstrates the brand's commitment to sustainability, appealing to eco-conscious consumers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Sustainability & Responsibility",
+            "selection_reason": "Shows the brand's respect for indigenous lands, enhancing brand reputation."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Provides a focused area for customers interested in footwear, driving product exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Encourages exploration of gear products, crucial for customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Hub",
+            "selection_reason": "Attracts customers looking for the latest products, enhancing shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/coupons/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Coupons & Promotions Page",
+            "selection_reason": "Incentivizes purchases through promotions, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/shopping-index/index.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shopping Index / Sitemap",
+            "selection_reason": "Facilitates navigation and product discovery, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/true-fit",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Fit Guide",
+            "selection_reason": "Assists customers in selecting the right fit, reducing return rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / Tracking",
+            "selection_reason": "Provides essential order tracking information, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/contactus",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Form",
+            "selection_reason": "Enables customer inquiries, crucial for post-purchase support."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Central hub for customer support, essential for resolving issues."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/signup",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages customer loyalty through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/adventurerewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Promotes customer retention through loyalty rewards."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 33,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/coupons/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/adventurerewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/contactus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/store-locator",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Store Locator"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/do-not-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/campaign/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/view/shopping-index/index.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shopping Index / Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/credit",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/true-fit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/campaign/theguide?cm_sp=footer_aboutus_ourfounder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/home?cm_sp=topnav_h",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/signup",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/service/help?a=Online-Shipping-Status-and-Tracking---id--ghSa87vfRhKJRPPSutBBfw",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/acc-login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20211231200222/https://www.eddiebauer.com/optout/ccpa",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-07 12:46:49",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 49,
+      "valid_content_urls_count": 49,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/true-fit",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/order-status",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/adventurerewards",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/terms-of-use",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/privacy-and-security",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+        "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Highlights a key product category that attracts customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Hub",
+            "selection_reason": "Showcases the latest products, appealing to returning customers and new visitors."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/true-fit",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Fit Guide",
+            "selection_reason": "Assists customers in making informed decisions about sizing and fit."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide Hub",
+            "selection_reason": "Provides curated gift options, enhancing customer shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale & Clearance Hub",
+            "selection_reason": "Attracts price-sensitive customers looking for deals."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Essential for customers needing assistance with returns, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / Tracking",
+            "selection_reason": "Critical for customers to track their orders, improving transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/adventurerewards",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Encourages repeat purchases through loyalty incentives."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/terms-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Important for legal transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/privacy-and-security",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Reassures customers about data protection, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Focuses on a significant demographic, driving targeted interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Highlights women's products, appealing to a key customer segment."
+          },
+          {
+            "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Targets family-oriented shoppers, expanding customer base."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 34,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Online-Shipping-Status-and-Tracking---id--ghSa87vfRhKJRPPSutBBfw",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/optout/ccpa",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/true-fit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Klarna-FAQs---id--kFzHGTE8RpCnkyB8kvWdmw",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/2022_program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/theguide?cm_sp=footer_aboutus_ourfounder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/home?cm_sp=topnav_h_home",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/do-not-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/adventurerewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/coupons",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/credit",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/contactus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/acc-login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/content/program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20221201055206/https://www.eddiebauer.com/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / Tracking"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-07 12:47:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 350,
+      "valid_content_urls_count": 350,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories?cm_sp=topnav_guide_stories",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/outerwear-care?cm_sp=topnav_ow_featured_owcare",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/order-status",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/signup?cm_re=rail_3_arshipping_221013",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/awards?cm_sp=topnav_guide_featured_awardwinners",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/privacy-and-security/",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/theguide?cm_sp=topnav_guide_aboutus_ourfounder",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/coupons",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/contactus",
+        "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/terms-of-use"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories?cm_sp=topnav_guide_stories",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "Provides insights into the brand's values and stories, attracting potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/outerwear-care?cm_sp=topnav_ow_featured_owcare",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Care Guide",
+            "selection_reason": "Educates customers on product maintenance, enhancing interest in purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Central hub for exploring various product categories, driving customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / Tracking",
+            "selection_reason": "Essential for customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/signup?cm_re=rail_3_arshipping_221013",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration",
+            "selection_reason": "Encourages customer retention through account creation and personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/awards?cm_sp=topnav_guide_featured_awardwinners",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Award Winners Page",
+            "selection_reason": "Showcases recognized products, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "Provides crucial support and information for customers during their shopping journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/privacy-and-security/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection measures."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/theguide?cm_sp=topnav_guide_aboutus_ourfounder",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "Informs customers about the brand's history and mission, fostering connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale & Clearance Hub",
+            "selection_reason": "Attracts price-sensitive customers and encourages purchases through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/coupons",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Coupons & Promotions Page",
+            "selection_reason": "Incentivizes purchases through promotional offers, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/contactus",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us Form",
+            "selection_reason": "Facilitates customer inquiries and support, crucial for a positive shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/terms-of-use",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies user agreements, ensuring transparency and trust with customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 54,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/awards?cm_sp=topnav_guide_featured_awardwinners",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Award Winners Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories?cm_sp=topnav_guide_stories",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_guide",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/education?cm_sp=topnav_guide_stories_education",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/signup?cm_re=rail_3_arshipping_221013",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/all-recent-videos?cm_sp=topnav_guide_stories_videos",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/outerwear-care?cm_sp=topnav_ow_featured_owcare",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/privacy-and-security/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/adventurerewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/community?cm_sp=topnav_guide_stories_community",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/camp-hike?cm_sp=topnav_guide_stories_camphike",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/theguide?cm_sp=topnav_guide_aboutus_ourfounder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/coupons",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/theguide?cm_sp=footer_aboutus_ourfounder",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/food?cm_sp=topnav_guide_stories_food",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/americanforests?cm_sp=topnav_guide_partnerships_americanforests",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/2022_program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories?cm_sp=topnav_guide_stories_new",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/theheroesproject?cm_sp=topnav_guide_partnerships_theheroesproject",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/program-terms?cm_re=rail_4_arlearnmore_220414",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/wellness?cm_sp=topnav_guide_stories_wellness",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/do-not-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/true-fit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/gear?cm_sp=topnav_guide_stories_gear",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/contactus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/awards?cm_sp=topnav_guide_aboutus_awardwinners",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Award Winners Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/careers?cm_sp=topnav_guide_aboutus_careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/credit",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/stories/category/expedition?cm_sp=topnav_guide_stories_expedition",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/sustainability",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/new-arrivals?cm_sp=topnav_new",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/signup?cm_re=rail_4_arjoin_220414",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/coupons?cm_re=rail_5_pcd_230525",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/content/home?cm_sp=topnav_h_home",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/campaign/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/service/help?a=Online-Shipping-Status-and-Tracking---id--ghSa87vfRhKJRPPSutBBfw",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20230923012248/https://www.eddiebauer.com/acc-login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-07 12:47:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 276,
+      "valid_content_urls_count": 276,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/expedition/?cm_sp=topnav_guide_stories_expedition",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/t/new-arrivals?cm_sp=topnav_n",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/true-fit",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/order-status",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/adventurerewards?cm_re=rail_5_to_p_arsignup_241124",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/privacy-and-security/",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/partnerships?cm_sp=topnav_aboutus_partners",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+        "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/expedition/?cm_sp=topnav_guide_stories_expedition",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story & Guides Hub",
+            "selection_reason": "This URL highlights the brand's storytelling aspect, engaging customers and creating awareness about the brand's values."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale & Clearance Hub",
+            "selection_reason": "This page attracts customers looking for deals, enhancing interest in the brand's products."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/t/new-arrivals?cm_sp=topnav_n",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "New Arrivals Hub",
+            "selection_reason": "Showcasing new products keeps customers engaged and encourages them to explore the latest offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/true-fit",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Fit Guide",
+            "selection_reason": "Providing a fit guide helps customers make informed decisions, reducing return rates and enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Customer Service / Help Hub",
+            "selection_reason": "This URL assists customers in understanding payment options, crucial for completing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status / Tracking",
+            "selection_reason": "Enabling customers to track their orders enhances the fulfillment experience and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/adventurerewards?cm_re=rail_5_to_p_arsignup_241124",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub (Adventure Rewards)",
+            "selection_reason": "Promoting the loyalty program encourages repeat purchases and customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/privacy-and-security/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy & Security Policy",
+            "selection_reason": "Transparency about privacy and security policies builds customer trust and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Gift Guide Hub",
+            "selection_reason": "Gift guides cater to customers looking for presents, enhancing interest during key shopping seasons."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/partnerships?cm_sp=topnav_aboutus_partners",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Partnerships & Sponsorships",
+            "selection_reason": "Highlighting partnerships can enhance brand credibility and attract new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "Main category hubs are essential for guiding customers to specific product lines, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Main Category Hub",
+            "selection_reason": "This category hub focuses on a popular product type, attracting customers interested in outerwear."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 51,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/expedition/?cm_sp=topnav_guide_stories_expedition",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/land-acknowledgement?cm_sp=footer_aboutus_land-acknowledgement",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/clearance?cm_sp=topnav_c",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/food/?cm_sp=topnav_guide_stories_food",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/terms-of-use",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/all-post/?cm_sp=topnav_guide_stories_viewall",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help?a=Payment-Methods-and-Tax---id--qfhf251DTuqBNw8OkEyYnA",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/clearance?cm_re=rail_1_to_s_clx_241221",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/gear/?cm_sp=topnav_guide_stories_gear",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/do-not-contact",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Data Privacy/Opt-Out"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/t/new-arrivals?cm_sp=topnav_n",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "New Arrivals Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/california-supply-chains-act",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/adventurerewards?cm_re=rail_5_to_p_arsignup_241124",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/acc-login?cm_re=rail_5_to_p_arsignin_241124",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/100-years-of-eddie-bauer-history/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/privacy-and-security/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/c/sale?cm_sp=topnav_sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale & Clearance Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/adventurerewards",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub (Adventure Rewards)"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/partnerships?cm_sp=topnav_aboutus_partners",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partnerships & Sponsorships"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status / Tracking"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/wellness/?cm_sp=topnav_guide_stories_wellness",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/coupons?cm_re=rail_2_to_s_promos_241212",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/true-fit",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fit Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/outerwear?cm_sp=topnav_o",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/coupons",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Coupons & Promotions Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/acc-login",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/gear?cm_sp=topnav_g",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help?a=Return-Options-for-Online-Orders---id--LDQnpl5STA6bR1nZ7y3e6w",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/contactus",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/service/help?a=Online-Shipping-Status-and-Tracking---id--ghSa87vfRhKJRPPSutBBfw",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Customer Service / Help Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/guidepost?cm_sp=topnav_aboutus",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories?cm_sp=topnav_guide_stories",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/category/camp-hike/?cm_sp=topnav_guide_stories_camphike",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/privacy-and-security",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy & Security Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/stories/all-recent-videos/?cm_sp=topnav_guide_stories_videos",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/guidepost",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story & Guides Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/careers",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/men?cm_sp=topnav_m",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/footwear?cm_sp=topnav_f",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/2022_program-terms",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Terms"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/outerwear-care?cm_sp=topnav_ow_featured_owcare",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Care Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/women?cm_sp=topnav_w",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/sustainability?cm_sp=topnav_aboutus_sustainability",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Sustainability & Responsibility"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/kids?cm_sp=topnav_k",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Main Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/awards?cm_sp=topnav_aboutus_awardwinners",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Award Winners Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/campaign/gift-guide?cm_sp=topnav_gifts_guide",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Gift Guide Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20241225063137/https://www.eddiebauer.com/content/credit",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Credit Card Program Page"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-07 12:47:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250503121859/https://www.eddiebauer.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250503121859/https://www.eddiebauer.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250503121859/https://www.eddiebauer.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

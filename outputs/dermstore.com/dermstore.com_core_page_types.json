@@ -1,0 +1,387 @@
+{
+  "generation_time": "2025-07-07 03:46:50",
+  "company_url": "dermstore.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Homepage",
+        "typical_url_patterns": [
+          "/",
+          "/index.htm"
+        ]
+      },
+      {
+        "type_name": "Blog Homepage",
+        "typical_url_patterns": [
+          "/blog/",
+          "/articles.htm"
+        ]
+      },
+      {
+        "type_name": "Blog Post / Article",
+        "typical_url_patterns": [
+          "/articles/article_*.htm",
+          "/blog/{post-slug}/"
+        ]
+      },
+      {
+        "type_name": "Blog Video Gallery",
+        "typical_url_patterns": [
+          "/blog/videos/",
+          "/resource/video.php"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/about-us",
+          "/info/about-us.list",
+          "/extend_About_DermStore_*.htm"
+        ]
+      },
+      {
+        "type_name": "Press Page",
+        "typical_url_patterns": [
+          "/press.php",
+          "/info/press.list"
+        ]
+      },
+      {
+        "type_name": "General Landing Page (Marketing/Campaign)",
+        "typical_url_patterns": [
+          "/lp/*",
+          "/extend_*.htm"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/map.htm"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Department PLP",
+        "typical_url_patterns": [
+          "/skin-care.list",
+          "/hair-care.list",
+          "/makeup.list",
+          "/c/skin-care/",
+          "/c/hair-care/",
+          "/profile_Skin+Care_*.htm",
+          "/profile_Hair+Care_*.htm"
+        ]
+      },
+      {
+        "type_name": "Men's Department PLP",
+        "typical_url_patterns": [
+          "/men.list",
+          "/c/men/",
+          "/profile_For+Men_*.htm",
+          "/shop_Men_*.htm"
+        ]
+      },
+      {
+        "type_name": "Brand Index Page",
+        "typical_url_patterns": [
+          "/brands.list",
+          "/c/brands/",
+          "/all_Brands_100.htm"
+        ]
+      },
+      {
+        "type_name": "Category & Concern Index Page",
+        "typical_url_patterns": [
+          "/all_Product+Types_300.htm",
+          "/all_Concerns_400.htm",
+          "/c/shop/"
+        ]
+      },
+      {
+        "type_name": "New Arrivals PLP",
+        "typical_url_patterns": [
+          "/new-arrivals.list",
+          "/c/new-arrivals/",
+          "/list_sortnew.htm",
+          "/profile_New+Arrivals_*.htm"
+        ]
+      },
+      {
+        "type_name": "Bestsellers PLP",
+        "typical_url_patterns": [
+          "/dermstore-bestsellers.list",
+          "/c/bestsellers/",
+          "/list_sortshoppersmore100.htm",
+          "/profile_Dermstore+Bestsellers_*.htm"
+        ]
+      },
+      {
+        "type_name": "Award Winners PLP",
+        "typical_url_patterns": [
+          "/allure-award-winners.list",
+          "/c/allure-award-winners/"
+        ]
+      },
+      {
+        "type_name": "Holiday & Gift Shop PLP",
+        "typical_url_patterns": [
+          "/shop/holiday-shop/*.list",
+          "/lp/holiday-shop",
+          "/profile_Holiday+Gifts_*.htm",
+          "/gift-sets.list"
+        ]
+      },
+      {
+        "type_name": "Subscription Box Hub (BeautyFIX)",
+        "typical_url_patterns": [
+          "/beautyfix.php",
+          "/beautyfix.list",
+          "/c/beautyfix/"
+        ]
+      },
+      {
+        "type_name": "Routine Builder",
+        "typical_url_patterns": [
+          "/build-your-own-routine/*",
+          "/regimens.htm"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Sub-Category PLP",
+        "typical_url_patterns": [
+          "/{cat}/{subcat}.list",
+          "/c/{cat}/{subcat}/",
+          "/shop_{SubCategory}_*.htm",
+          "/profile_{SubCategory}_*.htm"
+        ]
+      },
+      {
+        "type_name": "Brand PLP",
+        "typical_url_patterns": [
+          "/brands/{brand-name}.list",
+          "/c/brands/{brand-name}/",
+          "/profile_{BrandName}_*.htm",
+          "/brand_{BrandName}_*.htm"
+        ]
+      },
+      {
+        "type_name": "Concern-Based PLP",
+        "typical_url_patterns": [
+          "/treatment/{concern}.list",
+          "/c/treatment/{concern}/",
+          "/profile_{ConcernName}_*.htm",
+          "/treatment_{ConcernName}_*.htm"
+        ]
+      },
+      {
+        "type_name": "Ingredient-Based PLP",
+        "typical_url_patterns": [
+          "/ingredient/{ingredient}.list",
+          "/c/ingredient/{ingredient}/",
+          "/shop_{IngredientName}_*.htm"
+        ]
+      },
+      {
+        "type_name": "Dermatologist Approved PLP",
+        "typical_url_patterns": [
+          "/c/preferences/dermatologist-approved/",
+          "/profile_Dermatologist+Approved_*.htm",
+          "/list_Physician+Strength_*.htm"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance PLP",
+        "typical_url_patterns": [
+          "/sale.list",
+          "/c/sale/",
+          "/sale/last-chance.list",
+          "/profile_Sale_*.htm",
+          "/profile_Last+Chance*.htm"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/{product-name}/{id}.html",
+          "/p/{product-name}/{id}/",
+          "/product_*.htm"
+        ]
+      },
+      {
+        "type_name": "Product Bundle/Kit PDP",
+        "typical_url_patterns": [
+          "/*-set/{id}.html",
+          "/*-kit/{id}.html",
+          "/*-duo/{id}.html",
+          "/*-bundle/{id}/",
+          "/product_*Kit*.htm"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Favorites Page",
+        "typical_url_patterns": [
+          "/account/favorites.php",
+          "/wishlists.account",
+          "/account/my-account/wishlist"
+        ]
+      },
+      {
+        "type_name": "Product Reviews Page",
+        "typical_url_patterns": [
+          "/reviews.htm",
+          "/{product-name}/{id}.html#reviews"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Basket",
+        "typical_url_patterns": [
+          "/basket/",
+          "/my.basket",
+          "/cart/flip.php"
+        ]
+      },
+      {
+        "type_name": "Checkout Flow",
+        "typical_url_patterns": [
+          "/checkout/"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/giftcard/order.php"
+        ]
+      },
+      {
+        "type_name": "Offers & Promotions Hub",
+        "typical_url_patterns": [
+          "/c/offers/*",
+          "/offers/*.list",
+          "/profile_Deal+of+the+Week_*.htm"
+        ]
+      },
+      {
+        "type_name": "Flexible Payments Info (Klarna)",
+        "typical_url_patterns": [
+          "/info/klarna.list",
+          "/c/info/flexible-payments/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Management (History & Tracking)",
+        "typical_url_patterns": [
+          "/account/order_list.php",
+          "/accountOrderHistory.account",
+          "/c/track-your-order/"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/content/content.php?content=shipping",
+          "/info/delivery-information.list",
+          "/c/info/delivery-information/"
+        ]
+      },
+      {
+        "type_name": "Returns Information Page",
+        "typical_url_patterns": [
+          "/content/content.php?content=returns",
+          "/info/returns.list",
+          "/c/info/returns/"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Help Center / FAQ",
+        "typical_url_patterns": [
+          "/help-center.list",
+          "/c/help-center/",
+          "/content/content.php?content=customer",
+          "/content/content.php?content=faqs",
+          "/questions/ask.php"
+        ]
+      },
+      {
+        "type_name": "Static Info Page (Privacy/Terms)",
+        "typical_url_patterns": [
+          "/content/content.php?content=policies",
+          "/info/privacy-policy.list",
+          "/info/terms-conditions.list",
+          "/c/info/privacy-policy/"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/account/account.php",
+          "/account",
+          "/accountHome.account"
+        ]
+      },
+      {
+        "type_name": "Login & Registration Page",
+        "typical_url_patterns": [
+          "/account/login.php",
+          "/account/register",
+          "/accountCreate.account",
+          "/account/login"
+        ]
+      },
+      {
+        "type_name": "Rewards & Loyalty Program Page",
+        "typical_url_patterns": [
+          "/account/rewards.php",
+          "/account/redeem-points.list",
+          "/c/account/redeem-points/"
+        ]
+      },
+      {
+        "type_name": "Subscription Management Page",
+        "typical_url_patterns": [
+          "/account/autorefills_list.php",
+          "/subscriptions.account",
+          "/save-with-auto-replenishment.list",
+          "/c/auto-replenishment/"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend Page",
+        "typical_url_patterns": [
+          "/account/send_a_friend_about.php",
+          "/myreferrals.list",
+          "/c/myreferrals/"
+        ]
+      },
+      {
+        "type_name": "App Download Page",
+        "typical_url_patterns": [
+          "/c/download-app/",
+          "/download-app.list"
+        ]
+      },
+      {
+        "type_name": "Email/Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/emailSignUp.account",
+          "/emailSignUp/"
+        ]
+      },
+      {
+        "type_name": "Logout Page",
+        "typical_url_patterns": [
+          "/account/logout.php"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

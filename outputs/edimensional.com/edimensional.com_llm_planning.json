@@ -1,0 +1,2496 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "edimensional.com",
+  "export_time": "2025-07-07 13:32:42",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-07 13:28:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/about_us.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/news.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=21",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/sel_prod_listing.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=24",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/shopping_cart.php",
+        "https://web.archive.org/web/20091224061234/https://www.edimensional.com/checkout_shipping.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/contact_us.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/terms.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/faq.php",
+        "https://web.archive.org/web/20091224061234/http://www.edimensional.com/support.php",
+        "https://web.archive.org/web/20091224061234/https://www.edimensional.com/account.php"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/about_us.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the company and its values."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/news.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News / Blog (List)",
+            "selection_reason": "Engages customers with updates and relevant content."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=21",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Directs customers to specific product categories of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/sel_prod_listing.php",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Product Listing",
+            "selection_reason": "Highlights popular products to capture customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=24",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another product category to enhance customer exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/shopping_cart.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/https://www.edimensional.com/checkout_shipping.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Essential step in the purchasing process for shipping details."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/contact_us.php",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Provides customers with support after purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/terms.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Clarifies the terms of service for customer understanding."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/faq.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/support.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides additional support resources for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091224061234/https://www.edimensional.com/account.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Encourages customer retention through account management."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/partners.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/https://www.edimensional.com/checkout_shipping.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/contact_us.php",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/news.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News / Blog (List)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=21",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/about_us.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/sel_prod_listing.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Product Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=24",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/shopping_cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=22",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/terms.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/index.php?cPath=23",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/faq.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/http://www.edimensional.com/support.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20091224061234/https://www.edimensional.com/account.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-07 13:28:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 15,
+      "valid_content_urls_count": 15,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/about_us.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/contact_us.php",
+        "https://web.archive.org/web/20101225163406/https://www.edimensional.com/account.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=23",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=22",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=21",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=24",
+        "https://web.archive.org/web/20101225163406/https://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/faq.php",
+        "https://web.archive.org/web/20101225163406/https://www.edimensional.com/",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/shopping_cart.php",
+        "https://web.archive.org/web/20101225163406/https://www.edimensional.com/checkout_shipping.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/support.php",
+        "https://web.archive.org/web/20101225163406/http://www.edimensional.com/partners.php"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/about_us.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information about the company, enhancing brand trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/contact_us.php",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Essential for customer support and inquiries post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/account.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Allows customers to manage their accounts, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=23",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Highlights specific product categories to engage potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=22",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another product category page to capture customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=21",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Diverse product offerings to attract various customer segments."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=24",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Further product category to enhance customer exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Critical for building trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/faq.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page for brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/shopping_cart.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/checkout_shipping.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Critical step in the purchasing process, influencing conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/support.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides assistance and resources for potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/partners.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Partners",
+            "selection_reason": "Showcases partnerships, enhancing credibility and brand image."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/account.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/contact_us.php",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/checkout_shipping.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=23",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=22",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/shopping_cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=21",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/faq.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/about_us.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/index.php?cPath=24",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/https://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/partners.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20101225163406/http://www.edimensional.com/support.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-07 13:29:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/about_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/news.php",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/sel_prod_listing.php",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=21&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=24&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/shopping_cart.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/https://www.edimensional.com/checkout_shipping.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/terms.php",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/faq.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/support.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/http://www.edimensional.com/contact_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+        "https://web.archive.org/web/20111013134400/https://www.edimensional.com/account.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/about_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust and credibility by informing customers about the company's background."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/news.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News / Blog (List)",
+            "selection_reason": "Provides updates and insights that can engage customers and enhance brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/sel_prod_listing.php",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Product Listing",
+            "selection_reason": "Highlights popular products, capturing customer interest and encouraging exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=21&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Categorizes products for easier navigation, helping customers find what they are interested in."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=24&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another product category page that diversifies options for customers, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/shopping_cart.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase, influencing their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/https://www.edimensional.com/checkout_shipping.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Essential for finalizing purchases, providing necessary shipping details to customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection, which is crucial for building trust during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/terms.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Provides important legal information that customers need to understand before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/faq.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/support.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides assistance and resources for customers, enhancing their confidence in the purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/contact_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Essential for customers needing support after purchase, ensuring satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111013134400/https://www.edimensional.com/account.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Allows customers to manage their accounts, enhancing their engagement and likelihood of repeat purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/about_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/sel_prod_listing.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Product Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/shopping_cart.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/news.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News / Blog (List)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/https://www.edimensional.com/account.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/contact_us.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=21&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=24&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/partners.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=23&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/index.php?cPath=22&osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/terms.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/https://www.edimensional.com/checkout_shipping.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/faq.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20111013134400/http://www.edimensional.com/support.php?osCsid=j8oeh4c9llgnp58fnph8qn73r5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-07 13:29:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/about_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/news.php",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=21&osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=24&osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=22&osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/faq.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/terms.php",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/shopping_cart.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/https://www.edimensional.com/checkout_shipping.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/contact_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/https://www.edimensional.com/account.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+        "https://web.archive.org/web/20121119012218/http://www.edimensional.com/support.php?osCsid=a8rnlh3381mauotojfoo73gm66"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/about_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the company, building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/news.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News / Blog (List)",
+            "selection_reason": "Engages customers with updates and insights about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=21&osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Key area for customers to explore products of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=24&osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another important product category to attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=22&osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Diverse product offerings to cater to various customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/faq.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building customer trust regarding data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/terms.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Important legal information that customers need to understand."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/shopping_cart.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/https://www.edimensional.com/checkout_shipping.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Finalizes the purchase process, essential for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/contact_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Provides support and assistance after purchase, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/https://www.edimensional.com/account.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Encourages repeat business by allowing customers to manage their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/support.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides additional help and resources for customers considering a purchase."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=21&osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/about_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/terms.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/https://www.edimensional.com/account.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=24&osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/support.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=22&osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/news.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News / Blog (List)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/contact_us.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/sel_prod_listing.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Product Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/shopping_cart.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/partners.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/faq.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/https://www.edimensional.com/checkout_shipping.php?osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121119012218/http://www.edimensional.com/index.php?cPath=23&osCsid=a8rnlh3381mauotojfoo73gm66",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-07 13:30:05",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/about_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/news.php",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=24&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=23&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=22&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/faq.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/terms.php",
+        "https://web.archive.org/web/20131226174058/https://www.edimensional.com/checkout_shipping.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/shopping_cart.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/contact_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/account.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/support.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/partners.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+        "https://web.archive.org/web/20131226174058/http://www.edimensional.com/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/about_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides essential information about the brand, helping to build trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/news.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News / Blog (List)",
+            "selection_reason": "Engages customers with updates and insights, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=24&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Showcases product offerings, capturing customer interest effectively."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=23&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another product category that diversifies the interest stage offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=22&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Further enhances product visibility and customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/faq.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling, building trust and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/terms.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Clarifies the terms of service, essential for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/https://www.edimensional.com/checkout_shipping.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Critical for customers making a purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/shopping_cart.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Directly related to the purchase process, vital for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/contact_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Essential for customer support and post-sale inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/account.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Encourages customer retention through account management."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/support.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides assistance, enhancing customer confidence in the purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/partners.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Partners",
+            "selection_reason": "Highlights collaborations, enhancing brand credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, crucial for awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/shopping_cart.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/faq.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=24&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/https://www.edimensional.com/checkout_shipping.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/about_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/partners.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/news.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News / Blog (List)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/support.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=23&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/https://www.edimensional.com/account.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/sel_prod_listing.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Product Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=22&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/terms.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/contact_us.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?cPath=21&osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131226174058/http://www.edimensional.com/index.php?osCsid=if0h4ugimjc8eqvj83k0hk45u0",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-07 13:30:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/about_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/partners.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/news.php",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=21&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=22&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=24&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/faq.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/support.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/privacy.php",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/terms.php",
+        "https://web.archive.org/web/20141012191334/https://www.edimensional.com/checkout_shipping.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/shopping_cart.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/http://www.edimensional.com/contact_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+        "https://web.archive.org/web/20141012191334/https://www.edimensional.com/account.php?osCsid=icqo84sl1j0snir6p5ibvg4js5"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/about_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, crucial for initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/partners.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Partners",
+            "selection_reason": "Highlights partnerships, which can build trust and credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/news.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News / Blog (List)",
+            "selection_reason": "Keeps customers informed about updates and news, fostering engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=21&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Directs customers to specific product categories, enhancing product discovery."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=22&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Another product category that allows customers to explore more options."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=24&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Category",
+            "selection_reason": "Further product category to enhance customer interest and exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/faq.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ",
+            "selection_reason": "Addresses common customer queries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/support.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Support Center",
+            "selection_reason": "Provides support information, crucial for customer confidence before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/privacy.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling, enhancing trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/terms.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Clarifies the terms of service, important for informed customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/https://www.edimensional.com/checkout_shipping.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout - Shipping Information",
+            "selection_reason": "Critical for customers during the purchase process, providing shipping details."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/shopping_cart.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for finalizing purchases, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/contact_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Contact Us (Post-Sale Support)",
+            "selection_reason": "Provides post-sale support, crucial for customer satisfaction and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141012191334/https://www.edimensional.com/account.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account - Dashboard",
+            "selection_reason": "Allows customers to manage their accounts, enhancing retention and loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/about_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com:80/privacy.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/https://www.edimensional.com/checkout_shipping.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout - Shipping Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=21&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/shopping_cart.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/https://www.edimensional.com/account.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account - Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/partners.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Partners"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=22&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/support.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Support Center"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=24&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/contact_us.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Contact Us (Post-Sale Support)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com:80/terms.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com:80/sel_prod_listing.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Product Listing"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/index.php?cPath=23&osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com/faq.php?osCsid=icqo84sl1j0snir6p5ibvg4js5",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20141012191334/http://www.edimensional.com:80/news.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News / Blog (List)"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-07 13:30:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 12,
+      "valid_content_urls_count": 12,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/index.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/ind.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/info.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/google-cardboard.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/pa3dgl.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/privacypolicy.html",
+        "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/actv3dgl.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage that may capture different traffic."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main homepage URL that provides essential brand information."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides general information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Specific product page that generates interest in a popular item."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that showcases a different product."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for customer trust and consideration during the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights another product, catering to customer interests."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151222110035/http://www.edimensional.com:80/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-07 13:30:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/ind.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/pa3dgl.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/google-cardboard.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/actv3dgl.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/privacypolicy.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/info.html",
+        "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/index.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, crucial for brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Detailed product page that generates interest in specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights a popular product, essential for customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that caters to customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides essential information about the company and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another variant of the home page, critical for brand exposure."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223005319/http://www.edimensional.com:80/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 13:31:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/",
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/info.html",
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/actv3dgl.html",
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/pa3dgl.html",
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/google-cardboard.html",
+        "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/privacypolicy.html"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Offers important information about the company and its offerings, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Provides detailed information about a specific product, helping to generate customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that enhances customer interest and showcases product features."
+          },
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights a specific product that may attract customers' attention and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust with customers during their consideration phase."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171225090251/http://www.edimensional.com:80/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-07 13:31:23",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/info.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/google-cardboard.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/pa3dgl.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/actv3dgl.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/privacypolicy.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/ind.html",
+        "https://web.archive.org/web/20181227225729/http://edimensional.com/index.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides essential information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights a specific product, generating interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that captures customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Provides detailed information on a product, crucial for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and addressing customer concerns during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another home page variant that reinforces brand presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Yet another entry point for customers, ensuring accessibility to brand information."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227225729/http://edimensional.com/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-07 13:31:38",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/info.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/ind.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/index.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/google-cardboard.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/pa3dgl.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/actv3dgl.html",
+        "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/privacypolicy.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Offers important information about the company and its offerings, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another home page variant that helps in brand recognition and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Provides a different access point to the home page, ensuring broad visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights a specific product, generating interest and engagement from potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that captures customer interest in specific offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Provides detailed information on a product, crucial for customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust and transparency during the consideration phase."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191223114903/http://www.edimensional.com:80/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-07 13:31:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/index.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/google-cardboard.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/pa3dgl.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/actv3dgl.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/privacypolicy.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/info.html",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/",
+        "https://web.archive.org/web/20201106232800/http://www.edimensional.com/ind.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "This page showcases a specific product, generating interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that helps customers explore options."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Provides detailed information on a different product, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and transparency with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides background information about the company, aiding customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, crucial for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Yet another home page variant, reinforcing brand visibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201106232800/http://www.edimensional.com/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-07 13:32:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/ind.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/index.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/actv3dgl.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/google-cardboard.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/pa3dgl.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/info.html",
+        "https://web.archive.org/web/20211207113003/http://www.edimensional.com/privacypolicy.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage, providing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main homepage URL, essential for brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Detailed product page that generates interest in specific offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Highlights a popular product, crucial for customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that caters to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides essential information about the company, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust during the consideration phase."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211207113003/http://www.edimensional.com/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-07 13:32:12",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20221206144600/https://www.edimensional.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20221206144600/https://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20221206144600/https://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-07 13:32:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/index.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/ind.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/info.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/actv3dgl.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/pa3dgl.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/google-cardboard.html",
+        "https://web.archive.org/web/20231211031439/http://www.edimensional.com/privacypolicy.html"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another important home page that provides brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/ind.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Additional home page variant contributing to brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides essential information about the company and its products."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Detailed product page that generates interest in specific offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another product detail page that showcases product features and benefits."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Specific product page that attracts customers' attention."
+          },
+          {
+            "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and addressing customer concerns."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20231211031439/http://www.edimensional.com/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-07 13:32:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241217070247/https://www.edimensional.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241217070247/https://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241217070247/https://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-07 13:32:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 11,
+      "valid_content_urls_count": 11,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/privacypolicy.html",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/pa3dgl.html",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/actv3dgl.html",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/google-cardboard.html",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/info.html",
+        "https://web.archive.org/web/20250417212543/http://www.edimensional.com/index.html"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/privacypolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Customers need to understand how their data is handled before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/pa3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Detailed product information is crucial for customers to evaluate their options."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/actv3dgl.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Another key product detail page that helps customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/google-cardboard.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Detail (PDP)",
+            "selection_reason": "Specific product page that may attract interest due to its popularity."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/info.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "General Information",
+            "selection_reason": "Provides additional context about the company and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/index.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another home page that serves as a vital entry point for customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/privacypolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/ind.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/pa3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/actv3dgl.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/google-cardboard.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Detail (PDP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/info.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "General Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20250417212543/http://www.edimensional.com/index.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

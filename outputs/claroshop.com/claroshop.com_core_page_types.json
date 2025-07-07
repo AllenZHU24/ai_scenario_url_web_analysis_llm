@@ -1,0 +1,351 @@
+{
+  "generation_time": "2025-07-06 04:39:48",
+  "company_url": "claroshop.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/",
+          "/index.php?route=common/home"
+        ]
+      },
+      {
+        "type_name": "Thematic Landing Page",
+        "typical_url_patterns": [
+          "/c/[theme-name]/",
+          "/l/[theme-name]",
+          "/viva-mexico/",
+          "/cool-fashion/",
+          "/star-wars/"
+        ]
+      },
+      {
+        "type_name": "Promotional Campaign Page",
+        "typical_url_patterns": [
+          "/l/promociones-claroshop",
+          "/claroPromo/",
+          "/Tienda/[id]/[campaign-name]/",
+          "/c/llego-la-navidad/"
+        ]
+      },
+      {
+        "type_name": "Brand Story/Philosophy Page",
+        "typical_url_patterns": [
+          "/philosophy/"
+        ]
+      },
+      {
+        "type_name": "Services Landing Page",
+        "typical_url_patterns": [
+          "/servicios/inbursa/*",
+          "/servicios/telcel/*",
+          "/servicios/claro/*"
+        ]
+      },
+      {
+        "type_name": "Credit Program Landing Page",
+        "typical_url_patterns": [
+          "/credito-claroshop/home",
+          "/c/solicitar-credito/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Page (L1)",
+        "typical_url_patterns": [
+          "/categoria/[id]/[name]",
+          "/cat/[name]",
+          "/p/[id]/[name]"
+        ]
+      },
+      {
+        "type_name": "Sub-Category Page (L2/L3)",
+        "typical_url_patterns": [
+          "/cat/[name]/[name]",
+          "/cat/[name]/[name]/[name]",
+          "/index.php?route=product/category&path=*"
+        ]
+      },
+      {
+        "type_name": "Paginated Listing Page",
+        "typical_url_patterns": [
+          "*/pagina=[number]"
+        ]
+      },
+      {
+        "type_name": "Filtered Listing Page",
+        "typical_url_patterns": [
+          "*?marca=*",
+          "*?precio=*",
+          "*?id=[id]"
+        ]
+      },
+      {
+        "type_name": "All Categories Page",
+        "typical_url_patterns": [
+          "/l/categorias",
+          "/categoria"
+        ]
+      },
+      {
+        "type_name": "Store/Brand Hub Page",
+        "typical_url_patterns": [
+          "/tienda/[id]/[name]",
+          "/tienda/[id]/"
+        ]
+      },
+      {
+        "type_name": "Store-Specific Category Page",
+        "typical_url_patterns": [
+          "/tienda/[id]/[name]/categoria/[id]/[name]"
+        ]
+      },
+      {
+        "type_name": "All Stores Listing Page",
+        "typical_url_patterns": [
+          "/tiendas"
+        ]
+      },
+      {
+        "type_name": "Manufacturer-Specific Page",
+        "typical_url_patterns": [
+          "/index.php?route=product/manufacturer/info&manufacturer_id=*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/s/?c=*"
+        ]
+      },
+      {
+        "type_name": "Offers Landing Page",
+        "typical_url_patterns": [
+          "/c/ofertas/",
+          "/ofertas/",
+          "/l/ofertas-del-mes",
+          "/promociones/ofertaDelDia/"
+        ]
+      },
+      {
+        "type_name": "New Products Landing Page",
+        "typical_url_patterns": [
+          "/c/nuevos-productos/"
+        ]
+      },
+      {
+        "type_name": "Hot Sellers / Most Wanted Page",
+        "typical_url_patterns": [
+          "/c/hot-sellers/",
+          "/c/los-mas-buscados/",
+          "/l/lomasbuscado"
+        ]
+      },
+      {
+        "type_name": "Department Landing Page",
+        "typical_url_patterns": [
+          "/hogar/",
+          "/computo/",
+          "/videojuegos/",
+          "/pantallasdetv/"
+        ]
+      },
+      {
+        "type_name": "Claro Shop Express Landing Page",
+        "typical_url_patterns": [
+          "/c/claroshop-express/",
+          "/c/envios-claroshop-express/"
+        ]
+      },
+      {
+        "type_name": "Digital Mall Page",
+        "typical_url_patterns": [
+          "/mall-digital/"
+        ]
+      },
+      {
+        "type_name": "Experiences Landing Page",
+        "typical_url_patterns": [
+          "/cat/otras categorias/experiencias*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/producto/[id]/[name]",
+          "/producto/[id]/"
+        ]
+      },
+      {
+        "type_name": "Refurbished/Demo Product Page",
+        "typical_url_patterns": [
+          "/producto/*reacondicionado*",
+          "/producto/*remanufacturado*",
+          "/producto/*demo*"
+        ]
+      },
+      {
+        "type_name": "Product Bundle Page",
+        "typical_url_patterns": [
+          "/producto/*bundle*"
+        ]
+      },
+      {
+        "type_name": "Pre-order Product Page",
+        "typical_url_patterns": [
+          "/producto/*preventa*",
+          "/categoria/*preventa*",
+          "/cat/videojuegos/preventa*"
+        ]
+      },
+      {
+        "type_name": "Outfit/Lookbook Page",
+        "typical_url_patterns": [
+          "/outfit-ella",
+          "/outfit-el"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/carrito/",
+          "/carrito/detalle",
+          "/index.php?route=checkout/cart"
+        ]
+      },
+      {
+        "type_name": "Checkout Process",
+        "typical_url_patterns": [
+          "/carrito/iniciar-pedido/*",
+          "/carrito/valida-caja",
+          "/index.php?route=checkout/checkout"
+        ]
+      },
+      {
+        "type_name": "Login/Register Page",
+        "typical_url_patterns": [
+          "/mi-cuenta/iniciar-sesion/",
+          "/index.php?route=account/login",
+          "/index.php?route=account/register"
+        ]
+      },
+      {
+        "type_name": "Payment Methods Information Page",
+        "typical_url_patterns": [
+          "/formas-pago/"
+        ]
+      },
+      {
+        "type_name": "Gift Card / Voucher Page",
+        "typical_url_patterns": [
+          "/index.php?route=account/voucher",
+          "/cat/otras categorias/tarjetas digitales"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status Page",
+        "typical_url_patterns": [
+          "/mi-cuenta/mis-pedidos/[id]/estatus/[id]/"
+        ]
+      },
+      {
+        "type_name": "Returns Policy Page",
+        "typical_url_patterns": [
+          "/politica-devoluciones/"
+        ]
+      },
+      {
+        "type_name": "Returns Request Form",
+        "typical_url_patterns": [
+          "/index.php?route=account/return/insert"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy Page",
+        "typical_url_patterns": [
+          "/politica/?t=74"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/index.php?route=account/account"
+        ]
+      },
+      {
+        "type_name": "Order History Page",
+        "typical_url_patterns": [
+          "/mi-cuenta/mis-pedidos/"
+        ]
+      },
+      {
+        "type_name": "Wishlist Page",
+        "typical_url_patterns": [
+          "/mi-cuenta/listadeseos",
+          "/index.php?route=account/wishlist"
+        ]
+      },
+      {
+        "type_name": "Credit Program Benefits Page",
+        "typical_url_patterns": [
+          "/credito-claroshop/beneficios/"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/index.php?route=information/contact"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/l/faqs"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy Page",
+        "typical_url_patterns": [
+          "/aviso/",
+          "/aviso-privacidad/"
+        ]
+      },
+      {
+        "type_name": "Terms and Conditions Page",
+        "typical_url_patterns": [
+          "/terminos-y-condiciones/"
+        ]
+      },
+      {
+        "type_name": "Wholesale Inquiry Page",
+        "typical_url_patterns": [
+          "/l/formulario-compra-mayoreo"
+        ]
+      },
+      {
+        "type_name": "Donations Page",
+        "typical_url_patterns": [
+          "/donativos"
+        ]
+      },
+      {
+        "type_name": "Brand List Page",
+        "typical_url_patterns": [
+          "/index.php?route=product/manufacturer"
+        ]
+      }
+    ]
+  },
+  "total_types": 48
+}

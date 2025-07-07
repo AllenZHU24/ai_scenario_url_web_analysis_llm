@@ -1,0 +1,346 @@
+{
+  "generation_time": "2025-07-04 20:29:11",
+  "company_url": "bodycandy.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "Blog Main",
+        "typical_url_patterns": [
+          "/blog",
+          "/blogs/news",
+          "/blogs/body-jewelry-blog"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/[year]/[month]/[day]/[slug]",
+          "/blogs/news/[id-slug]",
+          "/blogs/body-jewelry-blog/[id-slug]"
+        ]
+      },
+      {
+        "type_name": "Guides Hub",
+        "typical_url_patterns": [
+          "/pages/guides"
+        ]
+      },
+      {
+        "type_name": "Specific Guide Page",
+        "typical_url_patterns": [
+          "/pages/body-jewelry-sizing-guide",
+          "/pages/piercing-tattoo-aftercare",
+          "/pages/captive-rings-and-horseshoes"
+        ]
+      },
+      {
+        "type_name": "Social Media Hub",
+        "typical_url_patterns": [
+          "/pages/follow-bodycandy-on-social-media"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "General Category/Collection (PLP)",
+        "typical_url_patterns": [
+          "/collections/[name]",
+          "/cgi-bin/category/[name]",
+          "/cgi-bin/category/[name]/[name].html"
+        ]
+      },
+      {
+        "type_name": "Piercing Type Collection",
+        "typical_url_patterns": [
+          "/collections/belly-rings",
+          "/collections/nipple-rings",
+          "/collections/nose-rings",
+          "/collections/tongue-rings",
+          "/collections/tragus-cartilage-earring",
+          "/collections/plugs-tunnels-gauges"
+        ]
+      },
+      {
+        "type_name": "Themed & Seasonal Collection",
+        "typical_url_patterns": [
+          "/collections/holiday-...",
+          "/collections/halloween-...",
+          "/collections/christmas-...",
+          "/cgi-bin/category/body_jewelry_h1/Holiday-Body-Jewelry.html"
+        ]
+      },
+      {
+        "type_name": "Material-Specific Collection",
+        "typical_url_patterns": [
+          "/collections/14k-gold-body-jewelry",
+          "/collections/titanium-...",
+          "/cgi-bin/category/solid14ktgold/...",
+          "/cgi-bin/category/so6ati/..."
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Collection",
+        "typical_url_patterns": [
+          "/collections/playboy-jewelry",
+          "/collections/hello-kitty-jewelry",
+          "/cgi-bin/category/playboy/..."
+        ]
+      },
+      {
+        "type_name": "New Arrivals Collection",
+        "typical_url_patterns": [
+          "/collections/new",
+          "/collections/new-arrivals",
+          "/cgi-bin/category/newarrivals/..."
+        ]
+      },
+      {
+        "type_name": "Informational Category Landing Page",
+        "typical_url_patterns": [
+          "/pages/belly-rings",
+          "/pages/nose-rings",
+          "/pages/ear-piercing",
+          "/pages/plugs"
+        ]
+      },
+      {
+        "type_name": "Replacement Parts Collection",
+        "typical_url_patterns": [
+          "/collections/replacement-balls",
+          "/collections/replacement-shafts",
+          "/cgi-bin/category/addoncharms/..."
+        ]
+      },
+      {
+        "type_name": "\"Bonus Pack\" & Multi-Pack Collection",
+        "typical_url_patterns": [
+          "/collections/belly-ring-bonus-packs",
+          "/collections/bonus-packs",
+          "/cgi-bin/category/bonuspacks/..."
+        ]
+      },
+      {
+        "type_name": "\"Fake\" or Non-Pierced Jewelry Collection",
+        "typical_url_patterns": [
+          "/collections/fake-body-jewelry-on-sale",
+          "/collections/fake-septum-ring",
+          "/cgi-bin/category/fakebodyjewelry/..."
+        ]
+      },
+      {
+        "type_name": "\"All Products\" Collection",
+        "typical_url_patterns": [
+          "/collections/all"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/[product-name]",
+          "/collections/.../products/[product-name]",
+          "/cgi-bin/item/[item-id]"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search?q=[query]",
+          "/search?view=spring&q=[query]",
+          "/cgi-bin/category.cgi?category=search&query=[query]"
+        ]
+      },
+      {
+        "type_name": "Sale / Clearance Collection",
+        "typical_url_patterns": [
+          "/pages/sale",
+          "/collections/sale",
+          "/collections/jewelry-on-sale",
+          "/cgi-bin/category/clearance/..."
+        ]
+      },
+      {
+        "type_name": "Price-Filtered Collection",
+        "typical_url_patterns": [
+          "/collections/under-3-belly-button-rings",
+          "/collections/1-99-body-jewelry",
+          "/cgi-bin/category/199/..."
+        ]
+      },
+      {
+        "type_name": "Customization Tool Page",
+        "typical_url_patterns": [
+          "/collections/create-your-own-belly-ring",
+          "/collections/create-your-own-plugs",
+          "/pages/customized-jewelry"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/a/wishlist",
+          "/apps/wishlist",
+          "/cgi-bin/mywishlist.cgi"
+        ]
+      },
+      {
+        "type_name": "Top Sellers / Featured Collection",
+        "typical_url_patterns": [
+          "/collections/top-sellers",
+          "/collections/featured-...",
+          "/cgi-bin/category.cgi?category=search&query=^topsellers..."
+        ]
+      },
+      {
+        "type_name": "Gift Card Product Page",
+        "typical_url_patterns": [
+          "/products/gift-card"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cgi-bin/Make-a-Store.cgi"
+        ]
+      },
+      {
+        "type_name": "Add to Cart Action",
+        "typical_url_patterns": [
+          "/cgi-bin/Make-a-Store.cgi?item=...&add=1"
+        ]
+      },
+      {
+        "type_name": "Checkout Process",
+        "typical_url_patterns": [
+          "/checkout",
+          "/cgi-bin/Make-a-Store.cgi?Purchase=yes"
+        ]
+      },
+      {
+        "type_name": "Coupon / Promotions Page",
+        "typical_url_patterns": [
+          "/pages/coupon",
+          "/cgi-bin/category/body-candy-coupons"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Purchase Page",
+        "typical_url_patterns": [
+          "/cgi-bin/category/giftcertificate/..."
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order History / Status",
+        "typical_url_patterns": [
+          "/cgi-bin/myhistory.cgi",
+          "/cgi-bin/myorder.cgi",
+          "/cgi-bin/category/checkorders"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/pages/shipping-policy"
+        ]
+      },
+      {
+        "type_name": "Return Policy",
+        "typical_url_patterns": [
+          "/pages/return-policy"
+        ]
+      },
+      {
+        "type_name": "Help / FAQ Center",
+        "typical_url_patterns": [
+          "/pages/help",
+          "/pages/order-help"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/pages/contact-us"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Dashboard",
+        "typical_url_patterns": [
+          "/account"
+        ]
+      },
+      {
+        "type_name": "Account Login",
+        "typical_url_patterns": [
+          "/account/login"
+        ]
+      },
+      {
+        "type_name": "Rewards / Loyalty Program",
+        "typical_url_patterns": [
+          "/pages/rewards",
+          "/cgi-bin/category/rewards"
+        ]
+      },
+      {
+        "type_name": "Subscription Product Page",
+        "typical_url_patterns": [
+          "/products/belly-ring-monthly-club",
+          "/products/nipple-ring-monthly-club",
+          "/products/industrial-piercing-monthly-club"
+        ]
+      },
+      {
+        "type_name": "Subscription Info Page",
+        "typical_url_patterns": [
+          "/pages/body-candy-monthly-club",
+          "/pages/subscription-service-instructions-faqs"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/pages/about-us"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/pages/affiliate-program",
+          "/cgi-bin/category/affiliate"
+        ]
+      },
+      {
+        "type_name": "Brand Ambassador Program",
+        "typical_url_patterns": [
+          "/pages/body-candy-brand-ambassador",
+          "/pages/brand-ambassador-body-candy"
+        ]
+      },
+      {
+        "type_name": "General Policy Page",
+        "typical_url_patterns": [
+          "/pages/terms-of-service",
+          "/pages/privacy-policy",
+          "/pages/accessibility",
+          "/cgi-bin/category/privacypolicy"
+        ]
+      }
+    ]
+  },
+  "total_types": 44
+}

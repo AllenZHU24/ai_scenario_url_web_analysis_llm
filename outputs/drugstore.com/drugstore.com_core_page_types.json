@@ -1,0 +1,366 @@
+{
+  "generation_time": "2025-07-07 11:25:57",
+  "company_url": "drugstore.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Information",
+        "typical_url_patterns": [
+          "/aboutus",
+          "/corporate/about.asp"
+        ]
+      },
+      {
+        "type_name": "Press / Newsroom",
+        "typical_url_patterns": [
+          "/press",
+          "/news"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/careers",
+          "/jobs"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliates",
+          "/affiliate_program.asp"
+        ]
+      },
+      {
+        "type_name": "Health Resource Center / Blog",
+        "typical_url_patterns": [
+          "/health-center",
+          "/advice/",
+          "/articles/"
+        ]
+      },
+      {
+        "type_name": "Promotional Landing Page",
+        "typical_url_patterns": [
+          "/promo/*",
+          "/lp/*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category",
+        "typical_url_patterns": [
+          "/g/*",
+          "/templates/category/*",
+          "/shop/*"
+        ]
+      },
+      {
+        "type_name": "Sub-Category",
+        "typical_url_patterns": [
+          "/g/*/*",
+          "/templates/subcategory/*"
+        ]
+      },
+      {
+        "type_name": "Brand Page / Brand Shop",
+        "typical_url_patterns": [
+          "/b/*",
+          "/brands/*"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search.asp?query=*",
+          "/search/?q=*"
+        ]
+      },
+      {
+        "type_name": "Deals / Offers Hub",
+        "typical_url_patterns": [
+          "/deals",
+          "/offers",
+          "/sale"
+        ]
+      },
+      {
+        "type_name": "Coupons Page",
+        "typical_url_patterns": [
+          "/coupons",
+          "/coupon_codes.asp"
+        ]
+      },
+      {
+        "type_name": "Clearance",
+        "typical_url_patterns": [
+          "/clearance"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/new"
+        ]
+      },
+      {
+        "type_name": "Best Sellers",
+        "typical_url_patterns": [
+          "/bestsellers"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/products/p/*",
+          "/prod.asp?pid=*"
+        ]
+      },
+      {
+        "type_name": "Product Reviews",
+        "typical_url_patterns": [
+          "/products/p/*/reviews",
+          "/reviews.asp?pid=*"
+        ]
+      },
+      {
+        "type_name": "Product Q&A",
+        "typical_url_patterns": [
+          "/products/p/*/questions",
+          "/qna.asp?pid=*"
+        ]
+      },
+      {
+        "type_name": "Product Comparison",
+        "typical_url_patterns": [
+          "/compare",
+          "/product_compare.asp"
+        ]
+      },
+      {
+        "type_name": "Buying Guides",
+        "typical_url_patterns": [
+          "/guides/*",
+          "/buying-guide/*"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Favorites",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/favorites"
+        ]
+      },
+      {
+        "type_name": "Recently Viewed Items",
+        "typical_url_patterns": [
+          "/recentlyviewed"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Basket",
+        "typical_url_patterns": [
+          "/cart",
+          "/basket",
+          "/shoppingcart.asp"
+        ]
+      },
+      {
+        "type_name": "Checkout - Sign In / Guest",
+        "typical_url_patterns": [
+          "/checkout/signin.asp",
+          "/checkout/login"
+        ]
+      },
+      {
+        "type_name": "Checkout - Shipping",
+        "typical_url_patterns": [
+          "/checkout/shipping.asp",
+          "/checkout/address"
+        ]
+      },
+      {
+        "type_name": "Checkout - Billing",
+        "typical_url_patterns": [
+          "/checkout/billing.asp"
+        ]
+      },
+      {
+        "type_name": "Checkout - Payment",
+        "typical_url_patterns": [
+          "/checkout/payment.asp"
+        ]
+      },
+      {
+        "type_name": "Checkout - Order Review",
+        "typical_url_patterns": [
+          "/checkout/review.asp",
+          "/checkout/confirm"
+        ]
+      },
+      {
+        "type_name": "FSA / HSA Store Information",
+        "typical_url_patterns": [
+          "/fsa",
+          "/hsa"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Confirmation / Thank You",
+        "typical_url_patterns": [
+          "/checkout/thankyou",
+          "/order.asp?level=confirm"
+        ]
+      },
+      {
+        "type_name": "My Account - Dashboard",
+        "typical_url_patterns": [
+          "/account",
+          "/myaccount"
+        ]
+      },
+      {
+        "type_name": "My Account - Order History",
+        "typical_url_patterns": [
+          "/account/orders",
+          "/orderhistory.asp"
+        ]
+      },
+      {
+        "type_name": "My Account - Order Details",
+        "typical_url_patterns": [
+          "/account/orders/*",
+          "/orderstatus.asp?oid=*"
+        ]
+      },
+      {
+        "type_name": "Track Order (Guest)",
+        "typical_url_patterns": [
+          "/trackorder"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy",
+        "typical_url_patterns": [
+          "/shipping",
+          "/help/shipping.asp"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns",
+          "/help/returns.asp"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account - Profile Settings",
+        "typical_url_patterns": [
+          "/account/profile",
+          "/account/settings"
+        ]
+      },
+      {
+        "type_name": "My Account - Address Book",
+        "typical_url_patterns": [
+          "/account/addressbook"
+        ]
+      },
+      {
+        "type_name": "My Account - Payment Methods",
+        "typical_url_patterns": [
+          "/account/wallet",
+          "/account/payment"
+        ]
+      },
+      {
+        "type_name": "Auto-Reorder & Subscriptions",
+        "typical_url_patterns": [
+          "/account/subscriptions",
+          "/autorefill",
+          "/easyrefill"
+        ]
+      },
+      {
+        "type_name": "Loyalty / Rewards Program",
+        "typical_url_patterns": [
+          "/rewards",
+          "/loyalty"
+        ]
+      },
+      {
+        "type_name": "Refer a Friend",
+        "typical_url_patterns": [
+          "/referafriend",
+          "/refer"
+        ]
+      },
+      {
+        "type_name": "Email / Newsletter Signup",
+        "typical_url_patterns": [
+          "/newsletter",
+          "/email-signup"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Help / FAQ",
+        "typical_url_patterns": [
+          "/help",
+          "/faq",
+          "/customerservice"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contactus",
+          "/contact.asp"
+        ]
+      },
+      {
+        "type_name": "Site Map",
+        "typical_url_patterns": [
+          "/sitemap",
+          "/sitemap.asp"
+        ]
+      },
+      {
+        "type_name": "Prescription (Rx) Home / Pharmacy",
+        "typical_url_patterns": [
+          "/pharmacy",
+          "/rx"
+        ]
+      },
+      {
+        "type_name": "Prescription (Rx) Refill",
+        "typical_url_patterns": [
+          "/rx/refill",
+          "/pharmacy/refill.asp"
+        ]
+      },
+      {
+        "type_name": "My Account - Prescription Management",
+        "typical_url_patterns": [
+          "/account/rx",
+          "/myrx"
+        ]
+      }
+    ]
+  },
+  "total_types": 50
+}

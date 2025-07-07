@@ -1,0 +1,321 @@
+{
+  "generation_time": "2025-07-06 08:51:33",
+  "company_url": "dailylook.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/?showhome=true"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/f/about",
+          "/g/About-Us/*.html"
+        ]
+      },
+      {
+        "type_name": "Value Proposition Page",
+        "typical_url_patterns": [
+          "/*-reasons-to-love-dailylook"
+        ]
+      },
+      {
+        "type_name": "Stylist Bio Page",
+        "typical_url_patterns": [
+          "/ourstylists",
+          "/personal-stylists",
+          "/g/Our-Stylists/*.html"
+        ]
+      },
+      {
+        "type_name": "Blog / Magazine",
+        "typical_url_patterns": [
+          "/mag"
+        ]
+      },
+      {
+        "type_name": "Lookbook / Style Gallery",
+        "typical_url_patterns": [
+          "/f/lookbooks",
+          "/style-gallery",
+          "/f/looks",
+          "/f/member-looks"
+        ]
+      },
+      {
+        "type_name": "Press Page",
+        "typical_url_patterns": [
+          "/f/press"
+        ]
+      },
+      {
+        "type_name": "Careers Page",
+        "typical_url_patterns": [
+          "/f/careers"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Product Category (PLP)",
+        "typical_url_patterns": [
+          "/c/Clothing/1/*.html",
+          "/c/Shoes/1/*.html",
+          "/c/Accessories/1/*.html",
+          "/c/Bags/1/*.html"
+        ]
+      },
+      {
+        "type_name": "Product Sub-Category (PLP)",
+        "typical_url_patterns": [
+          "/c/Dresses/2/*.html",
+          "/c/Skirts/2/*.html",
+          "/c/Little-Black-Dresses/3/*.html"
+        ]
+      },
+      {
+        "type_name": "All Products Listing",
+        "typical_url_patterns": [
+          "/c/All-Products/1/100.html"
+        ]
+      },
+      {
+        "type_name": "\"Looks\" Themed Category",
+        "typical_url_patterns": [
+          "/c/All-Looks/1/100.html"
+        ]
+      },
+      {
+        "type_name": "Curated Collection / Edit",
+        "typical_url_patterns": [
+          "/c/All-Looks/1/100.html?filters=department~exact~*",
+          "/c/Know-Yourself/1/*.html",
+          "/g/Resort/*.html"
+        ]
+      },
+      {
+        "type_name": "Filtered & Sorted Category",
+        "typical_url_patterns": [
+          "/c/*?filters=*",
+          "/c/*?sortby=*"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/New-Arrivals-*",
+          "/c/*?newArrivals=true"
+        ]
+      },
+      {
+        "type_name": "Sale / Outlet Page",
+        "typical_url_patterns": [
+          "/c/sample-sale/1/100.html",
+          "/g/Sale/*.html",
+          "/c/*?filters=percentsavings~*"
+        ]
+      },
+      {
+        "type_name": "Brand Directory",
+        "typical_url_patterns": [
+          "/all-brands"
+        ]
+      },
+      {
+        "type_name": "Brand-Specific Listing",
+        "typical_url_patterns": [
+          "/c/All-Products/1/100.html?filters=vendorname~exact~*"
+        ]
+      },
+      {
+        "type_name": "Gift Guide",
+        "typical_url_patterns": [
+          "/Holiday-Gift-Guide",
+          "/c/Gift-Guide/1/*.html",
+          "/c/Gifts-Under-*"
+        ]
+      },
+      {
+        "type_name": "Visual Category Page",
+        "typical_url_patterns": [
+          "/vc/clothing"
+        ]
+      },
+      {
+        "type_name": "Shop All Page",
+        "typical_url_patterns": [
+          "/shop"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/c/[0-9]*/1/[0-9]*.html"
+        ]
+      },
+      {
+        "type_name": "Aggregated Reviews Page",
+        "typical_url_patterns": [
+          "/productreviews",
+          "/dailylook-reviews"
+        ]
+      },
+      {
+        "type_name": "Styling Service Landing Page",
+        "typical_url_patterns": [
+          "/getstyled",
+          "/elite"
+        ]
+      },
+      {
+        "type_name": "Styling Service - How It Works",
+        "typical_url_patterns": [
+          "/getstyled?sectionLink=howitworks",
+          "/g/How-It-Works/*.html"
+        ]
+      },
+      {
+        "type_name": "Styling Service - Pricing",
+        "typical_url_patterns": [
+          "/getstyled?sectionLink=pricing",
+          "/elite?sectionLink=pricing"
+        ]
+      },
+      {
+        "type_name": "Styling Service - FAQ",
+        "typical_url_patterns": [
+          "/g/box-service-faq/*.html"
+        ]
+      },
+      {
+        "type_name": "General FAQ / Help Center",
+        "typical_url_patterns": [
+          "/help",
+          "/pg/jsp/help/faq.jsp"
+        ]
+      },
+      {
+        "type_name": "Styling Service Terms",
+        "typical_url_patterns": [
+          "/DLBox-terms",
+          "/elite-terms"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Style Profile / Quiz",
+        "typical_url_patterns": [
+          "/style-profile"
+        ]
+      },
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart?action=editCart"
+        ]
+      },
+      {
+        "type_name": "Gift Card Purchase Page",
+        "typical_url_patterns": [
+          "/gift-cards"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/myaccount"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/order?action=myOrders"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/f/shipping-info",
+          "/g/Domestic-Shipping/*.html",
+          "/f/international"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/f/returns-exchanges",
+          "/g/*-Day-Returns/*.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Referral Program Page",
+        "typical_url_patterns": [
+          "/share-dailylook",
+          "/g/Invite-Friends/*.html"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program Page",
+        "typical_url_patterns": [
+          "/affiliates"
+        ]
+      },
+      {
+        "type_name": "Password Reset",
+        "typical_url_patterns": [
+          "/pg/jsp/member/forgotpasswordwithemail.jsp"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/contactus",
+          "/f/help-contact-us"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/g/Privacy-Policy/*.html"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/g/Terms-and-Conditions-of-Use/*.html"
+        ]
+      },
+      {
+        "type_name": "Privacy Request Form",
+        "typical_url_patterns": [
+          "/privacy-information-request"
+        ]
+      },
+      {
+        "type_name": "Text Messaging Terms",
+        "typical_url_patterns": [
+          "/g/DL-Text-Terms/*.html"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/f/site-map"
+        ]
+      }
+    ]
+  },
+  "total_types": 45
+}

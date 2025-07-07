@@ -1,0 +1,344 @@
+{
+  "generation_time": "2025-07-07 13:51:18",
+  "company_url": "eforcity.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/",
+          "/index.html*"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/aboutus.html*",
+          "/about-us"
+        ]
+      },
+      {
+        "type_name": "Promotions & Sales Landing",
+        "typical_url_patterns": [
+          "/promotion.html*",
+          "/weekly-specials.html*",
+          "/hot-selling.html*"
+        ]
+      },
+      {
+        "type_name": "Clearance Hub",
+        "typical_url_patterns": [
+          "/web-clearance-center.html*",
+          "/web-clearance-center.htm*"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/new-arrivals.html*"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program",
+        "typical_url_patterns": [
+          "/affiliate-program.html*"
+        ]
+      },
+      {
+        "type_name": "Awards & Ratings Page",
+        "typical_url_patterns": [
+          "/awards.html*",
+          "/ratings.html*",
+          "/reward-ratings.html*"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy.html*",
+          "/privacy-policy"
+        ]
+      },
+      {
+        "type_name": "Terms & Legal",
+        "typical_url_patterns": [
+          "/terms",
+          "/copyrightdisclaimer.html*"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Top-Level Category Hub",
+        "typical_url_patterns": [
+          "/{category-name}.html",
+          "/catalog/{category-name}"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/efsearch2.html*",
+          "/search?*",
+          "/catalogsearch/result/*"
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/{brand-name}.html",
+          "/search?title={brand-name}*"
+        ]
+      },
+      {
+        "type_name": "Content & Tech Articles",
+        "typical_url_patterns": [
+          "/tech-articles.html*"
+        ]
+      },
+      {
+        "type_name": "News Page",
+        "typical_url_patterns": [
+          "/news.html*"
+        ]
+      },
+      {
+        "type_name": "All Brands Listing",
+        "typical_url_patterns": [
+          "/cell-phone-accessories-shop-by-all-brands.html*"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Mid-Level Category Page",
+        "typical_url_patterns": [
+          "/{cat}/{cat}-{subcat}.html",
+          "/catalog/{cat}/{subcat}"
+        ]
+      },
+      {
+        "type_name": "Leaf-Level Category Page",
+        "typical_url_patterns": [
+          "/{cat}/{subcat}/{leafcat}.html",
+          "/catalog/{cat}-{subcat}-{leafcat}"
+        ]
+      },
+      {
+        "type_name": "Product-Specific Accessory Category",
+        "typical_url_patterns": [
+          "/accessories-for-*.html",
+          "/*-accessories.html"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*-{product-name}.html",
+          "/{product-code}.html"
+        ]
+      },
+      {
+        "type_name": "Customer Reviews Hub",
+        "typical_url_patterns": [
+          "/customer-reviews.html*"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/faqs.html*"
+        ]
+      },
+      {
+        "type_name": "Shipping Policy Page",
+        "typical_url_patterns": [
+          "/shipping.html*",
+          "/shipping-policy"
+        ]
+      },
+      {
+        "type_name": "Return Policy Page",
+        "typical_url_patterns": [
+          "/return.html*",
+          "/return-policy"
+        ]
+      },
+      {
+        "type_name": "Category: Electronics",
+        "typical_url_patterns": [
+          "/catalog/electronics",
+          "/electronics.html",
+          "/catalog/electronics-*",
+          "/electronics/*"
+        ]
+      },
+      {
+        "type_name": "Category: Automotive",
+        "typical_url_patterns": [
+          "/catalog/automotive",
+          "/automative.html",
+          "/catalog/automotive-*",
+          "/automative/*"
+        ]
+      },
+      {
+        "type_name": "Category: Home & Kitchen",
+        "typical_url_patterns": [
+          "/catalog/home-&-kitchen",
+          "/home-kitchen.html",
+          "/catalog/home-&-kitchen-*",
+          "/home-kitchen/*"
+        ]
+      },
+      {
+        "type_name": "Category: Games & Toys",
+        "typical_url_patterns": [
+          "/catalog/games-&-toys",
+          "/games.html",
+          "/catalog/games-&-toys-*",
+          "/games-toys/*"
+        ]
+      },
+      {
+        "type_name": "Category: Beauty & Fashion",
+        "typical_url_patterns": [
+          "/catalog/beauty-&-fashion",
+          "/beauty-fashion.html",
+          "/catalog/beauty-&-fashion-*",
+          "/beauty-fashion/*"
+        ]
+      },
+      {
+        "type_name": "Category: Office Supplies",
+        "typical_url_patterns": [
+          "/catalog/office-supplies",
+          "/office-supplies.html",
+          "/catalog/office-supplies-*",
+          "/office-supplies/*"
+        ]
+      },
+      {
+        "type_name": "Category: Pets",
+        "typical_url_patterns": [
+          "/catalog/pets",
+          "/pets.html",
+          "/catalog/pets-*",
+          "/pets/*"
+        ]
+      },
+      {
+        "type_name": "Category: Party Supplies",
+        "typical_url_patterns": [
+          "/catalog/party-supplies-*"
+        ]
+      },
+      {
+        "type_name": "Category: Arts, Crafts & Sewing",
+        "typical_url_patterns": [
+          "/catalog/arts,-crafts-&-sewing*"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/checkout/cart/"
+        ]
+      },
+      {
+        "type_name": "Checkout Process",
+        "typical_url_patterns": [
+          "/checkout/*",
+          "/checkout/onepage/*"
+        ]
+      },
+      {
+        "type_name": "Order Confirmation / Success Page",
+        "typical_url_patterns": [
+          "/checkout/onepage/success/"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Tracking Page",
+        "typical_url_patterns": [
+          "/order-tracking.html*"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contactus.html*",
+          "/contact"
+        ]
+      },
+      {
+        "type_name": "My Account - Order History",
+        "typical_url_patterns": [
+          "/customer/account/orders/"
+        ]
+      },
+      {
+        "type_name": "My Account - Order Details",
+        "typical_url_patterns": [
+          "/customer/account/order/view/order_id/*"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/",
+          "/customer/account/index/"
+        ]
+      },
+      {
+        "type_name": "Account Login Page",
+        "typical_url_patterns": [
+          "/customer/account/login/"
+        ]
+      },
+      {
+        "type_name": "Account Registration Page",
+        "typical_url_patterns": [
+          "/customer/account/create/"
+        ]
+      },
+      {
+        "type_name": "My Account - Address Book",
+        "typical_url_patterns": [
+          "/customer/account/address/"
+        ]
+      },
+      {
+        "type_name": "My Account - Wishlist",
+        "typical_url_patterns": [
+          "/wishlist/*"
+        ]
+      },
+      {
+        "type_name": "My Account - Product Reviews",
+        "typical_url_patterns": [
+          "/review/customer/*"
+        ]
+      },
+      {
+        "type_name": "Newsletter Signup Page",
+        "typical_url_patterns": [
+          "/subscribe-newsletter-center.html"
+        ]
+      },
+      {
+        "type_name": "Password Reset Page",
+        "typical_url_patterns": [
+          "/customer/account/forgotpassword/"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

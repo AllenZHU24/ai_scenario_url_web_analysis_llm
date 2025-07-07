@@ -1,0 +1,3131 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "bookbyte.com",
+  "export_time": "2025-07-07 11:07:12",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-04 21:06:08",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 52,
+      "valid_content_urls_count": 52,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/Buy.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/sell.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/Help.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/Cart.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/OrderStatus.aspx",
+        "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/AccountMain.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/AboutUs.aspx",
+        "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/ContactUs.aspx",
+        "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/supplies/supplies.aspx?cn=true&desc=menu_p3",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/k12/default.aspx?cn=true&desc=menu_p8",
+        "https://web.archive.org/web/20091230225708/http://bookbyte.com/homeschool/default.aspx?cn=true&desc=menu_p7"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Buy.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This page is crucial for customers interested in purchasing textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/sell.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This page attracts customers looking to sell their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Provides essential information to assist customers in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/OrderStatus.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/AccountMain.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Essential for customers to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/AboutUs.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Helps build trust and credibility with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/ContactUs.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support or inquiries."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for customer trust and compliance with data protection regulations."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms under which customers use the website, essential for legal compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/supplies/supplies.aspx?cn=true&desc=menu_p3",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Non-Book Product Category (Supplies)",
+            "selection_reason": "Diversifies product offerings and attracts customers interested in supplies."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/k12/default.aspx?cn=true&desc=menu_p8",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Audience-Specific Hub (K-12)",
+            "selection_reason": "Targets a specific audience, enhancing relevance for K-12 customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/homeschool/default.aspx?cn=true&desc=menu_p7",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Audience-Specific Hub (Homeschool)",
+            "selection_reason": "Addresses the needs of homeschool customers, expanding market reach."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Buy.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/supplies/supplies.aspx?cn=true&desc=menu_p3",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Supplies)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/AccountMain.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/ContactUs.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/barcharts.aspx?cn=true&desc=hp_n3_t1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Bar Charts)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/OrderStatus.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/ContactUs.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/Help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/accountmain.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/AboutUs.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/supplies/supplies.aspx?cn=true&desc=hp_n4_t2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Supplies)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/sell.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/k12/default.aspx?cn=true&desc=menu_p8",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audience-Specific Hub (K-12)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/barcharts.aspx?cn=true&desc=menu_p4",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Bar Charts)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/supplies/supplies.aspx?cn=true&desc=hp_n4_t1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Supplies)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/sell.aspx?cn=true&desc=hp_n1_t2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/barcharts.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Bar Charts)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/sell.aspx?cn=true&desc=hp_n1_t1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/supplies/wallets.aspx?cn=true&desc=menu_box2_t2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Supplies)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/homeschool/default.aspx?cn=true&desc=menu_p7",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Audience-Specific Hub (Homeschool)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/sell.aspx?cn=true&desc=menu_box1_t1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/sell.aspx?cn=true&desc=menu_box1_t2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://www.bookbyte.com/supplies/wallets.aspx?cn=true&desc=menu_box2_t1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Supplies)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091230225708/http://bookbyte.com/barcharts.aspx?cn=true&desc=hp_n3_t2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Non-Book Product Category (Bar Charts)"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-04 21:06:30",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 89,
+      "valid_content_urls_count": 89,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/BrowseTextbooks.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/ReturnPolicy.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/aboutus.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/ContactUs.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/PrivacyPolicy.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/TermsOfUse.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/AdvancedSearch.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/feedback.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/myaccount.aspx",
+        "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/Employment/Default.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This page attracts customers interested in selling their textbooks, a key service."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/BrowseTextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Subjects/Browse Page",
+            "selection_reason": "This page allows customers to explore available textbooks across various subjects."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Provides answers to common questions, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/ReturnPolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Important for customers to understand the return process before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Helps build trust by informing customers about the company's background and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/ContactUs.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/PrivacyPolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection, which is crucial for building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/TermsOfUse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the rules and guidelines for using the website, important for customer understanding."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/AdvancedSearch.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Advanced Search",
+            "selection_reason": "Enhances user experience by allowing customers to find specific textbooks easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "Directs customers to purchase options, crucial for converting interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/feedback.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Testimonials & Feedback",
+            "selection_reason": "Provides social proof and customer experiences, influencing potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/myaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Allows returning customers to manage their accounts and orders, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/Employment/Default.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Careers",
+            "selection_reason": "Engages customers interested in employment opportunities, fostering community connection."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/Employment/Default.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/ReturnPolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/BrowseTextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/MyAccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/MyAccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/feedback.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Feedback"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/TermsOfUse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/SellTextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/PrivacyPolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/AdvancedSearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/AboutUs.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/myaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/ContactUs.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20101203030453/http://www.bookbyte.com/Help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-04 21:06:51",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/socialmissions.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/returnpolicy.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/myaccount.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/contactus.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/termsofuse.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page informs potential partners about the affiliate program, enhancing brand visibility and outreach."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/socialmissions.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Social Mission / CSR Page",
+            "selection_reason": "Highlights the company's social responsibility initiatives, appealing to socially conscious consumers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "A key hub for customers interested in purchasing textbooks, showcasing available products."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "Provides information on renting textbooks, catering to budget-conscious students."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "Encourages customers to sell their textbooks, creating a circular economy and attracting more users."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Addresses common customer queries, aiding in decision-making and reducing purchase friction."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies build trust and confidence in the purchasing process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides insight into the company's mission and values, fostering a connection with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for the purchase process, allowing customers to review their selections before checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/myaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Enables customers to manage their accounts, enhancing user experience and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/contactus.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Facilitates communication with customers, essential for support and relationship building."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling practices, crucial for building trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the legal framework of using the site, important for customer awareness and compliance."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/contactus.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/contactus.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/BuyTextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/myaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/feedback.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Feedback"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/testimonialsandfeedback.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Feedback"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20111225015711/http://www.bookbyte.com:80/socialmissions.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Mission / CSR Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-04 21:07:09",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 54,
+      "valid_content_urls_count": 54,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/shippingpolicy.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/contactus.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/myaccount.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/privacypolicy.aspx"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to learn about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "Key page for customers interested in purchasing textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "Important for customers considering renting textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "Crucial for customers looking to sell their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/shippingpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Rates & Policy",
+            "selection_reason": "Important for customers to understand shipping costs and policies."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customers to know the return process before purchasing."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Provides answers to common questions, aiding customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds trust by informing customers about the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/contactus.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Allows customers to reach out for support, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/myaccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Enables customers to manage their accounts, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Important for customers to understand their rights and obligations."
+          },
+          {
+            "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust by informing customers about data usage."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 26,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/mobile.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/shippingpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Rates & Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/mobile.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/contactus.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/testimonialsandfeedback.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Testimonials & Feedback"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/myaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/myaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com:80/socialmissions.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Mission / CSR Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/browsetextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/employment/default.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/cheap-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121231053246/http://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-04 21:07:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 25,
+      "valid_content_urls_count": 25,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/mobile.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cheap-textbooks.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/MyAccount.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/termsofuse.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/mobile.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Information",
+            "selection_reason": "Provides information about the mobile app, attracting mobile users."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "Encourages partnerships and expands brand reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cheap-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "Attracts users looking for affordable textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "Directs customers to purchase options, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "Offers rental options, appealing to budget-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "Encourages users to sell their textbooks, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds trust and credibility with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about return options, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Provides answers to common questions, facilitating customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases and enhancing conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for account access and purchase completion."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/MyAccount.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Facilitates user account management, promoting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing users about data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies user rights and responsibilities, enhancing transparency."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 23,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/MyAccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/changepassword.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Change Password Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/becomemarketplaceseller.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Marketplace Seller Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/updateyouraccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Update Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/myselleraccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Seller Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/mobile.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/cheap-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/myaccount.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/socialmissions.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Social Mission / CSR Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131231012936/http://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-04 21:07:51",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/MobileApp.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/advancedsearch.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/termsofuse.aspx"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 16,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of services."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/MobileApp.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Mobile App Information",
+            "selection_reason": "Highlights the mobile app, attracting tech-savvy customers and enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "Promotes partnership opportunities, expanding reach and customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/advancedsearch.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Advanced Search",
+            "selection_reason": "Allows customers to refine their search, enhancing user experience and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "Provides options for renting textbooks, appealing to budget-conscious students."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "Central hub for purchasing textbooks, crucial for driving sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "Encourages customers to sell their textbooks, increasing engagement and inventory."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for the purchase process, facilitating customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Builds trust and credibility by informing customers about the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "Encourages customers to consider selling back textbooks, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about return options, reducing purchase anxiety."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Provides assistance and answers to common questions, improving customer experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Encourages customer retention by allowing users to manage their accounts easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the terms of service, ensuring transparency and trust with customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 19,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/MobileApp.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Mobile App Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/help.aspx?topic=bt_6&line=ha_70",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141223205219/https://www.bookbyte.com/cheap-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-04 21:08:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cheap-textbooks.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/subjects.aspx",
+        "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/affiliates.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This hub attracts customers interested in selling their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "This hub caters to customers looking to rent textbooks, a key service."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cheap-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub is crucial for customers interested in purchasing affordable textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "This form is important for customers considering selling back their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Understanding the return policy is vital for customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "This hub provides essential support and information for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is critical for customers ready to make a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for finalizing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "The account dashboard is important for customer retention and management."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy builds trust and informs customers about data handling."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Understanding the terms of use is important for customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "The 'About Us' page helps customers connect with the brand and its values."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/subjects.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Subjects/Browse Page",
+            "selection_reason": "This page allows customers to explore available subjects and options."
+          },
+          {
+            "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page promotes the affiliate program, expanding brand awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cheap-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/help.aspx?topic=bt_6&line=ha_70",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20151231101426/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-04 21:08:34",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/default.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/advancedsearch.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/promotions.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/privacypolicy.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that can attract and inform potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page helps in building partnerships and increasing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "This hub caters to customers interested in renting textbooks, a key service offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This page is essential for customers looking to sell their textbooks, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub is critical for customers interested in purchasing textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/advancedsearch.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Advanced Search",
+            "selection_reason": "The advanced search feature helps users find specific textbooks, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are vital for customer trust and decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "This form is important for customers considering selling back their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Providing help and FAQs is essential for addressing customer concerns and enhancing their experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is critical for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/promotions.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional/Giveaway Page",
+            "selection_reason": "Promotions attract customers and encourage purchases, making this page important."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "The account dashboard is crucial for customer retention and managing user profiles."
+          },
+          {
+            "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy is essential for building trust and ensuring customer confidence."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/promotions.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional/Giveaway Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161227020019/https://www.bookbyte.com/help.aspx?topic=bt_6&line=ha_70",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-04 21:08:53",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/default.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/buytextbooks.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/rent-textbooks.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/advancedsearch.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/cart.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/Policy.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/default.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog helps in building brand awareness and engaging customers with valuable content."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page informs potential partners about affiliate opportunities, expanding brand reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/buytextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub is crucial for customers looking to purchase textbooks, driving interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/rent-textbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Rent Textbooks Hub",
+            "selection_reason": "This page caters to customers interested in renting textbooks, providing alternative purchasing options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This hub attracts customers interested in selling their textbooks, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/advancedsearch.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Advanced Search",
+            "selection_reason": "The advanced search feature helps customers find specific products, improving user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are essential for customer trust and decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "This hub provides answers to common questions, aiding customers in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/cart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is crucial for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is essential for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy builds trust and is important for retaining customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clear terms of use are vital for customer understanding and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/Policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "General Policy Page",
+            "selection_reason": "General policies help customers understand their rights and responsibilities, fostering loyalty."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 20,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/buytextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/advancedsearch.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Advanced Search"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/rent-textbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Rent Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/default.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/Policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "General Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/cart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/Help/ShippingRates.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Rates & Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226234852/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-04 21:09:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 17,
+      "valid_content_urls_count": 17,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/subjects.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/cheap-textbooks/",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/returnpolicy.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/Policy.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/termsofuse.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that raises awareness and engages potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page informs potential partners about affiliate opportunities, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/subjects.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Subjects/Browse Page",
+            "selection_reason": "This page allows customers to explore various subjects, catering to their interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This hub provides information on selling textbooks, attracting customers interested in this service."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/cheap-textbooks/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub highlights affordable textbook options, appealing to budget-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "This form is crucial for customers considering selling back their textbooks, facilitating the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/returnpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "The return policy is vital for customers evaluating their purchase risks and options."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "This hub addresses common customer inquiries, aiding in their consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust by providing background information about the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is critical for customers ready to make a purchase or manage their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "The account dashboard is essential for customer retention, allowing users to manage their profiles and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/Policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "General Policy Page",
+            "selection_reason": "This page outlines the company's policies, fostering transparency and trust with existing customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy reassures customers about data protection, which is crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "This page informs customers about the terms governing their use of the site, contributing to a trustworthy relationship."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/Policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "General Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/returnpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/subjects.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Subjects/Browse Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/Help/ShippingRates.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Rates & Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181227223159/https://www.bookbyte.com/cheap-textbooks/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-04 21:09:36",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/cheap-textbooks/",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buybackpolicy.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Policy.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Help/ShippingRates.aspx",
+        "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/affiliates.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the services offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that can attract and inform potential customers, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This hub targets customers interested in selling textbooks, which is a key service offered."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/cheap-textbooks/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub attracts customers looking for affordable textbooks, a significant aspect of the business."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "This page provides answers to common questions, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "The 'About Us' page builds trust and credibility by informing customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buybackpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Buyback Policy",
+            "selection_reason": "Understanding the buyback policy is crucial for customers considering selling their textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "This form is essential for customers to get quotes for their textbooks, facilitating the selling process."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is critical for customers to access their accounts and complete transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "The account dashboard is vital for customer retention, allowing users to manage their purchases and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Providing clear terms of use helps in building trust and ensuring customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "A privacy policy is essential for customer trust, detailing how their information is handled."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "General Policy Page",
+            "selection_reason": "General policies provide customers with important information regarding their rights and responsibilities."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Help/ShippingRates.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Rates & Policy",
+            "selection_reason": "Understanding shipping rates is crucial for customers when considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "The affiliate program can attract new customers through partnerships, enhancing brand visibility."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/buybackpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Buyback Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/cheap-textbooks/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "General Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191214231927/https://www.bookbyte.com/Help/ShippingRates.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Rates & Policy"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-04 21:10:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 17,
+      "valid_content_urls_count": 17,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/cheap-textbooks/",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/my-account.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buybackpolicy.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Help/ShippingRates.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Policy.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/selltextbooks.aspx"
+      ],
+      "recommended_pages_count": 16,
+      "recommended_in_valid_overlap": 16,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/cheap-textbooks/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This page attracts customers looking for affordable textbooks, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts and make purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Important for building trust and retaining customers by ensuring data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Damaged Textbook Definition Guide",
+            "selection_reason": "Helps customers understand product conditions, aiding in informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "Critical for customers to manage their orders and account settings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "Provides background information that can influence customer trust and loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clarifies the rules and regulations, important for customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "Addresses common customer queries, facilitating informed purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buybackpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Buyback Policy",
+            "selection_reason": "Informs customers about the buyback process, enhancing their purchasing confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "Allows customers to evaluate potential returns, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Help/ShippingRates.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Rates & Policy",
+            "selection_reason": "Essential for customers to understand shipping costs, influencing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "Engages customers with content, enhancing brand awareness and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "General Policy Page",
+            "selection_reason": "Provides important policy information that can affect customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "Increases brand reach and awareness through affiliate partnerships."
+          },
+          {
+            "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "Attracts customers interested in selling textbooks, driving engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 16,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/cheap-textbooks/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Damaged Textbook Definition Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buybackpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Buyback Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Help/ShippingRates.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Rates & Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/Policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "General Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20201206203505/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-04 21:10:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/affiliates.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/selltextbooks.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/cheap-textbooks/",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buybackpolicy.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buyback2.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/help.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/login.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/aboutus.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/privacypolicy.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/termsofuse.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/Policy.aspx",
+        "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/my-account.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that raises awareness and engages potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/affiliates.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Affiliate Program Information",
+            "selection_reason": "This page informs potential partners about affiliate opportunities, expanding brand reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/selltextbooks.aspx",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sell Textbooks Hub",
+            "selection_reason": "This hub attracts customers interested in selling textbooks, generating leads."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/cheap-textbooks/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Buy Textbooks Hub",
+            "selection_reason": "This hub caters to customers looking for affordable textbooks, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Damaged Textbook Definition Guide",
+            "selection_reason": "This guide helps customers understand product conditions, aiding in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buybackpolicy.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Buyback Policy",
+            "selection_reason": "The buyback policy informs customers about the terms and conditions of selling back textbooks."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buyback2.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Sellback/Buyback Quote Form",
+            "selection_reason": "This form allows customers to get quotes, facilitating the buyback process."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/help.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help & FAQ Hub",
+            "selection_reason": "This hub provides answers to common questions, assisting customers in their journey."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/login.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "The login page is crucial for customers to access their accounts and finalize purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/aboutus.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page builds trust by sharing the company's story and values with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/privacypolicy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy reassures customers about data protection, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/termsofuse.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Use",
+            "selection_reason": "Clear terms of use help maintain customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/Policy.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "General Policy Page",
+            "selection_reason": "This page outlines general policies, contributing to customer transparency and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/my-account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Dashboard",
+            "selection_reason": "The account dashboard allows customers to manage their information and orders, promoting retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/privacypolicy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/selltextbooks.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sell Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/blog/bookbytes-definition-of-a-damaged-textbook",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Damaged Textbook Definition Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buybackpolicy.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Buyback Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/affiliates.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/login.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/buyback2.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Sellback/Buyback Quote Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/help.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help & FAQ Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/termsofuse.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Use"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/cheap-textbooks/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Buy Textbooks Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/Policy.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "General Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/aboutus.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20211205161359/https://www.bookbyte.com/my-account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Dashboard"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-04 21:10:24",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20220930070518/https://www.bookbyte.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20220930070518/https://www.bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing an overview of the offerings and establishing brand presence."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20220930070518/https://www.bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2023": {
+      "analysis_time": "2025-07-04 21:10:32",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2023",
+      "discovered_links_count": 5,
+      "valid_content_urls_count": 5,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20230203183322/https://bookbyte.com/",
+        "https://web.archive.org/web/20230203183322/https://bookbyte.com/privacy-policy",
+        "https://web.archive.org/web/20230203183322/https://bookbyte.com/contact-us",
+        "https://web.archive.org/web/20230203183322/https://bookbyte.com/careers",
+        "https://web.archive.org/web/20230203183322/https://bookbyte.com/wholesale-program"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/privacy-policy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust and ensuring customer data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/contact-us",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Important for customer support and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/careers",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Careers",
+            "selection_reason": "Attracts potential employees, enhancing company reputation."
+          },
+          {
+            "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/wholesale-program",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Wholesale Program Information",
+            "selection_reason": "Informs potential business customers about partnership opportunities."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/privacy-policy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/contact-us",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/careers",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Careers"
+        },
+        {
+          "url": "https://web.archive.org/web/20230203183322/https://bookbyte.com/wholesale-program",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Wholesale Program Information"
+        }
+      ]
+    }
+  }
+}

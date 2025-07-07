@@ -1,0 +1,390 @@
+{
+  "generation_time": "2025-07-04 21:25:11",
+  "company_url": "booksamillion.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home Page",
+        "typical_url_patterns": [
+          "/",
+          "/?id=*",
+          "/?tab_feature_*"
+        ]
+      },
+      {
+        "type_name": "Promotions & Sales Hub",
+        "typical_url_patterns": [
+          "/promo",
+          "/sale",
+          "/flash",
+          "/sale[0-9]",
+          "/books[0-9]",
+          "/promo?*"
+        ]
+      },
+      {
+        "type_name": "About Us Page",
+        "typical_url_patterns": [
+          "/aboutus"
+        ]
+      },
+      {
+        "type_name": "News & Events Page",
+        "typical_url_patterns": [
+          "/news",
+          "/bookpage_current"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Books Hub",
+        "typical_url_patterns": [
+          "/books"
+        ]
+      },
+      {
+        "type_name": "eBooks Hub",
+        "typical_url_patterns": [
+          "/ebooks"
+        ]
+      },
+      {
+        "type_name": "Teen & Young Adult Hub",
+        "typical_url_patterns": [
+          "/teen"
+        ]
+      },
+      {
+        "type_name": "Kids Hub",
+        "typical_url_patterns": [
+          "/kids",
+          "/kidsamillion",
+          "/bargain-kids"
+        ]
+      },
+      {
+        "type_name": "Toys & Games Hub",
+        "typical_url_patterns": [
+          "/toys",
+          "/games",
+          "/toy[0-9]"
+        ]
+      },
+      {
+        "type_name": "Music & Movies Hub",
+        "typical_url_patterns": [
+          "/music",
+          "/entertainment",
+          "/vinyl"
+        ]
+      },
+      {
+        "type_name": "Magazines Hub",
+        "typical_url_patterns": [
+          "/magazines",
+          "/popular_magazines"
+        ]
+      },
+      {
+        "type_name": "Bargains Hub",
+        "typical_url_patterns": [
+          "/bargains",
+          "/bargain-*"
+        ]
+      },
+      {
+        "type_name": "Collectibles Hub",
+        "typical_url_patterns": [
+          "/collectibles",
+          "/funko",
+          "/loungefly",
+          "/rarecollectibles"
+        ]
+      },
+      {
+        "type_name": "Genre Landing Page",
+        "typical_url_patterns": [
+          "/romantasy",
+          "/sportsromance",
+          "/thrillers",
+          "/sciencefiction",
+          "/horrorbooks",
+          "/manga",
+          "/graphic-novels"
+        ]
+      },
+      {
+        "type_name": "Author Landing Page",
+        "typical_url_patterns": [
+          "/maas",
+          "/colleenhoover",
+          "/aliceoseman",
+          "/rebeccayarros",
+          "/search?type=author*",
+          "/search2?filters[authors]=*"
+        ]
+      },
+      {
+        "type_name": "Franchise & Series Landing Page",
+        "typical_url_patterns": [
+          "/harrypotter",
+          "/starwars",
+          "/webtoon",
+          "/hunger-games",
+          "/demonslayer",
+          "/features?cat=*-series*"
+        ]
+      },
+      {
+        "type_name": "Trend Landing Page",
+        "typical_url_patterns": [
+          "/booktok",
+          "/booktok*",
+          "/consciousliving"
+        ]
+      },
+      {
+        "type_name": "Curated Feature Page",
+        "typical_url_patterns": [
+          "/features",
+          "/features?cat=*",
+          "/booklovers*",
+          "/list[0-9]"
+        ]
+      },
+      {
+        "type_name": "Bestsellers List Page",
+        "typical_url_patterns": [
+          "/bambestsellers",
+          "/nyt",
+          "/best-books",
+          "/features?cat=nyt-*",
+          "/features?cat=bestsellers-*"
+        ]
+      },
+      {
+        "type_name": "New Releases & Coming Soon Page",
+        "typical_url_patterns": [
+          "/comingsoon",
+          "/new",
+          "/new-teen",
+          "/new-kids",
+          "/upcoming-teen",
+          "/features?cat=upcoming-*"
+        ]
+      },
+      {
+        "type_name": "Staff & Expert Picks Page",
+        "typical_url_patterns": [
+          "/staffpicks",
+          "/expertpicks",
+          "/features?cat=presidentpick",
+          "/features?cat=buyer-picks"
+        ]
+      },
+      {
+        "type_name": "Award Winners Page",
+        "typical_url_patterns": [
+          "/features?cat=award*",
+          "/awards?*"
+        ]
+      },
+      {
+        "type_name": "BAM Exclusives & Autographed Hub",
+        "typical_url_patterns": [
+          "/bamexclusives",
+          "/autograph",
+          "/autographed-books",
+          "/features?cat=exclusives"
+        ]
+      },
+      {
+        "type_name": "Faith-Based Content Hub",
+        "typical_url_patterns": [
+          "/faithpoint",
+          "/faithpointonline",
+          "/faith-giftguide*",
+          "/bibles"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/p/*/*",
+          "/product/*"
+        ]
+      },
+      {
+        "type_name": "Autographed Product Detail Page",
+        "typical_url_patterns": [
+          "/p/*Autographed*/"
+        ]
+      },
+      {
+        "type_name": "Boxed Set Product Detail Page",
+        "typical_url_patterns": [
+          "/p/*Boxed-Set*/"
+        ]
+      },
+      {
+        "type_name": "Search Results Page (SRP)",
+        "typical_url_patterns": [
+          "/search?query=*",
+          "/search2?query=*",
+          "/search?default_search=1"
+        ]
+      },
+      {
+        "type_name": "Filtered Category/Search Page",
+        "typical_url_patterns": [
+          "/search?N=*",
+          "/search?filter=*",
+          "/search2?filters*"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart",
+          "/cart?action=add*"
+        ]
+      },
+      {
+        "type_name": "Login & Account Creation Page",
+        "typical_url_patterns": [
+          "/sitelogin"
+        ]
+      },
+      {
+        "type_name": "Gift Card Hub",
+        "typical_url_patterns": [
+          "/giftcards"
+        ]
+      },
+      {
+        "type_name": "E-Gift Card Page",
+        "typical_url_patterns": [
+          "/giftcards/by_email.html"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Help Center Home",
+        "typical_url_patterns": [
+          "/help/index.html"
+        ]
+      },
+      {
+        "type_name": "My Account Page",
+        "typical_url_patterns": [
+          "/help/account.html"
+        ]
+      },
+      {
+        "type_name": "Order Information Page",
+        "typical_url_patterns": [
+          "/help/order.html"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/help/shipping.html"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/help/contact.html"
+        ]
+      },
+      {
+        "type_name": "Password Help Page",
+        "typical_url_patterns": [
+          "/help/password.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Membership Program Page",
+        "typical_url_patterns": [
+          "/product/MEMBERSHIP"
+        ]
+      },
+      {
+        "type_name": "Book Club & Discussion Forum",
+        "typical_url_patterns": [
+          "/bookclub",
+          "/discussion",
+          "/discussion[0-9]"
+        ]
+      },
+      {
+        "type_name": "Store Finder",
+        "typical_url_patterns": [
+          "/storefinder"
+        ]
+      },
+      {
+        "type_name": "Educator Program Page",
+        "typical_url_patterns": [
+          "/educators",
+          "/businessservices/education.html"
+        ]
+      },
+      {
+        "type_name": "B2B / Corporate Services Page",
+        "typical_url_patterns": [
+          "/businessservices",
+          "/b2b"
+        ]
+      },
+      {
+        "type_name": "Affiliate Program Page",
+        "typical_url_patterns": [
+          "/affiliates/index.html"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy_policy/index.html",
+          "/privacy",
+          "/help/california_privacy_policy.html"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/help/terms.html"
+        ]
+      },
+      {
+        "type_name": "Digital Access Policy",
+        "typical_url_patterns": [
+          "/digital_access_policy/index.html"
+        ]
+      },
+      {
+        "type_name": "Joe Muggs Cafe Page",
+        "typical_url_patterns": [
+          "/joemuggs"
+        ]
+      }
+    ]
+  },
+  "total_types": 50
+}

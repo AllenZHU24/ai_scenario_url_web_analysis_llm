@@ -1,0 +1,335 @@
+{
+  "generation_time": "2025-07-07 15:39:13",
+  "company_url": "evine.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/?icid=",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "On-Air Live Stream",
+        "typical_url_patterns": [
+          "/onair/watchuslive",
+          "/p/youtubelive/"
+        ]
+      },
+      {
+        "type_name": "On-Air Program Guide",
+        "typical_url_patterns": [
+          "/onair/programguide"
+        ]
+      },
+      {
+        "type_name": "About Us / Corporate Info",
+        "typical_url_patterns": [
+          "/p/help/evine/about-evine/",
+          "/p/help/evine-live/about-evine-live/"
+        ]
+      },
+      {
+        "type_name": "Blog / Content",
+        "typical_url_patterns": [
+          "/author/{author-name}/"
+        ]
+      },
+      {
+        "type_name": "Contest / Sweepstakes",
+        "typical_url_patterns": [
+          "/contest",
+          "/sweepstakes-terms"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/p/Careers/"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Landing",
+        "typical_url_patterns": [
+          "/c/jewelry",
+          "/c/fashion",
+          "/c/electronics",
+          "/c/home",
+          "/c/kitchen--and--food",
+          "/c/more"
+        ]
+      },
+      {
+        "type_name": "Sub-Category / Filtered Listing",
+        "typical_url_patterns": [
+          "/c/{category}/{sub-category}/",
+          "/c/{category}/?r={filter}"
+        ]
+      },
+      {
+        "type_name": "Brand Landing",
+        "typical_url_patterns": [
+          "/b/{category}/{brand-name}/",
+          "/v/{brand-name}"
+        ]
+      },
+      {
+        "type_name": "All Brands Directory",
+        "typical_url_patterns": [
+          "/c/{category}/brands-list"
+        ]
+      },
+      {
+        "type_name": "Search Results",
+        "typical_url_patterns": [
+          "/search/?q={query}"
+        ]
+      },
+      {
+        "type_name": "New Arrivals",
+        "typical_url_patterns": [
+          "/v/new-items/"
+        ]
+      },
+      {
+        "type_name": "Themed Boutique",
+        "typical_url_patterns": [
+          "/a/boutique/{theme-name}"
+        ]
+      },
+      {
+        "type_name": "Curated Collection",
+        "typical_url_patterns": [
+          "/v/designer-watches",
+          "/v/sleeping-beauty-turquoise/",
+          "/classicinvicta"
+        ]
+      },
+      {
+        "type_name": "On Today / Daily Show",
+        "typical_url_patterns": [
+          "/onair/ontoday"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/Product/{product-id}",
+          "/p/{product-id}",
+          "/product/{product-id}"
+        ]
+      },
+      {
+        "type_name": "Clearance Hub",
+        "typical_url_patterns": [
+          "/c/clearance/",
+          "/v/sale-and-clearance/"
+        ]
+      },
+      {
+        "type_name": "Clearance Sub-Category",
+        "typical_url_patterns": [
+          "/c/clearance/jewelry/",
+          "/c/clearance/fashion/"
+        ]
+      },
+      {
+        "type_name": "Daily Deal (TTV)",
+        "typical_url_patterns": [
+          "/v/todays-top-value",
+          "/todaystopvalue",
+          "/v/todays-biggest-deals"
+        ]
+      },
+      {
+        "type_name": "Special Offer / Event",
+        "typical_url_patterns": [
+          "/v/doorbuster-price/",
+          "/v/holiday-price",
+          "/v/flash-sale/"
+        ]
+      },
+      {
+        "type_name": "Last Chance / Almost Gone",
+        "typical_url_patterns": [
+          "/v/going-going-gone/",
+          "/v/almost-gone",
+          "/v/last-24-hours"
+        ]
+      },
+      {
+        "type_name": "Customer Favorites / Top Rated",
+        "typical_url_patterns": [
+          "/v/customer-choice/"
+        ]
+      },
+      {
+        "type_name": "Buyer's Guides",
+        "typical_url_patterns": [
+          "/p/buyers-guides/"
+        ]
+      },
+      {
+        "type_name": "Warranty / Protection Plan",
+        "typical_url_patterns": [
+          "/p/SquareTrade/learnmore/"
+        ]
+      },
+      {
+        "type_name": "Shop with Confidence / Guarantees",
+        "typical_url_patterns": [
+          "/l/shop-with-confidence"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/Cart",
+          "/Basket/"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/Account/Login"
+        ]
+      },
+      {
+        "type_name": "Registration Page",
+        "typical_url_patterns": [
+          "/Account/Register"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/Wishlist"
+        ]
+      },
+      {
+        "type_name": "Credit Card Application",
+        "typical_url_patterns": [
+          "/l/evine-live-credit-card",
+          "/l/evine-card",
+          "/l/shophq-card"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status",
+        "typical_url_patterns": [
+          "/Account/Order/Status"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/myaccount/Default.aspx?target=Customer&action=ViewOrderHistory"
+        ]
+      },
+      {
+        "type_name": "Returns Policy",
+        "typical_url_patterns": [
+          "/p/help/returns/evine-returns/",
+          "/p/help/returns/shophq-returns/"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/l/holiday-shipping-calendar",
+          "/l/199-Shipping"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/Account",
+          "/myaccount/"
+        ]
+      },
+      {
+        "type_name": "Help Center / FAQ",
+        "typical_url_patterns": [
+          "/p/help/help-landing-page/"
+        ]
+      },
+      {
+        "type_name": "Contact Us",
+        "typical_url_patterns": [
+          "/p/help/evine-live/contact-evine-live/",
+          "/contact"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/p/help/evine/privacy",
+          "/privacy"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/p/help/evine/terms-of-use/",
+          "/terms"
+        ]
+      },
+      {
+        "type_name": "Accessibility Statement",
+        "typical_url_patterns": [
+          "/p/help/evine/accessibility/"
+        ]
+      },
+      {
+        "type_name": "TV Channel Finder",
+        "typical_url_patterns": [
+          "/channelfinder"
+        ]
+      },
+      {
+        "type_name": "Mobile & App Promotion",
+        "typical_url_patterns": [
+          "/l/connect-anywhere",
+          "/l/mobile-anywhere"
+        ]
+      },
+      {
+        "type_name": "Meet the Hosts",
+        "typical_url_patterns": [
+          "/p/cc/host/meetthehosts/"
+        ]
+      },
+      {
+        "type_name": "Payment Plan Info (ValuePay)",
+        "typical_url_patterns": [
+          "/p/help/promotions/about-vp"
+        ]
+      },
+      {
+        "type_name": "Product Safety & Recalls",
+        "typical_url_patterns": [
+          "/p/help/product-info/product-safety-info/"
+        ]
+      },
+      {
+        "type_name": "Social Media Hub",
+        "typical_url_patterns": [
+          "/l/social-anywhere"
+        ]
+      }
+    ]
+  },
+  "total_types": 47
+}

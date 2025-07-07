@@ -1,0 +1,1058 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "essential.com",
+  "export_time": "2025-07-07 14:53:52",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-07 14:52:54",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 10,
+      "valid_content_urls_count": 10,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/about.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/phone.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/services.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/plans.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/tariffs.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/choose.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/contact.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/privacy.php",
+        "https://web.archive.org/web/20090703224941/http://www.essential.com:80/terms.php"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/about.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and credibility by sharing the company's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/phone.php",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Phone)",
+            "selection_reason": "Highlights specific product features, engaging customers who are interested in phone services."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/services.php",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Services Overview",
+            "selection_reason": "Provides detailed information about the services offered, catering to potential customers' interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/plans.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pricing / Plans",
+            "selection_reason": "Essential for customers evaluating their options and comparing pricing plans."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/tariffs.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Pricing / Plans",
+            "selection_reason": "Offers detailed tariff information, aiding customers in making informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/choose.php",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product/Plan Selector",
+            "selection_reason": "Helps customers select the best plan for their needs, enhancing the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/contact.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Contact Us",
+            "selection_reason": "Provides a way for customers to reach out for support, crucial for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/privacy.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data handling practices, fostering trust and retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/terms.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Terms of Service",
+            "selection_reason": "Clarifies the terms under which services are provided, important for customer understanding and retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/plans.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pricing / Plans"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/contact.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Contact Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/phone.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Phone)"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/tariffs.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Pricing / Plans"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/privacy.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/terms.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Terms of Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/choose.php",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product/Plan Selector"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/services.php",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Services Overview"
+        },
+        {
+          "url": "https://web.archive.org/web/20090703224941/http://www.essential.com:80/about.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-07 14:52:56",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20120904043202/http://www.essential.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20120904043202/http://www.essential.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to learn about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20120904043202/http://www.essential.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-07 14:52:57",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151228111257/http://essential.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151228111257/http://essential.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151228111257/http://essential.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-07 14:52:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20160808080114/http://essential.com:80/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20160808080114/http://essential.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20160808080114/http://essential.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 14:53:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 15,
+      "valid_content_urls_count": 15,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/what-craftsmanship-means-to-us",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/developer/overview",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-I-started-essential",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/home",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/privacy",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/about",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/gallery",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/blog",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-360-changes-everything",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/fr",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/jp",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/de",
+        "https://web.archive.org/web/20171223002956/https://www.essential.com/cn"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/what-craftsmanship-means-to-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story / Mission",
+            "selection_reason": "Highlights the brand's values and craftsmanship, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/developer/overview",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Developer Portal",
+            "selection_reason": "Provides essential information for developers, aiding in consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-I-started-essential",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story / Mission",
+            "selection_reason": "Personal story that connects with customers, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/home",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main entry point for customers, essential for awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust and retention by informing customers about privacy practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's mission and values, enhancing awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/gallery",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Gallery / Lookbook",
+            "selection_reason": "Visual representation of products that captures customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Index",
+            "selection_reason": "Central hub for content that drives awareness and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-360-changes-everything",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Index",
+            "selection_reason": "Educational content that raises awareness about product features."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Catering to international customers, broadening brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/jp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Engages Japanese customers, enhancing global brand presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets German-speaking customers, expanding market reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/cn",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Engages Chinese customers, crucial for international growth."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 15,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/what-craftsmanship-means-to-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/developer/overview",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Developer Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-I-started-essential",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story / Mission"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/home",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/a-tale-of-two-sensors",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/jp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/gallery",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Gallery / Lookbook"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/blog/why-360-changes-everything",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171223002956/https://www.essential.com/cn",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-07 14:53:25",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 14,
+      "valid_content_urls_count": 14,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/blog",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/about",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/phone",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/audio",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/developer/overview",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/students",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/privacy",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/blog/android-pie-essential",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/fr",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/cn",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/tw",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/de",
+        "https://web.archive.org/web/20181229005948/https://www.essential.com/jp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Index",
+            "selection_reason": "Provides valuable content that raises brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Essential for establishing brand identity and trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/phone",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Phone)",
+            "selection_reason": "Highlights key product features to engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/audio",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Audio)",
+            "selection_reason": "Showcases another product line, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/developer/overview",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Developer Portal",
+            "selection_reason": "Attracts developers and tech-savvy customers considering the product."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/students",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Student Program / Discounts",
+            "selection_reason": "Targets a specific demographic, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for customer trust and retention through transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/blog/android-pie-essential",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Software Updates Information",
+            "selection_reason": "Keeps existing customers informed and engaged with updates."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Expands brand reach to French-speaking customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/cn",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets Chinese-speaking customers, enhancing global presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/tw",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Engages Taiwanese customers, broadening market outreach."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Appeals to German-speaking customers, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/jp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets Japanese customers, increasing international engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/phone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Phone)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/audio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Audio)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/cn",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/developer/overview",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Developer Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/tw",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/blog/android-pie-essential",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Software Updates Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/jp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181229005948/https://www.essential.com/students",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Student Program / Discounts"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-07 14:53:37",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 14,
+      "valid_content_urls_count": 14,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/about",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/blog",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/audio",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/phone",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/students",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/developer/overview",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/privacy",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/blog/android-pie-essential",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/tw",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/fr",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/cn",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/de",
+        "https://web.archive.org/web/20191107040930/https://www.essential.com/jp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "Informs customers about the brand's mission and values, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Index",
+            "selection_reason": "Provides valuable content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/audio",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Audio)",
+            "selection_reason": "Highlights specific product features, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/phone",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Phone)",
+            "selection_reason": "Showcases the phone product, crucial for customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/students",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Student Program / Discounts",
+            "selection_reason": "Offers discounts to students, encouraging consideration and purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/developer/overview",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Developer Portal",
+            "selection_reason": "Engages developers, expanding the ecosystem and customer base."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust with customers by outlining data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/blog/android-pie-essential",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Software Updates Information",
+            "selection_reason": "Keeps existing customers informed about updates, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/tw",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets international customers, broadening market reach."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Engages French-speaking customers, enhancing global presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/cn",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets Chinese customers, expanding international outreach."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Engages German-speaking customers, enhancing market diversity."
+          },
+          {
+            "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/jp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets Japanese customers, furthering international engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/blog/android-pie-essential",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Software Updates Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/audio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Audio)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/tw",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/phone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Phone)"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/cn",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/students",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Student Program / Discounts"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/developer/overview",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Developer Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20191107040930/https://www.essential.com/jp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-07 14:53:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 14,
+      "valid_content_urls_count": 14,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/about",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/blog",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/phone",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/audio",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/students",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/developer/overview",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/privacy",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/blog/android-pie-essential",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/jp",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/de",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/tw",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/cn",
+        "https://web.archive.org/web/20200213074546/https://www.essential.com/fr"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and products."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/about",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us",
+            "selection_reason": "This page helps build trust and brand identity, crucial for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/blog",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Index",
+            "selection_reason": "The blog provides valuable content that can attract and inform potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/phone",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Phone)",
+            "selection_reason": "This page showcases the main product, generating interest among potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/audio",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Feature Page (Audio)",
+            "selection_reason": "Highlights another key product offering, catering to diverse customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/students",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Student Program / Discounts",
+            "selection_reason": "This page targets a specific demographic, encouraging consideration through discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/developer/overview",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Developer Portal",
+            "selection_reason": "Provides resources for developers, enhancing consideration for tech-savvy customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/privacy",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for building trust and retaining customers by ensuring data protection."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/blog/android-pie-essential",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Software Updates Information",
+            "selection_reason": "Keeps existing customers informed about updates, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/jp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Expands brand awareness in international markets."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/de",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Further increases brand visibility in different regions."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/tw",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Enhances brand reach and awareness in Taiwan."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/cn",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Targets the Chinese market, increasing global brand presence."
+          },
+          {
+            "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/fr",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "International Home",
+            "selection_reason": "Expands brand awareness in French-speaking regions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 14,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/blog/android-pie-essential",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Software Updates Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/jp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/privacy",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/phone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Phone)"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/students",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Student Program / Discounts"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/de",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/blog",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/audio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Feature Page (Audio)"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/developer/overview",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Developer Portal"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/tw",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/about",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/cn",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20200213074546/https://www.essential.com/fr",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "International Home"
+        }
+      ]
+    }
+  }
+}

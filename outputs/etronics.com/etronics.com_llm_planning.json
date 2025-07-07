@@ -1,0 +1,2875 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "etronics.com",
+  "export_time": "2025-07-07 15:07:42",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-07 15:05:11",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 73,
+      "valid_content_urls_count": 73,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-about.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-buyingGuides.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/wishlist.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/shoppingcart.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/createaccount.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-help_center.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-privacy.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/account.aspx",
+        "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-selltoetronics.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-about.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and credibility by informing customers about the company's background and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-buyingGuides.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying Guides",
+            "selection_reason": "Buying guides help educate customers, making them more informed about their purchasing decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "This category hub allows customers to explore a wide range of products, generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Mid-Level Category Hub",
+            "selection_reason": "Mid-level hubs provide more specific product categories, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camera & Photo Category",
+            "selection_reason": "This category is crucial for customers interested in photography, enhancing their shopping experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/wishlist.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "The wishlist feature allows customers to save products for future consideration, enhancing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Satisfaction Guarantee Page",
+            "selection_reason": "This page reassures customers about their purchase decisions, increasing conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/shoppingcart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for customers to finalize their purchases, making it a critical decision point."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/createaccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Creating an account is a key step for customers to manage their purchases and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-help_center.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / Customer Service",
+            "selection_reason": "The help center provides essential support and information for customers post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-privacy.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy informs customers about data protection, which is crucial for trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "The account dashboard allows customers to manage their information and orders, fostering retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-selltoetronics.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Etronics Program",
+            "selection_reason": "This program encourages customer loyalty by allowing them to sell back products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 31,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-affiliate.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-corporatesales.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Sales Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-about.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/wishlist.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-help_center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-selltoetronics.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Etronics Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/manufacturers.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-buyingGuides.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-Help_Center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-termsofuse.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-contact.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/giftregistry.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Registry"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/createaccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News & Announcements"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-privacy.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Satisfaction Guarantee Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com/c-2543-digital-still-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/shoppingcart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091212184354/http://www.etronics.com:80/account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-07 15:05:27",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 69,
+      "valid_content_urls_count": 69,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-about.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-contact.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-satisfactionguarantee.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/shoppingcart.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/createaccount.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-help_center.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-privacy.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/account.aspx",
+        "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-selltoetronics.aspx"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-about.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-contact.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Page",
+            "selection_reason": "Provides customers with a way to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "This category hub helps customers explore various products, generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Specials & Deals Page",
+            "selection_reason": "Attracts customers looking for discounts, increasing interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camera & Photo Category",
+            "selection_reason": "Specific category that targets photography enthusiasts, generating interest in niche products."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Allows customers to compare products, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-satisfactionguarantee.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Satisfaction Guarantee Page",
+            "selection_reason": "Reassures customers about their purchase, enhancing confidence in buying."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/shoppingcart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for finalizing purchases, directly impacting conversion rates."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/createaccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages user registration, facilitating future purchases and customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-help_center.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / Customer Service",
+            "selection_reason": "Essential for addressing customer inquiries and issues, enhancing customer satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-privacy.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Informs customers about data protection, building trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their profiles and orders, fostering loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-selltoetronics.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Etronics Program",
+            "selection_reason": "Encourages repeat business by allowing customers to sell back products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-about.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-contact.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-help_center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/giftregistry.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Registry"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-selltoetronics.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Etronics Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/createaccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-termsofuse.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News & Announcements"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2543-digital-still-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-buyingGuides.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-privacy.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/shoppingcart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-satisfactionguarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Satisfaction Guarantee Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-corporatesales.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Sales Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/wishlist.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-Help_Center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/t-affiliate.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/manufacturers.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101231001011/http://www.etronics.com/account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-07 15:05:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 73,
+      "valid_content_urls_count": 73,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/news.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/giftregistry.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/wishlist.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/createaccount.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/shoppingcart.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-help_center.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-privacy.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/account.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-selltoetronics.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-termsofuse.aspx",
+        "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-about.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of offerings and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/news.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News & Announcements",
+            "selection_reason": "This page keeps customers informed about new products and updates, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "This category hub allows customers to explore various electronics, sparking interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camera & Photo Category",
+            "selection_reason": "A specific category that caters to photography enthusiasts, driving interest in camera products."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/giftregistry.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Registry",
+            "selection_reason": "This feature allows customers to create registries, enhancing consideration for gift purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/wishlist.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "The wishlist feature helps customers save products for future purchases, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/createaccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "This page is crucial for converting visitors into registered users, facilitating future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/shoppingcart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for finalizing purchases, making it a key part of the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-help_center.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / Customer Service",
+            "selection_reason": "This page provides support and assistance, ensuring customer satisfaction during the fulfillment stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-privacy.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "The privacy policy builds trust with customers by informing them about data protection practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "This dashboard allows customers to manage their accounts, fostering retention through user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-selltoetronics.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Etronics Program",
+            "selection_reason": "This program encourages customer loyalty by allowing them to sell their products back to the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Satisfaction Guarantee Page",
+            "selection_reason": "This page reassures customers about their purchase decisions, enhancing their confidence in buying."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-termsofuse.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Providing clear terms and conditions is essential for transparency and customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-about.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page informs customers about the brand's mission and values, enhancing brand awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 31,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News & Announcements"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-selltoetronics.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Etronics Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-help_center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-corporatesales.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Sales Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/manufacturers.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/giftregistry.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Registry"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-Help_Center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-contact.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/wishlist.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/createaccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-about.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/shoppingcart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-termsofuse.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-buyingGuides.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-satisfactionguarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Satisfaction Guarantee Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-privacy.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com:80/t-affiliate.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com/c-2543-digital-still-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20110815230021/http://www.etronics.com/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-07 15:06:06",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 69,
+      "valid_content_urls_count": 69,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-about.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-buyingGuides.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/giftregistry.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/wishlist.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/createaccount.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/shoppingcart.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-help_center.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-privacy.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/account.aspx",
+        "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-selltoetronics.aspx"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-about.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page helps build trust and brand identity, crucial for new customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-buyingGuides.aspx",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Buying Guides",
+            "selection_reason": "Buying guides educate customers, enhancing their understanding of products."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Specials & Deals Page",
+            "selection_reason": "This page attracts customers looking for discounts, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Toys & Games Category",
+            "selection_reason": "Category pages help customers explore specific interests and product types."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camera & Photo Category",
+            "selection_reason": "This category is essential for photography enthusiasts, driving targeted interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/giftregistry.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Gift Registry",
+            "selection_reason": "Gift registries are valuable for customers planning purchases for special occasions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/wishlist.aspx",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Wishlists allow customers to save items for future consideration, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "PLPs are critical for customers comparing products before making a decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/createaccount.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Creating an account is a key step for customers ready to make a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/shoppingcart.aspx",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is essential for finalizing purchases, making it a critical page."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-help_center.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / Customer Service",
+            "selection_reason": "A help center is vital for customer support and resolving issues post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-privacy.aspx",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Privacy policies are important for customer trust and compliance with regulations."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/account.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "The account dashboard is crucial for customer retention and managing orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-selltoetronics.aspx",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Sell to Etronics Program",
+            "selection_reason": "Programs encouraging customer engagement post-purchase are vital for retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 29,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2817-clearance.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-3713-toys.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-affiliate.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Affiliate Program Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2299-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-help_center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/giftregistry.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Gift Registry"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-selltoetronics.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Sell to Etronics Program"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-privacy.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/wishlist.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-about.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2283-car-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/createaccount.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/manufacturers.aspx",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2220-speakers.aspx?InventoryFilter=1",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-23-electronics.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2219-home-audio.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/account.aspx",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-2543-digital-still-cameras.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-buyingGuides.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Buying Guides"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/signin.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/news.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News & Announcements"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/c-1-appliances.aspx?inventoryfilter=1&pricesort=2",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-corporatesales.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Corporate Sales Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/shoppingcart.aspx",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-satisfactionguarantee.aspx",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Satisfaction Guarantee Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-Help_Center.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-termsofuse.aspx",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20121223095603/http://www.etronics.com/t-contact.aspx",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-07 15:06:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 183,
+      "valid_content_urls_count": 183,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/about-us",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/car-audio-video.html",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/camera-photo.html",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/specials",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=rumbleroller",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/checkout/cart/",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/customer/account",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/newsletter/manage",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/sales/order/history",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/returns",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/wishlist",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment.html",
+        "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics.html"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page for initial customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the brand and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/car-audio-video.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Car Electronics Category",
+            "selection_reason": "Key category page that showcases products of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/camera-photo.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Camera & Photo Category",
+            "selection_reason": "Important category for photography enthusiasts."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Specials & Deals Page",
+            "selection_reason": "Attracts customers with promotions and discounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=rumbleroller",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Facilitates product discovery based on specific queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Critical page for customers evaluating television options."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/customer/account",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Enables customers to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/newsletter/manage",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Management",
+            "selection_reason": "Encourages ongoing engagement through newsletters."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/sales/order/history",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their past purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy Page",
+            "selection_reason": "Critical for customer assurance regarding returns."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/wishlist",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Facilitates product consideration for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Mid-Level Category Hub",
+            "selection_reason": "Serves as a hub for home entertainment products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "Key navigation point for all electronic products."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 27,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/customer/account",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/car-audio-video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Electronics Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=rumbleroller",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/camera-photo.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/tools-diy.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tools & DIY Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/toys-games.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/catalog/seo_sitemap/category/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "HTML Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/wishlist",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/catalog/seo_sitemap/category",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "HTML Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/cell-phone-accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/appliances.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Appliances Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/https://www.etronics.com/customer/account/forgotpassword/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Forgot Password Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=sangean",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/sales/order/history",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=mohu",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/advancedsearch/result/?q=natural vitality",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics/home-entertainment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/electronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/newsletter/manage",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20131219194136/http://www.etronics.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy Page"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-07 15:06:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 200,
+      "valid_content_urls_count": 200,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/about-us/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/contacts/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics.html",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment.html",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/specials",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/?q=Sundesa",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+        "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/create/",
+        "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/login/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/customer-service/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/returns",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/sales/order/history",
+        "https://web.archive.org/web/20141224183327/https://www.etronics.com/wishlist/",
+        "https://web.archive.org/web/20141224183327/http://www.etronics.com/newsletter/manage"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/about-us/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the brand and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/contacts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Page",
+            "selection_reason": "Allows customers to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "Facilitates navigation to various product categories, piquing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Mid-Level Category Hub",
+            "selection_reason": "Showcases specific product categories, helping customers find relevant products."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/specials",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Specials & Deals Page",
+            "selection_reason": "Attracts customers with promotions, enhancing interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/?q=Sundesa",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Helps customers evaluate specific products based on their search queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Displays a variety of products, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/create/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages account creation, facilitating future purchases and customer loyalty."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/login/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts and streamline the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/customer-service/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Help Center / Customer Service",
+            "selection_reason": "Provides support and assistance, enhancing customer satisfaction post-purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/returns",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy Page",
+            "selection_reason": "Informs customers about return procedures, building trust and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/sales/order/history",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Enables customers to save products for future consideration, enhancing user engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/newsletter/manage",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Management",
+            "selection_reason": "Encourages ongoing engagement with customers through updates and promotions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 36,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/create/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalog/seo_sitemap/category",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "HTML Sitemap"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/health-beauty/personal-care.html?manufacturer=6061",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/?q=Sundesa",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/index/?dir=desc&manufacturer=5697&order=price&q=headphones",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/sales/guest/form/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Guest Order Lookup"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/tools-diy.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tools & DIY Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/about-us/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/camera-photo.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/privacy-policy/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/cell-phone-accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/home-entertainment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/cell-phone-accessories.html/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/customer/account",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/customer/account/login/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/specials",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/contacts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/?q=sangean",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/advanced/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Advanced Search Form"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/customer-service/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Help Center / Customer Service"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/health-beauty/personal-care.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/health-beauty/personal-care.html?dir=desc&order=price",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/closeouts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/returns",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/sales/order/history",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/health-beauty/personal-care.html?manufacturer=5958",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/catalogsearch/result/?q=steripen/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/electronics/car-audio-video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Electronics Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/https://www.etronics.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224183327/http://www.etronics.com/newsletter/manage",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-07 15:07:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 229,
+      "valid_content_urls_count": 229,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/about-us",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/contacts/",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment.html",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics.html",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/returns/",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/privacy-policy/",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php?action=create_account",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/terms-and-conditions/",
+        "https://web.archive.org/web/20150919204249/http://www.etronics.com/health/personal-care/massagers.html",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=69504",
+        "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=93431"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core landing page that introduces the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the company and builds trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/contacts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Page",
+            "selection_reason": "Allows customers to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Mid-Level Category Hub",
+            "selection_reason": "Showcases a major category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "Provides an overview of all electronic products, guiding customer exploration."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Specific product listing that helps customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy Page",
+            "selection_reason": "Informs customers about return policies, crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/privacy-policy/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by detailing how customer data is handled."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Essential for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php?action=create_account",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages new customer registrations, vital for retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/terms-and-conditions/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Clarifies the legal framework of transactions, important for customer trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/health/personal-care/massagers.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Specific category that aids customers in evaluating options."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=69504",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Direct link to add a product to the cart, facilitating the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=93431",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Another direct link for adding products, enhancing user convenience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 51,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/cell-phone-accessories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/brands/Westone.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/account.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/brands/Power-Practical.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Motorola.html?in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/toys-games.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Mid-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Ballistic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/brands/Travelpro",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/camera-photo.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Camera & Photo Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Leatherman.html?in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=69504",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/car-audio-video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Electronics Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Travelpro.html?in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/brands/Leatherman",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=89110",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=93431",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/American-International.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=69559",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=70846",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/contacts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/terms-and-conditions/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Plantronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/health.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Pyle.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Boss.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Pioneer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/login.php?action=create_account",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Hosa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/privacy-policy/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/3Doodler.html?in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Sony.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=93081",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/closeouts.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Specials & Deals Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/vendors/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=91955",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/tools-diy.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tools & DIY Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Coby.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/brands/Panasonic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/http://www.etronics.com/health/personal-care/massagers.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/brands/McDavid",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20150919204249/https://www.etronics.com/cart.php?action=add&product_id=71769",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-07 15:07:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 250,
+      "valid_content_urls_count": 250,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/about-us",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/contacts/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/electronics.html",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/audio.html",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/health/personal-care/massagers.html",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=96400",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/login.php?action=create_account",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/returns/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/privacy-policy/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/account.php",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/terms-and-conditions/",
+        "https://web.archive.org/web/20161021090231/http://www.etronics.com/video.html"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides customers with information about the brand and its values."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/contacts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Page",
+            "selection_reason": "Essential for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Brands Page",
+            "selection_reason": "Allows customers to explore various brands available on the site."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/electronics.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "Facilitates navigation to different product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/audio.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Landing Page",
+            "selection_reason": "Highlights specific product categories to engage customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/health/personal-care/massagers.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Showcases specific products for customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=96400",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/login.php?action=create_account",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Create Account Page",
+            "selection_reason": "Encourages customers to create accounts for a personalized experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy Page",
+            "selection_reason": "Informs customers about return policies, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/privacy-policy/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Essential for customer trust and compliance with regulations."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/account.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Allows customers to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/terms-and-conditions/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Terms & Conditions",
+            "selection_reason": "Clarifies the terms of service for customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/video.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Themed Landing Page",
+            "selection_reason": "Engages customers with specific video product categories."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 47,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/login.php?action=create_account",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=96400",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Boss.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=96144",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/audio.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/home-beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=77225",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/toys-games.html?src=homecats&in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Pyle.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/electronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Coby.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/vendors/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Leatherman",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/American-International.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/health/personal-care/massagers.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/terms-and-conditions/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=94006",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/health.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Samsung.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Ballistic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/account.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/mobile.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=76790",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Power-Practical.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/privacy-policy/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/kids/toys-games.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/outdoors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Westone.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Panasonic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Sony.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/contacts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=67567",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=89449",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/login.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/electronics/car-audio-video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Electronics Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Travelpro",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/cart.php?action=add&product_id=79973",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Pioneer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/McDavid",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/brands/Hosa.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161021090231/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 15:07:37",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 242,
+      "valid_content_urls_count": 242,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/about-us",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/contacts/",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics.html",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/health.html",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/kids/toys-games.html",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/health/personal-care/massagers.html",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=74750",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/login.php",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/returns/",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/privacy-policy/",
+        "https://web.archive.org/web/20170410152117/http://www.etronics.com/account.php"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and informs customers about the company's values and mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/contacts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Page",
+            "selection_reason": "Provides customers with a way to reach out for inquiries, enhancing customer service."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "This hub allows customers to explore various electronics, sparking interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/health.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Hub",
+            "selection_reason": "Highlights health-related products, catering to a specific customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/kids/toys-games.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Toys & Games Category",
+            "selection_reason": "Targets a niche market for children's products, appealing to parents."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/health/personal-care/massagers.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Showcases specific products, aiding customers in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Listing Page (PLP)",
+            "selection_reason": "Focuses on a popular product category, helping customers compare options."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=74750",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to finalize their purchases, making it essential in the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/login.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/returns/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Returns Policy Page",
+            "selection_reason": "Informs customers about return processes, crucial for post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/privacy-policy/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Privacy Policy",
+            "selection_reason": "Builds trust by explaining data handling practices, important for customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/account.php",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "My Account Dashboard",
+            "selection_reason": "Encourages repeat business by allowing customers to manage their accounts easily."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 43,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/McDavid",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Travelpro",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/kids/toys-games.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/home-beauty.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/login.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=74750",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/QFX.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Ballistic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=80674",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/health/personal-care/massagers.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Boss.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Leatherman",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Coby.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Sony.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Samsung.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=80634",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/audio.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Panasonic.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics/home-entertainment/televisions.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Listing Page (PLP)"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Pioneer.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/outdoors.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Themed Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/terms-and-conditions/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Terms & Conditions"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/electronics/car-audio-video.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Car Electronics Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php?action=add&product_id=82389",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Power-Practical.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/returns/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Returns Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/toys-games.html?src=homecats&in_stock=1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Toys & Games Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/mobile.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Cell Phone Accessories Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Pyle.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/login.php?action=create_account",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Create Account Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/privacy-policy/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Privacy Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/contacts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/vendors/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/health.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Marathon.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/cart.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/brands/Westone.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Brands Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20170410152117/http://www.etronics.com/account.php",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "My Account Dashboard"
+        }
+      ]
+    },
+    "2024": {
+      "analysis_time": "2025-07-07 15:07:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2024",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20241228192959/https://www.etronics.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20241228192959/https://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers, providing essential information about the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20241228192959/https://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2025": {
+      "analysis_time": "2025-07-07 15:07:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2025",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20250419053533/https://www.etronics.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20250419053533/https://www.etronics.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20250419053533/https://www.etronics.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

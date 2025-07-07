@@ -1,0 +1,333 @@
+{
+  "generation_time": "2025-07-04 21:44:49",
+  "company_url": "bootbay.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/Default.aspx"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about_bootbay.aspx",
+          "/wcs/shop/en/bootbay/about-bootbay"
+        ]
+      },
+      {
+        "type_name": "Blog",
+        "typical_url_patterns": [
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "Sitemap",
+        "typical_url_patterns": [
+          "/catalog/seo_sitemap/category/",
+          "/wcs/shop/en/bootbay/bootbay-sitemap"
+        ]
+      },
+      {
+        "type_name": "Informational Page",
+        "typical_url_patterns": [
+          "/covid-response",
+          "/bootbay_customers_love_us.aspx"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Men's Department Hub",
+        "typical_url_patterns": [
+          "/mens",
+          "/wcs/shop/en/bootbay/mens"
+        ]
+      },
+      {
+        "type_name": "Women's Department Hub",
+        "typical_url_patterns": [
+          "/womens",
+          "/wcs/shop/en/bootbay/womens"
+        ]
+      },
+      {
+        "type_name": "Kids' Department Hub",
+        "typical_url_patterns": [
+          "/kids",
+          "/wcs/shop/en/bootbay/kids"
+        ]
+      },
+      {
+        "type_name": "Work Boots Hub",
+        "typical_url_patterns": [
+          "/work",
+          "/Work-Boots/search",
+          "/wcs/shop/en/bootbay/mens-work-safety"
+        ]
+      },
+      {
+        "type_name": "Western Boots Hub",
+        "typical_url_patterns": [
+          "/western",
+          "/Western-Boots/search",
+          "/wcs/shop/en/bootbay/mens-western"
+        ]
+      },
+      {
+        "type_name": "Outdoor Boots Hub",
+        "typical_url_patterns": [
+          "/outdoor",
+          "/Outdoor-Boots-and-Shoes/search",
+          "/wcs/shop/en/bootbay/mens/mens-outdoor"
+        ]
+      },
+      {
+        "type_name": "Safety Boots Hub",
+        "typical_url_patterns": [
+          "/safety",
+          "/Safety-Boots/search"
+        ]
+      },
+      {
+        "type_name": "Accessories & Gear Hub",
+        "typical_url_patterns": [
+          "/gear",
+          "/Accessories/{ID}/dept",
+          "/womens-accessories"
+        ]
+      },
+      {
+        "type_name": "All Brands Hub",
+        "typical_url_patterns": [
+          "/brands",
+          "/wcs/shop/en/bootbay/all-brands"
+        ]
+      },
+      {
+        "type_name": "Sale & Deals Hub",
+        "typical_url_patterns": [
+          "/sale",
+          "/Boot-Bay-Deals/*"
+        ]
+      },
+      {
+        "type_name": "Featured & New Arrivals Hub",
+        "typical_url_patterns": [
+          "/featured",
+          "/featured/new"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/*/{SKU}/Product",
+          "/*/*/{SKU}/Product",
+          "/wcs/shop/ClickInfo?...&expDataType=CatalogEntryId..."
+        ]
+      },
+      {
+        "type_name": "Brand Landing Page",
+        "typical_url_patterns": [
+          "/[Brand-Name]/{ID}/dept",
+          "/brands/[brand-name]",
+          "/wcs/shop/en/bootbay/[brand-name]"
+        ]
+      },
+      {
+        "type_name": "L2 Category Page",
+        "typical_url_patterns": [
+          "/mens/work",
+          "/womens/western",
+          "/{Category-Name}/{ID}/dept"
+        ]
+      },
+      {
+        "type_name": "L3 Sub-Category Page",
+        "typical_url_patterns": [
+          "/mens/outdoor/hunting",
+          "/womens/western/fashion",
+          "/work/not-safety/uniform"
+        ]
+      },
+      {
+        "type_name": "Feature-Filtered PLP",
+        "typical_url_patterns": [
+          "/safety/steel-toe",
+          "/work/slip-resistant",
+          "/mens/work/waterproof"
+        ]
+      },
+      {
+        "type_name": "Style-Filtered PLP",
+        "typical_url_patterns": [
+          "/mens/western/ropers",
+          "/womens/western/exotics",
+          "/casual/sandals"
+        ]
+      },
+      {
+        "type_name": "Collection PLP",
+        "typical_url_patterns": [
+          "/search/Made-in-USA/{ID}/Search",
+          "/used-like-new"
+        ]
+      },
+      {
+        "type_name": "Internal Search Results",
+        "typical_url_patterns": [
+          "/[term]/search",
+          "/[Term]/Search",
+          "/*/{ID}/Search"
+        ]
+      },
+      {
+        "type_name": "Advanced Search Form",
+        "typical_url_patterns": [
+          "/wcs/shop/AdvancedSearchDisplay*"
+        ]
+      },
+      {
+        "type_name": "Wishlist / Registry",
+        "typical_url_patterns": [
+          "/wishlist",
+          "/Auth/MyRegistry.aspx"
+        ]
+      },
+      {
+        "type_name": "\"Shop All\" Aggregator Page",
+        "typical_url_patterns": [
+          "/{category}/shop-all",
+          "/{category}/{sub-category}/shop-all"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/shoppingbag.aspx"
+        ]
+      },
+      {
+        "type_name": "Cart AJAX Action",
+        "typical_url_patterns": [
+          "/wcs/shop/RESTOrderCalculate*"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/Login.aspx",
+          "/customer/account/login/",
+          "/wcs/shop/AjaxLogonForm*"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/Secure/CreateAccount.aspx",
+          "/customer/account/create/",
+          "/wcs/shop/UserRegistrationForm*"
+        ]
+      },
+      {
+        "type_name": "Payment Options Page",
+        "typical_url_patterns": [
+          "/pay-in-4-by-paypal"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/shipping_for_bootbay.aspx",
+          "/shipping_bootbay",
+          "/holiday-shipping"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/returns_at_bootbay.aspx",
+          "/returns_exchanges_bootbay",
+          "/exchanges_at_bootbay.aspx"
+        ]
+      },
+      {
+        "type_name": "Order History / Status",
+        "typical_url_patterns": [
+          "/Secure/Auth/MyOrders.aspx"
+        ]
+      },
+      {
+        "type_name": "Online Return Form",
+        "typical_url_patterns": [
+          "/wcs/shop/EBOrderReturnsView*"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/customer/account/"
+        ]
+      },
+      {
+        "type_name": "FAQ Page",
+        "typical_url_patterns": [
+          "/faq_for_bootbay.aspx",
+          "/faq_bootbay",
+          "/wcs/shop/en/bootbay/bootbay-faq"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contact_bootbay.aspx",
+          "/wcs/shop/en/bootbay/contact-us-at-bootbay"
+        ]
+      },
+      {
+        "type_name": "Customer Service Hub",
+        "typical_url_patterns": [
+          "/wcs/shop/en/bootbay/bootbay-customer-service"
+        ]
+      },
+      {
+        "type_name": "Privacy Policy",
+        "typical_url_patterns": [
+          "/privacy_policy_bootbay",
+          "/wcs/shop/en/bootbay/privacy-policy-bootbay"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions",
+        "typical_url_patterns": [
+          "/terms_conditions_bootbay",
+          "/bootbay_policies.aspx"
+        ]
+      },
+      {
+        "type_name": "Price Guarantee Page",
+        "typical_url_patterns": [
+          "/bootbay_price_guarantee.aspx"
+        ]
+      },
+      {
+        "type_name": "Gift Card Page",
+        "typical_url_patterns": [
+          "/gift-card",
+          "/giftvoucher/index/check/"
+        ]
+      }
+    ]
+  },
+  "total_types": 44
+}

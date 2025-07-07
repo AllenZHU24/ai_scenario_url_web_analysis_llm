@@ -1,0 +1,1956 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "blucoil.com",
+  "export_time": "2025-07-07 11:06:55",
+  "yearly_analysis_results": {
+    "2016": {
+      "analysis_time": "2025-07-04 19:09:19",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 38,
+      "valid_content_urls_count": 38,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/blog/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=HGST+NAS+INTERNAL",
+        "https://web.archive.org/web/20161222191459/https://www.blucoil.com/checkout/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/checkout/cart/",
+        "https://web.archive.org/web/20161222191459/https://www.blucoil.com/wishlist/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=faq",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=payments",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/sales/order/history/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8_X19fU0lEPVU,/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/create/",
+        "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 11,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is essential for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/blog/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "The blog provides valuable content that can attract and inform potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Search results pages are crucial for customers exploring specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=HGST+NAS+INTERNAL",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Another search results page that showcases product options for interested customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "The checkout process is critical for converting interest into sales."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "The shopping cart is a key component in the purchasing decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "The wishlist allows customers to save items for future consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=faq",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - FAQ",
+            "selection_reason": "FAQs help address common customer queries, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=payments",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Payment Information",
+            "selection_reason": "Payment information is vital for customers considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/sales/order/history/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History",
+            "selection_reason": "Order history is important for customers to track their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8_X19fU0lEPVU,/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Login pages are essential for returning customers to access their accounts."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/create/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Registration",
+            "selection_reason": "Account registration is crucial for customer retention and personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "The account dashboard is important for customers to manage their information and orders."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 30,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=HGST+NAS+INTERNAL",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8_X19fU0lEPVU,/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/networking.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=cyberpower",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/photo-video.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/edit/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/tech.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/audio.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/newsletter/manage/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=faq",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/customer/account/create/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/blog/category/reviews/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Category - Reviews"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/computers.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/blog/category/tech-it-out/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Category - Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=cerevo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/https://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=STFR",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=payments",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Payment Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/catalogsearch/result/?cat=0&q=vifa",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=returns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/help?p=shipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161222191459/http://www.blucoil.com/sales/order/history/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-04 19:09:40",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 47,
+      "valid_content_urls_count": 47,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/blog/",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=antlion",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=faq",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=shipping",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/checkout/cart/",
+        "https://web.archive.org/web/20171226072901/https://www.blucoil.com/checkout/",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/sales/order/history/",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/customer/account/",
+        "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+        "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/create/",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=returns",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=audiotechnica",
+        "https://web.archive.org/web/20171226072901/http://www.blucoil.com/newsletter/manage/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/blog/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Blog Home",
+            "selection_reason": "Provides valuable content to engage customers and build brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Shows product options based on customer queries, driving interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=antlion",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Demonstrates product availability and variety, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=faq",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - FAQ",
+            "selection_reason": "Addresses common customer questions, aiding in the consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=shipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Final step in the purchasing journey, essential for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/sales/order/history/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to track their orders, enhancing fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their account and preferences."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Facilitates easy access for returning customers, promoting retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/create/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Registration",
+            "selection_reason": "Encourages new customers to create accounts, fostering long-term relationships."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=returns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Returns Policy",
+            "selection_reason": "Clarifies return policies, reducing purchase hesitation."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=audiotechnica",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Highlights specific products, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/newsletter/manage/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Management",
+            "selection_reason": "Allows customers to manage subscriptions, enhancing engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 28,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=faq",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=shipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=payments",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Payment Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=g-technology",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/customer/account/edit/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/blog/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Blog Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=audiotechnica",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/tech.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=BOSS",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/help?p=returns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/sales/order/history/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=cerevo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/networking.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/photo-video.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/audio.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/create/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/computers.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Roland",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/https://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20171226072901/http://www.blucoil.com/newsletter/manage/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-04 19:10:03",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 53,
+      "valid_content_urls_count": 53,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/photo-video.html",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/computers.html",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=RockNRolla",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/checkout/cart/",
+        "https://web.archive.org/web/20181122151254/https://www.blucoil.com/checkout/",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=faq",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=shipping",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=payments",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/sales/order/history/",
+        "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/",
+        "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/create/",
+        "https://web.archive.org/web/20181122151254/http://www.blucoil.com/newsletter/manage/"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/photo-video.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Category Page (Old Platform)",
+            "selection_reason": "Highlights a specific product category, increasing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/computers.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Category Page (Old Platform)",
+            "selection_reason": "Another important category page that attracts potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=RockNRolla",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Engages customers who are actively searching for specific products."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Provides relevant product options to interested customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step in the purchasing process where customers review their selections."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Final step in the purchasing journey, essential for conversions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=faq",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - FAQ",
+            "selection_reason": "Addresses common customer inquiries, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=shipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, influencing their purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=payments",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Payment Information",
+            "selection_reason": "Provides essential payment information to facilitate customer confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/sales/order/history/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their accounts and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/create/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Registration",
+            "selection_reason": "Encourages new customers to create accounts for better engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/newsletter/manage/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Newsletter Management",
+            "selection_reason": "Allows customers to manage subscriptions, fostering ongoing engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 24,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/photo-video.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/computers.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=RockNRolla",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8_X19fU0lEPVU,/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/newsletter/manage/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=faq",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/customer/account/edit/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=shipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/networking.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/create/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/sales/order/history/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/tech.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=payments",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Payment Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/audio.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/https://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Incase",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181122151254/http://www.blucoil.com/help?p=returns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Returns Policy"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-04 19:10:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 53,
+      "valid_content_urls_count": 53,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/tech.html",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Incase",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=faq",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=shipping",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=payments",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/cart/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/sales/order/history/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/edit/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/create/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+        "https://web.archive.org/web/20190714170853/http://www.blucoil.com/wishlist/"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to explore the website."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/tech.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Category Page (Old Platform)",
+            "selection_reason": "Provides information about technology products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Allows customers to find specific products they are interested in."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Incase",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Facilitates product discovery based on customer queries."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=faq",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - FAQ",
+            "selection_reason": "Addresses common customer questions, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=shipping",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Shipping Policy",
+            "selection_reason": "Informs customers about shipping options, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=payments",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Help Center - Payment Information",
+            "selection_reason": "Provides payment details, essential for customer confidence in transactions."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/cart/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical step for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Checkout Process",
+            "selection_reason": "Finalizes the purchase process, essential for conversion."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/sales/order/history/",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order History",
+            "selection_reason": "Allows customers to track their orders, enhancing post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Dashboard",
+            "selection_reason": "Central hub for customers to manage their account and orders."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/edit/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Edit Account Information",
+            "selection_reason": "Empowers customers to update their information, fostering engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/create/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Registration",
+            "selection_reason": "Encourages new customers to create accounts, enhancing retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Facilitates returning customers to access their accounts easily."
+          },
+          {
+            "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/wishlist/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save products for future consideration, enhancing user experience."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 24,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/edit/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Edit Account Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Open+Mesh",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=faq",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - FAQ"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/tech.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/computers.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/photo-video.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/create/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Registration"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/login/referer/aHR0cDovL3d3dy5ibHVjb2lsLmNvbS8,/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/customer/account/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Dashboard"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/audio.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/cart/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/networking.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Category Page (Old Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=shipping",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Shipping Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=payments",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Payment Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/wishlist/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Incase",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/help?p=returns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Help Center - Returns Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=RockNRolla",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/checkout/",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Checkout Process"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/sales/order/history/",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order History"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/catalogsearch/result/?cat=0&q=Antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20190714170853/http://www.blucoil.com/newsletter/manage/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Newsletter Management"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-04 19:10:51",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/pages/audio",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/all",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/turntables-and-accessories",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/microphones/microphones",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/cart",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/boss",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/health-tech",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/zoom",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/exclusive-brands",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/micca-speck-g2-1080p-full-hd-ultra-portable-media-player-bundle-with-elite-16gb-class-10-sdhc-uhs-1-memory-card-and-blucoil-8-ft-hdmi-cable",
+        "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/1more"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/pages/audio",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Content Page (New Platform)",
+            "selection_reason": "Provides essential information about audio products, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products Collection",
+            "selection_reason": "Offers a comprehensive view of all products, catering to customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Highlights popular products, driving customer interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/turntables-and-accessories",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Turntables & Accessories",
+            "selection_reason": "Targets a specific product category that may attract niche customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/microphones/microphones",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Microphones",
+            "selection_reason": "Focuses on a key product type, appealing to audio enthusiasts."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers ready to make a purchase decision."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/boss",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - BOSS",
+            "selection_reason": "Represents a well-known brand, likely to attract customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Showcases a specific featured product, enhancing customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/health-tech",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Health Tech",
+            "selection_reason": "Addresses a growing market segment, appealing to health-conscious customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/zoom",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - Zoom",
+            "selection_reason": "Targets a popular brand in the audio space, likely to attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/exclusive-brands",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Exclusive Brands Collection",
+            "selection_reason": "Highlights exclusive offerings, enhancing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/micca-speck-g2-1080p-full-hd-ultra-portable-media-player-bundle-with-elite-16gb-class-10-sdhc-uhs-1-memory-card-and-blucoil-8-ft-hdmi-cable",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Promotes a specific product bundle, encouraging customer consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/1more",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - 1MORE",
+            "selection_reason": "Focuses on a specific brand that may attract targeted customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/mxr",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MXR"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/samson",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Samson"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/fiio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Fiio"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/ernie-ball",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/1more",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - 1MORE"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/boss-rc-3-loop-station-stereo-recorder-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-2-pack-of-pedal-patch-cables-and-4-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/rca-u1000-unison-4-line-expandable-phone-system-full-duplex-speakerphone-bundle-with-rca-u1200-dect-6-0-cordless-accessory-handsets-4-pack-and-6-blucoil-aaa-batteries",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/turntables-and-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Turntables & Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/microphones/microphones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/security-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Security Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/roland",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Roland"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/tuners",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tuners"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/pages/audio",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Content Page (New Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/beyerdynamic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Beyerdynamic"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/telephones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Telephones"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Antlion Audio"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/blue-microphone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blue Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/behringer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Behringer"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/audio-technica",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Audio-Technica"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/health-tech",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Health Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/blucoil",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blucoil (House Brand)"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/zoom",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Zoom"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/exclusive-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Exclusive Brands Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/jim-dunlop-gcb95-cry-baby-standard-wah-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-and-4-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/boss",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - BOSS"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/featured-products-1/products/micca-speck-g2-1080p-full-hd-ultra-portable-media-player-bundle-with-elite-16gb-class-10-sdhc-uhs-1-memory-card-and-blucoil-8-ft-hdmi-cable",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/miops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MIOPS"
+        },
+        {
+          "url": "https://web.archive.org/web/20201111230258/https://www.blucoil.com/collections/dunlop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-04 19:11:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/pages/audio",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/search",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/cart",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/all",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/telephones",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/health-tech",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/microphones/microphones",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/audio-technica",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/zoom",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+        "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and products to potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/pages/audio",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Content Page (New Platform)",
+            "selection_reason": "Provides essential information about audio products, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Allows customers to actively search for products, increasing engagement and interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selected products before finalizing their purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Highlights popular products, attracting customer interest and encouraging purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products Collection",
+            "selection_reason": "Provides a comprehensive view of all products, catering to diverse customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/telephones",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Telephones",
+            "selection_reason": "Specific product category that may attract customers looking for telecommunication solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/health-tech",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Health Tech",
+            "selection_reason": "Targets a growing market segment interested in health technology products."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/microphones/microphones",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Microphones",
+            "selection_reason": "Focuses on a specific product type that is essential for audio recording and communication."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/audio-technica",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - Audio-Technica",
+            "selection_reason": "Represents a well-known brand, attracting customers familiar with its reputation."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/zoom",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - Zoom",
+            "selection_reason": "Another reputable brand that may draw customers looking for quality audio solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Showcases a specific product that may appeal to customers looking for noise-canceling solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Targets musicians specifically, showcasing a popular product in the music category."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/mxr",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MXR"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/blucoil",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blucoil (House Brand)"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/telephones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Telephones"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/rca-u1000-unison-4-line-expandable-phone-system-full-duplex-speakerphone-bundle-with-rca-u1200-dect-6-0-cordless-accessory-handsets-4-pack-and-6-blucoil-aaa-batteries",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/1more",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - 1MORE"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/behringer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Behringer"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/samson",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Samson"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/beyerdynamic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Beyerdynamic"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/boss",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - BOSS"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/tuners",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tuners"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Antlion Audio"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/blue-microphone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blue Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/miops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MIOPS"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/roland",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Roland"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/ernie-ball",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/exclusive-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Exclusive Brands Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/turntables-and-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Turntables & Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/audio-technica",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Audio-Technica"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/dunlop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/health-tech",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Health Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/fiio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Fiio"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/microphones/microphones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/boss-rc-3-loop-station-stereo-recorder-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-2-pack-of-pedal-patch-cables-and-4-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/micca-speck-g2-1080p-full-hd-ultra-portable-media-player-bundle-with-elite-16gb-class-10-sdhc-uhs-1-memory-card-and-blucoil-8-ft-hdmi-cable",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/security-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Security Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1/products/jim-dunlop-gcb95-cry-baby-standard-wah-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-and-4-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/featured-products-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/collections/zoom",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Zoom"
+        },
+        {
+          "url": "https://web.archive.org/web/20211222054102/https://www.blucoil.com/pages/audio",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Content Page (New Platform)"
+        }
+      ]
+    },
+    "2022": {
+      "analysis_time": "2025-07-04 19:11:44",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2022",
+      "discovered_links_count": 56,
+      "valid_content_urls_count": 56,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/pages/audio",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/search",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/cart",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/all",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/samson",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/health-tech",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/audio-technica",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/boss-rc-3-loop-station-stereo-recorder-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-2-pack-of-pedal-patch-cables-and-4-celluloid-guitar-picks",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/miops",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/turntables-and-accessories",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/boss",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+        "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/jim-dunlop-gcb95-cry-baby-standard-wah-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-and-4-guitar-picks"
+      ],
+      "recommended_pages_count": 15,
+      "recommended_in_valid_overlap": 15,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/pages/audio",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Content Page (New Platform)",
+            "selection_reason": "Provides valuable information about audio products, enhancing customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/search",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Search Results Page",
+            "selection_reason": "Allows customers to actively search for products, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Highlights popular products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/all",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Products Collection",
+            "selection_reason": "Provides a comprehensive view of all available products, catering to diverse customer needs."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/samson",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - Samson",
+            "selection_reason": "Showcases a specific brand, appealing to customers interested in Samson products."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/health-tech",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Health Tech",
+            "selection_reason": "Targets a niche market segment, enhancing product discovery."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/audio-technica",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - Audio-Technica",
+            "selection_reason": "Focuses on a well-known brand, attracting brand-loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/boss-rc-3-loop-station-stereo-recorder-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-2-pack-of-pedal-patch-cables-and-4-celluloid-guitar-picks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Highlights a specific product bundle, appealing to customers looking for complete solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/miops",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - MIOPS",
+            "selection_reason": "Targets customers interested in MIOPS products, enhancing brand engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/turntables-and-accessories",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Type Collection - Turntables & Accessories",
+            "selection_reason": "Caters to a specific product category, attracting niche customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/boss",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Brand Collection - BOSS",
+            "selection_reason": "Focuses on a popular brand, appealing to loyal customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Showcases a specific product bundle, enhancing customer interest in practical solutions."
+          },
+          {
+            "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/jim-dunlop-gcb95-cry-baby-standard-wah-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-and-4-guitar-picks",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Featured Products Collection",
+            "selection_reason": "Highlights a popular product, attracting customers looking for specific items."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 35,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/samson",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Samson"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/boss-rc-3-loop-station-stereo-recorder-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-2-pack-of-pedal-patch-cables-and-4-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/1more",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - 1MORE"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/micca-speck-g2-1080p-full-hd-ultra-portable-media-player-bundle-with-elite-16gb-class-10-sdhc-uhs-1-memory-card-and-blucoil-8-ft-hdmi-cable",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/exclusive-brands",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Exclusive Brands Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/beyerdynamic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Beyerdynamic"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/health-tech",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Health Tech"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/security-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Security Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/rca-u1000-unison-4-line-expandable-phone-system-full-duplex-speakerphone-bundle-with-rca-u1200-dect-6-0-cordless-accessory-handsets-4-pack-and-6-blucoil-aaa-batteries",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/behringer",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Behringer"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/jim-dunlop-gcb95-cry-baby-standard-wah-pedal-bundle-with-blucoil-power-supply-slim-ac-dc-adapter-for-9-volt-dc-670ma-and-4-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/tuners",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tuners"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/antlion",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Antlion Audio"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/fiio",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Fiio"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/telephones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Telephones"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/blue-microphone",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blue Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/turntables-and-accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Turntables & Accessories"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/ernie-ball",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/blucoil",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Blucoil (House Brand)"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/vxi-blueparrott-b450-xt-noise-canceling-bluetooth-headset-bundle-with-usb-charging-cable-blucoil-micro-usb-car-charger-usb-wall-adapter-and-5-pack-of-reusable-cable-ties",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/audio-technica",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Audio-Technica"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/miops",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MIOPS"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/featured-products-1/products/boss-gt-1-guitar-multi-effects-processor-bundle-with-boss-tone-studio-blucoil-9v-dc-power-supply-2-pack-of-pedal-patch-cables-and-4-pack-of-celluloid-guitar-picks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Featured Products Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/pages/audio",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Content Page (New Platform)"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/roland",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Roland"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/zoom",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Zoom"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/microphones/microphones",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Microphones"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/dunlop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - Ernie Ball / Dunlop"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/mxr",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - MXR"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/boss",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Brand Collection - BOSS"
+        },
+        {
+          "url": "https://web.archive.org/web/20220814060629/https://www.blucoil.com/collections/all",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Products Collection"
+        }
+      ]
+    }
+  }
+}

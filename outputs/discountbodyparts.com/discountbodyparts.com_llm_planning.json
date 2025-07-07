@@ -1,0 +1,1321 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "discountbodyparts.com",
+  "export_time": "2025-07-07 11:09:58",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-07 06:01:45",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/index.php",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com:80/",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Headlight",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/low-price-guarantee.html",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/basket.php",
+        "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/customer"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers to discover the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, crucial for brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Provides access to the main site, enhancing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Engages customers by showcasing specific product categories."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Headlight",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Highlights another product category, increasing customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Further diversifies product offerings to attract potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/low-price-guarantee.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Reassures customers about pricing, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/basket.php",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/customer",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Encourages customer retention through account management."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/customer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/low-price-guarantee.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Headlight",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/basket.php",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20090520170541/http://www.discountbodyparts.com/catalog/?Ntt=Bumper",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-07 06:01:52",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/index.php",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/low-price-guarantee.html",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/basket.php?omPage=View",
+        "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/customer"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, reinforcing brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "This page showcases popular products, generating customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Highlights another popular part type, maintaining customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Focuses on a specific part type, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/low-price-guarantee.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Provides assurance to customers about pricing, aiding in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/basket.php?omPage=View",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers finalizing their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/customer",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Encourages customer retention by facilitating account access."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/customer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/low-price-guarantee.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/basket.php?omPage=View",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101212033021/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-07 06:02:01",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/index.php",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/low-price-guarantee.html",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?omPage=View",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+        "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/customer"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Core entry point for customers to learn about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage that provides brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Engages customers by showcasing popular parts."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Highlights another popular part category to attract interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Further engages customers with a different part type."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/low-price-guarantee.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Reassures customers about pricing, aiding in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?omPage=View",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selections before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Saved Quote Retrieval",
+            "selection_reason": "Allows customers to retrieve saved quotes, enhancing the decision process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/customer",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Facilitates customer retention by allowing account access."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Saved Quote Retrieval"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/low-price-guarantee.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/basket.php?omPage=View",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/customer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20111219073503/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-07 06:02:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 19,
+      "valid_content_urls_count": 19,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/index.php",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com:80/",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/low-price-guarantee.html",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?omPage=View",
+        "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/customer"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers to discover the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage, reinforcing brand visibility and product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Additional homepage URL ensuring accessibility and brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Highlights popular products, engaging customers' interest in specific parts."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Focuses on another popular part type, catering to customer interests."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Engages customers by showcasing another category of popular parts."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/low-price-guarantee.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Provides assurance to customers about pricing, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Saved Quote Retrieval",
+            "selection_reason": "Facilitates the decision-making process by allowing customers to retrieve saved quotes."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?omPage=View",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Essential for customers to review their selections before finalizing purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/customer",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Encourages customer retention by facilitating account access for repeat purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 10,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Saved Quote Retrieval"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/basket.php?omPage=View",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/low-price-guarantee.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121121004425/http://www.discountbodyparts.com/customer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-07 06:02:21",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/index.php",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/low-price-guarantee.html",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?omPage=View",
+        "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/customer"
+      ],
+      "recommended_pages_count": 9,
+      "recommended_in_valid_overlap": 9,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers to become aware of the brand and its offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/index.php",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another key entry point that reinforces brand awareness and provides navigation to products."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "This URL showcases popular products, generating interest among potential buyers."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Highlights another popular product category, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Part Type Category Page",
+            "selection_reason": "Focuses on a key product category, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/low-price-guarantee.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "This page provides assurance to customers about pricing, aiding in their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Saved Quote Retrieval",
+            "selection_reason": "Facilitates the decision-making process by allowing customers to retrieve saved quotes."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?omPage=View",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Essential for customers to review their selected items before finalizing their purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/customer",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Customer Account Login",
+            "selection_reason": "Encourages customer retention by providing access to their accounts and order history."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?quote=retrieve",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Saved Quote Retrieval"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/customer",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Customer Account Login"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/basket.php?omPage=View",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/low-price-guarantee.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper+Cover&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Headlight&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/catalog/?Ntt=Bumper&omPage=most_popular",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Part Type Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131107111938/http://www.discountbodyparts.com/index.php",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-07 06:02:26",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/customer/returnpolicy",
+        "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/warranty.html"
+      ],
+      "recommended_pages_count": 4,
+      "recommended_in_valid_overlap": 4,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Provides assurance to customers about pricing, influencing their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Informs customers about the return process, which is crucial for their purchase confidence."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers to explore products and services."
+          },
+          {
+            "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Details the warranty offerings, enhancing customer trust and aiding in decision-making."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 4,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141219143934/http://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-07 06:02:33",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 21,
+      "valid_content_urls_count": 21,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/customer/returnpolicy",
+        "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com:80/",
+        "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/warranty.html"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customers evaluating return options before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Main entry point for customers to learn about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the home page, crucial for brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Attracts price-sensitive customers by assuring them of competitive pricing."
+          },
+          {
+            "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Provides assurance to customers regarding product quality and support."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20150928082327/http://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-07 06:02:39",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 17,
+      "valid_content_urls_count": 17,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/warranty.html",
+        "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/customer/returnpolicy"
+      ],
+      "recommended_pages_count": 4,
+      "recommended_in_valid_overlap": 4,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "This URL outlines the low price guarantee, which is crucial for customers evaluating their options."
+          },
+          {
+            "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Providing warranty information helps customers feel secure in their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are essential for customer trust and decision-making."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20161119015413/http://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-07 06:02:47",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 40,
+      "valid_content_urls_count": 40,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com:80/",
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/returnpolicy",
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/warranty.html",
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/policies/"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers to learn about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Essential for customers evaluating purchase risks and return options."
+          },
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Informs customers about price assurance, influencing their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Provides important information regarding product reliability and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another entry point for customers to explore the brand and product offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/policies/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "General Policies Hub",
+            "selection_reason": "Consolidates various policies that customers need to understand before purchasing."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171220131445/http://www.discountbodyparts.com/customer/policies/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "General Policies Hub"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-07 06:02:55",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 18,
+      "valid_content_urls_count": 18,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com",
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/warranty.html",
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/policies/",
+        "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/returnpolicy"
+      ],
+      "recommended_pages_count": 6,
+      "recommended_in_valid_overlap": 6,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Another version of the homepage, ensuring accessibility and brand visibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "This URL provides critical information that can influence customer decisions by assuring them of price competitiveness."
+          },
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Offers customers reassurance about product quality and support, which is vital during the consideration phase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/policies/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "General Policies Hub",
+            "selection_reason": "Centralized information on policies helps customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Clear return policies are crucial for customer trust and can significantly impact purchase decisions."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 6,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/policies/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "General Policies Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181123174411/https://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-07 06:03:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 17,
+      "valid_content_urls_count": 17,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+        "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/policies/",
+        "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/",
+        "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/warranty.html",
+        "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/returnpolicy"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Low Price Guarantee Policy",
+            "selection_reason": "Provides assurance to customers about pricing, influencing their consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/policies/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "General Policies Hub",
+            "selection_reason": "Centralized information on policies helps customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers to learn about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/warranty.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Warranty Information",
+            "selection_reason": "Important for customers assessing product reliability and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/returnpolicy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Return Policy",
+            "selection_reason": "Critical for customer confidence in making a purchase decision."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/company/lowpriceguarantee/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Low Price Guarantee Policy"
+        },
+        {
+          "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/policies/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "General Policies Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/warranty.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Warranty Information"
+        },
+        {
+          "url": "https://web.archive.org/web/20190625204537/https://www.discountbodyparts.com/customer/returnpolicy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Return Policy"
+        }
+      ]
+    },
+    "2020": {
+      "analysis_time": "2025-07-07 06:03:02",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2020",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20201223053058/https://www.discountbodyparts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20201223053058/https://www.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to discover the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 1,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20201223053058/https://www.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    },
+    "2021": {
+      "analysis_time": "2025-07-07 06:03:04",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2021",
+      "discovered_links_count": 1,
+      "valid_content_urls_count": 1,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20211019061214/http://www2.discountbodyparts.com/"
+      ],
+      "recommended_pages_count": 1,
+      "recommended_in_valid_overlap": 1,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20211019061214/http://www2.discountbodyparts.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This URL serves as the entry point for customers to become aware of the brand and its offerings."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 1,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20211019061214/http://www2.discountbodyparts.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        }
+      ]
+    }
+  }
+}

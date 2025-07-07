@@ -1,0 +1,333 @@
+{
+  "generation_time": "2025-07-06 09:55:44",
+  "company_url": "dazadi.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/?new_locale=*"
+        ]
+      },
+      {
+        "type_name": "Blog Home",
+        "typical_url_patterns": [
+          "/blog/"
+        ]
+      },
+      {
+        "type_name": "Blog Post",
+        "typical_url_patterns": [
+          "/blog/[article-slug]/"
+        ]
+      },
+      {
+        "type_name": "Blog Category/Tag",
+        "typical_url_patterns": [
+          "/blog/category/*",
+          "/blog/tag/*"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/about-us/",
+          "/about_us.html"
+        ]
+      },
+      {
+        "type_name": "Press & News",
+        "typical_url_patterns": [
+          "/press_and_news.html"
+        ]
+      },
+      {
+        "type_name": "Why Shop Here / Testimonials",
+        "typical_url_patterns": [
+          "/why_shop.html",
+          "/the_home_of_awesome.html",
+          "/testimonials.php"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Department Page",
+        "typical_url_patterns": [
+          "/Sports-and-Fitness/",
+          "/Game-Rooms/",
+          "/Backyard-and-Patio/",
+          "/Toys-and-Games/",
+          "/sports/",
+          "/fitness/",
+          "/game-room/"
+        ]
+      },
+      {
+        "type_name": "Hierarchical Category Page",
+        "typical_url_patterns": [
+          "/Sporting-Goods/Basketball/",
+          "/Game-Rooms/Game-Tables/Air-Hockey-Tables/",
+          "/Sports-and-Fitness/Exercise-and-Fitness/Cardio-Equipment/"
+        ]
+      },
+      {
+        "type_name": "Modern Flat Category Page",
+        "typical_url_patterns": [
+          "/air-hockey-tables/",
+          "/shuffleboard-tables/",
+          "/basketball-hoops-goals/",
+          "/pool-tables/",
+          "/game-tables/"
+        ]
+      },
+      {
+        "type_name": "All Categories Index",
+        "typical_url_patterns": [
+          "/categories/"
+        ]
+      },
+      {
+        "type_name": "Brand Listing Page",
+        "typical_url_patterns": [
+          "/brands/[Brand-Name].html"
+        ]
+      },
+      {
+        "type_name": "Sales & Specials Hub",
+        "typical_url_patterns": [
+          "/sales-specials/",
+          "/sale/Discount_Bin.html",
+          "/on-sale-now.html"
+        ]
+      },
+      {
+        "type_name": "Themed Sale Page",
+        "typical_url_patterns": [
+          "/sale/Joola-Holiday-Sale.html",
+          "/sale/gifts-under-*.html",
+          "/search?*sl=Holiday-Gifts*"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Page",
+        "typical_url_patterns": [
+          "/new-arrivals/"
+        ]
+      },
+      {
+        "type_name": "Bestsellers Page",
+        "typical_url_patterns": [
+          "/bestsellers/"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search.php?search_query=*",
+          "/search?s=*"
+        ]
+      },
+      {
+        "type_name": "Buying Guides Hub",
+        "typical_url_patterns": [
+          "/buying-guides/",
+          "/resources.html"
+        ]
+      },
+      {
+        "type_name": "Licensed Fan Shop",
+        "typical_url_patterns": [
+          "/fan-shop/",
+          "/nfl/",
+          "/nba/",
+          "/mlb/",
+          "/nhl/"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Detail Page (HTML)",
+        "typical_url_patterns": [
+          "/*/*/*.html",
+          "/*/*/*/*/*.html"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (Slug)",
+        "typical_url_patterns": [
+          "/[product-name-slug]/"
+        ]
+      },
+      {
+        "type_name": "Product Reviews Listing",
+        "typical_url_patterns": [
+          "/reviews/product-reviews/c/index.html"
+        ]
+      },
+      {
+        "type_name": "Product Comparison Page",
+        "typical_url_patterns": [
+          "/compare"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/wishlist.php"
+        ]
+      },
+      {
+        "type_name": "Brand-filtered Results Page",
+        "typical_url_patterns": [
+          "/search.php?*&brand=*"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart",
+        "typical_url_patterns": [
+          "/cart.php",
+          "/shopping_cart.php"
+        ]
+      },
+      {
+        "type_name": "Checkout",
+        "typical_url_patterns": [
+          "/checkout.php"
+        ]
+      },
+      {
+        "type_name": "Add-to-Cart / Buy Now Action",
+        "typical_url_patterns": [
+          "/cart.php?action=add&product_id=*",
+          "/index.php?&action=buy_now&products_id=*"
+        ]
+      },
+      {
+        "type_name": "Gift Certificate Purchase Page",
+        "typical_url_patterns": [
+          "/giftcertificates.php"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status / Tracking Page",
+        "typical_url_patterns": [
+          "/orderstatus.php",
+          "/order_tracking.html",
+          "/account.php?action=order_status"
+        ]
+      },
+      {
+        "type_name": "Shipping Information Page",
+        "typical_url_patterns": [
+          "/shipping-info/",
+          "/shipping.html"
+        ]
+      },
+      {
+        "type_name": "Return Policy Page",
+        "typical_url_patterns": [
+          "/return-policy/",
+          "/return_policy.html"
+        ]
+      },
+      {
+        "type_name": "Contact Us Page",
+        "typical_url_patterns": [
+          "/contact-us/",
+          "/contact_us.html"
+        ]
+      },
+      {
+        "type_name": "Terms & Conditions Page",
+        "typical_url_patterns": [
+          "/terms-of-use/",
+          "/conditions.html"
+        ]
+      },
+      {
+        "type_name": "Privacy & Security Page",
+        "typical_url_patterns": [
+          "/security-privacy/",
+          "/privacy.html"
+        ]
+      },
+      {
+        "type_name": "Informational Popup",
+        "typical_url_patterns": [
+          "/shipping_pop.html"
+        ]
+      },
+      {
+        "type_name": "Site Map",
+        "typical_url_patterns": [
+          "/site_map.html"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "My Account Dashboard",
+        "typical_url_patterns": [
+          "/account.php",
+          "/my_account.html"
+        ]
+      },
+      {
+        "type_name": "Login Page",
+        "typical_url_patterns": [
+          "/login.php"
+        ]
+      },
+      {
+        "type_name": "Create Account Page",
+        "typical_url_patterns": [
+          "/login.php?action=create_account"
+        ]
+      },
+      {
+        "type_name": "Logout Action",
+        "typical_url_patterns": [
+          "/login.php?action=logout"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/account.php?action=view_orders"
+        ]
+      },
+      {
+        "type_name": "Account Details",
+        "typical_url_patterns": [
+          "/account.php?action=account_details"
+        ]
+      },
+      {
+        "type_name": "Address Book",
+        "typical_url_patterns": [
+          "/account.php?action=address_book"
+        ]
+      },
+      {
+        "type_name": "My Returns",
+        "typical_url_patterns": [
+          "/account.php?action=view_returns"
+        ]
+      },
+      {
+        "type_name": "Community Hub",
+        "typical_url_patterns": [
+          "/community.php"
+        ]
+      }
+    ]
+  },
+  "total_types": 46
+}

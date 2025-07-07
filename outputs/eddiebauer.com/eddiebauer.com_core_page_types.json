@@ -1,0 +1,380 @@
+{
+  "generation_time": "2025-07-07 12:43:30",
+  "company_url": "eddiebauer.com",
+  "core_page_types": {
+    "Awareness Stage": [
+      {
+        "type_name": "Home",
+        "typical_url_patterns": [
+          "/",
+          "/:80/"
+        ]
+      },
+      {
+        "type_name": "Brand Story & Guides Hub",
+        "typical_url_patterns": [
+          "/stories",
+          "/campaign/theguide",
+          "/guidetoeb",
+          "/campaign/guidepost"
+        ]
+      },
+      {
+        "type_name": "Guide/Story Category",
+        "typical_url_patterns": [
+          "/stories/category/*"
+        ]
+      },
+      {
+        "type_name": "Guide/Story Article",
+        "typical_url_patterns": [
+          "/stories/*/*"
+        ]
+      },
+      {
+        "type_name": "About Us",
+        "typical_url_patterns": [
+          "/company-info/company-info-about-us.jsp",
+          "/sportshop/about/about.jsp"
+        ]
+      },
+      {
+        "type_name": "Partnerships & Sponsorships",
+        "typical_url_patterns": [
+          "/campaign/americanforests",
+          "/campaign/theheroesproject",
+          "/campaign/partnerships",
+          "/company-info/company-info-partners.jsp"
+        ]
+      },
+      {
+        "type_name": "Sustainability & Responsibility",
+        "typical_url_patterns": [
+          "/campaign/sustainability",
+          "/campaign/responsible-sourcing",
+          "/content/land-acknowledgement",
+          "/content/california-supply-chains-act"
+        ]
+      },
+      {
+        "type_name": "Careers",
+        "typical_url_patterns": [
+          "/career/career-overview.jsp",
+          "/campaign/careers"
+        ]
+      }
+    ],
+    "Interest Stage": [
+      {
+        "type_name": "Main Category Hub",
+        "typical_url_patterns": [
+          "/content/men",
+          "/content/women",
+          "/content/gear",
+          "/content/kids",
+          "/content/home",
+          "/content/outerwear",
+          "/content/footwear",
+          "/c/[0-9]*/men",
+          "/c/[0-9]*/women",
+          "/c/[0-9]*/gear"
+        ]
+      },
+      {
+        "type_name": "Sale & Clearance Hub",
+        "typical_url_patterns": [
+          "/browse/sale/_/*",
+          "/browse/clearance/_/*",
+          "/content/clearance",
+          "/c/sale"
+        ]
+      },
+      {
+        "type_name": "New Arrivals Hub",
+        "typical_url_patterns": [
+          "/content/new-arrivals",
+          "/t/new-arrivals"
+        ]
+      },
+      {
+        "type_name": "Gift Guide Hub",
+        "typical_url_patterns": [
+          "/campaign/gift-guide"
+        ]
+      },
+      {
+        "type_name": "Themed Collection Page",
+        "typical_url_patterns": [
+          "/t/*",
+          "/campaign/outfitting-*",
+          "/campaign/ski",
+          "/campaign/rain"
+        ]
+      },
+      {
+        "type_name": "Brand Sub-line Hub (e.g., First Ascent)",
+        "typical_url_patterns": [
+          "/browse/first-ascent/_/*",
+          "/browse/travex/_/*",
+          "/browse/motion/_/*",
+          "/c/[0-9]*/first-ascent*"
+        ]
+      },
+      {
+        "type_name": "Lookbook",
+        "typical_url_patterns": [
+          "/lookbooks/*"
+        ]
+      },
+      {
+        "type_name": "Store Locator",
+        "typical_url_patterns": [
+          "/storelocator/store_locator.jsp",
+          "/store-locator"
+        ]
+      },
+      {
+        "type_name": "Coupons & Promotions Page",
+        "typical_url_patterns": [
+          "/view/coupons/",
+          "/content/coupons"
+        ]
+      },
+      {
+        "type_name": "Product Care Guide",
+        "typical_url_patterns": [
+          "/content/outerwear-care"
+        ]
+      }
+    ],
+    "Consideration Stage": [
+      {
+        "type_name": "Product Category Page (PLP)",
+        "typical_url_patterns": [
+          "/browse/*/*/_/*",
+          "/c/[0-9]*/*"
+        ]
+      },
+      {
+        "type_name": "Faceted Sale Category Page",
+        "typical_url_patterns": [
+          "/browse/*/*/_/*Z1z13xm6*",
+          "/c/*/*?*facets=sale_attr*",
+          "/s/-?keyword=*&facets=sale_attr*"
+        ]
+      },
+      {
+        "type_name": "Faceted Clearance Category Page",
+        "typical_url_patterns": [
+          "/browse/*/*/_/*Zy?isClearCat=true*"
+        ]
+      },
+      {
+        "type_name": "Faceted New Arrivals Category Page",
+        "typical_url_patterns": [
+          "/c/[0-9]*/new-arrivals",
+          "*fq=FSM_NewProduct:new*"
+        ]
+      },
+      {
+        "type_name": "Search Results Page",
+        "typical_url_patterns": [
+          "/search/*",
+          "/s/*"
+        ]
+      },
+      {
+        "type_name": "Product Detail Page (PDP)",
+        "typical_url_patterns": [
+          "/product/*"
+        ]
+      },
+      {
+        "type_name": "Custom Product Page",
+        "typical_url_patterns": [
+          "/custom?*",
+          "/product/*custom*"
+        ]
+      },
+      {
+        "type_name": "Size Chart",
+        "typical_url_patterns": [
+          "/custserv/customer-service-size-charts.jsp"
+        ]
+      },
+      {
+        "type_name": "Fit Guide",
+        "typical_url_patterns": [
+          "/content/true-fit"
+        ]
+      },
+      {
+        "type_name": "Award Winners Page",
+        "typical_url_patterns": [
+          "/campaign/awards"
+        ]
+      },
+      {
+        "type_name": "Shopping Index / Sitemap",
+        "typical_url_patterns": [
+          "/view/shopping-index/index.html",
+          "/templates/site-map.jsp"
+        ]
+      },
+      {
+        "type_name": "Technical Information",
+        "typical_url_patterns": [
+          "/custserv/customer-service-technical-information.jsp"
+        ]
+      }
+    ],
+    "Decision Stage": [
+      {
+        "type_name": "Shopping Cart / Bag",
+        "typical_url_patterns": [
+          "/checkout/bag.jsp"
+        ]
+      },
+      {
+        "type_name": "Checkout Funnel",
+        "typical_url_patterns": [
+          "/checkout/*"
+        ]
+      },
+      {
+        "type_name": "Catalog Quick Order",
+        "typical_url_patterns": [
+          "/catalog/catalog-quick-order.jsp"
+        ]
+      },
+      {
+        "type_name": "Gift Card Page",
+        "typical_url_patterns": [
+          "/custserv/customer-service-gift-cards.jsp"
+        ]
+      },
+      {
+        "type_name": "Wishlist",
+        "typical_url_patterns": [
+          "/user/wishlist.jsp"
+        ]
+      }
+    ],
+    "Fulfillment Stage": [
+      {
+        "type_name": "Order Status / Tracking",
+        "typical_url_patterns": [
+          "/order-status",
+          "/service/help?a=Online-Shipping-Status-and-Tracking*"
+        ]
+      },
+      {
+        "type_name": "Customer Service / Help Hub",
+        "typical_url_patterns": [
+          "/custserv/customer-service-landing.jsp",
+          "/service/help"
+        ]
+      },
+      {
+        "type_name": "Contact Us Form",
+        "typical_url_patterns": [
+          "/custserv/ask-eddie-email.jsp",
+          "/contactus"
+        ]
+      },
+      {
+        "type_name": "Shipping Information",
+        "typical_url_patterns": [
+          "/custserv/customer-service-shipping.jsp"
+        ]
+      },
+      {
+        "type_name": "Returns & Exchanges Policy",
+        "typical_url_patterns": [
+          "/custserv/customer-service-returns-and-exchanges.jsp",
+          "/service/help?a=Return-Options-for-Online-Orders*"
+        ]
+      },
+      {
+        "type_name": "Payment Methods FAQ",
+        "typical_url_patterns": [
+          "/service/help?a=Payment-Methods-and-Tax*",
+          "/service/help?a=Klarna-FAQs*"
+        ]
+      }
+    ],
+    "Retention Stage": [
+      {
+        "type_name": "Account Login",
+        "typical_url_patterns": [
+          "/user/login.jsp",
+          "/user/acc-login.jsp",
+          "/acc-login"
+        ]
+      },
+      {
+        "type_name": "Account Registration",
+        "typical_url_patterns": [
+          "/user/acc-register.jsp",
+          "/signup"
+        ]
+      },
+      {
+        "type_name": "Order History",
+        "typical_url_patterns": [
+          "/user/order-history.jsp"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Hub (Adventure Rewards)",
+        "typical_url_patterns": [
+          "/content/adventurerewards",
+          "/custserv/customer-service-rewards.jsp"
+        ]
+      },
+      {
+        "type_name": "Loyalty Program Terms",
+        "typical_url_patterns": [
+          "/content/program-terms",
+          "/content/2022_program-terms"
+        ]
+      },
+      {
+        "type_name": "Credit Card Program Page",
+        "typical_url_patterns": [
+          "/custserv/customer-service-eddie-bauer-credit-cards.jsp",
+          "/content/credit"
+        ]
+      },
+      {
+        "type_name": "Pro Deals / Affiliate Program",
+        "typical_url_patterns": [
+          "/custserv/pro-deals-application.jsp",
+          "/company-info/company-info-affiliate-program.jsp"
+        ]
+      },
+      {
+        "type_name": "Privacy & Security Policy",
+        "typical_url_patterns": [
+          "/content/privacy-and-security",
+          "/company-info/company-info-privacy-and-security.jsp"
+        ]
+      },
+      {
+        "type_name": "Terms of Use",
+        "typical_url_patterns": [
+          "/content/terms-of-use",
+          "/company-info/company-info-terms-of-use.jsp"
+        ]
+      },
+      {
+        "type_name": "Data Privacy/Opt-Out",
+        "typical_url_patterns": [
+          "/optout/ccpa",
+          "/do-not-contact"
+        ]
+      }
+    ]
+  },
+  "total_types": 51
+}

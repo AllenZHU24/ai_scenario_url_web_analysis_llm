@@ -1,0 +1,2662 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "centurynovelty.com",
+  "export_time": "2025-07-07 11:08:19",
+  "yearly_analysis_results": {
+    "2009": {
+      "analysis_time": "2025-07-06 01:56:59",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2009",
+      "discovered_links_count": 81,
+      "valid_content_urls_count": 81,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/aboutUs.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/contactUs.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/productcategories.html",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/sale.html",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/wishList.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/help.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/privacy.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/login.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/orderStatus.jsp",
+        "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/accountCreate.jsp"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential entry point for customers to learn about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides customers with background information about the company."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/contactUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Allows customers to reach out for inquiries, enhancing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/productcategories.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Categories Index",
+            "selection_reason": "Helps customers explore product offerings and find items of interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/sale.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Clearance Collection",
+            "selection_reason": "Attracts customers looking for discounts and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/wishList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Enables customers to save items for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/help.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer questions and concerns."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/privacy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Informs customers about data protection and privacy practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Details shipping options and costs, aiding in purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review and finalize their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/accountCreate.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages customers to create accounts for loyalty and repeat purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/wishList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/productcategories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/help.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/quickList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Quick List Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/privacy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/10offchristmas.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/contactUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/sale.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Clearance Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/accountCreate.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20091223051943/http://www.centurynovelty.com/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        }
+      ]
+    },
+    "2010": {
+      "analysis_time": "2025-07-06 01:57:13",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2010",
+      "discovered_links_count": 79,
+      "valid_content_urls_count": 79,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/aboutUs.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/orderStatus.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/help.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/contactUs.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/accountCreate.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/quickList.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/privacy.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/wishList.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/shippingPolicy.jsp",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/productcategories.html",
+        "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/login.jsp"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the company, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, crucial for initial engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/help.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer queries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/contactUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Facilitates customer inquiries, building trust and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/accountCreate.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages customer retention through account creation."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/quickList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Quick List Page",
+            "selection_reason": "Helps customers quickly access their favorite items, enhancing consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/privacy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Informs customers about data protection, increasing trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/wishList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Wishlist",
+            "selection_reason": "Allows customers to save items for future purchases, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for the purchase process, facilitating decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Provides important shipping information, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/productcategories.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Categories Index",
+            "selection_reason": "Helps customers explore product offerings, increasing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Essential for returning customers to access their accounts and make purchases."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 13,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/help.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/contactUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/accountCreate.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/quickList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Quick List Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/privacy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/wishList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Wishlist"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/productcategories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20101230114953/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        }
+      ]
+    },
+    "2011": {
+      "analysis_time": "2025-07-06 01:57:29",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2011",
+      "discovered_links_count": 86,
+      "valid_content_urls_count": 86,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/aboutUs.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/contactUs.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/productcategories.html",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/quickList.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/shippingPolicy.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/help.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/orderStatus.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/accountCreate.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/privacy.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/emailSignUpWithCoupon.jsp",
+        "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/Party-Planning-Guides-and-Tips.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The home page serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and informs customers about the brand's values and mission."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/contactUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer inquiries and support, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/productcategories.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Categories Index",
+            "selection_reason": "Helps customers explore product offerings, crucial for generating interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/quickList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Quick List Page",
+            "selection_reason": "Facilitates product comparison and selection, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Informs customers about shipping options and costs, influencing purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/help.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer queries, reducing barriers to purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for finalizing purchases, this page is essential for the decision stage."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Allows returning customers to access their accounts, facilitating the purchase process."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Enables customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/accountCreate.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages customer retention by allowing users to create accounts for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/privacy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/emailSignUpWithCoupon.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional Landing Page",
+            "selection_reason": "Attracts new customers through promotions, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/Party-Planning-Guides-and-Tips.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content - General Guide",
+            "selection_reason": "Provides valuable information that can attract customers and enhance brand engagement."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 18,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/TheSkinnyOnFatTuesday.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content - Thematic Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/quickList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Quick List Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/productcategories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/Party-Planning-Guides-and-Tips.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content - General Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/accountCreate.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/help.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/privacy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com/contactUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20111231170712/http://www.centurynovelty.com:80/emailSignUpWithCoupon.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Landing Page"
+        }
+      ]
+    },
+    "2012": {
+      "analysis_time": "2025-07-06 01:57:46",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2012",
+      "discovered_links_count": 93,
+      "valid_content_urls_count": 93,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/aboutUs.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/contactUs.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/emailSignUpWithCoupon.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/productcategories.html",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/help.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/shippingPolicy.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/orderStatus.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/accountCreate.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/Party-Planning-Guides-and-Tips.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/quickList.jsp",
+        "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/privacy.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage is crucial for initial customer engagement and navigation."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the brand, fostering trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/contactUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Allows customers to reach out for inquiries, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/emailSignUpWithCoupon.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional Landing Page",
+            "selection_reason": "Encourages sign-ups and builds a customer database for future marketing."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/productcategories.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Categories Index",
+            "selection_reason": "Helps customers explore product offerings, driving interest and potential purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/help.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer queries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Informs customers about shipping details, which is critical for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Essential for finalizing purchases and reviewing selected items."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, improving satisfaction and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/accountCreate.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages account creation for personalized experiences and repeat business."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/Party-Planning-Guides-and-Tips.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content - General Guide",
+            "selection_reason": "Provides valuable content that can attract and engage customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/quickList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Quick List Page",
+            "selection_reason": "Offers a simplified view of products, aiding in customer decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/privacy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Builds trust by informing customers about data protection practices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/quickList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Quick List Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/privacy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/emailSignUpWithCoupon.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/help.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/contactUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/accountCreate.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/Party-Planning-Guides-and-Tips.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content - General Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com:80/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20121213092108/http://www.centurynovelty.com/productcategories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        }
+      ]
+    },
+    "2013": {
+      "analysis_time": "2025-07-06 01:58:05",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2013",
+      "discovered_links_count": 95,
+      "valid_content_urls_count": 95,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/aboutUs.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/productcategories.html",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/shippingPolicy.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/help.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/contactUs.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/orderStatus.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/accountCreate.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/emailSignUpWithCoupon.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/privacy.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/quickList.jsp",
+        "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/Party-Planning-Guides-and-Tips.jsp"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 12,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/aboutUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides essential information about the brand, fostering trust and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The main entry point for customers, showcasing key offerings and promotions."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/productcategories.html",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "All Categories Index",
+            "selection_reason": "Helps customers explore product offerings, enhancing interest and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Critical for customers evaluating purchase options based on shipping details."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/help.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer queries, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/contactUs.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Facilitates communication, enhancing customer trust and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Essential for customers finalizing their purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Necessary for returning customers to access their accounts and complete purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing post-purchase satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/accountCreate.jsp",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages repeat business by facilitating account creation for future purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/emailSignUpWithCoupon.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Promotional Landing Page",
+            "selection_reason": "Attracts new customers through promotions, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/privacy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Informs customers about data handling practices, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/quickList.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Quick List Page",
+            "selection_reason": "Helps customers quickly access frequently viewed items, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/Party-Planning-Guides-and-Tips.jsp",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content - General Guide",
+            "selection_reason": "Provides valuable content that engages customers and enhances brand perception."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 17,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/aboutUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/emailSignUpWithCoupon.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Promotional Landing Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/contactUs.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/accountCreate.jsp",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/productcategories.html",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/quickList.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Quick List Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/help.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com:80/Party-Planning-Guides-and-Tips.jsp",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content - General Guide"
+        },
+        {
+          "url": "https://web.archive.org/web/20131223140520/http://www.centurynovelty.com/privacy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        }
+      ]
+    },
+    "2014": {
+      "analysis_time": "2025-07-06 01:58:16",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2014",
+      "discovered_links_count": 105,
+      "valid_content_urls_count": 105,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/aboutus.html",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/contactUs.html",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/privacy.html",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/help.html",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/orderStatus.jsp",
+        "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/help.html"
+      ],
+      "recommended_pages_count": 10,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Essential for introducing the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/aboutus.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides background and builds trust with customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/contactUs.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Facilitates customer inquiries and engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Critical for informing customers about shipping options."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/privacy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Essential for customer trust and compliance."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/help.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer concerns and questions."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Key for customers to review and finalize purchases."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Necessary for account access and personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders and enhances satisfaction."
+          },
+          {
+            "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/help.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Reinforces support options available to customers."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 12,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/help.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/help.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com/aboutus.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/contactUs.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/shippingPolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20141224102525/http://www.centurynovelty.com:80/privacy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        }
+      ]
+    },
+    "2015": {
+      "analysis_time": "2025-07-06 01:58:28",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 115,
+      "valid_content_urls_count": 115,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/aboutus.html",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/contactUs.html",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/help.html",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.html",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/privacy.html",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/basket.jsp",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/orderStatus.jsp",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+        "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/help.html"
+      ],
+      "recommended_pages_count": 11,
+      "recommended_in_valid_overlap": 10,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing essential information about the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/aboutus.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and credibility by sharing the brand's story and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/contactUs.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Provides customers with a way to reach out for inquiries, enhancing engagement and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/help.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Helps customers find answers to common questions, aiding in their decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Informs customers about shipping options and costs, which is crucial for their purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/privacy.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Addresses customer concerns regarding data protection and privacy, fostering trust."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Essential for customers to review their selected items before finalizing their purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Allows returning customers to access their accounts, facilitating a smoother checkout process."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/orderStatus.jsp",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Enables customers to track their orders, enhancing their post-purchase experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Reiterates shipping information, ensuring customers are well-informed before making a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/help.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Provides additional support and information, helping customers feel confident in their choices."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 12,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/privacy.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/help.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/orderStatus.jsp",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/aboutus.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/contactUs.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/shippingPolicy.jsp",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151223055126/http://www.centurynovelty.com:80/help.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-06 01:58:35",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 5,
+      "valid_content_urls_count": 5,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/help.html",
+        "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/aboutus.html",
+        "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/",
+        "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/login.jsp",
+        "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/basket.jsp"
+      ],
+      "recommended_pages_count": 5,
+      "recommended_in_valid_overlap": 5,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/help.html",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Provides essential information to help customers make informed decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/aboutus.html",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Introduces the brand and builds trust with potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "Serves as the main entry point for customers to explore offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/login.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates customer access to their accounts for a personalized experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/basket.jsp",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 5,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/help.html",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/aboutus.html",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/login.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20160423083902/https://www.centurynovelty.com/basket.jsp",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-06 01:58:51",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 107,
+      "valid_content_urls_count": 107,
+      "recommended_crawl_pages": [
+        "https://centurynovelty.com/",
+        "https://centurynovelty.com/pages/about-us",
+        "https://centurynovelty.com/pages/contact-us",
+        "https://centurynovelty.com/pages/faqs",
+        "https://centurynovelty.com/pages/shipping-policy",
+        "https://centurynovelty.com/cart",
+        "https://centurynovelty.com/account/login",
+        "https://centurynovelty.com/pages/order-status",
+        "https://centurynovelty.com/pages/holidays",
+        "https://centurynovelty.com/collections/top-sellers-manual",
+        "https://centurynovelty.com/pages/events",
+        "https://centurynovelty.com/pages/duck-race",
+        "https://centurynovelty.com/pages/privacy-policy",
+        "https://centurynovelty.com/pages/party-themes"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 0,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "The homepage serves as the primary entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds brand trust and informs customers about the company's mission and values."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/contact-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer inquiries, enhancing customer engagement and support."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/faqs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer concerns, aiding in the decision-making process."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/shipping-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Provides critical information regarding shipping, which influences purchase decisions."
+          },
+          {
+            "url": "https://centurynovelty.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "A crucial step in the purchase process where customers review their selections."
+          },
+          {
+            "url": "https://centurynovelty.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates customer account access, essential for repeat purchases and personalized experiences."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, enhancing the post-purchase experience."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/holidays",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Page",
+            "selection_reason": "Highlights seasonal offerings, attracting customers during specific times of the year."
+          },
+          {
+            "url": "https://centurynovelty.com/collections/top-sellers-manual",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top Sellers Collection",
+            "selection_reason": "Showcases popular products, guiding customers towards best-selling items."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/events",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Informational Page",
+            "selection_reason": "Informs customers about upcoming events, fostering community engagement."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/duck-race",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Informational Page",
+            "selection_reason": "Engages customers with unique events, enhancing brand interaction."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/privacy-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Builds trust by informing customers about data handling practices."
+          },
+          {
+            "url": "https://centurynovelty.com/pages/party-themes",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Page",
+            "selection_reason": "Categorizes products by themes, making it easier for customers to find relevant items."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 50,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/contact-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/mardi-gras",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Mardi Gras"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/christmas-in-july",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Christmas"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/upcoming-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/first-birthday",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/easter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Easter"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/decorations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Decorations"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/secret-santa-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/magic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/privacy-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/product-categories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/top-sellers-manual",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top Sellers Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/red-ribbon-week",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/duck-race",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Informational Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/luau",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Luau / Beach"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/flamingo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/casino-night",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Casino"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/tableware",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tableware"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/st-patricks-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - St. Patrick's Day"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/new-years",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - New Year's"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/frogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/graduation",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Graduation"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/costumes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Costumes"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/halloween",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Halloween"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/breast-cancer-awareness-apparel",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/safari-zoo-animal",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/christmas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Christmas"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Clearance Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/birthday",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/oktoberfest",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Oktoberfest"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/party-themes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/pirate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Pirate"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/shipping-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/candy-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/blues-brothers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/cowboy-western",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Western"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/faqs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/patriotic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Patriotic / 4th of July"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/oktoberfest-decorations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Oktoberfest"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/seasonal-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/sports",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Sports"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/collections/autism-awareness",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Awareness Campaigns"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/holidays",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/events",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Informational Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171014182058/https://centurynovelty.com/pages/baby-shower",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Baby Shower"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-06 01:59:10",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 106,
+      "valid_content_urls_count": 106,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/about-us",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/contact-us",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/faqs",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/shipping-policy",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/privacy-policy",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/cart",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/account/login",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/order-status",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/top-sellers-manual",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/events",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/sale",
+        "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/holidays"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main landing page that introduces the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "Provides customers with information about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/contact-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer inquiries and support."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/faqs",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Helps customers find answers to common questions, aiding in their decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/shipping-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Informs customers about shipping options and costs, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/privacy-policy",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Privacy Policy Page",
+            "selection_reason": "Builds trust by outlining how customer data is handled."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/cart",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shopping Cart / Basket",
+            "selection_reason": "Critical for customers to review their selected items before purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Allows returning customers to access their accounts for a smoother checkout."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Enables customers to track their orders, enhancing the fulfillment experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/top-sellers-manual",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top Sellers Collection",
+            "selection_reason": "Highlights popular products, attracting customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/events",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Static Informational Page",
+            "selection_reason": "Informs customers about upcoming events, increasing engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/sale",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Sale / Clearance Collection",
+            "selection_reason": "Attracts customers looking for deals, enhancing interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/holidays",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Top-Level Category Page",
+            "selection_reason": "Categorizes holiday-related products, facilitating customer exploration."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment"
+        ]
+      },
+      "classified_urls_count": 49,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/secret-santa-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/candy-products",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/graduation",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Graduation"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/safari-zoo-animal",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/oktoberfest",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Oktoberfest"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/baby-shower",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Baby Shower"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/magic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/seasonal-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/christmas-in-july",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Christmas"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/duck-race",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Informational Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/tableware",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tableware"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/x-mas/Santa-Hats",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/luau",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Luau / Beach"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/shipping-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/christmas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Christmas"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/decorations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Decorations"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/costumes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Costumes"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/privacy-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/product-categories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/events",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Static Informational Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/holidays",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/autism-awareness",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Awareness Campaigns"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/birthday",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/new-years",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - New Year's"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/sports",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Sports"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/top-sellers-manual",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top Sellers Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/halloween",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Halloween"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/cowboy-western",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Western"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/patriotic",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Patriotic / 4th of July"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/flamingo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/casino-night",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Casino"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/frogs",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/st-patricks-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - St. Patrick's Day"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/mardi-gras",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Mardi Gras"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/upcoming-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/faqs",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/sale",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Sale / Clearance Collection"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/pirate",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Pirate"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/first-birthday",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/cart",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shopping Cart / Basket"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/party-themes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/blues-brothers",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/easter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Easter"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/pages/contact-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181213151421/https://centurynovelty.com/collections/red-ribbon-week",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-06 01:59:22",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 69,
+      "valid_content_urls_count": 69,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/about-century-novelty",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/contact-us",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/frequently-asked-questions",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/shipping-and-returns",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/login",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/order-status",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/register",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/wedding",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/halloween",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/birthday",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/christmas",
+        "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/easter"
+      ],
+      "recommended_pages_count": 13,
+      "recommended_in_valid_overlap": 13,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Home",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand and offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/about-century-novelty",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "About Us Page",
+            "selection_reason": "This page builds trust and informs customers about the brand's mission and values."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/contact-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Contact Us Page",
+            "selection_reason": "Essential for customer inquiries and support, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/frequently-asked-questions",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "FAQ / Help Page",
+            "selection_reason": "Addresses common customer concerns, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/shipping-and-returns",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Shipping Policy Page",
+            "selection_reason": "Informs customers about shipping options and return policies, crucial for purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/login",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Login Page",
+            "selection_reason": "Facilitates account access for returning customers, enhancing user experience."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/order-status",
+            "customer_journey_stage": "Fulfillment Stage",
+            "type_name": "Order Status Page",
+            "selection_reason": "Allows customers to track their orders, improving satisfaction and transparency."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/register",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Account Registration Page",
+            "selection_reason": "Encourages customer loyalty by enabling account creation for personalized experiences."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/wedding",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Event Collection - Wedding / Bachelorette",
+            "selection_reason": "Targets a specific customer segment interested in wedding-related products."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/halloween",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holiday Collection - Halloween",
+            "selection_reason": "Captures seasonal interest, driving traffic during a peak shopping period."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/birthday",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Event Collection - Birthday",
+            "selection_reason": "Appeals to customers looking for birthday celebration items, a common event."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/christmas",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holiday Collection - Christmas",
+            "selection_reason": "Targets holiday shoppers, a critical sales period for e-commerce."
+          },
+          {
+            "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/easter",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Holiday Collection - Easter",
+            "selection_reason": "Focuses on seasonal products, attracting customers during Easter celebrations."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 69,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/april-fools",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/cinco-de-mayo",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/ducks ",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/fiesta",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/school-events",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/wedding",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Wedding / Bachelorette"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/about-century-novelty",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "About Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/crafts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/frequently-asked-questions",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "FAQ / Help Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/halloween",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Halloween"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/movies-television",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Home"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/favors-toys-gifts",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Favors & Gifts"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/fourth-of-july",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Patriotic / 4th of July"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/valentines-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/holiday-shop",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/supplies",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/religious",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/winter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/ducks",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/candy ",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/stationery",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/christmas",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Christmas"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/decorations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Decorations"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/carnival",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/music",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/luau",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Luau / Beach"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/countries",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/order-status",
+          "customer_journey_stage": "Fulfillment Stage",
+          "type_name": "Order Status Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/new-years",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - New Year's"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/candy",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/st-patricks-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - St. Patrick's Day"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/product-categories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/birthday",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Birthday"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/tableware",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Tableware"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/search",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Search Results"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/occupations",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/colors",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/kings-court",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/cowboys-western",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Western"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/sports",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Sports"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/mardi-gras",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Mardi Gras"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/holidays",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Top-Level Category Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/login",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Login Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/contact-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Contact Us Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/easter",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Easter"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/costumes",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Costumes"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/bachelorette-party",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Wedding / Bachelorette"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/pirates",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Pirate"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/favors-toys-gifts ",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Type Collection - Favors & Gifts"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/privacy-policy",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Privacy Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/accessories",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/lights-glow",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/thanksgiving",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/gift-bags",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/oktoberfest",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Holiday Collection - Oktoberfest"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/retro",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/account/register",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Account Registration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/babyshower",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Event Collection - Baby Shower"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/day-of-the-dead",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/earth-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/groundhog-day",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/awareness-campaigns",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Awareness Campaigns"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/pages/shipping-and-returns",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Shipping Policy Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/animals",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/fantasy",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "All Categories Index"
+        },
+        {
+          "url": "https://web.archive.org/web/20191210200906/https://centurynovelty.com/collections/casino-night",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Theme Collection - Casino"
+        }
+      ]
+    }
+  }
+}

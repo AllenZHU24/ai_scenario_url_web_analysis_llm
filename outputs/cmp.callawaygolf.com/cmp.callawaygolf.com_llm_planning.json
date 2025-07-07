@@ -1,0 +1,737 @@
+{
+  "agent_version": "LLM_Planner_v1.0",
+  "company_url": "cmp.callawaygolf.com",
+  "export_time": "2025-07-07 11:08:47",
+  "yearly_analysis_results": {
+    "2015": {
+      "analysis_time": "2025-07-06 05:25:00",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2015",
+      "discovered_links_count": 55,
+      "valid_content_urls_count": 55,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/newsroom/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callaway-radio/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callawaylive/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/instruction-tips/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/leavenoyardbehind/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/pro-tour/",
+        "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/equipment/"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub Homepage",
+            "selection_reason": "This is the main entry point for customers, providing an overview of the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/newsroom/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Press/Newsroom Page",
+            "selection_reason": "Offers news and updates, enhancing brand visibility and credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callaway-radio/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Podcast Hub",
+            "selection_reason": "Engages customers through audio content, building brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callawaylive/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Live Show Hub",
+            "selection_reason": "Provides live interaction opportunities, enhancing customer engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/instruction-tips/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Instructional Hub",
+            "selection_reason": "Offers valuable tips and instructions, fostering customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/leavenoyardbehind/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Technology Page",
+            "selection_reason": "Highlights innovative product features, appealing to tech-savvy customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/pro-tour/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Pro Tour Hub",
+            "selection_reason": "Showcases professional endorsements, enhancing product credibility."
+          },
+          {
+            "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/equipment/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Line Hub",
+            "selection_reason": "Provides detailed information on product offerings, aiding customer consideration."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 8,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/instruction-tips/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Instructional Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/newsroom/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Press/Newsroom Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/leavenoyardbehind/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Technology Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callaway-radio/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Podcast Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/pro-tour/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Pro Tour Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/callawaylive/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Live Show Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20151225171050/http://cmp.callawaygolf.com/equipment/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Line Hub"
+        }
+      ]
+    },
+    "2016": {
+      "analysis_time": "2025-07-06 05:25:14",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2016",
+      "discovered_links_count": 59,
+      "valid_content_urls_count": 59,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/tour-news/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/instruction-tips/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/custom-fitting/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/customs/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/militaryappreciation",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/rewards/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/vicesports",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/driver/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/product-news/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/podcast/",
+        "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/videos"
+      ],
+      "recommended_pages_count": 14,
+      "recommended_in_valid_overlap": 14,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub Homepage",
+            "selection_reason": "Serves as the main entry point for customers, providing an overview of offerings."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Video Hub",
+            "selection_reason": "Offers instructional content that raises awareness about product usage."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/tour-news/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tour & Product News Category",
+            "selection_reason": "Engages customers by providing updates on tours and product news."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/instruction-tips/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Instructional Hub",
+            "selection_reason": "Provides valuable tips that can enhance customer interest in products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/custom-fitting/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Custom Fitting Hub",
+            "selection_reason": "Helps customers consider personalized fitting options for better product selection."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/customs/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Customizer",
+            "selection_reason": "Allows customers to customize products, enhancing their consideration process."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/militaryappreciation",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Specific Offer Page",
+            "selection_reason": "Targets a specific audience with tailored offers, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/rewards/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub",
+            "selection_reason": "Encourages repeat purchases through a loyalty program, enhancing customer retention."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/vicesports",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Brand Collaboration Page",
+            "selection_reason": "Strengthens brand loyalty through collaborations, keeping customers engaged."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Video Hub",
+            "selection_reason": "Broadens awareness through various video content related to products."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/driver/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Video Hub",
+            "selection_reason": "Focuses on specific product usage, enhancing customer understanding and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/product-news/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Tour & Product News Category",
+            "selection_reason": "Keeps customers informed about new products, fostering interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/podcast/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Podcast Hub",
+            "selection_reason": "Engages customers through audio content, raising awareness about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/videos",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Video Hub",
+            "selection_reason": "Provides a collection of videos that enhance product awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 21,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/callaway-radio/the-fitting-room-podcasts/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Fitting Information Content"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/tour-news/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tour & Product News Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/recommended/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/vicesports",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Brand Collaboration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/custom-fitting/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Custom Fitting Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/redbull/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Brand Collaboration Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/militaryappreciation",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Specific Offer Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/driver/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/irons/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/podcast/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Podcast Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/videos",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/instruction-tips/fairway-wood-hybrid/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/news-buzz/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/rewards/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/equipment/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/video/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Video Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/instruction-tips/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Instructional Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/category/news-buzz/product-news/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Tour & Product News Category"
+        },
+        {
+          "url": "https://web.archive.org/web/20161223063453/http://cmp.callawaygolf.com/customs/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Customizer"
+        }
+      ]
+    },
+    "2017": {
+      "analysis_time": "2025-07-06 05:25:23",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2017",
+      "discovered_links_count": 24,
+      "valid_content_urls_count": 24,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/militaryappreciation",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/on/demandware.store/Sites-CG2-Site/en_US/Home-Show",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-podcasts/",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-live/",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/about-us",
+        "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/collabs/"
+      ],
+      "recommended_pages_count": 7,
+      "recommended_in_valid_overlap": 7,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/militaryappreciation",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Specific Offer Page",
+            "selection_reason": "This URL provides a specific offer that can influence customer decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/on/demandware.store/Sites-CG2-Site/en_US/Home-Show",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Shop Homepage Redirect",
+            "selection_reason": "Redirects customers to the main shopping area, crucial for decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-podcasts/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Podcast Hub",
+            "selection_reason": "Engages customers through informative content, enhancing brand awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-live/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Live Show Hub",
+            "selection_reason": "Provides live content that can attract and engage potential customers."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub Homepage",
+            "selection_reason": "Central hub for all content, essential for creating initial customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story / About Us",
+            "selection_reason": "Builds brand trust and connection, important for customer awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/collabs/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Brand Collaboration Page",
+            "selection_reason": "Encourages customer loyalty through collaborations, vital for retention."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 7,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/militaryappreciation",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Specific Offer Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/on/demandware.store/Sites-CG2-Site/en_US/Home-Show",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Shop Homepage Redirect"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-podcasts/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Podcast Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/callaway-live/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Live Show Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20171229141615/http://cmp.callawaygolf.com/category/collabs/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Brand Collaboration Page"
+        }
+      ]
+    },
+    "2018": {
+      "analysis_time": "2025-07-06 05:25:33",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2018",
+      "discovered_links_count": 14,
+      "valid_content_urls_count": 14,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/about-us",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/podcast/",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/custom-fitting/",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/ai/",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/create",
+        "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/militaryappreciation",
+        "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/category/headlines/"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story / About Us",
+            "selection_reason": "Provides foundational knowledge about the brand, fostering initial customer interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/podcast/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Podcast Hub",
+            "selection_reason": "Engages customers through storytelling and insights, enhancing brand connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub Homepage",
+            "selection_reason": "Central hub for all content, crucial for attracting and retaining visitor interest."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/custom-fitting/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Custom Fitting Hub",
+            "selection_reason": "Addresses customer needs for personalized products, aiding in decision-making."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/ai/",
+            "customer_journey_stage": "Interest Stage",
+            "type_name": "Product Technology Page",
+            "selection_reason": "Highlights innovative technology, capturing customer interest in product features."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/create",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Customizer",
+            "selection_reason": "Empowers customers to personalize their products, enhancing engagement and consideration."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/militaryappreciation",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Specific Offer Page",
+            "selection_reason": "Targets specific customer segments with tailored offers, facilitating purchase decisions."
+          },
+          {
+            "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/category/headlines/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News Hub",
+            "selection_reason": "Keeps customers informed about brand updates, enhancing brand loyalty and awareness."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/podcast/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Podcast Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/custom-fitting/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Custom Fitting Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/ai/",
+          "customer_journey_stage": "Interest Stage",
+          "type_name": "Product Technology Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/create",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Customizer"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/militaryappreciation",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Specific Offer Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/https://cmp.callawaygolf.com/category/headlines/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20181228191927/http://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        }
+      ]
+    },
+    "2019": {
+      "analysis_time": "2025-07-06 05:25:42",
+      "using_real_llm": true,
+      "llm_model": "openai/gpt-4o-mini",
+      "year": "2019",
+      "discovered_links_count": 16,
+      "valid_content_urls_count": 16,
+      "recommended_crawl_pages": [
+        "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/",
+        "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/custom-fitting/",
+        "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/category/headlines/",
+        "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/militaryappreciation",
+        "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/podcast/",
+        "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/about-us",
+        "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/create",
+        "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/rewards/"
+      ],
+      "recommended_pages_count": 8,
+      "recommended_in_valid_overlap": 8,
+      "enforce_recommended_in_valid_list": false,
+      "core_url_details": {
+        "recommended_url_list": [
+          {
+            "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Content Hub Homepage",
+            "selection_reason": "This is the main entry point for customers, providing essential information about the brand."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/custom-fitting/",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Custom Fitting Hub",
+            "selection_reason": "Offers personalized fitting options, crucial for customers considering a purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/category/headlines/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "News Hub",
+            "selection_reason": "Keeps customers informed about the latest news and updates, enhancing brand engagement."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/militaryappreciation",
+            "customer_journey_stage": "Decision Stage",
+            "type_name": "Specific Offer Page",
+            "selection_reason": "Targets a specific audience with tailored offers, aiding in the decision-making process."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/podcast/",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Podcast Hub",
+            "selection_reason": "Engages customers through audio content, enhancing brand connection and awareness."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/about-us",
+            "customer_journey_stage": "Awareness Stage",
+            "type_name": "Brand Story / About Us",
+            "selection_reason": "Provides insight into the brand's values and mission, fostering trust and connection."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/create",
+            "customer_journey_stage": "Consideration Stage",
+            "type_name": "Product Customizer",
+            "selection_reason": "Allows customers to personalize products, increasing engagement and likelihood of purchase."
+          },
+          {
+            "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/rewards/",
+            "customer_journey_stage": "Retention Stage",
+            "type_name": "Loyalty Program Hub",
+            "selection_reason": "Encourages repeat purchases and customer loyalty through rewards and incentives."
+          }
+        ],
+        "total_recommendations": 15,
+        "coverage_scenario_types": [
+          "Awareness",
+          "Interest",
+          "Consideration",
+          "Decision",
+          "Fulfillment",
+          "Retention"
+        ]
+      },
+      "classified_urls_count": 9,
+      "classified_urls": [
+        {
+          "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/custom-fitting/",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Custom Fitting Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/category/headlines/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "News Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/militaryappreciation",
+          "customer_journey_stage": "Decision Stage",
+          "type_name": "Specific Offer Page"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/podcast/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Podcast Hub"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Content Hub Homepage"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/about-us",
+          "customer_journey_stage": "Awareness Stage",
+          "type_name": "Brand Story / About Us"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/https://cmp.callawaygolf.com/create",
+          "customer_journey_stage": "Consideration Stage",
+          "type_name": "Product Customizer"
+        },
+        {
+          "url": "https://web.archive.org/web/20190530062802/http://cmp.callawaygolf.com/rewards/",
+          "customer_journey_stage": "Retention Stage",
+          "type_name": "Loyalty Program Hub"
+        }
+      ]
+    }
+  }
+}
