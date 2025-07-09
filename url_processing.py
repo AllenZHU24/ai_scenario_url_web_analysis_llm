@@ -167,7 +167,7 @@ class URLProcessor:
             
         except Exception as e:
             self.logger.error(f"❌ 发现URL时出错: {e}")
-            return [homepage_url]  # 至少返回主页
+            return
     
     def _extract_home_host(self, url: str) -> str:
         """提取主页对应的主域名（去除 www. 前缀）"""

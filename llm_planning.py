@@ -544,6 +544,6 @@ class LLMPlanner:
 
 if __name__ == "__main__":
     # 测试代码
-    api_key = "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"
+    api_key = "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"
     planner = LLMPlanner(api_key)
     print("LLM规划器初始化完成")

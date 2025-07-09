@@ -158,8 +158,8 @@ class ScenarioAnalyzer:
             
             content_lower = content.lower()
             
-            # 保存内容到txt文件
-            self._save_content_to_txt(url, content_lower, year, websites_dir)
+            # # 保存内容到txt文件
+            # self._save_content_to_txt(url, content_lower, year, websites_dir)
             
             # 遍历所有微场景定义进行匹配
             for stage, stage_scenarios in self.micro_scenarios.items():

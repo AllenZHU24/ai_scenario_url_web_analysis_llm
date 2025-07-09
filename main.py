@@ -87,7 +87,7 @@ def main():
     parser = argparse.ArgumentParser(description="运行Wayback Machine分析流程")
     parser.add_argument("--verify-only", action="store_true", help="仅验证场景定义并退出")
     parser.add_argument("--input", type=str, default="./inputs/apple.com.txt", help="历史URL列表路径")
-    parser.add_argument("--api-key", type=str, default="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", help="OpenAI API密钥")
+    parser.add_argument("--api-key", type=str, default="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", help="OpenAI API密钥")
     args = parser.parse_args()
 
     # 步骤0: 验证场景定义
